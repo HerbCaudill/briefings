@@ -105,9 +105,16 @@ article h1 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 2rem;
+  margin-bottom: 0.25rem;
   padding-top: 0.75rem;
   border-top: 4px solid var(--border-strong);
+}
+
+article .date {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
 }
 
 article h2 {

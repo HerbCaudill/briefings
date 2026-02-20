@@ -34,6 +34,11 @@ function App() {
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
   }
 
+  const formatFullDate = (date: string) => {
+    const d = new Date(date + 'T12:00:00')
+    return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })
+  }
+
   return (
     <div className="layout">
       <button className="menu-toggle" onClick={() => setNavOpen(!navOpen)}>
@@ -57,6 +62,12 @@ function App() {
       {navOpen && <div className="overlay" onClick={() => setNavOpen(false)} />}
       <main className="content">
         <article>
+          {selected && (
+            <>
+              <h1>Daily briefing</h1>
+              <p className="date">{formatFullDate(selected)}</p>
+            </>
+          )}
           <ReactMarkdown>{content}</ReactMarkdown>
         </article>
       </main>
