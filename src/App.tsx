@@ -37,9 +37,13 @@ function App() {
         <h1>Daily briefing</h1>
         {selected && (
           <DropdownMenu>
-            <DropdownMenuTrigger className="font-mono font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
+            <DropdownMenuTrigger className="group font-mono font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
               {formatFullDate(selected)}
-              <IconChevronDown size={14} stroke={2.5} />
+              <IconChevronDown
+                size={14}
+                stroke={2.5}
+                className="opacity-0 group-hover:opacity-100 transition-opacity"
+              />
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start">
               <DropdownMenuRadioGroup value={selected} onValueChange={setSelected}>
