@@ -1,20 +1,19 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
-import ReactMarkdown from "react-markdown"
 import { IconChevronDown } from "@tabler/icons-react"
 import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import "./App.css"
 
 function App() {
-  const [briefings, setBriefings] = useState<Briefing[]>([])
+  const [briefings, setBriefings] = useState<BriefingIndex[]>([])
   const [selected, setSelected] = useState<string | null>(null)
-  const [content, setContent] = useState("")
+  const [content, setContent] = useState<Briefing | null>(null)
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
     fetch("/briefings/index.json")
       .then(r => r.json())
-      .then((data: Briefing[]) => {
+      .then((data: BriefingIndex[]) => {
         setBriefings(data)
         if (data.length > 0) setSelected(data[0].date)
       })
@@ -22,8 +21,8 @@ function App() {
 
   useEffect(() => {
     if (!selected) return
-    fetch(`/briefings/${selected}.md`)
-      .then(r => r.text())
+    fetch(`/briefings/${selected}.json`)
+      .then(r => r.json())
       .then(setContent)
   }, [selected])
 
@@ -94,9 +93,27 @@ function App() {
             </PopoverContent>
           </Popover>
         )}
-        <h2>News</h2>
-
-        <ReactMarkdown>{content}</ReactMarkdown>
+        {content?.sections.map(section => (
+          <section key={section.title}>
+            <h2>{section.title}</h2>
+            {section.stories.map(story => (
+              <div key={story.headline}>
+                <h3>{story.headline}</h3>
+                <p>
+                  {story.body}{" "}
+                  {story.sources.map((source, i) => (
+                    <span key={source.url}>
+                      {i > 0 && ", "}
+                      <a href={source.url} target="_blank" rel="noopener noreferrer">
+                        {source.name}
+                      </a>
+                    </span>
+                  ))}
+                </p>
+              </div>
+            ))}
+          </section>
+        ))}
       </article>
     </div>
   )
@@ -126,7 +143,27 @@ const toISODate = (date: Date) => {
 
 export default App
 
-type Briefing = {
+type BriefingIndex = {
   date: string
   title: string
+}
+
+type Source = {
+  name: string
+  url: string
+}
+
+type Story = {
+  headline: string
+  body: string
+  sources: Source[]
+}
+
+type Section = {
+  title: string
+  stories: Story[]
+}
+
+type Briefing = {
+  sections: Section[]
 }
