@@ -2,7 +2,6 @@ import { useCallback, useEffect, useMemo, useState } from "react"
 import { IconChevronDown } from "@tabler/icons-react"
 import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import "./App.css"
 
 function App() {
   const [briefings, setBriefings] = useState<BriefingIndex[]>([])
@@ -66,7 +65,9 @@ function App() {
   return (
     <div className="min-h-screen flex justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
       <article className="max-w-180 w-full">
-        <h1>Daily briefing</h1>
+        <h1 className="font-serif text-3xl font-bold leading-tight mb-1 pt-3 border-t-4 border-accent text-accent">
+          Daily briefing
+        </h1>
         {selected && (
           <Popover open={open} onOpenChange={setOpen}>
             <PopoverTrigger className="group font-sans font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
@@ -93,18 +94,26 @@ function App() {
             </PopoverContent>
           </Popover>
         )}
+        <h2 className="font-sans text-xl font-semibold mt-10 mb-3 pt-3 border-t border-accent text-accent">
+          News
+        </h2>
         {content?.sections.map(section => (
           <section key={section.title}>
-            <h2>{section.title}</h2>
+            <h3 className="font-bold leading-snug text-sm">{section.title}</h3>
             {section.stories.map(story => (
               <div key={story.headline}>
-                <h3>{story.headline}</h3>
-                <p>
+                <h4>{story.headline}</h4>
+                <p className="font-mono font-normal text-xs leading-snug text-gray-700 mb-4">
                   {story.body}{" "}
                   {story.sources.map((source, i) => (
                     <span key={source.url}>
                       {i > 0 && ", "}
-                      <a href={source.url} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-sans text-xs text-gray-400 no-underline border-b border-transparent transition-colors duration-150 hover:text-gray-600 hover:border-gray-400"
+                      >
                         {source.name}
                       </a>
                     </span>
