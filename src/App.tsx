@@ -37,7 +37,7 @@ function App() {
         <h1>Daily briefing</h1>
         {selected && (
           <Popover open={open} onOpenChange={setOpen}>
-            <PopoverTrigger className="group font-mono font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
+            <PopoverTrigger className="group font-sans font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
               {formatFullDate(selected)}
               <IconChevronDown
                 size={14}

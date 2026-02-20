@@ -10,7 +10,7 @@ article h2 {
 }
 
 article h3 {
-  @apply font-serif text-gray-900 text-lg font-semibold mt-6 mb-2;
+  @apply font-serif text-gray-900 text-lg  mt-6 mb-2;
 }
 
 article h4 {
