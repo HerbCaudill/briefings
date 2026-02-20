@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react'
-import ReactMarkdown from 'react-markdown'
-import './App.css'
+import { useEffect, useState } from "react"
+import ReactMarkdown from "react-markdown"
+import "./App.css"
 
 function App() {
   const [briefings, setBriefings] = useState<Briefing[]>([])
   const [selected, setSelected] = useState<string | null>(null)
-  const [content, setContent] = useState('')
+  const [content, setContent] = useState("")
 
   useEffect(() => {
-    fetch('/briefings/index.json')
+    fetch("/briefings/index.json")
       .then(r => r.json())
       .then((data: Briefing[]) => {
         setBriefings(data)
@@ -24,8 +24,13 @@ function App() {
   }, [selected])
 
   const formatFullDate = (date: string) => {
-    const d = new Date(date + 'T12:00:00')
-    return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })
+    const d = new Date(date + "T12:00:00")
+    return d.toLocaleDateString("en-US", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    })
   }
 
   return (
@@ -47,6 +52,8 @@ function App() {
             ))}
           </select>
         )}
+        <h2>News</h2>
+
         <ReactMarkdown>{content}</ReactMarkdown>
       </article>
     </div>
