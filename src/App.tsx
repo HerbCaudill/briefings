@@ -36,7 +36,7 @@ function App() {
         </h1>
         {selected && (
           <select
-            className="font-sans text-base text-gray-500 mb-8"
+            className="font-sans text-base text-gray-500 mb-8 focus:outline-none"
             value={selected}
             onChange={e => setSelected(e.target.value)}
           >
