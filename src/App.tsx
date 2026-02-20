@@ -94,12 +94,12 @@ function App() {
             </PopoverContent>
           </Popover>
         )}
-        <h2 className="font-sans text-xl font-semibold mt-10 mb-3 pt-3 border-t border-accent text-accent">
+        <h2 className="font-sans text-xl font-semibold mt-10 mb-4 pt-3 border-t border-accent text-accent">
           News
         </h2>
         {content?.sections.map(section => (
           <section key={section.title}>
-            <h3 className="font-bold leading-snug text-sm">{section.title}</h3>
+            <h3 className="font-bold leading-snug text-sm my-3">{section.title}</h3>
             {section.stories.map(story => (
               <div key={story.headline}>
                 <h4>{story.headline}</h4>
