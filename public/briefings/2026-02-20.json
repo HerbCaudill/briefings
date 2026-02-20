@@ -4,133 +4,49 @@
       "title": "World",
       "stories": [
         {
-          "headline": "US Supreme Court Strikes Down Trump's Global Tariffs",
-          "body": "The US Supreme Court has ruled Trump's sweeping global tariffs illegal, dealing a major blow to the central plank of his second-term economic agenda. The decision has sent shockwaves through markets, with some Republican lawmakers quietly welcoming the ruling, reflecting intraparty tensions over trade policy. Trump called the decision \"deeply disappointing\" and is reportedly considering alternative ways to impose tariffs.,,",
+          "headline": "US Supreme Court strikes down Trump's global tariffs in major blow to presidential authority",
+          "body": "The US Supreme Court ruled 6-3 that President Trump's sweeping global tariffs imposed under the International Emergency Economic Powers Act of 1977 were illegal, finding that the power to levy tariffs belongs to Congress, not the executive branch. Chief Justice John Roberts wrote that the framers of the Constitution 'very clearly' gave Congress the taxing power and 'did not vest any part of the taxing power in the Executive Branch.' Trump condemned the ruling as 'deeply disappointing' and called the justices who voted against him 'a disgrace to the nation,' before announcing he would immediately impose a new 10% global baseline tariff under Section 122 of the Trade Act of 1974, which allows presidential tariffs for 150 days. The ruling opens the possibility that the government may need to refund billions in tariff revenue already collected, though the court left that question to lower courts.",
           "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.com/news"
-            },
-            {
-              "name": "Guardian",
-              "url": "https://www.theguardian.com/world"
-            },
-            {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            },
-            {
-              "name": "Washington Post",
-              "url": "https://www.washingtonpost.com/national/"
-            },
-            {
-              "name": "El Pais",
-              "url": "https://elpais.com/espana/"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            }
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cx2jqgdn719o" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/2/20/us-supreme-court-strikes-down-trumps-global-tariffs" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/feb/20/trump-supreme-court-tariffs-ruling" },
+            { "name": "AP News", "url": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" }
           ]
         },
         {
-          "headline": "Prince Andrew Arrested in Epstein Case",
-          "body": "Former Prince Andrew has been arrested in connection with the Jeffrey Epstein case, with police searching his former home. The UK government is now considering removing him from the royal line of succession. The arrest marks a dramatic escalation in one of the most damaging royal scandals in modern British history, with calls growing for him to formally relinquish his position.,",
+          "headline": "Police search Prince Andrew's homes as Epstein investigation deepens",
+          "body": "British police continued searching the former Royal Lodge residence of Andrew Mountbatten-Windsor on Friday, one day after the 66-year-old was released under investigation following an 11-hour detention on suspicion of misconduct in public office linked to his friendship with convicted sex offender Jeffrey Epstein. The investigation centres on allegations that Andrew shared confidential British government documents with Epstein while serving as the government's special trade representative. King Charles issued a rare personally signed statement insisting 'the law must take its course.' The UK government is now considering introducing legislation to remove Andrew from the royal line of succession, with support from the Liberal Democrats, SNP, and some Labour MPs. Such a move would require an act of Parliament and approval from 14 Commonwealth nations.",
           "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.com/news"
-            },
-            {
-              "name": "Guardian",
-              "url": "https://www.theguardian.com/world"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            }
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/2/20/police-search-ex-prince-andrews-home-a-day-after-his-arrest" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c1kgv837wvdo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/uk-news/2026/feb/20/mps-parliament-consider-removing-former-prince-andrew-mountbatten-windsor-from-line-of-succession" }
           ]
         },
         {
-          "headline": "Iran Tensions Escalate as Trump Considers Limited Strike",
-          "body": "Trump says he is considering a limited military strike on Iran to force negotiations on a nuclear deal, even as Iran describes the US military build-up in the region as \"unnecessary and unhelpful\" and insists a diplomatic deal is achievable. The rapid US military deployment near Iran continues to escalate tensions across the Middle East.",
+          "headline": "Iran calls US military buildup 'unnecessary' as Trump considers limited strikes",
+          "body": "Iranian Foreign Minister Abbas Araghchi said a diplomatic solution with the United States is 'at our reach' and called the enormous US military buildup in the Middle East, which includes two aircraft carriers and dozens of fighter jets, 'unnecessary and unhelpful.' Hours later, Trump told reporters he is considering limited strikes against Iran to force a deal. The USS Gerald R Ford, the world's largest aircraft carrier, entered the Mediterranean through the Strait of Gibraltar en route to the Gulf region. The US and Iran have held two rounds of talks over the past month, with Trump giving Tehran between 10 and 15 days to reach an agreement, though Araghchi warned that Iranians are 'proud people' who only respond to the 'language of respect.'",
           "sources": [
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/"
-            },
-            {
-              "name": "Guardian",
-              "url": "https://www.theguardian.com/world"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            }
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/2/20/iran-says-us-military-build-up-unnecessary-and-unhelpful-deal-achievable" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c875p9q59vjo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/feb/19/us-military-buildup-in-middle-east-intensifies-but-to-what-end" }
           ]
         },
         {
-          "headline": "Israel Blocks Palestinian Access to Al-Aqsa for Ramadan",
-          "body": "Israel has restricted Palestinian access to the Al-Aqsa Mosque compound for Ramadan Friday prayers, drawing condemnation from across the region. Meanwhile, Trump's \"Board of Peace\" for Gaza has been met with deep scepticism by Palestinians, and an Israeli settler killed a 19-year-old Palestinian American, according to officials and witnesses.",
+          "headline": "Venezuela approves amnesty law for political prisoners amid cautious optimism",
+          "body": "Venezuela's parliament unanimously approved a historic amnesty law for political prisoners, following the release of more than 400 detainees since January according to human rights group Foro Penal. The releases came after the US-led operation that removed former President Nicolas Maduro from power in January. Among those freed was journalist Ramon Centeno, who spent four years imprisoned over an interview the government disapproved of, though his mother died of a stroke just 13 days after witnessing his release. Critics question whether the releases signal a genuine political opening, noting that many freed prisoners face legal restrictions and fear re-arrest, while analysts describe Venezuela as being at a crossroads where economic openness is clear but political liberalisation remains uncertain.",
           "sources": [
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/"
-            },
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            }
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/longform/2026/2/20/a-fragile-freedom-for-venezuelas-released-political-prisoners" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/feb/20/bolivia-evo-morales-public-appearance" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cy57en3590no" }
           ]
         },
         {
-          "headline": "NASA Targets Early March for Artemis Moon Mission",
-          "body": "NASA has announced it is targeting early March to send astronauts around the Moon on the Artemis mission, following a successful fueling test. The mission would mark the first human journey beyond low Earth orbit in over half a century.",
+          "headline": "NASA targets 6 March for historic Artemis II moon mission",
+          "body": "NASA announced it is targeting 6 March for the launch of Artemis II, which will send four astronauts around the moon for the first time since Apollo 17 in 1972. The decision came after a successful fuel loading test on Thursday resolved dangerous liquid hydrogen leaks that had disrupted an earlier rehearsal. Administrator Jared Isaacman said the team made 'major progress' between the two tests. The four astronauts, three Americans and one Canadian, entered health quarantine on Friday in Houston. The mission will conduct a 10-day trip around the moon without landing, flying approximately 4,700 miles beyond the far side of the moon and surpassing the distance record set by Apollo 13 in 1970.",
           "sources": [
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.com/news"
-            },
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            }
+            { "name": "AP News", "url": "https://apnews.com/article/nasa-artemis-moon-launch-astronauts-446d72be9dca1b28f441d761bd97ee17" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/science/2026/feb/20/nasa-artemis-ii-moon-mission-launch" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c86y1g6wde3o" }
           ]
         }
       ]
@@ -139,75 +55,44 @@
       "title": "US",
       "stories": [
         {
-          "headline": "Supreme Court Tariff Ruling Reshapes Economic Policy",
-          "body": "Beyond the immediate legal defeat, the Supreme Court's tariff ruling could dash Trump's broader spending plans and reshape US trade policy for years to come. Apple is among the companies hardest hit, and the administration is scrambling to find alternative legal pathways to reimpose duties. Three dissenting justices warned the decision may unleash short-term economic chaos.",
+          "headline": "Supreme Court tariffs ruling reshapes Trump's economic agenda",
+          "body": "The Supreme Court's 6-3 decision striking down Trump's sweeping tariffs under IEEPA sent shockwaves through Washington, with the president calling it 'deeply disappointing' and announcing an immediate pivot to alternative tariff authorities. Trump said he would sign a new 10% global baseline tariff under Section 122 of the Trade Act of 1974, which permits presidential tariffs for 150 days without congressional approval. Some Republican lawmakers quietly welcomed the ruling, reflecting intraparty anxiety over tariffs that had disrupted supply chains and raised consumer prices. The decision also raises complex questions about refunding billions already collected, which Justice Kavanaugh warned in his dissent could be a 'mess.'",
           "sources": [
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            },
-            {
-              "name": "Washington Post",
-              "url": "https://www.washingtonpost.com/national/"
-            },
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "Politico",
-              "url": "https://www.politico.com/"
-            }
+            { "name": "AP News", "url": "https://apnews.com/article/supreme-court-tariffs-trump-0485fcda30a7310501123e4931dba3f9" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/02/20/us/politics/trump-tariffs-plans.html" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/feb/20/trump-supreme-court-tariffs-ruling" }
           ]
         },
         {
-          "headline": "Federal Judge Accuses Administration of 'Terror' Against Immigrants",
-          "body": "A federal judge has issued a scathing ruling accusing the Trump administration of conducting \"terror\" against immigrants, as another judge set a deadline for the administration to restore a slavery exhibit in Philadelphia that had been removed. The rulings add to growing judicial pushback against the administration's immigration enforcement.",
+          "headline": "Recovery efforts resume after deadly California avalanche kills eight",
+          "body": "Crews were hoping to resume recovery operations on Friday for the bodies of eight people killed in a devastating avalanche in California's Sierra Nevada, after days of dangerous weather hampered access to the remote site near Lake Tahoe. Among the victims were a group of six mothers who had bonded over their shared love of the outdoors and were on a backcountry ski trip led by a professional guide service. One person remains missing. An investigation is underway into the circumstances of the avalanche, with questions emerging about whether unstable conditions caused by an unusual snow drought contributed to the disaster.",
           "sources": [
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "Washington Post",
-              "url": "https://www.washingtonpost.com/national/"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            }
+            { "name": "AP News", "url": "https://apnews.com/article/avalanche-bodies-recovery-california-sierra-nevada-8a9728f6a7a18049d8da32e8f895b6c1" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/02/19/us/tahoe-avalanche-victims-sisters.html" }
           ]
         },
         {
-          "headline": "California Avalanche Recovery Continues After Deadly Slide",
-          "body": "Crews are hoping to resume recovery of eight bodies from a devastating California avalanche after days of dangerous weather conditions. Among the victims were six mothers who had bonded over a shared love of the outdoors. As investigations begin, questions are emerging about whether anyone was at fault.",
+          "headline": "Israeli settlers kill 19-year-old Palestinian American in West Bank",
+          "body": "A 19-year-old Palestinian American man, Nasrallah Abu Siyam, was shot and killed by Israeli settlers during clashes in the occupied West Bank village of Mukhmas late Wednesday night, according to the Palestinian Health Ministry and witnesses. His father and mourners gathered for his funeral in the village east of Ramallah on Thursday. The killing comes amid ongoing tensions in the West Bank, where settler violence against Palestinians has escalated significantly during the war in Gaza.",
           "sources": [
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            },
-            {
-              "name": "Washington Post",
-              "url": "https://www.washingtonpost.com/national/"
-            }
+            { "name": "AP News", "url": "https://apnews.com/article/israel-west-bank-gaza-war-palestinians-ec2736c95acf273a9fb1f2d541f46bb5" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/2/20/israel-blocks-palestinians-from-first-friday-prayers-of-ramadan-at-al-aqsa" }
           ]
         },
         {
-          "headline": "ICE Enforcement Under Scrutiny After Crash Kills Teacher",
-          "body": "A cherished teacher was killed in a crash involving a driver being pursued by ICE agents, sparking outrage and renewed debate over immigration enforcement tactics. Separately, police are investigating an ICE arrest in which a man suffered severe head injuries.",
+          "headline": "Trump considers limited strike on Iran as nuclear talks continue",
+          "body": "President Trump told reporters on Friday that he is considering a limited military strike on Iran to force the country into a nuclear deal, escalating rhetoric even as both sides described recent negotiations as positive. The US has continued to amass military assets around Iran, with the USS Gerald R Ford aircraft carrier now transiting toward the Gulf region. Trump had previously given Iran between 10 and 15 days to reach an agreement, after warning of 'something very tough' and 'traumatic' consequences. The statement came hours after Iran's foreign minister said a deal was achievable through diplomacy.",
           "sources": [
-            {
-              "name": "AP",
-              "url": "https://apnews.com/us-news"
-            },
-            {
-              "name": "NYT",
-              "url": "https://www.nytimes.com/section/us"
-            }
+            { "name": "New York Times", "url": "https://www.nytimes.com/live/2026/02/20/us/trump-news/trump-says-hes-considering-a-limited-strike-on-iran-to-force-a-deal" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/feb/19/us-military-buildup-in-middle-east-intensifies-but-to-what-end" }
+          ]
+        },
+        {
+          "headline": "Immigration enforcement controversies mount across the country",
+          "body": "A federal judge accused the Trump administration of 'terror' against immigrants in a scathing ruling on detention bonds, while a new administration order could lead to the detention of thousands of legal refugees. In Savannah, Georgia, a beloved teacher was mourned after a deadly crash involving a driver being pursued by ICE agents. Meanwhile, police in another city opened an investigation into an ICE arrest after a man suffered severe head injuries during the encounter. The incidents highlight growing tensions around the administration's intensified immigration enforcement campaign.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/immigration-trump-detention-bond-judge-50a5da122aa51eed77cace0830548df3" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/02/19/us/police-investigation-ice.html" }
           ]
         }
       ]
@@ -216,91 +101,50 @@
       "title": "Spain",
       "stories": [
         {
-          "headline": "Government Scrambles Over Co-official Language Requirement for Immigration",
-          "body": "The Spanish government is trying to contain a political storm over whether knowledge of co-official languages like Catalan and Basque will be mandatory for immigrants seeking regularisation. After initially including language requirements, the government clarified they would not be required \"from the start\" but could help prove cultural ties. The Balearic government has asked for the decree to be withdrawn entirely.",
+          "headline": "La Sagrada Familia reaches its maximum height as tower of Jesus is completed",
+          "body": "Barcelona's Sagrada Familia reached its maximum height of 172.5 metres on Friday morning when workers placed the upper arm of the cross atop the Tower of Jesus, making it the tallest church in the world and the tallest building in Barcelona. The 11-tonne steel and glass piece was winched into position just before noon under clear skies after days of high winds had delayed the operation. Chief architect Jordi Fauli said it was 'a joyful day for all the people who have made it possible.' The four-sided cross measures 17 metres tall and 13.5 metres wide and will eventually be visitable as an observation point. The tower will be formally blessed by Pope Leo XIV on 10 June, the centenary of Antoni Gaudi's death, with the full basilica expected to be completed within a decade.",
           "sources": [
-            {
-              "name": "El Pais",
-              "url": "https://elpais.com/espana/"
-            },
-            {
-              "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana.html"
-            },
-            {
-              "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/espana/"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/eixample/20260220/sagrada-familia-culmina-torre-jesus-127063575" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/feb/20/barcelona-sagrada-familias-church-central-tower-put-in-place" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/barcelona/20260219/11470710/sagrada-familia-coloca-pieza-mas-alta.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260220/templo-sagrada-familia-alcanza-su-altura-maxima-1725-metros/16947643.shtml" }
           ]
         },
         {
-          "headline": "Man Kills Son and Injures Partner in Tenerife",
-          "body": "A man killed his 10-year-old son and seriously injured his partner in Arona, Tenerife, before being shot dead by the Guardia Civil. The case adds to a grim week of domestic violence in Spain, with five people including two children killed in just four days, prompting the Equality Ministry to admit failures in risk assessment protocols.",
+          "headline": "Vox in turmoil as co-founder Ortega Smith vows to fight expulsion",
+          "body": "The far-right party Vox is experiencing its deepest internal crisis as co-founder and Madrid city councillor Javier Ortega Smith publicly defied leader Santiago Abascal's attempt to expel him from the party. At an impromptu press conference, Ortega Smith declared he would fight through internal party channels and the courts if necessary, accusing the leadership of 'dirty war' and persecution. Abascal had initiated expulsion proceedings after Ortega Smith refused to step down as the party's spokesperson on Madrid city council. The dispute marks the culmination of months of tensions, with Ortega Smith claiming in a letter that the party leadership has systematically targeted prominent founding members who question the current direction.",
           "sources": [
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            },
-            {
-              "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/espana/"
-            }
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-02-20/ortega-smith-responde-a-abascal-y-anuncia-que-plantara-cara-no-tengan-duda-voy-a-pelear-dentro-del-partido.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/02/20/69984c9dfdddffcf578b4583.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260220/11471465/ortega-smith-acusa-vox-guerra-sucia-persecucion-expulsarle-partido.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260220/ortega-smith-avisa-a-cupula-vox-defendera-su-honor-incluso-tribunales/16946767.shtml" }
           ]
         },
         {
-          "headline": "Mazon's Driver Testifies Dana Alert Sounded While Still in Valencia",
-          "body": "The driver of Valencia's regional president Mazon has testified before a judge that the emergency alert (Es-Alert) during last year's deadly dana flooding sounded on their phone while they were still in central Valencia, heading to the emergency coordination centre. The testimony is key to establishing the timeline of the government's response to the disaster that killed over 200 people.",
+          "headline": "Police sexual assault scandal rocks Spain's national police force",
+          "body": "Spain's national police force is reeling from a sexual assault scandal involving its former director of operations (DAO), the highest-ranking uniformed officer in the 76,700-strong force. An inspector who reported a sexual assault by the DAO bypassed internal protocols and went directly to the courts, a decision that fellow officers say reflects deep distrust in the system. Female officers described the internal reporting mechanisms as ineffective and potentially harmful to victims, with one guardia civil representative advising women against using internal channels due to the month-long process of 'wear and tear' they entail. The DAO resigned almost immediately, though some officers said they would have preferred a dismissal.",
           "sources": [
-            {
-              "name": "El Pais",
-              "url": "https://elpais.com/espana/"
-            },
-            {
-              "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana.html"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            }
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-02-20/los-protocolos-de-agresion-sexual-entre-policias-fueron-ineficaces-en-el-caso-del-todopoderoso-dao.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/02/19/6997712afdddff505c8b4598.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260220/policia-acelera-investigacion-interna-escandalo-dao-juzgado-127072638" }
           ]
         },
         {
-          "headline": "Spain Asks EU to Lift Sanctions on Venezuelan Official After Amnesty",
-          "body": "The Spanish government has rushed to ask the EU to lift sanctions on Venezuelan vice-president Delcy Rodriguez, just hours after Venezuela approved an amnesty law. The move was criticised by Foreign Minister Albares' own allies, with some calling it an \"error.\"",
+          "headline": "Mazon's driver contradicts former Valencia president's account of DANA flood night",
+          "body": "The driver of former Valencia regional president Carlos Mazon testified on Friday that the emergency Es-Alert warning sounded on their mobile phone while they were still driving through central Valencia toward the emergency coordination centre on the night of the catastrophic DANA floods that killed 230 people in October 2024. His testimony contradicts one of Mazon's multiple accounts of that evening, in which the former president claimed he had been working at the Palau de la Generalitat during the afternoon. The driver said he was called around 7pm to take Mazon to the emergency centre in l'Eliana, and they did not arrive until 8:28pm according to security cameras, well after the emergency alert was issued at 8:11pm.",
           "sources": [
-            {
-              "name": "El Pais",
-              "url": "https://elpais.com/espana/"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            }
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260220/chofer-mazon-alert-sono-cecopi-seguian-valencia/16946483.shtml" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/comunidad-valenciana/2026-02-20/el-chofer-de-mazon-afirma-ante-la-jueza-que-cuando-sono-el-es-alert-seguian-en-el-centro-de-valencia.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/valencia/20260220/11471268/chofer-llevo-mazon-casa-madrugada-noche-dana.html" }
+          ]
+        },
+        {
+          "headline": "Father kills 10-year-old son with machete in Tenerife before being shot dead by police",
+          "body": "A 35-year-old man murdered his 10-year-old son with a 60-centimetre machete and critically injured the boy's mother in the town of Arona, Tenerife, in the early hours of Friday morning. Neighbours alerted the Guardia Civil after hearing screams from the apartment. When officers arrived, they found the child dead with severe head wounds and the 26-year-old mother with grave injuries to her limbs. The man attacked the responding officers with extreme violence, wounding one in the arm, before being fatally shot. The case has been classified as gender-based violence, with Spain's government delegate noting that since records began, 1,352 women, 62 children, and 500 orphans have been victims of such violence in the country.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/sucesos/agencia/20260220/11471193/guardia-civil-abate-tiros-hombre-mato-nina-e-hirio-gravemente-madre-agente-tenerife.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/02/20/699810b7e4d4d843568b4576.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/un-home-mata-el-fill-de-deu-anys-i-fereix-greument-la-mare-del-nen-a-tenerife/noticia/3395718/" }
           ]
         }
       ]
@@ -309,89 +153,47 @@
       "title": "Barcelona & Catalunya",
       "stories": [
         {
-          "headline": "Sagrada Familia Reaches Its Maximum Height",
-          "body": "The Sagrada Familia has placed the final piece atop the Tower of Jesus, reaching its maximum height of 172.5 metres -- 144 years after the first stone was laid. The milestone was celebrated across Barcelona, with the crowned basilica now visible from vantage points across the entire city. The Senyera and Vatican flag now fly from the summit.",
+          "headline": "Sagrada Familia completes Tower of Jesus, becoming world's tallest church",
+          "body": "The Sagrada Familia completed its Tower of Jesus on Friday morning, reaching 172.5 metres and becoming both the tallest building in Barcelona and the tallest church in the world. The final piece, an 11-tonne steel and glass cross arm, was winched into place at 11am after days of delays due to high winds from Storm Pedro. As Catalan and Vatican flags were raised at the summit, chief architect Jordi Fauli celebrated with visible emotion. The cross will eventually serve as an observation point accessible to visitors starting in 2027. Pope Leo XIV is expected to bless the tower on 10 June, the centenary of Gaudi's death, while the full basilica including the Glory facade is expected to take another decade to complete.",
           "sources": [
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            },
-            {
-              "name": "beteve",
-              "url": "https://beteve.cat/"
-            },
-            {
-              "name": "Tot Barcelona",
-              "url": "https://www.totbarcelona.cat/"
-            }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/la-sagrada-familia-colloca-el-brac-superior-de-la-creu-que-coronara-el-temple/noticia/3395725/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/cultura-i-oci/patrimoni/la-sagrada-familia-desafia-el-vent-i-culmina-la-torre-de-jesus-694255/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/eixample/20260220/sagrada-familia-culmina-torre-jesus-127063575" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/feb/20/barcelona-sagrada-familias-church-central-tower-put-in-place" }
           ]
         },
         {
-          "headline": "Rodalies Still Struggling a Month After Gelida Accident",
-          "body": "A month after the Gelida rail accident, Rodalies commuter trains continue to operate with significant disruptions. Some 200 track sections will have speed limitations next week, half caused by the emergency repair works. Adif now expects to lift 90% of the speed restrictions by the end of April.",
+          "headline": "Pisarello wins Barcelona en Comu primary to be mayoral candidate",
+          "body": "Gerardo Pisarello, currently a Sumar MP in the Spanish Congress and former first deputy mayor under Ada Colau, won the Barcelona en Comu primary election with 68.6% of the vote, defeating writer and broadcaster Bob Pop who received 27%. Pisarello will lead the party's ticket for the 2027 municipal elections alongside councillor Carol Recio in second position. He had the backing of former mayor Ada Colau and minister Ernest Urtasun, while Bob Pop had positioned himself as an alternative to the party establishment with his campaign slogan 'Why not?'",
           "sources": [
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/pisarello-guanya-les-primaries-a-bob-pop-i-sera-el-candidat-de-barcelona-en-comu-a-lalcaldia/noticia/3395724/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/politica/pisarello-guanya-primaries-barcelona-comu-alcadable-694174/" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260220/11471228/pisarello-sera-alcaldable-comuns-barcelona-vencer-bob-pop-primarias.html" }
           ]
         },
         {
-          "headline": "Pisarello Wins Barcelona en Comu Primary",
-          "body": "Gerardo Pisarello has won the Barcelona en Comu primary election, beating Bob Pop to become the party's candidate for mayor. He pledged to build \"a Barcelona at the service of everyone, not just a few.\"",
+          "headline": "Rodalies commuter rail still in crisis one month after deadly Gelida accident",
+          "body": "One month after a fatal train crash at Gelida that killed a trainee driver and injured 37 people, Barcelona's Rodalies commuter rail network remains far from normal. While Renfe says 80% of the network is now operational, 224 speed restrictions are in force across the system, roughly one every six kilometres, causing significant delays. The R3 line remains entirely replaced by buses, and portions of the R4 line around the crash site still require bus substitution. This week, 42 new critical points were identified, adding more speed restrictions starting Monday. Many commuters have abandoned the service entirely, with daily users enduring much longer journey times and persistent lack of information.",
           "sources": [
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/barcelona-ciutat/"
-            },
-            {
-              "name": "beteve",
-              "url": "https://beteve.cat/"
-            }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/un-mes-despres-de-laccident-de-gelida-rodalies-encara-funciona-a-batzegades/noticia/3395515/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260220/lineas-rodalies-renfe-cataluna-situacion-cortes-limitaciones-velocidad-mes-despues-gelida-126804359" }
           ]
         },
         {
-          "headline": "Illa Commits to IRPF Tax Collection to Unlock ERC Budget Deal",
-          "body": "Catalan president Salvador Illa has told ERC his commitment to taking over income tax (IRPF) collection in Catalunya is \"total,\" a key concession aimed at securing ERC's support for the regional budget. The deal could reshape Catalan fiscal autonomy.",
+          "headline": "Nearly 400 infractions found in businesses around Park Guell",
+          "body": "A multi-agency inspection of 27 businesses around Barcelona's Park Guell uncovered 396 infractions, leading to five premises being shut down. Four were closed due to electrical supply and installation issues, while one was sealed for public health reasons related to pest infestations. The majority of infractions related to mismatches between the businesses' actual activities and their licences, with many souvenir shops operating without proper permits or combining activities they were not authorised to conduct. Food establishments showed problems with food storage, hygiene, and expired products. Deputy mayor Laia Bonet said the operation helps 'put order in a reality we cannot tolerate anywhere, but especially not in neighbourhoods with tourist pressure like the area around Park Guell.'",
           "sources": [
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            },
-            {
-              "name": "3cat",
-              "url": "https://www.3cat.cat/3catinfo/"
-            },
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/"
-            }
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/successos/una-trentena-destabliments-dels-voltants-del-park-guell-acumulen-400-infraccions-694290/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260220/barcelona-park-guell-negocios-infracciones-inspeccion-127084113" }
           ]
         },
         {
-          "headline": "Housing Speculation Rules Threaten Barcelona Renovation Projects",
-          "body": "New regulations aimed at curbing housing speculation in Barcelona are threatening rehabilitation and renovation projects across the city. The real estate sector fears the rules will further reduce the already tight rental supply in Catalunya.",
+          "headline": "Housing speculation law sparks debate as employers' group calls it 'philocommunist'",
+          "body": "The agreement between the Catalan government and the Comuns party to restrict speculative property purchases in Catalunya has drawn sharp criticism from the employers' association Foment del Treball, which branded it 'philocommunist.' The deal, aimed at curbing housing speculation, has also raised concerns in the real estate sector that rental supply could shrink further. Meanwhile, tenants' unions and property owners have both expressed dissatisfaction with the measures, with neither side convinced the agreement will effectively address Barcelona's acute housing crisis. Separately, concerns emerged that the regulations could inadvertently affect legitimate building rehabilitations and renovations.",
           "sources": [
-            {
-              "name": "El Periodico",
-              "url": "https://www.elperiodico.com/es/barcelona/"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/"
-            }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260220/ley-especulacion-amenaza-rehabilitaciones-reformas-vivienda-barcelona-127078843" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/lacord-per-frenar-la-compra-especulativa-dhabitatge-no-convenc-ni-sindicats-ni-propietaris/noticia/3395507/" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260220/11471550/foment-tilda-filocomunista-acuerdo-presupuestos-illa-comuns.html" }
           ]
         }
       ]
