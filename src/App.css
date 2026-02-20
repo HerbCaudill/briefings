@@ -32,8 +32,10 @@ article h3 a:hover {
 }
 
 article p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.925rem;
+  line-height: 1.55;
   margin-bottom: 1rem;
-  font-size: 1.05rem;
 }
 
 article ul,
@@ -42,8 +44,10 @@ article ol {
 }
 
 article li {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.925rem;
+  line-height: 1.55;
   margin-bottom: 0.35rem;
-  font-size: 1.05rem;
 }
 
 article a {

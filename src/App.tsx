@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="min-h-screen flex justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
       <article className="max-w-180 w-full">
-        <h1 className="font-sans text-3xl font-bold leading-tight mb-1 pt-3 border-t-4 border-gray-900">
+        <h1 className="font-serif text-3xl font-bold leading-tight mb-1 pt-3 border-t-4 border-gray-900">
           Daily briefing
         </h1>
         {selected && (
