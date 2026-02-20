@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react"
 import { IconChevronDown } from "@tabler/icons-react"
 import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { cn } from "@/lib/utils"
 
 function App() {
   const [briefings, setBriefings] = useState<BriefingIndex[]>([])
@@ -103,22 +104,26 @@ function App() {
             {section.stories.map(story => (
               <div key={story.headline}>
                 <h4>{story.headline}</h4>
-                <p className="font-mono font-normal text-xs leading-snug text-gray-700 mb-4">
-                  {story.body}{" "}
-                  {story.sources.map((source, i) => (
-                    <span key={source.url}>
-                      {i > 0 && ", "}
-                      <a
-                        href={source.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-sans text-xs text-gray-400 no-underline border-b border-transparent transition-colors duration-150 hover:text-gray-600 hover:border-gray-400"
-                      >
-                        {source.name}
-                      </a>
-                    </span>
-                  ))}
+                <p className="font-mono font-normal text-xs leading-snug text-gray-700 mb-1">
+                  {story.body}
                 </p>
+                <div className="flex gap-0 mb-4">
+                  {story.sources.map((source, i) => (
+                    <a
+                      key={source.url}
+                      href={source.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={cn(
+                        "font-sans text-xs text-gray-400 no-underline px-2 border-r border-gray-300 leading-none transition-colors duration-150 hover:text-gray-600",
+                        i === 0 && "pl-0",
+                        i === story.sources.length - 1 && "border-r-0",
+                      )}
+                    >
+                      {source.name}
+                    </a>
+                  ))}
+                </div>
               </div>
             ))}
           </section>
