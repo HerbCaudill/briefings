@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import ReactMarkdown from "react-markdown"
 import { IconChevronDown } from "@tabler/icons-react"
 import { Calendar } from "@/components/ui/calendar"
@@ -30,6 +30,39 @@ function App() {
   const availableDates = useMemo(() => new Set(briefings.map(b => b.date)), [briefings])
 
   const selectedDate = selected ? parseDate(selected) : undefined
+
+  const selectedIndex = briefings.findIndex(b => b.date === selected)
+
+  const goToToday = useCallback(() => {
+    const today = toISODate(new Date())
+    if (availableDates.has(today)) setSelected(today)
+  }, [availableDates])
+
+  const goToPrev = useCallback(() => {
+    if (selectedIndex < briefings.length - 1) setSelected(briefings[selectedIndex + 1].date)
+  }, [selectedIndex, briefings])
+
+  const goToNext = useCallback(() => {
+    if (selectedIndex > 0) setSelected(briefings[selectedIndex - 1].date)
+  }, [selectedIndex, briefings])
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!e.ctrlKey) return
+      if (e.key === "d") {
+        e.preventDefault()
+        goToToday()
+      } else if (e.key === "p") {
+        e.preventDefault()
+        goToPrev()
+      } else if (e.key === "n") {
+        e.preventDefault()
+        goToNext()
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown)
+    return () => window.removeEventListener("keydown", handleKeyDown)
+  }, [goToToday, goToPrev, goToNext])
 
   return (
     <div className="min-h-screen flex justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
