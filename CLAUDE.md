@@ -1,0 +1,30 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Commands
+
+```bash
+pnpm dev        # Start dev server (Vite)
+pnpm build      # Type-check + build (tsc -b && vite build)
+pnpm lint       # ESLint
+pnpm preview    # Preview production build
+```
+
+No test framework is configured yet.
+
+## Architecture
+
+Daily news briefings viewer — a single-page React app that fetches and renders markdown briefings by date.
+
+**Data flow:** On mount, fetches `/briefings/index.json` (array of `{date, title}` objects). Selecting a date fetches `/briefings/{YYYY-MM-DD}.md` and renders it with `react-markdown`.
+
+**Key file:** `src/App.tsx` — contains all app logic: date state, fetching, keyboard navigation (Ctrl+D/P/N for today/prev/next), calendar popover for date selection.
+
+**UI components** in `src/components/ui/` are shadcn/ui primitives (calendar, popover, button, dropdown-menu) built on Radix UI.
+
+**Styling:** Tailwind v4 via `@tailwindcss/vite` plugin. IBM Plex fonts (Serif for body, Sans for UI, Mono for code). Primary/accent color is orange-900 (`oklch(40.8% 0.123 38.172)`). Prose styles for rendered markdown are in `src/App.css`.
+
+**Class merging:** Use `cn()` from `src/lib/utils.ts` (clsx + tailwind-merge), not string interpolation.
+
+**Path alias:** `@/*` maps to `./src/*`.
