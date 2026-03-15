@@ -1,0 +1,104 @@
+{
+  "sections": [
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Castilla y León votes today in closely watched regional election",
+          "body": "Voters across Castilla y León are heading to the polls today in an election seen as a key test of the far right's limits in Spain. By 2pm, turnout had risen to 36.9%, up 2.2 points from the 2022 election. The PP's Alfonso Fernández Mañueco is seeking reelection, while polls suggest the party will be the most-voted force but may fall short of an absolute majority, making coalition arithmetic with Vox crucial. The PSOE's Carlos Martínez has been campaigning on national issues including the war in Iran, and the party's internal data suggests an unexpectedly close race. The new parliament will have 82 seats after Segovia gained one due to population growth, putting the majority threshold at 42.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-15/directo-jornada-electoral-15m-votaciones-participacion-sondeos-recuento-y-resultados.html" },
+            { "name": "El Español", "url": "https://www.elespanol.com/espana/20260315/elecciones-castilla-leon-hoy-directo-15-marzo-2026-resultado-escrutinio-procuradores-pp-psoe-vox-upl-soria-avila-mesas/1003744169909_10.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260315/elecciones-castilla-leon-2026-directo-ultima-hora-resultados-ganador/16974515.shtml" },
+            { "name": "ABC", "url": "https://www.abc.es/espana/castilla-leon/elecciones-castilla-leon-2026-directo-votaciones-resultados-sondeo-ganador-20260315173016-di.html" }
+          ]
+        },
+        {
+          "headline": "Spain relocates special forces from Iraq as Middle East security deteriorates",
+          "body": "The Ministry of Defence has temporarily relocated Spain's Special Operations Group from Iraq due to the deteriorating security situation linked to the ongoing US-Israel war against Iran. All personnel were moved to safe locations without incident, in coordination with Iraqi authorities and the international coalition. Spain maintains around 300 military personnel in Iraq as part of Operation Inherent Resolve and NATO Mission Iraq. The move follows recent attacks that killed a French soldier and targeted Italian contingents. Spain has refused US demands to use the Rota and Morón military bases for offensive operations against Iran, drawing threats of a trade embargo from Trump.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/espana/2026-03-15/defensa-reubica-temporalmente-a-las-fuerzas-especiales-destacadas-en-irak-por-la-guerra.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260315/11490386/defensa-evacua-base-militares-espanoles-desplegados-irak-inseguridad-zona.html" },
+            { "name": "La Sexta", "url": "https://www.lasexta.com/noticias/nacional/espana-reubica-temporalmente-grupo-operaciones-especiales-irak-deterioro-seguridad_2026031569b69af6d489bf782e1ab1ad.html" }
+          ]
+        },
+        {
+          "headline": "Tens of thousands march across Spain demanding end to Iran war",
+          "body": "Tens of thousands of people took to the streets in over 140 Spanish cities on Saturday demanding an end to the US-Israel war against Iran. The 'Parar la guerra' platform, backed by cultural figures including Pedro Almodóvar and Joan Manuel Serrat, organised the largest anti-war protests Spain has seen since the 2003 Iraq war. In Madrid, thousands marched through central streets, while in Barcelona around 500 people gathered outside the cathedral despite torrential rain. Spain has evacuated over 8,400 citizens from Middle Eastern countries affected by the conflict, described by the Foreign Ministry as its largest ever evacuation operation.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/espana/2026-03-14/el-grito-del-no-a-la-guerra-vuelve-a-sonar-en-las-calles-de-madrid.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260314/miles-personas-se-manifiestan-por-toda-espana-para-pedir-fin-guerra-iran/16980618.shtml" },
+            { "name": "El Confidencial", "url": "https://www.elconfidencial.com/espana/2026-03-14/manifestacion-guerra-iran-gaza-1tps_4320563/" },
+            { "name": "CNN en Español", "url": "https://cnnespanol.cnn.com/2026/03/14/mundo/video/espana-guerra-iran-eeuu-israel-manifestaciones-protesta" }
+          ]
+        },
+        {
+          "headline": "Tower of 15th-century Escalona castle collapses in Toledo",
+          "body": "One of the towers of the Castle of Escalona, a medieval fortress in the province of Toledo dating to the 15th century, collapsed on Saturday morning. The albarrana tower fell around 10:30am, just before visitors had arrived — the mayor said that half an hour later 'it would have been a tragedy.' No one was injured, though some parked cars were damaged by falling debris. The collapse was attributed to water infiltration from weeks of heavy rain. The castle, which has Islamic-era origins and was purchased by the local council in 2024, had been open to the public since April 2025. A restoration project was already in process but 'there wasn't time,' according to authorities.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260314/torre-castillo-escalona-toledo-derrumba/16980632.shtml" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/14/69b547cee4d4d8b63d8b4579.html" },
+            { "name": "El Diario", "url": "https://www.eldiario.es/castilla-la-mancha/provincias/toledo/derrumba-parte-castillo-escalona-toledo_1_13068059.html" },
+            { "name": "Infobae", "url": "https://www.infobae.com/espana/2026/03/14/se-derrumba-una-torre-del-castillo-de-escalona-en-toledo-el-proyecto-para-restaurarla-estaba-en-proceso-pero-no-ha-dado-tiempo/" }
+          ]
+        },
+        {
+          "headline": "New EU rule will require distraction detection systems in all new cars from July",
+          "body": "From July 2026, every newly registered car sold in Spain and across the EU will be required to include a built-in driver distraction detection system. The technology, known as Advanced Driver Distraction Warning (ADDW), uses cameras to monitor the driver's attention and issues alerts if distraction is detected. The rule has been in effect for new vehicle models since 2024 but will now extend to cover all newly registered vehicles regardless of when the model was designed.",
+          "sources": [
+            { "name": "Euro Weekly News", "url": "https://euroweeklynews.com/2026/03/15/new-eu-car-rule-from-july-2026-spain-warns-drivers-about-mandatory-distraction-detection-system/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Severe wind alerts across Catalunya with gusts up to 140 km/h",
+          "body": "Protecció Civil has activated its VENTCAT emergency plan and issued red alerts for strong winds across several Catalan counties, including the Alt Empordà, Berguedà, Ripollès, and northern Cerdanya. Gusts of up to 140 km/h are forecast in the pre-Pyrenees and Girona Pyrenees, with red alerts also in place for extreme sea conditions off the Balearic Islands, including waves of up to 14 metres off Menorca. ES-Alert messages have been sent to mobile phones in affected areas. Three people have been injured by falling debris so far today. Roads in parts of Girona province have already been cut, and heavy snowfall is expected in mountain areas.",
+          "sources": [
+            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/tiempo/20260315/tiempo-hoy-catalunya-lluvia-viento-ultima-hora-directo-127953966" },
+            { "name": "Tutiempo", "url": "https://www.tutiempo.net/noticias/alerta-roja-vientos-huracanados-domingo-15-marzo-2026.html" },
+            { "name": "20 Minutos", "url": "https://www.20minutos.es/nacional/alerta-roja-cataluna-por-viento-hasta-140-kilometros-por-hora-menorca-por-olas-14-metros_6946144_0.html" },
+            { "name": "El Liberal", "url": "https://www.elliberal.cat/2026/03/14/alerta-viento-catalunya-15-marzo-pirineo-emporda/" }
+          ]
+        },
+        {
+          "headline": "Week-long education strike begins Monday across Catalunya",
+          "body": "The educational community in Barcelona and across Catalunya is preparing for a week of intense strikes and protests from 16 to 20 March. Major unions including USTEC-STEs and CGT have confirmed the action despite a partial agreement between the Generalitat and smaller unions (CCOO and UGT), which the majority unions dismissed. Teachers are demanding lower classroom ratios, wage increases, and more resources for public schools. The action starts Monday in Barcelona and Barcelonès, with traffic disruptions expected from 7am. The week culminates in a nationwide education strike on Friday with a massive rally planned from Plaça de Tetuan to the Parliament of Catalonia.",
+          "sources": [
+            { "name": "Diari de Catalunya", "url": "https://diaricatalunya.cat/en/barcelones/general/barcelona-faces-a-week-of-education-strikes-and-street-protests" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/es/sociedad/semana-de-huelga-de-maestros-y-estudiantes-los-puntos-calientes-de-barcelona-699768/" },
+            { "name": "Catalunya Press", "url": "https://www.catalunyapress.es/articulo/sociedad/2026-03-14/5808521-govern-decreta-servicios-minimos-ante-huelga-educativa-catalunya-proxima-semana" },
+            { "name": "El Debate", "url": "https://www.eldebate.com/espana/cataluna/20260309/sindicatos-mayoritarios-ensenanza-mantienen-huelga-rechazar-acuerdo-entre-educacion-ccoo-ugt_393837.html" }
+          ]
+        },
+        {
+          "headline": "Ryanair cuts 11% of Girona–Costa Brava summer flights",
+          "body": "Ryanair has confirmed it will reduce flights at Girona–Costa Brava Airport by 11% during the 2026 summer season, marking the first time the airline has scaled back there since before the pandemic. The cuts come despite a 5.6% increase in February passenger numbers at the airport, which reached 41,011. The reduction raises concerns about connectivity to the Costa Brava region, where Ryanair is the dominant carrier and the only airline maintaining stable winter schedules.",
+          "sources": [
+            { "name": "Idealista", "url": "https://www.idealista.com/en/news/lifestyle-in-spain/2026/03/13/888724-ryanair-is-cutting-flights-at-a-popular-spanish-airport-what-it-means-for-travellers" },
+            { "name": "Empordà Info", "url": "https://www.emporda.info/economia/2026/03/12/laeroport-girona-tanca-febrer-amb-5-6-mes-de-passatgers-i-arriba-als-41-011-127889072.html" }
+          ]
+        },
+        {
+          "headline": "Irish tourists discover the Costa Brava with 45% surge in visitor numbers",
+          "body": "Tourism from Ireland to the Costa Brava and the province of Girona surged 45% in 2025, the largest increase of any nationality visiting the region. While the total number of Irish visitors remains smaller than those from traditional markets like France, the Netherlands, Germany, or the UK, the rapid growth has attracted attention from the local tourism industry. Spain was named the best European tourist destination by Irish travel agents in December 2025, and strong booking trends suggest the growth will continue in 2026.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/girona/20260315/11490012/irlanda-descubre-costa-brava.html" }
+          ]
+        },
+        {
+          "headline": "Rodalies crisis deepens with three-month Garraf tunnel closure",
+          "body": "Barcelona's beleaguered Rodalies commuter rail network faces fresh disruption as Adif begins a three-month closure of the Garraf tunnels for essential renovations, affecting the heavily used R2 Sud line between Barcelona and Tarragona via Vilanova i la Geltrú. Bus substitution services have been set up, with Renfe and the Generalitat announcing reinforced alternatives after initial plans drew criticism. The R3 line has partially resumed service after 50 days of interruption following the fatal Gelida crash in February, though speed restrictions remain. Rodalies will remain free for passengers through the end of March as compensation for ongoing disruptions.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/espana/catalunya/2026-03-09/tres-meses-de-obras-y-autobuses-por-las-obras-en-los-tuneles-del-garraf-de-rodalies.html" },
+            { "name": "El Nacional", "url": "https://www.elnacional.cat/es/sociedad/govern-renfe-adif-marcha-atras-reforzaran-plan-corte-tres-meses-rodalies-garraf_1608159_102.html" },
+            { "name": "Crónica Global", "url": "https://cronicaglobal.elespanol.com/politica/20260310/rodalies-renovara-gratuidad-alla-marzo/1003742739970_0.html" }
+          ]
+        }
+      ]
+    }
+  ]
+}
