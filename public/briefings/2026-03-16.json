@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "PP wins Castilla y León election; PSOE surprises with strong second place",
+          "body": "The PP's Alfonso Fernández Mañueco won yesterday's Castilla y León regional election with 33 seats (up 2 from 2022), but fell well short of an absolute majority of 42. The bigger story was the PSOE's unexpected surge to 30 seats (also up 2), defying polls that had predicted a weaker showing. Analysts credit the Socialists' anti-war and anti-Trump messaging for the strong result. Vox underperformed expectations, winning 14 seats and failing to break the 20% vote share barrier. Mañueco will likely need to negotiate a coalition or minority government arrangement.",
+          "sources": [
+            { "name": "Politico", "url": "https://www.politico.eu/article/pedro-sanchez-socialist-party-defeat-regional-election-castilla-y-leon-spain/" },
+            { "name": "Demócrata", "url": "https://www.democrata.es/en/elections-in-spain-and-in-the-world/elections-castilla-y-leon-2026/manueco-wins-in-castile-and-leon-the-pp-exceeds-expectations-vox-deflates-and-the-psoe-grows/" },
+            { "name": "ABC", "url": "https://www.abc.es/espana/castilla-leon/elecciones-castilla-leon-2026-directo-votaciones-resultados-sondeo-ganador-20260315173016-di.html" }
+          ]
+        },
+        {
+          "headline": "Spain's deputy PM blasts EU \"subservience\" to Trump over Iran war",
+          "body": "Deputy Prime Minister Yolanda Díaz accused European leaders of a \"servile\" attitude toward Washington, singling out European Commission President Ursula von der Leyen's response to the US-Israel war on Iran as \"indecent.\" Speaking on RTVE, Díaz argued the EU is being \"held hostage\" by Trump and warned that Brussels' failure to stand up to Washington could fuel Euroskeptic sentiment and boost the far right across Europe. Spain has been the EU's most vocal critic of the Iran war, having recently refused US demands to use its Rota and Morón military bases for offensive operations.",
+          "sources": [
+            { "name": "Politico", "url": "https://www.politico.eu/article/eu-spain-deputy-leader-says-brussels-lacks-leadership-take-us-donald-trump/" },
+            { "name": "Anadolu Agency", "url": "https://www.aa.com.tr/en/europe/spanish-deputy-premier-slams-eu-subservience-to-trump-calls-von-der-leyen-stance-indecent-/3861534" }
+          ]
+        },
+        {
+          "headline": "Tens of thousands march across Spain demanding end to Iran war",
+          "body": "Over 140 Spanish cities saw anti-war demonstrations on Saturday in the largest protests since the 2003 Iraq war. The \"Parar la guerra\" platform, backed by figures including Pedro Almodóvar and Joan Manuel Serrat, drew tens of thousands to the streets of Madrid and other cities. Spain has evacuated over 8,400 citizens from Middle Eastern countries affected by the conflict in what the Foreign Ministry calls its largest-ever evacuation operation. The protests come as Spain permanently withdrew its ambassador to Israel last week, deepening a diplomatic rift with both Israel and the US.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/espana/2026-03-14/el-grito-del-no-a-la-guerra-vuelve-a-sonar-en-las-calles-de-madrid.html" },
+            { "name": "AP News", "url": "https://apnews.com/article/italy-meloni-protests-iran-spain-greece-1a007751a1ea7fbf6c579cdf6085eb4e" },
+            { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/spain-removes-ambassador-israel-2026-03-11/" }
+          ]
+        },
+        {
+          "headline": "DGT launches Easter traffic operation as Semana Santa approaches",
+          "body": "Spain's traffic authority (DGT) has announced its \"Operación Semana Santa 2026\" to manage millions of expected trips over the Easter holiday period. With Good Friday falling on April 3rd, the operation will cover the major travel corridors with increased road checks, special monitoring, and traffic management measures. Drivers are warned to expect delays, particularly on routes connecting major cities with coastal destinations.",
+          "sources": [
+            { "name": "Travel And Tour World", "url": "https://www.travelandtourworld.com/news/article/spain-easter-traffic-warning-2026-dgt-special-operation-to-disrupt-travel-across-major-hubs/" },
+            { "name": "Euro Weekly News", "url": "https://euroweeklynews.com/2026/03/15/spains-easter-traffic-warning-dgt-launches-major-operation-that-could-disrupt-holiday-travel/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Week-long education strike begins today across Catalunya",
+          "body": "A week of rolling strikes and protests in public education kicks off today, starting in Barcelona, Barcelonès, and Baix Llobregat. The action — called by majority unions USTEC-STEs and CGT — escalates through the week, culminating in a nationwide education strike on Friday with a massive rally planned from Plaça de Tetuan to the Parliament. More than 40,000 teachers rejected a deal between the Generalitat and smaller unions CCOO and UGT in a recent consultation. Strikers demand lower classroom ratios, wage increases, and more resources for public schools. Traffic disruptions are expected from 7am today.",
+          "sources": [
+            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/sociedad/20260315/huelga-profesores-barcelona-barcelones-baix-llobregat-semana-127873529" },
+            { "name": "El Diario", "url": "https://www.eldiario.es/catalunya/semana-huelgas-docentes-catalunya-pone-prueba-acuerdo-illa-ccoo-ugt_1_13063148.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260313/11489071/semana-huelga-eduacion-catalunya-dias-ciudades.html" }
+          ]
+        },
+        {
+          "headline": "Rodalies Garraf tunnel closure starts today — three months of disruption ahead",
+          "body": "Major disruption to Barcelona's commuter rail begins today as Adif starts a three-to-four-month closure of the Garraf tunnels for track renovation, reducing the R2 Sud line between Barcelona and Tarragona to single-track operation between Sitges and Garraf. Bus replacement services with 14,400 additional seats have been arranged, though commuters and local mayors remain skeptical. The closure compounds ongoing Rodalies woes — the R3 line only partially resumed service after 50 days of interruption following February's fatal Gelida crash. Rodalies remains free through March as compensation.",
+          "sources": [
+            { "name": "Metropoli Abierta", "url": "https://metropoliabierta.elespanol.com/movilidad/20260315/afectaran-barcelona-obras-rodalies-sitges-garraf-partir-lunes-trenes-servicios-bus/1003742741560_0.html" },
+            { "name": "La República", "url": "https://www.larepublica.cat/noticies/obres-al-tunel-del-garraf-tres-mesos-o-mes-de-caos-anunciat-a-rodalies-al-sud" }
+          ]
+        },
+        {
+          "headline": "Barcelona reactivates low-emission zone after two-month suspension",
+          "body": "Mayor Jaume Collboni has signed a decree reactivating Barcelona's Zona de Bajas Emisiones (ZBE) starting today, reinstating €200 fines for vehicles without environmental stickers. The zone had been suspended for nearly two months at the Generalitat's request due to the Rodalies rail crisis — with commuter trains unreliable, authorities couldn't justify penalizing drivers who had no alternative. With train service now deemed \"significantly improved,\" the restriction returns, though the Garraf tunnel closure starting today may test that logic.",
+          "sources": [
+            { "name": "Metropoli Abierta", "url": "https://metropoliabierta.elespanol.com/movilidad/20260315/collboni-reactiva-zona-bajas-emisiones-barcelona-lunes-caos-rodalies/1003742741556_0.html" },
+            { "name": "El Diario", "url": "https://www.eldiario.es/catalunya/barcelona-resto-ciudades-reactivan-zonas-bajas-emisiones-suspendidas-crisis-ferroviaria_1_13069257.html" }
+          ]
+        },
+        {
+          "headline": "Severe wind alerts across Catalunya with gusts up to 140 km/h",
+          "body": "Protecció Civil activated its VENTCAT emergency plan yesterday with red alerts for the Alt Empordà, Berguedà, Ripollès, and northern Cerdanya, where gusts of up to 140 km/h were forecast. ES-Alert messages were sent to mobile phones in affected areas. Three people were injured by falling debris. Roads in parts of Girona province were cut, and heavy snowfall hit mountain areas. Conditions are expected to ease through today, though wind advisories remain in effect for parts of the coast.",
+          "sources": [
+            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/tiempo/20260315/tiempo-hoy-catalunya-lluvia-viento-ultima-hora-directo-127953966" },
+            { "name": "20 Minutos", "url": "https://www.20minutos.es/nacional/alerta-roja-cataluna-por-viento-hasta-140-kilometros-por-hora-menorca-por-olas-14-metros_6946144_0.html" }
+          ]
+        }
+      ]
+    }
+  ]
+}
