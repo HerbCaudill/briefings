@@ -1,40 +1,131 @@
 {
   "sections": [
     {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "European allies reject Trump's demand for naval coalition to reopen Strait of Hormuz",
+          "body": "European countries have firmly rejected Donald Trump's call to send warships to the Strait of Hormuz, despite the US president warning that NATO faces a very bad future if members fail to help reopen the vital waterway. Germany ruled out any military participation, with Defence Minister Boris Pistorius asking what Trump expects from a handful of European frigates that the US Navy cannot manage alone. France, Australia, and Japan have also said they have no plans to send warships. The UK's Keir Starmer said Britain would not be drawn into the wider war but was working on a viable plan and offered autonomous mine-hunting drones already in the region. Trump claimed numerous countries had told him they were on the way but refused to name any. The crisis stems from Iran's effective blockade of the strait, through which about 20 percent of the world's oil transits, in retaliation for US-Israeli strikes on Iran now in their 17th day.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/europe-donald-trump-strait-hormuz-iran" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c8r17plnvy3o" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260316/11491075/ue-debate-ampliar-mision-naval-desloquear-estrecho-ormuz.html" }
+          ]
+        },
+        {
+          "headline": "Iran war's economic fallout deepens as oil prices surge and Asian nations scramble",
+          "body": "The US-Israeli war on Iran, now in its 17th day, is sending shockwaves through the global economy as Brent crude has soared past $106 per barrel, up more than 40 percent since strikes began on February 28. LNG prices have risen even more sharply, by nearly 60 percent, especially after QatarEnergy suspended production following an Iranian drone attack. Sri Lanka has introduced a four-day working week to preserve shrinking fuel reserves, Bangladesh has imposed scheduled power blackouts and early university holidays, and Pakistan has moved schools to remote teaching. India is seeing long queues for cooking gas, with 60 percent of its LPG coming from Gulf states. Capital Economics warns oil prices could rise to $150 per barrel over the next six months if the conflict is sustained. Iran has meanwhile attacked a key UAE oil port and Dubai airport.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/the-tell-tale-signs-how-bad-has-the-iran-war-hit-the-global-economy" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/sri-lanka-four-day-week-oil-and-gas-iran-war" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/crl4gxgkkylo" }
+          ]
+        },
+        {
+          "headline": "Israel launches ground operations in southern Lebanon as conflict with Hezbollah escalates",
+          "body": "Israel's military has begun what it describes as limited and targeted ground operations against Hezbollah strongholds in southern Lebanon, with troops from the 91st Division operating near the strategic town of Khiam. Israeli media report that three divisions, amounting to thousands of troops, are now operating in Lebanon with two more expected to join within days. Israel has issued evacuation orders for the area south of the Litani River and later extended the zone to the Zahrani River, about 40 km from the border. Defence Minister Israel Katz warned that displaced Lebanese residents would not return to their homes until Israeli border communities' security is guaranteed. At least 850 people have been killed in Israeli attacks on Lebanon since the conflict expanded two weeks ago, with over one million people displaced.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/clyz78kgp22o" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/israel-expansion-lebanon-ground-campaign-fears-prolonged-occupation" }
+          ]
+        },
+        {
+          "headline": "Israeli forces kill Palestinian family including disabled child during West Bank operation",
+          "body": "Israeli forces shot dead a Palestinian couple and two of their young children, including six-year-old blind and disabled Othman, as the family drove home from a shopping trip in the occupied West Bank. The Israeli army claimed the car had accelerated towards the forces, but a nearby resident told the BBC the car had come to a complete halt before any shots were fired and no warnings were given. Twelve-year-old Khaled, who survived along with his brother Mustafa, described being dragged from the car, beaten, and interrogated. The family had been returning from Nablus after shopping ahead of Eid al-Fitr.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c70n2x7p22do" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/israeli-forces-kill-palestinian-couple-and-two-of-their-children-in-occupied-west-bank" }
+          ]
+        },
+        {
+          "headline": "French political parties scramble for alliances ahead of local election runoffs",
+          "body": "French mainstream parties are navigating a complex landscape of potential alliances ahead of the final round of local elections, as both far-left and far-right gains in the first round have thrown traditional coalitions into disarray. The results have created a quandary for centrist and establishment parties that must decide whether to form tactical alliances to block extremes or risk further losses. The left faces a particular dilemma over whether to unite or allow the continued advance of the far right in the second round of voting.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c8r17knnz5vo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/french-political-parties-alliances-local-elections" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/internacional/20260316/izquierda-francesa-dilema-pactar-arriesgarse-avance-extrema-derecha-128047388" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Extreme weather batters the US with blizzards, tornadoes, heat waves, and flooding simultaneously",
+          "body": "An extraordinary combination of severe weather events is battering the United States, with more than half the country in the path of extreme conditions. Blizzards and heavy snow are hitting the Upper Midwest, with hazardous road conditions across Minnesota, Michigan, and Wisconsin. Tornadoes struck southwest Michigan, devastating homes. Southern California is experiencing a winter heat wave with temperatures in the 90s. Flash flooding has been a major problem in Hawaii, particularly on Maui, Molokai, and the Big Island. The National Weather Service has simultaneously issued warnings for a blizzard, polar vortex, heat dome, and atmospheric river. Storms have also cancelled flights as TSA remains under pressure from the partial government shutdown.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/severe-weather-storm-snow-east-coast-a8bbd037aba99aaf0cc930e91fdb72ca" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cj98meelzv3o" },
+            { "name": "AP News", "url": "https://apnews.com/article/weather-blizzard-high-winds-tornadoes-94f6202d4bc4ad6a61d91e3e42919e57" }
+          ]
+        },
+        {
+          "headline": "Afghan man who worked with US military dies in ICE custody",
+          "body": "Mohommad Nazeer Paktyawal, a 41-year-old Afghan immigrant who served alongside US military special forces in Afghanistan, died at a Dallas hospital just one day after being detained by Immigration and Customs Enforcement. Paktyawal had come to the US as a refugee after the Taliban takeover in 2021 and was living in Richardson, Texas, with his wife and six children while his asylum case was pending. ICE said he began complaining of shortness of breath and chest pains Friday night and died Saturday morning after his tongue swelled during breakfast. His family said he was healthy and strong. Deaths in ICE custody have soared during Trump's second term, with 14 reported since October, as the detained population has grown from 40,000 to over 70,000.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/afghan-immigrant-death-ice-detention-e6cb522d03ae87bc827d47233759201c" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody" }
+          ]
+        },
+        {
+          "headline": "Susie Wiles, Trump's chief of staff, diagnosed with breast cancer",
+          "body": "White House Chief of Staff Susie Wiles, the first woman to hold the position, has been diagnosed with breast cancer and will continue working while undergoing treatment. Wiles, 68, said doctors detected the cancer early and she has a strong prognosis. Trump praised her as an amazing fighter. Wiles is widely viewed as the most influential of Trump's aides and played a key role in his 2024 campaign victory. The diagnosis comes at a critical moment as the administration manages the Iran war and its domestic policy agenda.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cev7r2egkplo" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/16/us/politics/susie-wiles-breast-cancer.html" }
+          ]
+        },
+        {
+          "headline": "Trump's mass deportation agenda faces crossroads amid legal battles and ICE expansion",
+          "body": "Trump's mass deportation program faces mounting challenges as an appeals court allows controversial third-country deportations to continue for now, while a separate judge paused the termination of deportation protections for some Somali immigrants. ICE has expanded its detained population to over 70,000 and plans to spend $38.3 billion to boost capacity to 92,600 beds by November, including converted warehouses housing up to 10,000 people each. Immigration data is becoming harder to find as the administration pushes its agenda. Meanwhile, eight people accused of antifa ties were convicted on terrorism charges over a shooting at a Texas immigration facility.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/trump-mass-deportations-agenda-dhs-noem-mullin-cce52a9f2009ef645ceffe4e44cb4def" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/16/us/politics/trump-deportations-appeals-ruling.html" }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Spain",
       "stories": [
         {
-          "headline": "PP wins Castilla y León election; PSOE surprises with strong second place",
-          "body": "The PP's Alfonso Fernández Mañueco won yesterday's Castilla y León regional election with 33 seats (up 2 from 2022), but fell well short of an absolute majority of 42. The bigger story was the PSOE's unexpected surge to 30 seats (also up 2), defying polls that had predicted a weaker showing. Analysts credit the Socialists' anti-war and anti-Trump messaging for the strong result. Vox underperformed expectations, winning 14 seats and failing to break the 20% vote share barrier. Mañueco will likely need to negotiate a coalition or minority government arrangement.",
+          "headline": "PP wins Castilla y Leon election but remains dependent on Vox for governing coalition",
+          "body": "The PP has won the Castilla y Leon regional election with an improved result, gaining two additional seats and reaching 35.5 percent of the vote, four points more than in 2022. The PSOE also improved its position, while Vox grew but fell short of expectations, and both Podemos and Ciudadanos lost all representation. However, the result changes little in terms of governability, as PP still needs Vox to form a majority. The combined PP-Vox vote reached 54.4 percent, the highest right-wing share in decades. PSOE leader Sanchez warned that voting PP means voting for blockage, while Feijoo demanded Vox stop making excuses and negotiate. Vox leader Abascal insisted his party would govern in all three autonomous communities if a programmatic agreement is reached.",
           "sources": [
-            { "name": "Politico", "url": "https://www.politico.eu/article/pedro-sanchez-socialist-party-defeat-regional-election-castilla-y-leon-spain/" },
-            { "name": "Demócrata", "url": "https://www.democrata.es/en/elections-in-spain-and-in-the-world/elections-castilla-y-leon-2026/manueco-wins-in-castile-and-leon-the-pp-exceeds-expectations-vox-deflates-and-the-psoe-grows/" },
-            { "name": "ABC", "url": "https://www.abc.es/espana/castilla-leon/elecciones-castilla-leon-2026-directo-votaciones-resultados-sondeo-ganador-20260315173016-di.html" }
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/claves-elecciones-castilla-leon-pp-psoe-vox-regionalismo/16972340.shtml" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-16/el-balance-global-de-extremadura-aragon-y-castilla-y-leon-el-pp-queda-a-merced-de-vox-el-partido-que-mas-avanza.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491269/feijoo-acusa-vox-poner-excusas-pactar-pp-creo-esta.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/elecciones/elecciones-castilla-y-leon/2026/03/16/69b6ef7de4d4d8b1638b4580.html" }
           ]
         },
         {
-          "headline": "Spain's deputy PM blasts EU \"subservience\" to Trump over Iran war",
-          "body": "Deputy Prime Minister Yolanda Díaz accused European leaders of a \"servile\" attitude toward Washington, singling out European Commission President Ursula von der Leyen's response to the US-Israel war on Iran as \"indecent.\" Speaking on RTVE, Díaz argued the EU is being \"held hostage\" by Trump and warned that Brussels' failure to stand up to Washington could fuel Euroskeptic sentiment and boost the far right across Europe. Spain has been the EU's most vocal critic of the Iran war, having recently refused US demands to use its Rota and Morón military bases for offensive operations.",
+          "headline": "Spanish government to approve emergency measures Friday to counter Iran war economic impact",
+          "body": "The Spanish government will hold an extraordinary cabinet meeting on Friday to approve a comprehensive package of measures to mitigate the economic effects of the Iran war, a day after the European Council in Brussels. The plan will include significant tax relief on energy, with specific measures for the most affected sectors including agriculture, food production, and transport. Diesel prices have risen at double the rate of petrol since the war began. The coalition partners PSOE and Sumar are still negotiating the depth of the response, which will also include structural measures to accelerate electrification and reduce dependence on oil. Ministers have been meeting with industry representatives who warn that cost increases have been immediate.",
           "sources": [
-            { "name": "Politico", "url": "https://www.politico.eu/article/eu-spain-deputy-leader-says-brussels-lacks-leadership-take-us-donald-trump/" },
-            { "name": "Anadolu Agency", "url": "https://www.aa.com.tr/en/europe/spanish-deputy-premier-slams-eu-subservience-to-trump-calls-von-der-leyen-stance-indecent-/3861534" }
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-16/el-gobierno-aprobara-este-viernes-un-paquete-de-medidas-para-paliar-los-efectos-de-la-guerra-en-oriente-proximo.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/guerra-iran-pone-peligro-viabilidad-miles-autonomos/16982824.shtml" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491024/sanchez-convoca-consejo-ministros-extraordinario-viernes-aprobar-plan-respuesta-guerra.html" }
           ]
         },
         {
-          "headline": "Tens of thousands march across Spain demanding end to Iran war",
-          "body": "Over 140 Spanish cities saw anti-war demonstrations on Saturday in the largest protests since the 2003 Iraq war. The \"Parar la guerra\" platform, backed by figures including Pedro Almodóvar and Joan Manuel Serrat, drew tens of thousands to the streets of Madrid and other cities. Spain has evacuated over 8,400 citizens from Middle Eastern countries affected by the conflict in what the Foreign Ministry calls its largest-ever evacuation operation. The protests come as Spain permanently withdrew its ambassador to Israel last week, deepening a diplomatic rift with both Israel and the US.",
+          "headline": "King Felipe VI acknowledges 'much abuse' during Spain's conquest of the Americas",
+          "body": "King Felipe VI made a significant diplomatic gesture at a private visit to an exhibition on indigenous Mexican women, acknowledging that there was much abuse and ethical controversies during Spain's colonization of the Americas. Speaking before Mexico's ambassador, the King said there are aspects of the conquest that cannot make us feel proud by today's values. The remarks represent a notable shift in Spain's stance toward Mexico, whose previous president had insisted since 2019 that Spain must apologize for the conquest. Relations have been on pause at the highest level, and the gesture is seen as an effort to normalize ties ahead of the Ibero-American Summit that Spain will host in November.",
           "sources": [
-            { "name": "El País", "url": "https://elpais.com/espana/2026-03-14/el-grito-del-no-a-la-guerra-vuelve-a-sonar-en-las-calles-de-madrid.html" },
-            { "name": "AP News", "url": "https://apnews.com/article/italy-meloni-protests-iran-spain-greece-1a007751a1ea7fbf6c579cdf6085eb4e" },
-            { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/spain-removes-ambassador-israel-2026-03-11/" }
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/16/69b80fb321efa0cf388b4573.html" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-16/felipe-vi-reconoce-que-hubo-muchos-abusos-y-controversias-en-la-conquista-de-america.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/felipe-vi-reconoce-mucho-abuso-conquista-america-gesto-acercamiento-a-mexico/16982932.shtml" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491363/rey-reconoce-abusos-controversias-mexico-colonial.html" }
           ]
         },
         {
-          "headline": "DGT launches Easter traffic operation as Semana Santa approaches",
-          "body": "Spain's traffic authority (DGT) has announced its \"Operación Semana Santa 2026\" to manage millions of expected trips over the Easter holiday period. With Good Friday falling on April 3rd, the operation will cover the major travel corridors with increased road checks, special monitoring, and traffic management measures. Drivers are warned to expect delays, particularly on routes connecting major cities with coastal destinations.",
+          "headline": "Zelensky to visit Spain and meet with Sanchez on Wednesday",
+          "body": "Ukrainian President Volodymyr Zelensky will visit Spain on Wednesday and meet with Prime Minister Pedro Sanchez at La Moncloa, as the conflict in Ukraine continues alongside the broader Middle East crisis. Defence Minister Margarita Robles has also demanded that Israel cease its attacks on Lebanon, where Spain has 670 military personnel deployed as part of the UN peacekeeping force, noting that there are artillery attacks daily in the area.",
           "sources": [
-            { "name": "Travel And Tour World", "url": "https://www.travelandtourworld.com/news/article/spain-easter-traffic-warning-2026-dgt-special-operation-to-disrupt-travel-across-major-hubs/" },
-            { "name": "Euro Weekly News", "url": "https://euroweeklynews.com/2026/03/15/spains-easter-traffic-warning-dgt-launches-major-operation-that-could-disrupt-holiday-travel/" }
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/16/69b7e44e21efa06a268b458f.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/16/69b7cc1721efa010288b4570.html" }
           ]
         }
       ]
@@ -43,36 +134,44 @@
       "title": "Barcelona & Catalunya",
       "stories": [
         {
-          "headline": "Week-long education strike begins today across Catalunya",
-          "body": "A week of rolling strikes and protests in public education kicks off today, starting in Barcelona, Barcelonès, and Baix Llobregat. The action — called by majority unions USTEC-STEs and CGT — escalates through the week, culminating in a nationwide education strike on Friday with a massive rally planned from Plaça de Tetuan to the Parliament. More than 40,000 teachers rejected a deal between the Generalitat and smaller unions CCOO and UGT in a recent consultation. Strikers demand lower classroom ratios, wage increases, and more resources for public schools. Traffic disruptions are expected from 7am today.",
+          "headline": "Education sector strikes hit Barcelona with road blockades and mass demonstrations",
+          "body": "A week of rolling education strikes began Monday in Barcelona and the Baix Llobregat, with teachers blocking major access roads to the city from before 7 AM. The main demonstration drew between 8,000 and 25,000 people, marching from Placa Urquinaona to Placa Sant Jaume. The USTEC union claims 70 percent participation while the Education Department puts the figure at 32 percent. The strikes reject an agreement reached last week between the department and CCOO and UGT unions. Protesters carried banners reading Fighting is also educating and Doing miracles is not in the curriculum. The strikes will continue throughout the week in different territories across Catalunya.",
           "sources": [
-            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/sociedad/20260315/huelga-profesores-barcelona-barcelones-baix-llobregat-semana-127873529" },
-            { "name": "El Diario", "url": "https://www.eldiario.es/catalunya/semana-huelgas-docentes-catalunya-pone-prueba-acuerdo-illa-ccoo-ugt_1_13063148.html" },
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260313/11489071/semana-huelga-eduacion-catalunya-dias-ciudades.html" }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-sector-de-leducacio-repren-les-protestes-comenca-una-setmana-de-vagues-per-territoris/noticia/3399723/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260316/huelga-profesores-educacion-catalunya-ultima-hora-directo-127998634" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/setmana-vaga-mestres-estudiants-punts-calents-barcelona-699463/" }
           ]
         },
         {
-          "headline": "Rodalies Garraf tunnel closure starts today — three months of disruption ahead",
-          "body": "Major disruption to Barcelona's commuter rail begins today as Adif starts a three-to-four-month closure of the Garraf tunnels for track renovation, reducing the R2 Sud line between Barcelona and Tarragona to single-track operation between Sitges and Garraf. Bus replacement services with 14,400 additional seats have been arranged, though commuters and local mayors remain skeptical. The closure compounds ongoing Rodalies woes — the R3 line only partially resumed service after 50 days of interruption following February's fatal Gelida crash. Rodalies remains free through March as compensation.",
+          "headline": "Collserola park closed as authorities intensify wild boar culling over African swine fever",
+          "body": "Barcelona's Collserola natural park remains closed to the public as Agents Rurals intensify efforts to capture and cull approximately 500 wild boars to contain an outbreak of African swine fever. The operation uses American-made Pig Brig net traps that can capture entire family groups, along with nighttime shooting with silencers and anesthetic darts. The boars remain encapsulated behind closed wildlife corridors to prevent dispersal. The hunting season ends March 31 and traditional hunters will not extend their season, leaving the task entirely to the Agents Rurals with support from a specialized Guardia Civil unit. The threat of the disease reaching pig farms poses a significant risk to the agricultural economy.",
           "sources": [
-            { "name": "Metropoli Abierta", "url": "https://metropoliabierta.elespanol.com/movilidad/20260315/afectaran-barcelona-obras-rodalies-sitges-garraf-partir-lunes-trenes-servicios-bus/1003742741560_0.html" },
-            { "name": "La República", "url": "https://www.larepublica.cat/noticies/obres-al-tunel-del-garraf-tres-mesos-o-mes-de-caos-anunciat-a-rodalies-al-sud" }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260316/collserola-intensifica-captura-jabalies-trampas-gigantes-silenciador-anestesia-peste-porcina-cataluna-128035680" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260313/cierre-collserola-peste-porcina-que-se-puede-hacer-127907867" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/rutina-desinfeccio-per-anar-collserola-en-que-consisteix-699385/" }
           ]
         },
         {
           "headline": "Barcelona reactivates low-emission zone after two-month suspension",
-          "body": "Mayor Jaume Collboni has signed a decree reactivating Barcelona's Zona de Bajas Emisiones (ZBE) starting today, reinstating €200 fines for vehicles without environmental stickers. The zone had been suspended for nearly two months at the Generalitat's request due to the Rodalies rail crisis — with commuter trains unreliable, authorities couldn't justify penalizing drivers who had no alternative. With train service now deemed \"significantly improved,\" the restriction returns, though the Garraf tunnel closure starting today may test that logic.",
+          "body": "Barcelona's low-emission zone is back in effect Monday after nearly two months of suspension caused by the Rodalies commuter rail chaos following the Gelida train accident on January 20. Mayor Jaume Collboni signed the decree to reactivate sanctions for vehicles without environmental stickers after the Generalitat confirmed that the exceptional circumstances justifying the suspension had ended. Separately, three months of construction work on the Garraf tunnels will continue to cause disruptions on the R2 Sud and regional rail lines.",
           "sources": [
-            { "name": "Metropoli Abierta", "url": "https://metropoliabierta.elespanol.com/movilidad/20260315/collboni-reactiva-zona-bajas-emisiones-barcelona-lunes-caos-rodalies/1003742741556_0.html" },
-            { "name": "El Diario", "url": "https://www.eldiario.es/catalunya/barcelona-resto-ciudades-reactivan-zonas-bajas-emisiones-suspendidas-crisis-ferroviaria_1_13069257.html" }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260316/zbe-barcelona-reactiva-lunes-suspension-127978317" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/canvis-en-la-mobilitat-barcelona-reactiva-aquest-dilluns-la-zona-de-baixes-emissions/noticia/3399699/" }
           ]
         },
         {
-          "headline": "Severe wind alerts across Catalunya with gusts up to 140 km/h",
-          "body": "Protecció Civil activated its VENTCAT emergency plan yesterday with red alerts for the Alt Empordà, Berguedà, Ripollès, and northern Cerdanya, where gusts of up to 140 km/h were forecast. ES-Alert messages were sent to mobile phones in affected areas. Three people were injured by falling debris. Roads in parts of Girona province were cut, and heavy snowfall hit mountain areas. Conditions are expected to ease through today, though wind advisories remain in effect for parts of the coast.",
+          "headline": "Hospital del Mar unveils major expansion with world-first robotic pharmacy",
+          "body": "Barcelona's Hospital del Mar has inaugurated 31,000 square meters of new facilities after four years of construction costing 162 million euros. The expansion includes four new high-complexity operating theatres, a post-COVID ICU designed with pandemic lessons, a heliport, expanded emergency departments, and the world's first fully robotic hospital pharmacy service that increases medication storage capacity by 60 percent. President Salvador Illa attended the opening and confirmed that a third expansion phase will be commissioned this year. The hospital serves over 300,000 people in neighborhoods including the Vila Olimpica, Raval, and La Mina.",
           "sources": [
-            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/tiempo/20260315/tiempo-hoy-catalunya-lluvia-viento-ultima-hora-directo-127953966" },
-            { "name": "20 Minutos", "url": "https://www.20minutos.es/nacional/alerta-roja-cataluna-por-viento-hasta-140-kilometros-por-hora-menorca-por-olas-14-metros_6946144_0.html" }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sanidad/20260316/nuevo-hospital-mar-tendra-cuatro-quirofanos-mas-uci-post-covid-terraza-arboles-pacientes-128028333" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/quirofans-nous-heliport-jardi-terapeutic-hospital-mar-700114/" }
+          ]
+        },
+        {
+          "headline": "Barcelona launches first fully electric double-decker tourist buses",
+          "body": "Barcelona's public transport operator TMB is putting its first 100 percent electric double-decker tourist buses into service starting Tuesday. Ten of the 18 ordered vehicles, built by Galician manufacturer UNVI at a cost of 17 million euros, have been delivered, with the rest expected by summer. The 12-meter buses feature overnight charging, rear cameras, blind-spot detection, and pedestrian alert systems. The fleet replacement will reduce emissions by 1,285 tonnes of CO2 and 7 tonnes of NOx annually.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260316/barcelona-estrena-primeros-autobuses-pisos-128040630" }
           ]
         }
       ]
