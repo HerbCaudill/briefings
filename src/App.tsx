@@ -103,7 +103,7 @@ function App() {
             <h3 className="font-bold leading-snug text-sm my-3">{section.title}</h3>
             {section.stories.map(story => (
               <div key={story.headline}>
-                <h4>{story.headline}</h4>
+                <h4 className="leading-tight">{story.headline}</h4>
                 <p className="font-mono font-normal text-xs leading-snug text-gray-700 mb-1">
                   {story.body}
                 </p>
