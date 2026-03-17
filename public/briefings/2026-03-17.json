@@ -1,0 +1,186 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "European allies reject Trump's call to send warships to Strait of Hormuz",
+          "body": "European countries have firmly rejected Donald Trump's demand that NATO allies send warships to help reopen the Strait of Hormuz, which Iran has effectively blocked since the US-Israel war on Iran began 16 days ago. Germany ruled out any military participation, with Defence Minister Boris Pistorius asking what European frigates could accomplish that the US Navy cannot manage alone. The UK's Keir Starmer said Britain would not be drawn into the wider war but was working on a viable plan, while Italy said diplomacy must prevail. Trump warned of a very bad future for NATO if allies refuse to help, and said some countries were very enthusiastic while others were not. The strait carried about a fifth of the world's oil and liquified gas before its closure, and the blockade has sent energy prices soaring globally.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/europe-donald-trump-strait-hormuz-iran" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/crl4gxgkkylo" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260316/11491075/ue-debate-ampliar-mision-naval-desloquear-estrecho-ormuz.html" }
+          ]
+        },
+        {
+          "headline": "Iran hits UAE oil port and Dubai airport as Gulf attacks continue",
+          "body": "Iran launched further drone and missile attacks on the UAE, striking the strategically vital port and oil storage facility at Fujairah and causing fires near Dubai's international airport, the world's busiest for international passengers. UAE air defence systems intercepted six ballistic missiles and 21 drones, but a rocket attack killed a Palestinian national on the outskirts of Abu Dhabi. Iran has launched over 1,900 missiles and drones at the UAE since the war began. The attacks on Fujairah are particularly significant because the port sits on the Gulf of Oman outside the Strait of Hormuz, making it a crucial bypass for global oil shipments. Analysts say the strikes demonstrate the vulnerability of Gulf infrastructure and Iran's intent to disrupt energy flows.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/crl4gxgkkylo" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets" }
+          ]
+        },
+        {
+          "headline": "Trump delays China summit as Iran war eclipses foreign policy agenda",
+          "body": "President Trump said he is seeking to delay his planned visit to China by about a month due to the Iran war, saying it is important he remain in Washington to oversee the conflict. The summit with Xi Jinping had been scheduled for late March. Treasury Secretary Scott Bessent insisted the postponement was unrelated to trade disagreements or requests for China's help in the Gulf, though Trump had earlier told the Financial Times the visit might be delayed if Beijing did not help unblock the Strait of Hormuz. Tensions between the two countries have grown, fuelled by the war, as China is a major buyer of Iranian energy exports and has criticised the US-Israeli strikes. US and Chinese representatives have been meeting in Paris for trade negotiations.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cn9e0z7v3nxo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/16/trump-china-summit-iran-war" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war" }
+          ]
+        },
+        {
+          "headline": "Afghanistan accuses Pakistan of hospital strike killing 400 in Kabul",
+          "body": "Afghanistan's Taliban government has accused Pakistan of launching an air strike on a drug rehabilitation hospital in Kabul, killing at least 400 people and injuring 250 more. The Omar Addiction Treatment Hospital, a 2,000-bed facility, was largely destroyed, with rescue teams working to control fires and recover bodies. Pakistan denied targeting any hospital, saying its strikes precisely targeted military installations and terrorist support infrastructure in Kabul and Nangarhar province. The attack came as the deadliest fighting between the two neighbours in years entered its third week, with the UN Security Council calling on the Taliban to step up efforts to combat terrorism. Pakistan accuses Kabul of harbouring the Pakistan Taliban, which carries out attacks inside Pakistan.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/afghanistan-says-children-among-those-killed-in-latest-attacks-by-pakistan" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c4g8n7e0l40o" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed" }
+          ]
+        },
+        {
+          "headline": "Cuba suffers nationwide blackout as US oil blockade tightens",
+          "body": "Cuba's national electrical grid collapsed again on Monday, leaving millions without power in the latest of a series of widespread blackouts hitting the island. The crisis has worsened dramatically since the US captured Venezuelan president Nicolas Maduro in January, halting the approximately 35,000 barrels of oil per day that Venezuela had been sending to Cuba. No oil shipments have arrived in Cuba in three months, according to President Diaz-Canel. Trump told reporters it would be an honour to take Cuba, calling it a very weakened nation, while the island's government confirmed it was in initial stages of talks with the Trump administration. A Communist Party building in the city of Moron was recently stormed by protesters angry over food prices and power cuts.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c07j40dyx53o" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/16/cuba-electrical-grid-collapses-amid-us-oil-blockade" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/cuba-electric-grid-collapses-amid-us-oil-blockade-causing-national-blackout" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Extreme weather batters US with blizzards, tornadoes and record heat simultaneously",
+          "body": "Chaotic weather put more than half the US population in the path of extreme conditions on Monday, with blizzards burying the Midwest under nearly three feet of snow, tornadoes and severe thunderstorms sweeping from Florida to New Jersey, and an extreme heat wave building in the Southwest. Over 34 million people were under tornado watches, while 11 million faced blizzard warnings. Nearly 4,600 flights were cancelled and 11,300 delayed, with major disruptions at Chicago O'Hare and New York's LaGuardia. More than 406,000 customers lost power across Michigan, Virginia and North Carolina. Minnesota's governor authorised the National Guard for emergency operations, while Phoenix could see its earliest 100-degree day in nearly four decades later this week.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/severe-weather-storm-snow-east-coast-a8bbd037aba99aaf0cc930e91fdb72ca" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cj98meelzv3o" }
+          ]
+        },
+        {
+          "headline": "3,800 meatpacking workers strike at Colorado plant in first beef slaughterhouse walkout since 1980s",
+          "body": "Thousands of workers at JBS-owned Swift Beef company in Greeley, Colorado began a two-week strike on Monday, seeking higher wages and better healthcare in what union representatives say is the first strike at a US beef slaughterhouse since the 1980s. The plant is one of the largest meatpacking facilities in the country, and the walkout threatens to make already costly beef even more expensive for American consumers at a time when food prices are a major concern.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/meatpacking-plant-strike-jbs-greeley-colorado-02e9d57762af09a609b34d8e577f0c37" }
+          ]
+        },
+        {
+          "headline": "Wyoming governor signs six-week abortion ban despite misgivings",
+          "body": "Wyoming Governor Mark Gordon signed a ban on abortions after embryonic cardiac activity can be detected, generally at about six weeks of pregnancy and often before women know they are pregnant. The signing makes Wyoming the fifth state to bar abortions at that stage, joining Florida, Georgia, Iowa and South Carolina. Gordon, a Republican, expressed misgivings about the law's lack of exceptions for rape or incest, and acknowledged it would likely trigger new litigation after the state's Supreme Court struck down a total abortion ban in January. The president of Wyoming's only abortion clinic said she was prepared to challenge the ban in court.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/wyoming-abortion-ban-cardiac-activity-gordon-dc7873edfea37389568434cf781ac9eb" }
+          ]
+        },
+        {
+          "headline": "Utah mother who wrote grief book found guilty of poisoning husband with fentanyl",
+          "body": "Kouri Richins, a Utah mother who published a children's book about coping with loss after her husband's sudden death, has been found guilty of his murder. A jury deliberated for about three hours before convicting her of fatally poisoning Eric Richins with a fentanyl-laced drink in March 2022. Prosecutors presented evidence that she had racked up millions in debt, taken out life insurance policies on her husband, and was having an extramarital affair. She had also been convicted of attempted murder for an earlier poisoning attempt using a sandwich. The most serious charge, aggravated murder, carries 25 years to life in prison.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cdxg1nx2r61o" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/16/us/kouri-richins-murder-verdict.html" }
+          ]
+        },
+        {
+          "headline": "Last pro-Palestine protester released from immigration detention after one year",
+          "body": "Leqaa Kordia, a Palestinian woman who was the last person still in immigration detention following the Trump administration's 2025 crackdown on pro-Palestinian campus activists, was released on Monday on $100,000 bond after spending a year in custody at the Prairieland Detention Center in Texas. Her release was met by supporters, family and her legal team outside the facility. The case had drawn attention as part of a broader pattern of immigration enforcement actions against protest movements.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/leqaa-kordia-ice-immigration-trump-ec045939c3c4f637a9612da0842fd4ee" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/pro-palestine-protester-leqaa-kordia-freed-from-us-immigration-detention" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/ckgzdkg0q9go" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Castilla y Leon elections confirm PP dependence on Vox as right-wing bloc grows",
+          "body": "Sunday's elections in Castilla y Leon completed a cycle of three regional votes that show a clear rightward shift in Spanish politics. The PP won all three elections in Extremadura, Aragon and Castilla y Leon, but in none did it come close to an absolute majority, leaving it dependent on Vox as its only viable coalition partner. Vox is the only party that grew in all three regions, rising from 8% to nearly 19% in Castilla y Leon. The combined PP-Vox vote now exceeds 54% in the region. On the left, the PSOE stemmed its losses somewhat while Podemos announced a period of reflection after being wiped out. PP leader Feijoo demanded Vox stop making excuses and negotiate, while Vox leader Abascal insisted his party would govern in all three regions.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-16/el-balance-global-de-extremadura-aragon-y-castilla-y-leon-el-pp-queda-a-merced-de-vox-el-partido-que-mas-avanza.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/elecciones/elecciones-castilla-y-leon/2026/03/16/69b8129ce9cf4ad6648b4587.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491269/feijoo-acusa-vox-poner-excusas-pactar-pp-creo-esta.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260316/pp-vox-acuerdo-politica-gobierno-extremadura-elecciones-128048234" }
+          ]
+        },
+        {
+          "headline": "King Felipe VI acknowledges abuses during Spanish conquest of the Americas",
+          "body": "King Felipe VI made a significant diplomatic gesture toward Mexico by acknowledging there was much abuse during the Spanish conquest of the Americas. Speaking at an exhibition on indigenous Mexican women at Madrid's National Archaeological Museum, the king said there are things that by today's values cannot make Spain proud, though he cautioned against excessive moral presentism. The remarks came months after Foreign Minister Albares first acknowledged pain and injustice toward Mexico's indigenous peoples. Mexico's president Claudia Sheinbaum welcomed the statement as an important first step, reiterating that forgiveness ennobles governments. Mexico has long sought a formal Spanish apology for the colonial era.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/felipe-vi-reconoce-mucho-abuso-conquista-america/16982932.shtml" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/16/69b7e713e4d4d888648b459c.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491363/rey-reconoce-abusos-controversias-mexico-colonial.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260316/rey-culmina-acercamiento-mexico-mucho-abuso-conquista-america-128046006" }
+          ]
+        },
+        {
+          "headline": "Spanish government to approve emergency economic measures Friday over Iran war impact",
+          "body": "The Spanish government will approve a major package of economic measures on Friday to cushion the impact of the Iran war on energy prices. Diesel prices have risen over 28% since the conflict began, now averaging 1.84 euros per litre, while petrol has climbed 16% to 1.72 euros. The package will include significant tax relief on energy, with targeted measures for the agricultural, transport and logistics sectors most affected by fuel price increases. The government describes it as an integral response plan with both temporary measures like tax cuts and structural measures to accelerate electrification and reduce oil dependence. Coalition partners PSOE and Sumar are negotiating the details with parliamentary allies to avoid a repeat of previous legislative defeats.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-16/el-gobierno-aprobara-este-viernes-un-paquete-de-medidas-para-paliar-los-efectos-de-la-guerra-en-oriente-proximo.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/precio-diesel-caro-gasolina-guerra-iran/16982183.shtml" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260316/espana-mantiene-tropas-en-cuatro-zonas-peligro-expansion-guerra-iran-128050841" }
+          ]
+        },
+        {
+          "headline": "Doctors' strike enters second week as unions and regional governments dispute participation figures",
+          "body": "Spain's doctors' strike continued into its second week with unions estimating 58% participation while regional health authorities put the figure much lower. The SIMPA medical union reported strong support for the industrial action, which centres on demands for improvements to the national healthcare workers' statute. The dispute comes at a difficult time for the health system, with ongoing debates about working conditions and staffing levels across Spain's autonomous communities.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/simpa-seguimiento-huelga-medicos/16982931.shtml" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sanidad/20260316/baile-cifras-primera-jornada-nueva-huelga-medicos-sindicatos-estiman-comunidades-bajan-128024875" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Education strike begins across Catalunya with road blockades and mass demonstration in Barcelona",
+          "body": "A week of rolling education strikes began on Monday in Catalunya, with the USTEC union reporting 70% participation in the Barcelones and Baix Llobregat regions while the Education Department put the figure at 32%. Thousands of teachers blocked major road access points to Barcelona from before 7am, cutting the Gran Via near Can Batllo and later marching to Placa Espanya. A midday demonstration from Placa Urquinaona to Placa Sant Jaume drew between 8,000 people according to police and 25,000 according to USTEC. Protesters also occupied the headquarters of the Institut Catala de Finances and blocked the C-31 motorway at Badalona. The strikes were called by unions that rejected a deal reached last week between the Catalan government and the UGT and CCOO unions.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-sector-de-leducacio-repren-les-protestes-comenca-una-setmana-de-vagues-per-territoris/noticia/3399723/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260317/huelga-profesores-educacion-catalunya-ultima-hora-directo-127998634" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/setmana-vaga-mestres-estudiants-punts-calents-barcelona-699463/" }
+          ]
+        },
+        {
+          "headline": "Barcelona reactivates low emissions zone after two-month suspension over Rodalies crisis",
+          "body": "Barcelona's low emissions zone was reactivated on Monday after the Catalan government declared that the exceptional circumstances justifying its suspension had ended. The ZBE had been deactivated since January 22 due to the ongoing Rodalies commuter rail crisis, which left many workers dependent on their cars. The most polluting vehicles are now once again banned from circulating within the Barcelona ring roads on weekdays from 7am to 8pm. Meanwhile, free Rodalies and regional train services have been extended until March 31, as significant service disruptions continue across the network, compounded by new works in the Garraf tunnels affecting the R2 Sud line.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/canvis-en-la-mobilitat-barcelona-reactiva-aquest-dilluns-la-zona-de-baixes-emissions/noticia/3399699/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260316/zbe-barcelona-reactiva-lunes-suspension-127978317" }
+          ]
+        },
+        {
+          "headline": "Hospital del Mar unveils major expansion with world-first robotised pharmacy",
+          "body": "Barcelona's Hospital del Mar inaugurated the second phase of its major renovation on Monday, adding 31,000 square metres of new space at a cost of 162 million euros. The expansion includes four new high-complexity operating theatres, a post-COVID ICU designed with lessons learned from the pandemic, a new pain unit, expanded emergency facilities, a heliport, and the world's first robotised hospital pharmacy service, which increases medication storage capacity by 60%. President Salvador Illa and Mayor Jaume Collboni attended the ceremony. The hospital serves over 300,000 people across diverse neighbourhoods from the Vila Olimpica to the Raval. A third and final expansion phase is still planned.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sanidad/20260316/nuevo-hospital-mar-tendra-cuatro-quirofanos-mas-uci-post-covid-terraza-arboles-pacientes-128028333" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/quirofans-nous-heliport-jardi-terapeutic-hospital-mar-700114/" }
+          ]
+        },
+        {
+          "headline": "Collserola steps up wild boar capture operations amid African swine fever outbreak",
+          "body": "Authorities have intensified operations to capture and eliminate wild boar in Barcelona's Collserola park as part of efforts to contain an African swine fever outbreak. With the area closest to the original outbreak near Bellaterra now largely cleared, operations have shifted to the urban-adjacent parkland where an estimated 500 boar remain. The Agents Rurals are leading the operation using American-made Pig Brig net traps capable of capturing entire family groups, supplemented by night shooting with silencers and anaesthetic darts. Public access to Collserola remains closed, and wildlife corridors are sealed to prevent boar from dispersing. The regular hunting season ends March 31, after which the government agency will be solely responsible for population control.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260316/collserola-intensifica-captura-jabalies-trampas-gigantes-silenciador-anestesia-peste-porcina-cataluna-128035680" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/rutina-desinfeccio-per-anar-collserola-en-que-consisteix-699385/" }
+          ]
+        },
+        {
+          "headline": "Archaeological dig in Born uncovers 1714 street and siege damage from demolished neighbourhood",
+          "body": "Excavations on Carrer Antic de Sant Joan near the Born Centre de Cultura i Memoria have uncovered a 20-metre stretch of the historic Carrer Caldes, part of the Ribera neighbourhood demolished after the 1714 siege of Barcelona. Archaeologists have identified remains of eight to nine houses with evidence of bombardment damage, including four cannonballs embedded in a facade. The finds include large ceramic storage jars, coins, and structures related to fish processing, consistent with historical records showing the area was home to fresh fish shops, salt fish dealers and taverns near the port. Some walls may date back to the 16th century, and deeper excavation could reveal Islamic and late Roman-era remains.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/unes-obres-al-born-fan-aflorar-un-carrer-del-1714-impactes-del-setge-i-cases-del-barri-desaparegut/noticia/3399161/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
