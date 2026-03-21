@@ -1,0 +1,192 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Iran war enters fourth week as Trump says conflict could wind down in weeks",
+          "body": "The US-Iran war entered its fourth week with President Trump saying the conflict could wind down in \"four to six weeks\" while simultaneously calling NATO allies \"cowards\" for not joining the fight to reopen the Strait of Hormuz. Khamenei issued a defiant Nowruz message claiming Iran has already \"defeated\" the enemy, while Hezbollah claimed a record 55 attacks on Israeli forces in a single day. The US is considering deploying elite special operations forces to secure Iran's nuclear materials, though no decision has been made. Meanwhile, the UK approved the use of its bases for US operations targeting Iranian missile installations threatening shipping in the strait, though London stressed it would not participate directly in offensive strikes.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/live/ce84073mr06t" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/3/21/iran-war-live-trump-says-other-nations-have-to-protect-hormuz-from-iran" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/21/donald-trump-surprised-australia-strait-of-hormuz-fuel-prices" }
+          ]
+        },
+        {
+          "headline": "US lifts sanctions on Iranian oil in bid to contain energy price surge",
+          "body": "The US Treasury issued a short-term authorisation permitting the sale of approximately 140 million barrels of Iranian oil currently stranded on vessels at sea, in a dramatic reversal aimed at easing the global energy crunch caused by the war. Treasury Secretary Scott Bessent said the waiver, valid until April 19, would bring oil to markets quickly, though experts warned the impact on prices would be limited. The move has drawn sharp criticism from sanctions specialists, who noted the paradox of allowing Iran to sell oil that could fund its war effort. The US has also released strategic reserves and eased some Russian oil sanctions as it scrambles to find supply, the latter decision sparking backlash from European leaders concerned about strengthening Putin's regime.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c9d415g55nno" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/20/us-sanctions-iranian-oil" }
+          ]
+        },
+        {
+          "headline": "Chuck Norris, martial artist and Hollywood star, dies at 86",
+          "body": "Chuck Norris, the martial arts champion turned Hollywood action star known for Walker, Texas Ranger and his iconic fight scene with Bruce Lee in The Way of the Dragon, has died at 86. His family announced the sudden death on Instagram, describing him as \"a devoted husband, a loving father and grandfather, and the heart of our family.\" Tributes poured in from Sylvester Stallone, Dolph Lundgren, and President Trump, who said he had \"the highest respect\" for Norris. Born Carlos Ray Norris in Oklahoma in 1940, he began training in martial arts while stationed in South Korea with the US Air Force, earning black belts in multiple disciplines before transitioning to acting on the advice of Steve McQueen. His legacy as an internet meme icon also drew widespread remembrance online.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c0le8e5jg1xo" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/walker-texas-ranger-star-and-martial-arts-icon-chuck-norris-dies-at-86" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/gente/20260321/11495322/muere-chuck-norris-sobrevive-meme.html" }
+          ]
+        },
+        {
+          "headline": "French officer leaks aircraft carrier location via Strava fitness app",
+          "body": "A French naval officer inadvertently revealed the location of the aircraft carrier Charles de Gaulle by logging a 35-minute run on the Strava fitness app while exercising on deck. Le Monde reported the officer recorded the activity on March 13 using a smartwatch, creating a map showing the vessel's position northwest of Cyprus, about 100 km from the Turkish coast. The carrier, carrying 20 fighter jets, is the centrepiece of a strike group deployed to the eastern Mediterranean as part of France's bolstered military presence during the Iran war. The French armed forces said the incident \"did not comply with current instructions\" and pledged appropriate measures. It is the latest in a series of security breaches involving the app, which has previously exposed the locations of bodyguards for Macron, Biden, and Putin.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cd9vdel17wqo" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260320/11494811/descuido-militar-frances-entreno-alta-mar-filtra-posicion-exacta-portaavions-charles-gaulle.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/la-deixadesa-dun-mariner-a-lapp-strava-revela-la-ubicacio-del-portaavions-charles-de-gaulle/noticia/3400848/" }
+          ]
+        },
+        {
+          "headline": "Elon Musk misled Twitter investors during 2022 takeover, jury finds",
+          "body": "A San Francisco federal jury unanimously found that Elon Musk made intentionally misleading public statements during his 2022 Twitter acquisition, artificially lowering the stock price by between $3 and $8 per share. The class-action suit was brought by investors who sold shares at a loss after Musk publicly raised concerns about bot accounts and suggested he might abandon the $44 billion deal. Lead plaintiff Brian Belgrave, who sold thousands of shares in July 2022 at well below the eventual $54.20 per share acquisition price, told the jury he had been \"screwed\" and \"cheated.\" Musk had testified that people read too much into his tweets, at one point conceding that if the trial were about whether he had made \"stupid tweets,\" he would plead guilty.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c62j3yl842eo" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Record March heat wave shatters temperature records across the Southwest",
+          "body": "A historic heat wave is gripping the US Southwest with temperatures reaching 112 degrees Fahrenheit (44.4 Celsius) in multiple Arizona and Southern California communities, shattering the highest March temperature ever recorded in the United States. Scientists from World Weather Attribution said the heat would have been \"virtually impossible\" without human-caused climate change. The area of the US experiencing extreme weather has doubled in the past five years compared to 20 years ago, and the country is breaking 77 percent more hot temperature records now than in the 1970s. Over half the country faces extreme weather simultaneously, with blizzards in the East and triple-digit heat in the West, prompting experts to classify the event alongside catastrophic weather disasters like the 2021 Pacific Northwest heat dome and Hurricane Helene.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/heat-southwest-warming-climate-disasters-extreme-deadly-0c3ef415241d3275fd9c260d57ccc3e5" },
+            { "name": "AP News", "url": "https://apnews.com/article/severe-weather-storm-snow-east-coast-a8bbd037aba99aaf0cc930e91fdb72ca" }
+          ]
+        },
+        {
+          "headline": "Trump administration sues Harvard over antisemitism, seeks billions in federal funds back",
+          "body": "The Justice Department filed a lawsuit against Harvard University alleging its leadership failed to address antisemitism on campus, seeking to freeze existing grants and recover billions in taxpayer subsidies already paid. The suit, filed in federal court in Massachusetts, asks a judge to require Harvard to call police to arrest protesters blocking parts of campus and to appoint a government-approved independent monitor. Harvard responded that it \"cares deeply\" about its Jewish and Israeli community and has taken \"substantive, proactive steps\" to address antisemitism. The lawsuit is the latest escalation in the Trump administration's protracted battle with the elite university, which has become a flashpoint in broader debates about campus protests and federal funding.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/trump-harvard-civil-rights-lawsuit-4b70863c7cf18703a6398e8189791135" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/trump-administration-seeks-billions-from-harvard-over-anti-semitism-claims" }
+          ]
+        },
+        {
+          "headline": "Federal prosecutors move to drop charges against officers in Breonna Taylor case",
+          "body": "Federal prosecutors asked a judge to dismiss the charges against two former Louisville police officers accused of falsifying the warrant that led to the fatal raid on Breonna Taylor's apartment in March 2020. Prosecutors said their review concluded the charges against former Detective Joshua Jaynes and former Sergeant Kyle Meany should be \"dismissed in the interest of justice,\" after judges had twice reduced felony charges to misdemeanors, finding no direct link between the false warrant information and Taylor's death. Taylor, who was 26 and Black, was shot to death when police broke down her door while serving a no-knock drug warrant looking for a former boyfriend who was no longer there. Her killing became a focal point of the 2020 racial justice protests following the murder of George Floyd.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/breonna-taylor-shooting-charges-dropped-da7af3049b7eb8a24c1333e0be3c1788" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/politics/breonna-taylor-officer-charges.html" }
+          ]
+        },
+        {
+          "headline": "Judge strikes down Pentagon press restrictions, vindicating press freedom",
+          "body": "A federal judge ruled against Pentagon policies restricting journalists' access, siding with The New York Times in a lawsuit that challenged the Defense Department's approach to press coverage. The ruling was hailed as a vindication of independent journalism and First Amendment protections, coming at a time of heightened tensions between the media and the government over coverage of the Iran war. The decision reinforces the constitutional principle that military operations, even in wartime, do not exempt the government from respecting press freedoms.",
+          "sources": [
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/federal-judge-constitution-press-freedom.html" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/us-judge-sides-with-new-york-times-against-pentagon-journalism-policies" }
+          ]
+        },
+        {
+          "headline": "Cesar Chavez faces posthumous abuse allegations as cities remove memorials",
+          "body": "Cities across the United States are rapidly renaming streets and removing monuments honouring civil rights icon Cesar Chavez following allegations that he sexually abused girls over a period of years. Fresno took 30 years to name a boulevard after Chavez but reversed the decision within a day, while Denver removed a Chavez bust and renamed its annual holiday. The allegations, reported by The New York Times, have prompted a nationwide reckoning with Chavez's legacy as the founder of the United Farm Workers union, an organisation central to the labour rights movement for farmworkers in America.",
+          "sources": [
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/fresno-cesar-chavez-street-rename.html" },
+            { "name": "AP News", "url": "https://apnews.com/video/denver-removes-cesar-chavez-bust-renames-holiday-si-se-puede-day-after-sexual-abuse-allegations-22cf14eab21946dda029352013ef100d" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Sanchez approves 5 billion euro crisis package after dramatic standoff with Sumar",
+          "body": "Pedro Sanchez approved an 80-measure crisis package worth 5 billion euros to cushion the economic blow of the Iran war, including VAT cuts on fuel, electricity, and gas to 10 percent. The announcement came after an unprecedented two-hour standoff with coalition partner Sumar, which blocked the start of the extraordinary Cabinet meeting to demand a separate decree freezing rental prices. The impasse was resolved by splitting the measures into two decrees: one with the tax cuts that is expected to pass Congress with PP and Junts support, and a second on housing that Sanchez himself admitted lacks a parliamentary majority. An visibly angry Sanchez denounced the war as \"illegal\" and lamented that the 5 billion euros would have to be diverted from education, healthcare, and other public services.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260321/11495335/sanchez-salva-choque-sumar-aprobacion-dos-decretos-anticrisis.html" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-20/el-gobierno-acuerda-dividir-las-medidas-contra-la-guerra-en-dos-decretos-para-salvar-la-crisis-entre-psoe-y-sumar.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-govern-espanyol-rebaixara-liva-dels-carburants-al-10-per-la-guerra-a-lorient-mitja/noticia/3400687/" }
+          ]
+        },
+        {
+          "headline": "Trump considers withdrawing from US military bases in Spain",
+          "body": "President Trump said he would support withdrawing from the shared US-Spanish military bases at Rota and Moron de la Frontera, backing Republican calls to punish NATO allies who refuse to assist in the Strait of Hormuz operation. Trump called NATO a \"paper tiger\" without the US and labelled its members \"cowards,\" following Spain's refusal to allow American aircraft to use the bases for strikes against Iran. The threat escalates a weeks-long confrontation with Madrid, during which Trump already threatened to \"cut all trade\" with Spain and called it a \"terrible ally.\" The bases have been shared since a 1953 bilateral agreement between Franco and the US, making withdrawal simpler than trade measures that would require EU involvement.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260320/11495401/trump-sopesa-salir-rota-moron.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/internacional/20260320/trump-bases-eeuu-espana-128223889" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260320/trump-retirada-bases-espana-ormuz/16990935.shtml" }
+          ]
+        },
+        {
+          "headline": "IMF cuts Spain's growth forecast to 2.1% due to Iran war impact",
+          "body": "The International Monetary Fund revised Spain's 2026 GDP growth forecast down two tenths to 2.1 percent, citing the impact of the Iran war on oil prices and economic uncertainty. The IMF noted that Spain's economy continues to outperform its eurozone peers and that its heavy investment in renewable energy has reduced vulnerability to gas price shocks compared to the 2022 Ukraine crisis. However, oil remains a significant exposure. Inflation is projected to rise to 3 percent this year before falling back to 2.2 percent in 2027, with the main downside risk being a prolonged conflict that would hit GDP more severely and push inflation higher.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/economia/20260320/11495254/fmi-recorta-dos-decimas-crecimiento-pib-espana-2-1-impacto-guerra-iran.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/economia/20260320/fmi-reclama-espana-introducir-limites-128231282" }
+          ]
+        },
+        {
+          "headline": "Adamuz train crash investigation finds undisclosed track removal by Adif",
+          "body": "The judge investigating the January 18 high-speed train derailment near Adamuz, Cordoba, discovered that infrastructure manager Adif had removed 42 metres of track from the crash area without informing the court, on top of the 36 metres it had declared. The finding emerged during a site inspection led by Judge Cristina Pastor, who had previously reprimanded Adif for giving only two days' notice before track maintenance work and ordered that any future work in the area require judicial authorisation with 15 days' advance notice. Separately, the European Public Prosecutor's Office has opened an investigation into possible misappropriation of EU funds earmarked for maintenance of the Madrid-Seville high-speed rail line. Over 2,000 people marched in Huelva demanding the truth about the accident.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-20/el-juzgado-encuentra-42-metros-de-via-retirada-en-adamuz-de-los-que-adif-no-habia-informado.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260320/jueza-montoro-detecta-42-metros-via-retirada-adamuz-sin-permiso/16990550.shtml" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/andalucia/2026/03/20/69bd4d89e9cf4a78188b4588.html" }
+          ]
+        },
+        {
+          "headline": "Spain evacuates last 200 military personnel from Iraq",
+          "body": "The Spanish Defence Ministry completed the evacuation of the last 200 Spanish soldiers stationed in Iraq as the Iran conflict continues to destabilise the region. NATO has also begun relocating personnel from its Iraq training mission to Europe. The withdrawal comes as Spain maintains its strong opposition to the US-led war in Iran, with Sanchez repeatedly denouncing it as illegal under international law.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/20/69bd5f1ce9cf4a14408b4592.html" },
+            { "name": "Emporda.info", "url": "https://www.emporda.info/catalunya/2026/03/20/evacuados-militares-espanoles-estaban-mision-irak-128226473.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Massive teacher and doctor protests converge on Parliament in Barcelona",
+          "body": "A week of education strikes across Catalonia culminated Friday in a massive joint protest of teachers and doctors outside the Catalan Parliament. The USTEC teachers' union claimed over 100,000 participants marched in four columns across Barcelona before converging at Placa Tetuan, while the Guardia Urbana counted 35,000 people between both groups. Teachers are demanding renegotiation of a labour deal they say was struck behind their backs with CCOO and UGT unions, while doctors held their ninth strike day since October protesting 24-hour shifts and demanding their own collective agreement. The Education Department reported 44 percent strike participation among teaching staff, while USTEC claimed 85 percent. Union leaders warned further strikes would follow unless the Catalan government agrees to sit down and negotiate.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/vaga-general-a-leducacio-talls-a-les-entrades-de-barcelona-i-manifestacio-fins-al-parlament/noticia/3400656/" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/vaga-de-metges-el-collectiu-encara-avui-la-novena-jornada-de-protestes-des-de-loctubre/noticia/3400662/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sanidad/20260320/mil-medicos-salen-calles-barcelona-novena-jornada-huelga-octubre-cataluna-128222584" },
+            { "name": "Tot Barcelona", "url": "https://elmon.cat/societat/educacio/docents-metges-acorralen-illa-amb-una-protesta-massiva-1133237/" }
+          ]
+        },
+        {
+          "headline": "Investigation confirms American student Jimmy Gracey died in accidental fall into Barcelona harbour",
+          "body": "The Mossos d'Esquadra confirmed that security camera footage shows 20-year-old American student Jimmy Gracey falling into the water alone at the Port Olimpic in Barcelona, with no third-party involvement. His body was recovered Thursday at four metres depth near the breakwater. Gracey, who was visiting Barcelona with university friends, went missing in the early hours of Tuesday after leaving the Shoko nightclub on the beachfront promenade. The autopsy confirmed drowning as the cause of death. His disappearance had triggered a major search operation and widespread attention in both local and international media.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/sucesos/20260320/11494979/camaras-seguridad-grabaron-james-gracey-cayendo-forma-accidental-mar-barcelona.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260320/juzgado-barcelona-investiga-muerte-jimmy-128210050" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/els-mossos-creuen-que-la-mort-de-jimmy-gracey-el-noi-america-desaparegut-va-ser-accidental/noticia/3400829/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/successos/mort-jove-nordamerica-accidental-mossos-cameres-701619/" }
+          ]
+        },
+        {
+          "headline": "Barcelona approves Diagonal tramway connection linking city's two tram networks",
+          "body": "Barcelona City Council gave definitive approval to the project connecting the Trambaix and Trambesos tram networks along the Avinguda Diagonal, a long-debated infrastructure project. The plan covers a 2.8-kilometre stretch, adding 16,000 square metres of pedestrian space and 18,900 square metres of green areas. The city's investment will be 62 million euros for a new collector and 53 million for reurbanisation, with the Generalitat contributing 80 million for tram infrastructure. The project passed with votes from PSC, BComu, and ERC, while Junts, PP, and Vox voted against. The next step requires budget approval from both the city and Catalan governments.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/aprovacio-definitiva-de-la-connexio-del-tramvia-per-la-diagonal-pendent-dels-pressupostos/noticia/3400208/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/mobilitat/l10-sud-tall-setmana-santa-obres-701487/" }
+          ]
+        },
+        {
+          "headline": "Barcelona allocates 22 million euros to revitalise Avinguda Paral-lel",
+          "body": "Barcelona City Council unveiled a 22-million-euro plan to revitalise the Avinguda Paral-lel, the two-kilometre avenue historically known for its theatres stretching from Drassanes to Placa Espanya. The \"Millorem el Paral-lel\" plan, to be implemented between 2026 and 2028, includes 22 interventions across three areas: cultural revitalisation centred on the reopening of the Teatre Arnau in 2027 and integration with major city events like La Merce and Sant Jordi; commercial branding and artistic interventions; and urban transformation including sidewalk renovation, new lighting, and the reform of several plazas including Bella Dorita and Tres Xemeneies.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/barcelona-destina-22-milions-per-revitalitzar-lavinguda-parallel/noticia/3400420/" }
+          ]
+        },
+        {
+          "headline": "Catalan government agrees on crisis measures in response to Iran war",
+          "body": "The Catalan government and parliamentary parties agreed on a package of measures to address the economic effects of the Iran war, though unlike the Spanish government's approach, the Catalan plan does not include tax reductions. The measures come as the IMF's revised growth forecasts and rising energy prices put pressure on households across Spain. The Catalan package focuses on social protection measures, with details still being finalised as the political situation remains fluid amid ongoing tensions between the Generalitat and its parliamentary partners over budget negotiations.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260320/11495024/govern-partidos-pactan-paquete-medidas-efectos-guerra-bajar-impuestos.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/rebaixa-de-liva-al-10-a-carburants-gas-i-electricitat-que-inclou-el-pla-pels-efectes-de-la-guerra/noticia/3400708/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
