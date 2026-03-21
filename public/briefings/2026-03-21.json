@@ -4,45 +4,46 @@
       "title": "World",
       "stories": [
         {
-          "headline": "Iran war enters fourth week as Trump says conflict could wind down in weeks",
-          "body": "The US-Iran war entered its fourth week with President Trump saying the conflict could wind down in \"four to six weeks\" while simultaneously calling NATO allies \"cowards\" for not joining the fight to reopen the Strait of Hormuz. Khamenei issued a defiant Nowruz message claiming Iran has already \"defeated\" the enemy, while Hezbollah claimed a record 55 attacks on Israeli forces in a single day. The US is considering deploying elite special operations forces to secure Iran's nuclear materials, though no decision has been made. Meanwhile, the UK approved the use of its bases for US operations targeting Iranian missile installations threatening shipping in the strait, though London stressed it would not participate directly in offensive strikes.",
+          "headline": "Nuclear facilities targeted on both sides as Iran war escalates",
+          "body": "The Iran war entered dangerous new territory on Saturday as the US and Israel struck Iran's Natanz nuclear enrichment facility, one of the country's most important uranium sites, while Iran retaliated by firing missiles at the Israeli town of Dimona, home to Israel's nuclear research center. Iran's atomic energy organisation said no radioactive materials leaked from Natanz, and the IAEA confirmed no increase in off-site radiation levels. In Dimona, at least 39 people were injured including a ten-year-old child. Israeli Defense Minister Israel Katz warned that strikes on Iran would intensify significantly in the coming week, while Trump hinted at potentially winding down the conflict. The war has now lasted 22 days, with the US claiming to have struck 8,000 military targets across Iran.",
           "sources": [
-            { "name": "BBC News", "url": "https://www.bbc.com/news/live/ce84073mr06t" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/3/21/iran-war-live-trump-says-other-nations-have-to-protect-hormuz-from-iran" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/21/donald-trump-surprised-australia-strait-of-hormuz-fuel-prices" }
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260321/11495855/iran-ataca-central-nuclear-israeli-dimona.html" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/live/ce84073mr06t" }
           ]
         },
         {
-          "headline": "US lifts sanctions on Iranian oil in bid to contain energy price surge",
-          "body": "The US Treasury issued a short-term authorisation permitting the sale of approximately 140 million barrels of Iranian oil currently stranded on vessels at sea, in a dramatic reversal aimed at easing the global energy crunch caused by the war. Treasury Secretary Scott Bessent said the waiver, valid until April 19, would bring oil to markets quickly, though experts warned the impact on prices would be limited. The move has drawn sharp criticism from sanctions specialists, who noted the paradox of allowing Iran to sell oil that could fund its war effort. The US has also released strategic reserves and eased some Russian oil sanctions as it scrambles to find supply, the latter decision sparking backlash from European leaders concerned about strengthening Putin's regime.",
+          "headline": "Iran fires missiles at US-UK military base on Diego Garcia",
+          "body": "Iran targeted the joint US-UK military base on Diego Garcia in the Indian Ocean with two ballistic missiles, according to reports from the Wall Street Journal and CNN. One missile reportedly failed in flight while the other was intercepted by a US warship, with neither reaching its target. UK Foreign Secretary Yvette Cooper denounced the attack as a reckless escalation but insisted Britain would not be drawn into a wider offensive conflict, saying the UK would only provide defensive support. The incident raised questions about Iran's missile range capabilities, as Diego Garcia lies approximately 2,350 miles from Iranian territory. The UK had recently agreed to let the US use British bases for strikes on Iranian sites threatening the Strait of Hormuz.",
           "sources": [
-            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c9d415g55nno" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/20/us-sanctions-iranian-oil" }
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c5yljdgwppzo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/21/iran-reportedly-fires-missiles-towards-uk-us-base-on-diego-garcia" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260321/11495865/iran-amplia-rango-fuego.html" }
           ]
         },
         {
-          "headline": "Chuck Norris, martial artist and Hollywood star, dies at 86",
-          "body": "Chuck Norris, the martial arts champion turned Hollywood action star known for Walker, Texas Ranger and his iconic fight scene with Bruce Lee in The Way of the Dragon, has died at 86. His family announced the sudden death on Instagram, describing him as \"a devoted husband, a loving father and grandfather, and the heart of our family.\" Tributes poured in from Sylvester Stallone, Dolph Lundgren, and President Trump, who said he had \"the highest respect\" for Norris. Born Carlos Ray Norris in Oklahoma in 1940, he began training in martial arts while stationed in South Korea with the US Air Force, earning black belts in multiple disciplines before transitioning to acting on the advice of Steve McQueen. His legacy as an internet meme icon also drew widespread remembrance online.",
+          "headline": "EU urges early gas storage as Iran war drives energy prices higher",
+          "body": "The European Commission urged member states to begin filling gas reserves immediately after Iranian attacks on Gulf energy infrastructure sent prices surging. Energy Commissioner Dan Jorgensen wrote to member states asking them to consider lowering their winter storage target to 80 percent to ease pressure during the filling period. The move followed Iran's attack on Qatar's Ras Laffan LNG complex, which knocked out 17 percent of Doha's export capacity, with repairs expected to take up to five years. Natural gas prices in the EU have risen more than 30 percent since the war began on February 28, and oil prices have soared over 50 percent. A separate analysis found the war has already produced 5 million tonnes of CO2 emissions in its first 14 days, draining the global carbon budget faster than 84 countries combined.",
           "sources": [
-            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c0le8e5jg1xo" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/walker-texas-ranger-star-and-martial-arts-icon-chuck-norris-dies-at-86" },
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/gente/20260321/11495322/muere-chuck-norris-sobrevive-meme.html" }
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/eu-urges-members-to-start-storing-winter-gas-as-iran-war-causes-price-surge" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/21/middle-east-iran-conflict-environment-climate" }
           ]
         },
         {
-          "headline": "French officer leaks aircraft carrier location via Strava fitness app",
-          "body": "A French naval officer inadvertently revealed the location of the aircraft carrier Charles de Gaulle by logging a 35-minute run on the Strava fitness app while exercising on deck. Le Monde reported the officer recorded the activity on March 13 using a smartwatch, creating a map showing the vessel's position northwest of Cyprus, about 100 km from the Turkish coast. The carrier, carrying 20 fighter jets, is the centrepiece of a strike group deployed to the eastern Mediterranean as part of France's bolstered military presence during the Iran war. The French armed forces said the incident \"did not comply with current instructions\" and pledged appropriate measures. It is the latest in a series of security breaches involving the app, which has previously exposed the locations of bodyguards for Macron, Biden, and Putin.",
+          "headline": "At least 14 killed in factory fire in South Korea",
+          "body": "A fire at a car parts factory in Daejeon, South Korea, killed at least 14 workers and injured nearly 60. About 170 workers were inside the three-storey building when the blaze broke out on Friday afternoon. The fire spread so rapidly that workers began jumping from windows before firefighters arrived. Responders were initially delayed because sodium stored at the site could explode on contact with water, requiring removal of more than 200 kilograms of reactive chemicals before hoses could be used. Nine of the dead were found in a third-floor gym locker room. The factory, owned by Anjun Industrial, is a parts supplier for Hyundai and Kia. It is the deadliest factory fire in South Korea since 23 workers died at a lithium battery plant in 2024.",
           "sources": [
-            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cd9vdel17wqo" },
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260320/11494811/descuido-militar-frances-entreno-alta-mar-filtra-posicion-exacta-portaavions-charles-gaulle.html" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/la-deixadesa-dun-mariner-a-lapp-strava-revela-la-ubicacio-del-portaavions-charles-de-gaulle/noticia/3400848/" }
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/21/south-korea-fire-daejeon-car-parts-factory" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260321/11495598/11-muertos-3-desaparecidos-incendiarse-planta-automotriz-surcoreana.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/almenys-14-morts-en-lincendi-en-una-fabrica-de-peces-de-cotxe-a-corea-del-sud/noticia/3400891/" }
           ]
         },
         {
-          "headline": "Elon Musk misled Twitter investors during 2022 takeover, jury finds",
-          "body": "A San Francisco federal jury unanimously found that Elon Musk made intentionally misleading public statements during his 2022 Twitter acquisition, artificially lowering the stock price by between $3 and $8 per share. The class-action suit was brought by investors who sold shares at a loss after Musk publicly raised concerns about bot accounts and suggested he might abandon the $44 billion deal. Lead plaintiff Brian Belgrave, who sold thousands of shares in July 2022 at well below the eventual $54.20 per share acquisition price, told the jury he had been \"screwed\" and \"cheated.\" Musk had testified that people read too much into his tweets, at one point conceding that if the trial were about whether he had made \"stupid tweets,\" he would plead guilty.",
+          "headline": "Suspense in French municipal elections as Paris, Marseille and Lyon vote",
+          "body": "Voters in France's three largest cities headed to the polls in a closely watched second round of municipal elections on Sunday, with outcomes in Paris, Marseille and Lyon all uncertain. In Paris, socialist candidate Emmanuel Gregoire, who served as deputy to outgoing mayor Anne Hidalgo, led conservative rival Rachida Dati by just two points in polls. Dati received a boost after the far-right Reconquista party withdrew to help end 25 years of left-wing rule in the capital, and President Macron is widely seen as backing her candidacy despite officially remaining neutral. Dati faces a corruption trial in September. The elections are seen as a barometer of national political sentiment ahead of the next presidential race.",
           "sources": [
-            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c62j3yl842eo" }
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260321/11495197/suspense-alcaldias-paris-marsella-lyon.html" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c87wg74wlgyo" }
           ]
         }
       ]
@@ -51,43 +52,40 @@
       "title": "US",
       "stories": [
         {
-          "headline": "Record March heat wave shatters temperature records across the Southwest",
-          "body": "A historic heat wave is gripping the US Southwest with temperatures reaching 112 degrees Fahrenheit (44.4 Celsius) in multiple Arizona and Southern California communities, shattering the highest March temperature ever recorded in the United States. Scientists from World Weather Attribution said the heat would have been \"virtually impossible\" without human-caused climate change. The area of the US experiencing extreme weather has doubled in the past five years compared to 20 years ago, and the country is breaking 77 percent more hot temperature records now than in the 1970s. Over half the country faces extreme weather simultaneously, with blizzards in the East and triple-digit heat in the West, prompting experts to classify the event alongside catastrophic weather disasters like the 2021 Pacific Northwest heat dome and Hurricane Helene.",
+          "headline": "Robert Mueller dies at 81; Trump gloats, drawing bipartisan condemnation",
+          "body": "Robert Mueller, the former FBI director and special counsel whose investigation into Russian interference in the 2016 election defined much of Trump's first term, died on Friday at 81. Mueller served as FBI director from 2001 to 2013 and was a decorated Vietnam War veteran who earned a Bronze Star and Purple Heart. His death prompted an extraordinary response from Trump, who wrote on Truth Social that he was glad Mueller was dead and that he could no longer hurt innocent people. The comment drew condemnation from both Democrats and Republicans, with former RNC chairman Michael Steele calling Trump a vile, disgusting man and multiple senators calling the president's response despicable and unfit for office.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/heat-southwest-warming-climate-disasters-extreme-deadly-0c3ef415241d3275fd9c260d57ccc3e5" },
-            { "name": "AP News", "url": "https://apnews.com/article/severe-weather-storm-snow-east-coast-a8bbd037aba99aaf0cc930e91fdb72ca" }
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/21/trump-robert-mueller-death" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c8dlj6gv0q6o" },
+            { "name": "AP News", "url": "https://apnews.com/article/nicholas-brendon-buffy-vampire-slayer-obit-ccda54d8385010587f7fb5eef7c52b82" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/former-fbi-chief-robert-mueller-dead-at-81" }
           ]
         },
         {
-          "headline": "Trump administration sues Harvard over antisemitism, seeks billions in federal funds back",
-          "body": "The Justice Department filed a lawsuit against Harvard University alleging its leadership failed to address antisemitism on campus, seeking to freeze existing grants and recover billions in taxpayer subsidies already paid. The suit, filed in federal court in Massachusetts, asks a judge to require Harvard to call police to arrest protesters blocking parts of campus and to appoint a government-approved independent monitor. Harvard responded that it \"cares deeply\" about its Jewish and Israeli community and has taken \"substantive, proactive steps\" to address antisemitism. The lawsuit is the latest escalation in the Trump administration's protracted battle with the elite university, which has become a flashpoint in broader debates about campus protests and federal funding.",
+          "headline": "Trump threatens to deploy ICE agents to airports amid DHS shutdown",
+          "body": "President Trump announced he would order Immigration and Customs Enforcement agents to take over airport security duties starting Monday unless Democrats agreed to fund the Department of Homeland Security. The threat came as a partial government shutdown caused long screening lines at major airports, with TSA officers working without pay. Trump framed the move as an immigration enforcement expansion, saying ICE agents would arrest all illegal immigrants at airports, with a particular focus on Somali immigrants. Democrats have been blocking DHS funding over demands for reforms to immigration enforcement following a Minnesota operation in which two protesters were fatally shot, asking for better identification requirements and a new code of conduct for federal agents.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/trump-harvard-civil-rights-lawsuit-4b70863c7cf18703a6398e8189791135" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/trump-administration-seeks-billions-from-harvard-over-anti-semitism-claims" }
+            { "name": "AP News", "url": "https://apnews.com/article/airport-screening-lines-ice-trump-shutdown-dhs-9c36ce9cc31647b59867fd2b62f9379d" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c3ex9nq2qywo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/21/trump-threatens-to-send-ice-agents-to-airports-unless-dhs-deal-reached" }
           ]
         },
         {
-          "headline": "Federal prosecutors move to drop charges against officers in Breonna Taylor case",
-          "body": "Federal prosecutors asked a judge to dismiss the charges against two former Louisville police officers accused of falsifying the warrant that led to the fatal raid on Breonna Taylor's apartment in March 2020. Prosecutors said their review concluded the charges against former Detective Joshua Jaynes and former Sergeant Kyle Meany should be \"dismissed in the interest of justice,\" after judges had twice reduced felony charges to misdemeanors, finding no direct link between the false warrant information and Taylor's death. Taylor, who was 26 and Black, was shot to death when police broke down her door while serving a no-knock drug warrant looking for a former boyfriend who was no longer there. Her killing became a focal point of the 2020 racial justice protests following the murder of George Floyd.",
+          "headline": "Hawaii suffers worst flooding in 20 years as dam threatens to fail",
+          "body": "More than 5,500 people were evacuated as Hawaii endured its worst flooding in two decades, with authorities warning a 120-year-old dam on Oahu could fail. More than 230 people were rescued as flash floods inundated streets, swept away vehicles and lifted homes in communities north of Honolulu. Some areas received more than 10 inches of rainfall with winds reaching 100 miles per hour. Governor Josh Green said there were no reported fatalities but warned the storm caused enormous damage to airports, schools, roads and hospitals, with estimated costs potentially exceeding one billion dollars. It was the second severe storm to hit the archipelago in a week.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/breonna-taylor-shooting-charges-dropped-da7af3049b7eb8a24c1333e0be3c1788" },
-            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/politics/breonna-taylor-officer-charges.html" }
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c20qj970gwro" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/flash-flooding-swamps-hawaii-prompting-evacuation-orders-for-5500-people" },
+            { "name": "AP News", "url": "https://apnews.com/article/hawaii-flooding-heavy-rain-oahu-north-shore-e4b4f3642491b3e5de4a5ad7b82e9f39" }
           ]
         },
         {
-          "headline": "Judge strikes down Pentagon press restrictions, vindicating press freedom",
-          "body": "A federal judge ruled against Pentagon policies restricting journalists' access, siding with The New York Times in a lawsuit that challenged the Defense Department's approach to press coverage. The ruling was hailed as a vindication of independent journalism and First Amendment protections, coming at a time of heightened tensions between the media and the government over coverage of the Iran war. The decision reinforces the constitutional principle that military operations, even in wartime, do not exempt the government from respecting press freedoms.",
+          "headline": "Wyoming signs six-week abortion ban as Trump administration targets state abortion coverage",
+          "body": "Wyoming's governor signed a ban on abortions after approximately six weeks of pregnancy while expressing misgivings about the law's strictness. Separately, the Trump administration launched investigations into states that mandate health insurance coverage for abortion, and a judge in Arizona struck down old abortion restrictions that clashed with voter-approved constitutional guarantees. The moves came alongside a Nevada case in which a woman who was convicted under a 1911 law after suffering a miscarriage received a 100,000 dollar settlement from the state. Abortion access continued to be a major legal and political battleground across multiple states.",
           "sources": [
-            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/federal-judge-constitution-press-freedom.html" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/20/us-judge-sides-with-new-york-times-against-pentagon-journalism-policies" }
-          ]
-        },
-        {
-          "headline": "Cesar Chavez faces posthumous abuse allegations as cities remove memorials",
-          "body": "Cities across the United States are rapidly renaming streets and removing monuments honouring civil rights icon Cesar Chavez following allegations that he sexually abused girls over a period of years. Fresno took 30 years to name a boulevard after Chavez but reversed the decision within a day, while Denver removed a Chavez bust and renamed its annual holiday. The allegations, reported by The New York Times, have prompted a nationwide reckoning with Chavez's legacy as the founder of the United Farm Workers union, an organisation central to the labour rights movement for farmworkers in America.",
-          "sources": [
-            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/20/us/fresno-cesar-chavez-street-rename.html" },
-            { "name": "AP News", "url": "https://apnews.com/video/denver-removes-cesar-chavez-bust-renames-holiday-si-se-puede-day-after-sexual-abuse-allegations-22cf14eab21946dda029352013ef100d" }
+            { "name": "AP News", "url": "https://apnews.com/article/wyoming-abortion-ban-cardiac-activity-gordon-dc7873edfea37389568434cf781ac9eb" },
+            { "name": "AP News", "url": "https://apnews.com/article/abortion-investigation-weldon-amendment-hhs-trump-ef31c81d25b7f38831258098d6c9e516" }
           ]
         }
       ]
@@ -96,46 +94,36 @@
       "title": "Spain",
       "stories": [
         {
-          "headline": "Sanchez approves 5 billion euro crisis package after dramatic standoff with Sumar",
-          "body": "Pedro Sanchez approved an 80-measure crisis package worth 5 billion euros to cushion the economic blow of the Iran war, including VAT cuts on fuel, electricity, and gas to 10 percent. The announcement came after an unprecedented two-hour standoff with coalition partner Sumar, which blocked the start of the extraordinary Cabinet meeting to demand a separate decree freezing rental prices. The impasse was resolved by splitting the measures into two decrees: one with the tax cuts that is expected to pass Congress with PP and Junts support, and a second on housing that Sanchez himself admitted lacks a parliamentary majority. An visibly angry Sanchez denounced the war as \"illegal\" and lamented that the 5 billion euros would have to be diverted from education, healthcare, and other public services.",
+          "headline": "Double gender violence tragedy: girl killed in Torrevieja, woman shot dead in Zaragoza",
+          "body": "Spain was shaken by two gender violence killings on Saturday. In Torrevieja, Alicante, a three-year-old girl was killed by her father in what investigators are treating as vicarious violence, in which a parent harms children to punish the other parent. The mother had gone to police late Friday night to report death threats against their daughter, but when officers arrived at the father's home they found both him and the child dead. Separately in Zaragoza, a man shot a woman dead in the street before taking his own life. The government's delegate in Valencia called vicarious violence an atrocious form of terrorism and urged society not to treat gender violence as a private family matter.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260321/11495335/sanchez-salva-choque-sumar-aprobacion-dos-decretos-anticrisis.html" },
-            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-20/el-gobierno-acuerda-dividir-las-medidas-contra-la-guerra-en-dos-decretos-para-salvar-la-crisis-entre-psoe-y-sumar.html" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-govern-espanyol-rebaixara-liva-dels-carburants-al-10-per-la-guerra-a-lorient-mitja/noticia/3400687/" }
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260321/hombre-mata-mujer-zaragoza-caso-violencia-genero/16991168.shtml" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/valencia/20260321/11495670/guardia-civil-investiga-asesinato-violencia-vicaria-nina-torrevieja.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sucesos/20260321/investigan-asesinato-menor-torrevieja-violencia-vicaria-128245664" }
           ]
         },
         {
-          "headline": "Trump considers withdrawing from US military bases in Spain",
-          "body": "President Trump said he would support withdrawing from the shared US-Spanish military bases at Rota and Moron de la Frontera, backing Republican calls to punish NATO allies who refuse to assist in the Strait of Hormuz operation. Trump called NATO a \"paper tiger\" without the US and labelled its members \"cowards,\" following Spain's refusal to allow American aircraft to use the bases for strikes against Iran. The threat escalates a weeks-long confrontation with Madrid, during which Trump already threatened to \"cut all trade\" with Spain and called it a \"terrible ally.\" The bases have been shared since a 1953 bilateral agreement between Franco and the US, making withdrawal simpler than trade measures that would require EU involvement.",
+          "headline": "Government boosts defense spending 25% this year without congressional approval",
+          "body": "The Spanish government has increased defense spending by more than 25 percent so far in 2026, reaching 2.135 billion euros through executive mechanisms that bypass Congress, where it lacks a majority. The largest allocation was 1.339 billion euros approved on March 10 via a transfer from the Finance Ministry. The latest spending, approved this week, included 29.7 million euros for anti-drone defense systems for navy ships. The increases come amid the Iran war and separately from a 1 billion euro bilateral military aid commitment to Ukraine announced during President Zelenski's visit to Madrid. Coalition partner Izquierda Unida criticized the Ukraine spending as prolonging the war.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260320/11495401/trump-sopesa-salir-rota-moron.html" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/internacional/20260320/trump-bases-eeuu-espana-128223889" },
-            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260320/trump-retirada-bases-espana-ormuz/16990935.shtml" }
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260321/gobierno-incrementa-gasto-defensa-congreso-128225960" }
           ]
         },
         {
-          "headline": "IMF cuts Spain's growth forecast to 2.1% due to Iran war impact",
-          "body": "The International Monetary Fund revised Spain's 2026 GDP growth forecast down two tenths to 2.1 percent, citing the impact of the Iran war on oil prices and economic uncertainty. The IMF noted that Spain's economy continues to outperform its eurozone peers and that its heavy investment in renewable energy has reduced vulnerability to gas price shocks compared to the 2022 Ukraine crisis. However, oil remains a significant exposure. Inflation is projected to rise to 3 percent this year before falling back to 2.2 percent in 2027, with the main downside risk being a prolonged conflict that would hit GDP more severely and push inflation higher.",
+          "headline": "Storm Therese batters Canary Islands with floods and flight cancellations",
+          "body": "Storm Therese hit the Canary Islands with heavy rain, causing 24 flight cancellations, landslides and flooding alerts. Gran Canaria declared a Level 1 emergency and urged residents to avoid travel. A migrant boat carrying more than 100 people also arrived at the port of Los Cristianos in Tenerife during the storm. Meanwhile on the mainland, the government's two crisis decrees responding to the Iran war were published in the official gazette on Saturday, entering into force Sunday. The measures include reducing VAT on electricity, gas and fuel to 10 percent, capping rent increases at 2 percent, and extending energy subsidies for vulnerable households through the end of 2026.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/economia/20260320/11495254/fmi-recorta-dos-decimas-crecimiento-pib-espana-2-1-impacto-guerra-iran.html" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/economia/20260320/fmi-reclama-espana-introducir-limites-128231282" }
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/21/69bee48be9cf4ac16a8b4575.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260321/llega-cayuco-centenar-migrantes-puerto-tinerfeno-cristianos-borrasca-therese/16991526.shtml" }
           ]
         },
         {
-          "headline": "Adamuz train crash investigation finds undisclosed track removal by Adif",
-          "body": "The judge investigating the January 18 high-speed train derailment near Adamuz, Cordoba, discovered that infrastructure manager Adif had removed 42 metres of track from the crash area without informing the court, on top of the 36 metres it had declared. The finding emerged during a site inspection led by Judge Cristina Pastor, who had previously reprimanded Adif for giving only two days' notice before track maintenance work and ordered that any future work in the area require judicial authorisation with 15 days' advance notice. Separately, the European Public Prosecutor's Office has opened an investigation into possible misappropriation of EU funds earmarked for maintenance of the Madrid-Seville high-speed rail line. Over 2,000 people marched in Huelva demanding the truth about the accident.",
+          "headline": "Junts set to block government's housing decree on rent controls",
+          "body": "The Catalan independence party Junts announced it would vote against the government's housing decree that caps rent increases at 2 percent until late 2027, saying the measure suffocates small landlords. The decree, championed by junior coalition partner Sumar after a dramatic standoff with the PSOE in Friday's cabinet meeting, faces a congressional vote on Thursday. Sumar also announced it would hold an assembly after the Andalusian elections to elect new leadership and redefine its identity following Yolanda Diaz's departure. The political turbulence comes as Podemos has separately said it will not support the government's main crisis decree unless Spain exits NATO.",
           "sources": [
-            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-20/el-juzgado-encuentra-42-metros-de-via-retirada-en-adamuz-de-los-que-adif-no-habia-informado.html" },
-            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260320/jueza-montoro-detecta-42-metros-via-retirada-adamuz-sin-permiso/16990550.shtml" },
-            { "name": "El Mundo", "url": "https://www.elmundo.es/andalucia/2026/03/20/69bd4d89e9cf4a78188b4588.html" }
-          ]
-        },
-        {
-          "headline": "Spain evacuates last 200 military personnel from Iraq",
-          "body": "The Spanish Defence Ministry completed the evacuation of the last 200 Spanish soldiers stationed in Iraq as the Iran conflict continues to destabilise the region. NATO has also begun relocating personnel from its Iraq training mission to Europe. The withdrawal comes as Spain maintains its strong opposition to the US-led war in Iran, with Sanchez repeatedly denouncing it as illegal under international law.",
-          "sources": [
-            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/20/69bd5f1ce9cf4a14408b4592.html" },
-            { "name": "Emporda.info", "url": "https://www.emporda.info/catalunya/2026/03/20/evacuados-militares-espanoles-estaban-mision-irak-128226473.html" }
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260321/junts-avanza-su-no-congreso-decreto-sobre-vivienda-ahoga-a-pequenos-propietarios/16991497.shtml" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260321/11495810/junts-tumbara-decreto-vivienda-aprobo-gobierno-topar-alquiler.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260321/junts-carga-decreto-vivienda-ahoga-128253699" }
           ]
         }
       ]
@@ -144,46 +132,36 @@
       "title": "Barcelona & Catalunya",
       "stories": [
         {
-          "headline": "Massive teacher and doctor protests converge on Parliament in Barcelona",
-          "body": "A week of education strikes across Catalonia culminated Friday in a massive joint protest of teachers and doctors outside the Catalan Parliament. The USTEC teachers' union claimed over 100,000 participants marched in four columns across Barcelona before converging at Placa Tetuan, while the Guardia Urbana counted 35,000 people between both groups. Teachers are demanding renegotiation of a labour deal they say was struck behind their backs with CCOO and UGT unions, while doctors held their ninth strike day since October protesting 24-hour shifts and demanding their own collective agreement. The Education Department reported 44 percent strike participation among teaching staff, while USTEC claimed 85 percent. Union leaders warned further strikes would follow unless the Catalan government agrees to sit down and negotiate.",
+          "headline": "Man shot dead at Badalona karaoke bar; Mossos arrest 87 repeat offenders in crackdown",
+          "body": "A 38-year-old man was fatally shot at a karaoke bar in Badalona's La Salut neighbourhood in the early hours of Saturday morning, with a second person wounded but expected to survive. The killing occurred during a large police operation as the Mossos d'Esquadra were conducting a new edition of their Pla Kanpai crackdown on repeat offenders across the Barcelona metropolitan area. The broader operation resulted in 87 arrests of individuals with a combined 293 prior police records, along with 29 criminal investigations and 232 administrative citations. In Barcelona alone, police identified 1,063 people with 2,330 combined prior offences and seized around 20 weapons.",
           "sources": [
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/vaga-general-a-leducacio-talls-a-les-entrades-de-barcelona-i-manifestacio-fins-al-parlament/noticia/3400656/" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/vaga-de-metges-el-collectiu-encara-avui-la-novena-jornada-de-protestes-des-de-loctubre/noticia/3400662/" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sanidad/20260320/mil-medicos-salen-calles-barcelona-novena-jornada-huelga-octubre-cataluna-128222584" },
-            { "name": "Tot Barcelona", "url": "https://elmon.cat/societat/educacio/docents-metges-acorralen-illa-amb-una-protesta-massiva-1133237/" }
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/sucesos/agencia/20260321/11495667/mossos-investigan-muerte-violenta-hombre-local-badalona.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/barcelona/20260321/11495714/mossos-detienen-87-multirreincidentes-dispositivo-pla-kanpai-barcelona.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/badalona/20260321/mossos-investigan-muerte-violenta-hombre-37-anos-badalona-128245267" }
           ]
         },
         {
-          "headline": "Investigation confirms American student Jimmy Gracey died in accidental fall into Barcelona harbour",
-          "body": "The Mossos d'Esquadra confirmed that security camera footage shows 20-year-old American student Jimmy Gracey falling into the water alone at the Port Olimpic in Barcelona, with no third-party involvement. His body was recovered Thursday at four metres depth near the breakwater. Gracey, who was visiting Barcelona with university friends, went missing in the early hours of Tuesday after leaving the Shoko nightclub on the beachfront promenade. The autopsy confirmed drowning as the cause of death. His disappearance had triggered a major search operation and widespread attention in both local and international media.",
+          "headline": "Unvaccinated Catalan teenager in ICU with tetanus",
+          "body": "A 17-year-old whose family refuses vaccination was admitted to intensive care in a Catalan hospital in very serious condition with a tetanus infection. The teenager had suffered a fracture in a fall about two weeks ago, and after being treated and sent home, developed neurological symptoms including spasms and muscle rigidity. Tetanus is a serious but entirely preventable disease caused by the bacterium Clostridium tetani entering the body through wounds. The case has reignited debate about vaccine refusal, with medical authorities noting that doctors could seek a court order to prioritize treatment if the family continues to reject it, given the grave risk to the minor.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/sucesos/20260320/11494979/camaras-seguridad-grabaron-james-gracey-cayendo-forma-accidental-mar-barcelona.html" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260320/juzgado-barcelona-investiga-muerte-jimmy-128210050" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/els-mossos-creuen-que-la-mort-de-jimmy-gracey-el-noi-america-desaparegut-va-ser-accidental/noticia/3400829/" },
-            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/successos/mort-jove-nordamerica-accidental-mossos-cameres-701619/" }
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260321/11495616/grave-tetanos-joven-catalan-cuya-familia-rechaza-vacunas.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/ingressat-a-luci-per-tetanus-un-menor-que-no-estaria-vacunat/noticia/3400850/" }
           ]
         },
         {
-          "headline": "Barcelona approves Diagonal tramway connection linking city's two tram networks",
-          "body": "Barcelona City Council gave definitive approval to the project connecting the Trambaix and Trambesos tram networks along the Avinguda Diagonal, a long-debated infrastructure project. The plan covers a 2.8-kilometre stretch, adding 16,000 square metres of pedestrian space and 18,900 square metres of green areas. The city's investment will be 62 million euros for a new collector and 53 million for reurbanisation, with the Generalitat contributing 80 million for tram infrastructure. The project passed with votes from PSC, BComu, and ERC, while Junts, PP, and Vox voted against. The next step requires budget approval from both the city and Catalan governments.",
+          "headline": "Hermit ibis released in Emporda wetlands after 400-year absence",
+          "body": "Nineteen hermit ibis were released into the wild at the Aiguamolls de l'Emporda natural park in the Alt Emporda, marking the return of the critically endangered species to Catalan skies after a 400-year absence. The birds, fitted with GPS tracking devices, had been raised in captivity and cared for by volunteers who wore black clothing and helmets shaped like ibis heads so the birds would see them as adoptive parents. The Emporda colony is one of just three reintroduction sites in Europe, alongside populations in the northern Alps and Andalusia. Catalonia's ecological transition secretary called the release a moment of reconciliation with nature and correcting a historical human error.",
           "sources": [
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/aprovacio-definitiva-de-la-connexio-del-tramvia-per-la-diagonal-pendent-dels-pressupostos/noticia/3400208/" },
-            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/mobilitat/l10-sud-tall-setmana-santa-obres-701487/" }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/libis-ermita-torna-a-sobrevolar-els-aiguamolls-de-lemporda-400-anys-despres/noticia/3400927/" },
+            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/alt-emporda/2026/03/21/alliberen-vintena-dibis-ermitans-als-128247806.html" }
           ]
         },
         {
-          "headline": "Barcelona allocates 22 million euros to revitalise Avinguda Paral-lel",
-          "body": "Barcelona City Council unveiled a 22-million-euro plan to revitalise the Avinguda Paral-lel, the two-kilometre avenue historically known for its theatres stretching from Drassanes to Placa Espanya. The \"Millorem el Paral-lel\" plan, to be implemented between 2026 and 2028, includes 22 interventions across three areas: cultural revitalisation centred on the reopening of the Teatre Arnau in 2027 and integration with major city events like La Merce and Sant Jordi; commercial branding and artistic interventions; and urban transformation including sidewalk renovation, new lighting, and the reform of several plazas including Bella Dorita and Tres Xemeneies.",
+          "headline": "Cap Butaca Buida theater festival sets attendance record",
+          "body": "The third edition of Cap Butaca Buida, a festival promoting theater attendance across Catalonia, set a new record with more than 81,000 spectators filling venues in a single day of celebration. The initiative, which offers reduced-price tickets to encourage people to experience live theater, brought audiences to dozens of venues across Barcelona and Catalonia. The event coincided with the run-up to World Theatre Day and included special programming at venues including La Puntual, which offered performances aimed at younger audiences to cultivate the next generation of theatergoers.",
           "sources": [
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/barcelona-destina-22-milions-per-revitalitzar-lavinguda-parallel/noticia/3400420/" }
-          ]
-        },
-        {
-          "headline": "Catalan government agrees on crisis measures in response to Iran war",
-          "body": "The Catalan government and parliamentary parties agreed on a package of measures to address the economic effects of the Iran war, though unlike the Spanish government's approach, the Catalan plan does not include tax reductions. The measures come as the IMF's revised growth forecasts and rising energy prices put pressure on households across Spain. The Catalan package focuses on social protection measures, with details still being finalised as the political situation remains fluid amid ongoing tensions between the Generalitat and its parliamentary partners over budget negotiations.",
-          "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260320/11495024/govern-partidos-pactan-paquete-medidas-efectos-guerra-bajar-impuestos.html" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/rebaixa-de-liva-al-10-a-carburants-gas-i-electricitat-que-inclou-el-pla-pels-efectes-de-la-guerra/noticia/3400708/" }
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/record-del-cap-butaca-buida-amb-mes-de-81000-espectadors-en-un-dia-de-celebracio-del-teatre/noticia/3400944/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/ocio-y-cultura/20260321/mundo-debe-comer-teatro-dia-cap-butaca-buida-128250950" }
           ]
         }
       ]
