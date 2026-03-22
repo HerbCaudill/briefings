@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Trump issues 48-hour ultimatum to Iran over Strait of Hormuz, lifts some oil sanctions",
+          "body": "President Trump threatened to obliterate Iran's power plants if the Strait of Hormuz is not fully reopened within 48 hours, a dramatic escalation that came barely a day after he suggested winding down the war. The Iranian army responded that it would target all US energy infrastructure in the region if Iran's fuel facilities are attacked. The threat arrived as the US Treasury announced a temporary lifting of sanctions on Iranian oil currently stranded at sea, a stunning policy reversal aimed at easing surging energy prices by bringing roughly 140 million barrels to global markets. Experts warned the move could paradoxically fund Iran's war effort while having only a limited effect on prices. Admiral Brad Cooper of US Central Command claimed American strikes had degraded Iran's ability to attack vessels in the strait, but analysts noted a gap between the White House's demands and what the military says it has already achieved.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/22/trump-issues-48-hour-hormuz-strait-ultimatum-threatens-iran-power-plants" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c9d415g55nno" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/live/ce35wke27ynt" }
+          ]
+        },
+        {
+          "headline": "Hospital strike in Sudan kills at least 64, including 13 children",
+          "body": "An attack on Al Deain Teaching Hospital in East Darfur killed at least 64 people, including 13 children, two nurses and a doctor, while wounding 89 others, according to the World Health Organization. The Sudanese rights group Emergency Lawyers identified the strike as an army drone attack on the RSF-controlled city. The hospital's paediatric, maternity and emergency departments were all damaged, rendering the facility non-functional. The WHO said the total number of fatalities linked to attacks on health facilities during Sudan's nearly three-year civil war has now surpassed 2,000, with 213 confirmed attacks on healthcare since the conflict between the army and the Rapid Support Forces began in April 2023. Twelve attacks on health facilities this year alone have caused 178 deaths and 237 injuries.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/who-says-attack-on-sudan-hospital-killed-64-including-13-children" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports" }
+          ]
+        },
+        {
+          "headline": "Cuba suffers second national blackout in a week as US fuel blockade bites",
+          "body": "Cuba's national electrical grid collapsed for the second time in a week, cutting power to more than 10 million people across the island. The energy ministry said protocols for restoration were being implemented, with hospitals and water systems being prioritised. The country has suffered three major blackouts this month as a US fuel blockade has cut off foreign oil imports needed to keep power stations running. Rare public dissent has followed the crisis, with residents banging pots and pans in Havana and protesters in the town of Moron attacking and setting fire to Communist Party headquarters. A coalition of international socialist groups arrived over the weekend with aid donations including solar panels, while a flotilla of aid from Mexico is expected to arrive on Monday. President Trump has been pressing for the removal of Cuba's president as a condition for lifting the embargo, last week suggesting a friendly takeover of the island.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cvg0l44yxrvo" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/liran-amplia-els-atacs-dispara-missils-contra-una-base-nord-americana-i-britanica-a-lindic/noticia/3400867/" }
+          ]
+        },
+        {
+          "headline": "Italy votes on constitutional referendum to reform judiciary",
+          "body": "Italians headed to the polls in a two-day constitutional referendum on changes to the country's judicial system, in what has become an increasingly personalised test of Prime Minister Giorgia Meloni's rule. The reform, championed by Forza Italia within the governing coalition, would separate the career paths of judges and prosecutors, create distinct governing bodies for each, and establish a new disciplinary court. Opposition parties have styled the vote as a threat to democracy and turned it into a protest against the government. Meloni, who has been in power for three-and-a-half years, close to a record for Italy's shaky coalitions, made an unusual appearance on a rapper's podcast to encourage younger voters to turn out. Polls suggested low participation would favour the no camp, making the outcome uncertain.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cm29n1lvp64o" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260321/11495197/suspense-alcaldias-paris-marsella-lyon.html" }
+          ]
+        },
+        {
+          "headline": "Lula warns of new colonialism at Latin American summit as ICC clears chief prosecutor",
+          "body": "Brazilian President Lula da Silva used a CELAC summit in Colombia to warn that developing nations face a return to colonial-era exploitation, criticising unnamed foreign powers for wanting to seize critical minerals and rare earths. Without naming Trump directly, he pointed to the abduction of Venezuela's former president and the Cuba fuel blockade, asking whether such actions were democratic. Separately, the International Criminal Court's chief prosecutor Karim Khan was cleared of sexual misconduct allegations by a panel of three judges, according to Middle East Eye. Khan, who took voluntary leave last May while pursuing arrest warrants for Israeli and Russian officials, was found to have committed no misconduct or breach of duty. The ICC's oversight body has 30 days to make its preliminary assessment before Khan can respond.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/they-want-to-colonise-us-brazils-lula-warns-of-foreign-interference" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/21/icc-chief-prosecutor-khan-cleared-of-sexual-misconduct-by-judges-report" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Record-shattering March heat wave grips the Southwest as climate extremes intensify",
+          "body": "A dangerous heat wave shattered March records across the US Southwest, with temperatures reaching 112 degrees Fahrenheit in two Arizona communities and two Southern California locations, the highest March readings ever recorded in the country. The World Weather Attribution group said the heat would have been virtually impossible without human-caused climate change. Scientists placed the event in a category of ultra-extreme weather alongside the 2021 Pacific Northwest heat wave and the 2022 Pakistan floods. The area of the US being hit by extreme weather has doubled in the past five years compared to 20 years ago, while the number of billion-dollar weather disasters has nearly quadrupled in three decades. Combined with blizzards in the Midwest and storms on the East Coast, more than half the country was in the path of extreme weather simultaneously.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/heat-southwest-warming-climate-disasters-extreme-deadly-0c3ef415241d3275fd9c260d57ccc3e5" },
+            { "name": "AP News", "url": "https://apnews.com/article/severe-weather-storm-snow-east-coast-a8bbd037aba99aaf0cc930e91fdb72ca" },
+            { "name": "AP News", "url": "https://apnews.com/article/weather-heat-wave-san-francisco-west-33c5aa9d425556655d22f6a842de567c" }
+          ]
+        },
+        {
+          "headline": "Federal judge rules Pentagon press restrictions violate the Constitution",
+          "body": "A federal judge blocked the Department of Defense's policy on journalist access to the Pentagon, finding it violates the First and Fifth Amendments. Judge Paul Friedman ruled in favour of The New York Times, which sued after the Pentagon enacted controls in October requiring reporters to have their information approved before publication, even if unclassified. Outlets that refused to sign, including BBC, CNN, Fox News and most major networks, had their daily access revoked, leaving the Pentagon press corps consisting primarily of conservative outlets like One America News Network. The judge struck down a provision that reporters who solicit sensitive information could be barred, writing that obtaining information is what journalists do. The Pentagon said it disagreed and would pursue an immediate appeal.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cwy3961xdr8o" },
+            { "name": "AP News", "url": "https://apnews.com/article/government-shutdown-tsa-workers-920577c153ffd1877f59dfb8f8efed39" }
+          ]
+        },
+        {
+          "headline": "Feds move to dismiss charges against officers in Breonna Taylor case",
+          "body": "Federal prosecutors moved to dismiss charges against officers accused of falsifying the warrant that led to the fatal police raid on Breonna Taylor in Louisville, Kentucky. The decision marks the collapse of the federal case against the officers involved in one of the most high-profile police killings in recent American history, which sparked nationwide protests in 2020. Separately, a Spanish-language reporter in Tennessee who was arrested during an immigration enforcement operation was released from detention on bond, while a federal judge granted an injunction allowing clergy visits at a Minneapolis ICE holding facility. The developments came amid continuing clashes between federal immigration enforcement and local communities across the country.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/breonna-taylor-shooting-charges-dropped-da7af3049b7eb8a24c1333e0be3c1788" },
+            { "name": "AP News", "url": "https://apnews.com/article/reporter-ice-arrested-immigration-nashville-ef3c753b97bc87cbb10ff099a8f1d8b4" }
+          ]
+        },
+        {
+          "headline": "GOP bid to target transgender athletes fails in the Senate",
+          "body": "A Republican effort to pass federal legislation targeting transgender athletes fell flat in the Senate, failing to garner enough support even within GOP ranks. The setback came as a judge separately ruled that the US government overreached with a declaration on transgender health care issued under the Kennedy-led HHS. In Kansas, two transgender men sued over a law invalidating their driver's licenses along with approximately 1,700 others. The developments reflected the continuing legal and political battles over transgender rights playing out at federal, state and local levels across the country.",
+          "sources": [
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/21/us/politics/gop-transgender-athletes-senate.html" },
+            { "name": "AP News", "url": "https://apnews.com/article/transgender-health-care-lawsuit-ruling-robert-kennedy-25adf96f745c5364c2ebf8c3f27cab71" },
+            { "name": "AP News", "url": "https://apnews.com/article/transgender-drivers-licenses-kansas-lawsuit-b34d868d7fe93b2946f54c831307b935" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Sanchez tells cabinet to prepare for a long war and use it to pressure the PP",
+          "body": "Prime Minister Pedro Sanchez delivered one of the most politically charged speeches his ministers have heard in eight years, telling them the war in Iran is likely to last at least until summer and could go much longer as it takes on a life of its own. He urged ministers to rise above daily policy debates and convey the full picture of a world that could enter an unstoppable spiral of wars due to Trump's erratic leadership. Sanchez told his cabinet to pressure the PP for its initial alignment with Trump, which the government sees as a grave strategic error by opposition leader Feijoo, who early on expressed satisfaction at the death of Iran's leader. The president returned from Brussels convinced that most European governments have shifted toward Spain's position of outright rejection of the war.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-22/el-gobierno-se-reactiva-con-la-guerra.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260321/11495822/gobierno-descarta-estados-unidos-retire-bases-rota-moron.html" }
+          ]
+        },
+        {
+          "headline": "Spain's far right turns on King Felipe VI over colonial history remarks",
+          "body": "Vox and far-right figures launched an unprecedented wave of criticism against King Felipe VI after he acknowledged during a museum visit that there was much abuse during Spain's colonization of the Americas. The remark, which the Royal Household coordinated with both the government and the PP in advance as part of a diplomatic effort to rebuild relations with Mexico ahead of November's Ibero-American Summit in Madrid, drew fire from Vox's congressional spokesperson, who denied any abuses and called the conquest the greatest civilizing work in history. Julio Ariza, a media ally of Vox leader Abascal, publicly wondered whether Felipe would be the sixth and last of his line. Analysts noted that Vox's growing anti-system trajectory, modeled on Trumpism, has stripped the monarchy of its previously untouchable status within the Spanish right.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-22/la-deriva-antisistema-de-la-extrema-derecha-abre-la-veda-contra-el-rey.html" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-22/la-casa-del-rey-considera-operacion-de-estado-una-buena-relacion-con-mexico.html" }
+          ]
+        },
+        {
+          "headline": "Spain evacuates last 226 soldiers from Iraq as NATO adjusts mission",
+          "body": "The final 226 Spanish soldiers deployed in Iraq under a NATO mission landed at Torrejon de Ardoz air base on Saturday, completing the evacuation of all Spanish troops from the country. Defence Minister Margarita Robles and the Chief of Defence Staff received the troops at the runway after what officials described as a complicated operation following the outbreak of the Iran conflict. Two hundred arrived aboard an Air Force A330 from Turkey, with 26 more coming from Ramstein, Germany. Nearly 100 Spanish soldiers had already been evacuated earlier, including 57 special operations forces from the US-led coalition against Islamic State. The decision was coordinated with NATO allies after the alliance adapted the mandate of its Iraq advisory mission due to the escalating war.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260321/aterrizan-200-militares-espanoles-evacuados-irak/16990932.shtml" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260321/gobierno-descarta-vuelta-militares-espanoles-libano-contempla-salida-estados-unidos-moron-rota-128250397" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/20/69bd5f1ce9cf4a14408b4592.html" }
+          ]
+        },
+        {
+          "headline": "PP seeks law change to prevent early release of ETA prisoners after Txeroki case",
+          "body": "The Partido Popular announced it will bring a proposal to Congress seeking changes to prison regulations after the former military chief of ETA, Garikoitz Aspiazu, known as Txeroki, was granted a semi-liberty regime allowing him to leave prison from eight in the morning until nine at night on weekdays. The PP wants to require a minimum effective sentence of 30 years before terrorism convicts sentenced to hundreds of years can access the third-degree status that enables semi-liberty. The party also wants to restrict the interpretation of rules that allow around 60 ETA prisoners to avoid spending nights in prison through electronic monitoring bracelets. The Victims of Terrorism Association denounced the arrangement as a disguised third degree granted by the Basque government.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/22/69bef499fc6c83573f8b4585.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260321/psoe-endurecer-penas-exceso-velocidad-alcohol-128213676" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "ERC demands sovereignty concessions before backing Catalan budget",
+          "body": "Esquerra Republicana signaled it will demand significant sovereignty-related concessions from the Catalan government in exchange for supporting the regional budget, after President Salvador Illa withdrew the initial spending proposal to unblock negotiations. ERC leader Oriol Junqueras said the party would start budget talks immediately but insisted that any alternative to their original demand that Catalonia collect its own income tax must involve equivalent transfers of sovereignty. The party warned its support is not guaranteed and said alternatives proposed by the government must be similar or better than direct IRPF collection. The Comuns have already warned that if budgets are eventually approved, they will be budgets for the entire legislature, raising the stakes for all parties involved.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/erc-vol-mes-sobirania-per-aprovar-els-pressupostos-si-sajorna-lirpf/noticia/3400934/" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/catalunya/2026-03-22/presupuestos-atascados-la-cataluna-que-no-puede-esperar.html" }
+          ]
+        },
+        {
+          "headline": "Man arrested for setting fire to flat with woman and baby inside in les Franqueses del Valles",
+          "body": "Mossos d'Esquadra arrested a 26-year-old man for deliberately setting fire to an apartment in les Franqueses del Valles while a woman and a baby were inside. The incident occurred late Friday night in the Valles Oriental town. The man, who had a prior record of domestic abuse, set the fire and fled through the balcony. The woman in the apartment at the time was not the man's former partner but had no connection to him. Six fire crews responded and extinguished the flames before midnight. No one was injured, though other residents of the building had to be evacuated. The Mossos have opened an investigation for gender-based violence.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/detingut-un-home-per-incendiar-un-pis-amb-una-dona-i-un-nado-a-dins-a-les-franqueses-del-valles/noticia/3400913/" }
+          ]
+        },
+        {
+          "headline": "SOS Costa Brava demands stricter rules to protect posidonia meadows from anchoring",
+          "body": "Environmental group SOS Costa Brava called on authorities to enforce stricter controls and direct fines against boats anchoring over posidonia seagrass meadows along the coast, following the approval of a new decree on marine habitat protection. The group demanded that boats be fined simply for anchoring over documented seagrass areas rather than requiring expensive underwater photographic evidence of damage, citing a French judicial precedent for this presumption-of-harm approach. SOS Costa Brava also wants mandatory use of official seagrass mapping to prevent violators from claiming ignorance, and for fine revenue to be directed toward ecosystem recovery. The group cited continued violations at sites including the Golfet, the bay of Palamos and the Cap de Creus natural park, and hoped improvements would be noticeable by this summer.",
+          "sources": [
+            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/comarques/2026/03/21/sos-costa-brava-reclama-mes-128246120.html" }
+          ]
+        },
+        {
+          "headline": "Ronda Litoral to face two months of nighttime closures for tunnel repairs",
+          "body": "Barcelona's Ronda Litoral motorway will undergo two months of nighttime closures between the Columbus monument and the Moll de la Fusta to address persistent water infiltration and pavement damage in the Olympic-era tunnel. The city infrastructure company Bimsa said the work should be concentrated during the summer low-traffic period, preferably from late July to late August, with closures in both directions between midnight and four in the morning on weekdays. The project, budgeted at around 690,000 euros, will involve cement injections beneath the tunnel floor to stabilize the ground, which has responded poorly to traffic loads since the infrastructure was built in 1989 to 1991.",
+          "sources": [
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/urbanisme/ronda-litoral-talls-dos-mesos-obres-701392/" }
+          ]
+        },
+        {
+          "headline": "Fake taxi intercepted in Barcelona operating without license, insurance or valid inspection",
+          "body": "Barcelona's Guardia Urbana stopped a Dacia minivan in Sant Andreu operating illegally as a taxi with a license that had expired two years ago, no insurance, and a falsified vehicle inspection sticker taken from another car. The driver tested positive for drugs and presented an expired registration document. Despite all this, the vehicle was painted in Barcelona's official black and yellow taxi livery and was even registered on the Freenow ride-hailing app. The car has been impounded and referred to the Metropolitan Taxi Institute for potential fraudulent use of a public service.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/intercepten-a-barcelona-un-taxi-sense-llicencia-ni-asseguranca-i-amb-la-itv-falsificada/noticia/3400935/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/successos/fals-taxista-barcelona-701690/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
