@@ -1,0 +1,188 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Asian stock markets plunge as Trump's Iran ultimatum deadline approaches",
+          "body": "Stock markets across Asia plunged on Monday as Trump's 48-hour ultimatum to Iran neared its expiration, with the deadline set around 23:44 GMT. Japan's Nikkei 225 fell 4 percent, South Korea's KOSPI dropped 4.5 percent, and Hong Kong's Hang Seng tumbled about 2 percent. Brent crude rose past $114 a barrel before easing slightly. Iran has vowed to completely close the Strait of Hormuz and launch retaliatory attacks on energy and water infrastructure across the region if the US follows through on its threat to strike power plants. Oil prices have surged more than 50 percent since the war began on February 28, with some analysts predicting crude could reach $150 or $200 per barrel if the strait remains effectively closed. Trump held a call with UK Prime Minister Starmer, with both agreeing that unblocking the strait is essential for global energy stability, though the mixed signals from Washington continued: hours before issuing his ultimatum, Trump had suggested the US was close to winding down operations.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/3/23/asian-stock-markets-plunge-amid-trumps-ultimatum-on-iran" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/czex56kwxxzo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/22/iran-says-destroy-middle-east-infrastructure-us-energy-sites" }
+          ]
+        },
+        {
+          "headline": "Israel approves expanded ground operations in Lebanon as bridges bombed",
+          "body": "Israel's military chief approved plans to advance ground operations and strikes against Hezbollah in Lebanon, describing it as a prolonged operation, after the armed group fired rockets into Israel amid the wider Iran conflict. Israeli forces struck the Qasmiye bridge on a main route linking southern Lebanon to the rest of the country, part of a campaign to destroy crossings over the Litani River that Israel says Hezbollah uses for reinforcements. More than 1,000 people have been killed in Lebanon and over a million displaced since the escalation began. Lebanon's President Joseph Aoun called the strikes a prelude to a ground invasion amounting to collective punishment of civilians, warning of suspicious schemes to expand Israel's presence in Lebanese territory. Defence Minister Katz said Israeli forces had been ordered to demolish homes in border villages following the same methods used in Gaza.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c30rl05evd8o" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/22/lebanons-aoun-calls-israel-strikes-on-bridges-prelude-to-ground-invasion" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260322/11496383/israel-aisla-sur-libano-denuncia-preludio-invasion-terrestre.html" }
+          ]
+        },
+        {
+          "headline": "Socialists win Paris mayoral race as far right fails to take major French cities",
+          "body": "Socialist Emmanuel Gregoire was elected mayor of Paris with about 52 percent of the vote, beating former rightwing minister Rachida Dati in the second round of French local elections on Sunday. Gregoire, who had worked with outgoing mayor Anne Hidalgo, celebrated with a victory bike ride and pledged to make Paris the heart of resistance against the right ahead of next year's presidential elections. The left also held Marseille, where mayor Benoit Payan won with a coalition including Socialists and Greens. Marine Le Pen's National Rally failed to capture the key cities it had targeted, though it made gains in smaller municipalities. Former prime minister Edouard Philippe, re-elected in Le Havre, is now expected to accelerate his centre-right candidacy for the 2027 presidential race.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/22/paris-mayoral-race-socialist-emmanuel-gregoire-projected-to-win" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/22/socialist-emmanuel-gregoire-wins-paris-mayoral-race" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/franca-celebra-la-segona-volta-de-les-eleccions-municipals-marcada-per-lauge-dels-dos-extrems/noticia/3400941/" }
+          ]
+        },
+        {
+          "headline": "Fourteen killed in South Korean car parts factory fire",
+          "body": "A fire at a car parts factory in Daejeon, South Korea killed 14 workers and injured nearly 60, making it the country's deadliest industrial fire since the 2024 lithium battery plant disaster. About 170 workers were inside the three-storey building when the blaze broke out on Friday afternoon, and footage showed people jumping from windows to escape as the fire spread rapidly. Firefighters were delayed because sodium stored at the site could explode on contact with water, requiring more than 200 kilograms of highly reactive chemicals to be removed before they could intervene. Nine of the 14 victims were found in a third-floor gym locker room, some so badly burned that DNA tests were needed for identification. The factory, owned by Anjun Industrial, is a supplier for Hyundai and Kia.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/21/south-korea-fire-daejeon-car-parts-factory" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/czex56kwxxzo" }
+          ]
+        },
+        {
+          "headline": "Israeli settlers carry out overnight attacks on Palestinian villages in the West Bank",
+          "body": "Extremist Jewish settlers launched a wave of attacks on Palestinian villages in the occupied West Bank after an 18-year-old settler was killed in an incident involving a vehicle driven by a Palestinian. WhatsApp groups used by settlers called for a revenge campaign, and more than 20 attacks were reported overnight, with settlers setting fire to homes, vehicles and agricultural fields in villages including Jalud, Qaryut and others. Footage showed dozens of masked individuals in black running through Jalud, where buildings were set ablaze and the words 'Avenge Yehuda' were spray-painted on walls. At least three Palestinians were hospitalised with head wounds. The Israeli rights group Yesh Din described the violence as a night of pogroms, saying security forces had prior knowledge of the planned attacks but failed to take preventive measures. Settler violence has surged since the Iran war began, with six Palestinians killed by settlers since March 1 according to the UN.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cew719w80g7o" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/22/israeli-settlers-carry-out-series-of-west-bank-attacks-as-security-forces-stand-by" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "DHS shutdown chaos deepens as Trump sends ICE agents to airports",
+          "body": "President Trump announced he would deploy Immigration and Customs Enforcement officers to airports starting Monday unless Democrats agree to fund the Department of Homeland Security, escalating a standoff that has left TSA officers working without pay. The partial shutdown has caused long security lines at major airports, with some travelers reporting waits of nearly four hours. Trump said ICE agents would bring the administration's immigration crackdown into airports, promising to arrest undocumented immigrants, with a particular focus on Somali nationals. The Senate held a rare weekend session but failed to find a resolution. Democrats have demanded changes to immigration enforcement practices, including better identification for federal officers and more use of judicial warrants, following a crackdown in Minnesota that led to the fatal shootings of two protesters. Nonprofits, unions and airport authorities have been rallying to feed unpaid TSA workers.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/airport-screening-lines-ice-trump-shutdown-dhs-9c36ce9cc31647b59867fd2b62f9379d" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/22/trump-sends-us-immigration-agents-to-airports-as-shutdown-chaos-deepens" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html" }
+          ]
+        },
+        {
+          "headline": "Spiking gas prices set to wipe out Trump's tax refund boost",
+          "body": "Rising gas prices driven by the Iran war are on track to consume the unusually large tax refunds that the Trump administration had touted as an economic stimulus. The nationwide average price of gas reached $3.94 on Sunday, up more than a dollar from a month earlier, and economists project it could peak at $4.36 per gallon in May. Stanford researchers estimate the average household will pay $740 more in gas this year, nearly equal to the $748 increase in expected refunds from Trump's tax cut legislation. Oxford Economics calculates that if gas prices average $3.70 for the year, the total cost to consumers would be about $70 billion, exceeding the $60 billion in additional refunds. Lower and middle-income households face the hardest hit because they spend a greater share of their earnings on fuel while receiving smaller refunds.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/trump-tax-refunds-gas-prices-859494e746561a3343dcd57836c3dc83" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/22/us/texas-oil-prices-iran-war.html" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/22/us/politics/republicans-democrats-gas-prices-comments-midterms.html" }
+          ]
+        },
+        {
+          "headline": "Historic flooding in Hawaii leaves thousands evacuated and dam at risk",
+          "body": "Hawaii is experiencing its worst flooding in more than 20 years after severe rains inundated Oahu's North Shore, pushing homes off foundations, swallowing vehicles and prompting evacuation orders for more than 5,500 people. Officials warned of the possible failure of a 120-year-old dam in Wahiawa, saying it was at risk of imminent failure. Governor Josh Green said the flooding has caused an estimated $1 billion in damage. Emergency sirens blared across the area as 230 people were rescued from rising floodwaters, and more than 2,000 were left without power. The governor has requested a federal disaster declaration. More rain was expected over the weekend, compounding the devastation in communities world-renowned for surfing.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/honolulu-floods-north-shore-oahu-evacuation-waialua-36263fe984b1811db44622db4619a63a" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/czxrdxn6qwqo" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/video/us/100000010794213/hawaii-oahu-maui-floods.html" }
+          ]
+        },
+        {
+          "headline": "California sheriff running for governor seizes half a million ballots",
+          "body": "Riverside County Sheriff Chad Bianco, a Republican candidate for California governor, has seized more than half a million ballots from a November 2025 special election, claiming he is investigating a ballot count discrepancy reported by a citizens group. The special election, in which voters approved redistricting that favoured Democrats by a margin of more than 80,000 votes, saw its ballots taken by the sheriff's office under a warrant in February. California Attorney General Rob Bonta called the seizure unprecedented and accused Bianco of sowing distrust in elections. Bianco insisted the investigation had nothing to do with his gubernatorial campaign. Leading California Democrats are worried that the crowded June primary could split their vote and send two Republicans to the general election, a stunning prospect in the heavily Democratic state.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/california-ballot-seizure-bianco-bonta-election-68754a307394ca3c90ec627ce4e3e4fa" }
+          ]
+        },
+        {
+          "headline": "Antisemitic arson attack destroys Jewish ambulances in London",
+          "body": "Four volunteer ambulances belonging to Hatzolah, a Jewish community medical service in north London, were set on fire in a suspected antisemitic arson attack in the early hours of Monday morning. Police said three suspects were being sought after the vehicles were targeted at around 1:45 AM in Golders Green, an area with a large Jewish population. Residents reported hearing an explosion shortly before the fire was discovered. The Metropolitan Police is treating the incident as an antisemitic hate crime and is examining CCTV footage. Hatzolah has served the community since 1979, providing free emergency medical response and hospital transportation. The attack comes amid heightened tensions over the ongoing conflict in the Middle East.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cwyj1p49gdpo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/uk-news/2026/mar/23/jewish-volunteer-ambulances-fire-golders-green-suspected-arson-antisemitic-ntwnfb" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Court orders release of 24 drug trafficking suspects after Constitutional Court ruling",
+          "body": "The Audiencia Nacional has released 24 people detained in connection with a major drug trafficking network after a recent Constitutional Court ruling changed the requirements for pre-trial detention in secret investigations. The ruling, issued on February 23, requires judges to provide more detailed information to detainees about the evidence against them, even when cases are under judicial secrecy. The head of Spain's anti-drug prosecution service warned the decision has triggered an avalanche of appeals and mass requests for release across multiple investigations, potentially jeopardising international cooperation on drug cases. The Constitutional Court, however, insists its unanimous ruling simply aligns Spanish practice with constitutional requirements and an EU directive, and should not lead to improper releases if correctly applied.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-23/la-audiencia-nacional-excarcela-a-24-imputados-por-narcotrafico-tras-una-sentencia-del-constitucional.html" }
+          ]
+        },
+        {
+          "headline": "Junts backs PP amendment to tighten requirements for migrant regularisation",
+          "body": "Junts per Catalunya will vote alongside the PP and Vox to tighten requirements in the government's mass migrant regularisation programme, creating a majority in Congress to modify the law. The amendment, introduced by the PP during Senate proceedings on a multi-recidivism law originally pushed by Junts, would require migrants seeking residency permits to present official criminal background certificates from Spain and all countries where they have previously lived, rather than simply signing a sworn declaration. The government's regularisation plan, which could affect more than half a million people currently in Spain without legal status, is meanwhile preparing to open dedicated processing windows at post offices and Social Security offices across the country, with the Ministry of Migration reviewing applications within a three-month deadline.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260322/11496440/junts-votara-favor-enmienda-pp-endurece-regularizacion-migrantes.html" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-23/la-regularizacion-de-migrantes-tendra-ventanillas-propias-en-las-oficinas-de-correos-y-de-la-seguridad-social.html" }
+          ]
+        },
+        {
+          "headline": "Vox faces internal rebellion over party finances and leadership",
+          "body": "Vox is confronting its most serious internal crisis as former senior figures publicly question the party's finances and demand an extraordinary congress. Former deputy leader Javier Ortega Smith and ex-spokesman Ivan Espinosa de los Monteros signed a manifesto calling for transparency over what they describe as an opaque network of entities linked to the party. Former Castilla y Leon vice-president Juan Garcia-Gallardo alleged that leader Santiago Abascal has been collecting a third salary through a party supplier, paid into his wife's account for supposed consultancy services. The rebels are pointing to the 7.46 million euros Vox spent on external services in 2024, questioning contracts with firms run by Abascal's closest advisers. Party leader Abascal, who attended a far-right summit in Budapest over the weekend alongside other European leaders, has dismissed the criticism, while PP leader Feijoo has ordered his party not to engage in attacks on Vox.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/23/69c02a7421efa078148b4573.html" },
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260322/abascal-dice-pp-no-soporta-vox-fuerte-se-empena-mas-danarnos-ganar-psoe-eso-puede-ser-letal/16991833.shtml" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-23/el-pp-urge-a-vox-a-cerrar-los-pactos-de-gobierno-les-pedimos-que-se-vuelvan-a-sentar.html" }
+          ]
+        },
+        {
+          "headline": "Spain's fourth constitutional reform advances to give Formentera its own senator",
+          "body": "The fourth reform of the Spanish Constitution is picking up speed and could be completed within a month. The proposal would give the island of Formentera its own senator, ending its current arrangement of sharing one with Ibiza, a change first demanded by local residents back in 2004. Congress has agreed to debate it in a single reading next week without committee stage, supported by the governing coalition and all its parliamentary partners, with the PP abstaining and only Vox opposing. A potential complication has emerged over whether the Constitution should use the Catalan toponym Eivissa or the Castilian Ibiza for the neighbouring island, with the PP pushing an amendment to keep the Spanish-language name.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260322/cuarta-reforma-constitucion-velocidad-senador-formentera-128186997" }
+          ]
+        },
+        {
+          "headline": "Documentary reveals Piarist priest abused more than 20 children in Senegal",
+          "body": "A new documentary produced by 3Cat and El Periodico reveals that Piarist priest Manel Sales sexually abused more than 20 minors during his 25 years as a missionary in Senegal. In the film, Sales himself admits to the abuse. The documentary shows that a group of Catalan residents in Senegal discovered the abuse in 2005 and alerted the Piarist order, which removed Sales from the country but then pressured the whistleblower to stay silent. Back in Catalonia, Sales was quietly integrated into the order's administrative structure while maintaining a low profile. The order had previously claimed in 2024 that it was no longer sheltering Sales, but the documentary contradicts this, showing the religious community continued to protect a predator who has evaded justice in Spain, Senegal and even at the Vatican.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260322/sacerdote-manel-sales-escolapios-abusos-sexuales-menores-senegal-documental-la-fugida-128206561" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/els-escolapis-ho-sabien-parlen-les-victimes-de-lexmissioner-manel-sales-al-senegal/noticia/3399870/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Barcelona's Sant Jordi celebrations to move off the Rambla due to construction works",
+          "body": "Barcelona's traditional Sant Jordi book and rose stalls will be relocated away from the Rambla this year for the first time, with the city council moving them to Portal de l'Angel, Placa Catalunya and Placa de la Catedral due to the advanced state of the Rambla renovation works. Deputy mayor Laia Bonet said the move would also help decongest the usual crowds, and that the Rambla would be ready again for next year. Florists will be placed in Placa Catalunya, where they are already expected to relocate temporarily during the works. A literary route will connect the Passeig de Gracia literary superblock through Portal de l'Angel to the Cathedral and Passeig de Lluis Companys. Separately, a protest march for the Catalan language is planned for the same day, with organisers citing the continued decline in social use of Catalan.",
+          "sources": [
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/barcelona-viura-un-sant-jordi-atipic-sense-parades-a-la-rambla-701124/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/manifestacio-sant-jordi-catala-701719/" }
+          ]
+        },
+        {
+          "headline": "New real-time noise map reveals Barcelona's worst streets for sleeping",
+          "body": "A citizens' group called Xavecs has launched an online noise observatory that maps Barcelona's sound levels in real time using data from more than 200 street-level sound meters. The tool processes historical data in narrow time bands, allowing residents to check noise levels on any street and see a ranked list of the ten best and worst locations for sleeping. Readings taken on Carrer Enric Granados on a Friday night showed levels consistently between 70 and 75 decibels, well above the municipal limit of 55 decibels for that area and time. Acoustics experts from the UPC note that each 10-decibel increase feels like a doubling of noise to the human ear. The group hopes the map will raise awareness that noise pollution is a citywide problem, not just a local nuisance.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/un-mapa-recull-en-temps-real-limpacte-del-soroll-per-carrers-a-barcelona/noticia/3400942/" }
+          ]
+        },
+        {
+          "headline": "Four teenagers rescued after abandoned hospital collapses in Esparreguera",
+          "body": "Four teenagers were trapped when part of the abandoned former hospital in Esparreguera collapsed while they were exploring the derelict building on Saturday. Two of the young people suffered injuries and all four had to be rescued by firefighters after a structural section gave way. Six fire crews responded to the scene in this Baix Llobregat town west of Barcelona. The incident has renewed concerns about the safety of abandoned buildings that attract urban explorers.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/dos-adolescents-atrapats-i-dos-mes-ferits-en-ensorrar-se-lantic-hospital-desparreguera/noticia/3401020/" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/baix-llobregat/20260322/11496413/cuatro-jovenes-atrapados-hospital-de-esparreguera.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sociedad/20260322/cuatro-jovenes-quedan-atrapados-antiguo-hospital-esparreguera-128282967" }
+          ]
+        },
+        {
+          "headline": "Man stabbed to death in Olot as Mossos investigate",
+          "body": "A man was found dead with stab wounds on a public street in Olot in the early hours of Sunday morning. Emergency services received the call around 2 AM and confirmed the victim had died from signs of violence. The Criminal Investigation Division of the Girona regional police has taken over the case, which is under judicial secrecy. The victim has not yet been publicly identified. Olot is in the Garrotxa comarca of inland Girona province.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/investiguen-la-mort-violenta-dun-home-aquesta-matinada-a-olot/noticia/3400963/" },
+            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/comarques/2026/03/22/els-mossos-investiguen-mort-violenta-128269172.html" }
+          ]
+        },
+        {
+          "headline": "Illa responds to ERC's sovereignty demands as Catalan budget talks resume",
+          "body": "Catalan President Salvador Illa has offered collaboration in response to ERC's demand for new sovereignty transfers as a condition for supporting the regional budget, after he withdrew the initial spending proposal to restart negotiations. ERC leader Oriol Junqueras has insisted that any alternative to direct Catalan collection of income tax must involve equivalent sovereignty concessions, while Junqueras is seen as playing for time ahead of a potential amnesty that would allow him to run for the presidency of the Generalitat. The budget impasse has left Catalonia unable to fund pressing needs in housing, education and infrastructure, with the Comuns warning that any eventual budget would need to cover the entire legislature.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/cataluna/2026/03/23/69c04f3ce85ece11348b4571.html" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260322/salvador-illa-presupuestos-cataluna-govern-erc-junqueras-entrevista-128223526" }
+          ]
+        }
+      ]
+    }
+  ]
+}
