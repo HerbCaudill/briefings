@@ -1,0 +1,191 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "US sends Iran 15-point peace plan as Tehran opens Hormuz to 'non-hostile' ships and oil prices drop sharply",
+          "body": "The United States has sent Iran a 15-point plan to end the war in the Middle East, delivered through Pakistan, according to Reuters and the New York Times. The news prompted Brent crude to fall more than 9 percent on Wednesday after weeks above $100 a barrel, while Asian stock markets rallied. Separately, Iran told the United Nations that 'non-hostile' vessels may transit the Strait of Hormuz provided they comply with Iranian safety regulations, though only five ships were tracked passing through on Monday compared with a pre-war average of 120 daily. Trump is also preparing to deploy an additional 3,000 paratroopers from the 82nd Airborne Division to the Gulf, bringing the potential force to 5,500 troops. Pakistan's prime minister said Islamabad was ready to host negotiations if both sides wished. BlackRock CEO Larry Fink warned the BBC that oil at $150 a barrel would trigger a 'stark and steep' global recession, while the Philippines declared a national energy emergency authorising direct government action against fuel hoarding.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260325/11498410/ee-uu-envia-iran-plan-15-puntos-poner-guerra-oriente-medio.html" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/25/philippines-declares-national-energy-emergency-iran-war" }
+          ]
+        },
+        {
+          "headline": "Russia launches nearly 1,000 drones at Ukraine in one of the war's largest aerial attacks",
+          "body": "Russia fired nearly 400 long-range drones and 23 cruise missiles overnight on Monday, followed by an unusual daytime barrage of 556 more drones on Tuesday, killing at least seven people and damaging targets in 11 Ukrainian regions. The combined assault was one of the largest aerial bombardments since the full-scale invasion began more than four years ago. One drone struck the Bernardine monastery, a 16th-century church in Lviv's UNESCO-listed medieval centre. President Zelenskyy renewed calls for allies to supply more air defence munitions, warning that Ukraine faces looming shortages as Washington's attention remains focused on Iran. Neighbouring Moldova said a key power line linking it to Europe was also damaged. Military analysts describe the attacks as the beginning of a spring offensive, though they note Ukrainian defences have been optimised against such assaults, and February was the first month since 2023 in which Kyiv regained more territory than it lost.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cz90gpyw90wo" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts" }
+          ]
+        },
+        {
+          "headline": "Denmark's Frederiksen wins most votes but falls short of majority, facing weeks of coalition talks",
+          "body": "Danish Prime Minister Mette Frederiksen's Social Democrats won the most votes in Tuesday's election with nearly 22 percent, but her left-leaning 'red bloc' fell short of a majority with 84 seats in the 179-seat parliament. The right-leaning 'blue bloc' also missed the mark with 77 seats, making centrist Moderates leader Lars Lokke Rasmussen the kingmaker with 14 seats. Denmark now faces weeks of coalition talks, with a centre-left government the most likely outcome. Frederiksen had called an early election hoping to benefit from a 'Greenland bounce' after her robust response to Trump's threats to acquire the territory in January. Greenland's prime minister described the vote as the most important for the Danish parliament in the island's history, warning that 'we have a superpower trying to acquire us.'",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/mar/24/mette-frederiksen-leftwing-bloc-fails-win-majority-denmark-election-exit-poll" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/24/polls-open-in-key-denmark-elections-clouded-by-trumps-greenland-threat" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260325/11498412/mette-frederiksen-gana-elecciones-dinamarca-pese-fuerte-retroceso.html" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c74v5qynl9vo" }
+          ]
+        },
+        {
+          "headline": "Israel announces it will occupy southern Lebanon up to the Litani river",
+          "body": "Israeli Defence Minister Israel Katz declared that the army will control southern Lebanon up to the Litani river, roughly 30 kilometres from the Israeli border, marking the first time Israel has explicitly stated its intention to occupy nearly a tenth of Lebanese territory. Katz said five bridges over the Litani used by Hezbollah have been destroyed and that the military would control the remaining bridges and establish a 'security zone.' He compared the approach to the model used in Gaza, with forces clearing and demolishing buildings near the border to create a defensive buffer. The announcement drew international condemnation, with Canada, Australia, and the UK all calling for respect of Lebanese sovereignty. More than a million people have been displaced by Israeli operations in Lebanon, which have killed over 1,000 people since Hezbollah entered the conflict on March 2.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260324/11497979/israel-anuncia-ocupara-gran-parte-sur-libano.html" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/25/canada-tells-israel-that-lebanons-sovereignty-must-not-be-violated" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/australia-news/2026/mar/25/penny-wong-tells-israel-australia-backs-lebanons-sovereignty-and-opposes-occupation" }
+          ]
+        },
+        {
+          "headline": "OpenAI shuts down Sora video app and ends Disney partnership to focus on robotics",
+          "body": "OpenAI has discontinued its AI video-generation app Sora less than two years after its headline-making launch, simultaneously winding down its content partnership with Disney. The company said it will shift resources toward robotics 'that will help people solve real-world, physical tasks,' applying the technology used to teach AI to produce realistic video to training robots instead. Disney said it respected the decision and would engage with other AI platforms. The three-year Disney deal, signed in December, had allowed Sora users to create videos with characters like Mickey Mouse and Yoda, and was seen as a turning point for Hollywood's relationship with AI. OpenAI also cited growing competition from Chinese rivals like Seedance as a factor. Image-making tools within ChatGPT are unaffected.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c3w3e467ewqo" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "NTSB finds LaGuardia fire truck lacked transponder; controller had cleared it to cross runway before crash",
+          "body": "Federal investigators revealed that the Port Authority fire truck involved in the deadly LaGuardia Airport collision on Sunday lacked a transponder, meaning the runway warning system could not detect it and never triggered an alarm. The NTSB said an air traffic controller had cleared the fire truck to cross the runway seconds before the Air Canada regional jet, arriving from Montreal, collided with it, killing both pilots. The Guardian reported that the two pilots had raised safety alarms about LaGuardia operations months before the crash. A flight attendant who was ejected from the plane survived in what rescuers called 'a total miracle.' The runway remains closed as the investigation continues.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/laguardia-plane-crash-new-york-investigation-ntsb-33073747e410c8d7bceab0ebc347d35f" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/24/laguardia-airplane-pilots-safety-concerns-crash" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cz67jq0enwpo" }
+          ]
+        },
+        {
+          "headline": "Democrats flip Florida state House seat in Trump's Mar-a-Lago district",
+          "body": "Democrat Emily Gregory, a first-time candidate, defeated Trump-backed Republican Jon Maples in a special election for Florida's District 87 state House seat, which includes Trump's Mar-a-Lago residence. The result reverses a 19-point Republican margin from 2024. DNC chair Ken Martin said the victory showed that 'if Democrats can win in Trump's backyard, we sure as hell can win anywhere across the country.' Trump had personally endorsed Maples on Truth Social. Democrats have now flipped several state House seats in special elections since Trump took office, building momentum ahead of November's congressional midterm elections.",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c9qd7wyln2jo" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/24/us/politics/florida-special-election-emily-gregory.html" }
+          ]
+        },
+        {
+          "headline": "Meta ordered to pay $375 million in first successful state lawsuit over child safety",
+          "body": "A New Mexico jury ordered Meta to pay $375 million for harming children's mental health and making them vulnerable to sexual exploitation, marking the first time a US state has successfully sued the social media giant over child safety. Jurors agreed that Meta made misleading statements and engaged in 'unconscionable' trade practices exploiting the vulnerabilities of children. The case originated when New Mexico's attorney general ran an undercover operation in which investigators posing as users under 14 received sexually explicit material and were contacted by predatory adults. Meta said it would appeal. A second phase in May will determine whether the company must make specific platform changes, while a separate bellwether case in California could influence thousands of similar lawsuits nationwide.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children" },
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cql75dn07n2o" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260324/11498396/jurado-condena-meta-pago-375-millones-vulnerar-proteccion-menores.html" }
+          ]
+        },
+        {
+          "headline": "Historic Hawaii floods leave thousands without power as damage could top $1 billion",
+          "body": "Hawaii is enduring its worst flooding in more than 20 years after a surprise downpour sent floodwaters raging through Oahu, including areas near downtown Honolulu. Governor Josh Green said the cost could top $1 billion, with hundreds of homes damaged along with schools and a hospital. More than 2,000 people remain without power. Meteorologists said the ferocity of the storm surprised even weather experts. Officials are urging residents in hard-hit areas including Waialua and Manoa to evacuate, with more rain expected. Volunteers have begun shovelling mud and sorting donated supplies at distribution centres.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/hawaii-flash-flood-kona-low-manoa-b4c587953c95d942946cc45da9d2e40b" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/24/us/hawaii-floods-maui-oahu-evacuation.html" }
+          ]
+        },
+        {
+          "headline": "UK to trial social media bans and digital curfews on teenagers",
+          "body": "The British government will trial social media bans, overnight digital curfews, and one-hour daily app limits on 300 teenagers to gather evidence on the best approach to protecting children online. Participants will be split into four groups: one with popular apps completely blocked, one with a 60-minute daily cap, one with apps unavailable between 9 PM and 7 AM, and a control group. The trial runs alongside a public consultation on whether to follow Australia's lead in banning social media for under-16s, which has support from France, Spain, and Indonesia as well. The NSPCC said tech companies should build safety into platforms rather than relying solely on bans, while campaigners called for 'decisive and evidence-based measures.'",
+          "sources": [
+            { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cn89g3ngkyzo" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Government secures votes to pass crisis decree after Junts agrees to support fuel and energy tax cuts",
+          "body": "The Spanish government has secured the votes needed to pass its emergency economic decree on Thursday after Junts announced it would vote in favour, making PP support unnecessary. The decree contains 80 measures to cushion the economic impact of the Iran war, including VAT reductions on fuel, electricity, and gas. Podemos had previously said it would abstain. Prime Minister Pedro Sanchez will appear before Congress on Wednesday to defend the measures and brief parliament on the government's position regarding the war. Economy minister Carlos Cuerpo said the positive effects of the decree were already being felt by consumers at the petrol pump, and signalled the government would adapt its measures 'with total flexibility' if the war's effects persist.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260324/gobierno-siguen-sin-tener-garantizados-votos-para-convalidar-decreto-anticrisis-proximo-jueves/16994579.shtml" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260324/11497432/junts-salvara-decreto-anticrisis-contiene-rebaja-iva-carburantes-luz-gas.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/junts-votara-a-favor-de-les-mesures-del-govern-espanyol-pels-efectes-de-la-guerra-a-lorient-mitja/noticia/3401310/" }
+          ]
+        },
+        {
+          "headline": "Vox internal crisis deepens as advisers' 1.3 million euro billing to party revealed",
+          "body": "Tizona Comunicacion, the consulting firm run by Santiago Abascal's two closest advisers, Gabriel Ariza and Kiko Mendez-Monasterio, billed almost 1.3 million euros to Vox in a single year after the party entered institutions and began receiving public funding, according to El Pais. This was in addition to over half a million euros already received in 2019, which prompted Spain's Court of Auditors to demand explanations for the no-bid contracts. The revelations follow bombshell claims by former Vox vice-president Juan Garcia-Gallardo that Abascal was 'pocketing a third salary through a party supplier, into his wife's bank account.' Vox's secretary general Ignacio Garriga has opened expulsion proceedings against Gallardo, while internal critics are demanding a special party congress and transparency over what they call 'an opaque parallel network of entities.'",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-24/los-asesores-de-abascal-senalados-por-los-criticos-han-facturado-casi-13-millones-a-vox-en-un-solo-ano.html" }
+          ]
+        },
+        {
+          "headline": "DANA judge summons former Valencian president Mazon as witness after court refused to investigate him",
+          "body": "The investigating judge in the DANA flood disaster that killed 230 people in October 2024 has summoned former Valencian president Carlos Mazon to testify as a witness, asking him to voluntarily provide his phone records and messages from the day of the catastrophe. The decision follows the Valencian High Court's unanimous refusal last week to investigate Mazon as a suspect, finding no criminal evidence against him. As an elected official, Mazon can only be investigated by the high court. The judge noted that Mazon's testimony is now possible precisely because the higher court excluded his criminal responsibility. During the disaster, Mazon spent nearly four hours at a restaurant lunch while the worst flooding was occurring, and did not arrive at the emergency coordination centre until 8:28 PM, after the mass mobile alert was sent and after most of the missing had already died.",
+          "sources": [
+            { "name": "El Pais", "url": "https://elpais.com/espana/comunidad-valenciana/2026-03-24/la-jueza-de-la-dana-cita-a-declarar-a-mazon-como-testigo.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/valencia/20260324/11498100/jueza-dana-cita-carlos-mazon-testigo.html" },
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/la-jutge-de-la-dana-cita-mazon-a-declarar-com-a-testimoni-despres-que-el-tsj-rebutges-imputar-lo/noticia/3401334/" }
+          ]
+        },
+        {
+          "headline": "Spain to deploy new Patriot missile battery at Strait of Gibraltar",
+          "body": "The Spanish Army is establishing a new Patriot missile battery in San Roque, Cadiz, overlooking the Strait of Gibraltar, as part of a broader modernisation of the country's air defence. The site near Algeciras is within radar range of the naval base at Rota and Navantia's shipyards. Spain has contracted four batteries of the more advanced PAC-3 variant for 2.4 billion euros, capable of intercepting ballistic missiles at altitudes up to 30 kilometres, a significant upgrade from its current second-hand PAC-2 systems purchased from Germany. However, global demand driven by the Ukraine war means delivery of the new launchers and missiles is not expected until 2029-2030, with training for the roughly 400 soldiers needed not beginning until 2028.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260324/ejercito-emplazara-nuevo-grupo-lanzamisiles-estrecho-gibraltar-128372584" }
+          ]
+        },
+        {
+          "headline": "25-year-old paraplegic woman announces euthanasia date after Strasbourg court rejects father's final appeal",
+          "body": "Noelia, a 25-year-old woman left paraplegic after a suicide attempt, has announced that her euthanasia will take place on March 26 after the European Court of Human Rights rejected a last-ditch request by the ultra-conservative group Abogados Cristianos, acting on behalf of her father, to suspend the procedure. Spain's Supreme Court, Constitutional Court, and now Strasbourg have all upheld her right to die. Noelia told Spanish television that 'every day is horrible and painful' and that she simply wants 'to go in peace and stop suffering.' Her case has become a focal point in Spain's debate over its 2021 euthanasia law, with her family opposed but multiple judicial and medical bodies affirming her decision.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260324/11498385/noelia-anuncia-fecha-eutanasia-ultimo-recurso-fallido-padre.html" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/cataluna/2026/03/24/69c2c047fdddff44728b4590.html" },
+            { "name": "Emporda", "url": "https://www.emporda.info/salut/2026/03/24/noia-25-anys-eutanasia-guanyar-batalla-judicial-dos-anys-128365466.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Sagrada Familia nears deal to rehouse residents displaced by planned Gaudi staircase",
+          "body": "The Sagrada Familia's construction board is close to finalising an agreement with Barcelona's city council to rehouse within the Eixample district all residents who will need to leave their homes for the construction of the monumental staircase that Antoni Gaudi designed over Carrer Mallorca. Board president Esteve Camps said negotiations were 'very advanced' and that no resident would be left without housing in the district. Separately, the basilica reported a record 4.87 million visitors in 2025, with Americans, Spaniards, and Chinese making up the largest groups. The Tower of Jesus, to be inaugurated by the Pope on June 10 for the centenary of Gaudi's death, will not be open to visitors until its glass elevator is completed, expected in 2028.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/la-sagrada-familia-ultima-un-acord-per-reallotjar-els-veins-afectats-per-la-futura-escalinata/noticia/3401332/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/la-sagrada-familia-veu-molt-a-prop-un-acord-per-construir-lescalinata-702222/" },
+            { "name": "The New Barcelona Post", "url": "https://www.thenewbarcelonapost.cat/sagrada-familia-4-8-milions-visitants-a-prop-escalinata/" }
+          ]
+        },
+        {
+          "headline": "Anti-eviction protest in Gracia as Dutch investment fund pushes 'coliving' conversions",
+          "body": "Hundreds of neighbours and housing activists held an overnight 'resistance vigil' on Carrer de Sant Agusti in Gracia on Tuesday night to block the eviction of a tenant from a building purchased in 2023 by Dutch company New Amsterdam Developers. Since acquiring the property, the firm has declined to renew existing leases and has illegally renovated flats before reletting them as 'coliving' rooms at nearly 1,000 euros per room, roughly triple previous rents. Barcelona's housing commissioner Joan Ramon Riera called the eviction 'inadmissible' and the practices 'speculative,' noting the city had already fined the company 20,000 euros for exceeding its renovation permit. Organisers hope to replicate the success of the Casa Orsola campaign, which resulted in a speculative building being converted to affordable housing.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/vetllada-de-resistencia-a-gracia-contra-el-desnonament-dun-pis-al-bloc-sant-agusti/noticia/3401411/" },
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/habitatge/sant-agusti-nova-casa-orsola-702339/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260324/sindic-desahucios-gracia-sant-agusti-14-coliving-barcelona-128358878" }
+          ]
+        },
+        {
+          "headline": "Rambla flower sellers move to Placa Catalunya for first time in their history",
+          "body": "Barcelona's iconic Rambla flower sellers have relocated to Placa Catalunya for the first time in their history, displaced by the major renovation of the city's most famous boulevard. The eight florists, including Flors Carolina which has been on the Rambla since 1888, will remain at their temporary location for about a year. Their new modular stalls are built with metal frames and glass panels, designed in colours to blend into the Rambla's landscape when they eventually return. The Rambla renovation is expected to be completed before the 2027 municipal elections. The works also mean that this year's Sant Jordi celebrations on April 23 will be held at Portal de l'Angel, Placa Catalunya, and Placa de la Catedral instead of the Rambla.",
+          "sources": [
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/societat/floristes-rambla-traslladen-placa-catalunya-702070/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260324/floristas-rambla-traslado-plaza-catalunya-obras-2027-128361495" }
+          ]
+        },
+        {
+          "headline": "Strong wind warning activated for southern Catalunya with gusts up to 108 km/h expected",
+          "body": "Catalan Civil Protection has activated the Ventcat severe wind plan, warning of strong winds beginning Wednesday afternoon in the southern part of the country and intensifying through the evening into Thursday morning. The Meteorological Service of Catalunya forecasts gusts exceeding 90 km/h in the Baix Camp and over 108 km/h in the Baix Ebre and Montsia regions. From Wednesday night, heavy seas with waves above 2.5 metres are expected along the Alt and Baix Emporda coasts, including the area around Cap de Begur. Authorities have advised residents to secure balcony items, avoid parks and wooded areas, and postpone outdoor activities.",
+          "sources": [
+            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/activat-el-pla-ventcat-per-previsio-de-fortes-ventades-a-partir-de-dimecres-al-migdia/noticia/3401335/" }
+          ]
+        },
+        {
+          "headline": "Opposition unites against Collboni's plan to move Casc Antic health centre outside the neighbourhood",
+          "body": "All opposition parties in Barcelona's Ciutat Vella district have joined forces against Mayor Jaume Collboni's plan to relocate the CAP Casc Antic primary care centre to a building on Ronda de Sant Pere in the Eixample, outside the neighbourhood it serves. Barcelona en Comu has called an extraordinary plenary session for Wednesday, with Junts and ERC confirming they will support a motion demanding the mayor scrap the relocation and find a site within the old quarter. Neighbourhood associations from both the Casc Antic and the Dreta de l'Eixample also oppose the project. The current health centre, dating from 1993, is acknowledged to need renovation and expansion, but residents insist any replacement must stay within their neighbourhood.",
+          "sources": [
+            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/politica/oposicio-veins-alie-contra-collboni-trasllat-casc-antic-eixample-702319/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
