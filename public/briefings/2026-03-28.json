@@ -1,0 +1,179 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Iran war hits one-month mark with key objectives unfulfilled as Tehran rejects ceasefire and attacks US base in Saudi Arabia",
+          "body": "The US-Israel war on Iran reached its one-month mark on Saturday with several of President Trump's stated objectives still unmet, even as he suggested the operation may be \"winding down.\" Secretary of State Marco Rubio said military operations could conclude within \"two to four weeks,\" while the Pentagon is reportedly considering deploying up to 10,000 additional combat troops. Iran rejected the US 15-point ceasefire proposal and issued its own counter-demands, including war reparations, sovereignty over the Strait of Hormuz, and a permanent end to hostilities with firm guarantees. In a significant escalation, at least ten US service members were wounded and several refueling aircraft damaged in an Iranian attack on Prince Sultan Air Base in Saudi Arabia. Saudi Arabia intercepted three drones over Riyadh, and the UAE's air defences responded to incoming missiles. Nearly 1,500 Iranian civilians have reportedly been killed by US and Israeli strikes. Public opinion polls show broad American disapproval of the military action.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/live/iran-war-israel-trump-03-25-2026" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/live/2026/mar/28/middle-east-crisis-live-iran-war-updates-trump-us-negotiations-israel-strikes-lebanon-tehran-syria-explosions" },
+            { "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/world/u-s-troops-wounded-planes-damaged-in-iranian-strike-on-saudi-air-base-official-says" },
+            { "name": "Pew Research", "url": "https://www.pewresearch.org/politics/2026/03/25/americans-broadly-disapprove-of-u-s-military-action-in-iran/" }
+          ]
+        },
+        {
+          "headline": "Millions expected at 'No Kings' protests across all 50 states and 15 countries in largest anti-Trump mobilisation yet",
+          "body": "The third wave of \"No Kings\" protests is taking place today across the United States and internationally, with organisers anticipating the largest day of domestic political protest in American history. Over 3,000 events are scheduled across all 50 states and at least 15 countries, building on turnouts of roughly five million in June and seven million in October 2025. The Twin Cities of Minneapolis and St Paul are the flagship site, with a major rally at the Minnesota State Capitol featuring a performance by Bruce Springsteen. Demonstrators are protesting aggressive immigration enforcement, recent fatal shootings by ICE agents, the war in Iran, threats to election security, and what participants describe as authoritarian overreach. Major cities including New York, Chicago, San Francisco, and Washington are expecting crowds of hundreds of thousands each. Organisers stress the protests are intended to be peaceful and family-friendly.",
+          "sources": [
+            { "name": "Time", "url": "https://time.com/article/2026/03/24/no-kings-protests-march-28-biggest-anti-trump-crowds-ever/" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/27/no-kings-protests-goals" },
+            { "name": "Britannica", "url": "https://www.britannica.com/event/No-Kings-protests" }
+          ]
+        },
+        {
+          "headline": "Mass grave containing 32 bodies, mostly infants, discovered in western Kenya",
+          "body": "Authorities in Kericho, western Kenya, exhumed approximately 32 bodies — 25 infants and fetuses plus seven adults — from a mass grave on church-owned land after a court order to retrieve 14 bodies uncovered far more than expected. Government pathologist Richard Njoroge described finding bodies \"stacked in gunny bags\" and noted the adult remains were more decomposed than the children's, suggesting burials at different times. Two suspects, a public health officer and a cemetery caretaker, have been arrested. The site belongs to the National Council of Churches of Kenya, which says the burials were conducted without their approval. Investigators are exploring whether some bodies originated from hospitals and mortuaries, with 13 unclaimed bodies reportedly transported from a hospital in nearby Nyamira county. Human rights groups have called for an immediate transparent investigation, drawing comparisons to the 2023 Shakahola Forest massacre.",
+          "sources": [
+            { "name": "Morning Star", "url": "https://morningstaronline.co.uk/article/dozens-bodies-mostly-infants-found-kenyan-mass-grave" },
+            { "name": "Face2Face Africa", "url": "https://face2faceafrica.com/article/about-32-bodies-mostly-infants-found-in-kenya-mass-grave" }
+          ]
+        },
+        {
+          "headline": "Former Google executive Matt Brittin named BBC director general as broadcaster faces digital transformation",
+          "body": "Matt Brittin, who spent nearly two decades at Google and most recently served as president for Europe, the Middle East, and Africa, has been appointed the BBC's 18th director general. He will take over on May 18 from outgoing chief Tim Davie, who steps down on April 2, with Rhodri Talfan Davies serving as interim leader in between. The BBC board cited Brittin's experience leading complex organisations through transformation. His appointment comes at a critical juncture for the broadcaster, which faces declining traditional viewership, ongoing debates about its licence fee funding model, and a feud with the Trump administration. Brittin's tech background rather than traditional media experience signals the BBC's pivot toward digital-first strategies.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/media/2026/mar/25/new-bbc-director-general-matt-brittin-former-google-executive-olympic-rower" },
+            { "name": "AP News", "url": "https://apnews.com/article/bbc-new-director-b455487b304f1177745d18bba42cd2a0" }
+          ]
+        },
+        {
+          "headline": "Trump-Xi summit rescheduled for May 14–15 in Beijing after Iran war postponement",
+          "body": "The White House confirmed that President Trump will travel to Beijing on May 14–15 for a summit with Chinese President Xi Jinping, rescheduled from a late March date that was pushed back due to US military operations in Iran. The meeting is expected to focus on trade relations, agricultural exports, and supply chain tensions, as well as strategic challenges including Taiwan. It follows a previous Trump-Xi meeting in Busan, South Korea, in October 2025, and Xi is expected to make a reciprocal visit to Washington later in 2026. Some analysts suggest up to four meetings between the two leaders this year to maintain trade stability amid global economic uncertainty driven by the Iran conflict.",
+          "sources": [
+            { "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/after-delay-due-to-iran-war-trump-will-travel-to-beijing-for-rescheduled-china-trip-in-may" },
+            { "name": "Brookings", "url": "https://www.brookings.edu/articles/beyond-trade-issues-in-a-trump-xi-summit/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Iran-linked hackers breach FBI Director Kash Patel's personal email, publish photos and documents",
+          "body": "An Iran-linked hacking group calling itself the \"Handala Hack Team\" claimed responsibility for breaching FBI Director Kash Patel's personal email account, publishing personal photographs, a résumé, and emails dating from 2010 to 2019. The FBI confirmed the breach but said the information was \"historical in nature\" and involved \"no government information.\" The hack came just days after the Justice Department seized four domains connected to the Handala group as part of efforts to disrupt Iranian intelligence hacking operations — the domain used for the Patel hack was reportedly registered on March 19, the same day the DOJ announced its seizure action. The State Department has offered a 10 million dollar reward for information leading to the identification of the group.",
+          "sources": [
+            { "name": "CBS News", "url": "https://www.cbsnews.com/news/fbi-director-kash-patel-email-hackers-lran/" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/27/fbi-director-kash-patel-email-hacked-by-iran" },
+            { "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/nation/pro-iranian-group-claims-credit-for-hacking-into-fbi-director-patels-personal-account" }
+          ]
+        },
+        {
+          "headline": "Tiger Woods arrested for DUI after high-speed rollover crash in Jupiter Island, Florida",
+          "body": "Tiger Woods was arrested on Friday on suspicion of driving under the influence after his Land Rover rolled over while attempting to pass a pickup truck at high speed on Jupiter Island, Florida. Neither Woods nor the other driver was injured. A Breathalyser test showed \"triple zeroes\" — no alcohol in his system — but deputies observed signs of impairment and investigators suspect medication or drugs. Woods, 50, refused a urine test and was charged with DUI, property damage, and refusal to submit to a lawful test. It is his second DUI arrest after a 2017 incident in nearby Jupiter where he was found asleep in his car with prescription drugs in his system, and his third serious vehicle incident after a 2021 rollover in California that left him with severe leg injuries.",
+          "sources": [
+            { "name": "CBS News", "url": "https://www.cbsnews.com/news/tiger-woods-involved-rollover-crash-jupiter-island-florida/" },
+            { "name": "PGA Tour", "url": "https://www.pgatour.com/article/news/latest/2026/03/27/tiger-woods-arrested-dui-after-rollover-car-crash-jupiter-florida" },
+            { "name": "LA Times", "url": "https://www.latimes.com/sports/story/2026-03-27/tiger-woods-crash-rollover-jupiter-island" }
+          ]
+        },
+        {
+          "headline": "Trump signs executive order to pay TSA agents as DHS shutdown becomes longest in US history",
+          "body": "President Trump signed an executive order directing the Department of Homeland Security to immediately pay Transportation Security Administration agents who have been working without paychecks as the partial government shutdown became the longest in American history. The move came after the House failed to approve a Senate-passed funding bill, leaving thousands of TSA workers unpaid and causing mounting delays and high absentee rates at airports across the country. Details of the emergency pay mechanism were not immediately available. The crisis has been compounded by ICE agents conducting identification checks at security checkpoints in several major airports including JFK, Atlanta, and Houston, adding to travel disruptions.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/airport-delays-wait-times-shutdown-congress-tsa-b419e989a22dbc028d01cbd892fadb40" },
+            { "name": "KSAT", "url": "https://www.ksat.com/news/politics/2026/03/27/the-latest-house-considers-whether-to-approve-funding-for-tsa-and-most-of-homeland-security/" }
+          ]
+        },
+        {
+          "headline": "WNBA's Connecticut Sun sold for record $300 million, will relocate to Houston as the Comets",
+          "body": "The WNBA's Connecticut Sun have been sold to the Fertitta family, owners of the NBA's Houston Rockets, for a record 300 million dollars, with plans to relocate the franchise to Houston in 2027. The team will play its final season in Connecticut this year before being renamed the Houston Comets, reviving the name of the city's original WNBA franchise that won four consecutive championships from 1997 to 2000. The team is expected to play at the Toyota Center. The deal is subject to approval by the WNBA's Board of Governors. A previous attempt to sell the Sun to a group that would have moved them to Boston for 325 million dollars was blocked by the league over relocation protocols.",
+          "sources": [
+            { "name": "CBS Sports", "url": "https://www.cbssports.com/wnba/news/wnba-connecticut-sun-relocate-houston-300-million-sale/" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/sport/2026/mar/27/fertitta-family-buy-connecticut-sun-move-houston-comets" },
+            { "name": "Front Office Sports", "url": "https://frontofficesports.com/fertittas-to-purchase-connecticut-sun-for-record-300-million/" }
+          ]
+        },
+        {
+          "headline": "CPAC held in Texas without Trump for first time in a decade as Republican divisions over Iran war emerge",
+          "body": "The Conservative Political Action Conference took place in Texas this week without President Trump in attendance for the first time in nearly a decade, amid open disagreements within the Republican Party over the war in Iran. While discussions at the conference revolved heavily around Trump, some speakers encouraged the party to avoid infighting and present a united front. The president's absence was notable given his previous dominance of the event, and comes as his approval ratings have slipped due to the war and the ongoing DHS shutdown. Meanwhile, California's sheriff has defied state officials by seizing more ballot materials, and Fulton County has accused the FBI of \"callous disregard\" over ballot seizures related to the 2020 Georgia election probe.",
+          "sources": [
+            { "name": "WSLS", "url": "https://www.wsls.com/news/politics/2026/03/28/the-top-moments-from-this-years-cpac-conference-in-texas/" },
+            { "name": "Axios", "url": "https://www.axios.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Airport chaos looms as Groundforce launches indefinite strike at 12 Spanish airports from Monday, joining Menzies walkouts over Easter",
+          "body": "Ground handling workers at Groundforce, a Globalia group company, will begin an indefinite strike on Monday at 12 major Spanish airports including Madrid-Barajas, Barcelona-El Prat, Alicante, Valencia, Málaga, Palma de Mallorca, and Bilbao. The action, called by unions CCOO, UGT, and USO after failed wage negotiations, will consist of partial stoppages during three daily slots on Mondays, Wednesdays, and Fridays and could continue until December 31. The strike coincides with the start of Easter week travel and compounds disruption from separate 24-hour walkouts by Menzies ground handling workers at El Prat this weekend and from April 2 to 6. Passengers should expect delays in check-in, boarding, and baggage handling across the country's busiest airports during the peak holiday period.",
+          "sources": [
+            { "name": "El País", "url": "https://elpais.com/economia/2026-03-27/la-empresa-de-handling-de-globalia-afronta-una-huelga-indefinida-con-paros-parciales-en-barajas-el-prat-y-otros-diez-aeropuertos.html" },
+            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/economia/20260327/huelgas-aeropuertos-barcelona-el-prat-espana-handling-128473642" },
+            { "name": "Majorca Daily Bulletin", "url": "https://www.majorcadailybulletin.com/holiday/airport/2026/03/26/141179/spain-airport-strikes-suspended-but-will-start-monday-fears-disruption-palma-and-ibiza-airports-over-next-few-weeks.html" }
+          ]
+        },
+        {
+          "headline": "Spain cruise past Serbia 3–0 in World Cup warm-up as Oyarzabal scores twice and debutant Muñoz nets",
+          "body": "Spain beat Serbia 3–0 at the Estadio de la Cerámica in Villarreal on Friday night in a confident pre-World Cup friendly performance. Mikel Oyarzabal scored twice to underline his credentials ahead of the tournament in the United States, Canada, and Mexico this summer, while substitute Víctor Muñoz marked his senior international debut with the third goal. The victory capped a commanding display by Luis de la Fuente's side as they finalise preparations for the World Cup, where Spain are among the favourites after winning Euro 2024.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/sports/2026/3/27/oyarzabal-double-seals-spain-win-against-serbia-in-world-cup-warm-up" },
+            { "name": "beIN Sports", "url": "https://www.beinsports.com/en-us/soccer/friendlies/articles/spain-3-0-serbia-oyarzabal-blasts-visitors-away-in-villarreal-2026-03-27" }
+          ]
+        },
+        {
+          "headline": "Spain's Health Ministry moves to shorten euthanasia deadlines after Noelia Castillo's 18-month legal ordeal",
+          "body": "Spain's Health Ministry announced plans to shorten euthanasia deadlines for urgent cases, responding to the national debate triggered by the death of 25-year-old Noelia Castillo, who died by euthanasia on Thursday after an 18-month legal battle with her father. The case, the first in Spain where a court adjudicated the right to euthanasia, has drawn sharp reactions: Spanish bishops and conservative groups labelled it a \"social defeat\" and cited \"serious flaws\" in the law, while supporters argued it affirmed patient autonomy. The Bank of Spain separately warned of a potential inflation crisis if the Iran conflict continues, with March inflation rising to 3.3 percent driven by surging energy prices.",
+          "sources": [
+            { "name": "Europa Press", "url": "https://www.europapress.es/eseuropa/noticia-ursula-von-der-leyen-principales-titulares-periodicos-sabado-28-marzo-20260328000413.html" },
+            { "name": "GDN Online", "url": "https://www.gdnonline.com/Details/1379734/Euthanasia-case-triggers-row-in-Spain" }
+          ]
+        },
+        {
+          "headline": "Bernabéu to host clay-court tennis as Real Madrid president announces Mutua Madrid Open at the stadium",
+          "body": "Real Madrid president Florentino Pérez announced that the Santiago Bernabéu will be transformed to host a clay tennis court for the Mutua Madrid Open from April 23 to 30, in one of the most ambitious crossover events in European sports. The retractable-roof stadium, recently renovated at a cost of over one billion euros, will temporarily become a tennis venue in a move designed to showcase the arena's versatility. The Madrid Open, one of the premier ATP and WTA events, has traditionally been held at the Caja Mágica complex on the outskirts of the city.",
+          "sources": [
+            { "name": "La Razón", "url": "https://www.larazon.es/opinion/caras-noticia-28-marzo-2026_2026032869c713086b2f88359259fc4e.html" }
+          ]
+        },
+        {
+          "headline": "Spain to regularise half a million undocumented migrants, with 150,000 in Catalonia, to fill care and hospitality gaps",
+          "body": "Spain is proceeding with an extraordinary plan to regularise approximately 500,000 undocumented migrants, with up to 150,000 residing in Catalonia. The initiative is designed to bring domestic care and hospitality workers into the formal economy, allowing irregular residents to obtain work and residency permits even without a prior job offer. The plan addresses chronic labour shortages in sectors that have struggled to attract workers, while also expanding the tax base and social security contributions. It is one of the largest regularisation programmes in recent European history.",
+          "sources": [
+            { "name": "Catalan News", "url": "https://www.catalannews.com/" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Barcelona tourist tax doubles from April 1, making city one of Europe's most expensive for overnight stays",
+          "body": "Barcelona's overnight tourist tax will double from April 1 under a measure approved by the Catalan parliament to combat overtourism and address the housing crisis. Hotel guests will pay between 10 and 15 euros per night depending on star rating, up from 5 to 7.50 euros, while short-term holiday apartment levies rise from 6.25 to 12.50 euros per night. Barcelona's separate municipal surcharge also increases from 4 to 5 euros per night, with annual rises planned up to 8 euros by 2029. A two-night stay in a four-star hotel could cost roughly 45 euros in combined taxes. Revenue will fund a new Tourism Reinvestment Fund for urban infrastructure, housing, and sustainability programmes.",
+          "sources": [
+            { "name": "Fodor's", "url": "https://www.fodors.com/world/europe/spain/barcelona/experiences/news/barcelona-doubles-tourist-tax-making-it-one-of-europes-most-expensive-cities-to-visit" },
+            { "name": "Time Out", "url": "https://www.timeout.com/news/the-overnight-tourist-tax-is-doubling-in-this-major-european-city-030626" },
+            { "name": "Travel Pulse", "url": "https://www.travelpulse.ca/news/impacting-travel/overtourism-measures-drive-barcelona-tax-increase-in-2026" }
+          ]
+        },
+        {
+          "headline": "Catalan government approves €400 million aid package to shield families and businesses from Iran war fallout",
+          "body": "President Salvador Illa's Catalan government approved a 400-million-euro financial support package to cushion the economic impact of the Iran conflict on families and businesses, consisting of 40 measures including direct aid, tax exemptions, and financing tools. The breakdown allocates 216 million euros for businesses, 30 million for families, and 154 million to accelerate environmental transformation and reduce reliance on fossil fuels. The package is separate from Barcelona city's own 23-million-euro municipal aid plan announced earlier in the week and the Spanish central government's five-billion-euro anticrisis decree passed by Congress on Thursday.",
+          "sources": [
+            { "name": "Catalan News", "url": "https://www.catalannews.com/politics/item/400-million-aid-package-23-03-2026" }
+          ]
+        },
+        {
+          "headline": "Strong wind warning activated across Barcelona and central Catalonia with gusts above 72 km/h expected Saturday",
+          "body": "Civil Protection activated the Ventcat plan to alert phase for strong winds expected across the Barcelona area and central Catalonia on Saturday, with gusts forecast to exceed 72 km/h. The warning comes as the region heads into a weekend already complicated by airport ground handling strikes, and authorities have advised caution outdoors, particularly near coastlines, mountains, and construction areas. The wind is expected to ease by Sunday.",
+          "sources": [
+            { "name": "Ara", "url": "https://en.ara.cat/society/the-ventcat-plan-has-been-activated-for-strong-winds-saturday-in-the-barcelona-area-and-central-catalonia_25_5640259.html" }
+          ]
+        },
+        {
+          "headline": "Ana Botín projects record Santander profits for 2026 as bank weathers war-driven market turbulence",
+          "body": "Banco Santander president Ana Botín confirmed strong business performance and projected record profits for 2026, offering a rare note of corporate optimism amid the economic turmoil caused by the Iran war. The bank, headquartered in Santander but with major operations across Europe and Latin America, has benefited from rising interest rates and strong demand in its retail banking divisions. Botín's comments come as the wider European banking sector navigates uncertainty from surging energy prices and the threat of a prolonged conflict in the Middle East.",
+          "sources": [
+            { "name": "La Razón", "url": "https://www.larazon.es/opinion/caras-noticia-28-marzo-2026_2026032869c713086b2f88359259fc4e.html" }
+          ]
+        }
+      ]
+    }
+  ]
+}
