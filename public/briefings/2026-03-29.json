@@ -1,0 +1,163 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Iran war expands as Houthis strike Israel, Iran hits Bahrain, and regional powers convene Pakistan peace talks",
+          "body": "The Iran war escalated significantly over the weekend as Yemen's Houthi rebels launched their first attacks on Israel since the conflict began, the Israeli military confirming it intercepted a missile fired from Yemen. Iran struck an aluminium plant in Bahrain operated by Aluminium Bahrain (Alba), injuring two workers, and Iran-aligned militias in Iraq launched intense overnight drone and missile attacks on the US consulate and bases in Irbil. The Pentagon is reportedly preparing plans for weeks of ground operations in Iran, including raids on Kharg Island and coastal sites near the Strait of Hormuz, though President Trump has not approved any deployment. Some 2,500 US Marines arrived in the region. Iran also threatened to target US-affiliated universities in the Middle East in retaliation for alleged strikes on two Iranian universities. The war's economic toll deepened: an Iranian strike on Qatar's Ras Laffan terminal on March 18 destroyed 17 percent of the country's LNG export capacity, with QatarEnergy estimating five years for repairs. Over 3,000 people have been killed. In a diplomatic push, Pakistan announced that Saudi Arabia, Turkey, and Egypt will send top diplomats to Islamabad on Sunday to discuss ending the fighting, after Pakistani Prime Minister Sharif held 'extensive discussions' with Iranian President Pezeshkian.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/iran-israel-us-houthis-yemen-dba2e2e2309f08547a3cbfdc2c367897" },
+            { "name": "The Hindu", "url": "https://www.thehindu.com/news/international/iran-israel-us-war-updates-live-march-29-2026/article70798605.ece" },
+            { "name": "WSLS", "url": "https://www.wsls.com/news/2026/03/29/the-latest-regional-powers-to-meet-in-pakistan-to-discuss-how-to-end-mideast-fighting/" },
+            { "name": "NDTV", "url": "https://www.ndtv.com/world-news/us-israel-iran-war-live-updates-pakistan-to-hold-regional-meeting-on-ending-iran-war-middle-east-conflict-saudi-arabia-turkey-egypt-strait-of-hormuz-11281097" }
+          ]
+        },
+        {
+          "headline": "North Korea tests high-thrust solid-fuel missile engine capable of targeting US mainland",
+          "body": "North Korea conducted a test of an upgraded high-thrust, solid-fuel missile engine under the supervision of Kim Jong Un, state media reported. The engine, built with a new composite carbon fibre material, achieved a maximum thrust of 2,500 kilotons, up from about 1,971 kilotons in a September test. Analysts believe the increased thrust is aimed at enabling multiple independently targetable warheads on a single intercontinental ballistic missile, improving the chances of defeating US missile defences. The test came days after Kim delivered a parliamentary speech pledging to cement North Korea's status as a nuclear power and accusing the United States of global 'state terrorism and aggression.' It is part of Pyongyang's five-year military escalation programme to upgrade nuclear-capable ICBMs.",
+          "sources": [
+            { "name": "LA Times", "url": "https://www.latimes.com/world-nation/story/2026-03-28/north-korea-conducts-engine-test-for-missile-capable-of-reaching-u-s" },
+            { "name": "Click On Detroit", "url": "https://www.clickondetroit.com/news/world/2026/03/29/north-korea-conducts-engine-test-for-missile-capable-of-targeting-us-mainland/" }
+          ]
+        },
+        {
+          "headline": "Cyber warfare becomes front line in Iran conflict as spyware targets Israelis fleeing missile strikes",
+          "body": "The Iran war is demonstrating how deeply cyber operations are now embedded in modern conflict. Security researchers revealed that Israelis fleeing Iranian missile strikes received Android text messages offering a link to bomb shelter information, which instead downloaded spyware giving hackers access to their cameras, locations, and data. The operation, attributed to Iran, showed sophisticated coordination of digital and physical attacks. Gil Messing of Check Point Research called it a 'novel combination' timed to coincide with the strikes. Experts warned the digital conflict is likely to persist even after a ceasefire, because cyber operations are cheaper and easier than conventional warfare and are designed to spy, steal, and frighten rather than kill.",
+          "sources": [
+            { "name": "The Hindu / AP", "url": "https://www.thehindu.com/news/international/iran-israel-us-war-updates-live-march-29-2026/article70798605.ece" }
+          ]
+        },
+        {
+          "headline": "Six Palestinians killed in Israeli strikes on Gaza as Lebanon toll rises to five soldiers",
+          "body": "Two Israeli strikes early Sunday killed six Palestinians in the Gaza Strip, including three policemen, with one strike hitting a police checkpoint and another striking a group in the southern city of Khan Younis. The deaths came despite an October ceasefire deal that attempted to halt the two-year war between Israel and Hamas. Separately, an Israeli soldier was killed and three wounded in combat in southern Lebanon, bringing the total to five Israeli soldiers killed there since hostilities with Hezbollah reignited on March 2. Israel also killed Hezbollah's al-Manar TV correspondent Ali Shoeib and other journalists in a strike in Jezzine, southern Lebanon.",
+          "sources": [
+            { "name": "AP News / WSLS", "url": "https://www.wsls.com/news/2026/03/29/the-latest-regional-powers-to-meet-in-pakistan-to-discuss-how-to-end-mideast-fighting/" }
+          ]
+        },
+        {
+          "headline": "Spain's Sánchez emerges as Europe's only major anti-war voice, refusing US use of Spanish military bases",
+          "body": "Spanish Prime Minister Pedro Sánchez has drawn international attention for publicly rejecting the US-Israel war on Iran, calling it a violation of international law and refusing to permit the United States to use Spanish military bases for strikes on Iran. The stance places Spain as the most prominent European critic of the military campaign, in contrast to more cautious positions from other EU leaders. Sánchez's government has also pushed for stronger EU diplomatic engagement to end the conflict. The position reportedly drew a sharp reaction from former President Trump.",
+          "sources": [
+            { "name": "The Hindu", "url": "https://www.thehindu.com/news/international/pedro-sanchez-europes-only-anti-war-prime-minister/article70797237.ece" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "No Kings 3 draws estimated 8 million in largest protest in American history",
+          "body": "The third wave of No Kings protests drew an estimated 8 million people to over 3,300 events across all 50 states and 16 countries on Saturday, making it likely the largest day of political protest in American history. The flagship rally in St Paul, Minnesota, featured performances by Bruce Springsteen and Joan Baez and speeches from Senator Bernie Sanders. Actor Robert De Niro called Trump an 'existential threat to our freedoms and security.' About a thousand people separately gathered outside the National Institutes of Health in Bethesda, Maryland, to protest cuts to medical research. Major rallies took place in New York, Washington, Chicago, San Francisco, and San Diego, as well as in Rome, Paris, Berlin, and London. Demonstrators protested the war in Iran, aggressive immigration enforcement, rising living costs, and what participants described as authoritarian overreach. Previous No Kings rallies in June and October 2025 drew an estimated five and seven million respectively.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/29/trump-news-at-a-glance-no-kings-rallies-draw-millions-to-us-streets-in-protest-against-president" },
+            { "name": "CBS News", "url": "https://www.cbsnews.com/news/no-kings-rallies-protest-trump-millions/" },
+            { "name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/nation/no-kings-rallies-draw-crowds-across-u-s-and-europe-as-springsteen-headlines-minnesota-demonstration" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/gallery/2026/3/28/photos-no-kings-protests-erupt-across-the-us-with-a-minnesota-focus" }
+          ]
+        },
+        {
+          "headline": "House Republicans pass their own DHS stopgap bill, rejecting Senate bipartisan deal as shutdown drags on",
+          "body": "House Republicans rejected a bipartisan Senate deal to temporarily fund the Department of Homeland Security and instead passed their own eight-week stopgap measure on Friday by 213 to 203 votes. The Senate deal had excluded funding for Immigration and Customs Enforcement and border patrol, which House Republicans refused to accept. The standoff means the longest DHS shutdown in US history continues, with TSA agents still facing disrupted pay despite Trump's executive order for immediate back-pay. Long airport queues are expected to persist through the weekend, compounded by ICE identification checks at security checkpoints in several major airports. The two chambers must now reconcile their competing bills.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/28/us-house-stopgap-dhs-funding-bill-republicans-senate" },
+            { "name": "VisaHQ", "url": "https://www.visahq.com/news/2026-03-28/us/trump-orders-immediate-tsa-pay-as-dhs-shutdown-persists-but-long-lines-likely-to-linger/" }
+          ]
+        },
+        {
+          "headline": "US Treasury demands Financial Times retract story on increased Federal Reserve oversight",
+          "body": "The US Treasury Department demanded on Friday that the Financial Times retract a report on Treasury Secretary Scott Bessent's views on the Federal Reserve, accusing the newspaper of publishing 'false claims.' In a formal complaint escalated to the FT's parent company Nikkei Inc, Treasury officials disputed multiple claims in the story and criticised the headline as misrepresenting the underlying reporting. The dispute highlights growing tensions between the Trump administration and major media outlets, and comes amid ongoing concerns about the independence of the Federal Reserve as the economy faces pressure from the Iran conflict and energy price shocks.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/28/treasury-department-financial-times-federal-reserve" }
+          ]
+        },
+        {
+          "headline": "Trump deportation campaign shifts tactics after deep unpopularity in polls",
+          "body": "The Trump administration's immigration enforcement campaign has changed approach following persistently poor polling on its tactics, according to a Guardian analysis. The shift comes after the fatal shootings by ICE agents that fuelled the No Kings protests and broad public unease about the aggressive nature of enforcement operations. Details of the tactical changes were not immediately clear, but the pivot suggests the administration is attempting to recalibrate the political optics of its signature policy issue ahead of growing domestic opposition.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/28/trump-deportation-campaign-noem-bovino-change" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spain switches to summer time as clocks spring forward one hour",
+          "body": "Clocks across Spain moved forward one hour at 2:00 AM on Sunday, shifting to Central European Summer Time (CEST / UTC+2). The annual change means one less hour of sleep but longer evening daylight through the summer months. The time change continues despite years of EU-level discussions about abolishing the practice, which have stalled without consensus among member states. Spain's unusual geographic position — most of the country is west of the Greenwich meridian but uses Central European Time — means the country already has some of the latest sunsets in Europe, a quirk that will be amplified through the summer.",
+          "sources": [
+            { "name": "Heraldo", "url": "https://www.heraldo.es/noticias/nacional/2026/03/28/cambio-horario-verano-fecha-ajuste-hora-espana-2026-1893703.html" },
+            { "name": "Democrata", "url": "https://www.democrata.es/en/current-events/time-change-2026-in-spain-when-it-is-at-what-time-it-changes-and-how-it-affects-the-clock/" }
+          ]
+        },
+        {
+          "headline": "Groundforce indefinite strike begins Monday at 12 airports as Easter travel chaos looms",
+          "body": "Ground handling workers at Groundforce will begin an indefinite strike on Monday at 12 major Spanish airports including Madrid-Barajas, Barcelona-El Prat, Alicante, Valencia, Málaga, Palma de Mallorca, and Bilbao. The action, called by unions CCOO, UGT, and USO after failed wage negotiations, will consist of partial stoppages during three daily slots on Mondays, Wednesdays, and Fridays and could continue until December 31. The strike begins on the first day of Semana Santa travel and compounds disruption from separate Menzies ground handling walkouts at El Prat from April 2 to 6. Passengers should expect delays in check-in, boarding, and baggage handling across the country's busiest airports during the peak holiday period.",
+          "sources": [
+            { "name": "VisaHQ", "url": "https://www.visahq.com/news/2026-03-28/es/groundforce-workers-call-indefinite-strike-at-12-spanish-airports-from-30-march/" },
+            { "name": "El País", "url": "https://elpais.com/economia/2026-03-27/la-empresa-de-handling-de-globalia-afronta-una-huelga-indefinida-con-paros-parciales-en-barajas-el-prat-y-otros-diez-aeropuertos.html" }
+          ]
+        },
+        {
+          "headline": "Spanish press sounds alarm on inflation and economic stagnation as Iran war enters second month",
+          "body": "Spain's major newspapers devoted extensive Sunday coverage to the economic fallout of the Iran war as it enters its second month. El Mundo warned of high inflation combined with stagnating growth, while El País focused on the Houthi entry into the conflict widening the crisis. ABC quoted former defence chief Fernando Alejandre warning of a 'certain and clear threat from Morocco' amid the regional instability. March inflation rose to 3.3 percent, driven by surging energy prices after Iran's effective closure of the Strait of Hormuz. The Bank of Spain has warned of a potential inflation crisis if the conflict continues, with electricity prices for regulated-tariff consumers continuing to climb.",
+          "sources": [
+            { "name": "Europa Press", "url": "https://www.europapress.es/eseuropa/noticia-ue-principales-titulares-periodicos-domingo-29-marzo-20260329000142.html" },
+            { "name": "Huffington Post Spain", "url": "https://noticiastrabajo.huffingtonpost.es/economia/consumo/precio-luz-29-marzo-2026-por-horas-pvpc/" }
+          ]
+        },
+        {
+          "headline": "Feijóo faces Vox challenge as Andalusia becomes battleground ahead of general elections",
+          "body": "La Vanguardia's Sunday edition highlighted growing tensions within Spain's political right, reporting PP leader Alberto Núñez Feijóo's concerns about the growth of the far-right Vox party and its implications for the Partido Popular's electoral strategy. El País separately flagged an intensifying 'battle in Andalusia' ahead of upcoming general elections. The political jockeying comes as the opposition attempts to capitalise on public anxiety over the Iran war, the economic slowdown, and Sánchez's anti-war positioning, which has divided opinion between those who see it as principled and those who view it as damaging to Spain's transatlantic relationships.",
+          "sources": [
+            { "name": "Europa Press", "url": "https://www.europapress.es/eseuropa/noticia-ue-principales-titulares-periodicos-domingo-29-marzo-20260329000142.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Vingegaard wins Volta a Catalunya after dominant mountain display, final stage ends in Barcelona",
+          "body": "Jonas Vingegaard of Team Visma–Lease a Bike won the 105th edition of the Volta a Catalunya, which concluded with a 95.1-kilometre final stage circuit in Barcelona on Sunday. The Danish rider dominated the race's mountain stages, winning back-to-back summit finishes on stages five and six — including a commanding victory at Queralt — to build an insurmountable lead in the general classification. The victory strengthens Vingegaard's credentials ahead of the summer's Grand Tours and provided a festive atmosphere in Barcelona as cycling fans lined the final circuit through the city.",
+          "sources": [
+            { "name": "Volta a Catalunya", "url": "https://www.voltacatalunya.cat/en/news/2026/vingegaard-dominates-with-a-masterclass-at-la-molina-coll-de-pal/1552" },
+            { "name": "Cycling News", "url": "https://www.cyclingnews.com/pro-cycling/racing/volta-a-catalunya-jonas-vingegaard-takes-back-to-back-wins-on-stage-6-atop-summit-finish-in-queralt-increases-race-lead/" },
+            { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Volta_a_Catalunya" }
+          ]
+        },
+        {
+          "headline": "Barcelona approves plan for 12 new public nurseries by 2031",
+          "body": "Barcelona's city council has approved a plan to build 12 new public nurseries across the city by 2031, expanding access to early childhood education in a city where demand has long outstripped supply. The initiative comes as Spain grapples with declining birth rates and growing recognition that affordable childcare is critical for working families. The nurseries will be distributed across multiple districts to reduce geographic inequalities in access. Separately, 16 public school patios across the city are being opened for community use during the Semana Santa holidays.",
+          "sources": [
+            { "name": "20 Minutos Catalunya", "url": "https://www.20minutos.es/cataluna/" }
+          ]
+        },
+        {
+          "headline": "Pyrenees ski resorts enjoy best snow depths in a decade heading into Semana Santa",
+          "body": "Ski resorts across the Catalan and Aragonese Pyrenees are reporting exceptional snow depths not seen in a decade as they prepare for the Semana Santa holiday period. The late-season bounty is a rare piece of good news for the mountain tourism sector, which has faced increasing uncertainty from climate change and shorter winters in recent years. Resorts are expecting strong visitor numbers over the Easter break, though access could be complicated by the Groundforce airport strikes beginning Monday.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://epaper.lavanguardia.com/" }
+          ]
+        },
+        {
+          "headline": "CaixaForum Barcelona premieres major Matisse exhibition with 45 works by the master",
+          "body": "CaixaForum Barcelona has opened a major new exhibition dedicated to Henri Matisse, featuring 45 works by the French master alongside 49 pieces by 20th and 21st-century artists he influenced. The show, running until August 16, spans Matisse's career from his Fauvist experiments to his late paper cut-outs, and explores his lasting impact on modern and contemporary art. The exhibition arrives as Barcelona heads into its peak cultural season, with the doubled tourist tax taking effect on April 1.",
+          "sources": [
+            { "name": "La Vanguardia", "url": "https://epaper.lavanguardia.com/" }
+          ]
+        },
+        {
+          "headline": "Espíritu de Montjuïc classic motor festival wraps up at Circuit de Barcelona-Catalunya",
+          "body": "The Espíritu de Montjuïc, a classic motor racing festival featuring historical cars and tributes to Spanish motorsport history, concluded its three-day run at the Circuit de Barcelona-Catalunya on Sunday. The event included an homage to the late racing driver Emilio de Villota and celebrations of anniversaries for Seat Sport and Vespa. The festival draws enthusiasts from across Europe and has become one of the premier vintage motorsport events on the Iberian Peninsula.",
+          "sources": [
+            { "name": "Motor16", "url": "https://www.motor16.com/las-ultimas-noticias/espiritu-montjuic-2026/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
