@@ -4,9 +4,15 @@ import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { cn } from "@/lib/utils"
 
+/** Read the date from the URL path (e.g. /2026-03-30). */
+const getDateFromPath = () => {
+  const match = window.location.pathname.match(/^\/(\d{4}-\d{2}-\d{2})$/)
+  return match ? match[1] : null
+}
+
 function App() {
   const [briefings, setBriefings] = useState<BriefingIndex[]>([])
-  const [selected, setSelected] = useState<string | null>(null)
+  const [selected, setSelected] = useState<string | null>(getDateFromPath)
   const [content, setContent] = useState<Briefing | null>(null)
   const [open, setOpen] = useState(false)
 
@@ -15,8 +21,32 @@ function App() {
       .then(r => r.json())
       .then((data: BriefingIndex[]) => {
         setBriefings(data)
-        if (data.length > 0) setSelected(data[0].date)
+        const fromUrl = getDateFromPath()
+        if (fromUrl && data.some(b => b.date === fromUrl)) {
+          setSelected(fromUrl)
+        } else if (data.length > 0) {
+          setSelected(data[0].date)
+        }
       })
+  }, [])
+
+  /** Push the selected date into the URL so back/forward navigation works. */
+  useEffect(() => {
+    if (!selected) return
+    const path = `/${selected}`
+    if (window.location.pathname !== path) {
+      window.history.pushState(null, "", path)
+    }
+  }, [selected])
+
+  /** Listen for browser back/forward navigation. */
+  useEffect(() => {
+    const onPopState = () => {
+      const date = getDateFromPath()
+      if (date) setSelected(date)
+    }
+    window.addEventListener("popstate", onPopState)
+    return () => window.removeEventListener("popstate", onPopState)
   }, [])
 
   useEffect(() => {
