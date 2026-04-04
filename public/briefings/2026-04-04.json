@@ -1,0 +1,79 @@
+{
+  "date": "2026-04-04",
+  "stories": [
+    {
+      "headline": "Iran Shoots Down US Fighter Jet in Escalation of Month-Old War",
+      "summary": "Iranian forces shot down a US F-15E Strike Eagle over southwestern Iran on Friday, marking the first downing of a US fighter jet since the war began five weeks ago. One pilot was rescued but another remains missing as rescue operations continue. Iran also claimed to have struck an A-10 aircraft near the Strait of Hormuz. The incident comes despite President Trump's claims that the US had 'completely decimated Iran.' Iranian officials offered rewards for capturing the missing pilot, while Trump said the downing would not affect potential negotiations with Tehran.",
+      "category": "World",
+      "significance": "high",
+      "location": "Iran/Middle East",
+      "tags": ["war", "military", "US", "Iran", "aviation"]
+    },
+    {
+      "headline": "Artemis II Crew Captures Stunning Earth Images En Route to Moon",
+      "summary": "NASA's Artemis II mission successfully completed its translunar injection burn and is now officially on course to the Moon after launching Wednesday from Kennedy Space Center. Commander Reid Wiseman photographed Earth from the Orion spacecraft, capturing images showing the Iberian Peninsula and Africa illuminated by moonlight. The four-person crew - three Americans and one Canadian - are on humanity's first lunar journey in 54 years, though they will orbit rather than land on the Moon during their 10-day mission.",
+      "category": "Science & Technology",
+      "significance": "high", 
+      "location": "Space",
+      "tags": ["NASA", "space", "moon", "Artemis", "photography", "Earth"]
+    },
+    {
+      "headline": "Spain's Left Coalition Unites for Andalusia Elections Despite Clock Running Down",
+      "summary": "After marathon negotiations, Podemos reached an agreement with Izquierda Unida and Sumar to run together under the 'Por Andalucía' banner in upcoming regional elections on May 17. The seven-party coalition will be led by IU's Antonio Maíllo, with Podemos heading the Jaén list and taking second place on Seville and Málaga lists. The deal came together at the last minute, avoiding a repeat of past election chaos that left Podemos formally outside the coalition.",
+      "category": "Spain & Catalonia",
+      "significance": "medium",
+      "location": "Andalusia, Spain",
+      "tags": ["politics", "elections", "Podemos", "coalition", "Andalusia"]
+    },
+    {
+      "headline": "Digital National ID Goes Live in Spain After Years of Development",
+      "summary": "Spain's new digital ID system MiDNI officially launched Thursday, allowing citizens to use their smartphones for legal identification. The system generates QR codes valid for 60 seconds, with three levels of information sharing depending on the use case. Citizens can use the digital ID for hotel registration, vehicle rental, pharmacy visits, and administrative procedures. The digital version complements but does not replace the physical ID card, which remains required for renewal and official purposes.",
+      "category": "Spain & Catalonia",
+      "significance": "medium",
+      "location": "Spain",
+      "tags": ["technology", "digital ID", "government services", "innovation"]
+    },
+    {
+      "headline": "Ukraine War Stalls as Russia Records Smallest Territorial Gains Since 2023",
+      "summary": "Russian forces made their smallest territorial advances in Ukraine since September 2023, capturing only 23 square kilometers in March according to Institute for the Study of War analysis. The slowdown is attributed to Ukrainian counteroffensives, Russia's ban on Starlink terminals, and restrictions on Telegram messaging app use by troops. Meanwhile, Russian strikes killed 14 people in Ukraine Friday as Moscow stepped up daytime attacks using over 500 drones and dozens of missiles.",
+      "category": "World", 
+      "significance": "medium",
+      "location": "Ukraine",
+      "tags": ["war", "Ukraine", "Russia", "military", "territorial gains"]
+    },
+    {
+      "headline": "Wisconsin Mosque President Detained by ICE Amid Israeli Criticism Claims", 
+      "summary": "Salah Sarsour, president of Wisconsin's largest mosque and a Palestinian-born US permanent resident, was detained by ICE agents Monday after leaving his Milwaukee home. His attorneys claim he was targeted for speaking out against Israel and for minor convictions by Israeli military courts as a youth. The 53-year-old has lived in the US for over 30 years with no criminal record. Religious and political leaders called the arrest politically motivated, while supporters demanded his immediate release.",
+      "category": "United States",
+      "significance": "medium",
+      "location": "Wisconsin, USA",
+      "tags": ["immigration", "detention", "Israel", "Palestine", "religious freedom"]
+    },
+    {
+      "headline": "Cuba Begins Releasing 2,000 Prisoners as US-Cuba Talks Progress",
+      "summary": "Cuba announced plans to pardon 2,010 prisoners in what it called a 'humanitarian gesture' for Holy Week, the second major release in less than a month. The move comes after Trump eased a de facto oil blockade by allowing a Russian tanker to deliver crude oil to Cuba. Experts suggest the releases indicate advancing dialogue between Washington and Havana, as freeing political prisoners has long been a core US demand. The pardons exclude those convicted of serious crimes like murder or sexual assault.",
+      "category": "World",
+      "significance": "medium", 
+      "location": "Cuba",
+      "tags": ["Cuba", "US relations", "prisoners", "diplomacy", "Trump"]
+    },
+    {
+      "headline": "12-Year-Old Arrested in Fatal School Bullying Case in Los Angeles",
+      "summary": "A 12-year-old student was arrested on suspicion of murder in connection with the death of classmate Khimberly Zavaleta Chuquipa, who died February 25 from injuries sustained during an alleged bullying incident at Reseda Charter High School. The victim was reportedly struck in the head with a metal water bottle while trying to help her older sister who was being bullied. The family has filed a wrongful-death claim against the Los Angeles Unified School District.",
+      "category": "United States",
+      "significance": "medium",
+      "location": "Los Angeles, USA", 
+      "tags": ["education", "bullying", "violence", "juvenile crime", "schools"]
+    },
+    {
+      "headline": "Palafrugell Mayor Faces Ethics Investigation Over Business Conflicts",
+      "summary": "Catalonia's Anti-Fraud Office found that Palafrugell Mayor Laura Millán committed irregularities related to declaration of interests and potential conflicts of interest when she was an opposition councilor in 2022. She failed to declare becoming administrator of a company that had contracts with the municipality. Two municipal contracts will be reviewed, though they are not automatically considered null. The opposition party ERC is demanding political accountability for the ethical violations.",
+      "category": "Spain & Catalonia",
+      "significance": "low",
+      "location": "Palafrugell, Catalonia",
+      "tags": ["local politics", "ethics", "corruption", "Catalonia", "transparency"]
+    }
+  ],
+  "weather": "Sunny and warm spring weather expected across Spain for Saturday, April 4th, with temperatures rising and clear skies forecast. Ideal conditions for Easter weekend activities.",
+  "summary": "Iran escalated its month-old war with the US by shooting down an American fighter jet, while Russia's advances in Ukraine stalled to their smallest gains in years. Spain launched its digital ID system and saw left-wing parties unite for upcoming Andalusian elections. NASA's historic Artemis II mission continued toward the Moon with stunning Earth photography, and diplomatic progress appeared to advance between the US and Cuba with major prisoner releases."
+}
