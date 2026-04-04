@@ -1,79 +1,154 @@
 {
-  "date": "2026-04-04",
-  "stories": [
+  "sections": [
     {
-      "headline": "Iran Shoots Down US Fighter Jet in Escalation of Month-Old War",
-      "summary": "Iranian forces shot down a US F-15E Strike Eagle over southwestern Iran on Friday, marking the first downing of a US fighter jet since the war began five weeks ago. One pilot was rescued but another remains missing as rescue operations continue. Iran also claimed to have struck an A-10 aircraft near the Strait of Hormuz. The incident comes despite President Trump's claims that the US had 'completely decimated Iran.' Iranian officials offered rewards for capturing the missing pilot, while Trump said the downing would not affect potential negotiations with Tehran.",
-      "category": "World",
-      "significance": "high",
-      "location": "Iran/Middle East",
-      "tags": ["war", "military", "US", "Iran", "aviation"]
+      "title": "World",
+      "stories": [
+        {
+          "headline": "US Continues Search for Missing Pilot After Iran Shoots Down Second American Fighter Jet",
+          "body": "Iranian forces shot down their second US fighter jet since the war began, claiming to have downed both an F-15E Strike Eagle and an A-10 attack aircraft in separate incidents. While one crew member from the F-15E was rescued by US special operations forces, search efforts continue for the missing pilot as Iran offers bounties for their capture. The downings represent a significant escalation in the month-old conflict, with Iranian officials celebrating what they call major tactical victories against US air superiority.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/4/3/iranian-forces-launch-search-for-pilot-of-downed-us-fighter-jet" },
+            { "name": "BBC", "url": "https://www.bbc.com/news/live/cm29zmpdj3vt" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran" }
+          ]
+        },
+        {
+          "headline": "Military Leader in Burkina Faso Tells Citizens to 'Forget About Democracy'",
+          "body": "Captain Ibrahim Traore, who has led Burkina Faso since a 2022 coup, declared that the country's people should abandon hopes for democracy and focus on patriotism instead. Speaking at a public event, Traore criticized democratic systems as ineffective for addressing the nation's security challenges, particularly the ongoing fight against jihadist groups. His comments mark the most explicit rejection of democratic governance by any current West African military leader, raising concerns about the region's democratic backsliding.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/apr/03/people-burkina-faso-should-forget-about-democracy-military-ruler-ibrahim-traore" },
+            { "name": "BBC", "url": "https://www.bbc.com/news/articles/cly0zp1xgz3o" }
+          ]
+        },
+        {
+          "headline": "Ukraine War Shows Signs of Stalemate as Russia Records Minimal Territorial Gains",
+          "body": "Russian forces captured only 23 square kilometers in Ukraine during March, marking their smallest territorial advances since September 2023 according to military analysts. The dramatic slowdown is attributed to effective Ukrainian counteroffensives, Russian communication disruptions following bans on Starlink and Telegram, and successful Ukrainian defense of key positions. Despite the territorial stalemate, Russian airstrikes continue to target civilian infrastructure, killing at least 14 people in recent attacks across multiple Ukrainian cities.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/apr/04/ukraine-war-briefing-russian-army-almost-no-territorial-gains-first-time-since-2023-analysis" },
+            { "name": "BBC", "url": "https://www.bbc.com/news/articles/cew70wjvv9do" },
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/features/2026/4/3/ukraine-slows-enemy-advances-liberates-land-drains-russias-war-chest" }
+          ]
+        },
+        {
+          "headline": "Greece Faces Government Crisis Over EU Funds Fraud Allegations",
+          "body": "The Greek government is in crisis following allegations of fraud related to European Union development funds, prompting calls for resignations from opposition parties. Details remain scarce, but the scandal appears to involve the misappropriation of EU money designated for economic development projects. Prime Minister Kyriakos Mitsotakis faces mounting pressure to address the allegations transparently, with EU officials reportedly monitoring the situation closely. The crisis threatens Greece's ability to access future EU funding streams.",
+          "sources": [
+            { "name": "3Cat", "url": "https://www.3cat.cat/3catinfo/crisi-de-govern-a-grecia-per-un-escandol-de-malversacio-de-fons-europeus/noticia/3402959/" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260403/11505508/crisis-gobierno-grecia-fraude-relacionado-fondos-ue.html" }
+          ]
+        }
+      ]
     },
     {
-      "headline": "Artemis II Crew Captures Stunning Earth Images En Route to Moon",
-      "summary": "NASA's Artemis II mission successfully completed its translunar injection burn and is now officially on course to the Moon after launching Wednesday from Kennedy Space Center. Commander Reid Wiseman photographed Earth from the Orion spacecraft, capturing images showing the Iberian Peninsula and Africa illuminated by moonlight. The four-person crew - three Americans and one Canadian - are on humanity's first lunar journey in 54 years, though they will orbit rather than land on the Moon during their 10-day mission.",
-      "category": "Science & Technology",
-      "significance": "high", 
-      "location": "Space",
-      "tags": ["NASA", "space", "moon", "Artemis", "photography", "Earth"]
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Trump Requests Historic $1.5 Trillion Defense Budget as Iran War Escalates",
+          "body": "President Trump asked Congress for $1.5 trillion in defense spending for the next fiscal year, marking the largest military budget increase since World War II. The request comes as US forces face mounting casualties in the Iran conflict, with the loss of fighter aircraft highlighting the need for enhanced military capabilities. Trump characterized the spending as essential for achieving decisive victory against Iran and maintaining American military supremacy globally. Democratic lawmakers criticized the proposal as fiscally irresponsible.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/encuestas/2026/04/03/69cfcee7e4d4d8093c8b457a.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260403/11505502/trump-pide-congreso-1-5-billones-dolares-defensa-proximo-ano-fiscal.html" },
+            { "name": "BBC", "url": "https://www.bbc.com/news/articles/crr1q4kjvn2o" }
+          ]
+        },
+        {
+          "headline": "Wisconsin Mosque Leader Detained by ICE Amid Claims of Political Targeting",
+          "body": "Salah Sarsour, president of Wisconsin's largest mosque, was detained by Immigration and Customs Enforcement officers after leaving his Milwaukee home. The 53-year-old Palestinian-born permanent resident has lived in the US for over 30 years without a criminal record, according to his attorneys. Legal representatives claim he was targeted for criticizing Israeli policies and for minor convictions by Israeli military courts during his youth in Palestine. Religious and political leaders have condemned the arrest as politically motivated persecution.",
+          "sources": [
+            { "name": "AP News", "url": "https://apnews.com/article/immigration-arrest-wisconsin-mosque-8b73a8edaf8aaa5b365bad0ad109fc0f" },
+            { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/apr/03/canadian-ice-detention-mother-daughter-tania-warner-released" }
+          ]
+        },
+        {
+          "headline": "Trump Orders Full Pay for Homeland Security Staff During Partial Government Shutdown",
+          "body": "President Trump issued an executive order declaring that all Department of Homeland Security employees will receive full pay despite the ongoing partial government shutdown affecting multiple agencies. The directive comes as Border Patrol agents, TSA officers, and other critical security personnel faced uncertainty about their compensation during the Iran war. Trump blamed Democrats for the shutdown while promising to protect frontline security workers from political dysfunction in Washington.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/apr/03/trump-executive-order-dhs-pay-partial-shutdown" },
+            { "name": "New York Times", "url": "https://www.nytimes.com/2026/04/03/us/politics/trump-order-dhs-funding.html" }
+          ]
+        },
+        {
+          "headline": "Supreme Court Protects Debt-Stressed Pensioner in Landmark Consumer Credit Ruling",
+          "body": "The US Supreme Court ruled in favor of a retiree who took on excessive debt to help his family during the COVID pandemic, establishing new protections for seniors facing financial hardship. The decision could affect millions of elderly Americans struggling with medical bills and family support costs. The court found that bankruptcy protections should apply more broadly to seniors who demonstrate genuine financial distress rather than strategic default. Consumer advocates hailed the ruling as a victory for vulnerable elderly populations.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260404/supremo-ampara-pensionista-sobreendeudado-ayudar-hijos-128409578" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-04-04/el-supremo-perdona-a-un-jubilado-que-se-sobreendeudo-para-ayudar-a-su-familia.html" }
+          ]
+        }
+      ]
     },
     {
-      "headline": "Spain's Left Coalition Unites for Andalusia Elections Despite Clock Running Down",
-      "summary": "After marathon negotiations, Podemos reached an agreement with Izquierda Unida and Sumar to run together under the 'Por Andalucía' banner in upcoming regional elections on May 17. The seven-party coalition will be led by IU's Antonio Maíllo, with Podemos heading the Jaén list and taking second place on Seville and Málaga lists. The deal came together at the last minute, avoiding a repeat of past election chaos that left Podemos formally outside the coalition.",
-      "category": "Spain & Catalonia",
-      "significance": "medium",
-      "location": "Andalusia, Spain",
-      "tags": ["politics", "elections", "Podemos", "coalition", "Andalusia"]
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spanish Left-Wing Parties Unite for Andalusian Elections After Marathon Negotiations",
+          "body": "After more than 12 hours of intense negotiations, Podemos reached a last-minute agreement to join the Por Andalucia coalition with Izquierda Unida and Sumar for the May 17 regional elections. The seven-party alliance will be led by IU's Antonio Maillo, with Podemos securing the top spot on the Jaen candidate list and second place in Seville and Malaga. The deal avoids a repeat of past electoral chaos and presents a unified left-wing front against the ruling Popular Party in Spain's most populous region.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260403/podemos-andalucia-coalicion-iu-sumar-andalucia/17008867.shtml" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/elecciones-andalucia/2026-04-02/iu-y-podemos-negocian-contra-reloj-para-concurrir-juntos-en-andalucia.html" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260403/11505454/andalucia-acuerdo-iu-sumar-podemos-elecciones-17-m.html" }
+          ]
+        },
+        {
+          "headline": "Government Faces EU Pressure Over Immigration Regularization Impact on Europe",
+          "body": "Spanish officials sought to reassure European Union partners that the planned regularization of 300,000 undocumented immigrants will primarily affect decisions to work in Spain rather than facilitate movement to other EU countries. Migration Minister Elma Saiz emphasized that regularized immigrants would be subject to return agreements if they migrate elsewhere in Europe, requiring Spain to negotiate repatriation costs with destination countries. The program has sparked concern among EU members about potential secondary migration flows.",
+          "sources": [
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/04/01/69ccf4c8fc6c838b688b4591.html" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-04-02/el-gobierno-preve-desestimar-mas-del-30-de-las-solicitudes-de-regularizacion-de-migrantes.html" }
+          ]
+        },
+        {
+          "headline": "Spanish Digital Identity System MiDNI Officially Launches Nationwide",
+          "body": "Spain's new digital identification system MiDNI became operational Thursday, allowing citizens to use their smartphones for legal identification through secure QR codes valid for 60 seconds. The system offers three levels of information sharing depending on usage requirements and can be used for hotel registration, vehicle rentals, pharmacy visits, and administrative procedures. The digital version supplements but does not replace the physical national identity card, which remains mandatory for renewal and certain official processes.",
+          "sources": [
+            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260402/entra-vigor-dni-digital-permite-identificarse-legalmente-movil/17008727.shtml" },
+            { "name": "El Pais", "url": "https://elpais.com/espana/2026-04-02/como-funciona-midni-una-identificacion-igual-de-valida-que-la-fisica-desde-este-jueves.html" }
+          ]
+        },
+        {
+          "headline": "Popular Party Proposes Harsh Penalties for ETA Tribute Events",
+          "body": "The Popular Party is advancing legislation in the Senate to impose fines up to 150,000 euros for organizing tribute events honoring released ETA prisoners or terrorist attacks. The proposed law targets the traditional 'ongi etorri' welcomes that have greeted freed ETA members in the Basque Country. PP officials argue the measures are necessary to prevent the glorification of terrorism and provide closure for victims' families, while opposition parties condemn the proposal as authoritarian overreach that restricts freedom of expression.",
+          "sources": [
+            { "name": "3Cat", "url": "https://www.3cat.cat/3catinfo/el-pp-vol-multes-de-fins-a-150000-euros-pels-actes-dhomenatge-a-etarres-excarcerats/noticia/3402952/" },
+            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/04/03/69cf7afde9cf4af9338b459f.html" }
+          ]
+        }
+      ]
     },
     {
-      "headline": "Digital National ID Goes Live in Spain After Years of Development",
-      "summary": "Spain's new digital ID system MiDNI officially launched Thursday, allowing citizens to use their smartphones for legal identification. The system generates QR codes valid for 60 seconds, with three levels of information sharing depending on the use case. Citizens can use the digital ID for hotel registration, vehicle rental, pharmacy visits, and administrative procedures. The digital version complements but does not replace the physical ID card, which remains required for renewal and official purposes.",
-      "category": "Spain & Catalonia",
-      "significance": "medium",
-      "location": "Spain",
-      "tags": ["technology", "digital ID", "government services", "innovation"]
-    },
-    {
-      "headline": "Ukraine War Stalls as Russia Records Smallest Territorial Gains Since 2023",
-      "summary": "Russian forces made their smallest territorial advances in Ukraine since September 2023, capturing only 23 square kilometers in March according to Institute for the Study of War analysis. The slowdown is attributed to Ukrainian counteroffensives, Russia's ban on Starlink terminals, and restrictions on Telegram messaging app use by troops. Meanwhile, Russian strikes killed 14 people in Ukraine Friday as Moscow stepped up daytime attacks using over 500 drones and dozens of missiles.",
-      "category": "World", 
-      "significance": "medium",
-      "location": "Ukraine",
-      "tags": ["war", "Ukraine", "Russia", "military", "territorial gains"]
-    },
-    {
-      "headline": "Wisconsin Mosque President Detained by ICE Amid Israeli Criticism Claims", 
-      "summary": "Salah Sarsour, president of Wisconsin's largest mosque and a Palestinian-born US permanent resident, was detained by ICE agents Monday after leaving his Milwaukee home. His attorneys claim he was targeted for speaking out against Israel and for minor convictions by Israeli military courts as a youth. The 53-year-old has lived in the US for over 30 years with no criminal record. Religious and political leaders called the arrest politically motivated, while supporters demanded his immediate release.",
-      "category": "United States",
-      "significance": "medium",
-      "location": "Wisconsin, USA",
-      "tags": ["immigration", "detention", "Israel", "Palestine", "religious freedom"]
-    },
-    {
-      "headline": "Cuba Begins Releasing 2,000 Prisoners as US-Cuba Talks Progress",
-      "summary": "Cuba announced plans to pardon 2,010 prisoners in what it called a 'humanitarian gesture' for Holy Week, the second major release in less than a month. The move comes after Trump eased a de facto oil blockade by allowing a Russian tanker to deliver crude oil to Cuba. Experts suggest the releases indicate advancing dialogue between Washington and Havana, as freeing political prisoners has long been a core US demand. The pardons exclude those convicted of serious crimes like murder or sexual assault.",
-      "category": "World",
-      "significance": "medium", 
-      "location": "Cuba",
-      "tags": ["Cuba", "US relations", "prisoners", "diplomacy", "Trump"]
-    },
-    {
-      "headline": "12-Year-Old Arrested in Fatal School Bullying Case in Los Angeles",
-      "summary": "A 12-year-old student was arrested on suspicion of murder in connection with the death of classmate Khimberly Zavaleta Chuquipa, who died February 25 from injuries sustained during an alleged bullying incident at Reseda Charter High School. The victim was reportedly struck in the head with a metal water bottle while trying to help her older sister who was being bullied. The family has filed a wrongful-death claim against the Los Angeles Unified School District.",
-      "category": "United States",
-      "significance": "medium",
-      "location": "Los Angeles, USA", 
-      "tags": ["education", "bullying", "violence", "juvenile crime", "schools"]
-    },
-    {
-      "headline": "Palafrugell Mayor Faces Ethics Investigation Over Business Conflicts",
-      "summary": "Catalonia's Anti-Fraud Office found that Palafrugell Mayor Laura Millán committed irregularities related to declaration of interests and potential conflicts of interest when she was an opposition councilor in 2022. She failed to declare becoming administrator of a company that had contracts with the municipality. Two municipal contracts will be reviewed, though they are not automatically considered null. The opposition party ERC is demanding political accountability for the ethical violations.",
-      "category": "Spain & Catalonia",
-      "significance": "low",
-      "location": "Palafrugell, Catalonia",
-      "tags": ["local politics", "ethics", "corruption", "Catalonia", "transparency"]
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Barcelona Plans First Public Ultra-Fast Electric Vehicle Charging Station",
+          "body": "Barcelona city council approved plans for the city's first public ultra-rapid electric vehicle charging station on the Ronda de Dalt, capable of charging 300 vehicles per day with 15-minute charging times. The facility will feature advanced technology allowing simultaneous charging of multiple vehicles and is part of the city's ambitious plan to accelerate electric mobility adoption. The project represents a significant investment in sustainable transportation infrastructure as Barcelona works toward becoming carbon neutral by 2030.",
+          "sources": [
+            { "name": "3Cat Barcelona", "url": "https://www.3cat.cat/3catinfo/barcelona-projecta-una-electrolinera-ultrarapida-que-permetra-endollar-300-vehicles-al-dia/noticia/3402684/" },
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260401/barcelona-primera-electrolinera-ultrarrapida-publica-cargas-en-15-minutos-ronda-de-dalt-128659746" }
+          ]
+        },
+        {
+          "headline": "Two Dolphins Rescued from Costa Brava Beach by Local Heroes and Police",
+          "body": "Two young men and a Mossos d'Esquadra officer successfully rescued two dolphins that had become stranded on the beach at Sant Feliu de Guixols. The marine mammals were discovered in distress in shallow water, prompting an immediate response from beachgoers and emergency services. The dolphins were carefully returned to deeper waters where they resumed normal swimming behavior. Marine biologists praised the quick action that likely saved the animals' lives, noting that dolphin strandings have increased along the Costa Brava in recent years.",
+          "sources": [
+            { "name": "3Cat", "url": "https://www.3cat.cat/3catinfo/dos-dofins-rescatats-per-dos-joves-i-un-agent-dels-mossos-a-sant-feliu-de-guixols/noticia/3402965/" },
+            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/local/girona/20260403/11505532/jovenes-rescatan-delfines-varados-sant-feliu-guixols.html" }
+          ]
+        },
+        {
+          "headline": "New Works Ordinance in Barcelona to Include Stricter Fines Up to 3,000 Euros",
+          "body": "Barcelona city council initiated proceedings for a new construction works ordinance featuring more demanding requirements and sanctions up to 3,000 euros for violations. The proposed regulations aim to improve coordination between different construction projects, reduce noise pollution, and better protect pedestrian safety during building works. The ordinance would establish stricter timetables for construction activities and require enhanced safety measures in high-traffic areas. Industry representatives have raised concerns about increased bureaucracy and compliance costs.",
+          "sources": [
+            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260403/barcelona-inicia-tramites-contar-nueva-ordenanza-obras-multas-3000-euros-128715222" }
+          ]
+        },
+        {
+          "headline": "Girona Cathedral Manaies Tradition Adapts to Preserve Historic Stone Steps", 
+          "body": "The traditional Manaies of Girona will no longer strike the cathedral steps during their performances to help preserve the historic stonework for future generations. The decision came after consultation with heritage conservation experts who expressed concerns about long-term damage to the 14th-century stairs from the repeated percussion performances. The Manaies, a cherished local tradition involving rhythmic striking of various surfaces, will continue their performances using alternative locations around the cathedral while maintaining the cultural significance of the ritual.",
+          "sources": [
+            { "name": "3Cat", "url": "https://www.3cat.cat/3catinfo/els-manaies-de-girona-deixen-de-picar-a-les-escales-de-la-catedral-per-conservar-el-patrimoni/noticia/3402926/" }
+          ]
+        }
+      ]
     }
-  ],
-  "weather": "Sunny and warm spring weather expected across Spain for Saturday, April 4th, with temperatures rising and clear skies forecast. Ideal conditions for Easter weekend activities.",
-  "summary": "Iran escalated its month-old war with the US by shooting down an American fighter jet, while Russia's advances in Ukraine stalled to their smallest gains in years. Spain launched its digital ID system and saw left-wing parties unite for upcoming Andalusian elections. NASA's historic Artemis II mission continued toward the Moon with stunning Earth photography, and diplomatic progress appeared to advance between the US and Cuba with major prisoner releases."
+  ]
 }
