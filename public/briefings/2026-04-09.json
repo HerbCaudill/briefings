@@ -1,0 +1,165 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Ceasefire strains ahead of Islamabad talks",
+          "body": "A fragile two-week ceasefire between the US and Iran is under strain as Pakistan prepares Islamabad talks for 10 April; Tehran accuses Washington of letting Israel pound Lebanon, Trump insists the \"real agreement\" keeps the Strait of Hormuz open, and House Democrats pledge new war-powers votes after Republicans blocked a curb on his authority.",
+          "sources": [
+            {"name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-lebanon-israel-strait-of-hormuz-ceasefire-dispute/"},
+            {"name": "Los Angeles Times", "url": "https://www.latimes.com/politics/newsletter/2026-04-09/trump-iran-war-ceasefire-analysis"}
+          ]
+        },
+        {
+          "headline": "Israeli strikes kill hundreds in Lebanon despite truce",
+          "body": "Israeli airstrikes killed at least 303 people across Lebanon even as the temporary US-Iran ceasefire took effect, prompting Iran to threaten shipping and pushing Netanyahu to order direct disarmament talks with Beirut under US auspices next week.",
+          "sources": [
+            {"name": "El Pais", "url": "https://elpais.com/internacional/2026-04-09/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html"}
+          ]
+        },
+        {
+          "headline": "UK and Norway chase Russian subs from Atlantic cables",
+          "body": "Britain and Norway ran a month-long anti-submarine operation that shadowed a Russian attack boat and two spy subs near North Atlantic cables, warning Moscow against sabotaging Western infrastructure while the Iran war dominates attention.",
+          "sources": [
+            {"name": "KSAT / AP", "url": "https://www.ksat.com/news/world/2026/04/09/uk-and-norway-led-a-military-operation-to-deter-russian-submarines-in-the-north-atlantic/"}
+          ]
+        },
+        {
+          "headline": "Russia outlaws Memorial and raids Novaya Gazeta",
+          "body": "Russia's Supreme Court branded the Nobel-winning Memorial movement extremist and police raided Novaya Gazeta's newsroom, escalating a crackdown on rights groups and independent media amid the war in Ukraine.",
+          "sources": [
+            {"name": "KSAT / AP", "url": "https://www.ksat.com/news/world/2026/04/09/russian-court-criminalizes-the-activities-of-the-nobel-prize-winning-rights-group-memorial/"}
+          ]
+        },
+        {
+          "headline": "World Bank trims India outlook but sees resilience",
+          "body": "The World Bank cut India's FY27 growth forecast to 6.6% as the Middle East conflict lifts energy costs and snarls supply chains, yet said strong reserves, low inflation and rupee-denominated debt keep the economy among the fastest growing.",
+          "sources": [
+            {"name": "World Bank", "url": "https://www.worldbank.org/en/news/press-release/2026/04/09/india-remains-among-the-fastest-growing-economies"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Trump threatens harsher strikes if Iran breaks deal",
+          "body": "Trump warned of \"bigger, better, stronger\" attacks if Iran breaches the ceasefire, kept US forces on heightened alert, and tasked Vice President JD Vance, Jared Kushner and envoy Steve Witkoff with Islamabad talks over enrichment rights and Strait of Hormuz access.",
+          "sources": [
+            {"name": "Time", "url": "https://time.com/article/2026/04/09/trump-threatens-stronger-attacks-if-iran-doesnt-comply-with-real-ceasefire-agreement/"}
+          ]
+        },
+        {
+          "headline": "DHS touts 11th month of zero border releases",
+          "body": "DHS said Border Patrol has logged 11 straight months of \"zero releases\" at the southern border, with March apprehensions 97% below the Biden-era peak and seizures topping 65,000 pounds of drugs including 613 pounds of fentanyl.",
+          "sources": [
+            {"name": "Department of Homeland Security", "url": "https://www.dhs.gov/news/2026/04/09/trump-administration-delivers-11-straight-months-zero-releases-border"}
+          ]
+        },
+        {
+          "headline": "White House eyes moving Europe bases amid NATO spat",
+          "body": "The administration is studying whether to shift or close US bases in countries deemed unhelpful in the Iran war, with officials floating transfers from Spain or Germany to Poland, Romania, Lithuania or Greece.",
+          "sources": [
+            {"name": "The American Legion", "url": "https://www.legion.org/information-center/news/security/2026/april/trump-administration-eyes-europe-base-moves-amid-nato-rift"}
+          ]
+        },
+        {
+          "headline": "Anti-abortion bloc presses FDA on telehealth pills",
+          "body": "Anti-abortion leaders frustrated with the pace of restrictions under Trump's FDA are suing and lobbying to curb online prescriptions of abortion medication, highlighting internal tensions with officials such as HHS Secretary Robert F. Kennedy Jr.",
+          "sources": [
+            {"name": "KSAT / AP", "url": "https://www.ksat.com/health/2026/04/09/us-abortion-opponents-want-trumps-fda-to-act-on-abortion-pill-restrictions/"}
+          ]
+        },
+        {
+          "headline": "Shutdown drag knocks Q4 GDP to 0.5%",
+          "body": "Commerce revised fourth-quarter GDP growth down to an annualized 0.5% after the 43-day DHS shutdown, with federal spending plunging 16.6% and consumer outlays cooling to 1.9% expansion.",
+          "sources": [
+            {"name": "KSAT / AP", "url": "https://www.ksat.com/business/2026/04/09/us-economy-grew-a-sluggish-05-in-fourth-quarter-government-says-downgrading-previous-estimate/"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spain reopens its embassy in Tehran",
+          "body": "Madrid instructed Ambassador Antonio Sanchez-Benedito to return to Tehran less than a month after evacuating staff, saying Spain wants to contribute on every front to the US-Iran peace push during the two-week truce.",
+          "sources": [
+            {"name": "Mision Politica", "url": "https://misionpolitica.com/2026/04/09/espana-reabre-su-embajada-en-iran-para-apoyar-el-esfuerzo-por-la-paz/"}
+          ]
+        },
+        {
+          "headline": "AESA clears 224 summer flight schedules",
+          "body": "Spain's aviation regulator approved 224 airline programs for the IATA S26 season, up 11.5% year on year, including 133 direct services, 91 code shares and a new Madrid-Johannesburg connection spanning 80 non-EU destinations.",
+          "sources": [
+            {"name": "AESA", "url": "https://www.seguridadaerea.gob.es/es/noticias/aesa-ha-aprobado-224-programas-de-vuelo-para-la-temporada-de-verano-un-115-mas"}
+          ]
+        },
+        {
+          "headline": "Brussels weighs Iran-war relief as Spain touts buffers",
+          "body": "Economy minister Carlos Cuerpo and EU vice-president Stephane Sejourne said the Commission will meet Monday to study short-term responses to the Iran war's economic shock, while arguing Spain has fiscal and energy space to absorb the hit.",
+          "sources": [
+            {"name": "Forbes Espana", "url": "https://forbes.es/economia/903262/bruselas-examinara-el-lunes-el-impacto-economico-de-la-guerra-en-iran-y-analizara-respuestas-a-corto-plazo/"}
+          ]
+        },
+        {
+          "headline": "Power prices fall but peaks hit EUR 129/MWh",
+          "body": "Wholesale electricity prices dropped 18.8% to EUR 53.20 per MWh on 9 April, yet morning peaks still climb to EUR 129.70 and households must shift loads to midday when rates briefly turn negative.",
+          "sources": [
+            {"name": "Articulo14", "url": "https://www.articulo14.es/economia/precio-de-la-luz-hoy-9-de-abril-de-2026-la-tarifa-cae-un-188-pero-la-manana-deja-picos-de-hasta-129-euros-mwh-20260409.html"}
+          ]
+        },
+        {
+          "headline": "Spain and CAF launch Madrid cooperation hub",
+          "body": "Spain and CAF created a Madrid-based Vice Presidency for cooperation and signed a fresh $300 million ICO line to channel sustainable and digital investment into Latin America, reinforcing Spain's role as a multilateral host.",
+          "sources": [
+            {"name": "La Moncloa", "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/economia-comercio-empresa/Paginas/2026/090426-cuerpo-vicepresidencia-banco-desarrollo.aspx"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Illa hails Barcelona's return to the global stage",
+          "body": "President Salvador Illa told European Pulse Forum delegates that Barcelona and Catalonia are regaining prominence as the city hosts progressive, Vatican and bilateral summits through spring, reinforcing the region's international agenda.",
+          "sources": [
+            {"name": "Europa Press", "url": "https://www.europapress.es/catalunya/noticia-illa-asegura-barcelona-catalunya-vuelven-ocupar-puesto-relevante-europa-mundo-20260409174444.html"}
+          ]
+        },
+        {
+          "headline": "Generalitat seeks 35 of 200 new prosecutor posts",
+          "body": "Justice minister Ramon Espadaler asked the Attorney General to assign at least 35 of the 200 new fiscalia posts to Catalonia and signed CGPJ deals to expand Catalan-language training, upgrade facilities and advance digital interoperability.",
+          "sources": [
+            {"name": "Cronica Global", "url": "https://cronicaglobal.elespanol.com/vida/20260409/generalitat-pide-nuevas-plazas-fiscales-cataluna/1003742749956_0.html"}
+          ]
+        },
+        {
+          "headline": "Bon Pastor rallies for wheelchair-bound pensioner",
+          "body": "Around 350 Bon Pastor neighbours demanded that 66-year-old wheelchair user Pepe await trial at home after he fatally stabbed a chain-snatcher and was remanded to Brians 1 prison despite serious health problems.",
+          "sources": [
+            {"name": "The Olive Press", "url": "https://www.theolivepress.es/spain-news/2026/04/09/barcelona-community-rallies-behind-wheelchair-using-pensioner-arrested-for-killing-thief/"}
+          ]
+        },
+        {
+          "headline": "Global Sumud Flotilla sets Barcelona departure",
+          "body": "Organisers unveiled a three-day media program ahead of the 12 April Global Sumud Flotilla, which will see more than 80 vessels and 1,000 participants sail from Barcelona to challenge Israel's Gaza blockade with humanitarian aid.",
+          "sources": [
+            {"name": "Pressenza", "url": "https://www.pressenza.com/es/2026/04/la-global-sumud-flotilla-partira-desde-barcelona-la-mayor-mision-civil-de-la-historia-para-desafiar-el-bloqueo-ilegal-de-israel-sobre-gaza/"}
+          ]
+        },
+        {
+          "headline": "Rodalies R1 stabbing halts service",
+          "body": "An onboard stabbing between Santa Susanna and Pineda de Mar left one passenger injured, triggered a half-hour shutdown of the R1 line as riders fled onto the tracks, and ended with Mossos detaining a 30-year-old suspect.",
+          "sources": [
+            {"name": "El Pais", "url": "https://elpais.com/espana/catalunya/2026-04-09/un-apunalamiento-en-un-vagon-de-tren-obliga-a-cortar-la-r1-entre-santa-susanna-y-pineda.html"}
+          ]
+        }
+      ]
+    }
+  ]
+}
