@@ -1,0 +1,220 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Putin announces Orthodox Easter ceasefire amid Ukrainian skepticism",
+          "body": "Vladimir Putin ordered a 32-hour halt to Russian operations over the Orthodox Easter weekend after Volodymyr Zelensky asked for a holiday pause, but Kyiv signaled it will match the move only if Moscow keeps its word, noting that past unilateral truces collapsed almost immediately and that frontline communities remain under constant drone and missile threat despite US-mediated talks.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cn0wkkwev2vo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/09/vladimir-putin-announces-orthodox-easter-ceasefire-with-ukraine"
+            }
+          ]
+        },
+        {
+          "headline": "Ecuador and Colombia escalate tariff war over border security claims",
+          "body": "President Daniel Noboa has raised tariffs on Colombian imports to 50%, calling Bogotá his country’s worst trading partner and accusing it of failing to curb cocaine flows, while Colombia vows matching levies and business groups warn tens of thousands of Ecuadorian jobs are at risk as energy sales and cross-border commerce stall.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/9/ecuador-hikes-tariffs-to-100-percent-in-feud-with-neighbour-colombia"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/ecuador-colombia-trade-war-noboa-petro-tariffs-378e6f00ba5a30b204a96efe69cb8e7e"
+            }
+          ]
+        },
+        {
+          "headline": "NATO chief Rutte tries to calm Trump after fresh broadside at allies",
+          "body": "After meeting Donald Trump, NATO Secretary-General Mark Rutte told a Washington audience that almost every ally is doing what the US has requested on Iran, praising the former Dutch premier credited with soothing Trump in past disputes even as the president complains Europe has dragged its feet on the Hormuz blockade and refuses to say whether he reiterated threats to quit the alliance.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20260409/11509820/rutte-dice-aliados-otan-cumplen-exigencias-trump-excepcion.html"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/nato-iran-rutte-trump-hormuz-support-e43e774a64341e3ad8d1b73823f07298"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Polymarket surge sparks insider-trading scrutiny on Iran ceasefire bets",
+          "body": "House Democrat Ritchie Torres asked the CFTC to investigate dozens of brand-new Polymarket accounts that wagered hundreds of thousands of dollars on a US–Iran ceasefire minutes before Donald Trump announced it, echoing a White House ethics memo warning staff not to gamble with nonpublic information and reviving questions about regulation of prediction markets.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/polymarket-kalshi-trump-iran-prediction-congress-d16d7bdf9a56cc1466b44baaf634aeeb"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cgld65x396go"
+            }
+          ]
+        },
+        {
+          "headline": "Melania Trump disavows Epstein links and urges testimony for his victims",
+          "body": "In an unscheduled White House appearance, Melania Trump insisted she merely crossed paths with Jeffrey Epstein, rejected rumors that he introduced her to Donald Trump and called on Congress to let survivors testify publicly, a move that puzzled even friendly media as the president said he learned of the statement only afterward.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c3ex07l1qvpo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/09/melania-trump-denies-relationship-jeffrey-epstein"
+            }
+          ]
+        },
+        {
+          "headline": "Artemis II crew hails ‘golden age’ as NASA readies pinpoint splashdown",
+          "body": "Orbiting in Orion ahead of Friday’s return, Artemis II astronauts told lawmakers their lunar flyby showed the mission’s “limitless potential,” while NASA detailed a high-speed reentry that must hit a razor-thin corridor before the capsule splashes down off San Diego at nearly 24,000 mph.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/artemis-moon-astronauts-splashdown-a482b37eebf19ac5adb75f3bc20657ef"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/09/artemis-ii-crew-return-earth-questions"
+            }
+          ]
+        },
+        {
+          "headline": "Gilgo Beach suspect pleads guilty to seven murders, admits an eighth",
+          "body": "Long Island architect Rex Heuermann ended years of denials by pleading guilty to murdering seven women linked to the Gilgo Beach case and confessing to an eighth killing, clearing the way for a June sentencing where prosecutors will seek multiple life terms for the decades-old serial murders.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/gilgo-beach-serial-killings-guilty-plea-fdfbb6aace18e89bd5f7593859825eef"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20260408/11508811/rex-huermann-asesino-serie-prostitutas-gilgo-beach-rectifica-declara-culpable.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Key witness describes cash drops in Koldo corruption probe",
+          "body": "Leonor González Pano told Spain’s Supreme Court she fronted businesses that moved bags of cash for businessman Claudio Rivas and fixer Víctor de Aldama, including a reported €600,000 destined for Ferraz as the network allegedly bought influence from former minister José Luis Ábalos’s circle to secure a fuel license.",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/09/661519fd21efa09a2a8b45e4.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-04-09/leonor-gonzalez-pano-la-mujer-del-maletin-declara-que-llevo-bolsas-de-dinero-a-ferraz.html"
+            }
+          ]
+        },
+        {
+          "headline": "Rufián urges ERC to lead a broad left bloc with Podemos and Sumar",
+          "body": "At a Barcelona forum with Irene Montero, ERC’s Gabriel Rufián demanded his party “show pride” by spearheading a front of sovereignist and state-wide left forces to block the far right, even offering to quit if the leadership resists while Podemos signaled it is ready to “make a team” with the republicans.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/gabriel-rufian-demana-a-erc-que-lideri-un-front-d-esquerres-amb-podem-sumar-i-eui/noticia/3403551/"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/catalunya/2026-04-09/rufian-reclama-a-erc-que-asuma-su-responsabilidad-historica-y-impulse-un-frente-amplio-con-podemos.html"
+            }
+          ]
+        },
+        {
+          "headline": "Teenager killed in Madrid cultural center stabbing; suspect at large",
+          "body": "A 12-year-old boy died after being knifed inside Villanueva de la Cañada’s La Despernada cultural center, prompting the town to suspend events while Guardia Civil officers hunt a 19-year-old acquaintance with autism who fled the scene as residents plan a minute’s silence for the youth, a local footballer.",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/madrid/2026/04/10/66163b09fdddff8b1d8b45f1.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260410/muere-menor-apunalado-villanueva-canada/3041470.shtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Demolition begins on La Sagrera’s freight station ahead of schedule",
+          "body": "Excavators have started tearing down Barcelona’s 1920 La Sagrera freight depot days earlier than Adif announced, reducing the brick landmark to rubble from the rear while longtime workers lament the loss of a building they hoped would be repurposed rather than erased for the new high-speed hub.",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260409/derrumbe-estacion-mercancias-sagrera-barcelona-128768870"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/cultura-i-oci/patrimoni/enderroc-estacio-mercaderies-sagrera-2-705866/"
+            }
+          ]
+        },
+        {
+          "headline": "Barcelona to mandate smoke detectors in new homes by 2027",
+          "body": "Mayor Jaume Collboni unveiled a 2026-2035 fire service plan that will require smoke detectors in all newly built flats, install alarms across 12,000 public housing units and create a high-tech emergency coordination center as the city adapts to climate, density and infrastructure risks.",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260409/barcelona-obligara-detectores-humo-viviendas-nuevas-128770240"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/politica/collboni-detectors-fum-habitatges-barcelona-485594/"
+            }
+          ]
+        },
+        {
+          "headline": "Cursa El Corte Inglés expands to 50,000 runners after sell-out",
+          "body": "The 46th Cursa El Corte Inglés will reopen registrations to add 10,000 extra bibs after 40,000 spots vanished weeks early, with organizers touting the free 10 km race’s inclusive spirit and a new partnership with the Johan Cruyff Foundation to channel proceeds from the charity T-shirt.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/local/barcelona/20260409/11509480/cursa-corte-ingles-amplia-10-000-dorsales-agotar-40-000-iniciales-record.html"
+            },
+            {
+              "name": "The New Barcelona Post",
+              "url": "https://www.thenewbarcelonapost.cat/la-cursa-el-corte-ingles-omple-barcelona-amb-50000-corredors/"
+            }
+          ]
+        },
+        {
+          "headline": "NYK starts €75 million auto terminal to channel Asian cars through BCN",
+          "body": "Japanese operator NYK’s ICO unit has broken ground on a €75 million vehicle terminal at Barcelona’s Moll Príncep d’Espanya that will store up to 11,000 cars, add multi-level parking and digital tracking, and position the port as a southern European hub for Chinese and other manufacturers by 2028.",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20260409/port-barcelona-terminal-vehiculos-nyk-128768985"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260409/11509212/nyk-ico-terminal-coches-vehiculos-puerto-barcelona.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
