@@ -1,0 +1,262 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "US and Iran open direct Islamabad talks amid Pakistan mediation",
+          "body": "US vice-president JD Vance and Iranian parliament speaker Mohammad Bagher Ghalibaf sat down face to face in Islamabad for the first formal US-Iran negotiations since 1979, with Pakistan’s prime minister and army chief brokering committees on security, finance and the Strait of Hormuz while Tehran presses for relief on Lebanon and frozen assets and fighting continues across the region.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/11/us-iran-talks-peace-deal-islamabad-pakistan"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan"
+            }
+          ]
+        },
+        {
+          "headline": "Orbán faces unified Tisza challenge on eve of Hungary vote",
+          "body": "Tens of thousands rallied in Budapest as former Fidesz insider Péter Magyar’s Tisza movement, buoyed by double-digit polling leads, pushed to end Viktor Orbán’s 16-year rule despite visits from US vice-president JD Vance and backing from Donald Trump, with discontent over war-driven prices, corruption and Hungary’s EU isolation drawing supporters from across the spectrum.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c0q9527y41lo"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/11/hungarys-viktor-orban-struggling-for-political-survival-ahead-of-vote"
+            }
+          ]
+        },
+        {
+          "headline": "UK shelves Chagos transfer after Washington withholds approval",
+          "body": "London has pulled legislation to hand the Chagos Islands to Mauritius after failing to secure the required exchange of letters from Donald Trump’s administration, keeping the treaty in limbo as ministers cite the Diego Garcia base’s security value and Conservatives celebrate the pause while officials concede a new bill is unlikely before the next parliamentary session.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c04x1lg1lygo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/11/uk-forced-to-shelve-legislation-to-return-chagos-islands-to-mauritius"
+            }
+          ]
+        },
+        {
+          "headline": "London police arrest over 200 at protest against Palestine Action ban",
+          "body": "Met officers detained 212 people in Trafalgar Square for displaying support for the proscribed Palestine Action group despite a High Court ruling against the ban, hauling away seated demonstrators including Massive Attack’s Robert Del Naja as campaigners decried the terrorism law crackdown on protest rights.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cp38z9lylddo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/11/met-police-make-arrests-at-london-palestine-action-protest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Artemis II crew splashes down after record-setting lunar flyby",
+          "body": "NASA commander Reid Wiseman, pilot Victor Glover, mission specialist Christina Koch and Canadian Jeremy Hansen hit the Pacific at 24,000 mph, emerging from Orion’s heat-scorched capsule to cheers aboard the USS John P. Murtha in a flawless finale that clears the way for the crewed Artemis III moon landing bid.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/nasa-artemis-astronauts-moon-splashdown-16adc5450f0127a0743292ef30b239f1"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cr51z54d5rpo"
+            }
+          ]
+        },
+        {
+          "headline": "Misconduct allegations jolt Eric Swalwell’s California governor bid",
+          "body": "Four former staffers have accused Representative Eric Swalwell of sexual harassment or assault dating back to his congressional office, prompting prominent Democratic allies such as Adam Schiff and Hakeem Jeffries to withdraw support while Swalwell denies the claims, vows legal action and says he will defend his record with evidence.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/california-governor-eric-swalwell-assault-allegations-aa1d13afe441be38d1d16f648e06d503"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c20qg3g9554o"
+            }
+          ]
+        },
+        {
+          "headline": "Appeals court extends pause in fight over Trump’s White House ballroom",
+          "body": "The DC Circuit kept construction on Donald Trump’s $400 million East Wing ballroom going until at least 17 April while ordering the trial judge to clarify how his injunction affects security work, after the administration argued that halting the below-ground project would endanger the president despite questions from the bench.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/11/us-appeals-court-extends-deadline-to-halt-white-house-ballroom-construction"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/white-house-ballroom-construction-national-security-trump-94de5ef1346794d2576dad1c428db239"
+            }
+          ]
+        },
+        {
+          "headline": "Police fatally shoot machete attacker after Grand Central stabbings",
+          "body": "NYPD officers killed 44-year-old Anthony Griffin after he slashed three commuters at Grand Central station, including an 84-year-old man and a 65-year-old whose skull was fractured, ignoring more than 20 commands to drop his machete before lunging as investigators said the victims were hospitalized in stable condition.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/new-york-subway-station-injuries-hospital-1cd670e7b0a302e2d51f851a74247bfd"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/11/shooting-stabbing-new-york-grand-central-station"
+            }
+          ]
+        },
+        {
+          "headline": "Former NYC mayor Eric Adams gains Albanian citizenship",
+          "body": "Albania’s president Bajram Begaj granted Eric Adams citizenship and a passport at the ex-mayor’s request, cementing ties the longtime Albanian-American ally cultivated through repeated visits as he eyes life after politics following his corruption-plagued tenure and abandoned re-election bid in New York.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/eric-adams-albania-nyc-mayor-de8d3acf07d7a6728f0e03d668d033d5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/10/eric-adams-albanian-citizenship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Israel summons Spanish envoy after Netanyahu effigy burned in Málaga",
+          "body": "Israel’s foreign ministry called in Spain’s chargé d’affaires Francisca Pedrós over El Burgo’s Easter ‘quema del Judas’, accusing Madrid of fueling antisemitism after a giant Netanyahu effigy was blown up, while Spain rejected the charge and pointed to its national plan against antisemitism and security coordination with Jewish communities.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260411/israel-convoca-a-encargada-negocios-espanola-tel-aviv-por-quema-muneco-netanyahu-malaga/17019430.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/internacional/20260411/israel-convoca-encargada-negocios-espanola-128992331"
+            }
+          ]
+        },
+        {
+          "headline": "Juan Carlos I collects French prize, defends Spain’s democratic transition",
+          "body": "At the French National Assembly, the emeritus king accepted the Livre Politique jury’s special award for his memoir ‘Reconciliación’, recalling how he returned Franco’s powers to the Spanish people, lauding democracy and acknowledging divergent judgments while flanked by his daughters and grandson.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260411/juan-carlos-i-recibe-este-sabado-asamblea-nacional-francesa-premio-por-memorias/17019109.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/11/69da25a4e4d4d82a748b45a9.html"
+            }
+          ]
+        },
+        {
+          "headline": "Álvaro Sánchez Cotrina wins PSOE Extremadura leadership primary",
+          "body": "The Salorino mayor secured 3,572 votes to Soraya Vega’s 2,529 with 72% turnout, becoming the first Cáceres member to lead the PSOE in Extremadura as the party tries to recover from Miguel Ángel Gallardo’s post-election resignation and rebuild ahead of an April extraordinary congress.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260411/alvaro-sanchez-cotrina-primarias-secretario-general-psoe-extremadura/17019493.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260411/nuevo-lider-psoe-extremadura-politica-primarias-cotrina-128997254"
+            }
+          ]
+        },
+        {
+          "headline": "Mexico’s Sheinbaum to travel to Barcelona for progressive leaders summit",
+          "body": "President Claudia Sheinbaum said she will join Pedro Sánchez, Brazil’s Lula da Silva, Colombia’s Gustavo Petro and Uruguay’s Yamandú Orsi on 18 April in Barcelona for a Progressive Global Mobilization meeting first envisioned by ex-Chilean leader Gabriel Boric, marking a thaw after years of tense Mexico–Spain relations over historical grievances.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260410/sheinbaum-viajara-a-espana-18-abril-para-asistir-a-cumbre-gobiernos-progresistas-barcelona/17018545.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/10/69d921f0e4d4d8cf228b457c.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Landlord delays Sant Agustí eviction amid mediation in Gràcia block",
+          "body": "New Amsterdam Developers asked a Barcelona court for a three-month postponement of Txema Escorsa’s eviction after the city ombudsman brokered talks, buying time for tenants fighting the fund’s plan to carve their long-term rentals into high-priced coliving rooms and pressing authorities to enforce housing rules.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/habitatge/ajornat-desnonament-sant-agusti-706148/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/ajornen-tres-mesos-el-desnonament-del-vei-del-bloc-sant-agusti-del-districte-de-gracia/noticia/3403946/"
+            }
+          ]
+        },
+        {
+          "headline": "Funicular de Montjuïc to resume service after collector works",
+          "body": "Transportes Metropolitanos de Barcelona will restart the Montjuïc funicular on 13 April with summer operating hours after nearly six months offline for Vila i Vilà drainage upgrades, rebuilding the Paral·lel access tunnel and completing annual maintenance on the cable line that moves about 3,000 riders daily.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/mobilitat/el-funicular-de-montjuic-tornara-a-circular-el-13-dabril-706083/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260410/funicular-montjuic-reabre-abril-horarios-barcelona-128960010"
+            }
+          ]
+        },
+        {
+          "headline": "City’s civility campaign faces plagiarism complaint from Japanese photographer",
+          "body": "Photographer Shin Noguchi says Barcelona’s ‘Poca vergonya’ civility posters mirror his 2016 image of a woman in yellow, prompting Junts to demand an inquiry while city officials defend author Hugo Menduiña’s original concept and offer to speak directly with Noguchi after AI image searches flagged the likeness.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/alerten-possible-plagi-campanya-ajuntament-barcelona-705134/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/casualitat-o-plagi-un-fotograf-japones-es-queixa-de-la-campanya-de-barcelona-poca-vergonya/noticia/3403238/"
+            }
+          ]
+        },
+        {
+          "headline": "Sixth homeless death in Badalona raises pressure on Albiol’s administration",
+          "body": "Police found a 46-year-old homeless man dead in Sant Roc without signs of violence, marking Badalona’s sixth street fatality this year and renewing opposition criticism of Mayor Xavier Garcia Albiol after the city shut the Can Bofí Vell shelter and cleared the B9 squat amid claims of insufficient social support.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/mor-una-altra-persona-sense-sostre-a-badalona-el-sise-en-quatre-mesos/noticia/3403948/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260410/encuentran-cadaver-persona-techo-badalona-sexta-este-2026-128962156"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
