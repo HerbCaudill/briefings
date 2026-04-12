@@ -1,0 +1,262 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "US warns of Hormuz inspections after Iran talks collapse",
+          "body": "Vice-president JD Vance left Islamabad saying Iran rejected US demands to forswear rapid nuclear capability, and the Trump administration is now threatening to board ships that pay Tehran’s tolls in the Strait of Hormuz as Pakistani mediators push to keep the 14-day ceasefire alive.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/12/jd-vance-says-no-deal-us-iran-pakistan-talks-islamabad"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan"
+            }
+          ]
+        },
+        {
+          "headline": "Stampede at Haiti’s Citadelle leaves dozens dead",
+          "body": "At least 30 people, many of them students, were killed and dozens injured when heavy rain and panic triggered a crush at the annual Laferrière Citadel celebration in Milot, prompting the government to open an investigation and close the UNESCO site.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwyj8d49wzxo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/12/at-least-30-killed-in-crush-at-historic-fortress-in-haiti"
+            }
+          ]
+        },
+        {
+          "headline": "Ukraine, Russia trade thousands of Easter ceasefire violation claims",
+          "body": "Ukraine reported more than 2,300 breaches, including the execution of four disarmed soldiers, while Moscow accused Kyiv of nearly 2,000 incidents as the Orthodox Easter truce faltered along the 1,200km front before hostilities are due to resume on Monday.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cz78y73v830o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire"
+            }
+          ]
+        },
+        {
+          "headline": "Benin votes to succeed Talon amid security anxieties",
+          "body": "Polling opened for 7.9 million voters four months after a failed coup, with finance minister Romuald Wadagni favoured to extend the ruling coalition as authorities deploy extra forces against jihadist spillover on the country’s northern borders.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/12/benin-presidential-election"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/benin-holds-presidential-election-amid-deteriorating-security-situation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "United States",
+      "stories": [
+        {
+          "headline": "Clock ticks on Section 702 as Hill wrangles over privacy curbs",
+          "body": "With the FISA surveillance power set to lapse on April 19, House leaders lack votes for the White House’s clean 18-month renewal while privacy advocates push warrant requirements, and former intelligence chiefs lobby Congress not to let the authority go dark even briefly.",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/national-security/2026/04/11/fisa-section-702-renewal-deadline-surveillance/"
+            },
+            {
+              "name": "Nextgov",
+              "url": "https://www.nextgov.com/policy/2026/04/former-national-security-officials-urge-congress-renew-section-702-expiration/412703/"
+            }
+          ]
+        },
+        {
+          "headline": "Judge keeps abortion pill mail access while FDA review continues",
+          "body": "US District Judge David Joseph declined Louisiana’s bid to halt mail-order mifepristone, pausing the lawsuit while the FDA completes a six-month review of its safety rules even as the state appeals to the Fifth Circuit to suspend the 2023 regulations.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/abortion-pills-louisiana-rules-mifepristone-b2083bb44e7c8fe874d8e98e5e6ed638"
+            },
+            {
+              "name": "Healthline",
+              "url": "https://www.healthline.com/health-news/abortion-pill-mifepristone-remains-available-by-mail-federal-judge-says"
+            }
+          ]
+        },
+        {
+          "headline": "Corpus Christi races to avert drought-driven water emergency",
+          "body": "Reservoirs feeding the South Texas energy port have fallen to single digits after seven years of drought, forcing the city to fast-track groundwater, desalination and reuse projects to avoid mandatory industrial and residential cuts that could ripple through fuel supply chains.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/corpus-christi-texas-water-shortage-oil-gas-1d9577698f394e83335f1ed5c16cef6d"
+            },
+            {
+              "name": "The Texas Tribune",
+              "url": "https://www.texastribune.org/2026/03/24/texas-corpus-christi-water-supply-project-guide-tracker/"
+            }
+          ]
+        },
+        {
+          "headline": "Gunfire, threat note target Indianapolis councilman over data center plan",
+          "body": "Indianapolis council member Ron Gibson and his son escaped injury after 13 shots were fired into their home and a ‘No data centers’ note was left days after he backed a rezoning for a 14-acre facility, prompting an FBI-assisted investigation and fresh scrutiny of the project.",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/04/06/data-center-threat-shooting-indianapolis/"
+            },
+            {
+              "name": "PBS NewsHour / AP",
+              "url": "https://www.pbs.org/newshour/nation/indianapolis-councilman-says-shots-fired-at-home-and-no-data-centers-note-left-at-door"
+            }
+          ]
+        },
+        {
+          "headline": "US teen births fall 7% as fertility rate hits new low",
+          "body": "Provisional CDC figures show the 2025 teen birth rate dropped to 11.7 per 1,000 and overall fertility slipped to 53.1 per 1,000 women, extending a decades-long decline even as cesarean deliveries ticked up and policymakers debate the demographic downturn.",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/04/09/fertility-birth-rate-low/"
+            },
+            {
+              "name": "Aspen Public Radio",
+              "url": "https://www.aspenpublicradio.org/2026-04-08/teen-birth-rates-hit-another-historical-low-in-2025-cdc-says"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Guardia Civil frees 80 migrants from forced labour gang in Castellón",
+          "body": "Seven suspects, including a Pakistani couple, were arrested for luring workers from Nepal, Pakistan and Senegal with fake farm jobs, cramming them into squalid housing and seizing pay while forcing 13-hour shifts before officers raided Nules safe houses.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260411/guardia-civil-libera-castellon-a-80-migrantes-explotados-regimen-semiesclavitud/17019132.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/comunidad-valenciana/2026/04/11/69d9febafdddff7f4f8b45a1.html"
+            }
+          ]
+        },
+        {
+          "headline": "Pamplona investigating woman’s fatal fall amid restraining-order breach",
+          "body": "Police detained a man accused of violating a protection order after a 37-year-old woman died falling from a San Jorge terrace, with forensic teams now determining whether the death was accidental or connected to the suspect’s presence.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260412/detenido-hombre-tras-muerte-mujer-37-anos-cayo-desde-terraza-edificio-pamplona/17019934.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/12/69db8cc9e9cf4ad1298b457f.html"
+            }
+          ]
+        },
+        {
+          "headline": "Marea Blanca protests fill Andalusian capitals for public healthcare",
+          "body": "Thousands marched under the slogan ‘Negocio en sanidad, más mortalidad,’ demanding an end to privatization, more primary-care funding and faster cancer screening as left-wing leaders joined coordinated rallies in all eight provincial capitals ahead of May elections.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260412/mareas-blancas-manifestaciones-andalucia-sanidad-publica/17019731.shtml"
+            },
+            {
+              "name": "InfoLibre",
+              "url": "https://www.infolibre.es/politica/marea-blanca-toma-calles-andalucia-exigir-sistema-sanitario-publico-equitativo_1_1459724.html"
+            }
+          ]
+        },
+        {
+          "headline": "Cantabria lifts wildfire alert after 10,000 hectares burn",
+          "body": "Regional officials deactivated INFOCANT as rain and cooler weather left only one blaze active in Vega de Liébana, but warned that the 649 fires logged so far this year already exceed 2025’s burned area by 20 percent and were largely intentional.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260412/cantabria-superado-ya-hectareas-monte-quemadas-todo-2025/17019683.shtml"
+            },
+            {
+              "name": "Infobae",
+              "url": "https://www.infobae.com/america/agencias/2026/04/11/cantabria-con-un-unico-incendio-activo-desactiva-el-infocant-y-contabiliza-mas-de-10000-hectareas-quemadas-este-ano/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "ATM signs off final Diagonal tram link between Verdaguer and Francesc Macià",
+          "body": "The transport authority approved the €47 million, 2.8km second phase that will add three stops, revamp the Francesc Macià hub and enable Trambaix–Trambesòs through service expected to double ridership and remove 12,500 cars from the avenue once finished in about 40 months.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/mobilitat/latm-aprova-el-tram-que-completara-la-connexio-del-tramvia-per-la-diagonal-706208/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/local/barcelona/20260410/11510485/atm-aprueba-definitivamente-segunda-fase-conexion-tranvia-diagonal.html"
+            }
+          ]
+        },
+        {
+          "headline": "Rooftop blaze at Hotel Pulitzer sends plume over Plaça Catalunya",
+          "body": "Two fire crews doused flames on the Bergara Street hotel’s terrace late Sunday morning; guests were evacuated, no major damage was reported and emergency crews treated one worker for smoke inhalation.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/un-incendi-crema-el-terrat-de-lhotal-pulitzer-i-provoca-una-gran-columna-de-fum-negre/noticia/3404062/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/successos/un-incendi-crema-el-terrat-dun-centric-hotel-de-barcelona-706395/"
+            }
+          ]
+        },
+        {
+          "headline": "Global Sumud flotilla delays Gaza departure from Barcelona",
+          "body": "Rough seas forced the 40-ship humanitarian convoy to postpone Sunday’s departure from the Moll de la Fusta, with organisers planning another attempt on Monday as Open Arms and 300 volunteers prepare to deliver medical and reconstruction supplies.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/una-nova-flotilla-humanitaria-te-previst-sortir-avui-cap-a-gaza-des-de-barcelona/noticia/3404023/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/la-flotilla-ultima-una-nova-sortida-cap-a-gaza-des-de-barcelona-706358/"
+            }
+          ]
+        },
+        {
+          "headline": "Barcelona en Comú unveils new logo ahead of Pisarello’s run",
+          "body": "The municipal platform retired its founding spiral for a bold ‘C’ with a central rhombus, refreshed colours and unified typography after a nine-month internal process designed to signal a new phase as Gerardo Pisarello leads the 2027 ticket.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/politica/bcomu-deixa-enrere-lespiral-fundacional-i-estrena-nova-identitat-visual-706235/"
+            },
+            {
+              "name": "Europa Press",
+              "url": "https://www.europapress.es/catalunya/noticia-bcomu-renueva-imagen-abrir-nueva-etapa-escoger-pisarello-alcaldable-20260410132545.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
