@@ -1,0 +1,220 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Trump orders Hormuz blockade as oil surges past $100",
+          "body": "President Trump ordered US forces to begin blockading vessels entering or leaving Iranian ports at 10:00 ET on Monday after 21 hours of collapsed talks in Islamabad, vowing to interdict ships that paid Tehran tolls and threatening strikes on Iranian infrastructure, a move that sent Brent and WTI crude above $100 a barrel while Iran’s Revolutionary Guards warned the action would breach the ceasefire in the Strait of Hormuz.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cn781z4lgg4o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/12/trump-says-us-will-blockade-strait-of-hormuz-as-iran-peace-talks-fail"
+            }
+          ]
+        },
+        {
+          "headline": "Péter Magyar ends Orbán era with Hungarian landslide",
+          "body": "Péter Magyar’s Tisza movement swept Viktor Orbán from power after 16 years, overcoming gerrymandered districts to capture the parliament and prompting EU leaders to hail a democratic reset as Magyar promised to restore rule of law and reorient Hungary toward Europe while Orbán conceded defeat.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cd9vg782kx7o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/13/hungary-election-results-eu-europe-leaders-react-peter-magyar-viktor-orban"
+            }
+          ]
+        },
+        {
+          "headline": "Misfire at Nigerian market kills more than 100 civilians",
+          "body": "A Nigerian air force strike aimed at jihadists hit a crowded market near the Yobe–Borno border, with witnesses and Amnesty International reporting more than 100 deaths and dozens injured while the military acknowledged a misfire and launched an investigation into the botched operation.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cgk021z3ejpo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/12/nigeria-airstrike-market-yobe-state-boko-haram"
+            }
+          ]
+        },
+        {
+          "headline": "Peruvians vote in crowded race to break political deadlock",
+          "body": "Peru closed polls in an election with 35 presidential hopefuls and deep voter anxiety about violent crime and corruption, with observers expecting no candidate to clear the 50% threshold and forecasting a fractious runoff that will produce the country’s ninth leader in a decade.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/12/peru-votes-for-ninth-president-in-less-than-decade"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/10/peru-election-polls-instability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Swalwell quits California governor race amid abuse probes",
+          "body": "Representative Eric Swalwell suspended his bid to replace California Governor Gavin Newsom after a former aide and other women accused him of sexual assault and misconduct, prompting criminal and DHS investigations, the collapse of key endorsements, and a scramble among rivals for his supporters even as he vows to fight the allegations.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/california-govenror-eric-swalwell-donald-trump-gavin-newsom-4967d90612894e5a58e438edfa5c37a2"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/12/eric-swalwell-quits-california-governor"
+            }
+          ]
+        },
+        {
+          "headline": "Trump escalates feud with Pope Leo XIV over Iran war criticism",
+          "body": "After Pope Leo XIV condemned the US-Israeli campaign in Iran and urged compassion toward migrants, President Trump blasted the pontiff on Truth Social as “weak on crime” and “terrible” on foreign policy, telling reporters he is “not a big fan” as allies warned the unprecedented rebuke of the Catholic Church’s leader risks deepening diplomatic strains.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/13/donald-trump-pope-leo"
+            },
+            {
+              "name": "Al-Monitor (via Reuters)",
+              "url": "https://www.al-monitor.com/originals/2026/04/trump-attacks-pope-leo-calling-him-weak-crime-and-terrible"
+            }
+          ]
+        },
+        {
+          "headline": "US sues Minnesota over transgender athletes in girls’ sports",
+          "body": "The Trump Justice Department sued Minnesota’s education department and high school league, alleging their policies letting transgender girls compete and share facilities violate Title IX, while Attorney General Keith Ellison vowed to defend the state’s protections and noted the administration has threatened to pull billions in federal funds as part of a broader national crackdown.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/transgender-athletes-minnesota-trump-d2b7800fe6a84e5514eafefc3869d313"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/mar/30/minnesota-trans-athletes-lawsuit-trump-administration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Ábalos graft trial shifts to mask contracts and alleged kickbacks",
+          "body": "Spain’s Supreme Court resumes hearings in the Koldo case this week with executives from Adif, Puertos del Estado and associates of businessman Víctor de Aldama set to testify about €36 million in pandemic mask deals that prosecutors say financed bribes, after initial sessions exposed how allies of ex-minister José Luis Ábalos allegedly placed friends and a former partner into public posts.",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-04-13/el-juicio-a-abalos-se-adentra-en-los-contratos-de-las-mascarillas.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260412/11511097/juicio-exministro-jose-luis-abalos-nadie.html"
+            }
+          ]
+        },
+        {
+          "headline": "Sánchez presses China to rein in wars and invest in Spain",
+          "body": "Prime Minister Pedro Sánchez arrived in Beijing for his fourth visit in three years aiming to leverage strong ties with Xi Jinping to push China to demand an end to the wars in Iran, Ukraine and the Middle East while courting new investment and reinforcing Spain’s role in EU trade talks with Beijing.",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-04-12/sanchez-consolida-su-relacion-con-xi-jinping-y-apuesta-por-china-como-potencia-estabilizadora-frente-a-trump.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260413/sanchez-china-guerra-iran-viaje-institucional-129027170"
+            }
+          ]
+        },
+        {
+          "headline": "Israel summons Spanish envoy over Netanyahu effigy burning",
+          "body": "Israel’s foreign ministry hauled in Spain’s chargé d’affaires after a Holy Week bonfire in Málaga burned an effigy of Benjamin Netanyahu, accusing Madrid of stoking antisemitism, while the Spanish government rejected the charge, highlighting its anti-hate strategy as culture minister Ernest Urtasun called Netanyahu “acorralado” and urged accountability for Gaza abuses.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260411/israel-convoca-a-encargada-negocios-espanola-tel-aviv-por-quema-muneco-netanyahu-malaga/17019430.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/11/69da5ef621efa05b248b458a-video.html"
+            }
+          ]
+        },
+        {
+          "headline": "Senate summons Montero in SEPI contracting investigation",
+          "body": "The Partido Popular used its Senate majority to schedule former deputy prime minister María Jesús Montero for an April 20 appearance before the commission probing SEPI’s pandemic-era contracts and alleged favoritism, intensifying scrutiny of the Sánchez government’s handling of the Koldo scandal ahead of regional elections.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260412/maria-jesus-montero-comparecera-comision-investigacion-sobre-sepi-senado-20-abril/17020120.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/04/12/69dbb8a121efa00b3e8b4577.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Catalunya to hike rail graffiti fines up to €900,000",
+          "body": "The Catalan government will push a rail law reform through parliament this week that lifts penalties for vandalising trains and stations to as much as €900,000 after two brand-new Rodalies and FGC units were taken out of service by graffiti attacks, with territory minister Sílvia Paneque warning there will be no impunity for repeat offenders.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/trens-nous-de-trinca-inservibles-pels-grafitis-el-govern-apujara-les-multes-als-900000-euros/noticia/3404022/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260412/govern-grafiteros-eleva-900000-euros-multa-vandalismo-servicio-ferroviario-129004061"
+            }
+          ]
+        },
+        {
+          "headline": "Montjuïc funicular returns after half-year shutdown",
+          "body": "Barcelona’s Montjuïc funicular resumes full service on 13 April following six months of sewer works on Carrer Vila i Vilà, restoring the link between Paral·lel and the cable car for more than 3,000 daily riders with standard summer and weekend frequencies reinstated.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-funicular-de-montjuic-repren-el-servei-despres-de-sis-mesos-dobres-al-carrer-vila-i-vila/noticia/3404073/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260410/funicular-montjuic-reabre-abril-horarios-barcelona-128960010"
+            }
+          ]
+        },
+        {
+          "headline": "Barcelona clears last Sagrera shanties amid freight yard demolition",
+          "body": "Barcelona is preparing to dismantle the final clusters of shacks beside the old Sagrera freight station as Adif crews demolish the century-old complex to make way for a linear park and 2,230 homes, drawing nostalgia from heritage groups that tried to save the depot now being carted off to the railway museum.",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260412/barcelona-prepara-desalojo-ultimo-asentamiento-128661455"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/la-historia-que-sesfondra-amb-lestacio-de-mercaderies-de-la-sagrera-706049/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
