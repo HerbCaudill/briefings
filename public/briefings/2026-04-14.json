@@ -1,0 +1,120 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Hezbollah urges Lebanon to shun Washington talks with Israel",
+          "body": "Lebanon’s ambassadors are due to meet Israeli counterparts in Washington on Tuesday to probe a ceasefire, but Hezbollah deputy Naim Qassem is pressuring the government to boycott what he calls a ploy to force the movement to disarm even as Israeli bombing and a ground push since March have killed more than 2,000 people and uprooted 1.2 million, leaving President Joseph Aoun’s administration with little leverage beyond pleading for humanitarian gestures.",
+          "sources": [
+            {"name": "BBC News", "url": "https://www.bbc.com/news/articles/cr51l794mlyo"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks"}
+          ]
+        },
+        {
+          "headline": "Super Typhoon Sinlaku menaces the Mariana Islands",
+          "body": "Super Typhoon Sinlaku, the year’s strongest storm with sustained winds near 170 mph after tearing through Micronesia, is skirting just southeast of Saipan and Tinian as Guam remains under a tropical-storm warning and typhoon watch amid forecasts of flooding rain, destructive gusts and treacherous seas through midweek despite a slight weakening trend.",
+          "sources": [
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/4/14/super-typhoon-sinlaku-bears-down-on-northern-mariana-islands-guam"},
+            {"name": "The Guardian", "url": "https://www.theguardian.com/environment/2026/apr/13/weather-tracker-super-typhoon-sinlaku-threatens-mariana-islands"}
+          ]
+        },
+        {
+          "headline": "ICE detains Bolsonaro ally Ramagem after coup conviction",
+          "body": "US immigration agents arrested former Brazilian intelligence chief Alexandre Ramagem in Florida months after he slipped across Guyana’s border to avoid serving a 16-year sentence for turning the spy agency into Jair Bolsonaro’s clandestine counterintelligence arm, as Brasília renews its extradition push and Trump’s immigration crackdown ensnares the far-right figure despite his pending asylum bid.",
+          "sources": [
+            {"name": "The Guardian", "url": "https://www.theguardian.com/world/2026/apr/13/brazil-former-spy-chief-arrested-us-ice-alexandre-ramagem"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/4/13/brazilian-ex-intelligence-chief-detained-by-us-immigration-authorities"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Swalwell to resign House seat after misconduct allegations",
+          "body": "Democratic Representative Eric Swalwell said he will step down from his Bay Area seat after four women accused him of sexual misconduct, prompting criminal and House ethics probes, a rush of lost endorsements and expulsion threats; he insists the claims are false but wrote that remaining in Congress would shortchange constituents as he coordinates a handover with staff.",
+          "sources": [
+            {"name": "BBC News", "url": "https://www.bbc.com/news/articles/cwyd8rj1ylro"},
+            {"name": "Associated Press", "url": "https://apnews.com/article/eric-swalwell-congress-california-governor-election-f485eacb0aa43d04e534430cfaa704e1"}
+          ]
+        },
+        {
+          "headline": "Suspect charged in firebomb attacks on Sam Altman’s home and OpenAI",
+          "body": "San Francisco prosecutors charged 20-year-old Daniel Moreno-Gama with two counts of attempted murder alongside federal explosives offences after he allegedly hurled a Molotov cocktail at Sam Altman’s home, then tried to ignite OpenAI’s headquarters with kerosene, improvised devices and manifestos urging violence against AI leaders, exposing him to a possible life sentence.",
+          "sources": [
+            {"name": "BBC News", "url": "https://www.bbc.com/news/articles/cq597n1pg6lo"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/4/14/man-charged-with-attempted-murder-after-attack-on-openai-ceo-altmans-home"}
+          ]
+        },
+        {
+          "headline": "Trump pulls AI image casting himself as Jesus amid church backlash",
+          "body": "President Donald Trump deleted an AI-generated image that depicted him as a Christ-like healer after conservative pastors and US bishops said the post mocked faith, yet he defended it as a doctor scene while doubling down on attacks against Pope Leo XIV over the Iran war, drawing further rebukes from Catholic leaders at home and allies abroad.",
+          "sources": [
+            {"name": "BBC News", "url": "https://www.bbc.com/news/articles/c17v8y0z9z2o"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/4/13/trump-draws-backlash-over-posting-image-depicting-him-as-jesus-like-saviour"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spain refines mass migrant regularisation ahead of June deadline",
+          "body": "The Sánchez government will approve a decree to regularise roughly 500,000 undocumented migrants by 30 June, tightening background-check rules in line with the Council of State while allowing applicants to request certificates via embassies or have the state obtain them, a move backed by business and the Church but already facing legal challenges from PP and Vox.",
+          "sources": [
+            {"name": "El País", "url": "https://elpais.com/espana/2026-04-14/el-gobierno-ayudara-a-los-inmigrantes-con-la-peticion-de-antecedentes-penales-para-que-la-regularizacion-sea-masiva.html"},
+            {"name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/04/14/69dd30b1fc6c83b21d8b459f.html"}
+          ]
+        },
+        {
+          "headline": "Judge sends Begoña Gómez to trial on influence and corruption charges",
+          "body": "Madrid judge Juan Carlos Peinado closed his two-year probe into Prime Minister Pedro Sánchez’s wife, Begoña Gómez, ordering her, aide Cristina Álvarez and businessman Juan Carlos Barrabés to face trial on counts including tráfico de influencias, malversación and corporate corruption tied to her Complutense University chair while dropping an intrusismo allegation and reviving his push for a jury trial, drawing outrage from the government.",
+          "sources": [
+            {"name": "RTVE", "url": "https://www.rtve.es/noticias/20260413/peinado-procesa-a-begona-gomez-por-trafico-influencias-malversacion-corrupcion-negocios-apropiacion-indebida/17020957.shtml"},
+            {"name": "3Cat", "url": "https://www.3cat.cat/3catinfo/el-jutge-proposa-enviar-a-judici-begona-gomez-dona-de-pedro-sanchez-per-quatre-delictes/noticia/3404171/"}
+          ]
+        },
+        {
+          "headline": "Villarejo diaries take centre stage in Kitchen spy trial",
+          "body": "Testifying before the Audiencia Nacional, Internal Affairs inspector Gonzalo Fraga said José Manuel Villarejo’s diaries, recordings and receipts map how senior Interior officials nicknamed “Pin” and “Chisco” handled stolen intelligence on Luis Bárcenas, even linking the alias “Asturiano” to then-prime minister Mariano Rajoy as prosecutors trace responsibility for the 2013 Kitchen espionage operation.",
+          "sources": [
+            {"name": "El País", "url": "https://elpais.com/espana/2026-04-14/las-agendas-de-villarejo-se-vuelven-contra-los-principales-acusados-en-el-juicio-de-kitchen.html"},
+            {"name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/04/13/69dcee38fdddff9e758b4573.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "La Rambla debuts ‘terrace excellence’ standards",
+          "body": "Barcelona will designate La Rambla as its first zone of terrace excellence, pairing the promenade’s remodel with a stylebook that trims outdoor seating by 16%, standardises parasols and auxiliary furniture through public design contests, and bans garish signage so reinstalled cafés free up a third more space for pedestrians this summer.",
+          "sources": [
+            {"name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/economia/noves-terrasses-rambla-706530/"},
+            {"name": "The New Barcelona Post", "url": "https://www.thenewbarcelonapost.cat/rambla-primera-zona-excel%C2%B7lencia-terrasses-barcelona/"}
+          ]
+        },
+        {
+          "headline": "Raval abuser handed 83-year sentence for exploiting state-ward child",
+          "body": "A Barcelona court accepted a plea from Teófilo, the ringleader of a Raval paedophile ring, imposing 83 years in prison for grooming a 12-year-old girl under Generalitat care, filming repeated assaults and arranging encounters with other men, while prosecutors pursue two related cases over broader child abuse and pornography networks.",
+          "sources": [
+            {"name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/successos/el-pederasta-del-raval-accepta-83-anys-per-violar-una-menor-tutelada-per-la-dgaia-706751/"},
+            {"name": "El Mundo", "url": "https://www.elmundo.es/cataluna/2026/04/13/69dd0000fdddff4a678b4575.html?intcmp=masnoticiasportada"}
+          ]
+        },
+        {
+          "headline": "Peregrine chicks hatch on Sagrada Família livestream",
+          "body": "Two of the three peregrine falcon eggs incubated on the Sagrada Família’s Passion façade hatched over the weekend, extending a two-decade reintroduction led by Galanthus as the resident pair feeds the chicks on camera and helps rebuild the species’ presence in Barcelona’s skyline.",
+          "sources": [
+            {"name": "3Cat", "url": "https://www.3cat.cat/3catinfo/neixen-2-pollets-mes-de-falco-a-la-sagrada-familia-de-barcelona-mirals-en-directe/noticia/3404145/"},
+            {"name": "El Periódico", "url": "https://www.elperiodico.com/es/barcelona/eixample/20260413/tres-polluelos-pareja-halcones-sagrada-129031581"}
+          ]
+        }
+      ]
+    }
+  ]
+}
