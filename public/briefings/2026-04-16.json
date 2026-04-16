@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Russian salvos kill at least 12 across Ukraine after brief ceasefire",
+          "body": "Russian missile and drone barrages overnight hit Kyiv, Odesa and Dnipro, killing at least 12 people—including a 12-year-old boy—and injuring dozens as fires and building collapses forced rescues of families and medics in the capital, while Ukrainian officials reported further strikes in Kharkiv and Odesa and Russian authorities said two children died in a Ukrainian drone attack in Krasnodar, underscoring how fighting resumed days after an Orthodox Easter ceasefire.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cm29plylqnvo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/16/russia-drone-missile-strikes-ukraine-kyiv-dnipro"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10"
+            }
+          ]
+        },
+        {
+          "headline": "Pakistan shuttles US-Iran talks as Tehran threatens wider waterway closures",
+          "body": "Pakistan's army chief delivered a US message in Tehran and mediators said they expect a breakthrough on Iran’s nuclear programme as Islamabad shuttles between Washington and Tehran, while Iran’s military threatened to close the Persian Gulf, the Gulf of Oman and even the Red Sea if the US maintains its double blockade of the Strait of Hormuz, raising pressure to extend a fragile ceasefire that expires on 22 April.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/internacional/20260415/iran-amenaza-cerrar-mar-rojo-si-eeuu-mantiene-bloqueo-ormuz-129132980"
+            }
+          ]
+        },
+        {
+          "headline": "Super Typhoon Sinlaku batters Northern Marianas with 240 km/h winds",
+          "body": "Super Typhoon Sinlaku, the strongest cyclone on Earth this year with winds above 240 km/h, tore through Saipan, Tinian, Rota and Guam, toppling power lines, shredding tin roofs and leaving more than 1,000 people sheltered amid island-wide blackouts, though authorities so far report no deaths as crews begin damage assessments.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/15/sinlaku-typhoon-guam-mariana-islands"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/super-typhoon-sinlaku-pacific-northern-mariana-islands-edbd6db03456ee26a15c4d996db531b7"
+            }
+          ]
+        },
+        {
+          "headline": "Geelong refinery fire heightens Australia’s wartime fuel anxiety",
+          "body": "A 13-hour blaze triggered by equipment failure at Viva Energy’s Geelong refinery—supplier of half of Victoria’s petrol—forced evacuations and partial shutdowns as Australia already grapples with wartime fuel shortages, prompting warnings that unleaded prices could jump up to 20 cents per litre and that some Victorian stations may see spot outages even as federal officials insist national supplies remain buffered by imports.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cj40pdw79z9o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/apr/16/victoria-fuel-prices-geelong-viva-oil-refinery-fire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Naturalised suspect charged in Atlanta attacks that killed DHS employee",
+          "body": "Georgia authorities charged 26-year-old Olaolukitan Adon Abel after three pre-dawn attacks across metro Atlanta left DHS auditor Lauren Bullis fatally shot and stabbed while walking her dog, another woman slain near Decatur, and a 49-year-old unhoused man critically wounded in Brookhaven—assaults investigators believe were random—which have spurred Homeland Security to scrutinise the naturalised Briton’s criminal history after his 2024 plea to assaulting California officers.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/georgia-shootings-immigration-citizenship-427a656b2eaf0732c001fc25b64bbc9a"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/15/georgia-killing-dhs-worker"
+            }
+          ]
+        },
+        {
+          "headline": "Jury rules Live Nation-Ticketmaster monopoly overcharged concertgoers",
+          "body": "A New York jury found Live Nation and Ticketmaster ran an illegal monopoly over major US venues, concluding their practices forced fans in 22 states to pay an extra $1.72 per ticket and opening the door to hundreds of millions in damages, possible venue divestitures and tighter oversight, even as the company vowed to challenge remedies following revelations about executives boasting of 'robbing' customers.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/live-nation-ticketmaster-antitrust-trial-f0ffdd20dd4f64e8b4bb9d97134b826f"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/clyddyp19yyo"
+            }
+          ]
+        },
+        {
+          "headline": "Senate rejects Sanders bid to halt Israel arms sales but dissent grows",
+          "body": "The US Senate rejected Bernie Sanders’s twin resolutions to block $447 million in bulldozers and bombs bound for Israel by votes of 40-59 and 36-63, but the tally showed a record 40 senators—mostly Democrats—backing limits on arms transfers amid the wars in Gaza, Lebanon and Iran, highlighting rising pressure within the president’s party despite unanimous Republican opposition.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/israel-congress-arms-sales-sanders-iran-gaza-cdfd0512f05a71cc6cbc3382044a8a9b"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/15/bernie-sanders-pushes-military-block-israel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "PP regions ready court fight over Spain’s mass migrant regularisation",
+          "body": "Regional governments run by the Popular Party in Madrid, Valencia, the Balearics and Galicia are drafting Supreme Court appeals against Spain’s decree to regularise over 500,000 undocumented migrants, after PP leader Alberto Núñez Feijóo claimed it will legalise offenders despite requirements for clean criminal records—prompts that drew an EU warning about Schengen fallout—while the Sánchez government touts fiscal gains and labour-market benefits from bringing long-time residents above board.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260416/11514513/pp-vox-abren-batalla-legal-decreto-regularizacion.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-04-16/la-regularizacion-de-migrantes-recrudece-la-batalla-politica-entre-el-gobierno-y-la-oposicion.html"
+            }
+          ]
+        },
+        {
+          "headline": "Witnesses detail Aldama’s access to Ábalos office in mask contract trial",
+          "body": "At Spain’s Supreme Court trial over pandemic mask contracts, former Adif president Isabel Pardo de Vera testified she repeatedly saw businessman Víctor de Aldama roaming the ministry’s 'noble' floor and even inside José Luis Ábalos’s office with aide Koldo García when the minister was absent—access a Guardia Civil officer said extended to authority parking—although she insisted the 12.5 million euro order she approved was decided by procurement committees after García suggested the supplier.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260415/segunda-semana-juicio-caso-mascarillas-abalos-cierra-testimonio-pardo-vera/17025138.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260415/11514358/expresidenta-adif-alerto-abalos-continua-presencia-aldama-despacho.html"
+            }
+          ]
+        },
+        {
+          "headline": "Pyrenees lose frost days as warming accelerates, study warns",
+          "body": "A Meteocat-led LIFE Pyrenees4Clima study finds the Pyrenees have lost three frost days and gained about five summer days every decade since 1959, with average temperatures rising 1.9°C—2.7°C in summer—more tropical nights appearing at mid altitudes and alpine lakes warming by roughly 0.5°C in a decade, trends scientists warn will dry southern slopes, shorten ice cover and trigger oxygen crashes that threaten high-mountain ecosystems.",
+          "sources": [
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/catalunya/2026/04/15/pirineu-any-mes-calid-129140720.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/els-pirineus-perden-3-dies-de-gelada-i-en-guanyen-5-destiu-cada-decada/noticia/3404520/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Barcelona drops Park Güell centenary dinner after neighbourhood backlash",
+          "body": "Barcelona City Hall quietly scrapped the 26 April Park Güell 'garden party' after neighbourhood platform Recuperem el Park Güell decried the centenary dinner as opaque and exclusionary in a park they say has been ceded to tourism, prompting officials to drop the idea after meeting residents even as activists press ahead with their own protest picnic to reclaim the space.",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260415/barcelona-cancela-cena-centenario-park-guell-polemica-vecinal-protesta-129138406"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/suspes-sopar-popular-centenari-park-guell-705099/"
+            }
+          ]
+        },
+        {
+          "headline": "€3.4m Can Dragó revamp to expand play, fitness and shade in Nou Barris",
+          "body": "The city will invest €3.42 million to overhaul 10,600 square metres of Nou Barris’s Can Dragó park, tripling play areas, adding seniors’ fitness and calisthenics zones, relocating the dog run and installing permeable surfaces, new lighting and accessible paths so the green space can serve as a climate-adapted neighbourhood hub during the year-long works.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/barcelona-fara-una-inversio-milionaria-per-renovar-un-parc-de-nou-barris-705057/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/mas-barcelona/20260413/parque-can-drago-renueva-ganar-verde-espacio-juego-barcelona-bc-129031696"
+            }
+          ]
+        },
+        {
+          "headline": "La Rambla terraces get design rulebook as works race toward 2027 finish",
+          "body": "With La Rambla’s reconstruction speeding toward a 2027 finish, Barcelona is designating the promenade the city’s first 'Zone of Excellence' for terraces, pairing a style guide of uniform cream parasols and low-impact furniture with phased reopening schedules tied to the central works so that cafés return under a curated cultural corridor rather than the visual clutter that once dominated the boulevard.",
+          "sources": [
+            {
+              "name": "The New Barcelona Post",
+              "url": "https://www.thenewbarcelonapost.cat/rambla-primera-zona-excel%c2%b7lencia-terrasses-barcelona/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/urbanisme/futur-rambla-nou-disseny-terrasses-eix-cultural-vianants-706616/"
+            }
+          ]
+        },
+        {
+          "headline": "Global Sumud flotilla leaves Barcelona aiming to widen Gaza aid corridor",
+          "body": "Thirty-nine boats bearing medical and reconstruction supplies departed Port Fòrum under the Global Sumud banner—supported by Open Arms and Greenpeace and carrying dozens of Catalan activists—to rendezvous in Sicily with a flotilla the organisers hope will grow to around 100 vessels and thousands of participants pressing for a permanent humanitarian corridor into Gaza after weather delays pushed back the launch.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/la-flotilla-global-sumud-salpa-de-barcelona-per-portar-ajuda-humanitaria-a-gaza/noticia/3404641/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/la-flotilla-ultima-una-nova-sortida-cap-a-gaza-des-de-barcelona-706358/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
