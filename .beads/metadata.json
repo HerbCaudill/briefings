@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "briefings",
+  "project_id": "466a717b-7e6f-4463-899f-2b05ee234ca7"
+}
