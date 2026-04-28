@@ -1,5 +1,7 @@
 import type { NewsSourceConfig } from "./types.ts"
 
+export const ARTICLE_FETCH_CONCURRENCY = 4
+export const ARTICLE_FETCH_RETRY_LIMIT = 3
 export const DEFAULT_MAX_HEADLINES_PER_SOURCE = 30
 export const PUBLIC_BRIEFINGS_DIRECTORY_PATH = "public/briefings"
 export const RAW_BRIEFINGS_DIRECTORY_PATH = "public/briefings/raw"

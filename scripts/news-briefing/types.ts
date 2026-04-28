@@ -67,3 +67,10 @@ export type SynthesizeBriefingArgs = {
   rawDirectoryPath: string
   runPi: (args: RunPiArgs) => Promise<string>
 }
+
+export type RunNewsBriefingPipelineArgs = {
+  date: string
+  listMissingBriefingDates: () => string[]
+  runFetchStage: (date: string) => Promise<RawBriefing>
+  runSynthesisStage: (date: string) => Promise<string>
+}

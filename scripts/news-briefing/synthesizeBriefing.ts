@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
+import { existsSync, mkdirSync, writeFileSync } from "node:fs"
 import path from "node:path"
 import { SYNTHESIS_PROMPT } from "./constants.ts"
 import type { SynthesizeBriefingArgs } from "./types.ts"
@@ -10,8 +10,12 @@ export async function synthesizeBriefing(
 ): Promise<string> {
   const rawBriefingPath = path.join(args.rawDirectoryPath, `${args.date}.json`)
   const briefingPath = path.join(args.briefingDirectoryPath, `${args.date}.json`)
-  const rawBriefing = readFileSync(rawBriefingPath, "utf8")
-  const prompt = `${SYNTHESIS_PROMPT}\n\nRaw briefing date: ${args.date}\nRaw briefing preview:\n${rawBriefing.slice(0, 4000)}`
+
+  if (!existsSync(rawBriefingPath)) {
+    throw new Error(`Missing raw briefing file: ${rawBriefingPath}`)
+  }
+
+  const prompt = `${SYNTHESIS_PROMPT}\n\nRaw briefing date: ${args.date}`
   const synthesis = await args.runPi({ prompt, rawBriefingPath })
 
   mkdirSync(args.briefingDirectoryPath, { recursive: true })

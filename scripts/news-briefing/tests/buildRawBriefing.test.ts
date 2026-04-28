@@ -111,4 +111,73 @@ describe("buildRawBriefing", () => {
     ])
     expect(fetchedUrls).not.toContain("https://source-one.example/story-c")
   })
+
+  test("retries article fetches and keeps only successful article records in the raw JSON", async () => {
+    const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
+    temporaryDirectories.push(rawDirectoryPath)
+
+    const attemptsByUrl = new Map<string, number>()
+    const rawBriefing = await buildRawBriefing({
+      date: "2026-04-21",
+      fetchPageHtml: async url => {
+        attemptsByUrl.set(url, (attemptsByUrl.get(url) ?? 0) + 1)
+
+        if (url === "https://source.example/news") {
+          return `
+            <h2><a href="/story-success">Successful story headline with enough words to keep</a></h2>
+            <h2><a href="/story-retry">Retry story headline with enough words to keep</a></h2>
+            <h2><a href="/story-fail">Failed story headline with enough words to keep</a></h2>
+            <h2><a href="/story-empty">Empty story headline with enough words to keep</a></h2>
+          `
+        }
+
+        if (url === "https://source.example/story-success") {
+          return `
+            <article>
+              <p>This successful article body is comfortably longer than forty characters and should be kept.</p>
+            </article>
+          `
+        }
+
+        if (url === "https://source.example/story-retry") {
+          if ((attemptsByUrl.get(url) ?? 0) < 2) {
+            throw new Error("temporary failure")
+          }
+
+          return `
+            <article>
+              <p>This retried article body is comfortably longer than forty characters and should be kept.</p>
+            </article>
+          `
+        }
+
+        if (url === "https://source.example/story-fail") {
+          throw new Error("permanent failure")
+        }
+
+        return `
+          <article>
+            <p>Too short.</p>
+          </article>
+        `
+      },
+      rawDirectoryPath,
+      sourceConfigs: [
+        {
+          homepageUrl: "https://source.example/news",
+          key: "source",
+          name: "Source",
+          region: "world",
+        },
+      ],
+    })
+
+    expect(rawBriefing.articles.map(article => article.url)).toEqual([
+      "https://source.example/story-success",
+      "https://source.example/story-retry",
+    ])
+    expect(attemptsByUrl.get("https://source.example/story-retry")).toBe(2)
+    expect(attemptsByUrl.get("https://source.example/story-fail")).toBe(3)
+    expect(attemptsByUrl.get("https://source.example/story-empty")).toBe(1)
+  })
 })

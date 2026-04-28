@@ -1,8 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs"
 import path from "node:path"
-import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
-import { extractArticleParagraphs } from "./extractArticleParagraphs.ts"
+import { ARTICLE_FETCH_CONCURRENCY, DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
+import { fetchSuccessfulArticle } from "./fetchSuccessfulArticle.ts"
+import { mapWithConcurrency } from "./mapWithConcurrency.ts"
 import type { BuildRawBriefingArgs, RawBriefing, RawBriefingArticle } from "./types.ts"
 
 /** Fetch homepage and article content, then persist one raw briefing JSON file. */
@@ -31,16 +32,19 @@ export async function buildRawBriefing(
         continue
       }
 
-      const existingArticle = articleMap.get(candidate.url)
       const sighting = {
         headline: candidate.headline,
         listingPageUrl: sourceConfig.homepageUrl,
         position: candidate.position,
         source,
       }
+      const existingArticle = articleMap.get(candidate.url)
 
       if (existingArticle) {
-        existingArticle.sightings.push(sighting)
+        articleMap.set(candidate.url, {
+          ...existingArticle,
+          sightings: [...existingArticle.sightings, sighting],
+        })
         continue
       }
 
@@ -56,13 +60,14 @@ export async function buildRawBriefing(
     }
   }
 
-  for (const article of articleMap.values()) {
-    const articleHtml = await args.fetchPageHtml(article.url)
-    article.body = extractArticleParagraphs(articleHtml).join("\n\n")
-  }
+  const articles = (
+    await mapWithConcurrency([...articleMap.values()], ARTICLE_FETCH_CONCURRENCY, article =>
+      fetchSuccessfulArticle(article, args.fetchPageHtml),
+    )
+  ).filter(article => article !== null)
 
   const rawBriefing: RawBriefing = {
-    articles: [...articleMap.values()],
+    articles,
     createdAt: new Date().toISOString(),
     date: args.date,
   }

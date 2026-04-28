@@ -22,13 +22,13 @@ Daily news briefings viewer — a single-page React app that fetches and renders
 
 The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/news-briefing/`.
 
-**Fetch stage:** `pnpm news:fetch` crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, fetches article bodies, deduplicates by article URL, and writes `public/briefings/raw/YYYY-MM-DD.json`.
+**Fetch stage:** `pnpm news:fetch` crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, fetches article bodies with internal retry/concurrency limits, deduplicates by article URL, keeps only successful non-empty article records, and writes `public/briefings/raw/YYYY-MM-DD.json`.
 
 **Synthesis stage:** `pnpm news:synthesize` compares raw files in `public/briefings/raw/` with final files in `public/briefings/`, invokes `pi` with a reduced prompt for each missing date, and writes the final app-facing JSON.
 
 **App data flow:** On mount, fetches `/briefings/index.json` (array of `{date, title}` objects). Selecting a date fetches `/briefings/{YYYY-MM-DD}.json` — a structured JSON object with `sections[]`, each containing a `title` and `stories[]`. Each story has a `headline`, `body`, and `sources[]` (with `name` and `url`). The app renders these directly as React components.
 
-**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, raw briefing builder, missing-briefing detection, and synthesis entrypoints.
+**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, raw briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint.
 
 **Key app file:** `src/App.tsx` — contains all app logic: date state, fetching, keyboard navigation (Ctrl+D/P/N for today/prev/next), calendar popover for date selection. Types (`Briefing`, `Section`, `Story`, `Source`, `BriefingIndex`) are defined at the end of the file.
 
@@ -42,10 +42,10 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 ## Boundary with dotfiles
 
-`dotfiles` should only own the scheduled runner and the shared `news-briefing` skill wrapper. The fetch/extract pipeline and raw daily files live in this repo.
-
+`dotfiles` should only own the LaunchAgent wiring and the shared `news-briefing` skill wrapper. The fetch/extract pipeline, raw daily files, and the scheduler command (`pnpm news:run`) live in this repo.
 
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:ca08a54f -->
+
 ## Beads Issue Tracker
 
 This project uses **bd (beads)** for issue tracking. Run `bd prime` to see full workflow context and commands.
@@ -86,6 +86,7 @@ bd close <id>         # Complete work
 7. **Hand off** - Provide context for next session
 
 **CRITICAL RULES:**
+
 - Work is NOT complete until `git push` succeeds
 - NEVER stop before pushing - that leaves work stranded locally
 - NEVER say "ready to push when you are" - YOU must push
