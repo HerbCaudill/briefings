@@ -15,6 +15,7 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     region: "world",
   },
   {
+    fallbackUrls: ["https://openrss.org/feed/www.reuters.com/world/"],
     homepageUrl: "https://www.reuters.com/world/",
     key: "reuters-world",
     name: "Reuters",
@@ -27,6 +28,7 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     region: "world",
   },
   {
+    fallbackUrls: ["https://www.france24.com/en/rss"],
     homepageUrl: "https://www.france24.com/en/",
     key: "france24",
     name: "France 24",
@@ -39,6 +41,7 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     region: "us",
   },
   {
+    fallbackUrls: ["https://feeds.washingtonpost.com/rss/national"],
     homepageUrl: "https://www.washingtonpost.com/national/",
     key: "washington-post-national",
     name: "The Washington Post",
@@ -50,8 +53,17 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     name: "Associated Press",
     region: "us",
   },
-  { homepageUrl: "https://www.politico.com/", key: "politico", name: "Politico", region: "us" },
   {
+    fallbackUrls: ["https://rss.politico.com/politics-news.xml"],
+    homepageUrl: "https://www.politico.com/",
+    key: "politico",
+    name: "Politico",
+    region: "us",
+  },
+  {
+    fallbackUrls: [
+      "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada",
+    ],
     homepageUrl: "https://elpais.com/espana/",
     key: "elpais-espana",
     name: "El País",
@@ -87,7 +99,14 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     name: "3Cat",
     region: "barcelona",
   },
-  { homepageUrl: "https://beteve.cat/", key: "beteve", name: "betevé", region: "barcelona" },
+  {
+    fallbackUrls: ["https://beteve.cat/feed/"],
+    homepageUrl: "https://beteve.cat/",
+    key: "beteve",
+    name: "betevé",
+    preferFallbackUrls: true,
+    region: "barcelona",
+  },
   {
     homepageUrl: "https://www.3cat.cat/3catinfo/barcelona-ciutat/",
     key: "3cat-barcelona",

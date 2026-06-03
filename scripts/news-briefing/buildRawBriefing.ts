@@ -4,7 +4,12 @@ import { ARTICLE_FETCH_CONCURRENCY, DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./c
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
 import { fetchSuccessfulArticle } from "./fetchSuccessfulArticle.ts"
 import { mapWithConcurrency } from "./mapWithConcurrency.ts"
-import type { BuildRawBriefingArgs, RawBriefing, RawBriefingArticle } from "./types.ts"
+import type {
+  BuildRawBriefingArgs,
+  HeadlineCandidate,
+  RawBriefing,
+  RawBriefingArticle,
+} from "./types.ts"
 
 /** Fetch homepage and article content, then persist one raw briefing JSON file. */
 export async function buildRawBriefing(
@@ -15,17 +20,53 @@ export async function buildRawBriefing(
   const articleMap = new Map<string, RawBriefingArticle>()
 
   for (const sourceConfig of args.sourceConfigs) {
-    const homepageHtml = await args.fetchPageHtml(sourceConfig.homepageUrl)
+    let listingPageUrl = sourceConfig.homepageUrl
+    let allHeadlineCandidates: HeadlineCandidate[] = []
+    const listingPageUrls =
+      sourceConfig.preferFallbackUrls ?
+        [...(sourceConfig.fallbackUrls ?? []), sourceConfig.homepageUrl]
+      : [sourceConfig.homepageUrl, ...(sourceConfig.fallbackUrls ?? [])]
+
+    for (const candidateListingPageUrl of listingPageUrls) {
+      let homepageHtml: string
+
+      if (candidateListingPageUrl === sourceConfig.homepageUrl) {
+        args.log?.(`Fetching homepage for ${sourceConfig.name}...`)
+      }
+
+      try {
+        homepageHtml = await args.fetchPageHtml(candidateListingPageUrl)
+      } catch {
+        if (candidateListingPageUrl === listingPageUrls.at(-1)) {
+          args.log?.(`Skipped ${sourceConfig.name}; homepage fetch failed.`)
+        }
+
+        continue
+      }
+
+      const candidateHeadlines = extractHeadlineCandidates(candidateListingPageUrl, homepageHtml)
+
+      if (
+        (sourceConfig.preferFallbackUrls && candidateHeadlines.length > 0) ||
+        candidateHeadlines.length >= Math.min(5, maxHeadlinesPerSource) ||
+        candidateListingPageUrl === listingPageUrls.at(-1)
+      ) {
+        listingPageUrl = candidateListingPageUrl
+        allHeadlineCandidates = candidateHeadlines
+        break
+      }
+    }
+
     const source = {
       homepageUrl: sourceConfig.homepageUrl,
       key: sourceConfig.key,
       name: sourceConfig.name,
       region: sourceConfig.region,
     }
-    const headlineCandidates = extractHeadlineCandidates(
-      sourceConfig.homepageUrl,
-      homepageHtml,
-    ).slice(0, maxHeadlinesPerSource)
+    const headlineCandidates = allHeadlineCandidates.slice(0, maxHeadlinesPerSource)
+    args.log?.(
+      `Found ${allHeadlineCandidates.length} headline candidates for ${sourceConfig.name}; using ${headlineCandidates.length}.`,
+    )
 
     for (const candidate of headlineCandidates) {
       if (!candidate.url) {
@@ -34,7 +75,7 @@ export async function buildRawBriefing(
 
       const sighting = {
         headline: candidate.headline,
-        listingPageUrl: sourceConfig.homepageUrl,
+        listingPageUrl,
         position: candidate.position,
         source,
       }
@@ -49,10 +90,10 @@ export async function buildRawBriefing(
       }
 
       articleMap.set(candidate.url, {
-        body: "",
+        body: candidate.body ?? "",
         firstSeenPosition: candidate.position,
         headline: candidate.headline,
-        listingPageUrl: sourceConfig.homepageUrl,
+        listingPageUrl,
         sightings: [sighting],
         source,
         url: candidate.url,
@@ -60,11 +101,23 @@ export async function buildRawBriefing(
     }
   }
 
+  const articleRecords = [...articleMap.values()]
+  let fetchedArticleCount = 0
+
+  args.log?.(`Fetching ${articleRecords.length} unique article bodies...`)
+
   const articles = (
-    await mapWithConcurrency([...articleMap.values()], ARTICLE_FETCH_CONCURRENCY, article =>
-      fetchSuccessfulArticle(article, args.fetchPageHtml),
-    )
+    await mapWithConcurrency(articleRecords, ARTICLE_FETCH_CONCURRENCY, async article => {
+      const result = await fetchSuccessfulArticle(article, args.fetchPageHtml)
+      fetchedArticleCount += 1
+      args.log?.(
+        `Fetched article ${fetchedArticleCount}/${articleRecords.length}: ${article.headline}`,
+      )
+      return result
+    })
   ).filter(article => article !== null)
+
+  args.log?.(`Kept ${articles.length} article bodies after extraction.`)
 
   const rawBriefing: RawBriefing = {
     articles,
@@ -72,11 +125,11 @@ export async function buildRawBriefing(
     date: args.date,
   }
 
+  const rawBriefingPath = path.join(args.rawDirectoryPath, `${args.date}.json`)
+
   mkdirSync(args.rawDirectoryPath, { recursive: true })
-  writeFileSync(
-    path.join(args.rawDirectoryPath, `${args.date}.json`),
-    JSON.stringify(rawBriefing, null, 2) + "\n",
-  )
+  writeFileSync(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
+  args.log?.(`Wrote raw briefing to ${rawBriefingPath}.`)
 
   return rawBriefing
 }

@@ -1,13 +1,16 @@
 export type NewsRegion = "world" | "us" | "spain" | "barcelona" | "extras"
 
 export type NewsSourceConfig = {
+  fallbackUrls?: string[]
   homepageUrl: string
   key: string
   name: string
+  preferFallbackUrls?: boolean
   region: NewsRegion
 }
 
 export type HeadlineCandidate = {
+  body?: string
   headline: string
   position: number
   url: string
@@ -46,6 +49,7 @@ export type RawBriefing = {
 export type BuildRawBriefingArgs = {
   date: string
   fetchPageHtml: (url: string) => Promise<string>
+  log?: (message: string) => void
   maxHeadlinesPerSource?: number
   rawDirectoryPath: string
   sourceConfigs: NewsSourceConfig[]
@@ -71,6 +75,7 @@ export type SynthesizeBriefingArgs = {
 export type RunNewsBriefingPipelineArgs = {
   date: string
   listMissingBriefingDates: () => string[]
+  log?: (message: string) => void
   runFetchStage: (date: string) => Promise<RawBriefing>
   runSynthesisStage: (date: string) => Promise<string>
 }

@@ -10,6 +10,10 @@ export async function fetchSuccessfulArticle(
   /** The HTML fetch dependency. */
   fetchPageHtml: (url: string) => Promise<string>,
 ): Promise<RawBriefingArticle | null> {
+  if (article.body) {
+    return article
+  }
+
   try {
     const articleHtml = await retry(() => fetchPageHtml(article.url), ARTICLE_FETCH_RETRY_LIMIT)
     const body = extractArticleParagraphs(articleHtml).join("\n\n")

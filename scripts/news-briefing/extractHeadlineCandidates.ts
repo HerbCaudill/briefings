@@ -1,16 +1,46 @@
+import { decodeNewsText } from "./decodeNewsText.ts"
+import { isGenericHeadline } from "./isGenericHeadline.ts"
 import type { HeadlineCandidate } from "./types.ts"
 
-/** Extract headline candidates from a news homepage HTML document. */
+/** Extract headline candidates from a news homepage or RSS document. */
 export function extractHeadlineCandidates(
   /** The base URL used to resolve relative article URLs. */
   baseUrl: string,
-  /** The raw HTML to parse. */
+  /** The raw HTML or XML to parse. */
   html: string,
 ): HeadlineCandidate[] {
   const anchorRanges: Array<{ end: number; href: string; start: number }> = []
   const ariaMap = new Map<string, string>()
   const seenHeadlines = new Set<string>()
   const candidates: HeadlineCandidate[] = []
+
+  for (const match of html.matchAll(/<item\b[^>]*>(.*?)<\/item>/gis)) {
+    const itemContent = match[1]
+    const title = itemContent.match(/<title\b[^>]*>(.*?)<\/title>/is)?.[1] ?? ""
+    const link = itemContent.match(/<link\b[^>]*>(.*?)<\/link>/is)?.[1] ?? ""
+    const description =
+      itemContent.match(/<content:encoded\b[^>]*>(.*?)<\/content:encoded>/is)?.[1] ??
+      itemContent.match(/<description\b[^>]*>(.*?)<\/description>/is)?.[1] ??
+      ""
+    const headline = decodeNewsText(title)
+    const body = decodeNewsText(description)
+    const resolvedHref = link
+      .replace(/^\s*<!\[CDATA\[/i, "")
+      .replace(/\]\]>\s*$/i, "")
+      .trim()
+
+    if (headline.length <= 15 || seenHeadlines.has(headline) || !resolvedHref) {
+      continue
+    }
+
+    seenHeadlines.add(headline)
+    candidates.push({
+      body: body.length > 40 ? body : undefined,
+      headline,
+      position: candidates.length + 1,
+      url: new URL(resolvedHref, baseUrl).toString(),
+    })
+  }
 
   for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi)) {
     const href = match[1]
@@ -37,12 +67,9 @@ export function extractHeadlineCandidates(
 
   for (const match of html.matchAll(/<(h[23])\b[^>]*>(.*?)<\/\1>/gis)) {
     const content = match[2]
-    const headline = content
-      .replace(/<[^>]+>/g, " ")
-      .trim()
-      .replace(/\s+/g, " ")
+    const headline = decodeNewsText(content)
 
-    if (headline.length <= 15 || seenHeadlines.has(headline)) {
+    if (headline.length <= 15 || seenHeadlines.has(headline) || isGenericHeadline(headline)) {
       continue
     }
 
@@ -60,6 +87,30 @@ export function extractHeadlineCandidates(
       headline,
       position: candidates.length + 1,
       url,
+    })
+  }
+
+  for (const anchorRange of anchorRanges) {
+    const anchorHtml = html.slice(anchorRange.start, anchorRange.end)
+    const headline = decodeNewsText(anchorHtml)
+    const url = new URL(anchorRange.href, baseUrl)
+    const pathSegments = url.pathname.split("/").filter(Boolean)
+
+    if (
+      headline.length <= 45 ||
+      seenHeadlines.has(headline) ||
+      isGenericHeadline(headline) ||
+      ["http:", "https:"].includes(url.protocol) === false ||
+      pathSegments.length < 2
+    ) {
+      continue
+    }
+
+    seenHeadlines.add(headline)
+    candidates.push({
+      headline,
+      position: candidates.length + 1,
+      url: url.toString(),
     })
   }
 
