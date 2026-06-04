@@ -15,11 +15,11 @@ export function listMissingBriefingDates(
     .map(fileName => fileName.replace(/\.json$/, ""))
     .sort()
   const finalDates = new Set(
-    existsSync(args.briefingDirectoryPath) ?
-      readdirSync(args.briefingDirectoryPath)
-        .filter(fileName => /^\d{4}-\d{2}-\d{2}\.json$/.test(fileName))
-        .map(fileName => fileName.replace(/\.json$/, ""))
-    : [],
+    existsSync(args.briefingDirectoryPath)
+      ? readdirSync(args.briefingDirectoryPath)
+          .filter(fileName => /^\d{4}-\d{2}-\d{2}\.json$/.test(fileName))
+          .map(fileName => fileName.replace(/\.json$/, ""))
+      : [],
   )
 
   return rawDates.filter(date => !finalDates.has(date))

@@ -7,38 +7,77 @@
           "headline": "US jets strike Iran's Kharg Island oil hub as war enters third week",
           "body": "As the US-Israeli war on Iran enters its 17th day, American jets targeted Iran's Kharg Island, the country's main oil export terminal. Iran's Islamic Revolutionary Guard Corps warned that US-linked industrial facilities across the region could face imminent attack and called on the United States to evacuate personnel. Dubai International Airport suspended flights after a drone attack sparked a nearby fire, then reopened. More than 2,000 people have been killed across the Middle East, including over 1,200 in Iran, at least 850 in Lebanon, and 13 US service members. Daily oil exports from the Gulf have dropped by at least 60 percent, with OPEC oil surging to $126.90 per barrel — up over 5 percent in a single day. Abu Ali al-Askari, the security commander of Kata'ib Hezbollah, was confirmed killed in a US airstrike on Baghdad on March 14.",
           "sources": [
-            { "name": "NBC News", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-reopen-strait-of-hormuz-israel-lebanon-rcna263448" },
-            { "name": "CNN", "url": "https://www.cnn.com/2026/03/16/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/iran-war-what-is-happening-on-day-17-of-us-israel-attacks" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets" }
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-reopen-strait-of-hormuz-israel-lebanon-rcna263448"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/03/16/middleeast/us-israel-iran-middle-east-war-what-we-know-intl-hnk"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/16/iran-war-what-is-happening-on-day-17-of-us-israel-attacks"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets"
+            }
           ]
         },
         {
           "headline": "European allies refuse Trump's demands to send warships to Strait of Hormuz",
           "body": "Trump repeated his demands for NATO allies and China to help reopen shipping traffic through the Strait of Hormuz, threatening that NATO faces \"a very bad future\" if members fail to assist. All major European allies, Australia, and Japan have declined. Germany's defence minister said \"this is not our war,\" while the UK said it would not be drawn into a wider conflict. Iran's foreign minister Abbas Araghchi denied being in talks with Trump's envoy Steve Witkoff, accusing the US of leaking false claims to calm panicked markets. The Wall Street Journal reported the Trump administration plans to announce a coalition to escort ships through the strait as early as this week. Senate Minority Leader Schumer accused Trump of \"flailing\" with no coherent strategy.",
           "sources": [
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/16/trump-administration-news-updates-today" },
-            { "name": "AP News", "url": "https://apnews.com/article/iran-iraq-us-trump-march-15-2026-9bbed3c906146844be08fdfd02595754" },
-            { "name": "Sky News", "url": "https://news.sky.com/story/iran-latest-trump-tehran-israel-strikes-us-drone-live-sky-news-13509565" }
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/mar/16/trump-administration-news-updates-today"
+            },
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/iran-iraq-us-trump-march-15-2026-9bbed3c906146844be08fdfd02595754"
+            },
+            {
+              "name": "Sky News",
+              "url": "https://news.sky.com/story/iran-latest-trump-tehran-israel-strikes-us-drone-live-sky-news-13509565"
+            }
           ]
         },
         {
           "headline": "Israel launches ground operations in southern Lebanon",
           "body": "Israel announced \"limited and targeted ground operations\" against Hezbollah strongholds in southern Lebanon, with its 91st Division now on the ground and reports of up to three divisions — thousands of troops — operating in the area, with two more expected in coming days. Israel is reportedly aiming to seize the entire area south of the Litani River, about 30 kilometres from the border. More than one million people have been displaced in Lebanon. Defence Minister Israel Katz warned that displaced Shia residents would not return to their homes until Israeli security is guaranteed. The ground campaign fuels fears of a prolonged occupation reminiscent of Israel's 18-year presence in southern Lebanon that ended in 2000.",
           "sources": [
-            { "name": "NBC News", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-reopen-strait-of-hormuz-israel-lebanon-rcna263448" },
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-reopen-strait-of-hormuz-israel-lebanon-rcna263448"
+            },
             { "name": "BBC News", "url": "https://www.bbc.com/news/articles/clyz78kgp22o" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon" }
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/16/israeli-military-launches-limited-ground-operations-in-southern-lebanon"
+            }
           ]
         },
         {
           "headline": "Oscars 2026: 'One Battle After Another' dominates with six wins",
           "body": "Paul Thomas Anderson's \"One Battle After Another\" won six Oscars at the 98th Academy Awards on Sunday night, including Best Picture, Best Director — Anderson's first ever Oscar — and Best Supporting Actor for Sean Penn. Ryan Coogler's \"Sinners\" took four awards including Best Actor for Michael B. Jordan and Best Cinematography. \"Frankenstein\" nabbed three awards, including Best Costume Design. Jessie Buckley won Best Actress, Amy Madigan won Best Supporting Actress for \"Weapons,\" and the documentary prize went to \"Mr.\" The ceremony came against the backdrop of the Middle East conflict and the ongoing US government shutdown.",
           "sources": [
-            { "name": "Vanity Fair", "url": "https://www.vanityfair.com/hollywood/story/oscars-winners-list-2026" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/film/2026/mar/15/oscars-2026-academy-awards-winners-full-list-live" },
-            { "name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/lists/oscars-2026-winners-list/" },
-            { "name": "The New York Times", "url": "https://www.nytimes.com/2026/03/15/movies/oscars-winners-list.html" }
+            {
+              "name": "Vanity Fair",
+              "url": "https://www.vanityfair.com/hollywood/story/oscars-winners-list-2026"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/film/2026/mar/15/oscars-2026-academy-awards-winners-full-list-live"
+            },
+            {
+              "name": "The Hollywood Reporter",
+              "url": "https://www.hollywoodreporter.com/lists/oscars-2026-winners-list/"
+            },
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com/2026/03/15/movies/oscars-winners-list.html"
+            }
           ]
         }
       ]
@@ -50,26 +89,50 @@
           "headline": "All living former presidents deny Trump's claim of private support for Iran war",
           "body": "After Trump claimed on Air Force One that he had spoken to a former US president who privately backed his attack on Iran, all four living former presidents — Obama, Bush, Clinton, and Carter's estate — denied having spoken with Trump about the war. Trump also publicly revealed details about a Republican congressman's \"terminal\" diagnosis, prompting House Speaker Mike Johnson to say: \"That wasn't public.\" Trump delayed a planned visit to China, citing the Middle East conflict, and claimed he is hearing that Iran's new supreme leader Mojtaba Khamenei may be \"not alive.\"",
           "sources": [
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/live/2026/mar/16/donald-trump-administration-tariffs-latest-updates" },
-            { "name": "New York Times", "url": "https://www.nytimes.com/live/2026/03/16/world/iran-war-trump-oil-lebanon" }
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/live/2026/mar/16/donald-trump-administration-tariffs-latest-updates"
+            },
+            {
+              "name": "New York Times",
+              "url": "https://www.nytimes.com/live/2026/03/16/world/iran-war-trump-oil-lebanon"
+            }
           ]
         },
         {
           "headline": "Border patrol chief to retire; vaccine committee ruled unlawful",
           "body": "Gregory Bovino, the US border patrol chief and frequent Fox News guest who was the public face of Trump's mass deportation efforts, announced he will retire within weeks. His departure follows the killing of two protesters in Minneapolis by federal agents during an immigration operation. Separately, a federal judge ruled that Robert F. Kennedy Jr.'s appointment of a controversial slate of vaccine advisers likely violated federal law, and all votes taken by the committee over the past year have been stayed.",
           "sources": [
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/live/2026/mar/16/donald-trump-administration-tariffs-latest-updates" },
-            { "name": "New York Times", "url": "https://www.nytimes.com/live/2026/03/16/us/trump-news" }
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/live/2026/mar/16/donald-trump-administration-tariffs-latest-updates"
+            },
+            {
+              "name": "New York Times",
+              "url": "https://www.nytimes.com/live/2026/03/16/us/trump-news"
+            }
           ]
         },
         {
           "headline": "Iran war economic fallout deepens with energy shock spreading globally",
           "body": "Countries around the world are scrambling to cope with the energy shock from the Iran war. Sri Lanka introduced a four-day working week and fuel rationing. Bangladesh imposed scheduled power blackouts, and Pakistan moved schools to online teaching. Vietnam has less than 20 days of oil reserves. OPEC oil hit $126.90 per barrel, and analysts warn prices could reach $150 if the conflict continues. In Europe, food prices have not yet been affected but rising fuel costs are hitting agriculture and transport. Eurozone inflation forecasts are being revised upward as policymakers weigh delaying interest rate cuts.",
           "sources": [
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/15/price-caps-and-stairs-how-nations-are-coping-with-the-iran-oil-shock.html" },
-            { "name": "Time", "url": "https://time.com/article/2026/03/16/us-israel-iran-war-trump-asia-economy-oil-energy-inflation-recession/" },
-            { "name": "Euronews", "url": "https://www.euronews.com/2026/03/16/markets-may-be-underestimating-how-the-iran-war-could-hit-the-global-economy" },
-            { "name": "Politico", "url": "https://www.politico.eu/article/eu-higher-grocery-bills-horizon-iran-war-continues/" }
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/03/15/price-caps-and-stairs-how-nations-are-coping-with-the-iran-oil-shock.html"
+            },
+            {
+              "name": "Time",
+              "url": "https://time.com/article/2026/03/16/us-israel-iran-war-trump-asia-economy-oil-energy-inflation-recession/"
+            },
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/03/16/markets-may-be-underestimating-how-the-iran-war-could-hit-the-global-economy"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.eu/article/eu-higher-grocery-bills-horizon-iran-war-continues/"
+            }
           ]
         }
       ]
@@ -81,45 +144,90 @@
           "headline": "Government to approve emergency economic measures this week as oil prices soar",
           "body": "The government will approve an extraordinary package of measures this week to counter the economic effects of the Middle East conflict, with an extraordinary cabinet meeting expected Friday. Vice-President and Energy Minister Sara Aagesen announced at the EU Energy Council that the plan will include both short-term fuel price relief and structural measures to accelerate electrification and reduce oil dependence. Finance Minister Carlos Cuerpo said food prices have not yet been affected, but BBVA Research forecasts inflation rising to 3.5 percent in March and approaching 4 percent by spring. OPEC oil has surged to $126.90 per barrel, and some interim measures targeting transport and agriculture may come as early as Tuesday. Meanwhile, Brussels is designing coordinated EU-wide measures to contain fuel costs.",
           "sources": [
-            { "name": "El País", "url": "https://elpais.com/economia/2026-03-16/europa-disena-las-primeras-medidas-para-contener-la-factura-de-los-combustibles-por-la-guerra-en-oriente-proximo.html" },
-            { "name": "El Mundo", "url": "https://www.elmundo.es/economia/macroeconomia/2026/03/16/69b7d846e9cf4ad0708b4594.html" },
-            { "name": "El Periódico de la Energía", "url": "https://elperiodicodelaenergia.com/el-gobierno-presentara-esta-semana-medidas-contra-el-alza-de-precios-de-la-energia" },
-            { "name": "Politico", "url": "https://www.politico.eu/article/eu-higher-grocery-bills-horizon-iran-war-continues/" }
+            {
+              "name": "El País",
+              "url": "https://elpais.com/economia/2026-03-16/europa-disena-las-primeras-medidas-para-contener-la-factura-de-los-combustibles-por-la-guerra-en-oriente-proximo.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/economia/macroeconomia/2026/03/16/69b7d846e9cf4ad0708b4594.html"
+            },
+            {
+              "name": "El Periódico de la Energía",
+              "url": "https://elperiodicodelaenergia.com/el-gobierno-presentara-esta-semana-medidas-contra-el-alza-de-precios-de-la-energia"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.eu/article/eu-higher-grocery-bills-horizon-iran-war-continues/"
+            }
           ]
         },
         {
           "headline": "PP-Vox coalition negotiations begin after Castilla y León election",
           "body": "Following Sunday's regional election in Castilla y León, PP leader Alfonso Fernández Mañueco asked Vox for a four-year parliamentary pact — but without Vox entering government. Vox leader Santiago Abascal insisted his party would govern in all three recently elected regions. The PSOE has ruled out supporting Mañueco's investiture, saying he has \"chosen Vox.\" Across the three recent regional elections in Extremadura, Aragón, and Castilla y León, the combined PP-Vox vote share now exceeds 54 percent, with Vox the only party to grow in all three. Podemos suffered a major setback, with its candidate acknowledging their result was \"nefasto.\" Alvise Pérez's Se Acabó la Fiesta party drew votes from Vox but failed to win any seats.",
           "sources": [
-            { "name": "El Mundo", "url": "https://www.elmundo.es/elecciones/elecciones-castilla-y-leon/2026/03/16/69b7c0f221efa0177f8b4572.html" },
-            { "name": "El País", "url": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-16/el-balance-global-de-extremadura-aragon-y-castilla-y-leon-el-pp-queda-a-merced-de-vox-el-partido-que-mas-avanza.html" },
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/politica/20260316/11491269/feijoo-acusa-vox-poner-excusas-pactar-pp-creo-esta.html" }
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/elecciones/elecciones-castilla-y-leon/2026/03/16/69b7c0f221efa0177f8b4572.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/elecciones-castilla-y-leon/2026-03-16/el-balance-global-de-extremadura-aragon-y-castilla-y-leon-el-pp-queda-a-merced-de-vox-el-partido-que-mas-avanza.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260316/11491269/feijoo-acusa-vox-poner-excusas-pactar-pp-creo-esta.html"
+            }
           ]
         },
         {
           "headline": "Zelenski to visit Spain Wednesday; will meet King and Sánchez",
           "body": "Ukrainian President Volodymyr Zelenski will travel to Spain on Wednesday for his fourth visit, meeting Prime Minister Pedro Sánchez at La Moncloa and King Felipe VI at the Zarzuela Palace. The visit comes as the EU Council meeting in Brussels focuses on coordinating member states' responses to the Iran conflict and ahead of the government's planned emergency economic measures on Friday.",
           "sources": [
-            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260316/zelenski-visitara-espana-proximo-miercoles-se-reunira-con-sanchez/16982408.shtml" },
-            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/16/69b7e44e21efa06a268b458f.html" }
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260316/zelenski-visitara-espana-proximo-miercoles-se-reunira-con-sanchez/16982408.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/03/16/69b7e44e21efa06a268b458f.html"
+            }
           ]
         },
         {
           "headline": "Medieval tower collapses at Escalona Castle in Toledo",
           "body": "A medieval tower at Escalona Castle in Toledo province partially collapsed on Saturday morning around 10:30am, sending debris crashing near tourists who were queuing to enter. Dramatic footage of the collapse went viral over the weekend. No injuries were reported. Local authorities blamed recent heavy rainfall for weakening the 15th-century structure, though heritage experts say the fortification had long been in poor condition. Vox blamed the local mayor and the regional government of Castilla-La Mancha for neglecting the heritage site. The incident has reignited debate about the maintenance of Spain's vast network of historic castles and fortresses.",
           "sources": [
-            { "name": "Euro Weekly News", "url": "https://euroweeklynews.com/2026/03/14/mediaeval-tower-collapses-at-historic-escalona-castle-in-toledo-visitors-escape-with-their-lives/" },
-            { "name": "ABC", "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/vox-culpa-ayuntamiento-escalona-junta-derrumbe-torre-20260316133812-nt.html" },
-            { "name": "Daily Mail", "url": "https://www.dailymail.co.uk/travel/article-15650099/moment-historic-castle-Spain-collapses-stunned-tourists.html" }
+            {
+              "name": "Euro Weekly News",
+              "url": "https://euroweeklynews.com/2026/03/14/mediaeval-tower-collapses-at-historic-escalona-castle-in-toledo-visitors-escape-with-their-lives/"
+            },
+            {
+              "name": "ABC",
+              "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/vox-culpa-ayuntamiento-escalona-junta-derrumbe-torre-20260316133812-nt.html"
+            },
+            {
+              "name": "Daily Mail",
+              "url": "https://www.dailymail.co.uk/travel/article-15650099/moment-historic-castle-Spain-collapses-stunned-tourists.html"
+            }
           ]
         },
         {
           "headline": "'Torrente presidente' shatters box office records in opening weekend",
           "body": "Santiago Segura's \"Torrente presidente,\" the sixth installment of the beloved trash-comedy franchise, earned €6.9 million in its opening weekend — the fourth-best Spanish film debut in history — with over 300,000 viewers in the first 24 hours alone, averaging over €18,700 per screen. In the film, the corrupt, fascist ex-cop Torrente becomes president of Spain. The release coincided with the Oscars weekend but dominated domestic box office, already outpacing every other Spanish release of 2025 and 2026 combined.",
           "sources": [
-            { "name": "El Mundo", "url": "https://www.elmundo.es/cultura/cine/2026/03/16/69b829c7fc6c83071c8b458b.html" },
-            { "name": "El País", "url": "https://elpais.com/cultura/cine/2026-03-16/torrente-presidente-recauda-69-millones-de-euros-en-su-primer-fin-de-semana-el-cuarto-mejor-estreno-espanol-de-la-historia.html" },
-            { "name": "Espinof", "url": "https://www.espinof.com/estrenos/como-era-inevitable-torrente-presidente-revienta-taquilla-su-primer-fin-semana-santiago-segura-se-merienda-piedad-a-castores-cabras-margot-robbie" }
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/cultura/cine/2026/03/16/69b829c7fc6c83071c8b458b.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/cultura/cine/2026-03-16/torrente-presidente-recauda-69-millones-de-euros-en-su-primer-fin-de-semana-el-cuarto-mejor-estreno-espanol-de-la-historia.html"
+            },
+            {
+              "name": "Espinof",
+              "url": "https://www.espinof.com/estrenos/como-era-inevitable-torrente-presidente-revienta-taquilla-su-primer-fin-semana-santiago-segura-se-merienda-piedad-a-castores-cabras-margot-robbie"
+            }
           ]
         }
       ]
@@ -131,33 +239,60 @@
           "headline": "Education strikes continue: Tuesday brings stoppages to Penedès, Tarragona, Terres de l'Ebre",
           "body": "The week-long rolling education strikes continue today with stoppages in Penedès, Tarragona, and Terres de l'Ebre, following Monday's strike in Barcelona, Barcelonès, and Baix Llobregat. Monday's demonstration drew between 8,000 (police estimate) and 25,000 (union estimate) marchers from Plaça Urquinaona to Plaça Sant Jaume. Unions USTEC and CGT claimed 70 percent participation while the Catalan education department counted 29-32 percent. The strikes will continue Wednesday in Alt Pirineu, Aran, Catalunya Central and Lleida, Thursday in Girona, Maresme and Vallès, building toward a Catalunya-wide strike and mass demonstration in Barcelona on Friday.",
           "sources": [
-            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/sociedad/20260317/huelga-profesores-educacion-catalunya-ultima-hora-directo-127998634" },
-            { "name": "El País", "url": "https://elpais.com/espana/catalunya/2026-03-16/nuevo-pulso-de-los-profesores-catalanes-al-govern-por-las-mejoras-laborales.html" },
-            { "name": "Crónica Global", "url": "https://cronicaglobal.elespanol.com/vida/20260316/sindicatos-educacion-cifran-seguimiento-huelga/1003742741890_0.html" }
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260317/huelga-profesores-educacion-catalunya-ultima-hora-directo-127998634"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/catalunya/2026-03-16/nuevo-pulso-de-los-profesores-catalanes-al-govern-por-las-mejoras-laborales.html"
+            },
+            {
+              "name": "Crónica Global",
+              "url": "https://cronicaglobal.elespanol.com/vida/20260316/sindicatos-educacion-cifran-seguimiento-huelga/1003742741890_0.html"
+            }
           ]
         },
         {
           "headline": "Storm Samuel aftermath: 160 km/h winds and 13-metre waves batter the coast",
           "body": "Storm Samuel battered Catalunya and the Balearic Islands over the weekend with gale-force winds reaching 160 km/h north of Barcelona and in Girona province, along with record 13-metre waves off Menorca. Four people in Catalunya suffered minor injuries. The Bombers firefighting service responded to hundreds of wind-related incidents, with 141 new emergency calls in just three hours on Sunday afternoon, the vast majority in Girona province. L'Escala on the Costa Brava was particularly hard hit. The storm is expected to ease by midday Tuesday, though residual wind damage continued to cause emergency callouts on Monday.",
           "sources": [
-            { "name": "Olive Press", "url": "https://www.theolivepress.es/spain-news/2026/03/16/watch-four-people-injured-after-storm-samuel-hits-spain-including-gale-force-160km-h-winds-and-record-13-metre-tall-waves/" },
-            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/comarques/2026/03/16/ressaca-temporal-vent-girona-encara-128014926.html" },
-            { "name": "Mallorca Magic", "url": "https://www.mallorca-magic.com/news/storm-almost-13-meter-waves-menorca-mallorca" }
+            {
+              "name": "Olive Press",
+              "url": "https://www.theolivepress.es/spain-news/2026/03/16/watch-four-people-injured-after-storm-samuel-hits-spain-including-gale-force-160km-h-winds-and-record-13-metre-tall-waves/"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/comarques/2026/03/16/ressaca-temporal-vent-girona-encara-128014926.html"
+            },
+            {
+              "name": "Mallorca Magic",
+              "url": "https://www.mallorca-magic.com/news/storm-almost-13-meter-waves-menorca-mallorca"
+            }
           ]
         },
         {
           "headline": "Barcelona reactivates low-emission zone after two-month suspension",
           "body": "Barcelona's low-emission zone (ZBE) is back in force as of Monday after being suspended since January 22 due to the Rodalies commuter rail crisis. Vehicles without environmental labels are once again banned from circulating within the Rondes area on weekdays from 7am to 8pm. Mayor Jaume Collboni signed the decree reinstating the restrictions after the Generalitat confirmed that the exceptional circumstances justifying the suspension had ended. However, free Rodalies and Regional rail services have been extended through March 31, as several lines still operate with significant delays and over 200 temporary speed restrictions remain across the network.",
           "sources": [
-            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/barcelona/20260316/zbe-barcelona-reactiva-lunes-suspension-127978317" },
-            { "name": "3Cat", "url": "https://www.3cat.cat/3catinfo/canvis-en-la-mobilitat-barcelona-reactiva-aquest-dilluns-la-zona-de-baixes-emissions/noticia/3399699/" }
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260316/zbe-barcelona-reactiva-lunes-suspension-127978317"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/canvis-en-la-mobilitat-barcelona-reactiva-aquest-dilluns-la-zona-de-baixes-emissions/noticia/3399699/"
+            }
           ]
         },
         {
           "headline": "Collserola boar cull intensifies amid African swine fever containment",
           "body": "Authorities are intensifying efforts to capture and eliminate hundreds of wild boars in the Collserola natural park after nearly clearing the animals from the area closest to the original outbreak of African swine fever. Operations now use American-made Pig Brig net traps that can capture entire family groups, along with silenced night-time shooting and tranquiliser darts. Access to Collserola remains closed to the public, and fauna passages remain sealed. Restaurants near the park are reporting significant losses from the closure. Hunting season ends March 31, after which professional hunters will need additional government incentives to continue. Authorities warn the operation will take months.",
           "sources": [
-            { "name": "El Periódico", "url": "https://www.elperiodico.com/es/sociedad/20260316/collserola-intensifica-captura-jabalies-trampas-gigantes-silenciador-anestesia-peste-porcina-cataluna-128035680" },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260316/collserola-intensifica-captura-jabalies-trampas-gigantes-silenciador-anestesia-peste-porcina-cataluna-128035680"
+            },
             { "name": "ElNacional.cat", "url": "https://www.elnacional.cat/es/barcelona.html" }
           ]
         },
@@ -165,8 +300,14 @@
           "headline": "Spain-Morocco rail tunnel advances with €1.73 million for technical studies",
           "body": "The Spanish government has approved €1.73 million for technical studies on the long-discussed undersea rail tunnel linking Spain and Morocco through the Strait of Gibraltar. The pre-project plan, led by public engineering firm Ineco, is scheduled for completion by June 2026 and will define the final route, geological analysis, safety systems, and the design of associated infrastructure. The tunnel would connect Andalusia with Morocco and represent one of the world's most ambitious engineering projects.",
           "sources": [
-            { "name": "The Spanish Eye", "url": "https://www.thespanisheye.com/2026/03/16/spain-pushes-ahead-with-rail-tunnel-connecting-andalucia-with-morocco/" },
-            { "name": "Morocco World News", "url": "https://www.moroccoworldnews.com/2026/03/282897/spain-morocco-tunnel-madrid-authorizes-e1-73-million-for-technical-studies/" }
+            {
+              "name": "The Spanish Eye",
+              "url": "https://www.thespanisheye.com/2026/03/16/spain-pushes-ahead-with-rail-tunnel-connecting-andalucia-with-morocco/"
+            },
+            {
+              "name": "Morocco World News",
+              "url": "https://www.moroccoworldnews.com/2026/03/282897/spain-morocco-tunnel-madrid-authorizes-e1-73-million-for-technical-studies/"
+            }
           ]
         }
       ]

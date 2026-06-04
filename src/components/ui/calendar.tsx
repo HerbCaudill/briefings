@@ -67,9 +67,9 @@ function Calendar({
         dropdown: cn("absolute bg-popover inset-0 opacity-0", defaultClassNames.dropdown),
         caption_label: cn(
           "select-none font-medium",
-          captionLayout === "label" ? "text-sm" : (
-            "rounded-md pl-2 pr-1 flex items-center gap-1 text-sm h-8 [&>svg]:text-muted-foreground [&>svg]:size-3.5"
-          ),
+          captionLayout === "label"
+            ? "text-sm"
+            : "rounded-md pl-2 pr-1 flex items-center gap-1 text-sm h-8 [&>svg]:text-muted-foreground [&>svg]:size-3.5",
           defaultClassNames.caption_label,
         ),
         table: "w-full border-collapse",
@@ -86,9 +86,9 @@ function Calendar({
         ),
         day: cn(
           "relative w-full h-full p-0 text-center [&:last-child[data-selected=true]_button]:rounded-r-md group/day aspect-square select-none",
-          props.showWeekNumber ?
-            "[&:nth-child(2)[data-selected=true]_button]:rounded-l-md"
-          : "[&:first-child[data-selected=true]_button]:rounded-l-md",
+          props.showWeekNumber
+            ? "[&:nth-child(2)[data-selected=true]_button]:rounded-l-md"
+            : "[&:first-child[data-selected=true]_button]:rounded-l-md",
           defaultClassNames.day,
         ),
         range_start: cn("rounded-l-md bg-accent", defaultClassNames.range_start),

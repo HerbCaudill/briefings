@@ -26,7 +26,10 @@ export function briefingIndex(): Plugin {
 /** Scan briefing JSON files and write index.json. */
 function generateIndex(dir: string) {
   const datePattern = /^\d{4}-\d{2}-\d{2}\.json$/
-  const files = readdirSync(dir).filter(f => datePattern.test(f)).sort().reverse()
+  const files = readdirSync(dir)
+    .filter(f => datePattern.test(f))
+    .sort()
+    .reverse()
 
   const index = files.map(f => {
     const date = f.replace(".json", "")

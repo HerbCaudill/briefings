@@ -7,5 +7,6 @@
   "trailingComma": "all",
   "useTabs": false,
   "printWidth": 100,
-  "sortTailwindcss": true
+  "sortTailwindcss": {},
+  "ignorePatterns": ["public/briefings/**/*.json"]
 }

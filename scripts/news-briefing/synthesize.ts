@@ -4,9 +4,8 @@ import { runPiWithRawBriefing } from "./runPiWithRawBriefing.ts"
 import { synthesizeBriefing } from "./synthesizeBriefing.ts"
 
 const requestedDate = process.argv[2]
-const dates =
-  requestedDate ?
-    [requestedDate]
+const dates = requestedDate
+  ? [requestedDate]
   : listMissingBriefingDates({
       briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
       rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,

@@ -22,9 +22,8 @@ export async function buildRawBriefing(
   for (const sourceConfig of args.sourceConfigs) {
     let listingPageUrl = sourceConfig.homepageUrl
     let allHeadlineCandidates: HeadlineCandidate[] = []
-    const listingPageUrls =
-      sourceConfig.preferFallbackUrls ?
-        [...(sourceConfig.fallbackUrls ?? []), sourceConfig.homepageUrl]
+    const listingPageUrls = sourceConfig.preferFallbackUrls
+      ? [...(sourceConfig.fallbackUrls ?? []), sourceConfig.homepageUrl]
       : [sourceConfig.homepageUrl, ...(sourceConfig.fallbackUrls ?? [])]
 
     for (const candidateListingPageUrl of listingPageUrls) {

@@ -94,19 +94,19 @@ function App() {
   }, [goToToday, goToPrev, goToNext])
 
   return (
-    <div className="min-h-screen flex justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
-      <article className="max-w-180 w-full">
-        <h1 className="font-serif text-3xl font-bold leading-tight mb-1 pt-3 border-t-4 border-accent text-accent">
+    <div className="flex min-h-screen justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
+      <article className="w-full max-w-180">
+        <h1 className="border-accent text-accent mb-1 border-t-4 pt-3 font-serif text-3xl leading-tight font-bold">
           Daily briefing
         </h1>
         {selected && (
           <Popover open={open} onOpenChange={setOpen}>
-            <PopoverTrigger className="group font-sans font-extrabold text-xs mb-8 flex items-center gap-1 cursor-pointer focus:outline-none">
+            <PopoverTrigger className="group mb-8 flex cursor-pointer items-center gap-1 font-sans text-xs font-extrabold focus:outline-none">
               {formatFullDate(selected)}
               <IconChevronDown
                 size={14}
                 stroke={2.5}
-                className="opacity-0 group-hover:opacity-100 transition-opacity"
+                className="opacity-0 transition-opacity group-hover:opacity-100"
               />
             </PopoverTrigger>
             <PopoverContent className="w-auto p-0" align="start">
@@ -125,19 +125,19 @@ function App() {
             </PopoverContent>
           </Popover>
         )}
-        <h2 className="font-sans text-xl font-semibold mt-10 mb-4 pt-3 border-t border-accent text-accent">
+        <h2 className="border-accent text-accent mt-10 mb-4 border-t pt-3 font-sans text-xl font-semibold">
           News
         </h2>
         {content?.sections.map(section => (
           <section key={section.title}>
-            <h3 className="font-bold leading-snug text-sm my-3">{section.title}</h3>
+            <h3 className="my-3 text-sm leading-snug font-bold">{section.title}</h3>
             {section.stories.map(story => (
               <div key={story.headline}>
                 <h4 className="leading-tight">{story.headline}</h4>
-                <p className="font-mono font-normal text-xs leading-snug text-gray-700 mb-1">
+                <p className="mb-1 font-mono text-xs leading-snug font-normal text-gray-700">
                   {story.body}
                 </p>
-                <div className="flex gap-0 mb-4">
+                <div className="mb-4 flex gap-0">
                   {story.sources.map((source, i) => (
                     <a
                       key={source.url}

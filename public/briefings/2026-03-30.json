@@ -8,9 +8,18 @@
           "body": "President Trump threatened on Monday to obliterate Iran's energy facilities if a ceasefire deal is not reached 'shortly,' escalating rhetoric as day 31 of the US-Israel war on Iran continued. In an interview with the Financial Times, Trump said he wants to 'take the oil in Iran' and did not rule out seizing Kharg Island, the export hub handling roughly 90 percent of Iran's crude, though he acknowledged it 'would mean we had to be there for a while.' Iran has reinforced defences on Kharg Island with additional troops, air defences and anti-personnel mines. Meanwhile in Islamabad, Pakistan hosted foreign ministers from Saudi Arabia, Turkey and Egypt for a second round of diplomatic talks, formalizing a Committee of Four senior officials to facilitate direct US-Iran negotiations. Trump said on Air Force One he was 'pretty sure' of a deal and described talks as going 'extremely well,' but set an April 6 deadline for Iran to agree or face strikes on its energy sector. Israeli forces struck a university in Tehran, and the UAE reported intercepting 27 drones and 11 ballistic missiles in a single day.",
           "sources": [
             { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c8jxzlwvd8ro" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/30/trump-pretty-sure-of-iran-deal-but-can-pakistan-led-efforts-end-the-war" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east" },
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/internacional/20260330/11502565/trump-insiste-conversaciones-iran-amenaza-destruir-pais-reabre-estrecho-ormuz.html" }
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/30/trump-pretty-sure-of-iran-deal-but-can-pakistan-led-efforts-end-the-war"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20260330/11502565/trump-insiste-conversaciones-iran-amenaza-destruir-pais-reabre-estrecho-ormuz.html"
+            }
           ]
         },
         {
@@ -25,7 +34,10 @@
           "body": "Russia's Federal Security Service ordered the expulsion of a British diplomat accused of economic espionage, the latest in a series of reciprocal diplomatic expulsions between London and Moscow since the full-scale invasion of Ukraine. The FSB identified the diplomat as the second secretary at the British Embassy in Moscow, claiming he had provided false information when entering Russia and attempted to obtain sensitive information during informal economic meetings. The diplomat's accreditation was revoked with a two-week deadline to leave the country. Britain's Foreign Office called the accusations 'complete nonsense' and accused Russia of 'an aggressive and co-ordinated campaign of harassment against British diplomats.' Russia's foreign ministry summoned the UK's charge d'affaires to deliver a formal protest.",
           "sources": [
             { "name": "BBC News", "url": "https://www.bbc.com/news/articles/czx94e7j5jpo" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/30/russia-expels-british-diplomat-accused-of-economic-espionage" }
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/30/russia-expels-british-diplomat-accused-of-economic-espionage"
+            }
           ]
         },
         {
@@ -33,8 +45,14 @@
           "body": "Four masked men stole paintings by Renoir, Cezanne and Matisse worth an estimated nine million euros from the Magnani Rocca Foundation near Parma in a heist lasting just three minutes. The gang forced their way through the main door of the Villa dei Capolavori on March 22, seizing Les Poissons by Renoir (valued alone at six million euros), Still Life with Cherries by Cezanne and Odalisque on the Terrace by Matisse from the French Room before the alarm system triggered. The foundation described the thieves as 'structured and organised' and said they appeared to have intended to steal more before being interrupted. Italy's Carabinieri and the Cultural Heritage Protection Unit of Bologna are investigating. News of the theft was only made public on Sunday.",
           "sources": [
             { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cn4vw2xmpzzo" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/artanddesign/2026/mar/30/paintings-stolen-museum-italy-renoir-cezanne-matisse" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/robatori-llampec-a-italia-semporten-quadres-de-renoir-cezanne-i-matisse-en-menys-de-3-minuts/noticia/3402300/" }
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/artanddesign/2026/mar/30/paintings-stolen-museum-italy-renoir-cezanne-matisse"
+            },
+            {
+              "name": "3cat",
+              "url": "https://www.3cat.cat/3catinfo/robatori-llampec-a-italia-semporten-quadres-de-renoir-cezanne-i-matisse-en-menys-de-3-minuts/noticia/3402300/"
+            }
           ]
         },
         {
@@ -42,8 +60,14 @@
           "body": "Governments across the world are introducing emergency measures to cushion the impact of soaring fuel prices driven by the Iran war and the effective closure of the Strait of Hormuz. Australia announced it will halve its petrol and diesel excise tax from April 1 to June 30, saving motorists about 26 cents per litre, as Brent crude rose above 116 dollars a barrel. Two Australian states are making public transport free, while over 500 service stations ran out of at least one fuel type due to panic buying. Egypt has ordered shops and cafes to close by 9 PM, introduced a four-day work week for non-essential civil servants and raised petrol prices. Ireland cut fuel taxes under a 235-million-euro package. The Philippines declared a national emergency with subsidies for transport drivers. Syria's al-Sharaa visited Berlin for reconstruction talks with Germany's Merz, with both leaders also discussing refugee returns amid the broader regional instability.",
           "sources": [
             { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cjr9yr73xyeo" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/30/australia-to-halve-fuel-tax-as-global-energy-crisis-deepens" },
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/30/syrian-president-in-berlin-for-talks-with-germanys-merz" }
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/30/australia-to-halve-fuel-tax-as-global-energy-crisis-deepens"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/30/syrian-president-in-berlin-for-talks-with-germanys-merz"
+            }
           ]
         }
       ]
@@ -55,30 +79,48 @@
           "headline": "Supreme Court to hear challenge to Trump's birthright citizenship executive order",
           "body": "The Supreme Court will hear arguments on Wednesday over President Trump's executive order denying US citizenship to children born in the country to parents who are in the US illegally or temporarily. The order, signed on Trump's first day back in office in January 2025, has been blocked by every court that has considered it. The case turns on the meaning of the 14th Amendment's Citizenship Clause, which grants citizenship to 'all persons born or naturalized in the United States, and subject to the jurisdiction thereof.' The administration argues that people in the country illegally or temporarily are not 'subject to the jurisdiction' of the US and that their American-born children are not entitled to citizenship. Solicitor General Sauer likened the case to Brown v. Board of Education, calling it a chance to correct 'long-enduring misconceptions.' The case is part of the administration's broader immigration crackdown that has included stepped-up deportations, asylum suspension at the border, and stripping temporary legal protections.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/supreme-court-birthright-citizenship-trump-immigration-constitution-e51d13b21b4240f6b8625700abe6030e" },
-            { "name": "New York Times", "url": "https://www.nytimes.com/2026/03/30/us/politics/supreme-court-trump-birthright-conservatives.html" }
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/supreme-court-birthright-citizenship-trump-immigration-constitution-e51d13b21b4240f6b8625700abe6030e"
+            },
+            {
+              "name": "New York Times",
+              "url": "https://www.nytimes.com/2026/03/30/us/politics/supreme-court-trump-birthright-conservatives.html"
+            }
           ]
         },
         {
           "headline": "No Kings rally aftermath: dozens arrested in Los Angeles after tear gas deployed at detention center",
           "body": "Authorities in Los Angeles deployed tear gas near a federal detention center and arrested dozens of people following Saturday's No Kings rally, one of thousands held across the United States and Europe to protest the war in Iran and President Trump's policies. The LA rally drew tens of thousands before confrontations escalated near the Metropolitan Detention Center in downtown. Police fired tear gas and detained protesters, including one dressed as the Statue of Liberty. The protests were the third round of nationwide No Kings demonstrations, which organizers say drew an estimated 8 million participants across the country, making them the largest protests in American history.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/kings-protests-trump-los-angeles-arrests-1e2675d7099eb4e315924c17c899d49c" },
-            { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-updates-maga-cpac-conservative-conference-iran-dhs-abortion-no-kings" }
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/kings-protests-trump-los-angeles-arrests-1e2675d7099eb4e315924c17c899d49c"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-updates-maga-cpac-conservative-conference-iran-dhs-abortion-no-kings"
+            }
           ]
         },
         {
           "headline": "Arctic sea ice hits lowest winter level as unprecedented heat shatters records worldwide",
           "body": "Arctic sea ice shrank to tie its lowest measured winter level, the season when ice normally grows, as record-breaking heat swept across continents. The winter peak measured 5.52 million square miles, about 525,000 square miles below the 1981-2010 average, roughly twice the size of Texas. Climate historian Maximiliano Herrera called the extreme March temperatures 'by far the most extreme heat event in world climatic history.' Sixteen US states broke March temperature records in the past week, with 27 locations recording temperatures that matched or exceeded their hottest April days on record. Mexico saw thousands of records shattered, while Asia experienced 'dozens of thousands of monthly records' smashed by margins of 17 to 19 degrees Celsius. Paradoxically, Antarctica simultaneously set a record for the coldest March day on Earth at minus 76.4 degrees Celsius.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/article/arctic-sea-ice-record-shattering-warming-86a91afa7be96d8821c7bbfed9e5a623" }
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/arctic-sea-ice-record-shattering-warming-86a91afa7be96d8821c7bbfed9e5a623"
+            }
           ]
         },
         {
           "headline": "Tiger Woods arrested on suspicion of DUI after car crash",
           "body": "Golf legend Tiger Woods was arrested at the scene of a car crash on suspicion of driving under the influence after his Land Rover struck another vehicle and rolled. Authorities said Woods showed signs of impairment at the scene. The incident is the latest in a series of high-profile difficulties for the 50-year-old golfer, who was involved in a serious single-car accident in 2021 that left him with significant leg injuries.",
           "sources": [
-            { "name": "AP News", "url": "https://apnews.com/video/tiger-woods-arrested-at-crash-scene-on-suspicion-of-dui-sheriff-says-39155635118449d2bfb1f0d90e1fdaa7" }
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/video/tiger-woods-arrested-at-crash-scene-on-suspicion-of-dui-sheriff-says-39155635118449d2bfb1f0d90e1fdaa7"
+            }
           ]
         }
       ]
@@ -90,32 +132,56 @@
           "headline": "Groundforce strike disrupts airports on first day of Semana Santa travel",
           "body": "The indefinite Groundforce handling strike began on Monday at 12 major Spanish airports, causing delays on the first day of Semana Santa holiday travel. Around twenty flights suffered delays at Palma de Mallorca's airport, with disruptions also reported at Bilbao and other hubs including Madrid-Barajas, Barcelona-El Prat, Alicante, Valencia, and Malaga. Minimum services of 100 percent were imposed at El Prat. The strike features partial work stoppages in three daily windows on Mondays, Wednesdays, and Fridays, and could continue through December 31 if no agreement is reached on wages. A separate Menzies ground handling walkout at El Prat is confirmed for April 2 to 6, compounding the disruption.",
           "sources": [
-            { "name": "RTVE", "url": "https://www.rtve.es/noticias/20260330/vintena-vols-pateixen-retards-a-laeroport-palma-primer-dia-vaga/17003543.shtml" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/economia/20260330/huelga-handling-irrumpe-semana-santa-128585244" },
-            { "name": "Tot Barcelona", "url": "https://www.totbarcelona.cat/economia/treballadors-terra-prat-comencen-vaga-setmana-santa-703864/" }
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260330/vintena-vols-pateixen-retards-a-laeroport-palma-primer-dia-vaga/17003543.shtml"
+            },
+            {
+              "name": "El Periodico",
+              "url": "https://www.elperiodico.com/es/economia/20260330/huelga-handling-irrumpe-semana-santa-128585244"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/economia/treballadors-terra-prat-comencen-vaga-setmana-santa-703864/"
+            }
           ]
         },
         {
           "headline": "Government and Catholic Church sign protocol for sexual abuse victim compensation",
           "body": "The Spanish government, the Catholic Church's Episcopal Conference, and the Ombudsman signed a protocol on Monday establishing a formal mechanism for compensating victims of clerical sexual abuse. Under the agreement, which takes effect on April 15, the Ombudsman will review each case individually and determine reparations, which the Church will fund. There are no fixed compensation scales; each case will be assessed on its merits, with reparations potentially including financial, symbolic, spiritual, or moral support. The protocol was developed with Vatican involvement, and the matter was discussed during the King and Queen's recent visit to the Pope. Around 100 people have so far been recognized as victims under the Church's existing system, with approximately 80 receiving financial compensation.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/vida/20260330/11502281/abusos-sexuales-iglesia-defensor-indeminzaciones.html" },
-            { "name": "El Mundo", "url": "https://www.elmundo.es/espana/2026/03/30/69ca5afce9cf4afe2d8b4584.html" },
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-protocol-govern-espanyol-esglesia-per-indemnitzar-abusos-sexuals-no-fixa-barems-ni-quantitats/noticia/3402301/" }
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260330/11502281/abusos-sexuales-iglesia-defensor-indeminzaciones.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/03/30/69ca5afce9cf4afe2d8b4584.html"
+            },
+            {
+              "name": "3cat",
+              "url": "https://www.3cat.cat/3catinfo/el-protocol-govern-espanyol-esglesia-per-indemnitzar-abusos-sexuals-no-fixa-barems-ni-quantitats/noticia/3402301/"
+            }
           ]
         },
         {
           "headline": "Sanchez to host global progressive summit in Barcelona as counter to rising far right",
           "body": "Prime Minister Pedro Sanchez will convene a World Progressive Mobilization summit in Barcelona on April 17-18, bringing together the Socialist International, the Progressive Alliance, and the Party of European Socialists for the first time. Brazilian President Lula da Silva, Colombian President Gustavo Petro, European Council President Antonio Costa, and EU Vice-President Teresa Ribera are among the confirmed speakers. Sanchez and Lula will hold a bilateral meeting on the sidelines to discuss the Iran crisis. The summit is Sanchez's response to what he described in a recent PSOE executive meeting as the global far right's years-long network of alliances propagating nationalist-populist agendas, and comes one month before the Andalusian regional elections.",
           "sources": [
-            { "name": "El Pais", "url": "https://elpais.com/espana/2026-03-30/sanchez-reunira-a-las-principales-organizaciones-progresistas-en-barcelona.html" }
+            {
+              "name": "El Pais",
+              "url": "https://elpais.com/espana/2026-03-30/sanchez-reunira-a-las-principales-organizaciones-progresistas-en-barcelona.html"
+            }
           ]
         },
         {
           "headline": "Iran war hits Spanish mortgages: Euribor rises for first time in two years",
           "body": "The Euribor, the benchmark rate for most Spanish variable-rate mortgages, rose to 2.53 percent in March, up 0.31 points from February, marking the first increase in two years and the steepest monthly climb since January 2023. The rise is a direct consequence of the Iran conflict driving up energy prices and stoking inflation fears. In recent sessions the Euribor briefly approached 3 percent as markets priced in the possibility that the European Central Bank might need to raise interest rates again. ECB President Christine Lagarde said the bank was prepared for 'some adjustment' if the Middle East conflict affects price stability. About 59 percent of outstanding Spanish mortgages are on variable or mixed rates, meaning any increase translates almost immediately into higher monthly payments for millions of households.",
           "sources": [
-            { "name": "La Vanguardia", "url": "https://www.lavanguardia.com/economia/20260330/11502351/euribor-hipotecas-marzo-2026.html" }
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260330/11502351/euribor-hipotecas-marzo-2026.html"
+            }
           ]
         }
       ]
@@ -127,30 +193,48 @@
           "headline": "TSJC orders enforcement of ruling striking down Catalan school language decree",
           "body": "The Superior Court of Justice of Catalonia ordered the provisional enforcement of its ruling annulling key articles of the decree that established Catalan as the vehicular language in schools, setting off a political firestorm on the first day of Semana Santa holidays. The court struck down 11 articles that designated Catalan and Aranese as the normal languages of instruction, administration, and family communications. The Generalitat announced it will appeal, with President Salvador Illa vowing to deploy 'all political and legal resources' to defend the Catalan school model. Junts accused the government of being 'complicit' in attacks on the language, while ERC demanded Illa 'be brave.' The Education Department said the ruling has no immediate practical effect on schools, as the decree had already been cautiously suspended and schools are currently on holiday.",
           "sources": [
-            { "name": "3cat", "url": "https://www.3cat.cat/3catinfo/el-tsjc-ordena-executar-la-sentencia-que-tomba-bona-part-del-decret-del-catala-a-lescola/noticia/3402306/" },
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/politica/20260330/tsjc-decreto-lengua-catalan-escuela-inmersion-128578869" }
+            {
+              "name": "3cat",
+              "url": "https://www.3cat.cat/3catinfo/el-tsjc-ordena-executar-la-sentencia-que-tomba-bona-part-del-decret-del-catala-a-lescola/noticia/3402306/"
+            },
+            {
+              "name": "El Periodico",
+              "url": "https://www.elperiodico.com/es/politica/20260330/tsjc-decreto-lengua-catalan-escuela-inmersion-128578869"
+            }
           ]
         },
         {
           "headline": "Police dismantle Turkish mafia network in Catalunya with 21 arrests for arms and drug trafficking",
           "body": "The Mossos d'Esquadra and National Police, coordinated by Europol, dismantled an organized crime network linked to the Turkish mafia that was trafficking weapons and drugs from Turkey into Catalunya and other parts of Spain. Twenty-one people were arrested across Catalan municipalities including Barcelona, Mataro, Sabadell, and Lloret de Mar, as well as in Malaga and Sofia, Bulgaria, where the network's principal leader was detained. The operation seized seven semi-automatic pistols, one military weapon, silencers, 587 kilograms of marijuana, and 76 kilograms of hashish with an estimated street value of 4.4 million euros. The Mossos said the network was in the process of expanding and establishing permanent cells across Spain, and that the investigation began in March 2025 when officers detected an increase in incidents involving illegally imported firearms from Turkey.",
           "sources": [
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/sucesos/20260330/golpe-expansion-mafia-turca-catalunya-128583526" },
-            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/selva/2026/03/30/banda-desmantellada-amb-ramificacions-lloret-128582992.html" }
+            {
+              "name": "El Periodico",
+              "url": "https://www.elperiodico.com/es/sucesos/20260330/golpe-expansion-mafia-turca-catalunya-128583526"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/selva/2026/03/30/banda-desmantellada-amb-ramificacions-lloret-128582992.html"
+            }
           ]
         },
         {
           "headline": "Barcelona reopens Tunnel de la Rovira after year-long renovation",
           "body": "Barcelona reopened the Tunnel de la Rovira in the downhill direction toward the sea on Monday afternoon after more than a year of construction work and a 20.7-million-euro investment. The 1,300-meter tunnel, a key link between the Carmel and Baix Guinardo neighborhoods connecting the Ronda de Dalt with the city center, received a complete renovation including structural repairs, new waterproofing and drainage, three evacuation galleries connecting both tunnel tubes, and an intelligent real-time traffic management system. Mayor Jaume Collboni said the project ensures the tunnel meets the 'best technological standards.' Bus lines including the V21 will resume their normal routes through the tunnel. Nighttime closures will continue until summer for final adjustments.",
           "sources": [
-            { "name": "El Periodico", "url": "https://www.elperiodico.com/es/barcelona/20260330/barcelona-reabre-tunel-rovira-128584095" }
+            {
+              "name": "El Periodico",
+              "url": "https://www.elperiodico.com/es/barcelona/20260330/barcelona-reabre-tunel-rovira-128584095"
+            }
           ]
         },
         {
           "headline": "Palamos inaugurates redesigned seaside promenade after 6.6-million-euro renovation",
           "body": "The Costa Brava town of Palamos has opened its newly renovated Passeig del Mar after sixteen months of construction and 6.6 million euros in investment, three million of which came from EU Next Generation funds. The project preserved the promenade's characteristic features including its central sand surface and arcades while adding a separated sewerage system with two underground tanks holding 920 cubic meters for rainwater management, a full-length bike lane, 16 electric vehicle charging points, LED lighting with remote management, and new children's play areas. A second phase after the tourist season will connect the promenade to the Platja Gran beach. Planned inauguration festivities were postponed due to weekend wind warnings.",
           "sources": [
-            { "name": "Diari de Girona", "url": "https://www.diaridegirona.cat/baix-emporda/2026/03/27/palamos-estrena-nou-passeig-mar-128486843.html" }
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/baix-emporda/2026/03/27/palamos-estrena-nou-passeig-mar-128486843.html"
+            }
           ]
         }
       ]
