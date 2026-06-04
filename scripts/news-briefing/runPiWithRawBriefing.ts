@@ -10,6 +10,7 @@ export async function runPiWithRawBriefing(
     "pi",
     ["-p", `@${args.rawBriefingPath}`, args.prompt],
     {
+      forwardStderr: false,
       forwardStdout: false,
     },
   )

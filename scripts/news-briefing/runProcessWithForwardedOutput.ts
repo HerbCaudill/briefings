@@ -25,7 +25,9 @@ export async function runProcessWithForwardedOutput(
   })
 
   childProcess.stderr?.on("data", (chunk: Buffer) => {
-    ;(options.stderr ?? process.stderr).write(chunk)
+    if (options.forwardStderr ?? true) {
+      ;(options.stderr ?? process.stderr).write(chunk)
+    }
   })
 
   return await new Promise((resolve, reject) => {
@@ -42,6 +44,8 @@ export async function runProcessWithForwardedOutput(
 }
 
 export type RunProcessWithForwardedOutputOptions = {
+  /** Whether child stderr should be written to the stderr stream. */
+  forwardStderr?: boolean
   /** Whether captured child stdout should also be written to the stdout stream. */
   forwardStdout?: boolean
   /** The writable stream that receives child stderr. */

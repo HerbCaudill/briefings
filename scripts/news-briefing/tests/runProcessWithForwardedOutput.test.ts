@@ -28,7 +28,7 @@ describe("runProcessWithForwardedOutput", () => {
     expect(stderrChunks.join("")).toBe("thinking\n")
   })
 
-  test("can capture stdout without forwarding it", async () => {
+  test("can capture stdout without forwarding process output", async () => {
     const childProcess = new EventEmitter() as ChildProcessStub
     childProcess.stdout = new PassThrough()
     childProcess.stderr = new PassThrough()
@@ -37,6 +37,7 @@ describe("runProcessWithForwardedOutput", () => {
     const stderrChunks: string[] = []
 
     const resultPromise = runProcessWithForwardedOutput("pi", ["-p", "hello"], {
+      forwardStderr: false,
       forwardStdout: false,
       spawnProcess: (() => childProcess) as SpawnProcessStub,
       stderr: createStringWriter(stderrChunks),
@@ -44,12 +45,12 @@ describe("runProcessWithForwardedOutput", () => {
     })
 
     childProcess.stdout.write('{"stories":[]}')
-    childProcess.stderr.write("thinking\n")
+    childProcess.stderr.write("final briefing text\n")
     childProcess.emit("close", 0)
 
     await expect(resultPromise).resolves.toBe('{"stories":[]}')
     expect(stdoutChunks.join("")).toBe("")
-    expect(stderrChunks.join("")).toBe("thinking\n")
+    expect(stderrChunks.join("")).toBe("")
   })
 
   test("rejects when the process exits with a non-zero code", async () => {
