@@ -1,9 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs"
 import path from "node:path"
-import { ARTICLE_FETCH_CONCURRENCY, DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
+import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
-import { fetchSuccessfulArticle } from "./fetchSuccessfulArticle.ts"
-import { mapWithConcurrency } from "./mapWithConcurrency.ts"
 import type {
   BuildRawBriefingArgs,
   HeadlineCandidate,
@@ -100,23 +98,9 @@ export async function buildRawBriefing(
     }
   }
 
-  const articleRecords = [...articleMap.values()]
-  let fetchedArticleCount = 0
+  const articles = [...articleMap.values()]
 
-  args.log?.(`Fetching ${articleRecords.length} unique article bodies...`)
-
-  const articles = (
-    await mapWithConcurrency(articleRecords, ARTICLE_FETCH_CONCURRENCY, async article => {
-      const result = await fetchSuccessfulArticle(article, args.fetchPageHtml)
-      fetchedArticleCount += 1
-      args.log?.(
-        `Fetched article ${fetchedArticleCount}/${articleRecords.length}: ${article.headline}`,
-      )
-      return result
-    })
-  ).filter(article => article !== null)
-
-  args.log?.(`Kept ${articles.length} article bodies after extraction.`)
+  args.log?.(`Kept ${articles.length} candidate articles for selection.`)
 
   const rawBriefing: RawBriefing = {
     articles,

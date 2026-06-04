@@ -1,4 +1,5 @@
 import { PUBLIC_BRIEFINGS_DIRECTORY_PATH, RAW_BRIEFINGS_DIRECTORY_PATH } from "./constants.ts"
+import { fetchPageHtmlWithCurl } from "./fetchPageHtmlWithCurl.ts"
 import { listMissingBriefingDates } from "./listMissingBriefingDates.ts"
 import { runPiWithRawBriefing } from "./runPiWithRawBriefing.ts"
 import { synthesizeBriefing } from "./synthesizeBriefing.ts"
@@ -15,6 +16,7 @@ for (const date of dates) {
   await synthesizeBriefing({
     briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
     date,
+    fetchPageHtml: fetchPageHtmlWithCurl,
     rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
     runPi: runPiWithRawBriefing,
   })

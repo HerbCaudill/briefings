@@ -19,7 +19,7 @@ describe("synthesizeBriefing", () => {
         {
           articles: [
             {
-              body: "Long selected article body.",
+              body: "",
               firstSeenPosition: 1,
               headline: "Selected story",
               listingPageUrl: "https://source.example/news",
@@ -28,7 +28,7 @@ describe("synthesizeBriefing", () => {
               url: "https://source.example/selected",
             },
             {
-              body: "Long omitted article body.",
+              body: "",
               firstSeenPosition: 2,
               headline: "Omitted story",
               listingPageUrl: "https://source.example/news",
@@ -49,6 +49,13 @@ describe("synthesizeBriefing", () => {
     const briefingPath = await synthesizeBriefing({
       briefingDirectoryPath,
       date: "2026-04-20",
+      fetchPageHtml: async url => {
+        if (url === "https://source.example/selected") {
+          return `<article><p>Long selected article body fetched after selection.</p></article>`
+        }
+
+        throw new Error(`Unexpected article fetch: ${url}`)
+      },
       rawDirectoryPath,
       runPi: async args => {
         calls.push(args)
@@ -70,8 +77,10 @@ describe("synthesizeBriefing", () => {
         }
 
         const hydratedInput = JSON.parse(readFileSync(args.rawBriefingPath, "utf8"))
-        expect(JSON.stringify(hydratedInput)).toContain("Long selected article body")
-        expect(JSON.stringify(hydratedInput)).not.toContain("Long omitted article body")
+        expect(JSON.stringify(hydratedInput)).toContain(
+          "Long selected article body fetched after selection",
+        )
+        expect(JSON.stringify(hydratedInput)).not.toContain("https://source.example/omitted")
 
         return JSON.stringify({ sections: [{ title: "World", stories: [] }] }, null, 2)
       },

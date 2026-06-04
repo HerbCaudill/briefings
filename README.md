@@ -27,8 +27,8 @@ pnpm news:run 2026-04-20
 
 The repo now owns the deterministic ingestion pipeline.
 
-1. `pnpm news:fetch` crawls the configured homepages, extracts headline candidates, keeps the first 30 per source in page order, fetches each unique article body with internal retry/concurrency limits, and writes a raw file at `public/briefings/raw/YYYY-MM-DD.json`.
-2. `pnpm news:synthesize` compares `public/briefings/raw/*.json` with `public/briefings/*.json`, runs `pi` against each missing raw file with a reduced summarization prompt, and writes the final app-facing briefing JSON.
+1. `pnpm news:fetch` crawls the configured homepages, extracts headline candidates, keeps the first 30 per source in page order, deduplicates by article URL, and writes a compact raw file at `public/briefings/raw/YYYY-MM-DD.json`.
+2. `pnpm news:synthesize` compares `public/briefings/raw/*.json` with `public/briefings/*.json`, asks `pi` to select stories from headline/URL metadata, fetches only the selected article bodies, then asks `pi` to write the final app-facing briefing JSON.
 3. `pnpm news:run` is the repo-owned scheduler command: it fetches the requested day first, then synthesizes every missing final briefing.
 4. The app reads `/briefings/index.json` and `/briefings/YYYY-MM-DD.json` as before.
 
@@ -38,13 +38,13 @@ Each raw daily file stores one entry per unique article URL. Every article recor
 
 - `url`
 - `headline`
-- `body`
+- `body` when it was available from a listing feed, otherwise an empty string
 - `source` metadata for the first sighting
 - `listingPageUrl`
 - `firstSeenPosition`
 - `sightings[]` showing every homepage/listing where that URL appeared
 
-Only successful article fetches with non-empty extracted bodies are retained. This keeps extraction deterministic and local while leaving only story selection and summarization to `pi`.
+Article pages are not fetched during the raw stage. During synthesis, only the URLs selected by the first `pi` pass are fetched and hydrated before final summarization.
 
 ## Repo boundaries
 

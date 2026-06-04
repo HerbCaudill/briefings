@@ -22,9 +22,9 @@ Daily news briefings viewer — a single-page React app that fetches and renders
 
 The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/news-briefing/`.
 
-**Fetch stage:** `pnpm news:fetch` crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, fetches article bodies with internal retry/concurrency limits, deduplicates by article URL, keeps only successful non-empty article records, and writes `public/briefings/raw/YYYY-MM-DD.json`.
+**Fetch stage:** `pnpm news:fetch` crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, deduplicates by article URL, and writes compact metadata to `public/briefings/raw/YYYY-MM-DD.json` without fetching article pages.
 
-**Synthesis stage:** `pnpm news:synthesize` compares raw files in `public/briefings/raw/` with final files in `public/briefings/`, invokes `pi` with a reduced prompt for each missing date, and writes the final app-facing JSON.
+**Synthesis stage:** `pnpm news:synthesize` compares raw files in `public/briefings/raw/` with final files in `public/briefings/`, invokes `pi` once to select stories from compact headline/URL metadata, fetches only those selected article bodies, invokes `pi` again to summarize the hydrated selection, and writes the final app-facing JSON.
 
 **App data flow:** On mount, fetches `/briefings/index.json` (array of `{date, title}` objects). Selecting a date fetches `/briefings/{YYYY-MM-DD}.json` — a structured JSON object with `sections[]`, each containing a `title` and `stories[]`. Each story has a `headline`, `body`, and `sources[]` (with `name` and `url`). The app renders these directly as React components.
 

@@ -39,7 +39,7 @@ export async function synthesizeBriefing(
   writeFileSync(selectionPath, `${selectionOutput.trim()}\n`)
 
   const selection = parseJsonObject<BriefingSelection>(selectionOutput)
-  const hydratedSelection = hydrateSelectedStories(rawBriefing, selection)
+  const hydratedSelection = await hydrateSelectedStories(rawBriefing, selection, args.fetchPageHtml)
   writeFileSync(hydratedSelectionPath, JSON.stringify(hydratedSelection, null, 2) + "\n")
 
   const synthesisPrompt = `${SYNTHESIS_PROMPT}\n\nRaw briefing date: ${args.date}`

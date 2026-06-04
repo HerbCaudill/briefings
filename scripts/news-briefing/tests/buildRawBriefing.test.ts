@@ -69,7 +69,7 @@ describe("buildRawBriefing", () => {
     expect(rawBriefing.date).toBe("2026-04-20")
     expect(rawBriefing.articles).toHaveLength(3)
     expect(rawBriefing.articles[0]).toMatchObject({
-      body: expect.stringContaining("https://source-one.example/story-a"),
+      body: "",
       firstSeenPosition: 1,
       headline: "Story A headline with enough words to keep",
       listingPageUrl: "https://source-one.example/news",
@@ -149,10 +149,7 @@ describe("buildRawBriefing", () => {
     expect(messages).toEqual([
       "Fetching homepage for Source...",
       "Found 2 headline candidates for Source; using 2.",
-      "Fetching 2 unique article bodies...",
-      "Fetched article 1/2: Story A headline with enough words to keep",
-      "Fetched article 2/2: Story B headline with enough words to keep",
-      "Kept 2 article bodies after extraction.",
+      "Kept 2 candidate articles for selection.",
       `Wrote raw briefing to ${path.join(rawDirectoryPath, "2026-04-22.json")}.`,
     ])
   })
@@ -312,7 +309,7 @@ describe("buildRawBriefing", () => {
     ])
   })
 
-  test("retries article fetches and keeps only successful article records in the raw JSON", async () => {
+  test("keeps all candidate article records without fetching their bodies", async () => {
     const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
     temporaryDirectories.push(rawDirectoryPath)
 
@@ -375,9 +372,12 @@ describe("buildRawBriefing", () => {
     expect(rawBriefing.articles.map(article => article.url)).toEqual([
       "https://source.example/story-success",
       "https://source.example/story-retry",
+      "https://source.example/story-fail",
+      "https://source.example/story-empty",
     ])
-    expect(attemptsByUrl.get("https://source.example/story-retry")).toBe(2)
-    expect(attemptsByUrl.get("https://source.example/story-fail")).toBe(3)
-    expect(attemptsByUrl.get("https://source.example/story-empty")).toBe(1)
+    expect(rawBriefing.articles.map(article => article.body)).toEqual(["", "", "", ""])
+    expect(attemptsByUrl.get("https://source.example/story-retry")).toBeUndefined()
+    expect(attemptsByUrl.get("https://source.example/story-fail")).toBeUndefined()
+    expect(attemptsByUrl.get("https://source.example/story-empty")).toBeUndefined()
   })
 })

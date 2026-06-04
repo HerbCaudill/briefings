@@ -109,6 +109,7 @@ export type RunPiArgs = {
 export type SynthesizeBriefingArgs = {
   briefingDirectoryPath: string
   date: string
+  fetchPageHtml: (url: string) => Promise<string>
   rawDirectoryPath: string
   runPi: (args: RunPiArgs) => Promise<string>
 }
