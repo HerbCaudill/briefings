@@ -65,6 +65,7 @@ describe("raw briefing fetch helpers", () => {
     const existingArticleUrls = new Set(["https://source.example/already-seen"])
     const candidates: HeadlineCandidate[] = [
       {
+        body: "RSS body text that is long enough to preserve in the raw briefing article.",
         headline: "First headline with enough words to keep",
         position: 0,
         url: "https://source.example/story-a",
@@ -95,6 +96,7 @@ describe("raw briefing fetch helpers", () => {
       }),
     ).toEqual([
       {
+        body: "RSS body text that is long enough to preserve in the raw briefing article.",
         headline: "First headline with enough words to keep",
         region: "world",
         source: "Source",

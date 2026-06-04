@@ -187,6 +187,7 @@ describe("buildRawBriefing", () => {
       "https://blocked-source.example/thin-story",
     )
     expect(rawBriefing.articles[0]).toEqual({
+      body: "RSS description body that is comfortably longer than forty characters and should be kept.",
       headline: "Fallback RSS headline with enough words to keep",
       region: "world",
       source: "Blocked Source",
@@ -234,8 +235,14 @@ describe("buildRawBriefing", () => {
     })
 
     expect(fetchedUrls[0]).toBe("https://source.example/feed")
-    expect(rawBriefing.articles.map(article => article.url)).toEqual([
-      "https://source.example/feed-story",
+    expect(rawBriefing.articles).toEqual([
+      {
+        body: "Preferred feed body that is comfortably longer than forty characters and should be kept.",
+        headline: "Preferred feed headline with enough words to keep",
+        region: "world",
+        source: "Source",
+        url: "https://source.example/feed-story",
+      },
     ])
   })
 })
