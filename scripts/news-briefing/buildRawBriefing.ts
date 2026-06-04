@@ -67,7 +67,6 @@ export async function buildRawBriefing(
       }
 
       articleMap.set(candidate.url, {
-        firstSeenPosition: candidate.position,
         headline: candidate.headline,
         region: sourceConfig.region,
         source: sourceConfig.name,

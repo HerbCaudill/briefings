@@ -69,7 +69,6 @@ describe("buildRawBriefing", () => {
     expect(rawBriefing.date).toBe("2026-04-20")
     expect(rawBriefing.articles).toHaveLength(3)
     expect(rawBriefing.articles[0]).toEqual({
-      firstSeenPosition: 1,
       headline: "Story A headline with enough words to keep",
       region: "world",
       source: "Source One",
@@ -225,7 +224,6 @@ describe("buildRawBriefing", () => {
       "https://blocked-source.example/thin-story",
     )
     expect(rawBriefing.articles[0]).toEqual({
-      firstSeenPosition: 1,
       headline: "Fallback RSS headline with enough words to keep",
       region: "world",
       source: "Blocked Source",

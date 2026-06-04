@@ -19,14 +19,12 @@ describe("synthesizeBriefing", () => {
         {
           articles: [
             {
-              firstSeenPosition: 1,
               headline: "Selected story",
               region: "world",
               source: "Source",
               url: "https://source.example/selected",
             },
             {
-              firstSeenPosition: 2,
               headline: "Omitted story",
               region: "world",
               source: "Source",

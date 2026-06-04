@@ -34,7 +34,6 @@ describe("buildRawBriefing selection-only fetch", () => {
     expect(fetchedUrls).toEqual(["https://source.example/news"])
     expect(rawBriefing.articles).toEqual([
       {
-        firstSeenPosition: 1,
         headline: "Story A headline with enough words to keep",
         region: "world",
         source: "Source",

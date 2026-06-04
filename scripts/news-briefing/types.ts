@@ -17,7 +17,6 @@ export type HeadlineCandidate = {
 }
 
 export type BriefingCandidateArticle = {
-  firstSeenPosition: number
   headline: string
   source: string
   region: NewsRegion

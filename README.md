@@ -30,7 +30,7 @@ The repo now owns the deterministic ingestion pipeline.
 
 ## Candidate and selection files
 
-Each candidate file stores one entry per unique article URL. Every article record includes `url`, `headline`, `source`, `region`, and `firstSeenPosition`. Article pages are not fetched during the candidate stage.
+Each candidate file stores one entry per unique article URL. Every article record includes `url`, `headline`, `source`, and `region`. Article pages are not fetched during the candidate stage.
 
 During synthesis, only the URLs selected by the first `pi` pass are fetched and hydrated. The hydrated selection overwrites `public/briefings/raw/YYYY-MM-DD-selection.json`, so the pipeline has three durable stages: candidates, selection, and final briefing.
 

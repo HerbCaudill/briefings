@@ -34,14 +34,12 @@ describe("hydrateSelectedStories", () => {
 const rawBriefing: RawBriefing = {
   articles: [
     {
-      firstSeenPosition: 1,
       headline: "Israel and Lebanon agree to implement ceasefire",
       region: "world",
       source: "BBC News",
       url: "https://bbc.example/ceasefire",
     },
     {
-      firstSeenPosition: 2,
       headline: "Celebrity birthday story",
       region: "world",
       source: "BBC News",
