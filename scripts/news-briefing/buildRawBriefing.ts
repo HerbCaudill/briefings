@@ -1,14 +1,11 @@
-import { mkdirSync, writeFileSync } from "node:fs"
+import { Effect } from "effect"
 import { getRawBriefingPath } from "./briefingPaths.ts"
 import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
-import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
+import { createBriefingArticlesFromHeadlineCandidates } from "./createBriefingArticlesFromHeadlineCandidates.ts"
+import { fetchHeadlineCandidatesForSource } from "./fetchHeadlineCandidatesForSource.ts"
 import { formatCandidateSourceLine } from "./formatCandidateSourceLine.ts"
-import type {
-  BriefingCandidateArticle,
-  BuildRawBriefingArgs,
-  HeadlineCandidate,
-  RawBriefing,
-} from "./types.ts"
+import { FileSystemService } from "./runtimeServices.ts"
+import type { BuildRawBriefingArgs, RawBriefing } from "./types.ts"
 
 /** Fetch source listing pages, then persist one candidate briefing JSON file. */
 export async function buildRawBriefing(
@@ -16,67 +13,43 @@ export async function buildRawBriefing(
   args: BuildRawBriefingArgs,
 ): Promise<RawBriefing> {
   const maxHeadlinesPerSource = args.maxHeadlinesPerSource ?? DEFAULT_MAX_HEADLINES_PER_SOURCE
-  const articleMap = new Map<string, BriefingCandidateArticle>()
+  const articlesByUrl = new Map<string, RawBriefing["articles"][number]>()
 
   for (const sourceConfig of args.sourceConfigs) {
-    let allHeadlineCandidates: HeadlineCandidate[] = []
-    const listingPageUrls = sourceConfig.preferFallbackUrls
-      ? [...(sourceConfig.fallbackUrls ?? []), sourceConfig.homepageUrl]
-      : [sourceConfig.homepageUrl, ...(sourceConfig.fallbackUrls ?? [])]
-
-    for (const candidateListingPageUrl of listingPageUrls) {
-      let homepageHtml: string
-
-      try {
-        homepageHtml = await args.fetchPageHtml(candidateListingPageUrl)
-      } catch {
-        continue
-      }
-
-      const candidateHeadlines = extractHeadlineCandidates(candidateListingPageUrl, homepageHtml)
-
-      if (
-        (sourceConfig.preferFallbackUrls && candidateHeadlines.length > 0) ||
-        candidateHeadlines.length >= Math.min(5, maxHeadlinesPerSource) ||
-        candidateListingPageUrl === listingPageUrls.at(-1)
-      ) {
-        allHeadlineCandidates = candidateHeadlines
-        break
-      }
-    }
-
-    const headlineCandidates = allHeadlineCandidates.slice(0, maxHeadlinesPerSource)
+    const headlineCandidates = (
+      await fetchHeadlineCandidatesForSource({
+        fetchPageHtml: args.fetchPageHtml,
+        maxHeadlinesPerSource,
+        sourceConfig,
+      })
+    ).slice(0, maxHeadlinesPerSource)
     args.log?.(formatCandidateSourceLine(sourceConfig.name, headlineCandidates.length))
 
-    for (const candidate of headlineCandidates) {
-      if (!candidate.url) {
-        continue
-      }
+    const articles = createBriefingArticlesFromHeadlineCandidates({
+      candidates: headlineCandidates,
+      existingArticleUrls: new Set(articlesByUrl.keys()),
+      region: sourceConfig.region,
+      sourceName: sourceConfig.name,
+    })
 
-      if (articleMap.has(candidate.url)) {
-        continue
-      }
-
-      articleMap.set(candidate.url, {
-        headline: candidate.headline,
-        region: sourceConfig.region,
-        source: sourceConfig.name,
-        url: candidate.url,
-      })
+    for (const article of articles) {
+      articlesByUrl.set(article.url, article)
     }
   }
 
-  const articles = [...articleMap.values()]
-
   const rawBriefing: RawBriefing = {
-    articles,
+    articles: [...articlesByUrl.values()],
     date: args.date,
   }
 
   const rawBriefingPath = getRawBriefingPath(args.rawDirectoryPath, args.date)
 
-  mkdirSync(args.rawDirectoryPath, { recursive: true })
-  writeFileSync(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
+  await Effect.gen(function* () {
+    const fileSystem = yield* FileSystemService
+
+    yield* fileSystem.makeDirectory(args.rawDirectoryPath)
+    yield* fileSystem.writeText(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
+  }).pipe(Effect.provide(FileSystemService.Live), Effect.runPromise)
 
   return rawBriefing
 }
