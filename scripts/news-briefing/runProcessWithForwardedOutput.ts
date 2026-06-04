@@ -18,7 +18,10 @@ export async function runProcessWithForwardedOutput(
 
   childProcess.stdout?.on("data", (chunk: Buffer) => {
     stdoutChunks.push(chunk)
-    ;(options.stdout ?? process.stdout).write(chunk)
+
+    if (options.forwardStdout ?? true) {
+      ;(options.stdout ?? process.stdout).write(chunk)
+    }
   })
 
   childProcess.stderr?.on("data", (chunk: Buffer) => {
@@ -39,6 +42,8 @@ export async function runProcessWithForwardedOutput(
 }
 
 export type RunProcessWithForwardedOutputOptions = {
+  /** Whether captured child stdout should also be written to the stdout stream. */
+  forwardStdout?: boolean
   /** The writable stream that receives child stderr. */
   stderr?: Writable
   /** The writable stream that receives child stdout. */

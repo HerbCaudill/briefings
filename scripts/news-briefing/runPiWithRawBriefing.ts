@@ -6,5 +6,11 @@ export async function runPiWithRawBriefing(
   /** The prompt and raw briefing path. */
   args: RunPiArgs,
 ): Promise<string> {
-  return await runProcessWithForwardedOutput("pi", ["-p", `@${args.rawBriefingPath}`, args.prompt])
+  return await runProcessWithForwardedOutput(
+    "pi",
+    ["-p", `@${args.rawBriefingPath}`, args.prompt],
+    {
+      forwardStdout: false,
+    },
+  )
 }

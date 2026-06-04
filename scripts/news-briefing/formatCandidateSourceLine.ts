@@ -8,5 +8,5 @@ export function formatCandidateSourceLine(
   const icon = candidateCount > 0 ? "✅" : "❌"
   const count = candidateCount > 0 ? String(candidateCount) : ""
 
-  return `${icon} ${sourceName.padEnd(20)} ${count}`.trimEnd()
+  return `${icon} ${sourceName.padEnd(28)} ${count}`.trimEnd()
 }

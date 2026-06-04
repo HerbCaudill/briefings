@@ -81,7 +81,10 @@ describe("buildRawBriefing", () => {
       "https://source-two.example/story-d",
     ])
     expect(fetchedUrls).not.toContain("https://source-one.example/story-c")
-    expect(messages).toEqual(["✅ Source One           2", "✅ Source Two           2"])
+    expect(messages).toEqual([
+      "✅ Source One                   2",
+      "✅ Source Two                   2",
+    ])
   })
 
   test("skips source homepages that fail to fetch", async () => {
