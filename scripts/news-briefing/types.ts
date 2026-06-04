@@ -42,8 +42,49 @@ export type RawBriefingArticle = {
 
 export type RawBriefing = {
   articles: RawBriefingArticle[]
-  createdAt: string
+  createdAt?: string
   date: string
+}
+
+export type BriefingSelectionInputArticle = {
+  firstSeenPosition: number
+  headline: string
+  source: string
+  region: NewsRegion
+  url: string
+}
+
+export type BriefingSelectionInput = {
+  articles: BriefingSelectionInputArticle[]
+  date: string
+}
+
+export type BriefingSelectedStory = {
+  headline: string
+  section: string
+  sourceUrls: string[]
+}
+
+export type BriefingSelection = {
+  stories: BriefingSelectedStory[]
+}
+
+export type HydratedBriefingSource = {
+  body: string
+  headline: string
+  source: string
+  url: string
+}
+
+export type HydratedBriefingStory = {
+  headline: string
+  section: string
+  sources: HydratedBriefingSource[]
+}
+
+export type HydratedBriefingSelection = {
+  date: string
+  stories: HydratedBriefingStory[]
 }
 
 export type BuildRawBriefingArgs = {

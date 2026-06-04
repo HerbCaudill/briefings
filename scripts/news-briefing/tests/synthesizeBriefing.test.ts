@@ -5,7 +5,7 @@ import { describe, expect, test } from "vitest"
 import { synthesizeBriefing } from "../synthesizeBriefing.ts"
 
 describe("synthesizeBriefing", () => {
-  test("passes the raw file path with a minimized prompt and writes the final briefing JSON", async () => {
+  test("selects stories from compact metadata, hydrates them, and writes the final briefing JSON", async () => {
     const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
     const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
     const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
@@ -13,32 +13,73 @@ describe("synthesizeBriefing", () => {
     mkdirSync(rawDirectoryPath, { recursive: true })
     mkdirSync(briefingDirectoryPath, { recursive: true })
 
-    const rawBriefingPath = path.join(rawDirectoryPath, "2026-04-20.json")
     writeFileSync(
-      rawBriefingPath,
-      JSON.stringify({ date: "2026-04-20", articles: [{ headline: "Story" }] }, null, 2),
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify(
+        {
+          articles: [
+            {
+              body: "Long selected article body.",
+              firstSeenPosition: 1,
+              headline: "Selected story",
+              listingPageUrl: "https://source.example/news",
+              sightings: [{ headline: "Selected duplicate" }],
+              source: { name: "Source", region: "world" },
+              url: "https://source.example/selected",
+            },
+            {
+              body: "Long omitted article body.",
+              firstSeenPosition: 2,
+              headline: "Omitted story",
+              listingPageUrl: "https://source.example/news",
+              sightings: [],
+              source: { name: "Source", region: "world" },
+              url: "https://source.example/omitted",
+            },
+          ],
+          date: "2026-04-20",
+        },
+        null,
+        2,
+      ),
     )
 
-    let receivedPrompt = ""
-    let receivedRawBriefingPath = ""
+    const calls: Array<{ prompt: string; rawBriefingPath: string }> = []
 
     const briefingPath = await synthesizeBriefing({
       briefingDirectoryPath,
       date: "2026-04-20",
       rawDirectoryPath,
-      runPi: async ({ prompt, rawBriefingPath: pathFromFunction }) => {
-        receivedPrompt = prompt
-        receivedRawBriefingPath = pathFromFunction
+      runPi: async args => {
+        calls.push(args)
+
+        if (calls.length === 1) {
+          const selectionInput = JSON.parse(readFileSync(args.rawBriefingPath, "utf8"))
+          expect(JSON.stringify(selectionInput)).not.toContain("Long selected article body")
+          expect(JSON.stringify(selectionInput)).not.toContain("sightings")
+
+          return JSON.stringify({
+            stories: [
+              {
+                headline: "Selected story",
+                section: "World",
+                sourceUrls: ["https://source.example/selected"],
+              },
+            ],
+          })
+        }
+
+        const hydratedInput = JSON.parse(readFileSync(args.rawBriefingPath, "utf8"))
+        expect(JSON.stringify(hydratedInput)).toContain("Long selected article body")
+        expect(JSON.stringify(hydratedInput)).not.toContain("Long omitted article body")
 
         return JSON.stringify({ sections: [{ title: "World", stories: [] }] }, null, 2)
       },
     })
 
-    expect(receivedRawBriefingPath).toBe(rawBriefingPath)
-    expect(receivedPrompt).toContain("Return only a JSON object")
-    expect(receivedPrompt).toContain("Raw briefing date: 2026-04-20")
-    expect(receivedPrompt).not.toContain("Raw briefing preview")
-    expect(receivedPrompt).not.toContain("Story")
+    expect(calls).toHaveLength(2)
+    expect(calls[0].prompt).toContain("Select the strongest stories")
+    expect(calls[1].prompt).toContain("Use the selected hydrated stories")
     expect(briefingPath).toBe(path.join(briefingDirectoryPath, "2026-04-20.json"))
     expect(JSON.parse(readFileSync(briefingPath, "utf8"))).toEqual({
       sections: [{ title: "World", stories: [] }],
