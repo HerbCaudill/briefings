@@ -98,6 +98,8 @@ export type ClearExistingBriefingFilesArgs = {
 }
 
 export type CommitAndPushGeneratedBriefingsArgs = {
+  /** The directory containing public briefing JSON files. */
+  briefingDirectoryPath?: string
   /** The briefing dates whose generated files should be committed. */
   dates: string[]
   /** The command runner used to execute git commands. */

@@ -1,3 +1,5 @@
+import { PUBLIC_BRIEFINGS_DIRECTORY_PATH } from "./constants.ts"
+import { generateBriefingIndex } from "./generateBriefingIndex.ts"
 import { runProcessWithForwardedOutput } from "./runProcessWithForwardedOutput.ts"
 import type { CommitAndPushGeneratedBriefingsArgs } from "./types.ts"
 
@@ -10,6 +12,7 @@ export async function commitAndPushGeneratedBriefings(
     return
   }
 
+  const briefingDirectoryPath = args.briefingDirectoryPath ?? PUBLIC_BRIEFINGS_DIRECTORY_PATH
   const runCommand = args.runCommand ?? runProcessWithForwardedOutput
   const generatedPaths = args.dates.flatMap(date => [
     `public/briefings/${date}.json`,
@@ -17,6 +20,8 @@ export async function commitAndPushGeneratedBriefings(
     `public/briefings/raw/${date}-selection.json`,
   ])
   const commitMessage = `Briefing: add generated briefings for ${args.dates.join(", ")}`
+
+  generateBriefingIndex(briefingDirectoryPath)
 
   await runCommand("git", ["add", "public/briefings/index.json", ...generatedPaths])
   await runCommand("git", ["commit", "-m", commitMessage])

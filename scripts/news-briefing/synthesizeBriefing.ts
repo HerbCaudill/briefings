@@ -45,7 +45,11 @@ export async function synthesizeBriefing(
   args.log?.("Fetching sources...")
   args.log?.("")
   const fetchSourcesStart = now()
-  const decodedSelection = decodeJsonWithSchema(BriefingSelectionSchema, selectionOutput, "pi selection")
+  const decodedSelection = decodeJsonWithSchema(
+    BriefingSelectionSchema,
+    selectionOutput,
+    "pi selection",
+  )
   const selection: BriefingSelection = {
     stories: decodedSelection.stories.map(story => ({
       headline: story.headline,
