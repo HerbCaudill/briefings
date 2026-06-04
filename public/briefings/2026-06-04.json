@@ -1,0 +1,232 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Hezbollah rejects renewed Israel-Lebanon ceasefire as regional war pressure mounts",
+          "body": "Hezbollah has rejected a US-brokered ceasefire plan agreed by Israel and Lebanon, with leader Naim Qassem calling the deal humiliating and tantamount to surrender because it would require Hezbollah to stop firing and evacuate fighters from southern Lebanon while Israeli forces remain in place. The agreement, reached in Washington without Hezbollah at the table, would create pilot zones where the Lebanese army would take exclusive control and exclude non-state armed groups, but it left key details unclear. Fighting continued after the announcement, with Israeli strikes in Lebanon and Hezbollah attacks on Israeli soldiers, raising doubts about whether Lebanon’s government can implement a ceasefire without Hezbollah’s consent and how the dispute could affect broader US and Iranian efforts to wind down the regional war.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c052343r812o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/04/israel-lebanon-renew-ceasefire-hezbollah-trump-iran-deal-middle-east-us"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire"
+            }
+          ]
+        },
+        {
+          "headline": "DRC Ebola outbreak grows as violence disrupts response and Kenya protests a US quarantine plan",
+          "body": "The Ebola outbreak in eastern Democratic Republic of the Congo is expanding while insecurity is undermining the response, with WHO officials saying the Bundibugyo strain may have been circulating since as early as January and has caused hundreds of confirmed cases and dozens of deaths in DRC, plus cases in Uganda. Rebel attacks blamed on the Islamic State-linked Allied Democratic Forces killed more than 30 people around Beni, displaced residents, and reportedly led three confirmed Ebola patients to flee treatment centers, complicating contact tracing that WHO says remains far below the level needed to control the outbreak. The crisis has also sparked anger in Kenya, where protesters objected to a US plan to quarantine Americans exposed to Ebola at a facility on a Kenyan military base, with critics saying the plan risks importing a disease Kenya has never recorded.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/jun/04/allied-democratic-forces-adf-rebel-attacks-massacre-eastern-drc-ebola-response"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/why-is-a-us-ebola-facility-in-kenya-sparking-protests"
+            }
+          ]
+        },
+        {
+          "headline": "Somalia’s election-delay crisis turns violent as troops and opposition-allied militias trade fire in Mogadishu",
+          "body": "Somalia’s political crisis over delayed elections escalated into armed clashes in Mogadishu, where government forces and opposition-allied militias exchanged heavy gunfire and mortar fire ahead of planned protests against President Hassan Sheikh Mohamud’s one-year term extension. Opposition figures, including former Prime Minister Hassan Ali Khaire and former President Sharif Sheikh Ahmed, accused government forces of attacking them and suppressing peaceful assembly, while police said they were conducting security operations against armed militias that had launched mortar attacks. Civilians fled parts of the capital as shells landed in populated neighborhoods and near Bakara market, prompting condemnation from the UN, the US embassy, the EU and regional bloc IGAD, all of which urged restraint and dialogue over an election roadmap.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cpdpwgxl1qzo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire"
+            }
+          ]
+        },
+        {
+          "headline": "Ukraine faces heavy Russian attacks as Kyiv reports rare recent territorial gains",
+          "body": "Ukraine has endured renewed heavy Russian bombardment of Kyiv, but battlefield data cited by La Vanguardia suggests Moscow’s offensive momentum is weakening, with Ukraine reportedly recovering more territory than Russia captured for a second consecutive month in April and May. The gains are small, but analysts say they point to Russian stagnation during a season normally favorable for offensives, even as Moscow increased attacks sharply. Ukraine’s expanding drone production is credited with helping Kyiv strike deep into Russian rear areas, including logistics, energy infrastructure, refineries and command nodes, while sustained drone attacks on routes into occupied Crimea have reportedly damaged supply trucks and contributed to fuel rationing in Sevastopol. President Volodymyr Zelensky and Ukrainian commanders argue the next six to nine months could be decisive if international pressure forces Russia back to negotiations.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20260604/11554991/ucrania-retroceder-rusia-frente-segundo-mes-consecutivo.html"
+            }
+          ]
+        },
+        {
+          "headline": "Protests grow in Albania over Jared Kushner-backed luxury resort plan",
+          "body": "Protests are growing in Albania against a proposed luxury resort backed by Jared Kushner’s Affinity Partners, with demonstrators accusing the government of secrecy, environmental disregard and handing protected coastal land to foreign developers. The project would include hotels on Sazan island and in the protected Vjosa-Narta and Zvërnec coastal wetlands, an area home to flamingos, Dalmatian pelicans, Mediterranean monk seals and other endangered species. Conservation groups say groundwork, fencing and heavy machinery have already damaged dunes and pine forests without transparent public consultation or permits, while Prime Minister Edi Rama defends the investment as a major economic opportunity and says it will not be stopped. Albania’s anti-corruption prosecutor has opened an investigation into land-title funds and sales connected to the project.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c3r2rdjv2n1o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/04/protests-in-albania-grow-over-jared-kushner-backed-luxury-resort"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/thousands-protest-kushner-linked-coastal-resort-project-in-albania"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "US House votes to curb Trump’s Iran war powers, drawing an angry response from Trump",
+          "body": "The US House voted 215-208 to invoke the War Powers Act and require President Donald Trump to seek congressional approval for the war with Iran or withdraw US forces, marking a rare rebuke after four Republicans joined Democrats. The resolution’s practical effect remains uncertain because it may not carry binding legal force unless the Senate passes an identical concurrent resolution, and any altered version would likely face a Trump veto. Still, the vote was politically significant after more than 90 days of hostilities, a shaky ceasefire and stalled negotiations with Iran. Trump responded angrily on Truth Social, calling the vote meaningless and unpatriotic, attacking Democrats and the four Republican defectors as grandstanders.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jun/03/house-passes-war-power-resolution-trump-iran"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/us-house-votes-to-end-trumps-iran-war-does-it-matter"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cn0pl0wvvz0o"
+            },
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com/video/us/politics/100000010944299/trump-war-powers-iran.html"
+            }
+          ]
+        },
+        {
+          "headline": "Trump administration separated dozens of immigrant children from parents for a second time, AP finds",
+          "body": "An Associated Press investigation found that dozens of immigrant children who were separated from their parents under the first Trump administration have been separated again during the administration’s renewed mass-deportation push, despite a court settlement meant to keep those families together until 2031. AP reported that some protected parents were detained for months or deported after interior immigration arrests, and that in some cases officials removed people even after discovering they were legally off limits for deportation. The new separations often differ from the 2018 border policy: parents arrested or deported inside the US are being forced to choose whether to leave their children behind. DHS said it complies with court orders and accused advocacy groups and judges of obstructing immigration enforcement.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/immigration-trump-family-separation-ice-71a610d15af5207a68f989fcafb55039"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/immigration-trump-family-separation-takeaways-11b54d7207f4803baca51b43a25dfb25"
+            }
+          ]
+        },
+        {
+          "headline": "US abortion-pill fight returns to the courts as access by mail is restricted",
+          "body": "A federal appeals court blocked mail-order access to mifepristone, requiring the abortion pill to be dispensed only in person and at clinics, before the Supreme Court temporarily restored broader access while it considers the case. The 5th Circuit ruling sided with Louisiana’s argument that the FDA’s mail access rules undermined the state’s abortion ban, creating one of the biggest shifts in national abortion policy since Roe v. Wade was overturned. The drug’s makers, Danco Laboratories and GenBioPro, asked the Supreme Court for emergency relief, warning of immediate confusion for time-sensitive medical care. The case has returned abortion access to the center of midterm politics, with both abortion-rights and anti-abortion groups treating the dispute as a major test of federal power, FDA authority and telehealth access.",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/abortion-pills-mail-louisiana-ruling-40d60a9bf6212480e527480757b603c3"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/abortion-pills-mifepristone-mail-louisiana-b4871f5cdb3b0bf7bd218ea2ca64e78b"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/abortion-pill-politics-mifepristone-trump-republicans-democrats-8d15ca0de988e1d185515c621c67411e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Leire Díez scandal widens with alleged Guardia Civil and Fiscalía contacts under scrutiny",
+          "body": "The investigation into Leire Díez, the former PSOE militant accused of helping a network try to destabilize judicial and police probes affecting the party, widened with new details from recordings and Guardia Civil UCO reports. Investigators say Díez offered protection to former UCO captain Juan Sánchez Yepes in exchange for inside information on anti-corruption officers, including names, structure and alleged vulnerabilities, while claiming that the Guardia Civil director was someone she trusted. The case also points to possible contacts with the Fiscalía General del Estado, including messages in which Díez referred to meetings at the prosecutor’s office and suggested one could make the prime minister “adore” her. The material has increased scrutiny of alleged efforts to obtain sensitive information, influence legal proceedings and target investigators handling corruption cases connected to the PSOE.",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/04/6a2158fffc6c83820f8b459c.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260604/11555926/leire-diez-ofrecio-proteccion-excapitan-uco-cambio-trapos-sucios-directora-mi-confianza.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260604/uco-apunta-conversaciones-leire-diez-131014391"
+            }
+          ]
+        },
+        {
+          "headline": "UCO raids Tubos Reunidos and seeks SEPI records in a widening investigation into public rescues",
+          "body": "Guardia Civil UCO agents searched Tubos Reunidos facilities in Amurrio and Bilbao and requested records from SEPI in Madrid under orders from Audiencia Nacional judge Santiago Pedraz, as part of a sealed branch of the Leire Díez case examining public rescue funds. Investigators are looking into whether intermediaries connected to the alleged “Hirurok” group involving Santos Cerdán, Díez and former SEPI president Vicente Fernández helped steer a €112.8 million state rescue to the Basque company in exchange for commissions, including alleged payments through Mediaciones Martínez. The inquiry also examines later efforts to delay debt repayments and possible links to a Ferraz meeting involving Cerdán, Díez and Tubos Reunidos executives. The raids add to broader judicial scrutiny of pandemic-era SEPI rescues, including Tubos Reunidos, Plus Ultra and Air Europa.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260604/uco-registra-sede-tubos-reunidos-bilbao-pide-informacion-a-sepi-por-orden-pedraz/17100258.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260604/11555675/uco-registra-tubos-reunidos-bilbao-requiere-informacion-sobre-rescate-sepi.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20260604/plus-ultra-tubos-reunidos-air-131016156"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Catalan teachers reject pay deal and unions call another strike as the Govern says it will press ahead",
+          "body": "Catalan teachers rejected a proposed agreement with the Departament d’Educació, with 65.1% voting no in a broad consultation in which more than 60,000 public-school teachers participated. The deal included phased salary improvements, more staff for inclusive education and new secondary-school posts, but many teachers and unions said it failed to address deeper problems such as classroom conditions, ratios, underfunding, excluded support staff and early-childhood workers. USTEC, CGT and Intersindical called for a strike and further mobilization, while Professors de Secundària backed the agreement in its own vote and withdrew from the stoppage. Education minister Esther Niubó said the Govern would press ahead with the pact because it had support from one signatory union, while opposition parties urged renewed negotiations or called for her resignation.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/la-consulta-sobre-el-preacord-amb-els-docents-els-escenaris-que-es-poden-obrir-avui/noticia/3413291/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/ustec-crida-a-tothom-a-la-vaga-de-docents-de-dema-i-diu-que-consultara-els-proxims-passos/noticia/3413408/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260604/profesores-maestros-catalanes-claves-votar-no-aumento-sueldo-educacio-acuerdo-131014037"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://elmon.cat/societat/educacio/educacio-demana-responsabilitat-no-preacord-1160238/"
+            }
+          ]
+        },
+        {
+          "headline": "Pope Leo XIV’s Barcelona visit brings transport disruptions and a dispute over Catalan in the Sagrada Família blessing",
+          "body": "Barcelona is preparing major mobility restrictions for Pope Leo XIV’s June 9-10 visit, with traffic and parking limits around Montjuïc, the Cathedral, Sant Agustí in the Raval and especially the Sagrada Família, where the pope will bless the tower of Jesus. The city urged residents to plan ahead and use reinforced public transport as events at the Olympic Stadium, Sagrada Família and Cathedral are expected to draw up to 55,000 people. The visit has also triggered a language dispute after initial Vatican materials suggested the Sagrada Família blessing would be in Spanish; Cardinal Joan Josep Omella later said the pope would say some words in Catalan and was already rehearsing them, while organizers said Catalan would feature prominently in several parts of the visit and dismissed the controversy as exaggerated.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/omella-assegura-que-el-papa-dira-algunes-paraules-en-catala-a-la-benediccio-de-la-torre-de-jesus/noticia/3413406/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/carrers-tallats-i-afectacions-al-transport-public-per-la-visita-del-papa-lleo-xiv-a-catalunya/noticia/3412226/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/sociedad/20260604/cardenal-omella-confirma-papa-leon-xiv-si-hablara-catalan-bendicion-torre-jesus-sagrada-familia-131002278"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
