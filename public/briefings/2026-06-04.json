@@ -4,72 +4,24 @@
       "title": "World",
       "stories": [
         {
-          "headline": "Israel and Lebanon agree to conditional ceasefire as Iran-war diplomacy continues",
-          "body": "Israel and Lebanon agreed in US-mediated talks to renew a conditional ceasefire and create pilot security zones in southern Lebanon where the Lebanese Armed Forces would take exclusive control and Hezbollah operatives would be barred. The agreement depends on Hezbollah halting attacks and withdrawing fighters from the area south of the Litani River, but Hezbollah was not part of the negotiations and fighting continued after the announcement, with Israeli strikes reported in southern Lebanon and Hezbollah saying it targeted Israeli soldiers. Israel’s defence minister said Israeli forces would remain in southern Lebanon for now and retain US-backed freedom to strike if Israeli communities are attacked, leaving the deal fragile as Washington tries to separate the Lebanon track from broader diplomacy over the Iran war.",
-          "sources": [
-            {
-              "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/c5y01pdqvkgo"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/jun/04/israel-lebanon-renew-ceasefire-hezbollah-trump-iran-deal-middle-east-us"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire"
-            },
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/middle-east/20260604-israel-and-lebanon-agree-to-renew-ceasefire-condition-hezbollah-holds-fire"
-            }
-          ]
+          "headline": "Israel and Lebanon announce conditional ceasefire as Hezbollah rejects truce and Israeli strikes continue",
+          "body": "Israel and Lebanon agreed in US-mediated talks to renew a fragile ceasefire and create pilot security zones in southern Lebanon where the Lebanese Armed Forces would exclude Hezbollah and other non-state actors, but Hezbollah’s leader Naim Qassem rejected the plan as a “roadmap to annihilate part of the Lebanese people” and demanded a full Israeli withdrawal. The deal is contingent on Hezbollah stopping attacks and evacuating operatives from the area between the Israeli border and the Litani River, while Israel’s defense minister said Israeli forces would continue operations in southern Lebanon for now. Fighting continued after the announcement, with Israeli strikes reported in southern Lebanon and the Bekaa Valley and Hezbollah claiming attacks on Israeli soldiers, raising doubts over whether Lebanon can implement a truce without Hezbollah’s consent.",
+          "sources": ["BBC News", "The Guardian", "France 24", "Al Jazeera"]
         },
         {
-          "headline": "Fighting in Mogadishu escalates amid dispute over delayed elections",
-          "body": "Government forces and opposition-allied militias exchanged heavy fire in Mogadishu after President Hassan Sheikh Mohamud’s term expired and parliament-backed constitutional changes opened the way for a one-year extension and delayed elections. Opposition figures, including former president Sharif Sheikh Ahmed and former prime minister Hassan Ali Khaire, accused government troops of attacking their homes and trying to suppress planned demonstrations, while police said they were carrying out a security operation against armed militias that had launched mortar attacks. Residents reported mortars, burning buildings and civilians fleeing with children, and the US, UK, EU and regional bloc Igad urged restraint and dialogue as Somalia’s long-running political instability and al-Shabaab insurgency continue to strain the country.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire"
-            },
-            {
-              "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/cpdpwgxl1qzo"
-            }
-          ]
+          "headline": "Protests grow over planned US Ebola quarantine facility in Kenya as DRC outbreak response faces violence",
+          "body": "The Trump administration’s plan to build a 50-bed Ebola quarantine and treatment unit for Americans at Kenya’s Laikipia Air Base has triggered protests, legal challenges and criticism from former US health officials, CDC workers and Kenyan health unions, who say the policy departs from past practice of treating exposed US responders at home and risks treating Kenya as a containment site. A Kenyan court temporarily suspended the plan, but US and Kenyan preparations reportedly continued, prompting demonstrations in Nanyuki and demands that the facility be shut down. The controversy comes as an Ebola outbreak involving the Bundibugyo strain spreads in eastern DRC and Uganda, while attacks blamed on the Islamic State-linked ADF militia near Beni have killed more than 30 people, displaced residents and caused confirmed Ebola patients to flee treatment centers, complicating containment efforts.",
+          "sources": ["The Guardian", "Reuters", "Al Jazeera"]
         },
         {
-          "headline": "Ebola response in DRC hampered by deadly rebel attacks as outbreak timeline widens",
-          "body": "Rebel attacks blamed on the Islamic State-linked Allied Democratic Forces have killed more than 30 people around Beni in eastern Democratic Republic of the Congo, disrupting the response to an Ebola outbreak that has recorded hundreds of cases across North Kivu, South Kivu and Ituri. Local officials said three confirmed Ebola patients fled treatment centres after attacks, while community leaders warned that displacement and fear could spread infections and make containment harder. The WHO said the outbreak may have begun as early as January, giving the virus a significant head start, and said insecurity, mistrust, low contact-tracing rates and blanket travel restrictions were hindering efforts to catch up.",
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/global-development/2026/jun/04/allied-democratic-forces-adf-rebel-attacks-massacre-eastern-drc-ebola-response"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says"
-            }
-          ]
+          "headline": "Civilians flee Mogadishu as Somali troops and opposition-allied militias trade fire",
+          "body": "Heavy fighting broke out in Mogadishu between Somali government forces and militias aligned with opposition leaders after President Hassan Sheikh Mohamud extended his term by one year beyond its May 15 expiration, a move opponents called unconstitutional. Mortars and gunfire hit densely populated neighborhoods and the Bakara market area, forcing civilians to flee, while former president Sharif Sheikh Ahmed and former prime minister Hassan Ali Khaire accused government forces of attacking their positions and trying to suppress planned protests. Police said they were conducting a security operation against armed militias, while the UN, US embassy, EU and regional bloc IGAD condemned the violence and urged restraint and dialogue.",
+          "sources": ["The Guardian", "BBC News"]
         },
         {
-          "headline": "Ukraine and Russia trade major attacks as Kyiv claims battlefield gains",
-          "body": "Russia launched heavy attacks on Kyiv this week, setting fires in residential and non-residential areas and prompting Ukrainian officials to urge residents to take air raid alerts seriously after warnings of a possible massive strike. Ukraine, meanwhile, struck targets in Crimea and energy and military sites around Saint Petersburg, with Moscow-installed authorities reporting deaths in Crimea and US officials warning of escalation risks. Ukrainian and independent battlefield assessments cited by Spanish media say Kyiv has regained more territory than Russia for two straight months, a limited but significant trend attributed partly to Ukraine’s expanded drone production and attacks on Russian logistics, energy infrastructure and occupied Crimea supply routes.",
-          "sources": [
-            {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
-            },
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/europe/20260604-ukrainian-strike-kills-three-in-crimea-after-kyiv-targets-st-petersburg-energy-military-sites"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/internacional/20260604/11554991/ucrania-retroceder-rusia-frente-segundo-mes-consecutivo.html"
-            }
-          ]
+          "headline": "Russia attacks Kyiv as Ukraine reports gains and strikes in Crimea",
+          "body": "Russia launched heavy attacks on Kyiv, setting fires in residential and non-residential areas and sending residents into shelters after warning it would strike Ukrainian military-linked and decision-making targets in the capital. At the same time, Ukraine has expanded drone and missile strikes against Russian supply routes, energy infrastructure and military sites in occupied Crimea and inside Russia, with Moscow-installed officials saying strikes in Crimea killed at least four people, including in Simferopol and near Kerch. Ukrainian and outside analysts say Kyiv has made small net territorial gains for a second consecutive month and is using longer-range drones to pressure Russian logistics, fuel supplies and command infrastructure, while President Volodymyr Zelensky urged more international pressure on Moscow to resume negotiations before winter.",
+          "sources": ["Reuters", "BBC News", "France 24", "La Vanguardia"]
         }
       ]
     },
@@ -77,50 +29,24 @@
       "title": "US",
       "stories": [
         {
-          "headline": "US House votes to curb Trump’s authority over Iran war",
-          "body": "The US House passed a war powers resolution, 215-208, seeking to force President Donald Trump to seek congressional authorization for further military action in Iran or withdraw US forces. Four Republicans joined Democrats in the first successful House vote this year to rein in Trump’s Iran war powers, a symbolic but politically significant rebuke after more than 90 days of conflict that began with US and Israeli strikes in February. The measure’s legal force is uncertain because it is a concurrent resolution and the White House argues it is unconstitutional, but supporters said it shows growing bipartisan concern over an open-ended Middle East war, rising fuel prices and the lack of a diplomatic settlement.",
-          "sources": [
-            {
-              "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/cj6pldg39deo"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/jun/03/house-passes-war-power-resolution-trump-iran"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/3/us-house-of-representatives-passes-war-powers-resolution-in-rebuke-to-trump"
-            },
-            {
-              "name": "Associated Press",
-              "url": "https://apnews.com/newsletter/morning-wire/june-4-2026"
-            }
-          ]
+          "headline": "US House votes to curb Trump’s Iran war powers as talks with Tehran stall",
+          "body": "The US House voted 215-208 to approve a war powers resolution requiring President Donald Trump to seek congressional authorization for the war with Iran or withdraw US forces, with four Republicans joining Democrats in a rare rebuke of the president. The vote came more than 90 days into the conflict, a threshold Democrats argue triggers the 1973 War Powers Resolution, though the White House says intermittent ceasefires and the nature of the operations mean congressional approval is not required. The measure now goes to the Senate and may remain largely symbolic because of legal uncertainty and Trump’s veto power, but it reflects growing Republican unease as peace talks with Tehran remain stalled, the Strait of Hormuz stays closed and US-Iran hostilities continue to disrupt global trade.",
+          "sources": ["The Guardian", "Al Jazeera", "France 24"]
         },
         {
-          "headline": "US immigration authorities separated dozens of children from parents for a second time, AP finds",
-          "body": "An Associated Press investigation found that dozens of children separated from their families under the first Trump administration have been separated again despite a legal settlement meant to keep such families together until 2031. The report describes cases in which parents were detained or deported during renewed immigration enforcement sweeps, forcing them to choose whether to leave children behind in the United States, and cites emails indicating officials sometimes moved forward even after discovering families were legally protected from removal. One family returned to Florida only after a federal judge found the government had acted illegally, while DHS said it complies with court orders and accused outside groups and judges of obstructing enforcement.",
-          "sources": [
-            {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/immigration-trump-family-separation-ice-71a610d15af5207a68f989fcafb55039"
-            },
-            {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/immigration-trump-family-separation-takeaways-11b54d7207f4803baca51b43a25dfb25"
-            }
-          ]
+          "headline": "Trump administration separated dozens of immigrant children from parents for a second time, AP finds",
+          "body": "An Associated Press investigation found that the Trump administration has re-separated dozens of immigrant children from parents who had already been separated under Trump’s first-term border policy, despite a court settlement meant to protect those families from being separated again until 2031. Some parents have been detained for months or deported after interior immigration arrests, and in some cases officials reportedly removed people despite discovering they were legally off limits for deportation. The separations differ from 2018, when children were forcibly taken at the border, but advocates say parents arrested or deported under the administration’s mass-deportation push are now being forced to choose whether to leave children behind in the United States, retraumatizing families covered by the earlier settlement.",
+          "sources": ["Associated Press"]
         },
         {
-          "headline": "Trump administration moves to rewrite rules for US higher education after campus investigations",
-          "body": "After a year of investigations and funding threats aimed at individual universities, the Trump administration is shifting to broader federal rulemaking that could affect thousands of US colleges. Education Department officials say they are trying to “course correct” higher education after judges blocked major funding cuts at Harvard and UCLA and after many civil rights lawyers left the department. The proposed regulatory approach targets many of the same areas pursued through campus investigations, including diversity, equity and inclusion policies, transgender athletes, antisemitism and practices the administration describes as anti-white discrimination.",
-          "sources": [
-            {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/trump-colleges-higher-education-investigations-rules-83d79bc1b371191f77ae571c1df3490d"
-            }
-          ]
+          "headline": "Support for same-sex marriage and transgender rights shifts sharply in new polling and lawsuits",
+          "body": "A new Gallup poll shows US support for same-sex marriage has declined to 65% from a recent high of 71%, driven mainly by a sharp drop among Republicans, whose support has fallen from 55% in 2022 to 37%. Gallup also found support for the moral acceptability of same-sex relationships and gender transition has fallen, with only 38% of Americans now saying changing genders is morally acceptable and Republican support dropping to 5%. The polling reflects a widening partisan divide that is also visible in state-level policy fights, including bills in at least 11 states seeking to challenge or restrict recognition of same-sex marriage despite the Supreme Court’s 2015 nationwide ruling.",
+          "sources": ["The New York Times", "Associated Press"]
+        },
+        {
+          "headline": "New bipartisan AI bill lands in Congress as OpenAI splits with White House on safety rules",
+          "body": "Representatives Jay Obernolte and Lori Trahan are introducing a bipartisan AI bill that would require leading AI developers to disclose safety and security risks for frontier models and submit that information to third-party auditors, while temporarily limiting states’ ability to regulate how top AI companies develop the technology. The state preemption language has drawn criticism from AI safety advocates and tech critics, even as the bill represents one of Congress’s last major chances to pass federal AI rules before the midterms. Separately, OpenAI proposed mandatory federal evaluations of advanced AI models led by civilian agencies such as NIST’s Center for AI Standards and Innovation, diverging from a new Trump executive order that relies on voluntary vetting and gives the NSA a leading role in cybersecurity risk evaluation.",
+          "sources": ["Politico"]
         }
       ]
     },
@@ -128,44 +54,14 @@
       "title": "Spain",
       "stories": [
         {
-          "headline": "Spanish political scandal over Leire Díez grows as Guardia Civil director and PSOE figures face scrutiny",
-          "body": "New material from the Audiencia Nacional investigation into the Leire Díez case has intensified scrutiny of senior Guardia Civil and PSOE-linked figures, with investigators examining whether Díez sought to undermine corruption inquiries affecting the Socialist party and people close to Prime Minister Pedro Sánchez. El País and La Vanguardia reported that WhatsApp messages, agenda entries and phone data point to multiple contacts or meetings between Díez and Guardia Civil director Mercedes González, whom Díez described as someone she trusted, while UCO investigators also examined internal Guardia Civil inquiries into alleged leaks from units investigating the government’s circle. El Periódico reported that the UCO inferred from intercepted messages that Sánchez knew of Díez’s activity, though that conclusion is based on references in chats and the case remains under judicial investigation.",
-          "sources": [
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-06-04/los-audios-del-caso-leire-diez-mi-siguiente-conversacion-va-a-ser-con-la-directora-de-la-guardia-civil-es-de-mi-confianza.html"
-            },
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-06-04/el-caso-leire-diez-golpea-a-la-directora-de-la-guardia-civil-por-las-conversaciones-y-contactos-con-la-fontanera.html"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/politica/20260604/11555260/directora-guardia-civil-cito-tres-veces-leire-diez.html"
-            },
-            {
-              "name": "El Periódico",
-              "url": "https://www.elperiodico.com/es/politica/20260604/uco-deduce-mensajes-interceptados-leire-131007720"
-            }
-          ]
+          "headline": "Spain’s Leire Díez scandal widens with Guardia Civil claims, UCO searches and pressure on Sánchez allies",
+          "body": "The investigation into former PSOE militant Leire Díez widened as case files and audio recordings described meetings with Guardia Civil officers, prosecutors, politicians, business figures under investigation and former police commissioner José Manuel Villarejo, allegedly aimed at undermining corruption cases affecting the Socialist Party and people close to Prime Minister Pedro Sánchez. One recording reportedly shows Díez describing Guardia Civil director Mercedes González as someone she trusted, while Guardia Civil UCO officers searched Tubos Reunidos offices in Álava and Bilbao as part of a sealed branch of the case. Sánchez’s coalition partners in Sumar demanded explanations “at the highest level,” transparency and accountability, while reporting from the case file points to alleged links with former PSOE organization secretary Santos Cerdán and efforts to obtain compromising material on investigators, judges and prosecutors.",
+          "sources": ["El País", "RTVE", "La Vanguardia"]
         },
         {
-          "headline": "UCO searches Tubos Reunidos and seeks SEPI records in secret Leire case offshoot",
-          "body": "Guardia Civil UCO agents searched Tubos Reunidos sites in Bilbao and Amurrio and requested information from SEPI as part of a still-secret branch of the Leire Díez investigation overseen by Audiencia Nacional judge Santiago Pedraz. Investigators are examining possible links between the company’s pandemic-era public rescue, its debt to SEPI and alleged commissions or influence operations involving figures connected to the case, including references to a November 2024 meeting at PSOE headquarters with Santos Cerdán, Díez and company executives. RTVE and La Vanguardia reported that investigators are seeking documentation on financial operations that may have diverted money to the alleged network, while Tubos Reunidos’ rescue and subsequent efforts to delay debt repayments are now part of the inquiry.",
-          "sources": [
-            {
-              "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/20260604/uco-registra-sede-tubos-reunidos-bilbao-pide-informacion-a-sepi-por-orden-pedraz/17100258.shtml"
-            },
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-06-04/la-uco-registra-la-sede-de-tubos-reunidos-en-bilbao-por-una-pieza-secreta-del-caso-leire.html"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/politica/20260604/11555675/uco-registra-tubos-reunidos-bilbao-requiere-informacion-sobre-rescate-sepi.html"
-            }
-          ]
+          "headline": "David Sánchez denies using his surname to influence public job case",
+          "body": "David Sánchez, the brother of Prime Minister Pedro Sánchez, denied in court that he used his surname or had any capacity to influence the creation or award of public posts at the Badajoz provincial government, where he is accused of influence peddling and prevarication over his 2017 appointment and the 2023 hiring of a friend. His testimony lasted about 10 minutes and he answered only his lawyer’s questions, focusing on his later job change and denying that he performed private work without authorization. His defense argued that charges tied to his original appointment should be dropped because related allegations are time-barred, while popular accusations led by PP, Vox and far-right groups maintain that the position was created for him and are seeking prison time and disqualification from office.",
+          "sources": ["El País", "La Vanguardia", "3Cat"]
         }
       ]
     },
@@ -173,44 +69,24 @@
       "title": "Barcelona & Catalunya",
       "stories": [
         {
-          "headline": "Catalan teachers reject education pre-agreement and prepare new strikes",
-          "body": "Catalan public school teachers rejected a pre-agreement with the Education Department, with 65.1% of more than 60,000 participating teachers voting no and backing further strike action. The deal, signed by USTEC and Professors de Secundària, included staged salary improvements, more staff for inclusive education and new secondary-school posts, but many teachers said it did not go far enough to address what unions call an education emergency. USTEC said Friday’s strike would go ahead and called for renewed talks, CGT and La Intersindical urged wider mobilization and demanded Education Minister Esther Niubó’s dismissal, while Professors de Secundària said its own members had endorsed the pact and withdrew from Friday’s strike.",
-          "sources": [
-            {
-              "name": "3Cat",
-              "url": "https://www.3cat.cat/3catinfo/la-consulta-sobre-el-preacord-amb-els-docents-els-escenaris-que-es-poden-obrir-avui/noticia/3413291/"
-            },
-            {
-              "name": "El Periódico",
-              "url": "https://www.elperiodico.com/es/sociedad/20260604/profesores-rechazan-preacuerdo-educacion-govern-catalanes-tumba-preacuerdo-131001855"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/vida/20260604/11555255/profesores-votan-preacuerdo-educativo.html"
-            },
-            {
-              "name": "betevé",
-              "url": "https://beteve.cat/societat/docents-rebutgen-acord-educacio-mantenen-vaga/"
-            }
-          ]
+          "headline": "Catalan teachers reject pay agreement and unions call new strikes as government says it will proceed",
+          "body": "Catalan public school teachers rejected a proposed agreement with the Education Department, with 65.1% of participating teachers voting no in a consultation that drew more than 60,000 ballots, or 61% of the eligible workforce. The deal included a new monthly pay supplement phased in over four years, 6,400 positions to strengthen inclusive education and new secondary-school posts, but USTEC withdrew its support after the vote and joined CGT and Intersindical in calling a strike and further mobilizations, including possible action around Pope Leo XIV’s visit and university entrance exams. Education minister Esther Niubó said the government would still move forward with the measures because another signatory union, Professors de Secundària, backed the agreement internally, while ERC and Comuns urged the government to reopen negotiations.",
+          "sources": ["3Cat", "El Periódico", "La Vanguardia", "betevé"]
         },
         {
-          "headline": "Barcelona to eliminate private shared-bike licences over misuse",
-          "body": "Barcelona Mayor Jaume Collboni said the city will stop renewing licences for private app-based shared-bike companies, effectively removing about 3,500 bikes from the streets by 2027. The city says the services have generated thousands of sanctions, removals and resident complaints over badly parked bicycles and misuse of public space, while only a small share of users are Barcelona residents. Collboni said the move is meant to protect public space and prioritize resident mobility, while traditional bike-rental shops will not be affected and the city plans to expand the municipal Bicing system.",
-          "sources": [
-            {
-              "name": "3Cat",
-              "url": "https://www.3cat.cat/3catinfo/barcelona-suprimira-les-bicicletes-compartides-que-es-lloguen-a-traves-del-mobil-pel-mal-us/noticia/3413330/"
-            },
-            {
-              "name": "Tot Barcelona",
-              "url": "https://www.totbarcelona.cat/mobilitat/barcelona-eliminara-les-llicencies-de-bicicletes-compartides-privades-pel-seu-mal-us-718727/"
-            },
-            {
-              "name": "El Periódico Barcelona",
-              "url": "https://www.elperiodico.com/es/barcelona/20260604/barcelona-eliminara-2027-licencias-empresas-bicicletas-uso-compartido-bicisharing-privado-131004651"
-            }
-          ]
+          "headline": "Catalonia’s budget clears first parliamentary hurdle amid education conflict",
+          "body": "Catalonia’s 2026 budget cleared its first parliamentary hurdle after PSC, ERC and Comuns voted down total-rejection amendments from Junts, PP, Vox, CUP and Aliança Catalana, keeping Salvador Illa’s first budget on track for a final vote expected in early July. Economy minister Alícia Romero praised ERC and Comuns for enabling nearly €50 billion in spending after years of extended budgets, while urging Junts and PP not to block a new regional financing deal in Spain’s Congress. The vote was overshadowed by the teachers’ rejection of the education agreement, with ERC and Comuns defending their budget pact as preferable to continued deadlock but pressing the government to make a renewed effort to resolve the school conflict.",
+          "sources": ["3Cat", "El Periódico"]
+        },
+        {
+          "headline": "Heavy rain alerts expanded across Catalonia as Civil Protection warns of flash river rises",
+          "body": "Catalonia’s meteorological service expanded high-risk rain alerts to 17 counties and moderate alerts to many more as Civil Protection kept the Inuncat flood plan activated, warning of intense and sudden storms across parts of Barcelona, Girona and the northeast. Forecasters said rainfall could exceed 40 liters per square meter in 30 minutes and, under a newly issued three-hour warning, reach 60 liters per square meter in parts of Ripollès, Garrotxa, Osona and Lluçanès, with storms possibly accompanied by hail. Because recent rains have left soils saturated, authorities warned that rivers and streams could rise quickly and urged residents to avoid flood-prone areas and never cross rivers, streams or ravines even if little water is visible.",
+          "sources": ["3Cat", "El Periódico", "La Vanguardia"]
+        },
+        {
+          "headline": "Pope Leo XIV’s Barcelona visit stirs debate over Catalan at Sagrada Família blessing",
+          "body": "Barcelona archbishop Joan Josep Omella said Pope Leo XIV will say “some words” in Catalan during the blessing of the Sagrada Família’s Tower of Jesus, seeking to defuse controversy after reports that the central liturgical act of the pope’s June 9-11 visit would be conducted only in Spanish. Omella called the dispute exaggerated and said the pope knows Catalan is spoken in Catalonia, is sensitive to languages and has been rehearsing Catalan text, while organizers said other events, including a prayer at Barcelona Cathedral, will be largely in Catalan with some Spanish. The issue has drawn criticism from Catalan political and civic figures, including Carles Puigdemont, and a public letter from former leaders and organizations demanding a visible role for Catalan during the visit.",
+          "sources": ["3Cat", "La Vanguardia", "Tot Barcelona"]
         }
       ]
     }
