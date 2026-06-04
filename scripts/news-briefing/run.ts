@@ -12,8 +12,11 @@ import { synthesizeBriefing } from "./synthesizeBriefing.ts"
 
 const date = process.argv[2] ?? new Date().toISOString().slice(0, 10)
 
+const log = (message: string) => console.log(message)
+
 await runNewsBriefingPipeline({
   date,
+  log,
   listMissingBriefingDates: () =>
     listMissingBriefingDates({
       briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
@@ -23,6 +26,7 @@ await runNewsBriefingPipeline({
     buildRawBriefing({
       date: targetDate,
       fetchPageHtml: fetchPageHtmlWithCurl,
+      log,
       rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
       sourceConfigs: NEWS_SOURCE_CONFIGS,
     }),
