@@ -6,6 +6,10 @@ export async function commitAndPushGeneratedBriefings(
   /** The generated briefing dates and optional command runner. */
   args: CommitAndPushGeneratedBriefingsArgs,
 ): Promise<void> {
+  if (args.dates.length === 0) {
+    return
+  }
+
   const runCommand = args.runCommand ?? runProcessWithForwardedOutput
   const generatedPaths = args.dates.flatMap(date => [
     `public/briefings/${date}.json`,

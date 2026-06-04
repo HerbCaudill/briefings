@@ -35,4 +35,18 @@ describe("commitAndPushGeneratedBriefings", () => {
       { command: "git", args: ["push"] },
     ])
   })
+
+  test("does not run git commands when there are no generated dates", async () => {
+    const commands: Array<{ args: string[]; command: string }> = []
+
+    await commitAndPushGeneratedBriefings({
+      dates: [],
+      runCommand: async (command, args) => {
+        commands.push({ args, command })
+        return ""
+      },
+    })
+
+    expect(commands).toEqual([])
+  })
 })

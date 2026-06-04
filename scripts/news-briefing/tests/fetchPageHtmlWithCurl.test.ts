@@ -1,4 +1,4 @@
-import { chmodSync, mkdtempSync, writeFileSync } from "node:fs"
+import { chmodSync, mkdtempSync, rmSync, writeFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import path from "node:path"
 import { afterEach, describe, expect, test } from "vitest"
@@ -11,9 +11,8 @@ const temporaryDirectories: string[] = []
 afterEach(() => {
   process.env.PATH = originalPath
 
-  for (const directoryPath of temporaryDirectories) {
-    // Cleanup intentionally omitted because repo instructions prohibit rm unless explicitly requested.
-    void directoryPath
+  for (const directoryPath of temporaryDirectories.splice(0)) {
+    rmSync(directoryPath, { force: true, recursive: true })
   }
 })
 

@@ -27,6 +27,34 @@ describe("runProcessWithForwardedOutput", () => {
     expect(stdoutChunks.join("")).toBe("partial json")
     expect(stderrChunks.join("")).toBe("thinking\n")
   })
+
+  test("rejects when the process exits with a non-zero code", async () => {
+    const childProcess = new EventEmitter() as ChildProcessStub
+    childProcess.stdout = new PassThrough()
+    childProcess.stderr = new PassThrough()
+
+    const resultPromise = runProcessWithForwardedOutput("pi", ["-p", "hello"], {
+      spawnProcess: (() => childProcess) as SpawnProcessStub,
+    })
+
+    childProcess.emit("close", 2)
+
+    await expect(resultPromise).rejects.toThrow("pi exited with code 2")
+  })
+
+  test("rejects when the process fails to spawn", async () => {
+    const childProcess = new EventEmitter() as ChildProcessStub
+    childProcess.stdout = new PassThrough()
+    childProcess.stderr = new PassThrough()
+
+    const resultPromise = runProcessWithForwardedOutput("pi", ["-p", "hello"], {
+      spawnProcess: (() => childProcess) as SpawnProcessStub,
+    })
+
+    childProcess.emit("error", new Error("spawn failed"))
+
+    await expect(resultPromise).rejects.toThrow("spawn failed")
+  })
 })
 
 /** Create a writable stream that appends chunks to an array. */

@@ -16,6 +16,7 @@ describe("listMissingBriefingDates", () => {
 
     writeFileSync(path.join(rawDirectoryPath, "2026-04-19.json"), "{}")
     writeFileSync(path.join(rawDirectoryPath, "2026-04-20.json"), "{}")
+    writeFileSync(path.join(rawDirectoryPath, "2026-04-21-selection.json"), "{}")
     writeFileSync(path.join(briefingDirectoryPath, "2026-04-19.json"), "{}")
     writeFileSync(path.join(briefingDirectoryPath, "index.json"), "[]")
 
@@ -25,5 +26,16 @@ describe("listMissingBriefingDates", () => {
         rawDirectoryPath,
       }),
     ).toEqual(["2026-04-20"])
+  })
+
+  test("returns an empty list when the raw directory does not exist", () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-missing-"))
+
+    expect(
+      listMissingBriefingDates({
+        briefingDirectoryPath: path.join(rootDirectoryPath, "public/briefings"),
+        rawDirectoryPath: path.join(rootDirectoryPath, "public/briefings/raw"),
+      }),
+    ).toEqual([])
   })
 })

@@ -94,4 +94,24 @@ describe("extractHeadlineCandidates", () => {
       },
     ])
   })
+
+  test("ignores headline links that are not HTTP article URLs", () => {
+    const candidates = extractHeadlineCandidates(
+      "https://example.com/",
+      `
+        <h2><a href="javascript:void(0)">Javascript headline with enough words to otherwise keep</a></h2>
+        <h2><a href="mailto:newsroom@example.com">Email headline with enough words to otherwise keep</a></h2>
+        <h2><a href="#main-content">Hash headline with enough words to otherwise keep</a></h2>
+        <h2><a href="/world/story-one">Actual article headline with enough words to keep</a></h2>
+      `,
+    )
+
+    expect(candidates).toEqual([
+      {
+        headline: "Actual article headline with enough words to keep",
+        position: 1,
+        url: "https://example.com/world/story-one",
+      },
+    ])
+  })
 })

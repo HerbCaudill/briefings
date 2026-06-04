@@ -1,5 +1,6 @@
 import { decodeNewsText } from "./decodeNewsText.ts"
 import { isGenericHeadline } from "./isGenericHeadline.ts"
+import { isHttpArticleUrl } from "./isHttpArticleUrl.ts"
 import type { HeadlineCandidate } from "./types.ts"
 
 /** Extract headline candidates from a news homepage or RSS document. */
@@ -33,12 +34,18 @@ export function extractHeadlineCandidates(
       continue
     }
 
+    const articleUrl = new URL(resolvedHref, baseUrl)
+
+    if (!isHttpArticleUrl(articleUrl)) {
+      continue
+    }
+
     seenHeadlines.add(headline)
     candidates.push({
       body: body.length > 40 ? body : undefined,
       headline,
       position: candidates.length + 1,
-      url: new URL(resolvedHref, baseUrl).toString(),
+      url: articleUrl.toString(),
     })
   }
 
@@ -73,20 +80,28 @@ export function extractHeadlineCandidates(
       continue
     }
 
-    seenHeadlines.add(headline)
-
     const inlineHrefMatch = content.match(/href=["']([^"']+)["']/i)
     const headingPosition = match.index ?? 0
     const parentAnchor = anchorRanges.find(
       anchorRange => anchorRange.start < headingPosition && headingPosition < anchorRange.end,
     )
     const resolvedHref = inlineHrefMatch?.[1] ?? parentAnchor?.href ?? ariaMap.get(headline) ?? ""
-    const url = resolvedHref ? new URL(resolvedHref, baseUrl).toString() : ""
 
+    if (!resolvedHref) {
+      continue
+    }
+
+    const articleUrl = new URL(resolvedHref, baseUrl)
+
+    if (!isHttpArticleUrl(articleUrl)) {
+      continue
+    }
+
+    seenHeadlines.add(headline)
     candidates.push({
       headline,
       position: candidates.length + 1,
-      url,
+      url: articleUrl.toString(),
     })
   }
 
@@ -100,7 +115,7 @@ export function extractHeadlineCandidates(
       headline.length <= 45 ||
       seenHeadlines.has(headline) ||
       isGenericHeadline(headline) ||
-      ["http:", "https:"].includes(url.protocol) === false ||
+      !isHttpArticleUrl(url) ||
       pathSegments.length < 2
     ) {
       continue

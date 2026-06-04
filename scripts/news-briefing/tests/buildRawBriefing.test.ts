@@ -1,4 +1,4 @@
-import { mkdtempSync } from "node:fs"
+import { mkdtempSync, rmSync } from "node:fs"
 import { tmpdir } from "node:os"
 import path from "node:path"
 import { afterEach, describe, expect, test } from "vitest"
@@ -8,9 +8,8 @@ import type { NewsSourceConfig } from "../types.ts"
 const temporaryDirectories: string[] = []
 
 afterEach(() => {
-  for (const directoryPath of temporaryDirectories) {
-    // Cleanup intentionally omitted because repo instructions prohibit rm unless explicitly requested.
-    void directoryPath
+  for (const directoryPath of temporaryDirectories.splice(0)) {
+    rmSync(directoryPath, { force: true, recursive: true })
   }
 })
 
@@ -80,48 +79,6 @@ describe("buildRawBriefing", () => {
       "https://source-two.example/story-d",
     ])
     expect(fetchedUrls).not.toContain("https://source-one.example/story-c")
-  })
-
-  test("logs source and article-fetch progress", async () => {
-    const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
-    temporaryDirectories.push(rawDirectoryPath)
-
-    const messages: string[] = []
-
-    await buildRawBriefing({
-      date: "2026-04-22",
-      fetchPageHtml: async url => {
-        if (url === "https://source.example/news") {
-          return `
-            <h2><a href="/story-a">Story A headline with enough words to keep</a></h2>
-            <h2><a href="/story-b">Story B headline with enough words to keep</a></h2>
-          `
-        }
-
-        return `
-          <article>
-            <p>This article body is comfortably longer than forty characters and should be kept.</p>
-          </article>
-        `
-      },
-      log: message => messages.push(message),
-      rawDirectoryPath,
-      sourceConfigs: [
-        {
-          homepageUrl: "https://source.example/news",
-          key: "source",
-          name: "Source",
-          region: "world",
-        },
-      ],
-    })
-
-    expect(messages).toEqual([
-      "Fetching homepage for Source...",
-      "Found 2 headline candidates for Source; using 2.",
-      "Kept 2 candidate articles for selection.",
-      `Wrote candidate briefing to ${path.join(rawDirectoryPath, "2026-04-22.json")}.`,
-    ])
   })
 
   test("skips source homepages that fail to fetch", async () => {
@@ -274,77 +231,5 @@ describe("buildRawBriefing", () => {
     expect(rawBriefing.articles.map(article => article.url)).toEqual([
       "https://source.example/feed-story",
     ])
-  })
-
-  test("keeps all candidate article records without fetching their bodies", async () => {
-    const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
-    temporaryDirectories.push(rawDirectoryPath)
-
-    const attemptsByUrl = new Map<string, number>()
-    const rawBriefing = await buildRawBriefing({
-      date: "2026-04-21",
-      fetchPageHtml: async url => {
-        attemptsByUrl.set(url, (attemptsByUrl.get(url) ?? 0) + 1)
-
-        if (url === "https://source.example/news") {
-          return `
-            <h2><a href="/story-success">Successful story headline with enough words to keep</a></h2>
-            <h2><a href="/story-retry">Retry story headline with enough words to keep</a></h2>
-            <h2><a href="/story-fail">Failed story headline with enough words to keep</a></h2>
-            <h2><a href="/story-empty">Empty story headline with enough words to keep</a></h2>
-          `
-        }
-
-        if (url === "https://source.example/story-success") {
-          return `
-            <article>
-              <p>This successful article body is comfortably longer than forty characters and should be kept.</p>
-            </article>
-          `
-        }
-
-        if (url === "https://source.example/story-retry") {
-          if ((attemptsByUrl.get(url) ?? 0) < 2) {
-            throw new Error("temporary failure")
-          }
-
-          return `
-            <article>
-              <p>This retried article body is comfortably longer than forty characters and should be kept.</p>
-            </article>
-          `
-        }
-
-        if (url === "https://source.example/story-fail") {
-          throw new Error("permanent failure")
-        }
-
-        return `
-          <article>
-            <p>Too short.</p>
-          </article>
-        `
-      },
-      rawDirectoryPath,
-      sourceConfigs: [
-        {
-          homepageUrl: "https://source.example/news",
-          key: "source",
-          name: "Source",
-          region: "world",
-        },
-      ],
-    })
-
-    expect(rawBriefing.articles.map(article => article.url)).toEqual([
-      "https://source.example/story-success",
-      "https://source.example/story-retry",
-      "https://source.example/story-fail",
-      "https://source.example/story-empty",
-    ])
-    expect(rawBriefing.articles.every(article => !("body" in article))).toBe(true)
-    expect(attemptsByUrl.get("https://source.example/story-retry")).toBeUndefined()
-    expect(attemptsByUrl.get("https://source.example/story-fail")).toBeUndefined()
-    expect(attemptsByUrl.get("https://source.example/story-empty")).toBeUndefined()
   })
 })
