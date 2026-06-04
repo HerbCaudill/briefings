@@ -5,6 +5,81 @@ import { describe, expect, test } from "vitest"
 import { synthesizeBriefing } from "../synthesizeBriefing.ts"
 
 describe("synthesizeBriefing", () => {
+  test("rejects malformed raw briefing files with a schema error", async () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
+    const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
+    const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
+
+    mkdirSync(rawDirectoryPath, { recursive: true })
+    writeFileSync(
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify({ articles: [{ headline: "Missing required fields" }], date: "2026-04-20" }),
+    )
+
+    await expect(
+      synthesizeBriefing({
+        briefingDirectoryPath,
+        date: "2026-04-20",
+        fetchPageHtml: async () => "",
+        rawDirectoryPath,
+        runPi: async () => JSON.stringify({ stories: [] }),
+      }),
+    ).rejects.toThrow("Invalid raw briefing JSON")
+  })
+
+  test("rejects malformed pi selection output with a schema error", async () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
+    const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
+    const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
+
+    mkdirSync(rawDirectoryPath, { recursive: true })
+    writeFileSync(
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify({ articles: [], date: "2026-04-20" }),
+    )
+
+    await expect(
+      synthesizeBriefing({
+        briefingDirectoryPath,
+        date: "2026-04-20",
+        fetchPageHtml: async () => "",
+        rawDirectoryPath,
+        runPi: async () =>
+          JSON.stringify({ stories: [{ headline: "Bad section", section: "Sports" }] }),
+      }),
+    ).rejects.toThrow("Invalid pi selection JSON")
+  })
+
+  test("rejects malformed pi synthesis output with a schema error", async () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
+    const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
+    const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
+
+    mkdirSync(rawDirectoryPath, { recursive: true })
+    writeFileSync(
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify({ articles: [], date: "2026-04-20" }),
+    )
+
+    let calls = 0
+
+    await expect(
+      synthesizeBriefing({
+        briefingDirectoryPath,
+        date: "2026-04-20",
+        fetchPageHtml: async () => "",
+        rawDirectoryPath,
+        runPi: async () => {
+          calls += 1
+
+          return calls === 1
+            ? JSON.stringify({ stories: [] })
+            : JSON.stringify({ sections: [{ title: "Sports", stories: [] }] })
+        },
+      }),
+    ).rejects.toThrow("Invalid pi synthesis JSON")
+  })
+
   test("selects stories from compact metadata, hydrates them, and writes the final briefing JSON", async () => {
     const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
     const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")

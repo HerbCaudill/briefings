@@ -1,9 +1,10 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import path from "node:path"
 import { SELECTION_PROMPT, SYNTHESIS_PROMPT } from "./constants.ts"
+import { decodeJsonWithSchema } from "./decodeJsonWithSchema.ts"
 import { formatElapsedSeconds } from "./formatElapsedSeconds.ts"
 import { hydrateSelectedStories } from "./hydrateSelectedStories.ts"
-import { parseJsonObject } from "./parseJsonObject.ts"
+import { BriefingSelectionSchema, FinalBriefingSchema, RawBriefingSchema } from "./schemas.ts"
 import type { BriefingSelection, RawBriefing, SynthesizeBriefingArgs } from "./types.ts"
 
 /** Run pi in selection and synthesis stages, then write the final briefing JSON. */
@@ -20,7 +21,15 @@ export async function synthesizeBriefing(
     throw new Error(`Missing raw briefing file: ${rawBriefingPath}`)
   }
 
-  const rawBriefing = parseJsonObject<RawBriefing>(readFileSync(rawBriefingPath, "utf8"))
+  const decodedRawBriefing = decodeJsonWithSchema(
+    RawBriefingSchema,
+    readFileSync(rawBriefingPath, "utf8"),
+    "raw briefing",
+  )
+  const rawBriefing: RawBriefing = {
+    articles: [...decodedRawBriefing.articles],
+    date: decodedRawBriefing.date,
+  }
 
   args.log?.("Selecting stories...")
   const selectionStart = now()
@@ -36,7 +45,14 @@ export async function synthesizeBriefing(
   args.log?.("Fetching sources...")
   args.log?.("")
   const fetchSourcesStart = now()
-  const selection = parseJsonObject<BriefingSelection>(selectionOutput)
+  const decodedSelection = decodeJsonWithSchema(BriefingSelectionSchema, selectionOutput, "pi selection")
+  const selection: BriefingSelection = {
+    stories: decodedSelection.stories.map(story => ({
+      headline: story.headline,
+      section: story.section,
+      sourceUrls: [...story.sourceUrls],
+    })),
+  }
   const hydratedSelection = await hydrateSelectedStories(
     rawBriefing,
     selection,
@@ -56,8 +72,10 @@ export async function synthesizeBriefing(
     rawBriefingPath: selectionPath,
   })
 
+  const finalBriefing = decodeJsonWithSchema(FinalBriefingSchema, synthesis, "pi synthesis")
+
   mkdirSync(args.briefingDirectoryPath, { recursive: true })
-  writeFileSync(briefingPath, `${synthesis.trim()}\n`)
+  writeFileSync(briefingPath, JSON.stringify(finalBriefing, null, 2) + "\n")
   args.log?.(`done (${formatElapsedSeconds(now() - writingStart)})`)
   args.log?.("")
 
