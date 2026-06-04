@@ -1,5 +1,9 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
-import path from "node:path"
+import {
+  getFinalBriefingPath,
+  getRawBriefingPath,
+  getSelectionBriefingPath,
+} from "./briefingPaths.ts"
 import { SELECTION_PROMPT, SYNTHESIS_PROMPT } from "./constants.ts"
 import { decodeJsonWithSchema } from "./decodeJsonWithSchema.ts"
 import { formatElapsedSeconds } from "./formatElapsedSeconds.ts"
@@ -13,9 +17,9 @@ export async function synthesizeBriefing(
   args: SynthesizeBriefingArgs,
 ): Promise<string> {
   const now = args.now ?? Date.now
-  const rawBriefingPath = path.join(args.rawDirectoryPath, `${args.date}.json`)
-  const briefingPath = path.join(args.briefingDirectoryPath, `${args.date}.json`)
-  const selectionPath = path.join(args.rawDirectoryPath, `${args.date}-selection.json`)
+  const rawBriefingPath = getRawBriefingPath(args.rawDirectoryPath, args.date)
+  const briefingPath = getFinalBriefingPath(args.briefingDirectoryPath, args.date)
+  const selectionPath = getSelectionBriefingPath(args.rawDirectoryPath, args.date)
 
   if (!existsSync(rawBriefingPath)) {
     throw new Error(`Missing raw briefing file: ${rawBriefingPath}`)

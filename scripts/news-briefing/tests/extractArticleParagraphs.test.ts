@@ -22,6 +22,18 @@ describe("extractArticleParagraphs", () => {
     ])
   })
 
+  test("decodes entities and normalizes paragraph text after removing inline tags", () => {
+    const paragraphs = extractArticleParagraphs(`
+      <article>
+        <p>Barcelona &amp; Madrid discuss &#8217;new&#8217; rail plans with <strong>regional</strong> leaders this week.</p>
+      </article>
+    `)
+
+    expect(paragraphs).toEqual([
+      "Barcelona & Madrid discuss ’new’ rail plans with regional leaders this week.",
+    ])
+  })
+
   test("stops after the accumulated output crosses the article cap", () => {
     const html = Array.from({ length: 5 }, (_, index) => {
       const label = `Paragraph ${index + 1}`

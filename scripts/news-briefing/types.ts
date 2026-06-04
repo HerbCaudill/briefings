@@ -16,6 +16,26 @@ export type HeadlineCandidate = {
   url: string
 }
 
+export type CreateHeadlineCandidateArgs = {
+  baseUrl: string
+  body?: string
+  headline: string
+  href: string
+  position: number
+}
+
+export type HeadlineCandidateState = {
+  candidates: HeadlineCandidate[]
+  seenHeadlines: Set<string>
+}
+
+export type IsUsableHeadlineCandidateArgs = {
+  headline: string
+  minimumLength: number
+  rejectGenericHeadline: boolean
+  seenHeadlines: Set<string>
+}
+
 export type BriefingCandidateArticle = {
   headline: string
   source: string

@@ -1,4 +1,5 @@
 import { existsSync, readdirSync } from "node:fs"
+import { getBriefingDateFromFileName, isDatedBriefingJsonFileName } from "./briefingPaths.ts"
 import type { ListMissingBriefingDatesArgs } from "./types.ts"
 
 /** List raw briefing dates that do not yet have final briefing JSON files. */
@@ -11,14 +12,14 @@ export function listMissingBriefingDates(
   }
 
   const rawDates = readdirSync(args.rawDirectoryPath)
-    .filter(fileName => /^\d{4}-\d{2}-\d{2}\.json$/.test(fileName))
-    .map(fileName => fileName.replace(/\.json$/, ""))
+    .filter(isDatedBriefingJsonFileName)
+    .map(getBriefingDateFromFileName)
     .sort()
   const finalDates = new Set(
     existsSync(args.briefingDirectoryPath)
       ? readdirSync(args.briefingDirectoryPath)
-          .filter(fileName => /^\d{4}-\d{2}-\d{2}\.json$/.test(fileName))
-          .map(fileName => fileName.replace(/\.json$/, ""))
+          .filter(isDatedBriefingJsonFileName)
+          .map(getBriefingDateFromFileName)
       : [],
   )
 

@@ -1,7 +1,9 @@
+import { appendUniqueHeadlineCandidate } from "./appendUniqueHeadlineCandidate.ts"
+import { createHeadlineCandidate } from "./createHeadlineCandidate.ts"
 import { decodeNewsText } from "./decodeNewsText.ts"
-import { isGenericHeadline } from "./isGenericHeadline.ts"
 import { isHttpArticleUrl } from "./isHttpArticleUrl.ts"
-import type { HeadlineCandidate } from "./types.ts"
+import { isUsableHeadlineCandidate } from "./isUsableHeadlineCandidate.ts"
+import type { HeadlineCandidate, HeadlineCandidateState } from "./types.ts"
 
 /** Extract headline candidates from a news homepage or RSS document. */
 export function extractHeadlineCandidates(
@@ -12,8 +14,7 @@ export function extractHeadlineCandidates(
 ): HeadlineCandidate[] {
   const anchorRanges: Array<{ end: number; href: string; start: number }> = []
   const ariaMap = new Map<string, string>()
-  const seenHeadlines = new Set<string>()
-  const candidates: HeadlineCandidate[] = []
+  let state: HeadlineCandidateState = { candidates: [], seenHeadlines: new Set<string>() }
 
   for (const match of html.matchAll(/<item\b[^>]*>(.*?)<\/item>/gis)) {
     const itemContent = match[1]
@@ -30,23 +31,31 @@ export function extractHeadlineCandidates(
       .replace(/\]\]>\s*$/i, "")
       .trim()
 
-    if (headline.length <= 15 || seenHeadlines.has(headline) || !resolvedHref) {
+    if (
+      !resolvedHref ||
+      !isUsableHeadlineCandidate({
+        headline,
+        minimumLength: 15,
+        rejectGenericHeadline: false,
+        seenHeadlines: state.seenHeadlines,
+      })
+    ) {
       continue
     }
 
-    const articleUrl = new URL(resolvedHref, baseUrl)
-
-    if (!isHttpArticleUrl(articleUrl)) {
-      continue
-    }
-
-    seenHeadlines.add(headline)
-    candidates.push({
+    const candidate = createHeadlineCandidate({
+      baseUrl,
       body: body.length > 40 ? body : undefined,
       headline,
-      position: candidates.length + 1,
-      url: articleUrl.toString(),
+      href: resolvedHref,
+      position: state.candidates.length + 1,
     })
+
+    if (!candidate) {
+      continue
+    }
+
+    state = appendUniqueHeadlineCandidate(state, candidate)
   }
 
   for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi)) {
@@ -76,7 +85,14 @@ export function extractHeadlineCandidates(
     const content = match[2]
     const headline = decodeNewsText(content)
 
-    if (headline.length <= 15 || seenHeadlines.has(headline) || isGenericHeadline(headline)) {
+    if (
+      !isUsableHeadlineCandidate({
+        headline,
+        minimumLength: 15,
+        rejectGenericHeadline: true,
+        seenHeadlines: state.seenHeadlines,
+      })
+    ) {
       continue
     }
 
@@ -91,18 +107,18 @@ export function extractHeadlineCandidates(
       continue
     }
 
-    const articleUrl = new URL(resolvedHref, baseUrl)
+    const candidate = createHeadlineCandidate({
+      baseUrl,
+      headline,
+      href: resolvedHref,
+      position: state.candidates.length + 1,
+    })
 
-    if (!isHttpArticleUrl(articleUrl)) {
+    if (!candidate) {
       continue
     }
 
-    seenHeadlines.add(headline)
-    candidates.push({
-      headline,
-      position: candidates.length + 1,
-      url: articleUrl.toString(),
-    })
+    state = appendUniqueHeadlineCandidate(state, candidate)
   }
 
   for (const anchorRange of anchorRanges) {
@@ -112,22 +128,24 @@ export function extractHeadlineCandidates(
     const pathSegments = url.pathname.split("/").filter(Boolean)
 
     if (
-      headline.length <= 45 ||
-      seenHeadlines.has(headline) ||
-      isGenericHeadline(headline) ||
+      !isUsableHeadlineCandidate({
+        headline,
+        minimumLength: 45,
+        rejectGenericHeadline: true,
+        seenHeadlines: state.seenHeadlines,
+      }) ||
       !isHttpArticleUrl(url) ||
       pathSegments.length < 2
     ) {
       continue
     }
 
-    seenHeadlines.add(headline)
-    candidates.push({
+    state = appendUniqueHeadlineCandidate(state, {
       headline,
-      position: candidates.length + 1,
+      position: state.candidates.length + 1,
       url: url.toString(),
     })
   }
 
-  return candidates
+  return state.candidates
 }

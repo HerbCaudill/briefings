@@ -1,5 +1,5 @@
 import { mkdirSync, writeFileSync } from "node:fs"
-import path from "node:path"
+import { getRawBriefingPath } from "./briefingPaths.ts"
 import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
 import { formatCandidateSourceLine } from "./formatCandidateSourceLine.ts"
@@ -73,7 +73,7 @@ export async function buildRawBriefing(
     date: args.date,
   }
 
-  const rawBriefingPath = path.join(args.rawDirectoryPath, `${args.date}.json`)
+  const rawBriefingPath = getRawBriefingPath(args.rawDirectoryPath, args.date)
 
   mkdirSync(args.rawDirectoryPath, { recursive: true })
   writeFileSync(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
