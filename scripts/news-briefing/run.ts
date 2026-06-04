@@ -4,6 +4,7 @@ import {
   RAW_BRIEFINGS_DIRECTORY_PATH,
 } from "./constants.ts"
 import { buildRawBriefing } from "./buildRawBriefing.ts"
+import { clearExistingBriefingFiles } from "./clearExistingBriefingFiles.ts"
 import { fetchPageHtmlWithCurl } from "./fetchPageHtmlWithCurl.ts"
 import { listMissingBriefingDates } from "./listMissingBriefingDates.ts"
 import { runNewsBriefingPipeline } from "./runNewsBriefingPipeline.ts"
@@ -15,6 +16,12 @@ const date = process.argv[2] ?? new Date().toISOString().slice(0, 10)
 const log = (message: string) => console.log(message)
 
 await runNewsBriefingPipeline({
+  clearExistingBriefingFiles: targetDate =>
+    clearExistingBriefingFiles({
+      briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
+      date: targetDate,
+      rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
+    }),
   date,
   log,
   listMissingBriefingDates: () =>

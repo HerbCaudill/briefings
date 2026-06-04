@@ -5,7 +5,7 @@ import type { BriefingSelection, HydratedBriefingSelection, RawBriefing } from "
 
 /** Add selected article bodies to a compact story-selection document. */
 export async function hydrateSelectedStories(
-  /** The full raw briefing with candidate article metadata. */
+  /** The candidate briefing with selected article metadata. */
   rawBriefing: RawBriefing,
   /** The selected stories returned by the selection agent. */
   selection: BriefingSelection,
@@ -36,7 +36,7 @@ export async function hydrateSelectedStories(
       sources: story.sourceUrls.flatMap(url => {
         const article = hydratedArticlesByUrl.get(url)
 
-        if (!article) {
+        if (!article?.body) {
           return []
         }
 
@@ -44,7 +44,7 @@ export async function hydrateSelectedStories(
           {
             body: article.body,
             headline: article.headline,
-            source: article.source.name,
+            source: article.source,
             url: article.url,
           },
         ]

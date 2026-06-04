@@ -19,21 +19,17 @@ describe("synthesizeBriefing", () => {
         {
           articles: [
             {
-              body: "",
               firstSeenPosition: 1,
               headline: "Selected story",
-              listingPageUrl: "https://source.example/news",
-              sightings: [{ headline: "Selected duplicate" }],
-              source: { name: "Source", region: "world" },
+              region: "world",
+              source: "Source",
               url: "https://source.example/selected",
             },
             {
-              body: "",
               firstSeenPosition: 2,
               headline: "Omitted story",
-              listingPageUrl: "https://source.example/news",
-              sightings: [],
-              source: { name: "Source", region: "world" },
+              region: "world",
+              source: "Source",
               url: "https://source.example/omitted",
             },
           ],
@@ -62,6 +58,7 @@ describe("synthesizeBriefing", () => {
 
         if (calls.length === 1) {
           const selectionInput = JSON.parse(readFileSync(args.rawBriefingPath, "utf8"))
+          expect(args.rawBriefingPath).toBe(path.join(rawDirectoryPath, "2026-04-20.json"))
           expect(JSON.stringify(selectionInput)).not.toContain("Long selected article body")
           expect(JSON.stringify(selectionInput)).not.toContain("sightings")
 
@@ -89,6 +86,7 @@ describe("synthesizeBriefing", () => {
     expect(calls).toHaveLength(2)
     expect(calls[0].prompt).toContain("Select the strongest stories")
     expect(calls[1].prompt).toContain("Use the selected hydrated stories")
+    expect(calls[1].rawBriefingPath).toBe(path.join(rawDirectoryPath, "2026-04-20-selection.json"))
     expect(briefingPath).toBe(path.join(briefingDirectoryPath, "2026-04-20.json"))
     expect(JSON.parse(readFileSync(briefingPath, "utf8"))).toEqual({
       sections: [{ title: "World", stories: [] }],

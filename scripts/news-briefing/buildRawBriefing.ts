@@ -3,22 +3,21 @@ import path from "node:path"
 import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
 import type {
+  BriefingCandidateArticle,
   BuildRawBriefingArgs,
   HeadlineCandidate,
   RawBriefing,
-  RawBriefingArticle,
 } from "./types.ts"
 
-/** Fetch homepage and article content, then persist one raw briefing JSON file. */
+/** Fetch source listing pages, then persist one candidate briefing JSON file. */
 export async function buildRawBriefing(
   /** The fetch-stage configuration and dependencies. */
   args: BuildRawBriefingArgs,
 ): Promise<RawBriefing> {
   const maxHeadlinesPerSource = args.maxHeadlinesPerSource ?? DEFAULT_MAX_HEADLINES_PER_SOURCE
-  const articleMap = new Map<string, RawBriefingArticle>()
+  const articleMap = new Map<string, BriefingCandidateArticle>()
 
   for (const sourceConfig of args.sourceConfigs) {
-    let listingPageUrl = sourceConfig.homepageUrl
     let allHeadlineCandidates: HeadlineCandidate[] = []
     const listingPageUrls = sourceConfig.preferFallbackUrls
       ? [...(sourceConfig.fallbackUrls ?? []), sourceConfig.homepageUrl]
@@ -48,18 +47,11 @@ export async function buildRawBriefing(
         candidateHeadlines.length >= Math.min(5, maxHeadlinesPerSource) ||
         candidateListingPageUrl === listingPageUrls.at(-1)
       ) {
-        listingPageUrl = candidateListingPageUrl
         allHeadlineCandidates = candidateHeadlines
         break
       }
     }
 
-    const source = {
-      homepageUrl: sourceConfig.homepageUrl,
-      key: sourceConfig.key,
-      name: sourceConfig.name,
-      region: sourceConfig.region,
-    }
     const headlineCandidates = allHeadlineCandidates.slice(0, maxHeadlinesPerSource)
     args.log?.(
       `Found ${allHeadlineCandidates.length} headline candidates for ${sourceConfig.name}; using ${headlineCandidates.length}.`,
@@ -70,29 +62,15 @@ export async function buildRawBriefing(
         continue
       }
 
-      const sighting = {
-        headline: candidate.headline,
-        listingPageUrl,
-        position: candidate.position,
-        source,
-      }
-      const existingArticle = articleMap.get(candidate.url)
-
-      if (existingArticle) {
-        articleMap.set(candidate.url, {
-          ...existingArticle,
-          sightings: [...existingArticle.sightings, sighting],
-        })
+      if (articleMap.has(candidate.url)) {
         continue
       }
 
       articleMap.set(candidate.url, {
-        body: candidate.body ?? "",
         firstSeenPosition: candidate.position,
         headline: candidate.headline,
-        listingPageUrl,
-        sightings: [sighting],
-        source,
+        region: sourceConfig.region,
+        source: sourceConfig.name,
         url: candidate.url,
       })
     }
@@ -104,7 +82,6 @@ export async function buildRawBriefing(
 
   const rawBriefing: RawBriefing = {
     articles,
-    createdAt: new Date().toISOString(),
     date: args.date,
   }
 
@@ -112,7 +89,7 @@ export async function buildRawBriefing(
 
   mkdirSync(args.rawDirectoryPath, { recursive: true })
   writeFileSync(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
-  args.log?.(`Wrote raw briefing to ${rawBriefingPath}.`)
+  args.log?.(`Wrote candidate briefing to ${rawBriefingPath}.`)
 
   return rawBriefing
 }

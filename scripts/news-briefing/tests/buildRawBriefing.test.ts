@@ -15,7 +15,7 @@ afterEach(() => {
 })
 
 describe("buildRawBriefing", () => {
-  test("limits headlines per source, deduplicates by URL, preserves sightings, and writes raw JSON", async () => {
+  test("limits headlines per source, deduplicates by URL, and writes candidate JSON", async () => {
     const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
     temporaryDirectories.push(rawDirectoryPath)
 
@@ -68,42 +68,13 @@ describe("buildRawBriefing", () => {
 
     expect(rawBriefing.date).toBe("2026-04-20")
     expect(rawBriefing.articles).toHaveLength(3)
-    expect(rawBriefing.articles[0]).toMatchObject({
-      body: "",
+    expect(rawBriefing.articles[0]).toEqual({
       firstSeenPosition: 1,
       headline: "Story A headline with enough words to keep",
-      listingPageUrl: "https://source-one.example/news",
-      source: {
-        key: "source-one",
-        name: "Source One",
-        region: "world",
-      },
+      region: "world",
+      source: "Source One",
       url: "https://source-one.example/story-a",
     })
-    expect(rawBriefing.articles[1].sightings).toEqual([
-      {
-        headline: "Story B headline with enough words to keep",
-        listingPageUrl: "https://source-one.example/news",
-        position: 2,
-        source: {
-          homepageUrl: "https://source-one.example/news",
-          key: "source-one",
-          name: "Source One",
-          region: "world",
-        },
-      },
-      {
-        headline: "Story B headline with enough words to keep",
-        listingPageUrl: "https://source-two.example/news",
-        position: 1,
-        source: {
-          homepageUrl: "https://source-two.example/news",
-          key: "source-two",
-          name: "Source Two",
-          region: "world",
-        },
-      },
-    ])
     expect(rawBriefing.articles.map(article => article.url)).toEqual([
       "https://source-one.example/story-a",
       "https://source-one.example/story-b",
@@ -150,7 +121,7 @@ describe("buildRawBriefing", () => {
       "Fetching homepage for Source...",
       "Found 2 headline candidates for Source; using 2.",
       "Kept 2 candidate articles for selection.",
-      `Wrote raw briefing to ${path.join(rawDirectoryPath, "2026-04-22.json")}.`,
+      `Wrote candidate briefing to ${path.join(rawDirectoryPath, "2026-04-22.json")}.`,
     ])
   })
 
@@ -199,7 +170,7 @@ describe("buildRawBriefing", () => {
     ])
   })
 
-  test("uses fallback listing pages and keeps RSS descriptions when article pages are blocked", async () => {
+  test("uses fallback listing pages when primary pages have too few candidates", async () => {
     const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
     temporaryDirectories.push(rawDirectoryPath)
 
@@ -253,13 +224,11 @@ describe("buildRawBriefing", () => {
     expect(rawBriefing.articles.map(article => article.url)).not.toContain(
       "https://blocked-source.example/thin-story",
     )
-    expect(rawBriefing.articles[0]).toMatchObject({
-      body: "RSS description body that is comfortably longer than forty characters and should be kept.",
+    expect(rawBriefing.articles[0]).toEqual({
+      firstSeenPosition: 1,
       headline: "Fallback RSS headline with enough words to keep",
-      listingPageUrl: "https://blocked-source.example/rss",
-      source: {
-        homepageUrl: "https://blocked-source.example/news",
-      },
+      region: "world",
+      source: "Blocked Source",
       url: "https://blocked-source.example/story-from-rss",
     })
   })
@@ -375,7 +344,7 @@ describe("buildRawBriefing", () => {
       "https://source.example/story-fail",
       "https://source.example/story-empty",
     ])
-    expect(rawBriefing.articles.map(article => article.body)).toEqual(["", "", "", ""])
+    expect(rawBriefing.articles.every(article => !("body" in article))).toBe(true)
     expect(attemptsByUrl.get("https://source.example/story-retry")).toBeUndefined()
     expect(attemptsByUrl.get("https://source.example/story-fail")).toBeUndefined()
     expect(attemptsByUrl.get("https://source.example/story-empty")).toBeUndefined()

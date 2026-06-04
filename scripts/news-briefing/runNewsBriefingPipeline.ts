@@ -5,9 +5,14 @@ export async function runNewsBriefingPipeline(
   /** The pipeline dependencies and target date. */
   args: RunNewsBriefingPipelineArgs,
 ): Promise<void> {
-  args.log?.(`Fetching raw briefing for ${args.date}...`)
+  args.log?.(`Clearing existing briefing files for ${args.date}...`)
+  await args.clearExistingBriefingFiles(args.date)
+
+  args.log?.(`Fetching candidate briefing for ${args.date}...`)
   const rawBriefing = await args.runFetchStage(args.date)
-  args.log?.(`Fetched raw briefing for ${args.date} with ${rawBriefing.articles.length} articles.`)
+  args.log?.(
+    `Fetched candidate briefing for ${args.date} with ${rawBriefing.articles.length} articles.`,
+  )
 
   const missingBriefingDates = args.listMissingBriefingDates()
   args.log?.(`Found ${missingBriefingDates.length} missing final briefings.`)

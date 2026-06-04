@@ -8,9 +8,7 @@
     "dev": "vite",
     "format": "oxfmt",
     "lint": "eslint .",
-    "news:fetch": "tsx scripts/news-briefing/fetch.ts",
-    "news:run": "tsx scripts/news-briefing/run.ts",
-    "news:synthesize": "tsx scripts/news-briefing/synthesize.ts",
+    "briefing": "tsx scripts/news-briefing/run.ts",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

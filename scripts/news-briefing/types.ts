@@ -16,37 +16,7 @@ export type HeadlineCandidate = {
   url: string
 }
 
-export type RawBriefingSighting = {
-  headline: string
-  listingPageUrl: string
-  position: number
-  source: RawBriefingSource
-}
-
-export type RawBriefingSource = {
-  homepageUrl: string
-  key: string
-  name: string
-  region: NewsRegion
-}
-
-export type RawBriefingArticle = {
-  body: string
-  firstSeenPosition: number
-  headline: string
-  listingPageUrl: string
-  sightings: RawBriefingSighting[]
-  source: RawBriefingSource
-  url: string
-}
-
-export type RawBriefing = {
-  articles: RawBriefingArticle[]
-  createdAt?: string
-  date: string
-}
-
-export type BriefingSelectionInputArticle = {
+export type BriefingCandidateArticle = {
   firstSeenPosition: number
   headline: string
   source: string
@@ -54,10 +24,16 @@ export type BriefingSelectionInputArticle = {
   url: string
 }
 
-export type BriefingSelectionInput = {
-  articles: BriefingSelectionInputArticle[]
+export type BriefingCandidates = {
+  articles: BriefingCandidateArticle[]
   date: string
 }
+
+export type RawBriefingArticle = BriefingCandidateArticle & {
+  body?: string
+}
+
+export type RawBriefing = BriefingCandidates
 
 export type BriefingSelectedStory = {
   headline: string
@@ -114,7 +90,14 @@ export type SynthesizeBriefingArgs = {
   runPi: (args: RunPiArgs) => Promise<string>
 }
 
+export type ClearExistingBriefingFilesArgs = {
+  briefingDirectoryPath: string
+  date: string
+  rawDirectoryPath: string
+}
+
 export type RunNewsBriefingPipelineArgs = {
+  clearExistingBriefingFiles: (date: string) => Promise<void>
   date: string
   listMissingBriefingDates: () => string[]
   log?: (message: string) => void

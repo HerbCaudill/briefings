@@ -34,35 +34,20 @@ describe("hydrateSelectedStories", () => {
 const rawBriefing: RawBriefing = {
   articles: [
     {
-      body: "",
       firstSeenPosition: 1,
       headline: "Israel and Lebanon agree to implement ceasefire",
-      listingPageUrl: "https://bbc.example/news",
-      sightings: [],
-      source: {
-        homepageUrl: "https://bbc.example/news",
-        key: "bbc",
-        name: "BBC News",
-        region: "world",
-      },
+      region: "world",
+      source: "BBC News",
       url: "https://bbc.example/ceasefire",
     },
     {
-      body: "The omitted story body should not appear.",
       firstSeenPosition: 2,
       headline: "Celebrity birthday story",
-      listingPageUrl: "https://bbc.example/news",
-      sightings: [],
-      source: {
-        homepageUrl: "https://bbc.example/news",
-        key: "bbc",
-        name: "BBC News",
-        region: "world",
-      },
+      region: "world",
+      source: "BBC News",
       url: "https://bbc.example/celebrity",
     },
   ],
-  createdAt: "2026-06-04T00:00:00.000Z",
   date: "2026-06-04",
 }
 

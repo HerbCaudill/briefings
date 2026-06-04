@@ -1,4 +1,4 @@
-import { mkdtempSync } from "node:fs"
+import { mkdtempSync, readFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import path from "node:path"
 import { describe, expect, test } from "vitest"
@@ -33,11 +33,16 @@ describe("buildRawBriefing selection-only fetch", () => {
 
     expect(fetchedUrls).toEqual(["https://source.example/news"])
     expect(rawBriefing.articles).toEqual([
-      expect.objectContaining({
-        body: "",
+      {
+        firstSeenPosition: 1,
         headline: "Story A headline with enough words to keep",
+        region: "world",
+        source: "Source",
         url: "https://source.example/story-a",
-      }),
+      },
     ])
+    expect(
+      JSON.parse(readFileSync(path.join(rawDirectoryPath, "2026-06-05.json"), "utf8")),
+    ).toEqual(rawBriefing)
   })
 })
