@@ -17,10 +17,19 @@ export async function runNewsBriefingPipeline(
   const missingBriefingDates = args.listMissingBriefingDates()
   args.log?.(`Found ${missingBriefingDates.length} missing final briefings.`)
 
+  const generatedBriefingDates: string[] = []
+
   for (const date of missingBriefingDates) {
     args.log?.(`Synthesizing final briefing for ${date}...`)
     const briefingPath = await args.runSynthesisStage(date)
+    generatedBriefingDates.push(date)
     args.log?.(`Wrote final briefing to ${briefingPath}.`)
+  }
+
+  if (generatedBriefingDates.length > 0) {
+    args.log?.("Committing and pushing generated briefings...")
+    await args.commitAndPushGeneratedBriefings(generatedBriefingDates)
+    args.log?.("Committed and pushed generated briefings.")
   }
 
   args.log?.("News briefing pipeline complete.")

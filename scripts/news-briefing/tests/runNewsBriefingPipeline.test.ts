@@ -10,6 +10,9 @@ describe("runNewsBriefingPipeline", () => {
       clearExistingBriefingFiles: async date => {
         events.push(`clear:${date}`)
       },
+      commitAndPushGeneratedBriefings: async dates => {
+        events.push(`commit:${dates.join(",")}`)
+      },
       date: "2026-04-20",
       listMissingBriefingDates: () => ["2026-04-18", "2026-04-20"],
       log: message => messages.push(message),
@@ -28,6 +31,7 @@ describe("runNewsBriefingPipeline", () => {
       "fetch:2026-04-20",
       "synthesize:2026-04-18",
       "synthesize:2026-04-20",
+      "commit:2026-04-18,2026-04-20",
     ])
     expect(messages).toEqual([
       "Clearing existing briefing files for 2026-04-20...",
@@ -38,6 +42,8 @@ describe("runNewsBriefingPipeline", () => {
       "Wrote final briefing to public/briefings/2026-04-18.json.",
       "Synthesizing final briefing for 2026-04-20...",
       "Wrote final briefing to public/briefings/2026-04-20.json.",
+      "Committing and pushing generated briefings...",
+      "Committed and pushed generated briefings.",
       "News briefing pipeline complete.",
     ])
   })

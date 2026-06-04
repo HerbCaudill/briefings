@@ -5,6 +5,7 @@ import {
 } from "./constants.ts"
 import { buildRawBriefing } from "./buildRawBriefing.ts"
 import { clearExistingBriefingFiles } from "./clearExistingBriefingFiles.ts"
+import { commitAndPushGeneratedBriefings } from "./commitAndPushGeneratedBriefings.ts"
 import { fetchPageHtmlWithCurl } from "./fetchPageHtmlWithCurl.ts"
 import { listMissingBriefingDates } from "./listMissingBriefingDates.ts"
 import { runNewsBriefingPipeline } from "./runNewsBriefingPipeline.ts"
@@ -22,6 +23,7 @@ await runNewsBriefingPipeline({
       date: targetDate,
       rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
     }),
+  commitAndPushGeneratedBriefings: dates => commitAndPushGeneratedBriefings({ dates }),
   date,
   log,
   listMissingBriefingDates: () =>

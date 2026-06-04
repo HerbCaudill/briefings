@@ -1,0 +1,38 @@
+import { describe, expect, test } from "vitest"
+import { commitAndPushGeneratedBriefings } from "../commitAndPushGeneratedBriefings.ts"
+
+describe("commitAndPushGeneratedBriefings", () => {
+  test("adds generated briefing files, commits them, rebases, and pushes", async () => {
+    const commands: Array<{ args: string[]; command: string }> = []
+
+    await commitAndPushGeneratedBriefings({
+      dates: ["2026-04-18", "2026-04-20"],
+      runCommand: async (command, args) => {
+        commands.push({ args, command })
+        return ""
+      },
+    })
+
+    expect(commands).toEqual([
+      {
+        command: "git",
+        args: [
+          "add",
+          "public/briefings/index.json",
+          "public/briefings/2026-04-18.json",
+          "public/briefings/raw/2026-04-18.json",
+          "public/briefings/raw/2026-04-18-selection.json",
+          "public/briefings/2026-04-20.json",
+          "public/briefings/raw/2026-04-20.json",
+          "public/briefings/raw/2026-04-20-selection.json",
+        ],
+      },
+      {
+        command: "git",
+        args: ["commit", "-m", "Briefing: add generated briefings for 2026-04-18, 2026-04-20"],
+      },
+      { command: "git", args: ["pull", "--rebase"] },
+      { command: "git", args: ["push"] },
+    ])
+  })
+})

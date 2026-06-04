@@ -95,8 +95,16 @@ export type ClearExistingBriefingFilesArgs = {
   rawDirectoryPath: string
 }
 
+export type CommitAndPushGeneratedBriefingsArgs = {
+  /** The briefing dates whose generated files should be committed. */
+  dates: string[]
+  /** The command runner used to execute git commands. */
+  runCommand?: (command: string, args: string[]) => Promise<string>
+}
+
 export type RunNewsBriefingPipelineArgs = {
   clearExistingBriefingFiles: (date: string) => Promise<void>
+  commitAndPushGeneratedBriefings: (dates: string[]) => Promise<void>
   date: string
   listMissingBriefingDates: () => string[]
   log?: (message: string) => void
