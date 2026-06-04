@@ -1,10 +1,10 @@
-import type { NewsSourceConfig } from "./types.ts"
+import type { NewsSourceConfig } from "./types.ts";
 
-export const ARTICLE_FETCH_CONCURRENCY = 4
-export const ARTICLE_FETCH_RETRY_LIMIT = 3
-export const DEFAULT_MAX_HEADLINES_PER_SOURCE = 30
-export const PUBLIC_BRIEFINGS_DIRECTORY_PATH = "public/briefings"
-export const RAW_BRIEFINGS_DIRECTORY_PATH = "public/briefings/raw"
+export const ARTICLE_FETCH_CONCURRENCY = 4;
+export const ARTICLE_FETCH_RETRY_LIMIT = 3;
+export const DEFAULT_MAX_HEADLINES_PER_SOURCE = 30;
+export const PUBLIC_BRIEFINGS_DIRECTORY_PATH = "public/briefings";
+export const RAW_BRIEFINGS_DIRECTORY_PATH = "public/briefings/raw";
 
 export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
   { homepageUrl: "https://www.bbc.com/news", key: "bbc", name: "BBC News", region: "world" },
@@ -149,14 +149,15 @@ export const NEWS_SOURCE_CONFIGS: NewsSourceConfig[] = [
     name: "Diari de Barcelona",
     region: "extras",
   },
-]
+];
 
 export const SYNTHESIS_PROMPT = [
   "Use the raw briefing file to select and summarize the strongest stories.",
+  "Prefer stories that have multiple sources.",
   "Return only a JSON object with a top-level sections array.",
   "Section titles must be exactly: World, US, Spain, Barcelona & Catalunya.",
   "Each story must include headline, body, and sources.",
   "Each body must be one paragraph of plain text with no markdown.",
   "Use the extracted article bodies in the raw briefing file rather than headline text alone.",
   "Exclude sports.",
-].join("\n")
+].join("\n");
