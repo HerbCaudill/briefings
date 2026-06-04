@@ -1,19 +1,19 @@
 {
   "name": "briefings",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
+    "dev": "vite",
+    "format": "oxfmt",
     "lint": "eslint .",
+    "news:fetch": "tsx scripts/news-briefing/fetch.ts",
+    "news:run": "tsx scripts/news-briefing/run.ts",
+    "news:synthesize": "tsx scripts/news-briefing/synthesize.ts",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "news:fetch": "tsx scripts/news-briefing/fetch.ts",
-    "news:synthesize": "tsx scripts/news-briefing/synthesize.ts",
-    "news:run": "tsx scripts/news-briefing/run.ts",
-    "format": "prettier --write ."
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.37.1",
@@ -38,7 +38,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "prettier": "^3.8.3",
+    "oxfmt": "^0.53.0",
     "shadcn": "^3.8.5",
     "tailwindcss": "^4.2.0",
     "tsx": "^4.21.0",
