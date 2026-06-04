@@ -1,6 +1,7 @@
+import { Effect, Schedule } from "effect"
 import { ARTICLE_FETCH_RETRY_LIMIT } from "./constants.ts"
 import { extractArticleParagraphs } from "./extractArticleParagraphs.ts"
-import { retry } from "./retry.ts"
+import { toError } from "./runtimeServices.ts"
 import type { RawBriefingArticle } from "./types.ts"
 
 /** Fetch one article body and return a populated record only when extraction succeeds. */
@@ -15,7 +16,10 @@ export async function fetchSuccessfulArticle(
   }
 
   try {
-    const articleHtml = await retry(() => fetchPageHtml(article.url), ARTICLE_FETCH_RETRY_LIMIT)
+    const articleHtml = await Effect.tryPromise({
+      catch: error => toError(error),
+      try: () => fetchPageHtml(article.url),
+    }).pipe(Effect.retry(Schedule.recurs(ARTICLE_FETCH_RETRY_LIMIT - 1)), Effect.runPromise)
     const body = extractArticleParagraphs(articleHtml).join("\n\n")
 
     if (!body) {

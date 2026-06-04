@@ -1,6 +1,7 @@
+import { Effect } from "effect"
 import { ARTICLE_FETCH_CONCURRENCY } from "./constants.ts"
 import { fetchSuccessfulArticle } from "./fetchSuccessfulArticle.ts"
-import { mapWithConcurrency } from "./mapWithConcurrency.ts"
+import { toError } from "./runtimeServices.ts"
 import type { BriefingSelection, HydratedBriefingSelection, RawBriefing } from "./types.ts"
 
 /** Add selected article bodies to a compact story-selection document. */
@@ -21,17 +22,21 @@ export async function hydrateSelectedStories(
 
     return article ? [article] : []
   })
-  const hydratedArticles = await mapWithConcurrency(
+  const hydratedArticles = await Effect.forEach(
     selectedArticles,
-    ARTICLE_FETCH_CONCURRENCY,
-    async article => {
-      const hydratedArticle = await fetchSuccessfulArticle(article, fetchPageHtml)
-      const icon = hydratedArticle?.body ? "✅" : "❌"
-      log?.(`${icon} ${article.headline} (${article.source})`)
+    article =>
+      Effect.tryPromise({
+        catch: error => toError(error),
+        try: async () => {
+          const hydratedArticle = await fetchSuccessfulArticle(article, fetchPageHtml)
+          const icon = hydratedArticle?.body ? "✅" : "❌"
+          log?.(`${icon} ${article.headline} (${article.source})`)
 
-      return hydratedArticle
-    },
-  )
+          return hydratedArticle
+        },
+      }),
+    { concurrency: ARTICLE_FETCH_CONCURRENCY },
+  ).pipe(Effect.runPromise)
   const hydratedArticlesByUrl = new Map(
     hydratedArticles.flatMap(article => (article ? [[article.url, article]] : [])),
   )
