@@ -1,0 +1,282 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "Iranian attack on Kuwait airport escalates Gulf war as ceasefire talks continue",
+          "body": "Iranian drones and missiles hit Kuwait International Airport, killing an Indian citizen and injuring more than 60 people, after US forces disabled a tanker trying to break the Strait of Hormuz blockade and struck Iranian positions on Qeshm Island. Kuwait condemned the attack as criminal aggression, expelled two Iranian diplomats and temporarily suspended flights, while Iran blamed Kuwait and Bahrain for hosting US operations and claimed retaliatory attacks on US bases that Washington said were intercepted. The exchange further strained US-Iran ceasefire talks, even as Donald Trump said negotiations were continuing and he was not seeking escalation.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c5yx135yg53o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/03/us-fires-missile-tanker-strait-of-hormuz"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/iranian-drone-hits-kuwaits-main-airport-after-us-strikes-qeshm-island"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20260603/11554596/iran-responde-ataques-ee-uu-disparando-drones-misiles-aeropuerto-kuwait.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/liran-i-els-eua-intercanvien-atacs-al-golf-persic-mentre-diuen-que-negocien-la-pau/noticia/3413087/"
+            }
+          ]
+        },
+        {
+          "headline": "Ukrainian drones strike St Petersburg as Putin opens flagship economic forum",
+          "body": "Ukrainian long-range drones struck energy and military targets in and around St Petersburg hours before the opening of Russia’s flagship economic forum, sending smoke over the city, briefly closing Pulkovo Airport and disrupting mobile internet. Ukrainian officials said the strikes hit the Petersburg oil terminal, the Kronstadt naval base and a Russian corvette, while Russia said air defences shot down dozens of drones and vowed a systemic response. The attack embarrassed the Kremlin as thousands of foreign guests gathered for the St Petersburg International Economic Forum, including a low-key US delegation and several pro-Putin western figures.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c0e2vqd3j1vo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/03/ukraine-drones-st-petersburg-russia-economic-forum"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/what-is-the-st-petersburg-forum-putins-economic-outreach-to-the-world"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/ucraina-ataca-sant-petersburg-hores-abans-de-la-inauguracio-del-forum-economic-de-putin/noticia/3413235/"
+            }
+          ]
+        },
+        {
+          "headline": "US expands tariff threats over forced labour, targeting Brazil and dozens of trade partners",
+          "body": "The Trump administration proposed new tariffs of 10 to 12.5 percent on imports from 60 trading partners, including the EU, UK, Canada, China, India and Japan, after a Section 301 investigation alleged failures to ban or enforce bans on goods made with forced labour. The move follows court setbacks to Trump’s broader tariff agenda and drew objections from US partners, with the EU calling the levies unjustified and rights groups warning that tariffs are no substitute for enforcement and corporate accountability. Separately, Washington proposed 25 percent tariffs on some Brazilian imports over alleged unfair trade practices, prompting an angry response from President Lula da Silva, who noted that talks were ongoing and that the US has a goods trade surplus with Brazil.",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cq6pe7nvldmo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/jun/03/trump-threatens-tariffs-60-countries-forced-labour"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/jun/02/trump-administration-brazil-tariffs"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/6/3/us-cites-forced-labour-concerns-as-grounds-for-new-tariffs"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/lula-says-brazil-cannot-accept-treatment-after-new-us-tariffs-proposed"
+            }
+          ]
+        },
+        {
+          "headline": "DRC Ebola outbreak may have begun months earlier as Kenya fears US quarantine plan",
+          "body": "WHO chief Tedros Adhanom Ghebreyesus said the Bundibugyo Ebola outbreak in the Democratic Republic of the Congo may have begun as early as January, giving the virus a major head start before it was identified in May, with 344 confirmed cases and 60 deaths in DRC and additional cases in Uganda. He warned that insecurity, displacement, community mistrust and blanket travel restrictions were hindering contact tracing and supply chains, while there is still no vaccine or approved treatment for the strain. In Kenya, residents and medical groups condemned a US proposal to create a quarantine facility for exposed American citizens at Laikipia Air Base, arguing that a country with no known cases should not be used as a containment site.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/jun/03/drc-ebola-outbreak-could-have-begun-as-early-as-january-who-chief-says"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/02/kenyans-fear-us-plan-for-ebola-quarantine-site"
+            }
+          ]
+        },
+        {
+          "headline": "Israel expands military infrastructure in Gaza while Netanyahu downplays US rift",
+          "body": "Satellite imagery analysed by Al Jazeera identified 40 Israeli military outposts inside Gaza, including eight built after the October 2025 ceasefire that was supposed to lead to a full withdrawal, suggesting a shift from temporary positions to long-term military infrastructure across the enclave. The findings align with Benjamin Netanyahu’s public comments that Israel controls about 60 percent of Gaza and could expand that control, while he also tried to minimise signs of tension with Donald Trump after the US president criticised Israel’s escalation in Lebanon. The dispute over Lebanon has complicated US-Iran talks, with Netanyahu under domestic pressure ahead of expected elections and seeking to show results from Israel’s campaigns against Hamas, Hezbollah and Iran.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/israel-is-building-more-military-posts-in-gaza-satellite-imagery-shows"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/netanyahu-downplays-us-israel-rift-after-trump-confirms-criticism"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/02/benjamin-netanyahu-us-iran-war"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Trans minors sue to block Justice Department access to medical records",
+          "body": "Transgender minors have sued to stop the US Justice Department from obtaining their medical records, challenging federal efforts to access private information related to gender-affirming care. The available extracted article text did not include further details beyond the lawsuit’s subject and parties.",
+          "sources": [
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com/2026/06/02/us/transgender-minors-medical-records-lawsuits.html"
+            }
+          ]
+        },
+        {
+          "headline": "California and other primaries reshape key 2026 races",
+          "body": "Primaries in California, Iowa, New Jersey, New Mexico, Montana and South Dakota began shaping November’s midterm contests, with California’s governor race drawing the most attention as Democrat Xavier Becerra and Trump-backed Republican Steve Hilton led a crowded top-two primary to replace term-limited Gavin Newsom. The count could take days because of mail ballots, with billionaire Democrat Tom Steyer still in contention, while San Francisco state senator Scott Wiener advanced in the race to replace Nancy Pelosi and Los Angeles mayor Karen Bass appeared headed for a runoff. Analysts said Democrats appeared to vote strategically to avoid two Republicans advancing in California’s open primary system, while the races offered an early measure of voter reaction to Trump’s second-term agenda and the war with Iran.",
+          "sources": [
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com/2026/06/03/us/politics/primaries-california-iowa-questions.html"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/3/hilton-becerra-lead-california-governor-race-key-primary-election-results"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cn8p0yz512no"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spanish police reports put Leire Díez and Cerdán at center of alleged PSOE protection plot",
+          "body": "Spain’s Guardia Civil UCO unit concluded in reports submitted to judge Santiago Pedraz that former PSOE organisation secretary Santos Cerdán and former socialist member Leire Díez allegedly led a coordinated effort to obstruct judicial cases affecting the party and protect interests linked to Pedro Sánchez and his government. Investigators say Cerdán placed party infrastructure at the group’s disposal, with PSOE resources allegedly used for meetings, logistics and payments routed through invoices and companies to Díez and others, while witnesses described offers of money, jobs or procedural benefits in exchange for compromising information or changed testimony. The case has widened to claims from a Guardia Civil general that senior officials pressured the UCO not to be proactive in corruption investigations involving the PSOE.",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/03/6a1ffc00fdddff25078b45a5.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260603/11554882/uco-hallo-casa-gaspar-zarrias-19-850-euros-fajos-billetes-20-50-euros.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260603/11555043/general-denuncia-presiones-uco-proactiva-investigaciones-psoe.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/luco-situa-leire-i-cerdan-al-capdavant-duna-suposada-trama-per-protegir-els-interessos-de-sanchez/noticia/3412279/"
+            }
+          ]
+        },
+        {
+          "headline": "Sánchez starts 2027 budget process amid mounting judicial pressure",
+          "body": "Pedro Sánchez announced at the Cercle d’Economia in Barcelona that his government will begin processing the 2027 state budget this week by publishing the ministerial order that starts the process, signalling that he intends to exhaust the legislature despite judicial pressure and renewed opposition talk of a no-confidence vote. Sánchez said the accounts would be social, prioritise housing with what he called an unprecedented public funding push, address regional financing and keep debt on track below 100 percent of GDP. He appealed to his investiture partners for generosity and dialogue, reaffirmed commitments linked to the amnesty and the territorial agenda with Catalonia, and announced that the state will cede a majority stake in Barcelona’s Zona Franca consortium to the Generalitat and city council.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260603/11554871/sanchez-anuncia-arranca-tramitacion-presupuestos-2027.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/03/6a200ffb21efa0a8208b4593.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/sanchez-sadreca-a-lempresariat-catala-pendent-dels-fronts-judicials-i-dun-intent-desinflat-de-mocio-de-censura/noticia/3413046/"
+            }
+          ]
+        },
+        {
+          "headline": "PP and Vox reach Castilla y León governing deal with tax cuts and national-priority measures",
+          "body": "The PP and Vox reached a coalition agreement in Castilla y León that will allow Alfonso Fernández Mañueco to be invested as regional president after more than 80 days of negotiations. Vox will enter the government with a vice-presidency and three departments, including areas covering deregulation, family, social aid, immigration, agriculture, environment, culture, tourism and sport, while the PP will retain key portfolios such as economy, health, education and housing. The 62-page pact contains more than 300 measures, including tax cuts, commitments to pass budgets for the full legislature, opposition to bilateral regional financing and debt relief for regions accused of separatist spending, and a “national priority” principle giving preference in some aid and public housing to people with long-term roots in Castilla y León and Spain.",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260603/pp-vox-alcanzan-acuerdo-castilla-leon-investir-manueco-presidente/17098118.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260603/11554955/acuerdo-pp-vox-castilla-leon-impuestos-prioridad-nacional-cuatro-anos-legislatura.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/03/6a202486e4d4d871528b45c4-video.html"
+            }
+          ]
+        },
+        {
+          "headline": "OECD raises Spain growth forecast despite Strait of Hormuz crisis",
+          "body": "The OECD raised its 2026 growth forecast for Spain by one tenth to 2.2 percent, matching the government’s estimate and making Spain the only eurozone economy whose outlook improved in the latest projections. The organisation credited domestic demand, employment strength, EU-funded investment, migration integration and energy diversification, while noting that Spain’s direct exposure to the Middle East conflict is limited and that average US tariffs on Spanish exports are expected to stay below 15 percent. It also raised Spain’s inflation forecast to 3.3 percent and warned that a prolonged Strait of Hormuz crisis could keep energy pressures high, even if Spain could benefit from tourists shifting toward destinations seen as safer.",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260603/11554635/ocde-prevision-espana-informe.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Rodalies Garraf tunnel works near completion while R3 disruption extends through year-end",
+          "body": "Works in the Garraf tunnels are expected to finish earlier than planned, allowing Rodalies service between Sitges and Garraf to return to normal frequencies after three months of single-track operation once test runs without passengers are completed next week. The restoration will also benefit Regional train users who have been using buses between Sant Vicenç de Calders and El Prat de Llobregat. By contrast, R3 disruption will last longer than expected, with the first and second reopening phases now pushed together to the end of 2026 because a wall near Montcada Bifurcació station collapsed and has still not been repaired by the owning company, leaving Adif to take over the work without a firm timetable.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/rodalies-les-obres-als-tunels-del-garraf-acabaran-dilluns-i-a-lr3-sallargaran-fins-a-finals-dany/noticia/3413265/"
+            }
+          ]
+        },
+        {
+          "headline": "Barcelona prepares for Pope Leo XIV visit amid dispute over Catalan use at Sagrada Família",
+          "body": "Pope Leo XIV will spend two days in Catalonia next week, with scheduled stops at Barcelona Cathedral, the Olympic Stadium in Montjuïc, Brians 1 prison, Montserrat and the Sagrada Família, where he will bless the completed Tower of Jesus. He is also expected to meet privately with Generalitat president Salvador Illa, while the Vatican is aware of controversy over plans for the Sagrada Família blessing to be conducted only in Spanish. Catalan political and cultural voices, especially Junts, have urged Illa, Cardinal Joan Josep Omella and the Holy See to ensure an appropriate presence for Catalan during the visit, arguing that the language should be visibly represented during a globally watched ceremony tied to Antoni Gaudí’s legacy.",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/agenda-de-la-visita-del-papa-lleo-xiv-a-catalunya-horaris-i-actes-a-barcelona-brians-1-i-montserrat/noticia/3412787/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260603/11554987/papa-tendra-reunion-privado-illa-martes-9-junio-tarde.html"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/indignacio-pel-menyspreu-al-catala-en-el-programa-de-la-visita-del-papa-718095/"
+            }
+          ]
+        },
+        {
+          "headline": "Barcelona to install new beach surveillance cameras ahead of Sant Joan and summer season",
+          "body": "Barcelona City Council will install 11 surveillance cameras along the seafront between Plaça del Mar and Carrer Marina, aimed at beach access points rather than the sand, as part of a summer security and civility plan tied to Sant Joan, the Pope’s visit and the Tour de France departure. Mayor Jaume Collboni said the cameras will serve preventive and evidentiary purposes, although municipal sources cautioned they may be installed before Sant Joan without necessarily being operational by then. The city is also reinforcing beach patrols with about 80 Guardia Urbana officers, adding summer policing capacity, using drones and weapon detectors during major events, and relying on a tougher civility ordinance and multirecidivism law to deter repeat petty crime.",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/barcelona-cameres-videovigilancia-front-maritim-718411/"
+            },
+            {
+              "name": "Diari de Barcelona",
+              "url": "https://www.diaridebarcelona.cat/w/barcelona-installara-onze-cameres-videovigilancia-front-maritim-abans-sant-joan-1?redirect=%2F"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260603/barcelona-camaras-vigilancia-sant-joan-papa-tour-seguridad-verano-130963192"
+            }
+          ]
+        },
+        {
+          "headline": "Factorial raises $150 million and reaches $2.5 billion valuation",
+          "body": "Barcelona-based Factorial raised $150 million in a new funding round led by General Catalyst, lifting its valuation to $2.5 billion and placing it among the EU’s top-valued scaleups. CEO and co-founder Jordi Romero said the company did not need the money for survival but wants equity available to acquire other European companies, accelerate product development, add talent and expand customer portfolios. Factorial now serves more than 16,000 clients in 90 countries, has broadened from human resources software into wider business management tools, and is pushing further into AI with agents such as Factorial One and a planned tool to automate routine employee tasks.",
+          "sources": [
+            {
+              "name": "The New Barcelona Post",
+              "url": "https://www.thenewbarcelonapost.cat/factorial-capta-150-milions-dolars-escala-2500-milions-valoracio/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

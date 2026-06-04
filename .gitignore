@@ -28,6 +28,9 @@ dist-ssr
 # Generated at build time
 public/briefings/index.json
 
+# Generated news synthesis intermediates
+public/briefings/raw/synthesis/
+
 # Beads / Dolt files (added by bd init)
 .dolt/
 *.db
