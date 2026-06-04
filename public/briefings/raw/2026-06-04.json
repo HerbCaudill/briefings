@@ -433,6 +433,12 @@
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/4/iran-war-live-tensions-simmer-after-latest-us-iran-clashes-in-gulf"
     },
     {
+      "headline": "UK condemns attack that killed UN peacekeeper in south Lebanon",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/4/iran-war-live-tensions-simmer-after-latest-us-iran-clashes-in-gulf?update=4626936"
+    },
+    {
       "headline": "Ceasefire doesn’t include details on Israeli occupation in Lebanon",
       "region": "world",
       "source": "Al Jazeera",
@@ -449,12 +455,6 @@
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/4/iran-war-live-tensions-simmer-after-latest-us-iran-clashes-in-gulf?update=4627049"
-    },
-    {
-      "headline": "Lebanon is major sticking point in US-Iran negotiations",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/6/4/iran-war-live-tensions-simmer-after-latest-us-iran-clashes-in-gulf?update=4626992"
     },
     {
       "headline": "US House votes to end Trump’s Iran war: Does it matter?",
@@ -583,16 +583,16 @@
       "url": "https://www.aljazeera.com/news/2026/6/4/thousands-protest-kushner-linked-coastal-resort-project-in-albania"
     },
     {
+      "headline": "Man City threatens legal action against Real Madrid following Haaland claim",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/6/4/man-city-threaten-legal-action-against-real-madrid-following-haaland-claim"
+    },
+    {
       "headline": "Iran war updates: No progress on negotiations with the US – Araghchi",
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain"
-    },
-    {
-      "headline": "Israel, Lebanon agree to conditional ceasefire",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire"
     },
     {
       "headline": "Zimbabwe’s e-tricycle crackdown puts rural women’s livelihoods at risk",
@@ -1567,7 +1567,7 @@
       "url": "https://www.lavanguardia.com/vida/20260604/11555255/profesores-votan-preacuerdo-educativo.html"
     },
     {
-      "headline": "La defensa de Jonathan Andic aporta imágenes de padre e hijo caminando juntos en la montaña",
+      "headline": "El entorno de Jonathan Andic aporta imágenes de padre e hijo caminando juntos en la montaña",
       "region": "spain",
       "source": "La Vanguardia",
       "url": "https://www.lavanguardia.com/sucesos/20260604/11556112/defensa-jonathan-andic-aporta-imagenes-padre-e-hijo-caminando-montana.html"
@@ -1651,6 +1651,12 @@
       "url": "https://www.lavanguardia.com/internacional/20260604/11555859/albania-rebela-resort-lujo-familia-trump.html"
     },
     {
+      "headline": "John Bolton, exconsejero de Trump, reconoce el mal uso de archivos secretos",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/internacional/20260604/11556169/john-bolton-exconsejero-trump-acepta-culpa-mal-documentos-secretos.html"
+    },
+    {
       "headline": "El grupo hotelero Barceló compra la plataforma de viajes y ocio Atrápalo",
       "region": "spain",
       "source": "La Vanguardia",
@@ -1669,7 +1675,7 @@
       "url": "https://www.lavanguardia.com/sucesos/20260604/11555840/dos-detenidos-quemar-vivos-coche-cuatro-jornaleros-sur-italia.html"
     },
     {
-      "headline": "Consternación en Navarra por la muerte de los cinco policías forales en un accidente",
+      "headline": "Consternación por la muerte de los cinco policías forales en un accidente",
       "region": "spain",
       "source": "La Vanguardia",
       "url": "https://www.lavanguardia.com/local/paisvasco/20260604/11556144/consternacion-navarra-muerte-cinco-policias-forales-accidente.html"
@@ -1735,12 +1741,6 @@
       "url": "https://www.lavanguardia.com/tecnologia/innovacion/20260604/11555256/cientificos-espanoles-crean-recubrimiento-mas-resistente-implantes-oseos-impresos-3d.html"
     },
     {
-      "headline": "Años sin pedir ayuda: el problema de salud que millones de personas esconden",
-      "region": "spain",
-      "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/vida/20260603/11555143/anos-pedir-ayuda-problema-salud-millones-personas-esconden.html"
-    },
-    {
       "headline": "La UCO apunta a conversaciones de Leire Díez con Álvaro García Ortiz: \"La reunión con Fiscalía General puede hacer que el presidente me adore\"",
       "region": "spain",
       "source": "El Periódico",
@@ -1777,7 +1777,7 @@
       "url": "https://www.elperiodico.com/es/economia/20260604/plus-ultra-tubos-reunidos-air-131016156"
     },
     {
-      "headline": "El Govern prevé aplicar el último preacuerdo con los sindicatos pese al rechazo de los docentes",
+      "headline": "El Govern aplicará las medidas acordadas en el preacuerdo de Educació pese al rechazo de los profesores",
       "region": "spain",
       "source": "El Periódico",
       "url": "https://www.elperiodico.com/es/politica/20260604/govern-preve-aplicar-ultimo-preacuerdo-pese-rechazo-profesores-131010987"
@@ -1873,10 +1873,10 @@
       "url": "https://www.elperiodico.com/es/politica/20260604/hermano-sanchez-evita-aclarar-consiguio-131013895"
     },
     {
-      "headline": "\"Marilyn Monroe sabía que su imagen perduraría en el tiempo\": Una exposición recupera en Londres los retratos más icónicos de la actriz",
+      "headline": "Michael Sandel, filósofo y profesor de Harvard: \"Trump y Putin están haciendo ver a los europeos que necesitan estar más unidos”",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20260604/marilyn-monroe-exposicion-national-portrait-gallery-centenario-131006842"
+      "url": "https://www.elperiodico.com/es/internacional/20260604/michael-sandel-entrevista-131009906"
     },
     {
       "headline": "La floristería Soriano anuncia su cierre tras 80 años en la avenida Gaudí, harta del turismo y del ayuntamiento",
@@ -1891,10 +1891,10 @@
       "url": "https://woman.elperiodico.com/moda/pantalones-vaqueros-wide-leg-mejor-mejor-sientan-tipazo-129154177"
     },
     {
-      "headline": "Urtasun califica de \"vergüenza\" la sentencia de las pinturas de Sijena, pero insiste en que no puede hacer nada al respecto",
+      "headline": "España, con aires de revancha ante Inglaterra para conseguir el billete para el Mundial: \"Queremos estar lo antes posible\"",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20260604/urtasun-califica-verguenza-sentencia-pinturas-131008939"
+      "url": "https://www.elperiodico.com/es/deportes/20260604/espana-ganas-revancha-inglaterra-billete-131004179"
     },
     {
       "headline": "Márquez: \"Si peleo por la victoria es porque los demás están haciendo algo mal\"",
@@ -1933,6 +1933,12 @@
       "url": "https://www.3cat.cat/3catinfo/ustec-crida-a-tothom-a-la-vaga-de-docents-de-dema-i-diu-que-consultara-els-proxims-passos/noticia/3413408/"
     },
     {
+      "headline": "El detall de l'acord que Educació tirarà endavant amb tres sindicats malgrat el rebuig dels docents",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/el-detall-de-lacord-que-educacio-tirara-endavant-amb-tres-sindicats-malgrat-el-rebuig-dels-docents/noticia/3413422/"
+    },
+    {
       "headline": "Els pressupostos superen el primer tràmit al Parlament: rebutjades les esmenes a la totalitat",
       "region": "barcelona",
       "source": "3Cat",
@@ -1957,16 +1963,16 @@
       "url": "https://www.3cat.cat/3catinfo/que-es-la-boia-de-begur-protagonista-en-cada-temporal-a-la-costa-brava/noticia/3410321/"
     },
     {
+      "headline": "Marlaska defensa la cap de la Guàrdia Civil, a qui Leire Díez definia com a \"persona de confiança\"",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/marlaska-defensa-la-cap-de-la-guardia-civil-a-qui-leire-diez-definia-com-a-persona-de-confianca/noticia/3413495/"
+    },
+    {
       "headline": "David Sánchez nega haver intervingut en la creació i adjudicació del seu lloc de treball a Badajoz",
       "region": "barcelona",
       "source": "3Cat",
       "url": "https://www.3cat.cat/3catinfo/david-sanchez-germa-del-president-espanyol-declara-en-el-judici-per-prevaricacio-i-trafic-dinfluencies/noticia/3413306/"
-    },
-    {
-      "headline": "Preacord per reduir l'ERO de Nestlé: els acomiadaments passen de 300 a 242 a tot l'Estat",
-      "region": "barcelona",
-      "source": "3Cat",
-      "url": "https://www.3cat.cat/3catinfo/preacord-per-reduir-lero-de-nestle-els-acomiadaments-passen-de-300-a-242-a-tot-lestat/noticia/3413340/"
     },
     {
       "headline": "Comprar llibres vells per entrenar una IA i destruir-los: alerta dels llibreters per comandes sospitoses",
@@ -2017,6 +2023,12 @@
       "url": "https://www.3cat.cat/3catinfo/la-jutgessa-investiga-si-en-la-mort-dandic-hi-ha-terceres-persones-implicades-a-banda-del-fill/noticia/3413115/"
     },
     {
+      "headline": "Preacord per reduir l'ERO de Nestlé: els acomiadaments passen de 300 a 242 a tot l'Estat",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/preacord-per-reduir-lero-de-nestle-els-acomiadaments-passen-de-300-a-242-a-tot-lestat/noticia/3413340/"
+    },
+    {
       "headline": "Dow anuncia un ERO que pot afectar 138 treballadors a Espanya, sobretot a Tarragona",
       "region": "barcelona",
       "source": "3Cat",
@@ -2033,12 +2045,6 @@
       "region": "barcelona",
       "source": "3Cat",
       "url": "https://www.3cat.cat/3catinfo/els-estats-units-forcen-un-nou-alto-el-foc-entre-israel-i-el-liban-negociat-a-washington/noticia/3413323/"
-    },
-    {
-      "headline": "Leire Díez hauria maniobrat amb Villarejo per pressionar Marchena perquè apliqués l'amnistia",
-      "region": "barcelona",
-      "source": "3Cat",
-      "url": "https://www.3cat.cat/3catinfo/leire-diez-hauria-maniobrat-amb-villarejo-per-pressionar-marchena-perque-apliques-lamnistia/noticia/3413271/"
     },
     {
       "headline": "Busquen voluntaris per crear un banc de sons respiratoris a Lleida que ajudi a detectar malalties",
@@ -2071,16 +2077,16 @@
       "url": "https://www.3cat.cat/3catinfo/la-primera-linia-del-mar-canvia-i-fa-recular-construccions-daltafulla-i-lhospitalet-de-linfant/noticia/3412715/"
     },
     {
+      "headline": "Leire Díez hauria maniobrat amb Villarejo per pressionar Marchena perquè apliqués l'amnistia",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/leire-diez-hauria-maniobrat-amb-villarejo-per-pressionar-marchena-perque-apliques-lamnistia/noticia/3413271/"
+    },
+    {
       "headline": "L'actriu Carmen Machi rep el Premi Nacional de Cinematografia 2026",
       "region": "barcelona",
       "source": "3Cat",
       "url": "https://www.3cat.cat/3catinfo/lactriu-carmen-machi-rep-el-premi-nacional-de-cinematografia-2026/noticia/3413485/"
-    },
-    {
-      "headline": "Els Premis Nacionals de Gastronomia 2026 reconeixen Raül Balam i Jaume Subirós",
-      "region": "barcelona",
-      "source": "3Cat",
-      "url": "https://www.3cat.cat/3catinfo/els-premis-nacionals-de-gastronomia-2026-reconeixen-raul-balam-i-jaume-subiros/noticia/3413305/"
     },
     {
       "headline": "Claus per acompanyar l'adeu a la infància: pors, anhels i reptes dels 7 als 12 anys",
@@ -2095,10 +2101,10 @@
       "url": "https://www.3cat.cat/3catinfo/la-volta-al-mon-a-peu-dun-youtuber-catala-supera-el-primer-de-5-continents-es-un-repte-mental/noticia/3411451/"
     },
     {
-      "headline": "Excursió d'aigua i sol pel congost del Mu, al riu Segre",
+      "headline": "Barcelona activa l’alerta del pla d’emergència municipal pel risc d’inundacions",
       "region": "barcelona",
-      "source": "3Cat",
-      "url": "https://www.3cat.cat/3catinfo/itinerari-i-reclams-pel-congost-del-mu-al-riu-segre-la-noguera/noticia/3296352/"
+      "source": "betevé",
+      "url": "https://beteve.cat/medi-ambient/barcelona-alerta-pla-emergencia-risc-inundacions-juny-2026/"
     },
     {
       "headline": "La FAVB demana que el reforç del transport públic per la visita del papa sigui permanent",
@@ -2149,16 +2155,16 @@
       "url": "https://beteve.cat/agenda/festival-cruilla-barcelona-cartell/"
     },
     {
-      "headline": "Concerts de Barcelona el 2026: Agenda completa d’actuacions musicals",
+      "headline": "Servei Meteorol&ograve;gic de Catalunya hagi elevat l’av&iacute;s de groc a taronja",
       "region": "barcelona",
       "source": "betevé",
-      "url": "https://beteve.cat/agenda/concerts-barcelona-setmana/"
+      "url": "https://beteve.cat/medi-ambient/meteocat-apuja-grau-perill-avisos-tempestes-barcelona/"
     },
     {
-      "headline": "betevé notícies migdia",
+      "headline": "Arriba una tongada de xàfecs i tempestes: mira, en directe, si plou a Barcelona Ariadna Corominas del Hoyo 2 minuts de lectura",
       "region": "barcelona",
       "source": "betevé",
-      "url": "https://beteve.cat/btv-noticies-migdia/beteve-noticies-migdia-604/"
+      "url": "https://beteve.cat/medi-ambient/xafecs-tempestes-barcelona-dijous-4-juny-2026/"
     },
     {
       "headline": "Tots els carrers tallats i afectacions al transport per la visita del papa a Barcelona | MAPA Eva Vial 5 minuts de lectura",
@@ -2227,6 +2233,12 @@
       "url": "https://beteve.cat/agenda/primavera-sound-cartell-horaris-festival-barcelona/"
     },
     {
+      "headline": "Concerts de Barcelona el 2026: Agenda completa d’actuacions musicals Neus Valls Núria Dias Sílvia Carbonell 13 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/agenda/concerts-barcelona-setmana/"
+    },
+    {
       "headline": "Pixies, David Byrne o Mishima, primers confirmats al Cruïlla 2026 Manel Carrasco 1 minut de lectura",
       "region": "barcelona",
       "source": "betevé",
@@ -2243,12 +2255,6 @@
       "region": "barcelona",
       "source": "betevé",
       "url": "https://beteve.cat/agenda/que-fer-aquest-cap-de-setmana-a-barcelona/"
-    },
-    {
-      "headline": "Vols rebre m&eacute;s plans com aquest abans de ning&uacute;? Subscriu-te al butllet&iacute; ‘Qu&egrave; fer a Barcelona’ i rep cada divendres una selecci&oacute; de propostes (moltes gratu&iuml;tes) per al cap de setmana 👉 Ho faig ara mateix!",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/agenda/butlleti-que-fer-a-barcelona/"
     },
     {
       "headline": "Detenen a Barcelona un fugitiu de la Camorra buscat per un homicidi a Nàpols",
@@ -2797,7 +2803,7 @@
       "url": "https://www.diaridegirona.cat/comarques/2026/06/04/llista-aquests-son-els-noms-130989439.html"
     },
     {
-      "headline": "3 «Tot i el meu cognom no munto a cavall, però soc cavaller»",
+      "headline": "2 «Tot i el meu cognom no munto a cavall, però soc cavaller»",
       "region": "extras",
       "source": "Diari de Girona",
       "url": "https://www.diaridegirona.cat/societat/2026/06/04/tot-meu-cognom-munto-cavall-130988045.html"
@@ -2815,7 +2821,7 @@
       "url": "https://www.diaridegirona.cat/girona/2026/06/03/erc-girona-avala-coalicio-amb-130987300.html"
     },
     {
-      "headline": "7 La cúpula del Girona parla després del descens: \"Ara la prioritat és tornar a pujar\"",
+      "headline": "6 La cúpula del Girona parla després del descens: \"Ara la prioritat és tornar a pujar\"",
       "region": "extras",
       "source": "Diari de Girona",
       "url": "https://www.diaridegirona.cat/girona-fc/2026/06/04/pere-guardiola-ignasi-baga-delfi-131011772.html"
@@ -2837,156 +2843,6 @@
       "region": "extras",
       "source": "Diari de Girona",
       "url": "https://www.diaridegirona.cat/societat/2026/06/04/professors-rebutgen-preacord-educacio-govern-catalans-tomba-preacord-131008561.html"
-    },
-    {
-      "headline": "SOS Costa Brava porta als tribunals la urbanització de la Muntanya de Sant Sebastià de Llafranc",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/girona/2026/04/17/sos-costa-brava-porta-als-129230471.html"
-    },
-    {
-      "headline": "Aquest és el restaurant preferit d'Alexia Putellas a la Costa Brava",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/fets-gent/2026/04/16/aquest-restaurant-preferit-dalexia-putellas-129160994.html"
-    },
-    {
-      "headline": "Sílvia Soler: \"Amb el pas del temps, la nostàlgia es va transformant en una cosa gairebé agradable\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/cultura/2026/04/08/silvia-soler-amb-pas-temps-la-nostalgia-es-va-transformant-en-una-cosa-gairebe-agradable-128668067.html"
-    },
-    {
-      "headline": "Francesc Estañol, exporter del Figueres: \"El bar del poble es va omplir de representants de clubs que em venien a fitxar\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/esports/2026/03/30/francesc-estanol-exfutbolista-figueres-128578414.html"
-    },
-    {
-      "headline": "Aquests són els municipis de l'Empordà on és més car comprar un pàrquing",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/economia/2026/02/23/comprar-parquing-emporda-municipis-es-mes-car-127061323.html"
-    },
-    {
-      "headline": "A presó una multireincident amb prop de 40 detencions per robar en pobles del Baix Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/02/10/preso-multireincident-prop-40-robatoris-baix-emporda-126672447.html"
-    },
-    {
-      "headline": "El pitxitxi de l'Escala, Youssef, es converteix en Pepiño a l'Ourense",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/esports/2026/02/05/pitxitxi-lescala-youssef-converteix-pepino-126467071.html"
-    },
-    {
-      "headline": "El grup criminal desarticulat al Baix Empordà va robar 46.200 euros en joies i diners en cinc robatoris a gent gran",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/girona/2026/01/30/grup-criminal-desarticulat-baix-emporda-126277580.html"
-    },
-    {
-      "headline": "El temporal s'endú les platges de l'Escala i deixa passejos plens de sorra a la Costa Brava",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/fotos/2025/12/29/temporal-sendu-les-platges-lescala-125227830.html"
-    },
-    {
-      "headline": "Camil Ysern, músic castelloní redescobert per Carles Coll",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/opinio/2025/11/14/camil-ysern-music-castelloni-redescobert-123733503.html"
-    },
-    {
-      "headline": "Les multes de 1.000 euros que rebran a la bústia milers de conductors després del que va passar el 2025: sancions fermes amb pèrdua de punts",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/motor/2026/06/04/les-multes-1-000-euros-131023359.html"
-    },
-    {
-      "headline": "Els millors plans pel cap de setmana del 6 i 7 de juny de 2026 a l'Alt Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/oci/agenda/2026/06/04/els-millors-plans-pel-cap-setmana-6-7-juny-2026-alt-emporda-131023032.html"
-    },
-    {
-      "headline": "Junts per Catalunya l’Alt Empordà es desmarca de la moció de censura presentada pels seus regidors a Pont de Molins",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/04/junts-per-catalunya-l-alt-131021927.html"
-    },
-    {
-      "headline": "Sis cales de l'Empordà per gaudir de la tranquil·litat abans de l'arribada massiva de turistes",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/oci/plans/2026/06/04/sis-cales-lemporda-per-gaudir-131022080.html"
-    },
-    {
-      "headline": "Cicles del cel per planificar les tasques agrícoles",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/04/projecte-nascut-l-emporda-proposa-130986279.html"
-    },
-    {
-      "headline": "Les Anxoves de l'Escala desembarquen al mercat mexicà en una campanya de Prodeca",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/gastronomia/2026/05/07/les-anxoves-lescala-desembarquen-mercat-129962024.html"
-    },
-    {
-      "headline": "1 Els bombers treballen en un incendi a la planta de residus de Pedret i Marzà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/03/bombers-treballen-incendi-planta-residus-pedret-i-marza-130992597.html"
-    },
-    {
-      "headline": "2 El llegendari Motel Empordà de Figueres celebra 65 anys en el centenari de Josep Mercader",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/figueres/2026/06/04/llegendari-motel-emporda-figueres-celebra-130984932.html"
-    },
-    {
-      "headline": "3 Expulsen un multireincident que tenia atemorits els veïns d'un barri de Figueres",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/figueres/2026/06/04/expulsen-multireincident-tenia-atemorits-veins-figueres-131007750.html"
-    },
-    {
-      "headline": "5 Un jubilat cobra una pensió de 900 euros al mes després de 22 anys treballant: \"Em van fer la jubilació d’acord amb el que havia cotitzat\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/economia/2026/06/04/jubilat-cobra-pensio-900-euros-mes-despres-de-22-anys-treballant-131012503.html"
-    },
-    {
-      "headline": "6 Els tres regidors de Junts i l'edil d'ERC cessat presenten una moció de censura contra l'alcaldessa de Pont de Molins",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/04/els-tres-regidors-junts-ledil-131010255.html"
-    },
-    {
-      "headline": "7 Narcís Garolera: \"El papa Lleó XIII va proclamar la Mare de Déu de Montserrat patrona de Catalunya\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/06/04/narcis-garolera-papa-lleo-xiii-va-proclamar-mare-de-deu-de-montserrat-patrona-de-catalunya-131007757.html"
-    },
-    {
-      "headline": "8 Els Bombers donen per extingit l'incendi a la planta de residus de Pedret i Marzà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/04/dues-dotacions-bombers-treballen-incendi-pedret-marza-131001202.html"
-    },
-    {
-      "headline": "9 Qui és J. L., la terapeuta que va tractar els Andic i que la jutge del cas vol investigar?",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/06/04/qui-j-l-terapeuta-tractar-131005911.html"
-    },
-    {
-      "headline": "10 Jaume Subirós rep el Premi Nacional de Gastronomia Tradicional 2026",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/gastronomia/2026/06/04/jaume-subiros-rep-premi-nacional-130994938.html"
     },
     {
       "headline": "El Cercle pregunta, la Reunió respon",
@@ -3103,16 +2959,16 @@
       "url": "https://www.thenewbarcelonapost.cat/barcelona-es-converteix-en-gran-escenari-grec/"
     },
     {
-      "headline": "La Roca Village obre les portes a la Barcelona més autèntica i quotidiana",
-      "region": "extras",
-      "source": "The New Barcelona Post",
-      "url": "https://www.thenewbarcelonapost.cat/mosaic-vida-real-barcelona-roca-village/"
-    },
-    {
       "headline": "La promesa: Riures, nostàlgia pop i debat social",
       "region": "extras",
       "source": "The New Barcelona Post",
       "url": "https://www.thenewbarcelonapost.cat/critica-la-promesa-sixto-paz-teatre-borras/"
+    },
+    {
+      "headline": "La Roca Village obre les portes a la Barcelona més autèntica i quotidiana",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/mosaic-vida-real-barcelona-roca-village/"
     },
     {
       "headline": "Deu converses per a endinsar-se en l'univers creatiu de Barcelona",
