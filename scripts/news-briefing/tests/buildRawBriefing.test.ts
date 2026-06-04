@@ -34,6 +34,7 @@ describe("buildRawBriefing", () => {
     ]
 
     const fetchedUrls: string[] = []
+    const messages: string[] = []
     const rawBriefing = await buildRawBriefing({
       date: "2026-04-20",
       fetchPageHtml: async url => {
@@ -60,6 +61,7 @@ describe("buildRawBriefing", () => {
           </article>
         `
       },
+      log: message => messages.push(message),
       maxHeadlinesPerSource: 2,
       rawDirectoryPath,
       sourceConfigs,
@@ -79,6 +81,7 @@ describe("buildRawBriefing", () => {
       "https://source-two.example/story-d",
     ])
     expect(fetchedUrls).not.toContain("https://source-one.example/story-c")
+    expect(messages).toEqual(["✅ Source One           2", "✅ Source Two           2"])
   })
 
   test("skips source homepages that fail to fetch", async () => {

@@ -11,6 +11,8 @@ export async function hydrateSelectedStories(
   selection: BriefingSelection,
   /** Fetch page HTML for selected article URLs that do not already have a body. */
   fetchPageHtml: (url: string) => Promise<string>,
+  /** Write concise fetch progress to the console. */
+  log?: (message: string) => void,
 ): Promise<HydratedBriefingSelection> {
   const articlesByUrl = new Map(rawBriefing.articles.map(article => [article.url, article]))
   const selectedUrls = [...new Set(selection.stories.flatMap(story => story.sourceUrls))]
@@ -22,7 +24,13 @@ export async function hydrateSelectedStories(
   const hydratedArticles = await mapWithConcurrency(
     selectedArticles,
     ARTICLE_FETCH_CONCURRENCY,
-    article => fetchSuccessfulArticle(article, fetchPageHtml),
+    async article => {
+      const hydratedArticle = await fetchSuccessfulArticle(article, fetchPageHtml)
+      const icon = hydratedArticle?.body ? "✅" : "❌"
+      log?.(`${icon} ${article.headline} (${article.source})`)
+
+      return hydratedArticle
+    },
   )
   const hydratedArticlesByUrl = new Map(
     hydratedArticles.flatMap(article => (article ? [[article.url, article]] : [])),

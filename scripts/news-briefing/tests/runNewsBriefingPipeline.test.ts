@@ -32,4 +32,44 @@ describe("runNewsBriefingPipeline", () => {
       "commit:2026-04-18,2026-04-20",
     ])
   })
+
+  test("logs concise timed stages around the pipeline", async () => {
+    const messages: string[] = []
+    const times = [0, 0, 1000, 1000, 3000, 7000]
+
+    await runNewsBriefingPipeline({
+      clearExistingBriefingFiles: async () => {},
+      commitAndPushGeneratedBriefings: async () => {},
+      date: "2026-04-20",
+      listMissingBriefingDates: () => ["2026-04-20"],
+      log: message => messages.push(message),
+      now: () => times.shift() ?? 7000,
+      runFetchStage: async date => ({
+        articles: [
+          {
+            headline: "Story",
+            region: "world",
+            source: "Source",
+            url: "https://source.example/story",
+          },
+        ],
+        date,
+      }),
+      runSynthesisStage: async () => "public/briefings/2026-04-20.json",
+    })
+
+    expect(messages).toEqual([
+      "Clearing existing briefing files for 2026-04-20...",
+      "done (1s)",
+      "",
+      "Fetching candidates...",
+      "",
+      "-------------------------",
+      "Total candidates      1",
+      "",
+      "done (2s)",
+      "",
+      "Briefing complete (7s)",
+    ])
+  })
 })

@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs"
 import path from "node:path"
 import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
 import { extractHeadlineCandidates } from "./extractHeadlineCandidates.ts"
+import { formatCandidateSourceLine } from "./formatCandidateSourceLine.ts"
 import type {
   BriefingCandidateArticle,
   BuildRawBriefingArgs,
@@ -26,17 +27,9 @@ export async function buildRawBriefing(
     for (const candidateListingPageUrl of listingPageUrls) {
       let homepageHtml: string
 
-      if (candidateListingPageUrl === sourceConfig.homepageUrl) {
-        args.log?.(`Fetching homepage for ${sourceConfig.name}...`)
-      }
-
       try {
         homepageHtml = await args.fetchPageHtml(candidateListingPageUrl)
       } catch {
-        if (candidateListingPageUrl === listingPageUrls.at(-1)) {
-          args.log?.(`Skipped ${sourceConfig.name}; homepage fetch failed.`)
-        }
-
         continue
       }
 
@@ -53,9 +46,7 @@ export async function buildRawBriefing(
     }
 
     const headlineCandidates = allHeadlineCandidates.slice(0, maxHeadlinesPerSource)
-    args.log?.(
-      `Found ${allHeadlineCandidates.length} headline candidates for ${sourceConfig.name}; using ${headlineCandidates.length}.`,
-    )
+    args.log?.(formatCandidateSourceLine(sourceConfig.name, headlineCandidates.length))
 
     for (const candidate of headlineCandidates) {
       if (!candidate.url) {
@@ -77,8 +68,6 @@ export async function buildRawBriefing(
 
   const articles = [...articleMap.values()]
 
-  args.log?.(`Kept ${articles.length} candidate articles for selection.`)
-
   const rawBriefing: RawBriefing = {
     articles,
     date: args.date,
@@ -88,7 +77,6 @@ export async function buildRawBriefing(
 
   mkdirSync(args.rawDirectoryPath, { recursive: true })
   writeFileSync(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
-  args.log?.(`Wrote candidate briefing to ${rawBriefingPath}.`)
 
   return rawBriefing
 }

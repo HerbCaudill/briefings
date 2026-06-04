@@ -44,6 +44,7 @@ await runNewsBriefingPipeline({
       briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
       date: targetDate,
       fetchPageHtml: fetchPageHtmlWithCurl,
+      log,
       rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
       runPi: runPiWithRawBriefing,
     }),

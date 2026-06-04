@@ -1,3 +1,4 @@
+import { formatElapsedSeconds } from "./formatElapsedSeconds.ts"
 import type { RunNewsBriefingPipelineArgs } from "./types.ts"
 
 /** Run the fetch stage for one date, then synthesize every missing final briefing. */
@@ -5,32 +6,36 @@ export async function runNewsBriefingPipeline(
   /** The pipeline dependencies and target date. */
   args: RunNewsBriefingPipelineArgs,
 ): Promise<void> {
-  args.log?.(`Clearing existing briefing files for ${args.date}...`)
-  await args.clearExistingBriefingFiles(args.date)
+  const now = args.now ?? Date.now
+  const pipelineStart = now()
 
-  args.log?.(`Fetching candidate briefing for ${args.date}...`)
+  args.log?.(`Clearing existing briefing files for ${args.date}...`)
+  const clearStart = now()
+  await args.clearExistingBriefingFiles(args.date)
+  args.log?.(`done (${formatElapsedSeconds(now() - clearStart)})`)
+  args.log?.("")
+
+  args.log?.("Fetching candidates...")
+  args.log?.("")
+  const fetchStart = now()
   const rawBriefing = await args.runFetchStage(args.date)
-  args.log?.(
-    `Fetched candidate briefing for ${args.date} with ${rawBriefing.articles.length} articles.`,
-  )
+  args.log?.("-------------------------")
+  args.log?.(`Total candidates      ${rawBriefing.articles.length}`)
+  args.log?.("")
+  args.log?.(`done (${formatElapsedSeconds(now() - fetchStart)})`)
+  args.log?.("")
 
   const missingBriefingDates = args.listMissingBriefingDates()
-  args.log?.(`Found ${missingBriefingDates.length} missing final briefings.`)
-
   const generatedBriefingDates: string[] = []
 
   for (const date of missingBriefingDates) {
-    args.log?.(`Synthesizing final briefing for ${date}...`)
-    const briefingPath = await args.runSynthesisStage(date)
+    await args.runSynthesisStage(date)
     generatedBriefingDates.push(date)
-    args.log?.(`Wrote final briefing to ${briefingPath}.`)
   }
 
   if (generatedBriefingDates.length > 0) {
-    args.log?.("Committing and pushing generated briefings...")
     await args.commitAndPushGeneratedBriefings(generatedBriefingDates)
-    args.log?.("Committed and pushed generated briefings.")
   }
 
-  args.log?.("News briefing pipeline complete.")
+  args.log?.(`Briefing complete (${formatElapsedSeconds(now() - pipelineStart)})`)
 }

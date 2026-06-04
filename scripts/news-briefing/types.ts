@@ -85,6 +85,8 @@ export type SynthesizeBriefingArgs = {
   briefingDirectoryPath: string
   date: string
   fetchPageHtml: (url: string) => Promise<string>
+  log?: (message: string) => void
+  now?: () => number
   rawDirectoryPath: string
   runPi: (args: RunPiArgs) => Promise<string>
 }
@@ -108,6 +110,7 @@ export type RunNewsBriefingPipelineArgs = {
   date: string
   listMissingBriefingDates: () => string[]
   log?: (message: string) => void
+  now?: () => number
   runFetchStage: (date: string) => Promise<RawBriefing>
   runSynthesisStage: (date: string) => Promise<string>
 }
