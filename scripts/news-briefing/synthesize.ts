@@ -1,23 +1,10 @@
-import { PUBLIC_BRIEFINGS_DIRECTORY_PATH, RAW_BRIEFINGS_DIRECTORY_PATH } from "./constants.ts"
-import { fetchPageHtmlWithCurl } from "./fetchPageHtmlWithCurl.ts"
-import { listMissingBriefingDates } from "./listMissingBriefingDates.ts"
-import { runPiWithRawBriefing } from "./runPiWithRawBriefing.ts"
+import { makeNewsBriefingRuntime } from "./liveRuntime.ts"
 import { synthesizeBriefing } from "./synthesizeBriefing.ts"
 
 const requestedDate = process.argv[2]
-const dates = requestedDate
-  ? [requestedDate]
-  : listMissingBriefingDates({
-      briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
-      rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
-    })
+const runtime = makeNewsBriefingRuntime()
+const dates = runtime.listSynthesisDates(requestedDate)
 
 for (const date of dates) {
-  await synthesizeBriefing({
-    briefingDirectoryPath: PUBLIC_BRIEFINGS_DIRECTORY_PATH,
-    date,
-    fetchPageHtml: fetchPageHtmlWithCurl,
-    rawDirectoryPath: RAW_BRIEFINGS_DIRECTORY_PATH,
-    runPi: runPiWithRawBriefing,
-  })
+  await synthesizeBriefing(runtime.createSynthesizeArgs(date))
 }
