@@ -211,6 +211,12 @@
       "url": "https://www.theguardian.com/world/2026/jun/04/civilians-flee-mogadishu-somalia-as-militias-and-troops-trade-fire"
     },
     {
+      "headline": "Two US pilots killed after plane bound to pick up former MLB star crashes",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/jun/08/us-pilots-killed-plane-crash-dominican-republic"
+    },
+    {
       "headline": "Peru’s discontented voters face straight left-right choice in election runoff",
       "region": "world",
       "source": "The Guardian",
@@ -233,12 +239,6 @@
       "region": "world",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/05/us-sanctions-cuba-president-castro-family"
-    },
-    {
-      "headline": "Canada endorses embattled marine park’s plan to relocate 30 beluga whales",
-      "region": "world",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/jun/04/canada-marineland-beluga-whale-deal"
     },
     {
       "headline": "Powerful earthquake in southern Philippines leaves at least 32 dead",
@@ -443,6 +443,12 @@
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/8/iran-war-live-trump-urges-restraint-after-iranian-missile-attack-on-israel"
     },
     {
+      "headline": "Lebanon denounces Israeli attacks on cultural heritage sites",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/8/iran-war-live-trump-urges-restraint-after-iranian-missile-attack-on-israel?update=4637511"
+    },
+    {
       "headline": "Trump-Netanyahu friendship may be irreparably altered",
       "region": "world",
       "source": "Al Jazeera",
@@ -459,12 +465,6 @@
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/liveblog/2026/6/8/iran-war-live-trump-urges-restraint-after-iranian-missile-attack-on-israel?update=4637495"
-    },
-    {
-      "headline": "Missile launched from Yemen fell near Saudia Arabia border: Ministry",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/6/8/iran-war-live-trump-urges-restraint-after-iranian-missile-attack-on-israel?update=4637616"
     },
     {
       "headline": "‘Strategic doctrine’: Iran hails military shift after Beirut raid response",
@@ -485,7 +485,7 @@
       "url": "https://www.aljazeera.com/news/2026/6/8/how-lebanon-became-the-breaking-point-for-the-iran-war-ceasefire"
     },
     {
-      "headline": "Iran and Israel halt strikes but sabre rattling continues",
+      "headline": "Iran and Israel halt attacks but sabre-rattling continues",
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/6/8/israel-and-iran-exchange-attacks-as-ceasefire-falters"
@@ -603,6 +603,12 @@
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/features/2026/6/8/satellite-images-show-destruction-of-the-us-israel-war-on-iran"
+    },
+    {
+      "headline": "China’s Xi Jinping arrives in North Korea on rare state visit",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/8/chinas-xi-jinping-arrives-in-north-korea-on-rare-state-visit"
     },
     {
       "headline": "How Mexican cartels turned South Africa’s farms into meth production hubs",
@@ -871,22 +877,22 @@
       "url": "https://apnews.com/article/screwworm-flesh-eating-parasite-cattle-texas-a7459200cef00d658d877755ad761f41"
     },
     {
-      "headline": "Los Angeles trial to begin for man accused of sparking the deadly Palisades Fire",
+      "headline": "Los Angeles trial begins for man accused of sparking the deadly Palisades Fire",
       "region": "us",
       "source": "Associated Press",
       "url": "https://apnews.com/article/palisades-fire-los-angeles-california-arson-trial-rinderknecht-89222d7edb2b93f18a2752db1c68a302"
+    },
+    {
+      "headline": "The Kennedy Center drops ‘Trump’ branding as Bill Maher’s Twain Award guests are revealed",
+      "region": "us",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/kennedy-center-maher-twain-name-change-adf8353fe468bfa2783ec96882493fa3"
     },
     {
       "headline": "A watchdog report flags security risks in the IRS-ICE taxpayer data-sharing deal",
       "region": "us",
       "source": "Associated Press",
       "url": "https://apnews.com/article/treasury-irs-ice-data-immigration-enforcement-7164b43edee2c5220f4ab346c228f538"
-    },
-    {
-      "headline": "Defense tries to buttress self-defense claim in Texas trial over teen athlete’s killing",
-      "region": "us",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/texas-teen-stabbing-trial-07d85074c722e11b58aa30e109672e86"
     },
     {
       "headline": "A federal judge strikes down Trump administration immigration policy affecting 39 countries",
@@ -1027,16 +1033,16 @@
       "url": "https://apnews.com/article/maine-transgender-sports-election-486259c963b0a739444aa3c44095d6e7"
     },
     {
+      "headline": "Gordon S. Wood, influential scholar of the American Revolution, dies at 92",
+      "region": "us",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/gordon-wood-historian-obit-death-pulitzer-20ec5f2799014c628adbb3261d3839fd"
+    },
+    {
       "headline": "NYC imposes stringent security as Trump becomes 1st sitting US president to attend NBA Finals game",
       "region": "us",
       "source": "Associated Press",
       "url": "https://apnews.com/article/nba-finals-trump-knicks-new-york-7b43bea56ff57b48f72d365efd1b7ddb"
-    },
-    {
-      "headline": "Brendan Sorsby gets injunction vs. NCAA and could play for Texas Tech after gambling ineligibility",
-      "region": "us",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/sorsby-ncaa-gambling-7c233305b811029d16d63d2b3362e8a0"
     },
     {
       "body": "For a few seismic days this summer, a scattering of towns and villages in the north of England will become the center of the political world. The Makerfield parliamentary by-election on June 18 is an improbable setting for a political earthquake. By-elections — the British equivalent of a U.S. special election — are held when a member of Parliament resigns, dies or (this being Britain) becomes so enmeshed in tabloid scandal that they are flung out of office by angry voters. There are usually a handful each year, and they tend to be of fleeting political interest — offering a brief snapshot of public sentiment. Turnout is generally low. Governing parties tend to do poorly . Sometimes a seat changes hands — but with 650 members of Parliament, a single by-election rarely constitutes a significant shift in power. Most are quickly forgotten. Makerfield is different, in every sense. Here, a few thousand voters in this proudly unglamorous corner of England will choose the future direction of the U.K. The reason why lies 200 miles away in Westminster, where Prime Minister Keir Starmer’s Labour government is on its knees. Starmer has had a miserable time since winning a landslide general election two years ago. He is historically unpopular, and Labour has collapsed in the polls. Many in the party want a change of leader, with Nigel Farage’s populist-right Reform Party on the march and threatening to sweep to power at the next general election, currently expected in 2029. But the most viable candidate to take over from Starmer — the most popular figure by far with grassroots Labour Party members — is not an MP at all. Andy Burnham is a former Labour Cabinet minister, but quit Westminster almost a decade ago to become the Mayor of Greater Manchester. He now oversees England’s second city, and a surrounding region of 2.8 million people — roughly the size of Baltimore and its wider metropolitan area. It has proved an enviable power base. Burnham, 56, has a populist touch many feel Starmer, 63, lacks. His ability to connect with ordinary voters, and to vocally fight for his region against perceived \"Westminster elites,” has struck a chord. He is ambitious and clearly yearns for Downing Street. But he needs a path back to Parliament, and fast. And so to Makerfield, a parliamentary district 20 miles west of Manchester. Makerfield is not so much a place as a collection of places — of small towns and suburbs in the former industrial heartland midway between Manchester and Liverpool. Last month, with Starmer’s leadership under intense scrutiny following a catastrophic showing in local authority elections, Makerfield’s Labour MP, Josh Simons — once a close ally of Starmer, but no longer — announced he was resigning from parliament to provide Burnham a route back to Westminster. In some ways Makerfield is the ideal seat for Burnham. He grew up and still lives in the surrounding area. He was the MP for neighboring Leigh for 15 years. He knows it well. In other ways, it looks immensely challenging, for this will be no coronation. To become the local MP, Burnham first has to win the by-election triggered by Simons’ resignation. And this is precisely the sort of seat — white working class, Brexit-supporting, furious with the traditional political parties — where support for Reform has surged. Farage has vowed to throw everything he has at winning the seat. The Reform candidate, Robert Kenyon, is a local plumber who was beaten by Simons in 2024. (Simons received 18,000 votes to Kenyon’s 12,800.) Since then, Labour’s popularity has nosedived, while support for Farage’s party has surged. Were they facing any other candidate, Reform would be red-hot favorites to pick up the seat. But Burnham is no ordinary Labour candidate. Greater Manchester is his manor, where his name recognition is near-universal. He vastly out-performs Labour on any generic ballot. By-elections are notoriously hard to predict — and this one is expected to be tight — but he has every chance of success. The stakes are sky high. If Burnham wins on June 18, he will immediately challenge Starmer for the leadership. He appears to have the support among Labour MPs and party members to succeed. Britain would likely have a new prime minister — and an entirely new direction — by the fall. But if Burnham loses on June 18, his pathway back to Westminster would remain closed. And the argument that he’s the best candidate for Labour to take on Reform would have been thoroughly disproved at the ballot box. Starmer would likely face a leadership challenge from elsewhere. But no other candidate looks assured of success. Starmer may limp on, perhaps all the way to the general election. And perhaps — if current polls are to be believed — to crushing defeat. Such is the power invested in the people of Makerfield, where a few thousand swing voters now find themselves deciding the next leader of Britain. The whole world will be watching as they make their choice.",
@@ -1353,7 +1359,7 @@
       "url": "https://elpais.com/espana/2026-06-08/el-pp-pide-imputar-a-las-hijas-de-zapatero-en-el-caso-plus-ultra.html"
     },
     {
-      "body": "&lt;p&gt;“¿Se va a condenar a un señor por un chascarillo?”. La frase enunciada por el abogado Emilio Cortés, a cargo de la representación de &lt;a href=\"https://elpais.com/noticias/david-sanchez-perez-castejon/\" target=\"_self\" rel=\"\" title=\"https://elpais.com/noticias/david-sanchez-perez-castejon/\"&gt;David Sánchez&lt;/a&gt;, en la sesión del juicio de este lunes en la Audiencia Provincial de Badajoz resume la postura de la Fiscalía y de las defensas para pedir la absolución del hermano del presidente del Gobierno, del &lt;a href=\"https://elpais.com/noticias/miguel-angel-gallardo-miranda/\" target=\"_self\" rel=\"\" title=\"https://elpais.com/noticias/miguel-angel-gallardo-miranda/\"&gt;exlíder del PSOE extremeño Miguel Ángel Gallardo&lt;/a&gt; y de las otras nueve personas que se sientan en el banquillo. Juntas sostienen que no se ha podido probar el tráfico de influencias en el que se apoya la presunta prevaricación que se les atribuye por la creación y adjudicación de la plaza en la Diputación de Badajoz. Por el contrario, las siete acusaciones populares han esgrimido una y otra vez los &lt;a href=\"https://elpais.com/espana/2026-06-03/la-uco-atribuye-al-exlider-socialista-miguel-angel-gallardo-la-decision-politica-de-contratar-a-david-sanchez-en-la-diputacion-de-badajoz.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-06-03/la-uco-atribuye-al-exlider-socialista-miguel-angel-gallardo-la-decision-politica-de-contratar-a-david-sanchez-en-la-diputacion-de-badajoz.html\"&gt;informes de la Unidad Central Operativa (UCO) de la Guardia Civil&lt;/a&gt; para presentar sus peticiones de penas, que van de uno a seis años de prisión. Dos de ellas han aludido durante esta jornada a la supuesta influencia en la causa extremeña del llamado &lt;i&gt;caso Leire&lt;/i&gt;, en el que se investiga una presunta trama de corrupción liderada por la exmilitante socialista Leire Díez dedicada supuestamente a maniobrar para desbaratar causas judiciales que afectaban al partido o a miembros del Gobierno.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-06-08/la-audiencia-de-badajoz-rechaza-la-peticion-de-david-sanchez-de-volver-a-declarar-en-el-juicio.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "body": "&lt;p&gt;“¿Se va a condenar a un señor por un chascarillo?”. La frase pronunciada por el abogado Emilio Cortés, letrado de &lt;a href=\"https://elpais.com/noticias/david-sanchez-perez-castejon/\" target=\"_self\" rel=\"\" title=\"https://elpais.com/noticias/david-sanchez-perez-castejon/\"&gt;David Sánchez&lt;/a&gt;, en la sesión del juicio de este lunes en la Audiencia Provincial de Badajoz resume la postura de la Fiscalía y de las defensas para pedir la absolución del hermano del presidente del Gobierno, del &lt;a href=\"https://elpais.com/noticias/miguel-angel-gallardo-miranda/\" target=\"_self\" rel=\"\" title=\"https://elpais.com/noticias/miguel-angel-gallardo-miranda/\"&gt;exlíder del PSOE extremeño Miguel Ángel Gallardo&lt;/a&gt; y de las otras nueve personas que se sientan en el banquillo. Juntas sostienen que no se ha podido probar el tráfico de influencias en el que se apoya la presunta prevaricación que se les atribuye por la creación y adjudicación de la plaza en el organimo público. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-06-08/la-audiencia-de-badajoz-rechaza-la-peticion-de-david-sanchez-de-volver-a-declarar-en-el-juicio.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
       "headline": "La Fiscalía mantiene su petición de absolución para David Sánchez, Miguel Ángel Gallardo y el resto de acusados",
       "region": "spain",
       "source": "El País",
@@ -1465,7 +1471,7 @@
       "url": "https://sumandoenergiasporvalencia.elmundo.es/volver-al-trabajo-que-fue-de-aquellos-que-perdieron-su-empleo-tras-la-dana.html"
     },
     {
-      "headline": "Visita del papa Le�n XIV a Madrid, en directo | El Papa concede la Rosa de Oro a la Virgen de la Almudena",
+      "headline": "Visita del papa Le�n XIV a Madrid, en directo | El Papa, en la Almudena: \"Para construir algo hermoso hay que destruir los muros\"",
       "region": "spain",
       "source": "El Mundo",
       "url": "https://www.elmundo.es/espana/2026/06/08/6a2656d8751d9c417ff2581d-directo.html"
@@ -1867,7 +1873,7 @@
       "url": "https://www.elperiodico.com/es/ultimas-noticias/"
     },
     {
-      "headline": "Merz y Macron ponen fin al proyecto de cazas de sexta generación en el que participaba España",
+      "headline": "Merz y Macron ponen fin al proyecto del caza europeo FCAS",
       "region": "spain",
       "source": "El Periódico",
       "url": "https://www.elperiodico.com/es/internacional/20260608/merz-macron-ponen-fin-proyecto-caza-europeo-fcas-131163886"
@@ -2914,162 +2920,6 @@
       "url": "https://www.diaridegirona.cat/comarques/2026/06/08/residus-girona-2030-deficit-tractament-130716101.html"
     },
     {
-      "headline": "SOS Costa Brava porta als tribunals la urbanització de la Muntanya de Sant Sebastià de Llafranc",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/girona/2026/04/17/sos-costa-brava-porta-als-129230471.html"
-    },
-    {
-      "headline": "Aquest és el restaurant preferit d'Alexia Putellas a la Costa Brava",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/fets-gent/2026/04/16/aquest-restaurant-preferit-dalexia-putellas-129160994.html"
-    },
-    {
-      "headline": "Sílvia Soler: \"Amb el pas del temps, la nostàlgia es va transformant en una cosa gairebé agradable\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/cultura/2026/04/08/silvia-soler-amb-pas-temps-la-nostalgia-es-va-transformant-en-una-cosa-gairebe-agradable-128668067.html"
-    },
-    {
-      "headline": "Francesc Estañol, exporter del Figueres: \"El bar del poble es va omplir de representants de clubs que em venien a fitxar\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/esports/2026/03/30/francesc-estanol-exfutbolista-figueres-128578414.html"
-    },
-    {
-      "headline": "Aquests són els municipis de l'Empordà on és més car comprar un pàrquing",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/economia/2026/02/23/comprar-parquing-emporda-municipis-es-mes-car-127061323.html"
-    },
-    {
-      "headline": "A presó una multireincident amb prop de 40 detencions per robar en pobles del Baix Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/02/10/preso-multireincident-prop-40-robatoris-baix-emporda-126672447.html"
-    },
-    {
-      "headline": "El pitxitxi de l'Escala, Youssef, es converteix en Pepiño a l'Ourense",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/esports/2026/02/05/pitxitxi-lescala-youssef-converteix-pepino-126467071.html"
-    },
-    {
-      "headline": "El grup criminal desarticulat al Baix Empordà va robar 46.200 euros en joies i diners en cinc robatoris a gent gran",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/girona/2026/01/30/grup-criminal-desarticulat-baix-emporda-126277580.html"
-    },
-    {
-      "headline": "El temporal s'endú les platges de l'Escala i deixa passejos plens de sorra a la Costa Brava",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/fotos/2025/12/29/temporal-sendu-les-platges-lescala-125227830.html"
-    },
-    {
-      "headline": "Camil Ysern, músic castelloní redescobert per Carles Coll",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/opinio/2025/11/14/camil-ysern-music-castelloni-redescobert-123733503.html"
-    },
-    {
-      "headline": "El Govern critica que Puigdemont animi a rebre el Papa amb xiulets: «Així no s’ajuda el català»",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/catalunya/2026/06/08/govern-visita-papa-carles-puigdemont-xiulets-catala-131143198.html"
-    },
-    {
-      "headline": "Agenda del 8 al 14 de juny a l'Alt Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/oci/agenda/2026/06/08/agenda-8-14-juny-lalt-131007659.html"
-    },
-    {
-      "headline": "Programació de cinemes del 5 a l'11 de juny a l'Alt Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/oci/agenda/2026/06/05/programacio-cinemes-5-l11-juny-131010349.html"
-    },
-    {
-      "headline": "Mataró, dos quilòmetres de mar per viure l’estiu",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/oci/2026/06/09/mataro-quilometres-mar-per-viure-131156805.html"
-    },
-    {
-      "headline": "Cicles del cel per planificar les tasques agrícoles",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/04/projecte-nascut-l-emporda-proposa-130986279.html"
-    },
-    {
-      "headline": "Les Anxoves de l'Escala desembarquen al mercat mexicà en una campanya de Prodeca",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/gastronomia/2026/05/07/les-anxoves-lescala-desembarquen-mercat-129962024.html"
-    },
-    {
-      "headline": "1 La família d’una alumna d’un institut de Figueres denuncia un presumpte cas d’assetjament escolar",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/figueres/2026/06/08/familia-denuncia-seva-filla-pateix-bullying-institut-figueres-130178293.html"
-    },
-    {
-      "headline": "2 Xènia Cardona i Estrella Martos, parella dins i fora de la pista i un Amos de l'Àrea especial amb el Vilafant",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/esports/2026/06/08/xenia-cardona-estrella-martos-parella-dins-fora-pista-amos-area-especial-vilafant-130961358.html"
-    },
-    {
-      "headline": "3 Nòmades de tot Europa aconsegueixen el perillós opi silvestre a Espanya: \"No volem que se sàpiga i vingui més gent\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/06/08/nomades-opi-silvestre-aconsegueixen-rosella-toledo-131120231.html"
-    },
-    {
-      "headline": "4 El Tribunal Suprem planta cara a la Seguretat Social i obliga a indemnitzar amb 1.800 euros els homes jubilats que no van gaudir del complement de maternitat",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/societat/2026/06/08/tribunal-suprem-planta-cara-seguretat-131142841.html"
-    },
-    {
-      "headline": "5 Ja és oficial: Hisenda pot embargar comptes i béns a qui continuï sense completar aquest tràmit obligatori",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/economia/2026/06/08/ja-oficial-hisenda-pot-embargar-131150666.html"
-    },
-    {
-      "headline": "6 De Roses al Tibidabo: quan l’Empordà arriba al cel de Barcelona",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/opinio/2026/06/07/roses-tibidabo-quan-l-emporda-131115891.html"
-    },
-    {
-      "headline": "7 Defuncions del 8 de juny de 2026 a l'Alt Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/necrologiques/2026/06/08/defuncions-juny-2026-8-alt-emporda-131137917.html"
-    },
-    {
-      "headline": "8 Detenen per un robatori el multireincident que va fer tocaments a una dona i va masturbar-se davant seu a Cadaqués",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/08/detenen-per-robatori-multireincident-fer-tocaments-dona-i-masturbar-se-cadaques-131145972.html"
-    },
-    {
-      "headline": "9 Comença el judici contra els 11 acusats d'integrar una organització criminal que fabricava narcollanxes a l'Empordà",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/comarca/2026/06/08/comenca-judici-els-11-acusats-131151665.html"
-    },
-    {
-      "headline": "10 Xavier Colomer (CUP Figueres): \"Cal incomodar qui governa quan té la sensació que pot fer el que vol\"",
-      "region": "extras",
-      "source": "Empordà",
-      "url": "https://www.emporda.info/figueres/2026/06/08/xavier-colomer-cup-figueres-entrevista-131130359.html"
-    },
-    {
       "headline": "Towa International: quan la cultura es converteix en estratègia",
       "region": "extras",
       "source": "The New Barcelona Post",
@@ -3178,12 +3028,6 @@
       "url": "https://www.thenewbarcelonapost.cat/elisabeth-anglarill-veritable-significat-riquesa/"
     },
     {
-      "headline": "La nena afganesa, la jove de la perla del segle XXI",
-      "region": "extras",
-      "source": "The New Barcelona Post",
-      "url": "https://www.thenewbarcelonapost.cat/nena-afganesa-jove-perla-steve-mccurry/"
-    },
-    {
       "headline": "Duo d'emocions al piano",
       "region": "extras",
       "source": "The New Barcelona Post",
@@ -3194,6 +3038,12 @@
       "region": "extras",
       "source": "The New Barcelona Post",
       "url": "https://www.thenewbarcelonapost.cat/critica-lultim-atom-jordi-oriol/"
+    },
+    {
+      "headline": "La nena afganesa, la jove de la perla del segle XXI",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/nena-afganesa-jove-perla-steve-mccurry/"
     },
     {
       "headline": "Un concert monumental ciutadà per homenatjar Gaudí",
@@ -3244,6 +3094,12 @@
       "url": "https://www.thenewbarcelonapost.cat/oscar-manresa-fundacio-catalina-entrevista-celebrar-dret"
     },
     {
+      "headline": "Lleó XIV es reuneix amb víctimes d’abusos i els promet que les seves propostes serviran de base per a “futurs esforços”",
+      "region": "extras",
+      "source": "Diari de Barcelona",
+      "url": "https://www.diaridebarcelona.cat/w/lleo-xiv-es-reuneix-amb-victimes-abusos-promet-seves-propostes-serviran-base-per-futurs-esfor%C3%A7os?redirect=%2F"
+    },
+    {
       "headline": "L'Iran anuncia la fi del darrer atac contra Israel",
       "region": "extras",
       "source": "Diari de Barcelona",
@@ -3272,12 +3128,6 @@
       "region": "extras",
       "source": "Diari de Barcelona",
       "url": "https://www.diaridebarcelona.cat/w/papa-beneira-torre-mes-alta-sagrada-familia-albira-culminacio-segle-mig-despres?redirect=%2F"
-    },
-    {
-      "headline": "Jordi Martí i Pilar Calvo aconsegueixen els avals per concórrer a les primàries de Junts per a l'alcaldia de Barcelona",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/jordi-marti-aconsegueix-avals-per-concorrer-primaries-junts-per-alcaldia-barcelona?redirect=%2F"
     },
     {
       "headline": "\"Quan observem el creixement actual dels discursos feixistes, és impossible no tornar a reivindicar Lorca\"",
@@ -3382,10 +3232,10 @@
       "url": "https://www.diaridebarcelona.cat/w/primer-denunciant-abusos-sexuals-montserrat-lamenta-que-papa-nomes-es-reuneixi-amb-victimes-perfil-baix?redirect=%2F"
     },
     {
-      "headline": "La vaga de bibliotecàries es manté durant les proves PAU",
+      "headline": "Jordi Martí i Pilar Calvo aconsegueixen els avals per concórrer a les primàries de Junts per a l'alcaldia de Barcelona",
       "region": "extras",
       "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/vaga-de-bibliotecaries-es-mante-durant-proves-pau?redirect=%2F"
+      "url": "https://www.diaridebarcelona.cat/w/jordi-marti-aconsegueix-avals-per-concorrer-primaries-junts-per-alcaldia-barcelona?redirect=%2F"
     },
     {
       "headline": "Comencen les obres per transformar l'avinguda Roma en \"un gran passeig\"",
@@ -3412,10 +3262,10 @@
       "url": "https://www.diaridebarcelona.cat/w/metro-de-barcelona-tallara-tram-l1-l9/10-nord-aquest-estiu-per-obres?redirect=%2F"
     },
     {
-      "headline": "El metge gazià Abu Safiya, detingut sense càrrecs per Israel, en règim d’aïllament",
+      "headline": "La vaga de bibliotecàries es manté durant les proves PAU",
       "region": "extras",
       "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/metge-gazia-abu-safiya-detingut-sense-carrecs-per-israel-es-troba-en-regim-aillament?redirect=%2F"
+      "url": "https://www.diaridebarcelona.cat/w/vaga-de-bibliotecaries-es-mante-durant-proves-pau?redirect=%2F"
     }
   ],
   "date": "2026-06-08"

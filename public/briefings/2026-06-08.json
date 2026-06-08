@@ -3,8 +3,8 @@
     {
       "stories": [
         {
-          "body": "Israel and Iran exchanged direct strikes for the first time since an April ceasefire, raising fears that the regional war could resume at full scale. Iran fired missiles at northern Israel after Israeli strikes on Beirut, and Israel responded with attacks on Iranian military and defense sites, including a petrochemical complex, despite President Donald Trump publicly urging both sides to stop shooting and reportedly pressing Benjamin Netanyahu not to escalate. Iran said it would halt attacks unless Israel renewed hostilities, while Israel said it had paused strikes on Iran but would continue operations against Hezbollah in Lebanon.",
-          "headline": "Israel and Iran trade strikes as fragile ceasefire frays, with Trump urging restraint",
+          "body": "Israel and Iran exchanged fire for the first time since an April ceasefire, raising fears of a return to full-scale regional war. Iran said its missiles were retaliation for Israeli strikes near Beirut, while Israel responded with attacks on Iranian military and petrochemical targets despite reported U.S. pressure for restraint. President Donald Trump publicly urged both sides to stop shooting, and Israeli media later said Netanyahu had agreed to halt further strikes on Iran at Trump’s request, though Israel said operations against Hezbollah in Lebanon would continue. The flare-up comes amid broader tensions over Lebanon, Houthi threats in the Red Sea and the Strait of Hormuz, where U.S. forces recently struck Iranian coastal radar sites after drone attacks threatened maritime traffic.",
+          "headline": "Israel and Iran trade strikes as fragile ceasefire strains over Lebanon and Hormuz",
           "sources": [
             {
               "name": "The Guardian",
@@ -15,39 +15,17 @@
               "url": "https://www.aljazeera.com/news/2026/6/8/israel-and-iran-exchange-attacks-as-ceasefire-falters"
             },
             {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/internacional/20260608/11559089/trump-insta-israel-e-iran-detener-inmediato-disparos.html"
-            }
-          ]
-        },
-        {
-          "body": "Iran is making any broader settlement with Washington contingent on ending Israel’s operations in Lebanon and securing an Israeli withdrawal from territory held there, tying the fate of Hezbollah to talks over the war and the Strait of Hormuz blockade. Tehran has reaffirmed support for Hezbollah, warned that attacks on Beirut cross a red line, and argued that no peace deal can restart normal shipping through Hormuz unless the Lebanon front is addressed. The stance complicates U.S.-Iran negotiations as shipping remains severely disrupted, U.S. forces strike Iranian coastal radar sites, and regional flare-ups continue despite U.S.-arranged ceasefires.",
-          "headline": "Iran links wider peace deal to Lebanon and Hezbollah as Strait of Hormuz crisis continues",
-          "sources": [
-            {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
-            },
-            {
               "name": "Reuters",
               "url": "https://www.reuters.com/world/middle-east/us-attacks-iranian-coastal-sites-after-iran-launches-drones-latest-flare-up-2026-06-06/"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/jun/08/iran-ceasefire-talks-us-israel-strait-of-hormuz-blockade-houthis-yemen"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/8/how-lebanon-became-the-breaking-point-for-the-iran-war-ceasefire"
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260608-israel-iran-trade-fire-in-first-clash-since-truce"
             }
           ]
         },
         {
-          "body": "A magnitude 7.8 earthquake struck off Mindanao in the southern Philippines, killing at least 32 people, injuring more than 100, damaging buildings and triggering tsunami alerts across the region before most were canceled. General Santos and Sarangani province were among the hardest-hit areas, with reports of collapsed buildings, landslides, power outages and evacuations of residents and hospital patients. Authorities recorded more than 130 aftershocks and warned people not to enter damaged structures, while President Ferdinand Marcos Jr. said emergency agencies were coordinating the response and suspended classes in affected areas.",
+          "body": "A magnitude-7.8 earthquake struck off Mindanao in the southern Philippines early Monday, killing at least 32 people, injuring more than 100 and damaging buildings, schools, hospitals and commercial structures around General Santos and Sarangani. Authorities reported landslides, power and communications outages, thousands of evacuations and more than 130 aftershocks, while President Ferdinand Marcos Jr. suspended classes in affected areas and promised national support. Tsunami warnings were issued for the Philippines, Indonesia, Japan, Malaysia and Australia before most were cancelled after only small waves were recorded, though officials urged residents to avoid damaged buildings because of aftershock risks.",
           "headline": "Powerful earthquake in southern Philippines kills dozens and triggers tsunami warnings",
           "sources": [
             {
@@ -69,20 +47,20 @@
           ]
         },
         {
-          "body": "Xi Jinping arrived in Pyongyang for his first visit to North Korea in nearly seven years, seeking to refresh China’s ties with Kim Jong-un as Pyongyang’s relationship with Russia has grown closer. Xi was greeted with a red-carpet ceremony, military honors and large crowds before talks focused on trade, border reopening, transport links and diplomatic and military cooperation. China remains North Korea’s main political and economic partner and its only formal treaty ally, but the visit comes amid tensions over North Korea’s nuclear program, sanctions, and Moscow’s increasingly prominent role in Pyongyang’s security strategy.",
-          "headline": "Xi Jinping visits Pyongyang to strengthen China–North Korea ties",
+          "body": "Chinese President Xi Jinping arrived in Pyongyang for his first visit to North Korea in nearly seven years, receiving a highly choreographed welcome from Kim Jong Un as both governments emphasized their “unbreakable” friendship. Xi pledged that China would continue supporting North Korea regardless of changes in the international situation and called for expanded trade, travel and cross-border exchanges as ports, flights and trains reopen. The summit is widely seen as Beijing’s effort to reassert influence over Pyongyang after North Korea deepened military ties with Russia, including a mutual defense pact and troop support for Moscow’s war in Ukraine.",
+          "headline": "Xi Jinping visits North Korea in rare summit to reinforce ties with Kim Jong Un",
           "sources": [
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/world/2026/jun/08/xi-jinping-kim-jong-un-meeting-north-korea"
             },
             {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/asia-pacific/20260608-a-special-sense-of-closeness-china-s-xi-vows-stronger-ties-with-north-korea-in-rare-visit"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/8/chinas-xi-jinping-arrives-in-north-korea-on-rare-state-visit"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/8/north-korea-needs-china-for-survival-why-does-beijing-need-pyongyang"
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20260608-a-special-sense-of-closeness-china-s-xi-vows-stronger-ties-with-north-korea-in-rare-visit"
             },
             {
               "name": "3Cat",
@@ -91,8 +69,8 @@
           ]
         },
         {
-          "body": "Armenian Prime Minister Nikol Pashinyan’s Civil Contract party won parliamentary elections with just under 50% of the vote, strengthening his mandate to deepen ties with Europe and pursue peace with Azerbaijan after Armenia’s 2023 defeat in Nagorno-Karabakh. The result was welcomed by European leaders and viewed with concern in Moscow, which had warned Armenia against moving toward the EU and recently imposed trade restrictions on Armenian goods. Pashinyan said Armenia would continue rapprochement with the West while remaining in the Russia-led Eurasian Economic Union, though he fell short of the supermajority needed for constitutional changes tied to a final peace deal.",
-          "headline": "Armenia’s pro-Europe government wins election despite Russian pressure",
+          "body": "Armenian Prime Minister Nikol Pashinyan’s Civil Contract party won a closely watched parliamentary election with just under 50% of the vote, strengthening his mandate to pursue closer ties with Europe and a peace deal with Azerbaijan while maintaining membership in the Russia-led Eurasian Economic Union. The result follows Armenia’s 2023 defeat by Azerbaijan in Nagorno-Karabakh and comes after Moscow warned of economic costs if Yerevan continued its Western turn, including pressure on Armenian exports and energy prices. European leaders welcomed the result, while Russia alleged Western interference and pressure on pro-Russian opposition parties, which finished well behind Pashinyan’s bloc.",
+          "headline": "Armenia’s pro-Europe party wins election, cementing shift away from Russia",
           "sources": [
             {
               "name": "BBC News",
@@ -111,6 +89,28 @@
               "url": "https://www.3cat.cat/3catinfo/armenia-sallunya-de-russia-malgrat-les-amenaces-de-guerra-economica-del-kremlin/noticia/3413985/"
             }
           ]
+        },
+        {
+          "body": "Russia and Ukraine traded fresh air attacks as Kyiv pressed for renewed peace efforts before winter. Russian strikes hit Kyiv, Zaporizhia, Odesa energy infrastructure and a nuclear fuel storage site near Chornobyl, while Ukrainian drones targeted Russian energy and transport sites including Crimea, Volgograd and Novorossiysk. President Volodymyr Zelenskyy met the leaders of the UK, France and Germany in London, where they backed his call for direct ceasefire talks with Vladimir Putin and pledged to expand Ukraine’s air defenses, interceptors and deep-strike capabilities. Zelenskyy’s chief of staff said a peace deal by winter was “realistic,” though Putin rejected a face-to-face meeting for now.",
+          "headline": "Ukraine and Russia trade attacks as Kyiv seeks renewed peace push before winter",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/europe/zelenskiys-top-aide-says-peace-deal-by-winter-is-realistic-2026-06-01/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/8/ukraine-russia-trade-fire-as-zelenskyy-allies-back-call-for-direct-talks"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/07/zelenskyy-starmer-macron-merz-ukraine-talks-london"
+            }
+          ]
         }
       ],
       "title": "World"
@@ -118,8 +118,8 @@
     {
       "stories": [
         {
-          "body": "The Trump administration’s immigration agenda is facing simultaneous fights in Congress, the courts and oversight agencies. Senate Republicans passed a bill providing $70 billion in additional immigration enforcement funding while failing to permanently block a controversial $1.8 billion “anti-weaponization” fund for Trump allies, exposing divisions inside the party. Separately, a federal judge struck down a policy that had stalled immigration applications from people from 39 countries, a Treasury watchdog flagged security and matching problems in an IRS-ICE taxpayer data-sharing deal, and another judge halted administration conditions on SNAP funding tied to immigration and other policy issues.",
-          "headline": "Trump administration immigration push faces court, watchdog and funding battles",
+          "body": "The U.S. Senate passed a Republican bill providing $70 billion in additional immigration enforcement funding for the Department of Homeland Security over three years, sending it to the House without Democratic support. Democrats and some Republicans failed to add language blocking a $1.8 billion “anti-weaponization” fund that critics say could compensate Trump allies who claim government mistreatment, despite assurances from acting Attorney General Todd Blanche that the Justice Department would not move forward with it. The vote unfolded alongside continued scrutiny of Trump administration immigration policies, including a watchdog report faulting IRS-ICE taxpayer data sharing and a federal court ruling striking down restrictions affecting immigrants from 39 countries.",
+          "headline": "US Senate passes $70 billion immigration enforcement bill while Trump-linked fund survives",
           "sources": [
             {
               "name": "Reuters",
@@ -127,7 +127,25 @@
             },
             {
               "name": "Associated Press",
+              "url": "https://apnews.com/article/treasury-irs-ice-data-immigration-enforcement-7164b43edee2c5220f4ab346c228f538"
+            },
+            {
+              "name": "Associated Press",
               "url": "https://apnews.com/article/trump-immigration-asylum-citizenship-10591d120e5cb13da736d9eeb06757c8"
+            }
+          ]
+        },
+        {
+          "body": "Federal courts and watchdogs delivered several setbacks to Trump administration policies, including a judge’s decision striking down immigration restrictions that had left applicants from 39 countries unable to receive final decisions on asylum, work permits, green cards and citizenship. Another federal judge halted Agriculture Department conditions on SNAP funding that 20 Democratic-led states said unlawfully tied food assistance to restrictions related to gender ideology, immigration and athletics. Separately, a Treasury inspector general report raised security and accuracy concerns over an IRS-ICE data-sharing agreement that led the IRS to provide last-known addresses for about 47,000 people, while AP reported that some families protected by the family separation settlement have been separated again during mass deportation operations.",
+          "headline": "US courts and watchdogs push back on Trump administration immigration, SNAP and data-sharing policies",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/trump-immigration-asylum-citizenship-10591d120e5cb13da736d9eeb06757c8"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/trump-administration-snap-593bd2f1c57e90ea3ee1c3e7f6d3f32b"
             },
             {
               "name": "Associated Press",
@@ -135,35 +153,43 @@
             },
             {
               "name": "Associated Press",
-              "url": "https://apnews.com/article/trump-administration-snap-593bd2f1c57e90ea3ee1c3e7f6d3f32b"
+              "url": "https://apnews.com/article/immigration-trump-family-separation-takeaways-11b54d7207f4803baca51b43a25dfb25"
             }
           ]
         },
         {
-          "body": "A new AP-NORC poll finds that Americans are less likely than in recent years to see democratic government as central to the country’s identity, even as the United States prepares to mark its 250th anniversary. About two-thirds of adults now say a democratically elected government is extremely or very important to U.S. identity, down from 80% in 2021. The poll also found declining views of American exceptionalism, with only about one-quarter saying the U.S. stands above all other countries and about three in ten saying there are better countries.",
-          "headline": "New poll finds fewer Americans see democracy as central to national identity",
+          "body": "Maine Democrats are split over Senate candidate Graham Platner as new allegations about past relationships and a tattoo resembling a Nazi symbol threaten to destabilize one of the party’s most important pickup opportunities against Republican Susan Collins. Platner denies the allegations and says he has not considered dropping out, while some Democrats are watching Tuesday’s primary for signs of a protest vote for Gov. Janet Mills, who suspended her campaign but remains on the ballot. Despite private anxiety about his general-election viability, several prominent Democrats and progressive groups are standing by him, including Sen. Brian Schatz, who is helping host a donor event, and Rep. Ro Khanna, who rallied with him in Maine.",
+          "headline": "Maine Senate race roiled by Graham Platner allegations as Democrats weigh risks in must-win contest",
           "sources": [
             {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/ap-poll-america-250-democracy-exceptional-474874cbb88c08908c8b6c01e386ba91"
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/05/platner-democrats-maine-tuesday-primary-00952432"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/05/brian-schatz-graham-platner-maine-donors-00952600"
             }
           ]
         },
         {
-          "body": "A federal appeals court ruling restricting mail-order access to mifepristone, one of the most common abortion methods in the United States, has pushed abortion policy back to the Supreme Court and into midterm campaign politics. The 5th Circuit ordered that the drug be distributed only in person and at clinics, siding with Louisiana’s argument that mailed abortion pills undermine its abortion ban, before the Supreme Court temporarily restored broader access while it considers the case. Abortion rights groups say the case could energize Democratic voters, while anti-abortion advocates are pressuring Republicans to take a harder line on medication abortion.",
-          "headline": "Abortion pill rulings return access fight to Supreme Court and midterm politics",
+          "body": "Iowa’s primaries highlighted growing midterm pressure on Republicans over the economy, agriculture and the Iran war. Democrats nominated Josh Turek for U.S. Senate and are rallying behind state auditor Rob Sand for governor, arguing that tariffs, Medicaid cuts, rural clinic closures and higher fertilizer and diesel costs have created an opening in a state that has shifted sharply right. Republicans suffered a surprise blow when Trump-endorsed Rep. Randy Feenstra lost the GOP gubernatorial primary to Zach Lahn, while Senate candidate Ashley Hinson privately acknowledged that a prolonged Iran war could become a political liability after Iowa soldiers were killed and farm input costs rose. New polling also shows many Americans still blame Trump for high costs and believe the war has made their finances worse.",
+          "headline": "Iowa primaries signal midterm pressure on Trump-era Republicans over economy and war",
           "sources": [
             {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/abortion-pill-politics-mifepristone-trump-republicans-democrats-8d15ca0de988e1d185515c621c67411e"
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/03/democrats-iowa-excitement-primary-00947943"
             },
             {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/abortion-pills-mifepristone-mail-louisiana-b4871f5cdb3b0bf7bd218ea2ca64e78b"
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/03/feenstra-concedes-iowa-governor-primary-00947876"
             },
             {
-              "name": "Associated Press",
-              "url": "https://apnews.com/article/abortion-pills-mail-louisiana-ruling-40d60a9bf6212480e527480757b603c3"
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/02/ashley-hinson-audio-iran-war-iowa-senate-00946145"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/05/29/poll-trump-economy-midterms-iran-war-00941406"
             }
           ]
         }
@@ -173,8 +199,8 @@
     {
       "stories": [
         {
-          "body": "Pope Leo XIV delivered a historic address to Spain’s Congress in a joint session with the Senate, calling on political leaders to defend human dignity, lower the temperature of public debate and avoid the permanent disqualification of opponents. In a 30-minute speech followed by a long ovation, he argued that laws must be grounded in principles beyond shifting majorities, criticized discrimination against migrants, defended life “from conception to natural death,” and urged dialogue over rearmament in international conflicts. His remarks drew different points of approval across the political spectrum, with the left responding to his language on migrants and peace and the right to his statements on life and education.",
-          "headline": "Pope Leo XIV makes historic Spain address, criticizing polarization, discrimination and war",
+          "body": "Pope Leo XIV delivered a historic 30-minute address to Spain’s Congress and Senate, urging political leaders to “disarm language,” reject permanent denigration of opponents and ground laws in human dignity rather than shifting majorities. His speech drew a seven-minute ovation and touched on migration, peace, family, education, the protection of life “from conception to natural death” and the moral responsibility of legislators. Spanish parties found different points of emphasis, with the left more receptive to his calls on migrants, cooperation and reducing polarization, and the right more aligned with his language on life and education, while the pope framed the overall message as an appeal to the common good and democratic coexistence.",
+          "headline": "Pope Leo XIV makes historic Spain address urging lower polarization and dignity for migrants",
           "sources": [
             {
               "name": "El País",
@@ -195,8 +221,8 @@
           ]
         },
         {
-          "body": "Pope Leo XIV used his visit to the Spanish Episcopal Conference to describe clergy sexual abuse as a “plague” and call for truth, justice, repair, prevention and a stronger culture of care. He said people harmed by those who should have protected them must receive sincere listening, welcome, protection and real paths toward healing. Later, he met privately for nearly an hour with six abuse survivors at the apostolic nunciature, while some victim associations criticized being excluded from the encounter and Spanish officials pointed to growing use of a state-backed reparations office.",
-          "headline": "Pope calls clergy abuse a ‘plague’ and urges Spanish Church toward truth, justice and repair",
+          "body": "Pope Leo XIV confronted the Catholic Church’s abuse scandal during his Spain visit, telling Spanish bishops that abuse is a “plague” requiring listening, truth, justice, reparations, protection and real paths of healing. He later met privately for nearly an hour with six victims at the Vatican nunciature in Madrid, where the Holy See said he listened with affection and attention and received proposals for making the Church’s response more effective. Some victim associations criticized the meeting as insufficiently representative because participants were selected through Church-linked channels, saying broader survivor groups had asked to meet the pope and felt excluded.",
+          "headline": "Pope calls church abuse a ‘plague’ and meets victims during Spain visit",
           "sources": [
             {
               "name": "El País",
@@ -211,14 +237,14 @@
               "url": "https://www.lavanguardia.com/politica/20260608/11559533/papa-reune-hora-seis-victimas-abusos-seno-iglesia.html"
             },
             {
-              "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana/2026/06/08/6a2698e9e85eceb1048b4573.html"
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/associacions-de-victimes-de-pederastia-a-lesglesia-denuncien-falta-de-pluralitat-en-la-reunio-amb-el-papa/noticia/3413860/"
             }
           ]
         },
         {
-          "body": "Spanish corruption investigations widened as National Court judge Santiago Pedraz summoned PSOE president Cristina Narbona as a witness in the Leire Díez case and formally placed Koldo García’s lawyer, Leticia de la Hoz, under investigation over an alleged bribery attempt connected to testimony about money delivered to PSOE headquarters. Pedraz also ordered testimony from more than 20 witnesses and requested information from the attorney general’s office about meetings involving people under investigation. Separately, a Madrid judge admitted PP and Vox complaints over the public rescue of Air Europa, summoned SEPI vice president Bartolomé Lora as a suspect in a possible administrative misconduct case, and demanded extensive documentation on the nearly €500 million bailout.",
-          "headline": "Spain’s corruption probes widen as judges summon PSOE figures and Air Europa officials",
+          "body": "Spain’s governing PSOE faces growing judicial and political pressure from several corruption-related cases. Audiencia Nacional judge Santiago Pedraz summoned PSOE president Cristina Narbona as a witness in the Leire Díez case, which investigates an alleged effort to obstruct judicial and police probes affecting the party and government figures, while also calling more than 20 other witnesses and formally naming Koldo García’s lawyer as a suspect. Prime Minister Pedro Sánchez will appear before Congress on June 24 to address the political situation, after police sought information from PSOE headquarters. Separately, a Madrid judge admitted PP and Vox complaints over the Air Europa rescue and summoned SEPI vice president Bartolomé Lora as a suspect, while the PP asked for the daughters of former Prime Minister José Luis Rodríguez Zapatero to be investigated in the Plus Ultra case.",
+          "headline": "Spain’s PSOE faces widening judicial pressure over Leire Díez, Air Europa and Plus Ultra cases",
           "sources": [
             {
               "name": "El País",
@@ -226,15 +252,33 @@
             },
             {
               "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/20260608/pedraz-imputa-abogada-koldo-cita-testigo-presidenta-psoe-cristina-narbona-caso-leire/17105633.shtml"
+              "url": "https://www.rtve.es/noticias/20260608/sanchez-comparecera-24-junio-congreso-diputados-para-hablar-sobre-caso-leire-corrupcion/17105681.shtml"
             },
             {
               "name": "El País",
               "url": "https://elpais.com/espana/2026-06-08/un-juez-admite-una-querella-de-pp-y-vox-por-el-rescate-de-air-europa-y-cita-como-investigado-al-vicepresidente-de-la-sepi.html"
             },
             {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-08/el-pp-pide-imputar-a-las-hijas-de-zapatero-en-el-caso-plus-ultra.html"
+            }
+          ]
+        },
+        {
+          "body": "A 40dB poll for El País and Cadena SER shows the PP widening its national lead over the PSOE to nearly five points, with the PP at 32.4% and the Socialists falling to 27.7% amid renewed corruption scandals and judicial pressure. Vox continues to decline nationally for a third consecutive month, though a separate Sigma Dos poll in La Rioja shows Vox gaining enough ground that the PP could lose its absolute majority there and need support from Santiago Abascal’s party. Inside the Sánchez government, ministers increasingly complain that judicial developments are dominating the political agenda and suspect politically timed actions, while acknowledging that corruption probes involving figures close to the PSOE are overshadowing government messaging.",
+          "headline": "PP expands polling lead over PSOE after corruption scandals, while Vox continues to slip",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-07/el-pp-amplia-a-casi-cinco-puntos-su-ventaja-sobre-el-psoe-tras-los-ultimos-escandalos-de-corrupcion.html"
+            },
+            {
               "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana/2026/06/08/6a269f5b21efa022378b459c.html"
+              "url": "https://www.elmundo.es/espana/encuestas/2026/06/08/6a2561ffe85eceef028b458d.html?intcmp=masnoticiasportada"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/07/6a2558c9e4d4d8fa4b8b4588.html"
             }
           ]
         }
@@ -244,48 +288,30 @@
     {
       "stories": [
         {
-          "body": "Barcelona is preparing for Pope Leo XIV’s June 9–10 visit with major mobility restrictions around Montjuïc, the Cathedral, Sant Agustí in the Raval and especially the Sagrada Família, where the pope is expected to bless the tower of Jesus. The city is urging residents to plan ahead and use reinforced public transport, while some metro access and parking will be restricted and broad traffic cuts will affect key Eixample streets. Betevé and the city will install giant screens at Glòries and Arc de Triomf to broadcast events, while many shops and restaurants near the Sagrada Família plan to close because of access limits, terrace removals and uncertainty over the day’s operations.",
-          "headline": "Barcelona braces for Pope Leo XIV visit with major traffic cuts, giant screens and business closures",
+          "body": "Barcelona is preparing for Pope Leo XIV’s June 9-11 visit with major mobility restrictions, security measures and public viewing points across the city. Traffic and parking bans around Montjuïc and the Olympic ring begin before the main events, with residents in affected areas required to show proof of residence and public transport reinforced for accredited attendees. The pope’s schedule includes stops at the Cathedral, the Olympic Stadium, Brians prison, Montserrat, Sant Agustí in the Raval and the Sagrada Família, where he will pray at Gaudí’s tomb and bless the Tower of Jesus on the centenary of Gaudí’s death. betevé and the city will install large screens at Glòries and Arc de Triomf with accessibility measures and live Catalan subtitles.",
+          "headline": "Barcelona prepares for Pope Leo XIV visit with major transport disruption and public screens",
           "sources": [
-            {
-              "name": "3Cat",
-              "url": "https://www.3cat.cat/3catinfo/carrers-tallats-i-afectacions-al-transport-public-per-la-visita-del-papa-lleo-xiv-a-catalunya/noticia/3412226/"
-            },
             {
               "name": "betevé",
               "url": "https://beteve.cat/cultura/pantalles-gegants-visita-papa-lleo-xiv-barcelona/"
             },
             {
-              "name": "betevé",
-              "url": "https://beteve.cat/economia/comerciants-sagrada-familia-tancats-papa/"
-            },
-            {
               "name": "El Periódico Barcelona",
-              "url": "https://www.elperiodico.com/es/barcelona/20260608/cortes-trafico-entorno-sagrada-familia-eixample-visita-papa-afectaciones-movilidad-130935646"
-            }
-          ]
-        },
-        {
-          "body": "Barcelona library workers continued an indefinite strike and occupied the city’s library consortium offices for several hours after holding an assembly in Plaça Sant Jaume to demand renewed negotiations with the city. Workers say the administration closed talks without accepting key demands, including salary alignment with other municipal workers, shorter workdays, better Saturday compensation, reinforced staffing and updated public library standards. The consortium says negotiations remain open and that worker representatives did not sign the administration’s proposed agreement, while the strike is continuing during university entrance exams and alongside planned protests during the pope’s arrival.",
-          "headline": "Barcelona library workers occupy consortium offices as indefinite strike continues",
-          "sources": [
-            {
-              "name": "betevé",
-              "url": "https://beteve.cat/economia/bibliotecaris-ocupen-consorci-biblioteques-barcelona-exigir-negociacions/"
+              "url": "https://www.elperiodico.com/es/barcelona/20260608/mapa-cortes-trafico-montjuic-visita-papa-leon-130935767"
             },
             {
-              "name": "Diari de Barcelona",
-              "url": "https://www.diaridebarcelona.cat/w/vaga-de-bibliotecaries-es-mante-durant-proves-pau?redirect=%2F"
+              "name": "The New Barcelona Post",
+              "url": "https://www.thenewbarcelonapost.cat/guia-practica-visita-papa-barcelona/"
             }
           ]
         },
         {
-          "body": "A man was shot dead Sunday night on Carrer de la Mineria in Barcelona’s Zona Franca, the second fatal shooting on the same street in less than a month and part of a wider rise in gun violence in Catalunya. Mossos d’Esquadra are investigating the killing and searching for the attacker, while city officials said the deaths appear linked to international organized crime rather than neighborhood dynamics. Interior minister Núria Parlon called for tougher penalties for illegal firearm possession, noting concerns that drug-trafficking groups and other criminal networks have become increasingly armed, and police have reinforced their presence in the area ahead of neighborhood festivities.",
-          "headline": "Second fatal Zona Franca shooting in weeks raises organized-crime concerns in Barcelona",
+          "body": "A man was shot dead Sunday night on Carrer de la Mineria in Barcelona’s Zona Franca, the second fatal shooting on the same street in less than a month. Mossos d’Esquadra are investigating the killing and searching for the attacker, while early police information points to possible links with international organized crime rather than a neighborhood dispute. City officials urged calm but acknowledged residents’ concern, and Interior Minister Núria Parlon called for tougher penalties for illegal possession of firearms after more than 30 shootings were recorded in Catalunya this year, many linked to drug trafficking and organized crime.",
+          "headline": "Barcelona’s Zona Franca sees second fatal shooting in less than a month, prompting security calls",
           "sources": [
             {
               "name": "3Cat",
-              "url": "https://www.3cat.cat/3catinfo/mor-un-home-en-un-tiroteig-a-la-zona-franca-de-barcelona/noticia/3413910/"
+              "url": "https://www.3cat.cat/3catinfo/mor-un-home-en-un-tiroig-a-la-zona-franca-de-barcelona/noticia/3413910/"
             },
             {
               "name": "Tot Barcelona",
@@ -298,6 +324,24 @@
             {
               "name": "El Periódico Barcelona",
               "url": "https://www.elperiodico.com/es/sucesos/20260608/nuria-parlon-pide-agravar-penas-tenencia-armas-de-fuego-131145831"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona library workers on indefinite strike held an assembly in Plaça Sant Jaume and occupied the Barcelona Libraries Consortium offices for about four hours, demanding renewed negotiations over pay, staffing, schedules, Saturday work and compensation. Workers say the city and consortium ended talks without accepting their core demands, while the consortium says negotiations remain open and that labor representatives did not sign the administration’s proposed agreement. The strike continues during university entrance exam week, and workers have called another protest for June 9, coinciding with the pope’s arrival. Separately, Barcelona’s ombudsman sided with library workers who said they were denied entry to the Sant Jordi proclamation despite confirmed tickets, finding failures in transparency and administration though not conclusively proving discrimination.",
+          "headline": "Barcelona library workers occupy consortium office as indefinite strike continues",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/bibliotecaris-ocupen-consorci-biblioteques-barcelona-exigir-negociacions/"
+            },
+            {
+              "name": "Diari de Barcelona",
+              "url": "https://www.diaridebarcelona.cat/w/vaga-de-bibliotecaries-es-mante-durant-proves-pau?redirect=%2F"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/bibliotecaris-vaga-discriminats-prego-sant-jordi-718891/"
             }
           ]
         }
