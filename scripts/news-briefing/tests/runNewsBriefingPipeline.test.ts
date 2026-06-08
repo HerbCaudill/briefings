@@ -1,7 +1,60 @@
+import { Effect, Layer } from "effect"
 import { describe, expect, test } from "vitest"
-import { runNewsBriefingPipeline } from "../runNewsBriefingPipeline.ts"
+import {
+  PipelineStageService,
+  runNewsBriefingPipeline,
+  runNewsBriefingPipelineEffect,
+} from "../runNewsBriefingPipeline.ts"
+import { ClockService, LoggingService } from "../runtimeServices.ts"
 
 describe("runNewsBriefingPipeline", () => {
+  test("runs the top-level pipeline as an Effect with injectable stage services", async () => {
+    const events: string[] = []
+    const messages: string[] = []
+    const times = [0, 0, 1000, 1000, 3000, 7000]
+    const services = Layer.mergeAll(
+      PipelineStageService.LiveFromRunners({
+        clearExistingBriefingFiles: date =>
+          Effect.sync(() => {
+            events.push(`clear:${date}`)
+          }),
+        commitAndPushGeneratedBriefings: dates =>
+          Effect.sync(() => {
+            events.push(`commit:${dates.join(",")}`)
+          }),
+        listMissingBriefingDates: Effect.succeed(["2026-04-18", "2026-04-20"]),
+        runFetchStage: date =>
+          Effect.sync(() => {
+            events.push(`fetch:${date}`)
+
+            return { articles: [], date }
+          }),
+        runSynthesisStage: date =>
+          Effect.sync(() => {
+            events.push(`synthesize:${date}`)
+
+            return `public/briefings/${date}.json`
+          }),
+      }),
+      ClockService.LiveFromNow(() => times.shift() ?? 7000),
+      LoggingService.LiveFromLogger(message => messages.push(message)),
+    )
+
+    await runNewsBriefingPipelineEffect({ date: "2026-04-20" }).pipe(
+      Effect.provide(services),
+      Effect.runPromise,
+    )
+
+    expect(events).toEqual([
+      "clear:2026-04-20",
+      "fetch:2026-04-20",
+      "synthesize:2026-04-18",
+      "synthesize:2026-04-20",
+      "commit:2026-04-18,2026-04-20",
+    ])
+    expect(messages).toContain("Briefing complete (7s)")
+  })
+
   test("clears the requested date, fetches it, synthesizes every missing briefing date, and commits generated files", async () => {
     const events: string[] = []
 
