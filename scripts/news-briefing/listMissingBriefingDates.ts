@@ -7,9 +7,7 @@ export function listMissingBriefingDates(
   /** The raw and final briefing directories to compare. */
   args: ListMissingBriefingDatesArgs,
 ): string[] {
-  if (!existsSync(args.rawDirectoryPath)) {
-    return []
-  }
+  if (!existsSync(args.rawDirectoryPath)) return []
 
   const rawDates = readdirSync(args.rawDirectoryPath)
     .filter(isDatedBriefingJsonFileName)

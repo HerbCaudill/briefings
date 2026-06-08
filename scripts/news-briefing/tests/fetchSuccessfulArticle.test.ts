@@ -25,9 +25,7 @@ describe("fetchSuccessfulArticle", () => {
     const result = await fetchSuccessfulArticle(baseArticle, async () => {
       attempts += 1
 
-      if (attempts < 2) {
-        throw new Error("temporary failure")
-      }
+      if (attempts < 2) throw new Error("temporary failure")
 
       return `<article><p>The fetched article paragraph is long enough to keep after extraction.</p></article>`
     })

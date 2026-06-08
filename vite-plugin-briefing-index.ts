@@ -16,9 +16,7 @@ export function briefingIndex(): Plugin {
 
     /** Regenerate when briefing files change during dev. */
     handleHotUpdate({ file }) {
-      if (file.startsWith(briefingsDir) && file.endsWith(".json") && !file.endsWith("index.json")) {
-        generateBriefingIndex(briefingsDir)
-      }
+      if (file.startsWith(briefingsDir) && file.endsWith(".json") && !file.endsWith("index.json")) generateBriefingIndex(briefingsDir)
     },
   }
 }

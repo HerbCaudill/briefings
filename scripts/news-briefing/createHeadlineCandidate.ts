@@ -8,9 +8,7 @@ export function createHeadlineCandidate(
 ): HeadlineCandidate | null {
   const articleUrl = new URL(args.href, args.baseUrl)
 
-  if (!isHttpArticleUrl(articleUrl)) {
-    return null
-  }
+  if (!isHttpArticleUrl(articleUrl)) return null
 
   return {
     ...(args.body ? { body: args.body } : {}),

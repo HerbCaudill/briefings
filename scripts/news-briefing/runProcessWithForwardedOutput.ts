@@ -19,15 +19,11 @@ export async function runProcessWithForwardedOutput(
   childProcess.stdout?.on("data", (chunk: Buffer) => {
     stdoutChunks.push(chunk)
 
-    if (options.forwardStdout ?? true) {
-      ;(options.stdout ?? process.stdout).write(chunk)
-    }
+    if (options.forwardStdout ?? true) (options.stdout ?? process.stdout).write(chunk)
   })
 
   childProcess.stderr?.on("data", (chunk: Buffer) => {
-    if (options.forwardStderr ?? true) {
-      ;(options.stderr ?? process.stderr).write(chunk)
-    }
+    if (options.forwardStderr ?? true) (options.stderr ?? process.stderr).write(chunk)
   })
 
   return await new Promise((resolve, reject) => {

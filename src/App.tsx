@@ -22,11 +22,8 @@ function App() {
       .then((data: BriefingIndex[]) => {
         setBriefings(data)
         const fromUrl = getDateFromPath()
-        if (fromUrl && data.some(b => b.date === fromUrl)) {
-          setSelected(fromUrl)
-        } else if (data.length > 0) {
-          setSelected(data[0].date)
-        }
+        if (fromUrl && data.some(b => b.date === fromUrl)) setSelected(fromUrl)
+        else if (data.length > 0) setSelected(data[0].date)
       })
   }, [])
 
@@ -34,9 +31,7 @@ function App() {
   useEffect(() => {
     if (!selected) return
     const path = `/${selected}`
-    if (window.location.pathname !== path) {
-      window.history.pushState(null, "", path)
-    }
+    if (window.location.pathname !== path) window.history.pushState(null, "", path)
   }, [selected])
 
   /** Listen for browser back/forward navigation. */

@@ -9,9 +9,7 @@ export async function commitAndPushGeneratedBriefings(
   /** The generated briefing dates and optional command runner. */
   args: CommitAndPushGeneratedBriefingsArgs,
 ): Promise<void> {
-  if (args.dates.length === 0) {
-    return
-  }
+  if (args.dates.length === 0) return
 
   const briefingDirectoryPath = args.briefingDirectoryPath ?? PUBLIC_BRIEFINGS_DIRECTORY_PATH
   const runCommand = args.runCommand ?? runProcessWithForwardedOutput

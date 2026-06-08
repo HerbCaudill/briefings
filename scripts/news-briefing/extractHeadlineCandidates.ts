@@ -51,9 +51,7 @@ export function extractHeadlineCandidates(
       position: state.candidates.length + 1,
     })
 
-    if (!candidate) {
-      continue
-    }
+    if (!candidate) continue
 
     state = appendUniqueHeadlineCandidate(state, candidate)
   }
@@ -64,9 +62,7 @@ export function extractHeadlineCandidates(
     const openTagEnd = start + match[0].length
     const close = html.indexOf("</a>", openTagEnd)
 
-    if (close > 0) {
-      anchorRanges.push({ end: close + 4, href, start })
-    }
+    if (close > 0) anchorRanges.push({ end: close + 4, href, start })
   }
 
   for (const match of html.matchAll(
@@ -103,9 +99,7 @@ export function extractHeadlineCandidates(
     )
     const resolvedHref = inlineHrefMatch?.[1] ?? parentAnchor?.href ?? ariaMap.get(headline) ?? ""
 
-    if (!resolvedHref) {
-      continue
-    }
+    if (!resolvedHref) continue
 
     const candidate = createHeadlineCandidate({
       baseUrl,
@@ -114,9 +108,7 @@ export function extractHeadlineCandidates(
       position: state.candidates.length + 1,
     })
 
-    if (!candidate) {
-      continue
-    }
+    if (!candidate) continue
 
     state = appendUniqueHeadlineCandidate(state, candidate)
   }

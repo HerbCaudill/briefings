@@ -13,16 +13,12 @@ export function extractArticleParagraphs(
   for (const match of content.matchAll(/<p\b[^>]*>(.*?)<\/p>/gis)) {
     const paragraph = normalizeArticleParagraphText(match[1])
 
-    if (paragraph.length <= 40) {
-      continue
-    }
+    if (paragraph.length <= 40) continue
 
     paragraphs.push(paragraph)
     totalLength += paragraph.length
 
-    if (totalLength > 3000) {
-      break
-    }
+    if (totalLength > 3000) break
   }
 
   return paragraphs

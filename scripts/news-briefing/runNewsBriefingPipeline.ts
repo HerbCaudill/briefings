@@ -92,9 +92,7 @@ export function runNewsBriefingPipelineEffect(
       discard: true,
     })
 
-    if (missingBriefingDates.length > 0) {
-      yield* stages.commitAndPushGeneratedBriefings(missingBriefingDates)
-    }
+    if (missingBriefingDates.length > 0) yield* stages.commitAndPushGeneratedBriefings(missingBriefingDates)
 
     const pipelineEnd = yield* clock.now
     yield* logging.log(`Briefing complete (${formatElapsedSeconds(pipelineEnd - pipelineStart)})`)

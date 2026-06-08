@@ -192,9 +192,7 @@ describe("synthesizeBriefing", () => {
       briefingDirectoryPath,
       date: "2026-04-20",
       fetchPageHtml: async url => {
-        if (url === "https://source.example/selected") {
-          return `<article><p>Long selected article body fetched after selection.</p></article>`
-        }
+        if (url === "https://source.example/selected") return `<article><p>Long selected article body fetched after selection.</p></article>`
 
         throw new Error(`Unexpected article fetch: ${url}`)
       },

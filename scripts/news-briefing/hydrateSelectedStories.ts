@@ -49,9 +49,7 @@ export async function hydrateSelectedStories(
       sources: story.sourceUrls.flatMap(url => {
         const article = hydratedArticlesByUrl.get(url)
 
-        if (!article?.body) {
-          return []
-        }
+        if (!article?.body) return []
 
         return [
           {

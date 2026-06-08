@@ -11,9 +11,7 @@ export async function fetchSuccessfulArticle(
   /** The HTML fetch dependency. */
   fetchPageHtml: (url: string) => Promise<string>,
 ): Promise<RawBriefingArticle | null> {
-  if (article.body) {
-    return article
-  }
+  if (article.body) return article
 
   try {
     const articleHtml = await Effect.tryPromise({
@@ -22,9 +20,7 @@ export async function fetchSuccessfulArticle(
     }).pipe(Effect.retry(Schedule.recurs(ARTICLE_FETCH_RETRY_LIMIT - 1)), Effect.runPromise)
     const body = extractArticleParagraphs(articleHtml).join("\n\n")
 
-    if (!body) {
-      return null
-    }
+    if (!body) return null
 
     return {
       ...article,

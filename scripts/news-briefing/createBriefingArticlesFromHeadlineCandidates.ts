@@ -8,9 +8,7 @@ export function createBriefingArticlesFromHeadlineCandidates(
   const seenUrls = new Set(args.existingArticleUrls)
 
   return args.candidates.flatMap(candidate => {
-    if (!candidate.url || seenUrls.has(candidate.url)) {
-      return []
-    }
+    if (!candidate.url || seenUrls.has(candidate.url)) return []
 
     seenUrls.add(candidate.url)
 
