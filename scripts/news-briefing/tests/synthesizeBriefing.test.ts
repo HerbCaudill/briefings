@@ -1,8 +1,16 @@
 import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import path from "node:path"
+import { Effect, Layer } from "effect"
 import { describe, expect, test } from "vitest"
-import { synthesizeBriefing } from "../synthesizeBriefing.ts"
+import { synthesizeBriefing, synthesizeBriefingEffect } from "../synthesizeBriefing.ts"
+import {
+  ClockService,
+  FileSystemService,
+  HttpService,
+  LoggingService,
+  PiService,
+} from "../runtimeServices.ts"
 
 describe("synthesizeBriefing", () => {
   test("rejects malformed raw briefing files with a schema error", async () => {
@@ -78,6 +86,71 @@ describe("synthesizeBriefing", () => {
         },
       }),
     ).rejects.toThrow("Invalid pi synthesis JSON")
+  })
+
+  test("runs the synthesis Effect with injectable services", async () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-effect-"))
+    const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
+    const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
+
+    mkdirSync(rawDirectoryPath, { recursive: true })
+    writeFileSync(
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify({
+        articles: [
+          {
+            headline: "Selected story",
+            region: "world",
+            source: "Source",
+            url: "https://source.example/selected",
+          },
+        ],
+        date: "2026-04-20",
+      }),
+    )
+
+    const calls: Array<{ prompt: string; rawBriefingPath: string }> = []
+    const logMessages: string[] = []
+    const timestamps = [0, 1000, 1000, 2500, 2500, 4500]
+    const testServices = Layer.mergeAll(
+      FileSystemService.Live,
+      PiService.LiveFromRunner(async args => {
+        calls.push(args)
+
+        return calls.length === 1
+          ? JSON.stringify({
+              stories: [
+                {
+                  headline: "Selected story",
+                  section: "World",
+                  sourceUrls: ["https://source.example/selected"],
+                },
+              ],
+            })
+          : JSON.stringify({ sections: [{ title: "World", stories: [] }] })
+      }),
+      HttpService.LiveFromFetcher(
+        async () =>
+          `<article><p>Long selected article body fetched by the Effect service.</p></article>`,
+      ),
+      ClockService.LiveFromNow(() => timestamps.shift() ?? 4500),
+      LoggingService.LiveFromLogger(message => logMessages.push(message)),
+    )
+
+    const briefingPath = await synthesizeBriefingEffect({
+      briefingDirectoryPath,
+      date: "2026-04-20",
+      rawDirectoryPath,
+    }).pipe(Effect.provide(testServices), Effect.runPromise)
+
+    expect(briefingPath).toBe(path.join(briefingDirectoryPath, "2026-04-20.json"))
+    expect(calls).toHaveLength(2)
+    expect(calls[1].rawBriefingPath).toBe(path.join(rawDirectoryPath, "2026-04-20-selection.json"))
+    expect(readFileSync(calls[1].rawBriefingPath, "utf8")).toContain(
+      "Long selected article body fetched by the Effect service",
+    )
+    expect(logMessages).toContain("done (1s)")
+    expect(logMessages).toContain("done (2s)")
   })
 
   test("selects stories from compact metadata, hydrates them, and writes the final briefing JSON", async () => {

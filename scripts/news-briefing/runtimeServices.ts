@@ -39,6 +39,23 @@ const PiServiceLive = Layer.effect(
   }),
 )
 
+/** Create a live pi service layer from an injectable pi runner. */
+export function makePiServiceLive(
+  /** The promise-based pi runner to expose as an Effect service. */
+  runPi: (args: RunPiArgs) => Promise<string>,
+) {
+  return Layer.succeed(
+    PiServiceTag,
+    PiServiceTag.of({
+      run: args =>
+        Effect.tryPromise({
+          catch: error => toError(error),
+          try: () => runPi(args),
+        }),
+    }),
+  )
+}
+
 const GitServiceLive = Layer.effect(
   GitServiceTag,
   Effect.gen(function* () {
@@ -191,9 +208,24 @@ export type ProcessRunner = (
 export const FileSystemService = Object.assign(FileSystemServiceTag, {
   Live: FileSystemServiceLive,
 })
-export const HttpService = Object.assign(HttpServiceTag, { Live: makeHttpServiceLive() })
-export const ProcessService = Object.assign(ProcessServiceTag, { Live: makeProcessServiceLive() })
-export const PiService = Object.assign(PiServiceTag, { Live: PiServiceLive })
+export const HttpService = Object.assign(HttpServiceTag, {
+  Live: makeHttpServiceLive(),
+  LiveFromFetcher: makeHttpServiceLive,
+})
+export const ProcessService = Object.assign(ProcessServiceTag, {
+  Live: makeProcessServiceLive(),
+  LiveFromRunner: makeProcessServiceLive,
+})
+export const PiService = Object.assign(PiServiceTag, {
+  Live: PiServiceLive,
+  LiveFromRunner: makePiServiceLive,
+})
 export const GitService = Object.assign(GitServiceTag, { Live: GitServiceLive })
-export const ClockService = Object.assign(ClockServiceTag, { Live: makeClockServiceLive() })
-export const LoggingService = Object.assign(LoggingServiceTag, { Live: makeLoggingServiceLive() })
+export const ClockService = Object.assign(ClockServiceTag, {
+  Live: makeClockServiceLive(),
+  LiveFromNow: makeClockServiceLive,
+})
+export const LoggingService = Object.assign(LoggingServiceTag, {
+  Live: makeLoggingServiceLive(),
+  LiveFromLogger: makeLoggingServiceLive,
+})
