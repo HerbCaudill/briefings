@@ -1,8 +1,81 @@
 import { describe, expect, test } from "vitest"
+import { ARTICLE_FETCH_CONCURRENCY } from "../constants.ts"
 import { hydrateSelectedStories } from "../hydrateSelectedStories.ts"
 import type { BriefingSelection, RawBriefing } from "../types.ts"
 
 describe("hydrateSelectedStories", () => {
+  test("preserves existing RSS bodies without fetching article pages", async () => {
+    const hydratedSelection = await hydrateSelectedStories(
+      {
+        articles: [
+          {
+            body: "RSS body text that is long enough to preserve during selected story hydration.",
+            headline: "RSS story",
+            region: "world",
+            source: "RSS Source",
+            url: "https://rss.example/story",
+          },
+        ],
+        date: "2026-06-04",
+      },
+      {
+        stories: [
+          {
+            headline: "RSS story",
+            section: "World",
+            sourceUrls: ["https://rss.example/story"],
+          },
+        ],
+      },
+      async url => {
+        throw new Error(`Existing RSS body should not be fetched: ${url}`)
+      },
+    )
+
+    expect(hydratedSelection.stories[0]?.sources).toEqual([
+      {
+        body: "RSS body text that is long enough to preserve during selected story hydration.",
+        headline: "RSS story",
+        source: "RSS Source",
+        url: "https://rss.example/story",
+      },
+    ])
+  })
+
+  test("limits selected article fetch concurrency", async () => {
+    let activeFetches = 0
+    let maxActiveFetches = 0
+    const articles = Array.from({ length: ARTICLE_FETCH_CONCURRENCY + 2 }, (_, index) => ({
+      headline: `Selected story ${index}`,
+      region: "world" as const,
+      source: "Source",
+      url: `https://source.example/story-${index}`,
+    }))
+
+    await hydrateSelectedStories(
+      { articles, date: "2026-06-04" },
+      {
+        stories: [
+          {
+            headline: "Selected stories",
+            section: "World",
+            sourceUrls: articles.map(article => article.url),
+          },
+        ],
+      },
+      async () => {
+        activeFetches += 1
+        maxActiveFetches = Math.max(maxActiveFetches, activeFetches)
+        await new Promise(resolve => setTimeout(resolve, 0))
+        activeFetches -= 1
+
+        return `<article><p>The fetched selected story body is long enough to keep as article text.</p></article>`
+      },
+    )
+
+    expect(maxActiveFetches).toBe(ARTICLE_FETCH_CONCURRENCY)
+  })
+
   test("fetches and adds full article bodies only for selected source urls", async () => {
     const fetchedUrls: string[] = []
     const hydratedSelection = await hydrateSelectedStories(rawBriefing, selection, async url => {

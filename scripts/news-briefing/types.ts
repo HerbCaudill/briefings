@@ -52,7 +52,10 @@ export type RawBriefingArticle = BriefingCandidateArticle & {
   body?: string
 }
 
-export type RawBriefing = BriefingCandidates
+export type RawBriefing = {
+  articles: RawBriefingArticle[]
+  date: string
+}
 
 export type BriefingSelectedStory = {
   headline: string
