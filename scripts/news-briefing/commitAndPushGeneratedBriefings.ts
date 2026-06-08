@@ -20,6 +20,6 @@ export async function commitAndPushGeneratedBriefings(
 
   await runCommand("git", ["add", getBriefingIndexPath("public/briefings"), ...generatedPaths])
   await runCommand("git", ["commit", "-m", commitMessage])
-  await runCommand("git", ["pull", "--rebase"])
+  await runCommand("git", ["pull", "--rebase", "--autostash"])
   await runCommand("git", ["push"])
 }

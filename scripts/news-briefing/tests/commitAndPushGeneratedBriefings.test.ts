@@ -5,7 +5,7 @@ import { describe, expect, test } from "vitest"
 import { commitAndPushGeneratedBriefings } from "../commitAndPushGeneratedBriefings.ts"
 
 describe("commitAndPushGeneratedBriefings", () => {
-  test("adds generated briefing files, commits them, rebases, and pushes", async () => {
+  test("adds generated briefing files, commits them, rebases with autostash, and pushes", async () => {
     const commands: Array<{ args: string[]; command: string }> = []
 
     await commitAndPushGeneratedBriefings({
@@ -34,7 +34,7 @@ describe("commitAndPushGeneratedBriefings", () => {
         command: "git",
         args: ["commit", "-m", "Briefing: add generated briefings for 2026-04-18, 2026-04-20"],
       },
-      { command: "git", args: ["pull", "--rebase"] },
+      { command: "git", args: ["pull", "--rebase", "--autostash"] },
       { command: "git", args: ["push"] },
     ])
   })
