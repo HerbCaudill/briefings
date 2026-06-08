@@ -1,6 +1,8 @@
+import { Effect, Layer } from "effect"
 import { describe, expect, test } from "vitest"
 import { ARTICLE_FETCH_CONCURRENCY } from "../constants.ts"
 import { hydrateSelectedStories } from "../hydrateSelectedStories.ts"
+import { HttpService, LoggingService } from "../runtimeServices.ts"
 import type { BriefingSelection, RawBriefing } from "../types.ts"
 
 describe("hydrateSelectedStories", () => {
@@ -27,9 +29,13 @@ describe("hydrateSelectedStories", () => {
           },
         ],
       },
-      async url => {
-        throw new Error(`Existing RSS body should not be fetched: ${url}`)
-      },
+    ).pipe(
+      Effect.provide(
+        makeTestServices(async url => {
+          throw new Error(`Existing RSS body should not be fetched: ${url}`)
+        }),
+      ),
+      Effect.runPromise,
     )
 
     expect(hydratedSelection.stories[0]?.sources).toEqual([
@@ -63,14 +69,18 @@ describe("hydrateSelectedStories", () => {
           },
         ],
       },
-      async () => {
-        activeFetches += 1
-        maxActiveFetches = Math.max(maxActiveFetches, activeFetches)
-        await new Promise(resolve => setTimeout(resolve, 0))
-        activeFetches -= 1
+    ).pipe(
+      Effect.provide(
+        makeTestServices(async () => {
+          activeFetches += 1
+          maxActiveFetches = Math.max(maxActiveFetches, activeFetches)
+          await new Promise(resolve => setTimeout(resolve, 0))
+          activeFetches -= 1
 
-        return `<article><p>The fetched selected story body is long enough to keep as article text.</p></article>`
-      },
+          return `<article><p>The fetched selected story body is long enough to keep as article text.</p></article>`
+        }),
+      ),
+      Effect.runPromise,
     )
 
     expect(maxActiveFetches).toBe(ARTICLE_FETCH_CONCURRENCY)
@@ -78,10 +88,15 @@ describe("hydrateSelectedStories", () => {
 
   test("fetches and adds full article bodies only for selected source urls", async () => {
     const fetchedUrls: string[] = []
-    const hydratedSelection = await hydrateSelectedStories(rawBriefing, selection, async url => {
-      fetchedUrls.push(url)
-      return `<article><p>The fetched selected story body is long enough to keep as article text.</p></article>`
-    })
+    const hydratedSelection = await hydrateSelectedStories(rawBriefing, selection).pipe(
+      Effect.provide(
+        makeTestServices(async url => {
+          fetchedUrls.push(url)
+          return `<article><p>The fetched selected story body is long enough to keep as article text.</p></article>`
+        }),
+      ),
+      Effect.runPromise,
+    )
 
     expect(fetchedUrls).toEqual(["https://bbc.example/ceasefire"])
     expect(hydratedSelection).toEqual({
@@ -103,6 +118,14 @@ describe("hydrateSelectedStories", () => {
     })
   })
 })
+
+/** Create test services for selected-story hydration. */
+function makeTestServices(
+  /** The page fetcher to expose through HttpService. */
+  fetchPageHtml: (url: string) => Promise<string>,
+) {
+  return Layer.mergeAll(HttpService.LiveFromFetcher(fetchPageHtml), LoggingService.LiveFromLogger())
+}
 
 const rawBriefing: RawBriefing = {
   articles: [

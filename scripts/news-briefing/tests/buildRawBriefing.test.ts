@@ -140,7 +140,8 @@ describe("buildRawBriefing", () => {
       fetchPageHtml: async url => {
         fetchedUrls.push(url)
 
-        if (url === "https://blocked-source.example/news") return `<h2><a href="/thin-story">Only primary headline with enough words</a></h2>`
+        if (url === "https://blocked-source.example/news")
+          return `<h2><a href="/thin-story">Only primary headline with enough words</a></h2>`
 
         if (url === "https://blocked-source.example/rss") {
           return `
@@ -156,7 +157,8 @@ describe("buildRawBriefing", () => {
           `
         }
 
-        if (url === "https://blocked-source.example/story-from-rss") throw new Error("article blocked")
+        if (url === "https://blocked-source.example/story-from-rss")
+          throw new Error("article blocked")
 
         return `
           <article>

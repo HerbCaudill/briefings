@@ -6,7 +6,8 @@ export function isUsableHeadlineCandidate(
   /** The headline validation arguments. */
   args: IsUsableHeadlineCandidateArgs,
 ): boolean {
-  if (args.headline.length <= args.minimumLength || args.seenHeadlines.has(args.headline)) return false
+  if (args.headline.length <= args.minimumLength || args.seenHeadlines.has(args.headline))
+    return false
 
   return !args.rejectGenericHeadline || !isGenericHeadline(args.headline)
 }

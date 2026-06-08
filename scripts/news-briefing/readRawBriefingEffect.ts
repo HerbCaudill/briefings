@@ -17,7 +17,8 @@ export function readRawBriefingEffect(
     const rawBriefingPath = getRawBriefingPath(rawDirectoryPath, date)
     const exists = yield* fileSystem.exists(rawBriefingPath)
 
-    if (!exists) return yield* Effect.fail(new Error(`Missing raw briefing file: ${rawBriefingPath}`))
+    if (!exists)
+      return yield* Effect.fail(new Error(`Missing raw briefing file: ${rawBriefingPath}`))
 
     const contents = yield* fileSystem.readText(rawBriefingPath)
     const decodedRawBriefing = yield* Effect.try({

@@ -14,7 +14,8 @@ describe("buildRawBriefing selection-only fetch", () => {
       fetchPageHtml: async url => {
         fetchedUrls.push(url)
 
-        if (url === "https://source.example/news") return `<h2><a href="/story-a">Story A headline with enough words to keep</a></h2>`
+        if (url === "https://source.example/news")
+          return `<h2><a href="/story-a">Story A headline with enough words to keep</a></h2>`
 
         throw new Error(`Article body should not be fetched: ${url}`)
       },

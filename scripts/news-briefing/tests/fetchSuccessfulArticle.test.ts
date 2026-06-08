@@ -1,5 +1,7 @@
+import { Effect } from "effect"
 import { describe, expect, test } from "vitest"
 import { fetchSuccessfulArticle } from "../fetchSuccessfulArticle.ts"
+import { HttpService } from "../runtimeServices.ts"
 import type { RawBriefingArticle } from "../types.ts"
 
 describe("fetchSuccessfulArticle", () => {
@@ -12,9 +14,14 @@ describe("fetchSuccessfulArticle", () => {
       url: "https://example.com/story",
     }
 
-    const result = await fetchSuccessfulArticle(article, async () => {
-      throw new Error("should not fetch")
-    })
+    const result = await fetchSuccessfulArticle(article).pipe(
+      Effect.provide(
+        HttpService.LiveFromFetcher(async () => {
+          throw new Error("should not fetch")
+        }),
+      ),
+      Effect.runPromise,
+    )
 
     expect(result).toEqual(article)
   })
@@ -22,13 +29,18 @@ describe("fetchSuccessfulArticle", () => {
   test("retries temporary fetch failures and returns extracted article text", async () => {
     let attempts = 0
 
-    const result = await fetchSuccessfulArticle(baseArticle, async () => {
-      attempts += 1
+    const result = await fetchSuccessfulArticle(baseArticle).pipe(
+      Effect.provide(
+        HttpService.LiveFromFetcher(async () => {
+          attempts += 1
 
-      if (attempts < 2) throw new Error("temporary failure")
+          if (attempts < 2) throw new Error("temporary failure")
 
-      return `<article><p>The fetched article paragraph is long enough to keep after extraction.</p></article>`
-    })
+          return `<article><p>The fetched article paragraph is long enough to keep after extraction.</p></article>`
+        }),
+      ),
+      Effect.runPromise,
+    )
 
     expect(result).toEqual({
       ...baseArticle,
@@ -39,15 +51,25 @@ describe("fetchSuccessfulArticle", () => {
 
   test("returns null when fetching never succeeds", async () => {
     await expect(
-      fetchSuccessfulArticle(baseArticle, async () => {
-        throw new Error("blocked")
-      }),
+      fetchSuccessfulArticle(baseArticle).pipe(
+        Effect.provide(
+          HttpService.LiveFromFetcher(async () => {
+            throw new Error("blocked")
+          }),
+        ),
+        Effect.runPromise,
+      ),
     ).resolves.toBeNull()
   })
 
   test("returns null when no article text can be extracted", async () => {
     await expect(
-      fetchSuccessfulArticle(baseArticle, async () => `<article><p>Too short.</p></article>`),
+      fetchSuccessfulArticle(baseArticle).pipe(
+        Effect.provide(
+          HttpService.LiveFromFetcher(async () => `<article><p>Too short.</p></article>`),
+        ),
+        Effect.runPromise,
+      ),
     ).resolves.toBeNull()
   })
 })
