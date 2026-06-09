@@ -1,5 +1,7 @@
 import { Either, ParseResult, Schema } from "effect"
 
+import { stripMarkdownJsonFence } from "./stripMarkdownJsonFence.ts"
+
 /** Decode JSON text with an Effect schema and include parse details in failures. */
 export function decodeJsonWithSchema<DecodedValue, EncodedValue>(
   /** The schema used to validate the parsed JSON value. */
@@ -12,7 +14,7 @@ export function decodeJsonWithSchema<DecodedValue, EncodedValue>(
   let parsedValue: unknown
 
   try {
-    parsedValue = JSON.parse(value.trim())
+    parsedValue = JSON.parse(stripMarkdownJsonFence(value))
   } catch (error) {
     throw new Error(`Invalid ${label} JSON: ${String(error)}`)
   }
