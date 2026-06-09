@@ -1,5 +1,6 @@
 import { Context, Effect, Layer } from "effect"
 import { formatElapsedSeconds } from "./formatElapsedSeconds.ts"
+import { formatTotalCandidateLine } from "./formatTotalCandidateLine.ts"
 import { ClockService, LoggingService, toError } from "./runtimeServices.ts"
 import type { RawBriefing, RunNewsBriefingPipelineArgs } from "./types.ts"
 
@@ -81,7 +82,7 @@ export function runNewsBriefingPipelineEffect(
     const rawBriefing = yield* stages.runFetchStage(args.date)
     const fetchEnd = yield* clock.now
     yield* logging.log("-------------------------")
-    yield* logging.log(`Total candidates      ${rawBriefing.articles.length}`)
+    yield* logging.log(formatTotalCandidateLine(rawBriefing.articles.length))
     yield* logging.log("")
     yield* logging.log(`done (${formatElapsedSeconds(fetchEnd - fetchStart)})`)
     yield* logging.log("")

@@ -82,8 +82,8 @@ describe("buildRawBriefing", () => {
     ])
     expect(fetchedUrls).not.toContain("https://source-one.example/story-c")
     expect(messages).toEqual([
-      "✅ Source One                   2",
-      "✅ Source Two                   2",
+      "✅ Source One                     2",
+      "✅ Source Two                     2",
     ])
   })
 

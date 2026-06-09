@@ -118,7 +118,7 @@ describe("runNewsBriefingPipeline", () => {
       "Fetching candidates...",
       "",
       "-------------------------",
-      "Total candidates      1",
+      "   Total candidates               1",
       "",
       "done (2s)",
       "",

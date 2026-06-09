@@ -2,9 +2,15 @@ import { describe, expect, test } from "vitest"
 import { formatCandidateSourceLine } from "../formatCandidateSourceLine.ts"
 
 describe("formatCandidateSourceLine", () => {
-  test("pads candidate counts after long source names", () => {
+  test("right-aligns candidate counts after long source names", () => {
     expect(formatCandidateSourceLine("El Periódico Barcelona", 30)).toBe(
-      "✅ El Periódico Barcelona       30",
+      "✅ El Periódico Barcelona        30",
+    )
+  })
+
+  test("right-aligns single-digit candidate counts", () => {
+    expect(formatCandidateSourceLine("The Washington Post", 7)).toBe(
+      "✅ The Washington Post            7",
     )
   })
 
