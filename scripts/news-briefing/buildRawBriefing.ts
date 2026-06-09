@@ -46,10 +46,12 @@ export async function buildRawBriefing(
 
   await Effect.gen(function* () {
     const fileSystem = yield* FileSystemService
-
     yield* fileSystem.makeDirectory(args.rawDirectoryPath)
     yield* fileSystem.writeText(rawBriefingPath, JSON.stringify(rawBriefing, null, 2) + "\n")
-  }).pipe(Effect.provide(FileSystemService.Live), Effect.runPromise)
+  }).pipe(
+    Effect.provide(FileSystemService.Live), //
+    Effect.runPromise,
+  )
 
   return rawBriefing
 }
