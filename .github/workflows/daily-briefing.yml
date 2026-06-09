@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 45
 
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       PI_TELEMETRY: "0"
 
     steps:
@@ -49,8 +49,8 @@ jobs:
 
       - name: Check pi credentials
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::error::Set the ANTHROPIC_API_KEY repository secret so pi can synthesize the briefing."
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Set the OPENAI_API_KEY repository secret so pi can synthesize the briefing with Codex."
             exit 1
           fi
 

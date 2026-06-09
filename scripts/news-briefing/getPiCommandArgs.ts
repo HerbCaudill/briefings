@@ -5,5 +5,13 @@ export function getPiCommandArgs(
   /** The prompt and raw briefing path passed to pi. */
   args: RunPiArgs,
 ): string[] {
-  return ["--provider", "anthropic", "-p", `@${args.rawBriefingPath}`, args.prompt]
+  return [
+    "--provider",
+    "openai-codex",
+    "--model",
+    "gpt-5.4-mini",
+    "-p",
+    `@${args.rawBriefingPath}`,
+    args.prompt,
+  ]
 }

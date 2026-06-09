@@ -84,7 +84,15 @@ describe("runtime services", () => {
     })
     expect(commands).toEqual([
       {
-        args: ["--provider", "anthropic", "-p", "@raw/news.json", "Select stories"],
+        args: [
+          "--provider",
+          "openai-codex",
+          "--model",
+          "gpt-5.4-mini",
+          "-p",
+          "@raw/news.json",
+          "Select stories",
+        ],
         command: "pi",
       },
       { args: ["status", "--short"], command: "git" },

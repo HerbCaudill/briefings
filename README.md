@@ -26,7 +26,7 @@ The repo now owns the deterministic ingestion pipeline.
 1. `pnpm briefing` clears any generated files for the requested date, crawls the configured homepages, extracts headline candidates, keeps the first 30 per source in page order, deduplicates by article URL, and writes a compact candidates file at `public/briefings/raw/YYYY-MM-DD.json`.
 2. It compares `public/briefings/raw/YYYY-MM-DD.json` candidate files with `public/briefings/YYYY-MM-DD.json` final files, asks `pi` to select stories from headline/URL metadata, fetches only the selected article bodies, writes the hydrated selection to `public/briefings/raw/YYYY-MM-DD-selection.json`, then asks `pi` to write the final app-facing briefing JSON.
 3. When final briefings are generated, it commits `public/briefings/index.json` plus the generated final, raw, and selection files, rebases, and pushes to the git remote.
-4. The GitHub Actions scheduler invokes `pnpm briefing` daily at 5:00 AM UTC and can also be run manually from the Actions tab. The workflow uses `pi --provider anthropic`, so the repository needs an `ANTHROPIC_API_KEY` secret.
+4. The GitHub Actions scheduler invokes `pnpm briefing` daily at 5:00 AM UTC and can also be run manually from the Actions tab. The workflow uses `pi --provider openai-codex --model gpt-5.4-mini`, so the repository needs an `OPENAI_API_KEY` secret.
 5. The app reads `/briefings/index.json` and `/briefings/YYYY-MM-DD.json` as before.
 
 ## Candidate and selection files
