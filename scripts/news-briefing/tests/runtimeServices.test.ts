@@ -86,9 +86,9 @@ describe("runtime services", () => {
       {
         args: [
           "--provider",
-          "openai-codex",
+          "openai",
           "--model",
-          "gpt-5.4-mini",
+          "gpt-5.1-codex",
           "-p",
           "@raw/news.json",
           "Select stories",

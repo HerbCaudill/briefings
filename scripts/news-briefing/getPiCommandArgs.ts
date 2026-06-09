@@ -7,9 +7,9 @@ export function getPiCommandArgs(
 ): string[] {
   return [
     "--provider",
-    "openai-codex",
+    "openai",
     "--model",
-    "gpt-5.4-mini",
+    "gpt-5.1-codex",
     "-p",
     `@${args.rawBriefingPath}`,
     args.prompt,
