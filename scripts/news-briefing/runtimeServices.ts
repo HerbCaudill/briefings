@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { Context, Effect, Layer } from "effect"
 import { fetchPageHtmlWithCurl } from "./fetchPageHtmlWithCurl.ts"
+import { getPiCommandArgs } from "./getPiCommandArgs.ts"
 import { runProcessWithForwardedOutput } from "./runProcessWithForwardedOutput.ts"
 import type { RunPiArgs } from "./types.ts"
 
@@ -31,7 +32,7 @@ const PiServiceLive = Layer.effect(
 
     return PiServiceTag.of({
       run: args =>
-        processService.run("pi", ["-p", `@${args.rawBriefingPath}`, args.prompt], {
+        processService.run("pi", getPiCommandArgs(args), {
           forwardStderr: false,
           forwardStdout: false,
         }),

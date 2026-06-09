@@ -15,6 +15,7 @@ export async function runProcessWithForwardedOutput(
   }) as ChildProcessWithOutputStreams
 
   const stdoutChunks: Buffer[] = []
+  const stderrChunks: Buffer[] = []
 
   childProcess.stdout?.on("data", (chunk: Buffer) => {
     stdoutChunks.push(chunk)
@@ -23,6 +24,8 @@ export async function runProcessWithForwardedOutput(
   })
 
   childProcess.stderr?.on("data", (chunk: Buffer) => {
+    stderrChunks.push(chunk)
+
     if (options.forwardStderr ?? true) (options.stderr ?? process.stderr).write(chunk)
   })
 
@@ -34,7 +37,12 @@ export async function runProcessWithForwardedOutput(
         return
       }
 
-      reject(new Error(`${command} exited with code ${code}`))
+      const stderr = Buffer.concat(stderrChunks).toString("utf8").trim()
+      const message = stderr
+        ? `${command} exited with code ${code}:\n${stderr}`
+        : `${command} exited with code ${code}`
+
+      reject(new Error(message))
     })
   })
 }

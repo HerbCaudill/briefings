@@ -83,7 +83,10 @@ describe("runtime services", () => {
       piOutput: "pi output",
     })
     expect(commands).toEqual([
-      { args: ["-p", "@raw/news.json", "Select stories"], command: "pi" },
+      {
+        args: ["--provider", "anthropic", "-p", "@raw/news.json", "Select stories"],
+        command: "pi",
+      },
       { args: ["status", "--short"], command: "git" },
     ])
   })

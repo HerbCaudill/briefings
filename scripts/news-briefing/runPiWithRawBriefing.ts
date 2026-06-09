@@ -1,3 +1,4 @@
+import { getPiCommandArgs } from "./getPiCommandArgs.ts"
 import { runProcessWithForwardedOutput } from "./runProcessWithForwardedOutput.ts"
 import type { RunPiArgs } from "./types.ts"
 
@@ -6,12 +7,8 @@ export async function runPiWithRawBriefing(
   /** The prompt and raw briefing path. */
   args: RunPiArgs,
 ): Promise<string> {
-  return await runProcessWithForwardedOutput(
-    "pi",
-    ["-p", `@${args.rawBriefingPath}`, args.prompt],
-    {
-      forwardStderr: false,
-      forwardStdout: false,
-    },
-  )
+  return await runProcessWithForwardedOutput("pi", getPiCommandArgs(args), {
+    forwardStderr: false,
+    forwardStdout: false,
+  })
 }
