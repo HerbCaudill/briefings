@@ -3,8 +3,8 @@
     {
       "stories": [
         {
-          "body": "U.S. Central Command said it destroyed Iranian air-defense, surveillance and radar sites at Goruk, Qeshm Island and along the Strait of Hormuz after Tehran shot down an American Apache helicopter, while Iranian officials and the IRGC claimed retaliatory drone and missile attacks on 21 U.S. targets in Bahrain, Kuwait and Jordan, including the Fifth Fleet base and Azraq airbase, with Jordan reporting it intercepted five incoming missiles; President Donald Trump warned Iran has roughly 21%-22% of its missile arsenal left and vowed further action even as U.S. officials insisted the strikes were proportional, and analysts cited by Al Jazeera and the BBC said Tehran now feels compelled to answer every U.S. attack to avoid establishing a new status quo.",
-          "headline": "U.S.-Iran confrontation escalates with reciprocal strikes after downing of U.S. helicopter",
+          "body": "U.S. Central Command said its forces shot down four Iranian drones targeting maritime traffic near the Strait of Hormuz and then hit Iranian radar and surveillance sites at Goruk and Qeshm Island, while President Donald Trump told NBC and Fox News he may keep bombing Iranian infrastructure because Tehran is “strong” but down to roughly 21-22% of its missile arsenal; Iran replied with missile attacks on U.S.-linked bases in Bahrain, Kuwait and Jordan, and vowed to maintain its blockade of the strait, underscoring fears the April ceasefire has collapsed.",
+          "headline": "US-Iran confrontation intensifies as both sides trade strikes and Trump vows to 'keep going'",
           "sources": [
             {
               "name": "Reuters",
@@ -12,11 +12,55 @@
             },
             {
               "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/6/10/iran-strikes-bahrain-and-jordan-in-retaliation-for-us-attacks-in-hormuz"
+              "url": "https://www.aljazeera.com/news/2026/6/10/trump-hardens-tone-against-iran-says-may-keep-going-with-strikes"
+            }
+          ]
+        },
+        {
+          "body": "Iranian Foreign Minister Abbas Araqchi said the broader U.S.-Iran war will end only if Israel withdraws from southern Lebanon, echoing Hezbollah leader Naim Qassem’s rejection of a U.S.-brokered truce that excluded the group, even as Iran’s navy fired warning shots at U.S. ships and Qatar tried to salvage negotiations following tit-for-tat strikes over a downed U.S. helicopter; Tehran’s stance clouds prospects for reopening the Strait of Hormuz and leaves U.N. agencies warning of hunger amid soaring fuel costs.",
+          "headline": "Tehran ties any Gulf ceasefire to an Israeli pullout from Lebanon while doubling down on Hezbollah",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
             },
             {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/10/middle-east-peace-talks-iran-strikes"
+            }
+          ]
+        },
+        {
+          "body": "Riots in north Belfast erupted after Sudanese refugee Hadi Alodid was charged with attempted murder in a knife attack that blinded Stephen Ogilvy in one eye, prompting Translink to halt transit and the PSNI to flood streets with extra officers as political leaders from Keir Starmer to First Minister Michelle O’Neill denounced the violence, while ministers blamed far-right agitators and drew parallels to recent unrest in England amid rising anti-immigrant sentiment.",
+          "headline": "Belfast reels from anti-immigrant riots after fatal stabbing, prompting heavy police deployment",
+          "sources": [
+            {
               "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/cze9359gglyo"
+              "url": "https://www.bbc.com/news/live/cr47x99k5n6t"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/10/why-has-belfast-erupted-in-anti-immigrant-violence-after-a-knife-attack"
+            }
+          ]
+        },
+        {
+          "body": "Kyiv authorities reported fires in the Podil district, burning cars in Obolon and debris striking a nine-story apartment block after Russia launched heavy attacks on the capital, prompting Mayor Vitali Klitschko to urge residents into shelters while President Volodymyr Zelenskiy warned intelligence suggested another massive strike was possible as Moscow threatened “systematic” hits on command centers.",
+          "headline": "Russia pounds Kyiv with fresh bombardments as Ukraine braces for more large-scale strikes",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
+            }
+          ]
+        },
+        {
+          "body": "NASA ordered five astronauts into their SpaceX Crew Dragon for about two hours after air loss in Russia’s Zvezda module doubled to roughly two pounds per day, amid disagreements with Roscosmos over crack repair methods; the leak, first detected by Russia in 2021, remains manageable and the crew has since resumed station operations, but NASA says it needs a collaborative plan as the ISS approaches a proposed life extension to 2032.",
+          "headline": "ISS astronauts briefly shelter in Crew Dragon during worsening Russian module air leak",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/science/international-space-station-astronauts-evacuation-mode-russia-attempts-fix-2026-06-05/"
             }
           ]
         }
@@ -26,22 +70,8 @@
     {
       "stories": [
         {
-          "body": "Democratic leaders, donors and operatives remain split over Graham Platner’s candidacy after a New York Times report detailed allegations from an ex-girlfriend that he grabbed her, locked her in a room and knowingly wore a tattoo resembling a Nazi Totenkopf, compounding earlier revelations about explicit messages sent while married and offensive Reddit posts; Politico reports some Democrats, including Rep. Ro Khanna, still back Platner as their best shot to unseat Sen. Susan Collins, while others fear the scandals could cost the party its most viable Senate pickup, and the Associated Press notes Platner nevertheless clinched the nomination, leaving only the unprecedented option of a mid-summer replacement if he were to step aside.",
-          "headline": "Democrats in turmoil over scandal-plagued Maine Senate nominee Graham Platner",
-          "sources": [
-            {
-              "name": "Politico",
-              "url": "https://www.politico.com/news/2026/06/04/platner-democrats-furious-new-york-times-report-00951496"
-            },
-            {
-              "name": "Associated Press",
-              "url": "https://apnews.com/live/election-primary-06-09-2026"
-            }
-          ]
-        },
-        {
-          "body": "The Senate approved, 52-47, a Republican immigration bill that injects nearly $70 billion into ICE and Border Patrol over three years while leaving intact a controversial $1.8 billion “anti-weaponization” fund sought by President Donald Trump, despite failed bipartisan efforts to ban or repurpose it, and the Associated Press reports the House followed with narrow passage that now sends the measure to Trump’s desk, bolstering his deportation agenda even as moderate Republicans warn the fund could become a political liability.",
-          "headline": "Congress pushes $70 billion enforcement surge for ICE and Border Patrol",
+          "body": "The Senate passed a $70 billion supplemental immigration enforcement bill 52-47 after an all-night vote-a-rama, defeating efforts led by Chuck Schumer and a handful of Republicans to kill Donald Trump’s $1.8 billion “anti-weaponization” fund, while the House later narrowly approved the same package for Trump’s signature despite concerns about the fund’s legality and GOP infighting over amendments tied to White House construction projects and deportation plans.",
+          "headline": "Senate and House advance $70B ICE funding bill while sparring over Trump’s ‘anti-weaponization’ fund",
           "sources": [
             {
               "name": "Reuters",
@@ -52,6 +82,40 @@
               "url": "https://apnews.com/article/immigration-enforcement-funding-trump-congress-republicans-c395a434f47fa41a7131369847091910"
             }
           ]
+        },
+        {
+          "body": "Politico reports that Democratic donors, strategists and elected officials are split over Maine Senate hopeful Graham Platner after a New York Times story detailed accusations of abuse from former partners and raised new questions about a Nazi-like tattoo; Platner, who still leads in polls ahead of Tuesday’s primary against suspended candidate Janet Mills, denies wrongdoing, cites personal transformation after military service, and is campaigning with Rep. Ro Khanna even as party figures fret that keeping him could imperil their only blue-state pickup opportunity.",
+          "headline": "Democrats torn over Graham Platner after new allegations, but he refuses to quit Maine race",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/05/platner-democrats-maine-tuesday-primary-00952432"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/04/platner-democrats-furious-new-york-times-report-00951496"
+            }
+          ]
+        },
+        {
+          "body": "Facing multimillion-dollar attacks from businessman Mark Lynch and other right-wing critics who accuse him of backing Trump’s war in Iran and betraying “America First,” Sen. Lindsey Graham and allied super PACs have already spent more than $18 million to win Tuesday’s GOP primary outright, with Trump hosting a tele-rally while Graham’s opponents court anti-interventionist figures like Marjorie Taylor Greene and Steve Bannon in hopes of forcing a runoff.",
+          "headline": "Lindsey Graham spends big to fend off ‘America First’ revolt amid Iran war backlash",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/09/lindsey-graham-primary-challenge-america-first-iran-00954007"
+            }
+          ]
+        },
+        {
+          "body": "With Rep. Mike Collins and ex-football coach Derek Dooley headed to a June 16 GOP Senate runoff, Georgia Republicans are lobbying Donald Trump to endorse soon, fearing a last-minute pick like his failed nod to Iowa gubernatorial hopeful Randy Feenstra; both camps are courting the White House as early voting starts June 8, while Governor Brian Kemp backs Dooley, MAGA groups rally for Collins, and strategists warn that unifying quickly is crucial to challenge Democratic Sen. Jon Ossoff’s well-funded reelection bid.",
+          "headline": "Georgia Republicans fear another Trump endorsement misfire as Senate runoff nears",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/03/georgia-senate-trump-endorsement-fears-00949221"
+            }
+          ]
         }
       ],
       "title": "US"
@@ -59,12 +123,54 @@
     {
       "stories": [
         {
-          "body": "Senior PSOE officials told El País that the damage from daily leaks tying alleged party fixer Leire Díez to efforts to obstruct judicial and police probes involving the party and the prime minister’s family has become unsustainable, prompting growing calls for headquarters on Calle Ferraz to file an immediate criminal complaint against her to send a political message of zero tolerance amid the widening corruption investigations.",
-          "headline": "PSOE leaders urge legal action against alleged fixer Leire Díez as corruption probes widen",
+          "body": "Former Prime Minister José Luis Rodríguez Zapatero’s lawyer asked National Court Judge José Luis Calama to detail how U.S. Homeland Security Investigations cloned Plus Ultra owner Rodolfo Reyes’s phone in 2021 and to secure judicial guarantees before using the data at trial, even as Calama has already requested U.S. authorization so that WhatsApp messages tying Zapatero to the airline’s bailout can serve as evidence when the ex-leader testifies June 17-18.",
+          "headline": "Zapatero defense demands clarity on seized Plus Ultra phone data as judge seeks US authorization",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-10/zapatero-pide-al-juez-que-aclare-como-ee-uu-obtuvo-el-volcado-del-movil-del-dueno-de-plus-ultra.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/10/6a2864bf21efa090328b459b.html"
+            }
+          ]
+        },
+        {
+          "body": "Senior PSOE officials told El País that party headquarters should file a complaint against alleged fixer Leire Díez to show zero tolerance after reports she tried to obstruct corruption probes tied to Santos Cerdán, while El Mundo revealed that former deputy prosecutor Diego Villafañe met twice in 2025 with Díez and lawyer Jacobo Teijelo without notifying Anti-Corruption, fueling claims of covert coordination between Ferraz operatives and top prosecutors.",
+          "headline": "PSOE heavyweights urge lawsuit against alleged fixer Leire Díez as Fiscalía confirms secret meetings",
           "sources": [
             {
               "name": "El País",
               "url": "https://elpais.com/espana/2026-06-10/dirigentes-del-psoe-piden-a-ferraz-que-se-querelle-contra-leire-diez-hay-que-lanzar-un-mensaje-politico.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/10/6a295c1efdddff38148b458b.html"
+            }
+          ]
+        },
+        {
+          "body": "Testimony from Valencian vice president Susana Camarero included WhatsApp logs showing then-president Carlos Mazón telling his cabinet on 29 October 2024 to “inundate” the media with data to project alertness before the catastrophic dana, even as the group chat fell silent during critical hours and emergency updates lagged, highlighting what RTVE called a communications-first focus that contrasted with later flood management failings now under judicial scrutiny.",
+          "headline": "Valencian storm inquiry uncovers Mazón’s push for media blitz while officials describe chaos response",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/comunidad-valenciana/2026-06-10/la-numero-dos-de-mazon-ante-la-jueza-de-la-dana-no-sabia-que-era-el-cecopi.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260610/mazon-dia-dana-vamos-a-inundar-datos-a-medios-desprende-sensacion-estar-alerta-cagas/17109881.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s National Police confirmed that four narcotics officers from the Linares station in Jaén were arrested alongside at least 16 civilians in an ongoing anti-drug operation, part of a broader effort to root out corruption cases involving law-enforcement figures suspected of facilitating trafficking networks.",
+          "headline": "Anti-narcotics sweep nets four Linares police officers among 20 arrests",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-10/detenidos-cuatro-policias-en-linares-en-una-operacion-contra-el-narcotrafico-con-otros-16-arrestos.html"
             }
           ]
         }
@@ -74,16 +180,44 @@
     {
       "stories": [
         {
-          "body": "Pope León XIV arrived in Barcelona for a two-day visit that includes a 37,000-person vigil at the Estadi Olímpic, a blessing of the Sagrada Família’s Torre de Jesús during a centenary tribute to Antoni Gaudí, stops at Brians 1 prison, Montserrat Abbey and the Raval’s Sant Agustí church, and betevé reports the city has deployed extensive traffic closures, public-transit adjustments, large viewing screens at Glòries and Arc de Triomf, and round-the-clock live coverage to manage the security and mobility challenges posed by the papal itinerary.",
-          "headline": "Barcelona braces for Pope León XIV’s visit with sweeping security, road closures and mass events",
+          "body": "More than 6,000 Mossos and local police sealed central Barcelona as Pope Leo XIV toured Rosselló Street by popemobile, visited the Raval’s Sant Agustí parish to urge care for the vulnerable, celebrated Mass at Montserrat and prepared to bless the Sagrada Família’s Jesus tower, while authorities installed big screens, shut roads across the Eixample and coordinated air, sea and ground patrols amid a level-four terror alert.",
+          "headline": "Barcelona braces for papal mass at Sagrada Família with sweeping security and transit shutdowns",
           "sources": [
             {
-              "name": "El Periódico Barcelona",
-              "url": "https://www.elperiodico.com/es/sociedad/20260610/papa-leon-visita-barcelona-agenda-actos-papamovil-ultima-hora-directo-131162679"
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/visita-del-papa-lleo-xiv-a-la-sagrada-familia-de-barcelona/directe/10610/"
             },
             {
               "name": "betevé",
               "url": "https://beteve.cat/societat/visita-papa-lleo-xiv-barcelona-ultima-hora-directe/"
+            }
+          ]
+        },
+        {
+          "body": "The second day of Catalonia’s PAU exams put more than 45,000 students through history, philosophy and elective tests while universities piloted electronic detectors to stop hidden devices, but a physics question referencing “vida mitjana” sparked protests from teachers who said the term wasn’t in official guidance, prompting the education department to promise flexible grading even as students navigating papal-visit disruptions voiced frustration.",
+          "headline": "Selectivitat 2026 adds anti-cheating tech as students complain about exam glitches",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/directe-selectivitat-2026-catalunya-pau/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/queixes-per-una-pregunta-de-lexamen-de-fisica-de-la-selectivitat-universitats-diu-que-sera-flexible/noticia/3414334/"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia’s agriculture department told leaders from 19 municipalities that access bans covering Collserola and other high-risk natural areas will remain for the summer despite pressure to reopen, arguing the seven-month-old African swine fever perimeter has kept the virus out of farms and that safeguarding the pork industry outweighs demands for limited pilot hikes, even as towns like Sant Cugat propose controlled reentries.",
+          "headline": "Collserola park to stay closed through summer amid African swine fever containment efforts",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/tancats-tot-lestiu-el-parc-de-collserola-i-els-altres-espais-afectats-per-la-pesta-porcina-africana/noticia/3414419/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/collserola-continuara-tancada-almenys-fins-finals-destiu-720521/"
             }
           ]
         }
