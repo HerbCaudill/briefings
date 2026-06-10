@@ -1,0 +1,94 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "U.S. Central Command said it destroyed Iranian air-defense, surveillance and radar sites at Goruk, Qeshm Island and along the Strait of Hormuz after Tehran shot down an American Apache helicopter, while Iranian officials and the IRGC claimed retaliatory drone and missile attacks on 21 U.S. targets in Bahrain, Kuwait and Jordan, including the Fifth Fleet base and Azraq airbase, with Jordan reporting it intercepted five incoming missiles; President Donald Trump warned Iran has roughly 21%-22% of its missile arsenal left and vowed further action even as U.S. officials insisted the strikes were proportional, and analysts cited by Al Jazeera and the BBC said Tehran now feels compelled to answer every U.S. attack to avoid establishing a new status quo.",
+          "headline": "U.S.-Iran confrontation escalates with reciprocal strikes after downing of U.S. helicopter",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/us-attacks-iranian-coastal-sites-after-iran-launches-drones-latest-flare-up-2026-06-06/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/10/iran-strikes-bahrain-and-jordan-in-retaliation-for-us-attacks-in-hormuz"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cze9359gglyo"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Democratic leaders, donors and operatives remain split over Graham Platner’s candidacy after a New York Times report detailed allegations from an ex-girlfriend that he grabbed her, locked her in a room and knowingly wore a tattoo resembling a Nazi Totenkopf, compounding earlier revelations about explicit messages sent while married and offensive Reddit posts; Politico reports some Democrats, including Rep. Ro Khanna, still back Platner as their best shot to unseat Sen. Susan Collins, while others fear the scandals could cost the party its most viable Senate pickup, and the Associated Press notes Platner nevertheless clinched the nomination, leaving only the unprecedented option of a mid-summer replacement if he were to step aside.",
+          "headline": "Democrats in turmoil over scandal-plagued Maine Senate nominee Graham Platner",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/04/platner-democrats-furious-new-york-times-report-00951496"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/live/election-primary-06-09-2026"
+            }
+          ]
+        },
+        {
+          "body": "The Senate approved, 52-47, a Republican immigration bill that injects nearly $70 billion into ICE and Border Patrol over three years while leaving intact a controversial $1.8 billion “anti-weaponization” fund sought by President Donald Trump, despite failed bipartisan efforts to ban or repurpose it, and the Associated Press reports the House followed with narrow passage that now sends the measure to Trump’s desk, bolstering his deportation agenda even as moderate Republicans warn the fund could become a political liability.",
+          "headline": "Congress pushes $70 billion enforcement surge for ICE and Border Patrol",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/legal/government/senate-republicans-grapple-with-trumps-anti-weaponization-fund-ice-funding-vote-2026-06-04/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/immigration-enforcement-funding-trump-congress-republicans-c395a434f47fa41a7131369847091910"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Senior PSOE officials told El País that the damage from daily leaks tying alleged party fixer Leire Díez to efforts to obstruct judicial and police probes involving the party and the prime minister’s family has become unsustainable, prompting growing calls for headquarters on Calle Ferraz to file an immediate criminal complaint against her to send a political message of zero tolerance amid the widening corruption investigations.",
+          "headline": "PSOE leaders urge legal action against alleged fixer Leire Díez as corruption probes widen",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-10/dirigentes-del-psoe-piden-a-ferraz-que-se-querelle-contra-leire-diez-hay-que-lanzar-un-mensaje-politico.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Pope León XIV arrived in Barcelona for a two-day visit that includes a 37,000-person vigil at the Estadi Olímpic, a blessing of the Sagrada Família’s Torre de Jesús during a centenary tribute to Antoni Gaudí, stops at Brians 1 prison, Montserrat Abbey and the Raval’s Sant Agustí church, and betevé reports the city has deployed extensive traffic closures, public-transit adjustments, large viewing screens at Glòries and Arc de Triomf, and round-the-clock live coverage to manage the security and mobility challenges posed by the papal itinerary.",
+          "headline": "Barcelona braces for Pope León XIV’s visit with sweeping security, road closures and mass events",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/sociedad/20260610/papa-leon-visita-barcelona-agenda-actos-papamovil-ultima-hora-directo-131162679"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/visita-papa-lleo-xiv-barcelona-ultima-hora-directe/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
