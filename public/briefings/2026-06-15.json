@@ -1,0 +1,266 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Donald Trump and Iranian officials say an interim agreement to halt fighting on all fronts is already signed, with a Geneva ceremony due later this week, but Israel’s government is denouncing reported provisions that link the ceasefire in Lebanon to the broader U.S.-Iran truce; Tehran insists the understanding ends hostilities from the Strait of Hormuz to Lebanon, European leaders are urging rapid implementation, and Pakistan—credited as a mediator—says the pact demands reopening Hormuz even as details remain undisclosed.",
+          "headline": "US and Iran hail a signed deal to end their war, but terms and enforcement remain murky",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/live/cj0grpyg4v1t"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/15/israel-territory-lebanon-defence-minister-israel-katz"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/6/15/iran-war-live-tehran-says-peace-deal-ends-us-blockade-war-on-all-fronts"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260615-relief-from-world-leaders-as-us-iran-deal-announced"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-studying-deal-halt-war-stalemate-persists-2026-06-02/"
+            }
+          ]
+        },
+        {
+          "body": "Russia launched one of its heaviest air assaults in weeks, firing about 70 missiles and 611 drones that left at least 11 people dead nationwide, sparked fires across Kyiv, and set ablaze the Dormition Cathedral in the Kyiv-Pechersk Lavra after what local officials called a direct hit, while Ukrainian leaders warned of more massive barrages as G7 heads meet in France to show support for Kyiv.",
+          "headline": "Russian strikes ignite Kyiv’s UNESCO-listed cathedral and kill 11 amid renewed bombardment",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jun/15/eu-g7-ukraine-kyiv-russia-war-iran-zelenskyy-macron-trump-europe-latest-news-updates"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/gallery/2026/6/15/kyiv-cathedral-burns-as-heavy-russian-air-raids-hit-ukraine"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260615-g7-summit-pressure-will-be-on-leaders-to-show-support-for-ukraine"
+            }
+          ]
+        },
+        {
+          "body": "Israeli defense minister Israel Katz said forces will remain indefinitely in territory seized in southern Lebanon and strike Iran “with great force” if attacked, rejecting clauses of the U.S.-Iran agreement that reportedly require a halt to Israeli operations even as Hezbollah pauses cross-border fire and Lebanese officials urge civilians not to return yet to border villages; analysts warn Israeli defiance could strain ties with Washington while Lebanon’s leaders cautiously welcome the prospect of an enforced ceasefire.",
+          "headline": "Israel vows to keep troops in southern Lebanon despite US-Iran ceasefire framework",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/15/israel-territory-lebanon-defence-minister-israel-katz"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260615-israel-has-had-its-hands-forced-by-us-iran-deal"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/15/is-lebanon-included-country-hopeful-for-us-iran-ceasefire-despite-doubts"
+            }
+          ]
+        },
+        {
+          "body": "Tehran says any final peace deal with Washington must include an Israeli withdrawal from southern Lebanon, a ceasefire for Hezbollah, access to frozen oil revenues, sanctions waivers and leverage over the Strait of Hormuz, warning it could even extend its blockade to Bab el-Mandeb if Israel resumes strikes on Beirut; despite partial ceasefires, Iranian officials tout support for Hezbollah while U.S. pressure grows to restore global shipping through the strait.",
+          "headline": "Iran links reopening of Strait of Hormuz to Hezbollah-Israel truce and sanctions relief demands",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-studying-deal-halt-war-stalemate-persists-2026-06-02/"
+            }
+          ]
+        },
+        {
+          "body": "A sudden doubling of an air leak in Russia’s Zvezda service module prompted NASA to order five astronauts into their Crew Dragon spacecraft for two hours before mission control cleared them to reenter the International Space Station as Roscosmos paused repairs, underscoring recurring disputes over how to fix cracks that have plagued the orbital complex even as lawmakers push to extend its life to 2032.",
+          "headline": "NASA aborts emergency evacuation after ISS crew shelters from worsening Russian air leak",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/science/international-space-station-astronauts-evacuation-mode-russia-attempts-fix-2026-06-05/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "The Senate voted 52-47 along party lines to add $70 billion to Homeland Security’s enforcement budget for Trump’s multiyear deportation surge, rejecting bipartisan attempts to permanently kill the $1.8 billion \"anti-weaponization\" fund that Democrats brand a slush fund for the president’s allies, even as Republican leaders insisted acting Attorney General Todd Blanche’s assurance that the fund won’t be used should suffice.",
+          "headline": "US Senate approves $70 billion ICE funding bill while leaving Trump’s compensation fund intact",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/legal/government/senate-republicans-grapple-with-trumps-anti-weaponization-fund-ice-funding-vote-2026-06-04/"
+            }
+          ]
+        },
+        {
+          "body": "President Trump arrives in Évian-les-Bains for the G7 after berating European partners over their reluctance to join the U.S.-Iran war, seeking help clearing Iranian mines from the Strait of Hormuz and demanding more support on trade, NATO and Ukraine, while European leaders brace for confrontations as the White House also chases investment deals and cooperation on critical minerals, AI and migration.",
+          "headline": "Allies reassess ties as Trump lands at G7 with Iran deal and Ukraine pressure looming",
+          "sources": [
+            {
+              "name": "The New York Times",
+              "url": "https://www.nytimes.com/2026/06/15/us/politics/trump-group-of-7-summit.html"
+            }
+          ]
+        },
+        {
+          "body": "With 78 World Cup matches in the U.S., FIFA President Gianni Infantino is finding state and city officials—not the White House—hold decisive sway over security costs, licensing and even rules like water bottle bans, forcing the governing body to negotiate with governors, mayors and a patchwork of command centers from Miami to Trenton while juggling investigations into its ticketing practices and July 4 security operations tied to Donald Trump’s planned visit.",
+          "headline": "World Cup exposes FIFA to America’s fragmented power: local officials drive security, funding and rules",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/06/13/world-cup-2026/fifa-discovers-democracy-00961398"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/06/14/world-cup-2026/metlife-stadium-command-centers-fifa-world-cup-july-4-00961724"
+            }
+          ]
+        },
+        {
+          "body": "White House World Cup task force chief Andrew Giuliani says dozens of visa cases—including Somali referee Omar Abdulkadir Artan—have required senior review as the administration balances national security with FIFA commitments, but fans from Belgium to Scotland report revoked ESTA approvals, opaque consular systems and failed expedited appointments, prompting DHS to defend continuous vetting even as FIFA concedes its special entry process isn’t working for everyone.",
+          "headline": "Heightened vetting snarls World Cup visas for players, officials and fans entering the US",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/06/14/world-cup-2026/andrew-giuliani-fifa-world-cup-2026-dozens-visa-cases-somali-referee-00961748"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/06/13/world-cup-2026/visa-chaos-00961310"
+            }
+          ]
+        },
+        {
+          "body": "As Congress battles over extending Section 702 surveillance authorities after Trump tapped political ally Bill Pulte for acting DNI, figures like Indiana Senator Todd Young warn Democrats they’ll shoulder blame for any lapse while campaigning for GOP colleagues at World Cup events, even as the broader fight is shaped by the same partisan distrust that scuttled efforts to codify limits on Trump’s controversial compensation fund.",
+          "headline": "Judge cites Trump fund probe as Democrats and Republicans clash over surveillance and civil liberties",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/legal/government/senate-republicans-grapple-with-trumps-anti-weaponization-fund-ice-funding-vote-2026-06-04/"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/06/12/world-cup-2026/todd-young-section-702-2028-00961203"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Madrid judge Juan Carlos Peinado opened a preliminary hearing for Begoña Gómez, her adviser Cristina Álvarez and businessman Juan Carlos Barrabés, ordering them to appear in person under threat of police escort as accusations of corruption, embezzlement, influence peddling and misappropriation move toward a potential jury trial, with popular accusers seeking passport seizures and biweekly check-ins despite prosecutors urging the case be dropped.",
+          "headline": "Judge Peinado hauls Begoña Gómez back to court in corruption probe ahead of possible jury trial",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260615/juez-peinado-citado-begona-gomez-audiencia-preliminar-tiene-obligacion-comparecer/17114948.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260615/zapatero-leire-diez-begona-gomez-david-sanchez-psoe-ultima-hora-directo-130387522"
+            }
+          ]
+        },
+        {
+          "body": "Former prime minister José Luis Rodríguez Zapatero asked the Audiencia Nacional for more time before answering questions about 1.3 million euros’ worth of emeralds, sapphires and other jewels seized from his Ferraz office—now the focus of alleged customs and tax crimes—while signaling he is ready to testify this week about suspected influence peddling and money laundering tied to the Plus Ultra airline rescue, even as judges scrutinize the gems’ provenance and valuation.",
+          "headline": "Zapatero seeks delay in testimony over undeclared Saudi jewels while Plus Ultra case proceeds",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/15/6a2fe9cdfdddff77418b459b.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260615/zapatero-pide-aplazar-explicaciones-joyas-131420320"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260615/11565407/zapatero-pide-juez-aplazar-explicaciones-sobre-origen-joyas-incautadas-despacho.html"
+            }
+          ]
+        },
+        {
+          "body": "A new Guardia Civil report alleges former PSOE organization chief Santos Cerdán authorized party funds to cover at least six domestic trips by fixer Leire Díez between 2024 and 2025—including a meeting with ex-commissioner José Manuel Villarejo—to pressure prosecutors and judges handling cases tied to Pedro Sánchez’s circle, with travel agency emails and a memo titled “Incumplimientos” depicting Díez’s complaints that prosecutors refused to bend investigations despite promised political leverage.",
+          "headline": "Guardia Civil dossier says PSOE paid Leire Díez’s covert travel on Santos Cerdán’s orders",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260615/11565225/uco-desvela-cerdan-autorizo-psoe-pagase-viaje-leire-diez-fontaneria.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/15/6a2fceea21efa0dc718b4575.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s coalition partners agreed to fast-track Sumar’s bill removing Penal Code articles on insulting the Crown, state institutions, national symbols and religious sentiments while modifying protections for high officials, a move they frame as aligning with international free-expression standards even as they shelve plans to repeal the offense of glorifying terrorism in order to secure socialist support and finish the reform before summer.",
+          "headline": "PSOE and Sumar advance bill to scrap crimes of insulting the Crown and religious offense",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-15/psoe-y-sumar-pactan-la-despenalizacion-de-las-injurias-a-la-corona-y-la-ofensa-a-los-sentimientos-religiosos.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/15/6a2fee18e85ece864c8b456d.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Mayor Jaume Collboni welcomed 192 city employees who volunteered up to four work hours per month to provide technical expertise and public-awareness work for District 11, the initiative that channels Barcelona’s aid to Gaza, Ramallah and Bethlehem, with most volunteers being women from social services and early deployments already training health staff in refugee camps via remote support.",
+          "headline": "Barcelona sends 192 municipal workers to support its “District 11” aid program for Gaza, Ramallah and Bethlehem",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/192-treballadors-municipals-voluntaris-districte-11-cooperar-palestina/"
+            }
+          ]
+        },
+        {
+          "body": "From 3 July to 13 September the Trambesòs T4 line will be suspended between Verdaguer and El Maresme and the T5 and T6 between Ciutadella–Vila Olímpica and Sant Martí de Provençals so crews can realign track near Glòries, convert single-track sections to double track and reroute traffic on Avinguda Diagonal, with special bus lines, metro alternatives and bike detours planned before partial service resumes mid-September and further works continue into 2027.",
+          "headline": "Major summer works will cut Barcelona tram lines T4, T5 and T6 around Glòries",
+          "sources": [
+            {
+              "name": "3Cat Barcelona",
+              "url": "https://www.3cat.cat/3catinfo/tall-a-les-linies-t4-t5-i-t6-del-tramvia-a-lestiu-per-canviar-el-tracat-a-lentorn-de-glories/noticia/3414721/"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona en Comú and ERC said they have struck a deal with the ruling PSC to push the Catalan Parliament to lift the city’s cruise passenger levy to €24 per visit and cap annual cruise arrivals at 3.5 million, arguing that itinerant ships add little to the local economy and strain services, while also pressing Mayor Collboni to settle labor disputes and direct €50 million in budget surpluses toward housing.",
+          "headline": "Barcelona parties agree to raise cruise tourist tax as part of broader governance pact",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260615/bcomu-erc-acuerdan-psc-subir-tasa-turistica-cruceros-131423247"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
