@@ -1,7 +1,6 @@
 import { appendUniqueHeadlineCandidate } from "./appendUniqueHeadlineCandidate.ts"
 import { createHeadlineCandidate } from "./createHeadlineCandidate.ts"
 import { decodeNewsText } from "./decodeNewsText.ts"
-import { isHttpArticleUrl } from "./isHttpArticleUrl.ts"
 import { isUsableHeadlineCandidate } from "./isUsableHeadlineCandidate.ts"
 import type { HeadlineCandidate, HeadlineCandidateState } from "./types.ts"
 
@@ -116,27 +115,27 @@ export function extractHeadlineCandidates(
   for (const anchorRange of anchorRanges) {
     const anchorHtml = html.slice(anchorRange.start, anchorRange.end)
     const headline = decodeNewsText(anchorHtml)
-    const url = new URL(anchorRange.href, baseUrl)
-    const pathSegments = url.pathname.split("/").filter(Boolean)
+    const candidate = createHeadlineCandidate({
+      baseUrl,
+      headline,
+      href: anchorRange.href,
+      position: state.candidates.length + 1,
+    })
 
     if (
+      !candidate ||
       !isUsableHeadlineCandidate({
         headline,
         minimumLength: 45,
         rejectGenericHeadline: true,
         seenHeadlines: state.seenHeadlines,
       }) ||
-      !isHttpArticleUrl(url) ||
-      pathSegments.length < 2
+      new URL(candidate.url).pathname.split("/").filter(Boolean).length < 2
     ) {
       continue
     }
 
-    state = appendUniqueHeadlineCandidate(state, {
-      headline,
-      position: state.candidates.length + 1,
-      url: url.toString(),
-    })
+    state = appendUniqueHeadlineCandidate(state, candidate)
   }
 
   return state.candidates

@@ -114,4 +114,27 @@ describe("extractHeadlineCandidates", () => {
       },
     ])
   })
+
+  test("ignores malformed HTTP links without aborting extraction", () => {
+    const candidates = extractHeadlineCandidates(
+      "https://beteve.cat/feed/",
+      `
+        <a href="http://Les%20Roquetes%20recordar%C3%A0%20amb%20una%20pla%C3%A7a%20Maria%20Ant%C3%B2nia%20Canals,%20la%20mestra%20que%20ho%20va%20canviar%20tot">
+          Les Roquetes recordarà amb una plaça Maria Antònia Canals, la mestra que ho va canviar tot
+        </a>
+        <a href="https://beteve.cat/societat/valid-story/">
+          Barcelona manté oberta una notícia prou llarga per continuar després de l'enllaç malformat
+        </a>
+      `,
+    )
+
+    expect(candidates).toEqual([
+      {
+        headline:
+          "Barcelona manté oberta una notícia prou llarga per continuar després de l'enllaç malformat",
+        position: 1,
+        url: "https://beteve.cat/societat/valid-story/",
+      },
+    ])
+  })
 })

@@ -6,14 +6,18 @@ export function createHeadlineCandidate(
   /** The candidate construction arguments. */
   args: CreateHeadlineCandidateArgs,
 ): HeadlineCandidate | null {
-  const articleUrl = new URL(args.href, args.baseUrl)
+  try {
+    const articleUrl = new URL(args.href, args.baseUrl)
 
-  if (!isHttpArticleUrl(articleUrl)) return null
+    if (!isHttpArticleUrl(articleUrl)) return null
 
-  return {
-    ...(args.body ? { body: args.body } : {}),
-    headline: args.headline,
-    position: args.position,
-    url: articleUrl.toString(),
+    return {
+      ...(args.body ? { body: args.body } : {}),
+      headline: args.headline,
+      position: args.position,
+      url: articleUrl.toString(),
+    }
+  } catch {
+    return null
   }
 }
