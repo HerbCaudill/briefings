@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Switzerland abruptly canceled the planned summit between US and Iranian negotiators, forcing Vice President JD Vance to begin a 60-day indirect negotiating period while postponing his own visit as Washington confirmed a naval blockade suspension aimed at salvaging the wider ceasefire deal, according to Al Jazeera’s live coverage of the conflict.",
+          "headline": "Swiss summit collapse underscores fragile US–Iran talks",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/6/19/iran-war-live-jd-vance-defends-iran-deal-as-us-says-naval-blockade-lifted?update=4677735"
+            }
+          ]
+        },
+        {
+          "body": "Reuters reports that Iranian Foreign Minister Abbas Araqchi and adviser Mohsen Rezaei insisted any US–Iran peace accord must include an Israeli withdrawal from southern Lebanon and a Hezbollah-Israel ceasefire, while Hezbollah rejected a US-brokered pact and kept up attacks, even as the UN warned of growing hunger; Al Jazeera added that Israeli airstrikes killed at least 16 people amid fierce fighting around Kfar Tebnit, delayed Swiss technical talks, and drew US pressure for a full regional ceasefire.",
+          "headline": "Iran conditions peace on Israeli pullout from Lebanon as strikes intensify",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/18/israeli-attacks-on-southern-lebanon-kill-three-despite-us-iran-deal"
+            }
+          ]
+        },
+        {
+          "body": "NASA told Reuters it sent five astronauts into their docked Crew Dragon for about two hours after Roscosmos tried to saw into the Zvezda module to fix one of two air leaks that suddenly doubled to two pounds of air per day, but the US agency rescinded the safe-haven directive once Russia paused its repair effort and both sides agreed to reassess the crack that has reignited months-long disputes over mitigation methods.",
+          "headline": "NASA reverses ISS evacuation order after Russian leak response",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/science/international-space-station-astronauts-evacuation-mode-russia-attempts-fix-2026-06-05/"
+            }
+          ]
+        },
+        {
+          "body": "Reuters dispatches from Kyiv describe mayor Vitali Klitschko warning residents to shelter as debris from renewed Russian strikes ignited fires in Podil, Obolon and other districts, while President Volodymyr Zelenskiy reiterated intelligence warnings of a possible massive barrage and his chief of staff Kyrylo Budanov deemed a war-ending agreement with Moscow by winter “realistic,” citing planned US-facilitated talks and Ukraine’s bid to seize battlefield initiative within six months.",
+          "headline": "Kyiv girds for fresh missile barrages while pursuing winter peace deal",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/europe/zelenskiys-top-aide-says-peace-deal-by-winter-is-realistic-2026-06-01/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Politico reports that billionaire healthcare executive Rick Jackson poured more than $100 million of personal money into Georgia’s Republican gubernatorial runoff to defeat Lt. Gov. Burt Jones despite endorsements from President Donald Trump and Gov. Brian Kemp, underscoring both the limits of Trump’s influence and GOP anxieties that the president did too little to stop Jackson, whose spending spree reshaped down-ballot races and now sets up a November clash with Democrat Keisha Lance Bottoms.",
+          "headline": "Rick Jackson’s self-funded blitz upends Trump-backed Burt Jones in Georgia",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/16/jackson-wins-georgia-governor-runoff-00964631"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/17/trump-stumbles-rick-jackson-georgia-00964689"
+            }
+          ]
+        },
+        {
+          "body": "According to Politico, Rep. Mike Collins secured the Republican nomination to challenge Sen. Jon Ossoff after receiving a last-minute Trump endorsement that blunted Gov. Brian Kemp’s push for Derek Dooley, but Collins emerges cash-poor, dogged by an ethics probe involving his top aide, and carrying hardline positions—particularly on abortion—that Democrats believe make him vulnerable even as national GOP groups weigh how deeply to invest in Georgia’s marquee Senate fight.",
+          "headline": "Mike Collins wins bruising GOP Senate runoff, faces Jon Ossoff",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/16/collins-ossoff-georgia-senate-race-00964625"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/17/republicans-worried-jon-ossoff-georgia-senate-00964687"
+            }
+          ]
+        },
+        {
+          "body": "Politico reports that Ward 4 Councilmember Janeese Lewis George defeated Kenyan McDuffie in Washington’s Democratic mayoral primary, positioning the democratic socialist to succeed Mayor Muriel Bowser with promises of universal childcare, social housing, and resistance to federal crackdowns by President Donald Trump, even as she prepares to confront a $1.1 billion budget gap and navigate contentious projects tied to federal funding.",
+          "headline": "Janeese Lewis George cruises in DC mayoral primary with anti-Trump platform",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/18/lewis-george-dc-mayor-primary-00966879"
+            }
+          ]
+        },
+        {
+          "body": "Politico recounts Libertarian candidate Marco Battaglia’s allegation that Rep. Zach Nunn visited his home and later Health and Human Services Secretary Robert F. Kennedy Jr. called him to urge withdrawal from Iowa’s 3rd District race to protect GOP control, even as Battaglia fights a state panel’s decision removing him from the ballot for not using his legal name and Republicans warn his presence could siphon votes from the vulnerable incumbent.",
+          "headline": "Libertarian says RFK Jr. and Rep. Zach Nunn pressed him to exit Iowa race",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/15/iowa-battleground-rfk-zach-nunn-challenger-00962665"
+            }
+          ]
+        },
+        {
+          "body": "Politico’s campaign finance analysis shows that more than $48 million—about one in every ten outside dollars spent in 2026 primaries so far—has flowed through newly formed super PACs that launch after Federal Election Commission reporting deadlines, allowing them to bomb voters with ads while delaying donor disclosure, a tactic now used by actors ranging from suspected Republican meddling in Democratic races to AIPAC-linked groups and Kentucky operatives attacking Trump-backed candidates.",
+          "headline": "Pop-up super PACs hide donors while smashing 2026 primary spending records",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/06/14/super-pacs-campaign-finance-2026-primaries-00960808"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "El País and El Mundo report that National Court judge José Luis Calama maintained former Prime Minister José Luis Rodríguez Zapatero’s status as an investigated party after a three-hour interrogation and has now summoned his daughters Alba and Laura Rodríguez Espinosa plus longtime aide Gertrudis Alcázar, alleging that their firm Whathefav SL received over €1 million via Venezuelan-linked shell companies tied to alleged influence trafficking for airline Plus Ultra and that invoices lacking service details suggest coordinated money laundering.",
+          "headline": "Judge keeps Zapatero under investigation and summons daughters in Plus Ultra case",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-18/el-juez-mantiene-la-imputacion-de-zapatero-tras-un-interrogatorio-exigente-y-cuatro-fuentes-de-prueba.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/18/6a34344ffc6c8342228b45a1.html"
+            }
+          ]
+        },
+        {
+          "body": "El País and El Mundo detail a Guardia Civil UCO report to Madrid’s Investigative Court No. 19 concluding that Alberto González Amador’s corporate network billed the private healthcare group Quirón roughly €4.4 million between 2021 and 2023 through companies such as Masterman & Whitaker that allegedly lacked the staff or assets to perform the consulting services claimed, with investigators scrutinizing his €499,836 purchase of the dormant firm Círculobelleza from a Quirón executive’s spouse and linking the funds to pandemic-era commission income.",
+          "headline": "Anti-corruption probe says Ayuso’s partner lacked capacity for Quirón contracts",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-18/la-uco-senala-que-una-empresa-del-novio-de-ayuso-carece-de-medios-para-hacer-el-trabajo-por-el-que-quiron-le-pago-en-2021.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/18/6a3410a821efa0682e8b458e.html"
+            }
+          ]
+        },
+        {
+          "body": "El País reports that Spain’s Supreme Court overturned the National Court and ordered the state to pay €2.5 million to Moroccan construction worker Ahmed Tommouhi, ruling there was an unequivocal judicial error when courts ignored admitted biological evidence excluding him from ten rapes that led to 15 years in prison plus three on parole, thereby recognizing state liability for the wrongful convictions.",
+          "headline": "Supreme Court awards €2.5 million to Moroccan worker wrongfully jailed 15 years",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-18/el-supremo-condena-al-estado-a-indemnizar-con-25-millones-al-albanil-marroqui-condenado-por-10-violaciones-que-no-cometio.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Tot Barcelona reports that the city will operate more than 500 climate refuges this season so that 99.2% of residents are within a 10-minute walk of a cooled public space, adding nearly 100 new refuges, 60 micro-refuge partners such as pharmacies and shops, extended library programming, community centers in Torre Júlia and Verdum, and weekend access to nursery school courtyards through mid-September.",
+          "headline": "Barcelona expands climate refuge network to shield residents from summer heat",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/barcelona-activara-mes-de-500-refugis-climatics-per-combatre-la-calor-722241/"
+            }
+          ]
+        },
+        {
+          "body": "El Periódico de Barcelona writes that Deputy Mayor Albert Batlle referred a Bombers de Barcelona member to prosecutors after a woman awoke disoriented in his private vehicle inside the Zona Franca fire station on June 7, claimed she had been sexually assaulted after a night of drugs and alcohol, and called 112, prompting the SEM to take her to Hospital Clínic while the firefighter—now suspended and facing an internal disciplinary file—entered duty and left her in the restricted facility in violation of access rules.",
+          "headline": "Barcelona city hall reports firefighter over alleged sexual assault at Zona Franca station",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/sucesos/20260618/ayuntamiento-barcelona-denuncia-bombero-parque-agresion-sexual-mujer-131547709"
+            }
+          ]
+        },
+        {
+          "body": "Betevé reports that a joint eight-hour Mossos d’Esquadra and Guardia Urbana sweep across Ciutat Vella, Eixample and Sant Martí under the Kanpai plan arrested 14 people—12 for violent snatch-and-grab robberies and two for drug offenses—seizing five chains, two high-end watches valued at €80,000 and €100,000, and three phones while identifying 48 additional individuals carrying 665 prior records; one suspect tried to swallow a chain, which officers later confirmed via X-ray.",
+          "headline": "Police operation nets 14 suspects in luxury watch and phone theft wave",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/14-detinguts-robatoris-cadenes-rellotges-luxe-telefons-mobils/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
