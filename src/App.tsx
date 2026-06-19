@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { IconChevronDown } from "@tabler/icons-react"
 import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
@@ -70,6 +70,30 @@ function App() {
     if (selectedIndex > 0) setSelected(briefings[selectedIndex - 1].date)
   }, [selectedIndex, briefings])
 
+  /** Track the starting point of a touch to detect horizontal swipes. */
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
+
+  const onTouchStart = useCallback((e: React.TouchEvent) => {
+    const touch = e.touches[0]
+    touchStart.current = { x: touch.clientX, y: touch.clientY }
+  }, [])
+
+  const onTouchEnd = useCallback(
+    (e: React.TouchEvent) => {
+      const start = touchStart.current
+      if (!start) return
+      touchStart.current = null
+      const touch = e.changedTouches[0]
+      const dx = touch.clientX - start.x
+      const dy = touch.clientY - start.y
+      // Require a mostly-horizontal swipe past a minimum distance.
+      if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return
+      if (dx < 0) goToNext()
+      else goToPrev()
+    },
+    [goToNext, goToPrev],
+  )
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!e.ctrlKey) return
@@ -89,7 +113,11 @@ function App() {
   }, [goToToday, goToPrev, goToNext])
 
   return (
-    <div className="flex min-h-screen justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12">
+    <div
+      className="flex min-h-screen justify-center px-8 pt-12 pb-16 max-md:px-5 max-md:pt-8 max-md:pb-12"
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+    >
       <article className="w-full max-w-180">
         <h1 className="border-accent text-accent mb-1 border-t-4 pt-3 font-serif text-3xl leading-tight font-bold">
           Daily briefing
