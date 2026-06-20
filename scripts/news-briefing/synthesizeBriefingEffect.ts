@@ -28,7 +28,7 @@ export function synthesizeBriefingEffect(
 
     yield* logMessageEffect("Selecting stories...")
     const selection = yield* runTimedEffect(
-      selectBriefingStoriesEffect(args.rawDirectoryPath, args.date),
+      selectBriefingStoriesEffect(args.briefingDirectoryPath, args.rawDirectoryPath, args.date),
     )
     yield* logBlankLineEffect()
 
