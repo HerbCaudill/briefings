@@ -153,6 +153,50 @@ describe("synthesizeBriefing", () => {
     expect(logMessages).toContain("done (2s)")
   })
 
+  test("includes the previous day's headlines in the selection prompt", async () => {
+    const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-previous-"))
+    const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")
+    const briefingDirectoryPath = path.join(rootDirectoryPath, "public/briefings")
+
+    mkdirSync(rawDirectoryPath, { recursive: true })
+    mkdirSync(briefingDirectoryPath, { recursive: true })
+
+    writeFileSync(
+      path.join(rawDirectoryPath, "2026-04-20.json"),
+      JSON.stringify({ articles: [], date: "2026-04-20" }),
+    )
+    writeFileSync(
+      path.join(briefingDirectoryPath, "2026-04-19.json"),
+      JSON.stringify({
+        sections: [
+          {
+            stories: [{ body: "Body", headline: "Yesterday's top story", sources: [] }],
+            title: "World",
+          },
+        ],
+      }),
+    )
+
+    const calls: Array<{ prompt: string; rawBriefingPath: string }> = []
+
+    await synthesizeBriefing({
+      briefingDirectoryPath,
+      date: "2026-04-20",
+      fetchPageHtml: async () => "",
+      rawDirectoryPath,
+      runPi: async args => {
+        calls.push(args)
+
+        return calls.length === 1
+          ? JSON.stringify({ stories: [] })
+          : JSON.stringify({ sections: [] })
+      },
+    })
+
+    expect(calls[0].prompt).toContain("Yesterday's top story")
+    expect(calls[0].prompt).toContain("yesterday's briefing")
+  })
+
   test("selects stories from compact metadata, hydrates them, and writes the final briefing JSON", async () => {
     const rootDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-synthesize-"))
     const rawDirectoryPath = path.join(rootDirectoryPath, "public/briefings/raw")

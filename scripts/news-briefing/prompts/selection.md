@@ -2,6 +2,8 @@ Select the strongest stories for today's briefing from this list of headlines. A
 
 Only select fresh news. The briefing date is given at the end of this prompt; some articles include a `date` field (publication date), and many article URLs embed a publication date (for example `-2026-06-04/`). Exclude any story published more than 2 days before the briefing date, no matter how significant it seems — stale articles sometimes linger in candidate feeds for weeks, and reporting old news as new is worse than skipping it.
 
+If a list of stories already covered in yesterday's briefing is provided below, avoid repeating them. Do not select a story that merely restates one of yesterday's stories; only revisit a topic when there is a significant new development, and choose a candidate whose headline reflects what is new.
+
 Return only valid JSON matching this TypeScript type:
 
 ```ts
