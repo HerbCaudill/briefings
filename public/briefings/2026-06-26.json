@@ -1,0 +1,208 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Two shallow earthquakes of magnitude 7.2 and 7.5 struck near Caracas and La Guaira during a national holiday, collapsing more than 250 buildings, shutting Maiquetía airport, killing at least 235 people and injuring over 4,300 as rescuers search rubble amid fears the toll will rise while foreign governments send aid and emergency teams.",
+          "headline": "Race to rescue survivors after Venezuela’s twin quakes kill hundreds",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cjegdqw5d3yo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/25/rescue-teams-race-to-venezuela-amid-fears-thousands-killed-in-earthquakes"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/6/25/venezuela-earthquakes-live-two-powerful-quakes-shake-s-american-country"
+            }
+          ]
+        },
+        {
+          "body": "The International Maritime Organization halted a plan to escort more than 11,000 stranded sailors out of the Strait of Hormuz after the Singapore-flagged Ever Lovely was hit by an unidentified projectile near Oman, prompting the agency to seek renewed safety guarantees while Iran warned vessels to stay within its designated routes and U.S. officials blamed Tehran for the attack amid fragile ceasefire talks.",
+          "headline": "UN pauses Strait of Hormuz evacuations after cargo ship strike",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cjwg9np904qo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jun/25/un-pauses-ship-evacuations-through-strait-of-hormuz-after-vessel-attack"
+            }
+          ]
+        },
+        {
+          "body": "U.S. Central Command said American forces shot down four Iranian drones targeting maritime traffic near the Strait of Hormuz and then destroyed surveillance radar sites on Goruk and Qeshm Island, underscoring escalating clashes that complicate efforts to reach an interim deal to end the U.S.-Iran war while Tehran conditions any agreement on leverage over the strait and Israeli withdrawal from Lebanon.",
+          "headline": "US strikes Iranian coastal radar after drone attacks on shipping",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/us-attacks-iranian-coastal-sites-after-iran-launches-drones-latest-flare-up-2026-06-06/"
+            }
+          ]
+        },
+        {
+          "body": "Iranian officials reiterated that any regional ceasefire with the United States must compel Israel to withdraw from southern Lebanon and halt strikes on Hezbollah, with Foreign Minister Abbas Araqchi and advisers to Supreme Leader Mojtaba Khamenei pledging continued support for the group while warning that the war, which has curtailed Hormuz shipping and driven up energy prices, will only end when hostilities in Lebanon cease.",
+          "headline": "Iran insists ceasefire must include Lebanon front as it backs Hezbollah",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
+            }
+          ]
+        },
+        {
+          "body": "Former Senegalese prime minister Ousmane Sonko said his Pastef party, which holds a parliamentary majority, will not join President Bassirou Diomaye Faye’s next government after disagreements over the party’s role, escalating a power struggle that already saw Sonko fired, briefly reinstated by lawmakers as speaker, and unfolding amid an IMf-suspended $1.8 billion program triggered by undisclosed debts.",
+          "headline": "Senegal crisis deepens as Sonko pulls Pastef from government",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/africa/senegals-ousted-prime-minister-says-his-party-will-not-participate-new-2026-06-01/"
+            }
+          ]
+        },
+        {
+          "body": "NASA ordered five astronauts into their Crew Dragon safe haven for about two hours when air leak rates doubled on the International Space Station’s Russian Zvezda module, but rescinded the evacuation after Roscosmos sealed one of two cracks and paused repairs, with both agencies now seeking a joint fix for the long-running issue that has never before forced an ISS evacuation in its 27-year history.",
+          "headline": "NASA aborts ISS evacuation after Russia seals leak",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/science/international-space-station-astronauts-evacuation-mode-russia-attempts-fix-2026-06-05/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "The U.S. Senate voted 52-47 to send a $70 billion immigration enforcement package to the House, funding ICE and Border Patrol for Trump’s deportation drive while rejecting bipartisan attempts to permanently shut down the $1.8 billion “anti-weaponization” fund that Democrats call a slush fund for the president’s allies despite assurances from acting Attorney General nominee Todd Blanche that it will remain dormant.",
+          "headline": "Senate approves $70 billion ICE boost without axing Trump’s ally fund",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/legal/government/senate-republicans-grapple-with-trumps-anti-weaponization-fund-ice-funding-vote-2026-06-04/"
+            }
+          ]
+        },
+        {
+          "body": "California’s proposed tax on residents worth at least $1 billion qualified for November’s ballot despite resistance from Governor Gavin Newsom and other top Democrats, setting up a high-stakes fight over whether to levy new wealth taxes to fund social programs in a state already split over business flight and a slowing tech economy.",
+          "headline": "California voters to weigh billionaire tax opposed by state Democrats",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/06/25/california-billionaire-tax-headed-ballot-despite-top-democrats-opposition/"
+            }
+          ]
+        },
+        {
+          "body": "The city’s Rent Guidelines Board voted to freeze rents for up to two years on almost 1 million rent-stabilized apartments—roughly 40% of the housing stock—delivering on Comptroller Zohran Mamdani’s campaign promise and intensifying debates over landlord costs versus tenant affordability amid persistent housing shortages.",
+          "headline": "New York City freezes rents on nearly one million regulated units",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/06/25/nyc-passes-rent-freeze-line-with-mamdani-campaign-promise/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain’s Congress and Senate approved nonbinding motions by 178 to 171 votes demanding Prime Minister Pedro Sánchez either resign, face a confidence vote or call elections, citing corruption probes, blocked budgets and legislative paralysis, while PP leader Alberto Núñez Feijóo said Sánchez is defying the chamber that originally invested him.",
+          "headline": "Parliament urges Sánchez to seek confidence vote or resign",
+          "sources": [
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/06/25/6a3d2368e9cf4aeb588b45ba.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260625/congreso-solicita-sanchez-valore-cuestion-confianza-votos-junts-pp-vox-coalicion-canaria/17131313.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Former Prime Minister José Luis Rodríguez Zapatero asked National Court judge José Luis Calama to throw out the Plus Ultra money-laundering case and exclude evidence he says violates his fundamental rights, even as the judge opened a new investigation into leaked private messages between Zapatero and his secretary after hundreds were published.",
+          "headline": "Zapatero fights Plus Ultra probe while judge hunts leaks",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-25/zapatero-pide-al-juez-que-declare-la-nulidad-del-caso-plus-ultra.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-25/el-juez-ordena-investigar-las-filtraciones-del-caso-que-mantiene-imputado-a-zapatero.html"
+            }
+          ]
+        },
+        {
+          "body": "A forest fire that ignited between Tamarite de Litera and Alcampell burned at least 1,000 hectares, triggered activation of Aragón’s level-1 Procinfo plan, forced more than 240 residents of Azanuy, Alins and Calasanz to evacuate, and led to confinement orders in Fonz as firefighting teams sought to control the blaze.",
+          "headline": "Wildfire in Huesca burns 1,000 hectares and forces evacuations",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-06-25/un-incendio-forestal-obliga-a-desalojar-a-185-personas-en-huesca.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Research by the IGOP-UAB institute shows 77 socially vulnerable neighborhoods across the Barcelona metro area, home to more than 905,000 people, register average temperatures 1 °C higher than wealthier districts due to aging housing, limited shade and fewer cooling resources, prompting calls for targeted climate adaptation and anti-gentrification safeguards.",
+          "headline": "Study finds Barcelona’s poorest neighborhoods already 1 °C hotter",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/barcelona-barris-calor-desigualtat-climatica-vulnerables/"
+            }
+          ]
+        },
+        {
+          "body": "ADIF said renovation work expanding Barcelona Sants station’s high-speed and commuter concourses will shut the Plaça dels Països Catalans entrance for about two years starting late September, rerouting passengers through Plaça de Joan Peiró while builders increase AVE capacity 175%, Rodalies capacity 85%, and enlarge the main concourse and customer areas.",
+          "headline": "Sants station to close Plaça dels Països Catalans access for two years",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/acces-estacio-sants-placa-paisos-catalans-tancara-dos-anys-obres/"
+            }
+          ]
+        },
+        {
+          "body": "Deputy mayor Laia Bonet urged Junts to back equipping the Guàrdia Urbana with Taser stun guns ahead of a June council debate that includes a PP proposal to buy 150 devices by year’s end after Junts blocked the usage rules in 2025, while the Collboni administration argues Tasers would deter violence and complement plans to hire more officers.",
+          "headline": "Barcelona revives debate on Tasers for city police",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/laia-bonet-demana-recuperar-suport-junts-urbana-pistoles-taser/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/ple-municipal-barcelona-juny-2026/"
+            }
+          ]
+        },
+        {
+          "body": "Parents at Institut Escola la Flor de Maig protested plans to keep their children in long-term prefabricated classrooms that now host both primary and secondary students, saying the heat-prone structures reach 63 °C on sunny days, overload electrical systems despite air conditioning, and lack shaded playgrounds, prompting calls for a master plan to deliver permanent facilities.",
+          "headline": "Poblenou families demand permanent buildings for modular school",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/demanen-pla-director-instalacions-institut-escola-flor-maig/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
