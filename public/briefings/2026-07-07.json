@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "President Volodymyr Zelensky travels to Ankara for a NATO summit intent on prying loose scarce Patriot batteries and other air defenses after Russian missile and drone strikes twice pummeled Kyiv within a week, killing more than 50 civilians and exposing Ukraine’s inability to intercept ballistic weapons that travel at thousands of kilometers per hour; while he plans to press Donald Trump and other allies to treat Russia’s intensified use of ballistic missiles as a sign of strategic weakness, Moscow says its air defenses are intercepting most of the hundreds of Ukrainian drones hitting refineries and other targets, deepening fuel shortages and fires in the capital.",
+          "headline": "Zelensky heads to NATO summit seeking more air defenses after fresh Russian barrages on Kyiv",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c9d227e5zj6o"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/"
+            }
+          ]
+        },
+        {
+          "body": "Russia’s defense ministerial briefing to Vladimir Putin asserted that troops have seized Kostiantynivka, a major transport and industrial node anchoring Ukraine’s Sloviansk-Kramatorsk defensive belt, and are closing in on Lyman while expanding buffer zones in Kharkiv and Sumy to curb Ukrainian long-range strikes on refineries, although Kyiv has not confirmed the loss and continues to say Russian momentum has slowed.",
+          "headline": "Russia claims capture of Kostiantynivka as its forces push toward key eastern Ukrainian hubs",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/aerospace-defense/russian-defence-ministry-says-its-forces-captured-kostiantynivka-eastern-ukraine-2026-07-03/"
+            }
+          ]
+        },
+        {
+          "body": "U.S. Central Command said forces downed four Iranian drones aimed at Strait of Hormuz shipping and then hit surveillance radar at Goruk and Qeshm Island, an escalation that comes as Washington and Tehran struggle to negotiate an interim deal to pause their widening war, with President Donald Trump claiming Iran has only about 22% of its missiles left while Tehran links any agreement to sanctions relief, access to oil revenues, and leverage over the chokepoint that once carried a fifth of global energy supplies.",
+          "headline": "U.S. strikes Iranian coastal radar sites after Tehran launches drones toward Hormuz shipping lanes",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/us-attacks-iranian-coastal-sites-after-iran-launches-drones-latest-flare-up-2026-06-06/"
+            }
+          ]
+        },
+        {
+          "body": "Iranian officials, including Foreign Minister Abbas Araqchi and advisers to Supreme Leader Mojtaba Khamenei, reiterated that any ceasefire with the United States must include an Israeli withdrawal from southern Lebanon and protections for Hezbollah, even as Tehran reviews a proposed interim accord to reopen the Strait of Hormuz and ease sanctions; meanwhile U.S. negotiators say talks continue despite recurring strikes, Lebanon’s partial ceasefire remains fragile, and Iran threatens to extend its blockade to the Bab el-Mandeb while warning that control of vital waterways is its strongest leverage.",
+          "headline": "Iran doubles down on backing for Hezbollah as broader peace talks with Washington stall",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-declares-support-hezbollah-with-wider-peace-deal-doubt-2026-06-05/"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-studying-deal-halt-war-stalemate-persists-2026-06-02/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "In a 52-47 party-line vote, Senate Republicans approved a $70 billion measure to fund Immigration and Customs Enforcement and Border Patrol operations for Trump’s planned deportation surge while rejecting amendments to permanently kill a $1.8 billion “anti-weaponization” fund that Democrats call a slush fund for the president’s allies, leaving the fund technically dormant based on acting Attorney General Todd Blanche’s testimony but still intact as the bill heads to the House next week amid GOP infighting over accountability.",
+          "headline": "Senate passes $70 billion enforcement boost for DHS while preserving Trump’s controversial restitution fund",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/legal/government/senate-republicans-grapple-with-trumps-anti-weaponization-fund-ice-funding-vote-2026-06-04/"
+            }
+          ]
+        },
+        {
+          "body": "Democratic leaders from Chuck Schumer to the DNC, Senate Majority PAC and Maine party officials withdrew support from Senate nominee Graham Platner after POLITICO reported that Jenny Racicot accused him of forcing sex on her in 2021, prompting calls for him to quit before a July 13 deadline so party committees can install a new candidate and triggering speculation about replacements even as Platner denies the allegation yet “reflects” on his campaign.",
+          "headline": "Democratic leadership abandons Maine Senate nominee Graham Platner after new assault allegation",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/06/democrats-abandon-graham-platner-endorsements-support-00988421"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/06/maine-democratic-party-graham-platner-allegations-00988383"
+            }
+          ]
+        },
+        {
+          "body": "NASA ordered five astronauts into their docked Crew Dragon for roughly two hours after an air leak in Russia’s Zvezda module doubled to two pounds of air per day and Russian cosmonauts prepared to saw into the suspected crack, but the U.S. agency let the crew return once Roscosmos halted its repair attempt, with both sides pledging a joint plan to address the leak that has not yet forced an evacuation in the ISS’s 27-year history.",
+          "headline": "NASA revokes evacuation order for ISS crew after Russia pauses risky repair plan amid air leak scare",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/science/international-space-station-astronauts-evacuation-mode-russia-attempts-fix-2026-06-05/"
+            }
+          ]
+        },
+        {
+          "body": "President Donald Trump confirmed he asked FIFA’s Gianni Infantino to review and ultimately suspend Folarin Balogun’s red-card ban ahead of the U.S. knockout match with Belgium, insisting he merely sought fairness even as the European Commission, UEFA, Belgium’s government and other federations blasted the intervention and FIFA’s disciplinary committee issued a defensive statement saying it remained independent and had applied a “balanced measure.”",
+          "headline": "Trump admits calling FIFA chief over U.S. World Cup star’s red card as backlash grows over political pressure",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/07/06/world-cup-2026/trump-infantino-fifa-world-cup-balogun-red-card-00987687"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/07/06/world-cup-2026/fifa-disciplinary-committee-trump-balogun-world-cup-uefa-criticism-00988407"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "A 40dB survey for El País and Cadena SER found more than 65% of Spaniards believe judges engage in politically motivated “lawfare,” prompting the government to ask the judiciary to reflect on citizen distrust, while conservative magistrates deny bias and the opposition Partido Popular brands lawfare allegations as populism even as progressive judges concede some rulings are hard to explain and blame political instrumentalization for the perception crisis.",
+          "headline": "Spanish government urges judiciary to confront public distrust while PP decries ‘lawfare’ accusations",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-07/el-gobierno-llama-al-poder-judicial-a-reflexionar-sobre-la-desconfianza-ciudadana-y-el-pp-llama-populistas-a-los-que-hablan-de-lawfare.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-06/los-jueces-achacan-la-sensacion-de-lawfare-a-la-instrumentalizacion-de-la-justicia-por-parte-de-la-politica.html"
+            }
+          ]
+        },
+        {
+          "body": "PP leader Alberto Núñez Feijóo said on Antena 3 he would enact a national law treating fetuses as family members for subsidy purposes, mirroring Madrid President Isabel Díaz Ayuso’s new statute and expanding on a limited 2011 Galician measure, promising pregnant women access to the same benefits they would receive after birth—including school meal aid, transport passes, rental subsidies and early family-numerous status—while party spokesman Borja Sémper framed it within a broader family law to tackle Spain’s low fertility rate.",
+          "headline": "Feijóo vows nationwide rollout of Ayuso’s ‘conceived but not born’ benefits law if he becomes prime minister",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-06/feijoo-promete-implantar-a-nivel-nacional-la-ley-del-concebido-no-nacido-de-ayuso-si-llega-al-gobierno.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/06/6a4b70a2fdddff843d8b4582.html"
+            }
+          ]
+        },
+        {
+          "body": "The General Council of the Judiciary is postponing decisions on complaints against Judge Juan Carlos Peinado’s handling of the Begoña Gómez probe until Madrid’s provincial court rules on appeals, a delay that could outlast his September retirement, while substitute magistrate Antonio Viejo allowed the prime minister’s wife to attend her daughter’s London graduation but refused to let her accompany Pedro Sánchez to the NATO summit in Ankara, citing limited judicial cooperation with Turkey and existing travel restrictions tied to the 24-year prison demand in the case.",
+          "headline": "Disciplinary action against judge in Begoña Gómez case delayed as courts weigh appeals and restrict her travel",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-07/el-poder-judicial-a-la-espera-de-que-la-justicia-aclare-el-futuro-del-caso-begona-gomez-para-ventilar-las-quejas-contra-el-juez-peinado.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/06/6a4bd739e85ece9b0f8b4573.html"
+            }
+          ]
+        },
+        {
+          "body": "Anticipating another confrontation with Donald Trump at the Ankara NATO summit, Spanish Prime Minister Pedro Sánchez has prepared detailed arguments defending Madrid’s refusal last year to endorse a plan to raise defense spending to 5% of GDP by 2035, after the U.S. president repeatedly threatened tariffs and recently invoked Spain’s colonial losses as a warning, leaving Sánchez determined to show Spain’s contributions while deflecting domestic criticism over military budgets.",
+          "headline": "Sánchez arms himself with data for NATO clash over defense spending targets as Trump keeps up pressure",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-06/sanchez-se-arma-de-datos-para-defenderse-de-los-ataques-de-trump-por-la-negativa-a-aumentar-el-gasto-militar.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona and 377 municipalities across 34 Catalan counties are under Plan Alfa level 3, with another 111 towns at level 4, prompting bans on open flames, fireworks, grinders and stubble burning while agents restrict access to six natural areas amid a heatwave that could push temperatures to 38°C and coincide with multiple active blazes and a Civil Protection Infocat emergency.",
+          "headline": "Barcelona placed under Plan Alfa level 3 as Catalonia braces for extreme wildfire conditions",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/barcelona-nivell-3-pla-alfa-perill-incendi-molt-alt/"
+            }
+          ]
+        },
+        {
+          "body": "Catalan firefighters kept 14 vehicles on the stabilized but still uncontrolled Gavarres wildfire to watch for flare-ups before deciding at midday whether to declare it under control, after the blaze scorched roughly 2,200 hectares—mostly forest within the protected massif—triggered investigations that led to an arrest over illegal use of a radial saw, and left aerial images showing dramatic before-and-after damage stretching toward Calonge.",
+          "headline": "Firefighters monitor containment lines at the Gavarres blaze after 2,400 hectares burn",
+          "sources": [
+            {
+              "name": "Empordà",
+              "url": "https://www.emporda.info/girona/2026/07/07/els-bombers-valoraran-migdia-donen-controlat-foc-de-les-gavarres-132202695.html"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/baix-emporda/2026/07/06/abans-despres-incendi-gavarres-2400-hectarees-132168664.html"
+            }
+          ]
+        },
+        {
+          "body": "The Tour de France’s third stage rolled out from downtown Granollers before heading through Vic, Manresa, Berga and Puigcerdà en route to Les Angles, drawing packed crowds along routes such as Anselm Clavé and at Ripoll’s Plaça de l’Ajuntament where residents, summer camps and visiting Danes turned the passage of Vingegaard and Pogacar into a once-in-a-lifetime street festival even as authorities juggled road closures and an unrelated wildfire in northern Catalonia.",
+          "headline": "Tour de France stages reshape mobility from Barcelona to Granollers with local governments managing disruptions",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260706/tercera-etapa-tour-francia-arranca-granollers-132168316"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/esports/2026/07/06/lespectacle-tour-ripoll-passa-cop-132179295.html"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona’s Bicing service now fields 8,000 bikes—5,000 electric and 3,000 mechanical—with plans to grow from 519 to 593 stations and extend the 270-kilometer bike-lane network, highlighted by new corridors on Via Laietana, Diagonal and the upcoming Meridiana overhaul, while transit operator TMB launched a multiyear “Cerca de tot” branding campaign across buses, metro, apps and signage to underscore its role connecting metropolitan residents.",
+          "headline": "Barcelona expands Bicing network by 50% as TMB refreshes its mobility strategy",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/mas-barcelona/20260706/oferta-bicing-aumentara-50-barcelona-bc-132168387"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260706/tmb-estrena-lema-corporativo-movilidad-barcelona-bus-metro-ambbici-132186512"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
