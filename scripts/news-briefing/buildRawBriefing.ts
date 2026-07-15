@@ -1,6 +1,7 @@
 import { Effect } from "effect"
 import { getRawBriefingPath } from "./briefingPaths.ts"
-import { DEFAULT_MAX_HEADLINES_PER_SOURCE } from "./constants.ts"
+import { collectRecentBriefingSourceUrls } from "./collectRecentBriefingSourceUrls.ts"
+import { DEFAULT_MAX_HEADLINES_PER_SOURCE, RECENT_SOURCE_URL_LOOKBACK_DAYS } from "./constants.ts"
 import { createBriefingArticlesFromHeadlineCandidates } from "./createBriefingArticlesFromHeadlineCandidates.ts"
 import { fetchHeadlineCandidatesForSource } from "./fetchHeadlineCandidatesForSource.ts"
 import { formatCandidateSourceLine } from "./formatCandidateSourceLine.ts"
@@ -14,10 +15,18 @@ export async function buildRawBriefing(
 ): Promise<RawBriefing> {
   const maxHeadlinesPerSource = args.maxHeadlinesPerSource ?? DEFAULT_MAX_HEADLINES_PER_SOURCE
   const articlesByUrl = new Map<string, RawBriefing["articles"][number]>()
+  const recentSourceUrls = args.briefingDirectoryPath
+    ? collectRecentBriefingSourceUrls({
+        briefingDirectoryPath: args.briefingDirectoryPath,
+        date: args.date,
+        lookbackDays: RECENT_SOURCE_URL_LOOKBACK_DAYS,
+      })
+    : new Set<string>()
 
   for (const sourceConfig of args.sourceConfigs) {
     const headlineCandidates = (
       await fetchHeadlineCandidatesForSource({
+        briefingDate: args.date,
         fetchPageHtml: args.fetchPageHtml,
         maxHeadlinesPerSource,
         sourceConfig,
@@ -27,7 +36,7 @@ export async function buildRawBriefing(
 
     const articles = createBriefingArticlesFromHeadlineCandidates({
       candidates: headlineCandidates,
-      existingArticleUrls: new Set(articlesByUrl.keys()),
+      existingArticleUrls: new Set([...recentSourceUrls, ...articlesByUrl.keys()]),
       region: sourceConfig.region,
       sourceName: sourceConfig.name,
     })

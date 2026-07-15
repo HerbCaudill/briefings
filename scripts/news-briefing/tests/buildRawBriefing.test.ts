@@ -1,4 +1,4 @@
-import { mkdtempSync, rmSync } from "node:fs"
+import { mkdtempSync, rmSync, writeFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import path from "node:path"
 import { afterEach, describe, expect, test } from "vitest"
@@ -189,6 +189,83 @@ describe("buildRawBriefing", () => {
       source: "Blocked Source",
       url: "https://blocked-source.example/story-from-rss",
     })
+  })
+
+  test("excludes candidates already cited by recent final briefings and stale RSS items", async () => {
+    const rawDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-raw-"))
+    const briefingDirectoryPath = mkdtempSync(path.join(tmpdir(), "briefings-final-"))
+    temporaryDirectories.push(rawDirectoryPath, briefingDirectoryPath)
+
+    writeFileSync(
+      path.join(briefingDirectoryPath, "2026-07-11.json"),
+      JSON.stringify({
+        sections: [
+          {
+            stories: [
+              {
+                body: "Already covered story body",
+                headline: "Already covered story",
+                sources: [{ name: "Source", url: "https://source.example/already-covered" }],
+              },
+            ],
+            title: "World",
+          },
+        ],
+      }),
+    )
+
+    const rawBriefing = await buildRawBriefing({
+      briefingDirectoryPath,
+      date: "2026-07-12",
+      fetchPageHtml: async url => {
+        if (url === "https://source.example/feed") {
+          return `
+            <rss>
+              <channel>
+                <item>
+                  <title>Already covered headline with enough words to keep</title>
+                  <link>https://source.example/already-covered</link>
+                  <pubDate>Sat, 11 Jul 2026 08:00:00 GMT</pubDate>
+                </item>
+                <item>
+                  <title>Stale item headline with enough words to keep</title>
+                  <link>https://source.example/stale-item</link>
+                  <pubDate>Thu, 04 Jun 2026 14:40:48 GMT</pubDate>
+                </item>
+                <item>
+                  <title>Fresh item headline with enough words to keep</title>
+                  <link>https://source.example/fresh-item</link>
+                  <pubDate>Sun, 12 Jul 2026 06:00:00 GMT</pubDate>
+                </item>
+              </channel>
+            </rss>
+          `
+        }
+
+        throw new Error(`unexpected fetch: ${url}`)
+      },
+      rawDirectoryPath,
+      sourceConfigs: [
+        {
+          fallbackUrls: ["https://source.example/feed"],
+          homepageUrl: "https://source.example/news",
+          key: "source",
+          name: "Source",
+          preferFallbackUrls: true,
+          region: "world",
+        },
+      ],
+    })
+
+    expect(rawBriefing.articles).toEqual([
+      {
+        date: "2026-07-12",
+        headline: "Fresh item headline with enough words to keep",
+        region: "world",
+        source: "Source",
+        url: "https://source.example/fresh-item",
+      },
+    ])
   })
 
   test("can prefer fallback listing pages over primary pages", async () => {

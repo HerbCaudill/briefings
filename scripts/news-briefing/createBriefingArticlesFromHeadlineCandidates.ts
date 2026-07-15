@@ -15,6 +15,7 @@ export function createBriefingArticlesFromHeadlineCandidates(
     return [
       {
         ...(candidate.body ? { body: candidate.body } : {}),
+        ...(candidate.date ? { date: candidate.date } : {}),
         headline: candidate.headline,
         region: args.region,
         source: args.sourceName,

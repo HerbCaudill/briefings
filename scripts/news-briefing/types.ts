@@ -11,6 +11,7 @@ export type NewsSourceConfig = {
 
 export type HeadlineCandidate = {
   body?: string
+  date?: string
   headline: string
   position: number
   url: string
@@ -19,9 +20,27 @@ export type HeadlineCandidate = {
 export type CreateHeadlineCandidateArgs = {
   baseUrl: string
   body?: string
+  date?: string
   headline: string
   href: string
   position: number
+}
+
+export type ExtractHeadlineCandidatesOptions = {
+  briefingDate?: string
+  maxArticleAgeDays?: number
+}
+
+export type IsStaleArticleDateArgs = {
+  articleDate: string
+  briefingDate: string
+  maxAgeDays: number
+}
+
+export type CollectRecentBriefingSourceUrlsArgs = {
+  briefingDirectoryPath: string
+  date: string
+  lookbackDays: number
 }
 
 export type HeadlineCandidateState = {
@@ -37,6 +56,7 @@ export type IsUsableHeadlineCandidateArgs = {
 }
 
 export type BriefingCandidateArticle = {
+  date?: string
   headline: string
   source: string
   region: NewsRegion
@@ -86,6 +106,7 @@ export type HydratedBriefingSelection = {
 }
 
 export type BuildRawBriefingArgs = {
+  briefingDirectoryPath?: string
   date: string
   fetchPageHtml: (url: string) => Promise<string>
   log?: (message: string) => void

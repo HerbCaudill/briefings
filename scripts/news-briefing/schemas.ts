@@ -24,6 +24,7 @@ export const NewsSourceConfigSchema = Schema.Struct({
 /** Headline extracted from a source listing page before it is normalized into raw briefing data. */
 export const HeadlineCandidateSchema = Schema.Struct({
   body: Schema.optional(Schema.String),
+  date: Schema.optional(Schema.String),
   headline: Schema.String,
   position: Schema.Number,
   url: Schema.String,
@@ -31,6 +32,7 @@ export const HeadlineCandidateSchema = Schema.Struct({
 
 /** Candidate article persisted in a raw briefing file. */
 export const BriefingCandidateArticleSchema = Schema.Struct({
+  date: Schema.optional(Schema.String),
   headline: Schema.String,
   region: NewsRegionSchema,
   source: Schema.String,

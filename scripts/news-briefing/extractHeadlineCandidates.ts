@@ -1,8 +1,15 @@
 import { appendUniqueHeadlineCandidate } from "./appendUniqueHeadlineCandidate.ts"
+import { MAX_ARTICLE_AGE_DAYS } from "./constants.ts"
 import { createHeadlineCandidate } from "./createHeadlineCandidate.ts"
 import { decodeNewsText } from "./decodeNewsText.ts"
+import { isStaleArticleDate } from "./isStaleArticleDate.ts"
 import { isUsableHeadlineCandidate } from "./isUsableHeadlineCandidate.ts"
-import type { HeadlineCandidate, HeadlineCandidateState } from "./types.ts"
+import { parseRssItemDate } from "./parseRssItemDate.ts"
+import type {
+  ExtractHeadlineCandidatesOptions,
+  HeadlineCandidate,
+  HeadlineCandidateState,
+} from "./types.ts"
 
 /** Extract headline candidates from a news homepage or RSS document. */
 export function extractHeadlineCandidates(
@@ -10,6 +17,8 @@ export function extractHeadlineCandidates(
   baseUrl: string,
   /** The raw HTML or XML to parse. */
   html: string,
+  /** Optional briefing date and age limit used to drop stale RSS items. */
+  options?: ExtractHeadlineCandidatesOptions,
 ): HeadlineCandidate[] {
   const anchorRanges: Array<{ end: number; href: string; start: number }> = []
   const ariaMap = new Map<string, string>()
@@ -23,12 +32,26 @@ export function extractHeadlineCandidates(
       itemContent.match(/<content:encoded\b[^>]*>(.*?)<\/content:encoded>/is)?.[1] ??
       itemContent.match(/<description\b[^>]*>(.*?)<\/description>/is)?.[1] ??
       ""
+    const pubDate = itemContent.match(/<pubDate\b[^>]*>(.*?)<\/pubDate>/is)?.[1] ?? ""
     const headline = decodeNewsText(title)
     const body = decodeNewsText(description)
+    const publicationDate = parseRssItemDate(pubDate)
     const resolvedHref = link
       .replace(/^\s*<!\[CDATA\[/i, "")
       .replace(/\]\]>\s*$/i, "")
       .trim()
+
+    if (
+      publicationDate &&
+      options?.briefingDate &&
+      isStaleArticleDate({
+        articleDate: publicationDate,
+        briefingDate: options.briefingDate,
+        maxAgeDays: options.maxArticleAgeDays ?? MAX_ARTICLE_AGE_DAYS,
+      })
+    ) {
+      continue
+    }
 
     if (
       !resolvedHref ||
@@ -45,6 +68,7 @@ export function extractHeadlineCandidates(
     const candidate = createHeadlineCandidate({
       baseUrl,
       body: body.length > 40 ? body : undefined,
+      date: publicationDate,
       headline,
       href: resolvedHref,
       position: state.candidates.length + 1,

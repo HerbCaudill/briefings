@@ -95,6 +95,73 @@ describe("extractHeadlineCandidates", () => {
     ])
   })
 
+  test("drops stale RSS items and records publication dates on fresh ones", () => {
+    const candidates = extractHeadlineCandidates(
+      "https://example.com/rss.xml",
+      `
+        <rss>
+          <channel>
+            <item>
+              <title>Fresh story headline with enough words to keep</title>
+              <link>https://example.com/world/fresh-story</link>
+              <pubDate>Sat, 11 Jul 2026 09:43:26 GMT</pubDate>
+            </item>
+            <item>
+              <title>Stale story headline with enough words to keep</title>
+              <link>https://example.com/world/stale-story</link>
+              <pubDate>Thu, 04 Jun 2026 14:40:48 GMT</pubDate>
+            </item>
+            <item>
+              <title>Undated story headline with enough words to keep</title>
+              <link>https://example.com/world/undated-story</link>
+            </item>
+          </channel>
+        </rss>
+      `,
+      { briefingDate: "2026-07-12" },
+    )
+
+    expect(candidates).toEqual([
+      {
+        date: "2026-07-11",
+        headline: "Fresh story headline with enough words to keep",
+        position: 1,
+        url: "https://example.com/world/fresh-story",
+      },
+      {
+        headline: "Undated story headline with enough words to keep",
+        position: 2,
+        url: "https://example.com/world/undated-story",
+      },
+    ])
+  })
+
+  test("keeps dated RSS items when no briefing date is provided", () => {
+    const candidates = extractHeadlineCandidates(
+      "https://example.com/rss.xml",
+      `
+        <rss>
+          <channel>
+            <item>
+              <title>Old story headline with enough words to keep</title>
+              <link>https://example.com/world/old-story</link>
+              <pubDate>Thu, 04 Jun 2026 14:40:48 GMT</pubDate>
+            </item>
+          </channel>
+        </rss>
+      `,
+    )
+
+    expect(candidates).toEqual([
+      {
+        date: "2026-06-04",
+        headline: "Old story headline with enough words to keep",
+        position: 1,
+        url: "https://example.com/world/old-story",
+      },
+    ])
+  })
+
   test("ignores headline links that are not HTTP article URLs", () => {
     const candidates = extractHeadlineCandidates(
       "https://example.com/",
