@@ -3,61 +3,58 @@
     {
       "stories": [
         {
-          "body": "Iran’s Revolutionary Guards said they hit U.S. facilities in Bahrain and Kuwait, destroyed radar in Oman, and struck Jordan’s Prince Hassan Air Base as Tehran keeps the Strait of Hormuz closed, while Washington reported pounding Iranian air defenses, radars, missile and drone assets, and small boats amid explosions in Bandar Abbas and Qeshm, oil prices jumping above 2%, and dueling claims over whether traffic is moving through the strait as negotiations over a fragile truce falter.",
-          "headline": "Iran and U.S. trade wider strikes across Gulf states as Hormuz tensions spike",
+          "body": "Iran’s Revolutionary Guard says it has hit U.S. facilities across Bahrain, Kuwait, Oman and Jordan while enforcing a shutdown of the Strait of Hormuz, prompting American strikes on Iranian air defenses, radar and naval assets and pushing oil prices above their early-war highs; traffic through the strait has fallen by half, shippers report, even as Washington escorts convoys and insists the waterway remains open, and both Donald Trump and Tehran’s negotiators now declare last month’s truce over.",
+          "headline": "US and Iran trade new strikes as Tehran moves to close the Strait of Hormuz",
           "sources": [
             {
               "name": "Reuters",
               "url": "https://www.reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/"
             },
             {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/asia-pacific/iran-declares-strait-hormuz-closed-unauthorised-vessel-hit-2026-07-11/"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/15/trump-iran-power-plants-strike-threat-strait-of-hormuz"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c9323zgq6wvo"
             }
           ]
         },
         {
-          "body": "Despite Iran’s warning that the Strait of Hormuz will remain closed until U.S. interference ends, American naval forces continued escorting commercial shipping through the vital waterway, underscoring the risk of miscalculation as both sides escalate military activity across the Gulf and beyond.",
-          "headline": "U.S. Navy escorts ships while Tehran insists the Strait of Hormuz will stay shut",
-          "sources": []
-        },
-        {
-          "body": "At a Paris summit, Ukraine joined nine European partners to form the Integrated Anti-Ballistic Missile Coalition, pledging to develop the Freyja system as a lower-cost alternative to U.S. Patriots, license Ukrainian production of French weapons, procure SAMP-T batteries, and stage multinational exercises as Kyiv warns it is running out of interceptors against intensified Russian missile strikes.",
-          "headline": "Ukraine and allies launch joint anti-ballistic coalition to counter Russian barrages",
+          "body": "European allies meeting in Paris pledged to co-produce drones with Kyiv and to deploy a multinational stabilization mission after any cease-fire, prompting Russia’s Foreign Ministry to warn that any foreign contingent on Ukrainian soil would be treated as a legitimate target, underscoring Moscow’s opposition to outside security guarantees even as Ukraine seeks new defense industry partnerships to replenish its forces.",
+          "headline": "EU backs joint drone production with Ukraine as Russia warns foreign troops would be targets",
           "sources": [
             {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/business/aerospace-defense/allies-muster-more-air-defence-aid-ukraine-battlefield-momentum-shifts-2026-07-13/"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/15/ursula-von-der-leyen-ukraine-russia-volodymyr-zelenskyy-vladimir-putin-europe-live-news"
             }
           ]
         },
         {
-          "body": "A fire at the Rong Beer Na Lat Phrao pub in Bangkok killed 27 people and injured 73, with officials citing possible electrical faults, obstructed exits, flammable décor, and beer crates blocking escape routes, prompting renewed scrutiny of Thailand’s spotty enforcement of safety rules at entertainment venues that have suffered deadly blazes before.",
-          "headline": "Bangkok nightclub blaze kills 27 amid allegations of blocked exits and neglect",
+          "body": "China’s economy grew 4.3% year-on-year between April and June, undershooting Beijing’s 4.5–5% goal despite a 27% surge in June exports driven by semiconductors and electric vehicles; officials cite persistent domestic weakness, falling property prices and shrinking fixed-asset investment, while analysts say lowering the target has simply exposed pre-existing fragility even as retailers and manufacturers absorb higher energy costs caused by the Iran war’s impact on oil prices.",
+          "headline": "China’s second-quarter growth misses target as weak demand offsets export boom",
           "sources": [
             {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/asia-pacific/bangkok-pub-fire-kills-least-27-people-ap-reports-2026-07-12/"
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cd959x4edy8o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/jul/15/china-economy-low-quarterly-growth-economic-concerns"
             }
           ]
         },
         {
-          "body": "Typhoon Bavi made twin landfalls in Zhejiang province before weakening inland, toppling trees, flooding streets, canceling thousands of flights and trains, prompting the evacuation of 2.8 million people, injuring 134 in Taiwan, and threatening days of heavy rain across eastern and northern China as authorities warn of landslides and swollen rivers.",
-          "headline": "Typhoon Bavi batters eastern China and Taiwan, forcing millions to evacuate",
+          "body": "London plans to make major platforms such as Instagram, TikTok and YouTube inaccessible by default to 16- and 17-year-olds between midnight and 6 a.m. while disabling autoplay and infinite scroll, but teens could opt out and ministers still must define “social media” under the Online Safety Act, leaving lawyers warning that marketplaces or other user-generated services might be swept in and incoming prime minister Andy Burnham facing unresolved questions about age checks and carve-outs.",
+          "headline": "UK weighs midnight social media curfew for 16- and 17-year-olds amid enforcement questions",
           "sources": [
             {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/business/environment/typhoon-bavi-batters-east-china-taiwan-reports-134-injured-2026-07-12/"
-            }
-          ]
-        },
-        {
-          "body": "Sources close to the Kremlin told Reuters that President Vladimir Putin has rebuffed advisers urging a ceasefire, remains determined to seize all of Donbas, and may broaden operations to create a buffer and target NATO-aligned assets, even as Russian fuel shortages, Ukrainian drone strikes on refineries, and domestic discontent grow more acute.",
-          "headline": "Putin seen preparing escalation in Ukraine despite Western pressure for talks",
-          "sources": [
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c982857nlrlo"
+            },
             {
-              "name": "Reuters",
-              "url": "https://www.reuters.com/world/europe/putin-likely-escalate-ukraine-war-despite-trump-peace-push-sources-say-2026-07-09/"
+              "name": "Politico",
+              "url": "https://www.politico.com/www.politico.eu/article/andy-burnham-figure-out-kids-social-media-ban/"
             }
           ]
         }
@@ -67,8 +64,8 @@
     {
       "stories": [
         {
-          "body": "The Trump administration ordered Immigration and Customs Enforcement to halt most vehicle stops after agents fatally shot Colombian national Johan Sebastián Durán Guerrero in Biddeford, Maine—the second lethal encounter in a week—sparking protests, vigils in the U.S. and Colombia, and demands for accountability as surveillance footage of the incident circulated widely.",
-          "headline": "ICE suspends most traffic stops nationwide after two deadly shootings in a week",
+          "body": "Immigration and Customs Enforcement temporarily halted most vehicle stops following a second fatal shooting in a week, this one of Colombian national Johan Sebastián Durán Guerrero during an operation in Biddeford, Maine, sparking protests and vigils even as President Donald Trump publicly urges agents to restart aggressive tactics that have already produced at least nine deaths during his expanded immigration crackdown.",
+          "headline": "ICE traffic stops suspended after two deadly shootings but Trump pressures agents to resume",
           "sources": [
             {
               "name": "Associated Press",
@@ -77,32 +74,22 @@
           ]
         },
         {
-          "body": "A U.S. Hispanic Business Council survey of 1,012 Texas members found one in five lost workers to deportation in the past year and 70% oppose intensified immigration raids, with many former Trump or GOP supporters now backing Democrat James Talarico over Attorney General Ken Paxton as they cite labor shortages, tariffs, and high-profile detentions of community members, including a nun, as reasons for their political shift.",
-          "headline": "Texas Hispanic business owners turn sharply against Trump over deportation raids",
+          "body": "House Speaker Mike Johnson outlined a 47-page budget framework that would add $95 billion for Pentagon operations in the Iran war theater, bolster farm programs and tighten voter registration requirements without offsetting the new spending, reviving elements of last year’s Trump-backed tax-and-cut agenda while courting conservatives wary of the deficit impact.",
+          "headline": "House GOP unveils $95 billion plan tying Iran war funds to farm aid and election rules",
           "sources": [
             {
-              "name": "Politico",
-              "url": "https://www.politico.com/news/2026/07/12/trumps-deportation-drive-tests-gop-gains-in-texas-00993955"
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/house-republicans-budget-iran-war-farmers-elections-6cce8d8070151748b470a07c0e7d734d"
             }
           ]
         },
         {
-          "body": "Dallas’s bid to showcase itself during the World Cup is colliding with budget shortfalls, furloughed municipal workers, and fierce infighting over whether to raze I.M. Pei’s City Hall for a new arena after the Mavericks and Stars signaled plans to leave downtown, highlighting broader concerns about urban decline, suburban flight, and the leverage sports franchises wield over the city’s weak-mayor government system.",
-          "headline": "Trump border crackdown strains Dallas as sports politics collide with city finances",
+          "body": "Senators from both parties are expected to use Jay Clayton’s confirmation hearing for director of national intelligence to air proposals to curb or even dismantle the Office of the DNI after turbulent tenures by Tulsi Gabbard and interim chief Bill Pulte, with Democrats demanding assurances he will resist politicization and explain Justice Department subpoenas to reporters while Republicans debate whether trimming the spy bureaucracy would improve intelligence operations.",
+          "headline": "Jay Clayton heads into contentious DNI hearing amid calls to shrink the agency",
           "sources": [
             {
               "name": "Politico",
-              "url": "https://www.politico.com/live-updates/2026/07/14/world-cup-2026/dallas-world-cup-stadiums-00997105"
-            }
-          ]
-        },
-        {
-          "body": "Republicans in North Carolina are pressing national committees to spend earlier on former RNC chair Michael Whatley, who trails Democrat and ex-governor Roy Cooper in cash and polls, arguing that without major advertising to boost his name recognition the GOP risks losing a must-win Senate seat despite large reserved buys from the Senate Leadership Fund and expectations that new coordination rules will unlock more party money.",
-          "headline": "North Carolina’s marquee Senate race remains underfunded as GOP frets over Whatley",
-          "sources": [
-            {
-              "name": "Politico",
-              "url": "https://www.politico.com/news/2026/07/12/north-carolina-senate-cooper-whatley-00993535"
+              "url": "https://www.politico.com/news/2026/07/15/jay-clayton-hearing-odni-00998294"
             }
           ]
         }
@@ -112,18 +99,22 @@
     {
       "stories": [
         {
-          "body": "David Sánchez, brother of Prime Minister Pedro Sánchez, was sentenced to nine years’ disqualification from public office for administrative malfeasance tied to his 2017 hiring at the Badajoz provincial authority, while former provincial president Miguel Ángel Gallardo received 18 years, though judges dismissed influence-peddling accusations raised by the Manos Limpias union that triggered the 2024 probe.",
-          "headline": "Spanish court convicts Prime Minister Sánchez’s brother over tailored public job",
+          "body": "A provincial court in Badajoz sentenced Prime Minister Pedro Sánchez’s brother David to nine years of disqualification for administrative malfeasance tied to his 2017 hiring by the provincial council, sparking jubilation in the opposition Partido Popular, which frames the ruling as proof of systemic Socialist corruption even as judges dismissed the more serious influence-trafficking charges at the heart of the Manos Limpias complaint.",
+          "headline": "Court bans prime minister’s brother David Sánchez from office over patronage job",
           "sources": [
             {
               "name": "El País",
               "url": "https://elpais.com/espana/2026-07-14/condenado-david-sanchez-hermano-del-presidente-del-gobierno-a-9-anos-de-inhabilitacion-por-un-delito-de-prevaricacion.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/14/6a566e14e85ece461a8b4597.html"
             }
           ]
         },
         {
-          "body": "The EU, Spain, the UK, and Gibraltar signed a 336-article treaty that takes effect provisionally on July 15, demolishing the century-old Gibraltar fence, ending routine checks for 15,000 daily cross-border commuters, introducing dual controls at the airport and port, raising Gibraltar’s VAT-equivalent tax to at least 15%, and, according to Spanish officials, inaugurating a “new era” of shared prosperity without altering sovereignty claims.",
-          "headline": "EU–UK deal dismantles Gibraltar fence and creates joint border controls",
+          "body": "Brussels, London, Madrid and Gibraltar signed a 336-article post-Brexit treaty that removes the century-old border fence, installs dual controls at the airport and port, raises Gibraltar’s VAT-equivalent tax to at least 15% and launches shared customs management while preserving Spain’s sovereignty claims, prompting Prime Minister Pedro Sánchez to hail “the last wall in continental Europe” coming down even as PP and Vox denounce the pact as a concession to British military interests.",
+          "headline": "EU-UK deal dismantles Gibraltar fence and creates joint border controls",
           "sources": [
             {
               "name": "El País",
@@ -132,20 +123,46 @@
             {
               "name": "El Mundo",
               "url": "https://www.elmundo.es/espana/2026/07/14/6a56499dfdddffde4c8b45c5.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260715/sanchez-linea-concepcion-acto-oficial-demolicion-verja/17156885.shtml"
             }
           ]
         },
         {
-          "body": "With Junts siding with PP, Vox, and UPN and Podemos plus Compromís abstaining, Congress rejected the government’s proposed deficit path, forcing Prime Minister Pedro Sánchez to draft 2027 budgets under stricter existing limits and reviving talk that another defeat at the budget’s total vote could trigger early elections, as opposition parties framed the setback as evidence of a collapsing coalition.",
-          "headline": "Spanish government fails first deficit vote, complicating prospects for 2027 budget",
+          "body": "At the European People’s Party Libertas Forum in Madrid, PP leader Alberto Núñez Feijóo described Pedro Sánchez as a president who mistrusts judges, disregards parliamentary majorities and weakens institutions, warning delegates that Spain’s democracy is “debilitated” even as Vox amplified corruption accusations and the government countered with claims of opposition lawfare following the sentencing of the prime minister’s brother.",
+          "headline": "Feijóo brands Sánchez “authoritarian” before European conservatives",
           "sources": [
             {
               "name": "El País",
-              "url": "https://elpais.com/espana/2026-07-14/el-primer-paso-hacia-los-presupuestos-fracasa-en-el-congreso.html"
+              "url": "https://elpais.com/espana/2026-07-15/feijoo-acusa-a-sanchez-de-ser-un-presidente-autoritario-ante-los-lideres-del-pp-europeo.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260715/feijoo-insinua-sanchez-presidente-autoritario-recelar-jueces-despreciar-mayorias-parlamentarias/17157219.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260715/feijoo-autoritarismo-sanchez-democracia-debilitada-132473943"
+            }
+          ]
+        },
+        {
+          "body": "The July CIS barometer, based on 4,020 interviews conducted July 1–6, estimates the PSOE at 33% of the vote, up 1.7 points, while the PP falls to 25.1%, narrowing Vox to 15.3% and Sumar to 6.1%; ERC jumps to 2.7% and Junts slips to 0.7%, suggesting the Socialists have weathered the convictions of José Luis Ábalos and other corruption probes even as housing and immigration top public concerns.",
+          "headline": "CIS poll gives PSOE eight-point lead over PP despite scandals",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260715/11592878/cis-situa-psoe-nuevo-ocho-puntos-delante-pp-pese-condena-abalos.html"
             },
             {
               "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana/2026/07/14/6a562a72fdddff361b8b456e.html"
+              "url": "https://www.elmundo.es/espana/2026/07/15/6a574fee21efa0e10d8b4582.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-cis-apunta-una-recuperacio-del-psoe-ampliaria-lavantatge-amb-el-pp-tot-i-la-sentencia-dabalos/noticia/3420524/"
             }
           ]
         }
@@ -155,36 +172,58 @@
     {
       "stories": [
         {
-          "body": "A roughly eight-meter-wide sinkhole linked to Line 9 metro construction opened behind properties near FGC Putxet station, forcing the evacuation of residents from eight buildings—about 93 homes—with 67 people rehoused in nearby hotels while firefighters shore up the site, inspect structures, and investigate whether insufficient concrete injections during tunneling caused the collapse reminiscent of the 2005 Carmel cave-in.",
-          "headline": "Barcelona sinkhole tied to L9 metro works keeps eight buildings evacuated",
+          "body": "Territory Minister Sílvia Paneque said the Generalitat will keep funding temporary housing for families evacuated after a construction void on Barcelona’s L9 metro line caused a street-level collapse, is considering compensation for residents and shops, and is alternating tunneling work with daily inspections and soil injections while investigators probe whether insufficient concrete filled the cavity during earlier drilling.",
+          "headline": "Catalan government readies compensation options for residents displaced by L9 sinkhole",
           "sources": [
             {
-              "name": "El Periódico",
-              "url": "https://www.elperiodico.com/es/barcelona/20260714/socavon-obras-l9-el-putxet-barcelona-ultima-hora-directo-132218479"
+              "name": "Diari de Barcelona",
+              "url": "https://www.diaridebarcelona.cat/w/govern-obre-porta-indemnitzar-afectats-esvoranc-l9-farem-que-calgui?redirect=%2F"
             },
             {
-              "name": "Tot Barcelona",
-              "url": "https://www.totbarcelona.cat/societat/fantasma-carmel-sobrevola-sant-gervasi-amb-un-esvoranc-obres-de-l9-727849/"
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/aixi-treballa-territori-a-la-zona-esvoranc-l9/"
             }
           ]
         },
         {
-          "body": "After consecutive summers of record highs above 40°C, Barcelona’s climate office has begun coordinating hospitals, social services, and utilities on a 2027 simulation of 45–50°C heatwaves while expanding shade structures, cool refuges, and low-heat urban materials to strengthen resilience ahead of projections that such temperatures could arrive later this century.",
-          "headline": "City prepares worst-case heat drill as Barcelona braces for future 50ºC extremes",
+          "body": "Barcelona’s citywide neighborhood federation FAVB says the municipal plan to end holiday-rental licenses by 2028 contains loopholes that could let owners delay compliance by filing lawsuits, converting entire buildings to hotels or student residences, or requesting five-year extensions for units that received major investment, and is urging stepped-up inspections, sanctions, license withdrawals and anti-speculation measures to guarantee more than 10,000 tourist apartments return to residential use.",
+          "headline": "Activists warn loopholes could undermine 2028 phase-out of tourist flats",
           "sources": [
             {
               "name": "betevé",
-              "url": "https://beteve.cat/medi-ambient/barcelona-fara-simulacre-50-graus-temperatura-calor/"
+              "url": "https://beteve.cat/economia/pisos-turistics-passat-2028-favb-alerta-escletxes-juridiques/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260715/favb-alerta-grietas-regulacion-pisos-turisticos-podria-detener-erradicacion-barcelona-2028-132468612"
             }
           ]
         },
         {
-          "body": "Following an outcry over plans to remove the 1973 signage of Barceloneta’s Bodega Fermín, the city will issue interim guidance allowing a multidisciplinary commission to evaluate storefront graphics for cultural value, while all parties back ERC’s proposal to update the three-decade-old urban landscape ordinance and draft a special protection plan for historic signs, neons, mosaics, and glasswork that help preserve neighborhood identity.",
-          "headline": "Barcelona moves to protect historic shopfront signage amid tourist churn",
+          "body": "The city’s Presidency and Security Commission advanced a regulation authorizing Guardia Urbana officers to carry Tasers starting next summer, with PSC, Junts and the PP backing rules that require exhaustive training, limit use to life-threatening situations, ban deployment against minors under 14, pregnant women or detainees, and mandate clear warnings while BComú and ERC oppose the measure and Vox abstained.",
+          "headline": "Barcelona approves taser rollout for its municipal police",
           "sources": [
             {
-              "name": "Tot Barcelona",
-              "url": "https://www.totbarcelona.cat/societat/barcelona-retols-historics-bars-comercos-729260/"
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260715/barcelona-aprueba-regulacion-pistolas-taser-guardia-urbana-132469795"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/psc-junts-pp-vox-alineen-dotar-guardia-urbana-pistoles-taser/"
+            }
+          ]
+        },
+        {
+          "body": "Catalan civil protection has activated alerts through at least Wednesday as temperatures again top 40°C inland, Saharan dust blankets the region and Barcelona records highs above 35°C with nighttime lows potentially staying above 27°C, prompting authorities to open cooling centers, warn the elderly and outdoor workers, and restrict access to high-risk natural areas amid extreme wildfire danger in 72 municipalities.",
+          "headline": "Catalonia endures third heatwave as Barcelona faces stifling nights",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/pic-calor-superat-viure-nit-torrida-xafogosa/"
+            },
+            {
+              "name": "Diari de Barcelona",
+              "url": "https://www.diaridebarcelona.cat/w/comen%C3%A7a-tercera-onada-calor-estiu-proteccio-civil-alerta-allargara-almenys-fins-dimecres?redirect=%2F"
             }
           ]
         }
