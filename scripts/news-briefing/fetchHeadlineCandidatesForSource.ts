@@ -19,7 +19,9 @@ export async function fetchHeadlineCandidatesForSource(
       continue
     }
 
-    const headlineCandidates = extractHeadlineCandidates(listingPageUrl, listingPageHtml)
+    const headlineCandidates = extractHeadlineCandidates(listingPageUrl, listingPageHtml, {
+      briefingDate: args.briefingDate,
+    })
 
     if (
       shouldUseHeadlineCandidates({
@@ -37,6 +39,8 @@ export async function fetchHeadlineCandidatesForSource(
 }
 
 type FetchHeadlineCandidatesForSourceArgs = {
+  /** The briefing date used to drop stale RSS items. */
+  briefingDate: string
   /** Fetch one listing page as HTML. */
   fetchPageHtml: (url: string) => Promise<string>
   /** The maximum number of headlines to keep for this source. */

@@ -13,6 +13,7 @@ export function createHeadlineCandidate(
 
     return {
       ...(args.body ? { body: args.body } : {}),
+      ...(args.date ? { date: args.date } : {}),
       headline: args.headline,
       position: args.position,
       url: articleUrl.toString(),

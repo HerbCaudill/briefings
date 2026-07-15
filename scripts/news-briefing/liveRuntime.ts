@@ -43,6 +43,7 @@ export function makeNewsBriefingRuntime(
     options.listMissingBriefingDates ?? listMissingBriefingDatesDefault
 
   const createFetchArgs = (date: string): BuildRawBriefingArgs => ({
+    briefingDirectoryPath,
     date,
     fetchPageHtml,
     log,
