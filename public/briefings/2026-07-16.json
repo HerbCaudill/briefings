@@ -1,0 +1,240 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Iran said it had launched new attacks on U.S. bases and infrastructure in Jordan, Kuwait and Bahrain while Washington carried out a six-hour wave of strikes on Iranian command centers, air defenses and coastal sensors from Bandar Abbas to Greater Tunb Island to degrade threats to shipping in the Strait of Hormuz, including disabling an unladen Curacao-flagged tanker with Hellfire missiles; explosions were reported across Iran, allies intercepted drones, and both sides warned of further action as Iranian officials said dozens of civilians have been killed or injured during the renewed hostilities.",
+          "headline": "US-Iran confrontation escalates with strikes on Gulf targets",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c2lq1ed28jxo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/16/us-attacks-oil-tanker-strait-of-hormuz-iran-tehran-strikes"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-sirens-in-bahrain-kuwait-us-disables-iranian-oil-tanker"
+            }
+          ]
+        },
+        {
+          "body": "Prime Minister Keir Starmer said nationalizing British Steel secures 2,700 jobs in Scunthorpe and preserves the country’s ability to make virgin steel after the government, which already controlled on-site operations, invoked new legislation to take full ownership from China’s Jingye Group, a move Business Secretary Peter Kyle framed as essential for national infrastructure even as Jingye seeks compensation and the National Audit Office warns the site had been costing taxpayers £1.3 million per day.",
+          "headline": "UK brings British Steel under public ownership to stabilize industry",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c5y680w62wno"
+            }
+          ]
+        },
+        {
+          "body": "Smoke from more than 100 wildfires in northern Ontario turned Toronto’s sky yellow, pushed its IQAir ranking to worst among major cities, and forced Environment Canada to issue health warnings as a concurrent heatwave hit 37.3C downtown and 55C on airport runways, prompting evacuations in First Nations communities and spreading air quality alerts across Michigan, Minnesota, Wisconsin and forecasted East Coast cities.",
+          "headline": "Canadian wildfire smoke makes Toronto’s air worst worldwide and drifts into US",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/environment/20260716-canadian-wildfire-smoke-pushes-toronto-air-quality-to-world-s-worst-reaches-us"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world"
+            }
+          ]
+        },
+        {
+          "body": "Biosecurity Minister Andrew Hoggard confirmed that a brown skua found on Wellington’s Petone Beach tested positive for H5N1, the country’s first detection of the virus, prompting calls for the public to report clusters of sick birds as officials accelerate vaccination programs for endangered species such as the kākāpō and takahē amid warnings from conservation biologists that already endangered native bird populations could be devastated if the virus spreads.",
+          "headline": "New Zealand confirms first H5N1 bird flu case, threatening native species",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/16/new-zealand-first-h5n1-bird-flu-case"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Second-quarter filings show Democrats amassing large war chests in key Senate contests—Jon Ossoff has 20 times the cash of Georgia challenger Mike Collins, North Carolina’s Roy Cooper outraised Michael Whatley nearly three-to-one, and Texas hopeful James Talarico holds $21.5 million versus Ken Paxton’s $1.8 million—while Republicans tout a $10 million National Republican Senatorial Committee advantage, new Supreme Court rules easing coordination, and better positioning in states like Maine and Michigan where Democratic primaries or candidate turmoil have slowed general-election fundraising.",
+          "headline": "Democrats build cash edge in pivotal Senate races as GOP leans on committees",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/16/democrats-senate-map-cash-advantage-elections-01000497"
+            }
+          ]
+        },
+        {
+          "body": "With 600 delegates set to pick a new nominee by late July to face Sen. Susan Collins, Maine Democrats are splintered among former state Senate President Troy Jackson, Secretary of State Shenna Bellows and ex-public health chief Nirav Shah, each courting Graham Platner’s progressive base with endorsements from unions, Our Revolution, Rep. Ro Khanna and state lawmakers while trying to channel supporters’ anger over Platner’s exit following sexual assault allegations he denies.",
+          "headline": "Maine Democrats remain divided over replacing Graham Platner after scandal",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/15/maine-democrats-fractures-platner-replacement-00997729"
+            }
+          ]
+        },
+        {
+          "body": "U.S. District Judge John McConnell questioned the Trump administration’s national-security rationale for freezing immigration benefits to citizens of 39 countries after noting that World Cup players, coaches, family members and doctors from those nations received expedited visas, signaling during a hearing on the government’s stay request that such exemptions undercut claims that vetting failings justified the sweeping moratorium imposed following an Afghan immigrant’s alleged shooting of two National Guard members.",
+          "headline": "Judge cites World Cup visa exceptions while challenging Trump immigration halt",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/07/15/world-cup-2026/judge-challenge-trump-immigration-exception-world-cup-visas-00999789"
+            }
+          ]
+        },
+        {
+          "body": "Relentless thunderstorms inundated South Texas, leaving six million people across 57 counties under flood watches as Boerne streets turned into rivers, firefighters rescued motorists and residents were urged to seek higher ground, while high-water rescues and a tornado along a San Antonio interstate underscored the hazards of the slow-moving system.",
+          "headline": "Flooding forces evacuations across South Texas as slow storms pound region",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/texas-weather-rain-flooding-summer-camps-1e9b9ddbdd2a8963cccc707aee0d362e"
+            }
+          ]
+        },
+        {
+          "body": "Idaho officials certified a citizen-led initiative to allow abortion until fetal viability, joining Virginia and Nevada constitutional amendment campaigns to enshrine abortion rights and a Missouri measure that would reinstate an abortion ban with limited exceptions while also restricting some gender-affirming care, setting up November referendums after the state’s near-total ban was previously undone via amendment in 2024.",
+          "headline": "Abortion rights measures head to ballots in four states this year",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/abortion-ballot-idaho-nevada-virginia-missouri-bf4c732f1478debc10dca1a5146740aa"
+            }
+          ]
+        },
+        {
+          "body": "President Donald Trump said Immigration and Customs Enforcement should keep conducting vehicle stops despite recent fatal shootings, even as Homeland Security Secretary Markwayne Mullin—brought in after Kristi Noem’s ouster—faces his first major test managing public outrage, congressional inquiries and White House demands for mass deportations following three deadly encounters in a week and wider criticism of the department’s aggressive enforcement tactics.",
+          "headline": "ICE tactics face scrutiny after deadly stops, but Trump urges continued traffic enforcement",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/ice-immigration-enforcement-deaths-traffic-stops-3d614361d8354474bc4eb8e37ec26b28"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/border-security-ice-immigration-markwayne-mullin-trump-1c5010c3a2cf043aa9824937ef44cff2"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "The European Court of Justice will issue two binding rulings on questions from Spain’s Tribunal de Cuentas and National Court about whether the Catalan amnesty law violates EU rules on protecting financial interests or combating terrorism, decisions that could shape proceedings against Carles Puigdemont, other officials accused of malversation tied to the 2017 referendum, and members of the Committees for the Defense of the Republic while guiding Spain’s Constitutional Court on pending appeals.",
+          "headline": "EU top court to rule on Spain’s Catalan amnesty law after two years of deadlock",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-16/el-tjue-marca-este-jueves-el-camino-de-la-amnistia-claves-de-una-sentencia-determinante.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260716/tjue-pronuncia-ley-amnistia-posible-retorno-puigdemont/17157969.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Senior Socialists argue that the nine-year disqualification of David Sánchez for administrative prevarication has energized rather than damaged the party, framing right-wing attacks on the prime minister’s family as backfiring even as the Badajoz court’s opinion spells out ethically censurable nepotism and absenteeism that do not always meet the threshold for criminal punishment.",
+          "headline": "PSOE rallies despite David Sánchez conviction as judges detail nepotism findings",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-16/la-condena-de-david-sanchez-espolea-al-psoe-la-derecha-politica-y-judicial-esta-logrando-el-efecto-contrario.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-16/nepotismo-y-absentismo-el-tribunal-del-caso-david-sanchez-traza-la-linea-entre-lo-eticamente-censurable-y-el-delito.html"
+            }
+          ]
+        },
+        {
+          "body": "An uncontrolled fire that started near Orés in Zaragoza’s Cinco Villas region has triggered the evacuation of Orés, Asín, Luesia and Malpica de Arba—about 500 people—as shifting winds push flames beyond the A-1204 road, prompting activation of Spain’s Level 2 emergency plan, deployment of 170 firefighting personnel including the Military Emergencies Unit, and warnings that more than 1,000 hectares could burn under high-temperature, low-humidity conditions.",
+          "headline": "Major wildfire in Aragón forces evacuations as authorities warn of ‘great destructive potential’",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-15/un-incendio-sin-control-obliga-a-desalojar-tres-pueblos-de-la-provincia-de-zaragoza.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260716/incendio-forestal-ores-zaragoza/17158170.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Following a midnight ceremony that drew crowds celebrating Spain’s World Cup win, the historic Gibraltar fence—known locally as the focona—was symbolically dismantled as part of a UK-Spain agreement to keep the post-Brexit border open, with Prime Minister Pedro Sánchez declaring the fall of the “last wall of continental Europe” while commuters became the first to cross the former checkpoint without barriers.",
+          "headline": "Spain and UK dismantle Gibraltar fence, opening seamless cross-border travel",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-15/sanchez-tras-la-desaparicion-de-la-verja-de-gibraltar-las-columnas-de-hercules-son-una-puerta-al-futuro-compartido.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-14/la-frontera-de-gibraltar-hace-historia-a-medianoche-hemos-esquivado-el-brexit.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "During a municipal finance committee meeting, Deputy Mayor Jordi Valls accepted a request from BComú to revise tax ordinances so the city can hike its surcharge on cruise passengers staying less than 12 hours from €5 to the €24 maximum allowed—combined with the Generalitat’s €6 levy, excursionists could pay €30 per visit—pending negotiations with ERC to secure approval later this year as part of efforts to curb mass cruise tourism.",
+          "headline": "Barcelona plans to raise cruise passenger tax to €24 for short-stop vessels",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/collboni-obre-porta-encarir-maxim-de-cop-taxa-turistica-creueristes-escala/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260715/barcelona-compromete-subir-maximo-24-euros-tasa-turistica-cruceros-132491509"
+            }
+          ]
+        },
+        {
+          "body": "After the city’s Presidency, Security and Internal Regime Commission granted initial approval to equip the Guàrdia Urbana with Tasers, Amnesty International warned that the draft regulations fail to limit their use to last-resort threats to life, would permit firing on youths as young as 14 or people in mental-health crises or under the influence, and lack prior operational-need assessments despite the risk of serious injury or death.",
+          "headline": "Amnesty International flags human-rights risks in Barcelona police Taser rollout",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/amnistia-internacional-diu-que-reglament-taser-afecta-drets-humans/"
+            }
+          ]
+        },
+        {
+          "body": "Mayor Jaume Collboni launched the “Barcelona at 50°C” initiative, outlining workshops beginning in October 2026, a tabletop exercise in February 2027 and a full-scale simulation that September to stress-test transport, power, health and social services under an extreme heat scenario, with city agencies, utilities and private partners tasked with redesigning protocols, infrastructure and even street materials to cope with future climate shocks.",
+          "headline": "Barcelona will stage a 50°C heatwave drill in 2027 to test climate response",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260715/barcelona-ensayara-responder-ola-calor-simulacro-septiembre-2027-132475587"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona launched a public tender to cede ten municipally owned rooftops—one in each district, including the Barceloneta Civic Center, Montserrat Abelló Library and Ateneu Popular Nou Barris—for shared self-consumption photovoltaic systems totaling an estimated 415 kWp, after the city’s Energy Agency vetted structural capacity as part of broader efforts to accelerate the local energy transition.",
+          "headline": "City opens 10 municipal rooftops for shared solar generation projects",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/barcelona-cedira-10-cobertes-municipals-plaques-fotovoltaiques/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
