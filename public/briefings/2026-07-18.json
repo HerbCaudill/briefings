@@ -1,0 +1,230 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "The United States carried out a seventh consecutive night of strikes on Iran, with US Central Command saying the operation, involving fighter aircraft, drones and warships, aimed to keep degrading Iranian military capabilities across sites such as Sirik, Ahvaz, Yazd, Bandar Abbas and Qeshm Island, while Iranian state media reported blasts in multiple provinces, casualties in Hormozgan, and alleged retaliatory IRGC attacks on US-linked facilities in Bahrain, Kuwait and Sheikh Isa air base; Tehran accused Washington of hitting civilian infrastructure, warned of reprisals on Gulf civilian sites, and said renewed US strikes have killed at least 38 people and wounded more than 400, further straining a tenuous deal meant to keep the Strait of Hormuz open as Iran closes the waterway and the US reinstates a blockade on Iranian ports.",
+          "headline": "US-Iran strikes escalate around Strait of Hormuz",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/17/us-launches-seventh-night-of-iran-strikes-as-hormuz-conflict-escalates"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/17/us-launches-seventh-straight-night-of-strikes-on-iran"
+            }
+          ]
+        },
+        {
+          "body": "Hospitals in the Gaza Strip reported at least seven to eight people killed and more than 20 injured after an Israeli drone strike hit mourners outside Ahmad Yassin Mosque in Nuseirat during a funeral for a Palestinian killed earlier in the day, part of a series of attacks that left at least 14 civilians dead across Gaza despite a nominal ceasefire between Israel and Hamas, with witnesses describing buses of mourners targeted, Israel claiming it struck a terrorist cell while acknowledging civilian harm, and Hamas condemning the raid amid ongoing reports of drone and artillery strikes from Beit Lahia to Khan Younis and rising Palestinian casualties since the ceasefire began.",
+          "headline": "Israeli strike on Gaza funeral deepens civilian toll despite ceasefire",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/17/israeli-strike-gaza-funeral-multiple-deaths"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/17/israeli-attacks-on-gaza-kill-14-including-mourners-attending-funeral"
+            }
+          ]
+        },
+        {
+          "body": "Thousands of Ukrainians rallied in Kyiv for a second straight day to protest President Volodymyr Zelensky’s decision to remove Defence Minister Mykhailo Fedorov, a youthful technocrat credited with modernizing Ukraine’s drone warfare program but reportedly at odds with the traditional military hierarchy, reflecting mounting unease over wartime leadership amid ongoing Russian aggression.",
+          "headline": "Zelensky’s firing of defence minister sparks Kyiv protests",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260717-thousands-protest-for-second-day-in-kyiv-over-ouster-of-popular-defence-minister"
+            }
+          ]
+        },
+        {
+          "body": "US President Donald Trump threatened to impose additional tariffs on Canada, accusing Prime Minister Mark Carney’s government of “willful negligence” in managing forests as smoke from more than 880 Canadian wildfires blanketed US cities and prompted hazardous air quality alerts from Detroit to New York, even as Canadian officials cited longstanding bilateral firefighting agreements, billions invested in forest management and climate change as drivers of the blazes, while some US lawmakers demanded action and online commentators floated delaying the Gordie Howe International Bridge opening.",
+          "headline": "Trump threatens tariffs on Canada over wildfire smoke",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwyq93j34lgo"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/17/trump-threatens-canada-with-steeper-tariff-costs-over-wildfire-smoke"
+            }
+          ]
+        },
+        {
+          "body": "A magnitude 7.3 earthquake struck off Puerto Madero on Mexico’s southern Pacific coast at a depth of about 15 km, prompting evacuations in Mexico, Guatemala and El Salvador and a US tsunami warning that forecast hazardous waves up to 0.3 metres before the alert was lifted; Mexican federal and state officials reported no fatalities or serious damage but urged residents to avoid beaches while aftershocks up to magnitude 6 continued and regional authorities monitored minor tsunamis lasting up to 28 minutes in Chiapas.",
+          "headline": "Powerful quake off southern Mexico triggers tsunami alert but limited damage",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwyjv3815yxo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260717-magnitude-7-3-quake-hits-mexican-coast-near-guatemala-triggering-tsunami-alert"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Days of torrential rain sent rivers like the Guadalupe surging above two-story heights within hours, forcing hundreds of high-water rescues, killing at least two people and cutting off communities such as Uvalde, Kerrville and Ozona, where residents described washed-out roads, impassable neighborhoods and desperate searches for medicine amid statewide disaster declarations by Governor Greg Abbott, who has requested federal assistance as meteorologists warn that slow-moving storms fueled by heat and deep moisture could prolong the flooding emergency.",
+          "headline": "Texas begins long cleanup after catastrophic Hill Country floods",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/texas-floods-warning-cleanup-hard-hit-2f17c4d45a7189d7a7c404fdadac545a"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/texas-floods-climate-e3e46b001ea1bf687d909134e80ed7e3"
+            }
+          ]
+        },
+        {
+          "body": "Federal prosecutor Aaron Reitz said ICE officers were pursuing two Guatemalan men when they twice tried to stop a van driven by Lorenzo Salgado Araujo, a 52-year-old Mexican national who had lived in the US for 35 years, before shooting him on July 7 after he allegedly reversed and surged forward as an agent stood partly inside the vehicle; the revised account omits earlier government claims that he rammed an ICE vehicle, fueling protests, vigils and calls for transparency from Salgado’s family as the case intensifies scrutiny of President Donald Trump’s immigration crackdown.",
+          "headline": "New details emerge in ICE killing of Houston father Lorenzo Salgado Araujo",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/immigration-enforcement-houston-trump-lorenzo-salgado-araujo-fab45a4f012ff844c3e93749245eb454"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/houston-vigil-man-ice-shot-family-a8a316bd2f8f9faa08cc7fcc0a7b6e11"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "The European Commission’s 2025 Rule of Law report said Spain has achieved only limited advances in strengthening conflict-of-interest rules, asset disclosures and broader anti-corruption safeguards despite approving a State Anti-Corruption Plan and drafting a Public Integrity Law, noting that perceptions of corruption have risen sharply in recent years, with Transparency International ranking Spain 17th in the EU and a Eurobarometer showing 92% of citizens view corruption as widespread, while Brussels warned politicians to avoid statements undermining judicial independence amid government attacks on judges handling cases involving Prime Minister Pedro Sánchez’s family.",
+          "headline": "EU chastises Spain for limited progress on anti-corruption reforms",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-17/la-comision-europea-ve-avances-limitados-en-el-plan-anticorrupcion-de-sanchez-y-reclama-mas-reformas.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/17/6a5a162a21efa02e118b45bf.html"
+            }
+          ]
+        },
+        {
+          "body": "A Guardia Civil UCO report on the finances of former PSOE organization secretary Santos Cerdán alleges that Servinabar, a key company in the Koldo corruption network, negotiated between September and October 2021 to buy a €985,000 luxury apartment near Gran Vía for Cerdán and his wife, paying €9,000 in earnest money and planning €180,000 at signing, with internal messages showing co-owner Antxon Alonso complaining about the expense and investigators arguing the attempt demonstrates Cerdán’s effective control of Servinabar funds despite his claims that a deal granting him 45% of the firm never took effect.",
+          "headline": "Probe says Servinabar tried to buy €1 million Madrid flat for Santos Cerdán",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-17/servinabar-intento-comprar-para-cerdan-un-piso-en-madrid-valorado-en-cerca-de-un-millon-de-euros-segun-la-uco.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/17/6a5a268be4d4d822248b457c.html"
+            }
+          ]
+        },
+        {
+          "body": "Lieutenant General Manuel Llamas, the Guardia Civil’s operations chief and now an indicted suspect for alleged obstruction in the Leire Díez investigation, told the Senate’s Koldo inquiry that he never ordered the UCO to “stand aside” from probes touching the Sánchez government, dismissing accusations by former UCO commanders Rafael Yuste and Alfonso López Malo as vanity-driven and insisting judges hold investigative authority, even as he refused to resign, acknowledged tension with proactive units, and the Generalitat signaled ongoing judicial scrutiny of claims he pressured agents to go easy on politically sensitive cases.",
+          "headline": "Guardia Civil leadership denies meddling in Leire Díez case amid internal feud",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-17/el-jefe-operativo-de-la-guardia-civil-acusa-a-algunos-mandos-de-la-uco-de-vanidad.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/17/6a59fcaae9cf4a27698b457f.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "The partial shutdown of Metro Line L1 between Florida and Plaça de Sants, set to last until 28 August for €11.5 million in track upgrades, immediately triggered overcrowded, overheated replacement buses with hour-long trips, long queues and some riders turned away, prompting TMB to urge passengers to connect via other metro lines while it monitors whether the road fleet can handle the estimated 30,000–40,000 daily affected users.",
+          "headline": "Barcelona’s L1 metro closure overwhelms replacement buses",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/comenca-tall-parcial-l1-metro-florida-placa-sants/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260717/faltan-buses-aglomeraciones-calor-marcan-inicio-corte-l1-metro-barcelona-132540759"
+            }
+          ]
+        },
+        {
+          "body": "Ten days after a construction-related sinkhole swallowed part of a pizzeria on Teodora Lamadrid Street, only residents of 11 homes and four shops at Sant Gervasi de Cassoles 56 and 58 will be allowed back Monday while six other evacuated buildings remain off-limits pending additional monitoring and cement injections expected to last weeks, with the Generalitat inspecting 88 of 93 units, offering aid via the Catalan Finance Institute, and facing opposition calls for accountability over the halted L9 tunneling works.",
+          "headline": "Putxet sinkhole keeps most buildings evacuated as L9 works continue",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/crisi-esvoranc-l9-sis-finques-continuaran-desallotjades-729916/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260717/vecinos-dos-fincas-desalojadas-socavon-putxet-regresar-a-casa-lunes-132559790"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s 2025 execution data show Catalonia received €1.321 billion in regionalizable state investment—only 8.6% of the total and down 6% from 2024—far below its roughly 20% share of national GDP, with most funds coming from public companies such as Adif, Renfe and Ports del Estado while direct ministerial spending barely topped €200 million, underscoring the region’s reliance on volatile rail projects and rekindling criticism that Madrid consistently undershoots its own Catalan budget commitments.",
+          "headline": "Catalonia receives just 8.6% of Spain’s executed public investment",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/estat-executa-1321-milions-inversio-2025-catalunya/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20260717/catalunya-vuelve-quedar-debajo-peso-132566617"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s government declared the National Police headquarters at Via Laietana 43 a Democratic Memory Site, acknowledging it as a Francoist torture hub and promising interpretive materials, yet the resolution keeps the building’s current policing function unchanged, prompting the Via Laietana 43 platform and other memorial groups to denounce the move as intolerable and demand the site be fully converted into a museum and archives center dedicated to victims’ testimony and education.",
+          "headline": "Franco-era police HQ on Via Laietana named memorial site but remains active station",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/comissaria-via-laietana-declarada-lloc-memoria-democratica/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/comissaria-via-laietana-lloc-memoria-democratica-policia-espanyola-729873/"
+            }
+          ]
+        },
+        {
+          "body": "Citing surging demand to watch Sunday’s Spain-Argentina World Cup final, Barcelona’s city council shifted its giant screen from Les Corts to the Platforma Marina del Fòrum, where access via Josep Pla Street will include security checkpoints prohibiting alcohol, cans and glass, with pre-match games and music starting at 19:00, a live TV feed at 20:30, and Metro Line 4 service extended until 01:00 to accommodate fans.",
+          "headline": "Barcelona moves World Cup fan zone to Fòrum to handle crowds",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/pantalla-gegant-final-mundial-espanya-argentina-sera-forum-finalment-no-les-corts/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260717/pantalla-gigante-barcelona-final-mundial-plataforma-marina-forum-132557826"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
