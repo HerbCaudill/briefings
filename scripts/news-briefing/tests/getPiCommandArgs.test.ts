@@ -10,7 +10,7 @@ describe("getPiCommandArgs", () => {
       "--provider",
       "openai",
       "--model",
-      "gpt-5.1-codex",
+      "gpt-5.6-terra",
       "-p",
       "@raw/news.json",
       "Select stories",
