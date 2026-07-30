@@ -1,0 +1,246 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "The United States carried out another round of strikes on Iranian military and maritime targets, while Iran said it responded with drone and missile attacks on US-linked facilities in Bahrain, Kuwait and Jordan. Iran-aligned Houthi forces said they had struck two Saudi oil tankers in the Red Sea, with one vessel reported damaged and on fire, raising fears of a second disruption point for global oil supplies alongside the Strait of Hormuz. Tankers have rerouted to avoid the Bab el-Mandeb Strait, and the escalation has pushed oil prices higher as the conflict threatens regional infrastructure and shipping.",
+          "headline": "US strikes Iran again as Houthi attacks on Saudi tankers push oil prices higher",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260724-middle-east-live-us-launches-new-strikes-on-iran-as-oil-prices-skyrocket"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/houthis-say-they-attacked-saudi-tankers-red-sea-threatening-new-chokepoint-iran-2026-07-23/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/23/trump-warns-of-biggest-strikes-yet-on-iran-as-tehran-lashes-out-across-gulf"
+            }
+          ]
+        },
+        {
+          "body": "Extreme heat, drought and strong winds have driven major wildfires across France and Spain, forcing mass evacuations and prompting both countries to seek European assistance. In southwestern France, fires near Bordeaux and the Cap-Ferret peninsula have burned thousands of hectares and displaced tens of thousands of residents and tourists. Spain declared an emergency as fires near Madrid forced about 20,000 people to evacuate or shelter in place. Authorities across Europe warn that successive heatwaves have left vegetation exceptionally dry and intensified an already severe wildfire season.",
+          "headline": "Wildfires force evacuations across France and Spain amid extreme heat",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260724-spain-declares-state-of-emergency-and-france-seeks-eu-help-as-wildfires-rage"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/environment/france-wildfire-forces-thousands-flee-tinder-box-conditions-persist-warming-2026-07-23/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/23/france-wildfires-force-evacuation-of-over-20000-people-from-tourist-town"
+            }
+          ]
+        },
+        {
+          "body": "President Donald Trump has imposed tariffs of 10% to 12.5% on imports from 60 major trading partners, including China, the European Union, the United Kingdom and Australia. The White House says the measures target countries it considers insufficiently active in preventing imports made with forced labour, replacing temporary duties due to expire after the Supreme Court struck down earlier tariffs imposed under emergency powers. Critics argue the forced-labour rationale is a legal pretext for restoring broad trade levies, while affected governments say the tariffs are unjustified and could increase costs for businesses and consumers.",
+          "headline": "Trump imposes new tariffs on 60 countries over forced-labour concerns",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260723-trump-announces-double-digit-tariffs-on-60-countries-over-forced-labour-concerns"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cvgj61j6l08o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour"
+            }
+          ]
+        },
+        {
+          "body": "Donald Trump said a newly announced US-Saudi civilian nuclear cooperation agreement will only proceed if Saudi Arabia joins the Abraham Accords and normalizes relations with Israel. The condition, announced a day after the deal was unveiled, has created uncertainty because Riyadh has long resisted normalization, particularly since the Gaza war. The agreement still requires congressional approval and has drawn criticism from Israeli politicians and non-proliferation advocates concerned that any Saudi ability to enrich uranium could contribute to a regional arms race.",
+          "headline": "US-Saudi nuclear deal is thrown into doubt over Israeli normalization condition",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260723-trump-stuns-saudis-by-pinning-nuclear-deal-to-israel-ties"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/23/trump-says-saudi-nuclear-pact-hinges-on-kingdom-joining-abraham-accords"
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/israelis-fear-saudi-nuclear-deal-could-ignite-mideast-arms-race-2026-07-23/"
+            }
+          ]
+        },
+        {
+          "body": "Shipowners have temporarily stopped sending vessels to Ukraine's Black Sea ports as Russian missile and drone strikes intensify against port infrastructure and civilian shipping in the Odesa region. Ukrainian officials say dozens of vessels have been hit since late June and that a recent strike on a corn ship killed 10 people. The disruption threatens a major route for Ukraine's agricultural exports, with traders estimating the country has already lost around a third of its Black Sea grain-export capacity. Kyiv says it can use Danube and rail routes, but President Volodymyr Zelenskyy warned Russia could escalate its campaign to block the maritime corridor.",
+          "headline": "Shipowners halt calls at Ukraine's Black Sea ports after intensified Russian strikes",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/shipowners-halt-vessel-calls-farm-exports-ukraines-black-sea-ports-minister-says-2026-07-23/"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/after-meeting-with-moscow-washington-reiterates-wish-to-mediate-ukraine-war"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "The fatal police shooting of Corey Durell Ruiz in Madison, Wisconsin, is being investigated as a homicide, according to the city's police chief. Ruiz, described as homeless, was shot after he allegedly wounded an officer with a knife while resisting arrest. The killing has prompted protests, a candlelight vigil and calls from community groups for accountability and action against racial injustice. Madison's independent police monitor has accused the department of obstructing her inquiry, while the chief said he was committed to working with the monitor.",
+          "headline": "Madison police shooting is being investigated as a homicide",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/07/23/police-monitor-madison-subpoena-department-evidence-shooting/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/police-shooting-madison-knife-protests-listening-session-f4efad72ed0dc5cad6005bb6e4a326dd"
+            }
+          ]
+        },
+        {
+          "body": "Arizona Republicans selected prominent election deniers in statewide primaries, including Representative Andy Biggs for governor, state Representative Alexander Kolodin for secretary of state and state Senate President Warren Petersen for attorney general. Biggs will face Democratic Governor Katie Hobbs in a closely watched November race. The nominees have supported efforts to overturn or challenge the 2020 election, a position that remains powerful in Republican primaries but has previously hurt Arizona GOP candidates in statewide general elections. Democrats plan to frame the contests around confidence in the state's election system and the candidates' records.",
+          "headline": "Arizona Republicans nominate election deniers in key statewide primaries",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/22/arizona-republicans-elect-2020-deniers-trump-01007511"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/21/biggs-wins-arizona-governor-primary-01007354"
+            }
+          ]
+        },
+        {
+          "body": "More than two dozen states have sued the Trump administration over new conditions attached to billions of dollars in federal disaster funding. The states argue that FEMA and the Department of Homeland Security are unlawfully requiring them to alter election systems and assist immigration enforcement in order to receive aid, while also reserving the right to terminate grants. The lawsuit, filed in Rhode Island, says the policy violates the Constitution and administrative law. FEMA called the case partisan opposition to measures it says are intended to strengthen election security.",
+          "headline": "More than 24 states sue Trump administration over conditions on disaster funding",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/fema-dhs-trump-administration-lawsuit-a1745a6aea30b6a7118e5a900b8c2756"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain has declared a national emergency in the Madrid region and the province of Ávila as severe wildfires, adverse weather and large-scale evacuations overwhelm local emergency capacity. The measure places the Interior Ministry in charge of coordinating state, regional and local resources, with the Military Emergency Unit leading operations. More than 10,000 people have been evacuated from communities including Villa del Prado, San Martín de Valdeiglesias, Pelayos de la Presa and Aldea del Fresno, as several major fires remain active across Madrid, Ávila and nearby Toledo.",
+          "headline": "Spain declares a national emergency as wildfires hit Madrid and Ávila",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260724/gobierno-declara-emergencia-nacional-incendios-comunidad-madrid-avila/17167456.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/24/6a629431e9cf4ae3108b45a3.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260724/11599753/simultaneidad-incendios-forestales-madrid-toledo-avila-dificulta-trabajos-extincion.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's Congress has again rejected the government's proposed fiscal path, with 176 votes against, 166 in favour and five abstentions, complicating efforts to prepare a new national budget. Junts joined the Popular Party and Vox in opposing the targets, which would have allowed regional governments a 0.1% deficit margin and provided what the government says would be €5.8 billion in additional fiscal room. The government says it will continue the budget process by relying on fiscal objectives agreed with the European Union, despite losing the congressional vote for a second time in two weeks.",
+          "headline": "Congress rejects Spain's fiscal targets again, complicating the government's budget plans",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260723/ultimo-pleno-extraordinario-congreso-diputados-hoy-directo-cronica/17166418.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260723/congreso-rechaza-senda-estabilidad-aire-gobierno-132724664"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260723/11599704/gobierno-salva-tres-leyes-vuelve-perder-senda-deficit.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's Congress has approved a reform easing the requirements for minority parties to form their own parliamentary groups, giving them greater speaking time, funding and institutional resources. Parties with at least five seats will now need 10% of votes across constituencies where they won representation, down from 15%, or 3% nationwide instead of 5%. The measure passed with 178 votes in favour, 169 against and one abstention, backed by the governing coalition and several regional and nationalist parties. The reform still must pass through the Senate before final approval.",
+          "headline": "Congress eases rules for minority parties to form their own parliamentary groups",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-23/el-congreso-reforma-su-reglamento-para-dar-mas-voz-a-los-grupos-minoritarios.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/23/6a61fb3921efa0c22d8b457c.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's governing PSOE-Sumar coalition has agreed on a proposed housing decree that would allow tenants to seek a two-year rent freeze through June 30, 2028. The measure is part of a broader package intended to address the country's housing crisis, but it does not yet have assured support in Congress. The government has sent the text to parliamentary groups after weeks of negotiations, and securing backing from parties with differing priorities, including Junts, the PNV and Podemos, is expected to be difficult.",
+          "headline": "Government coalition agrees on a proposed rent freeze through mid-2028",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-22/sumar-anuncia-un-acuerdo-con-el-psoe-para-prorrogar-los-alquileres-hasta-junio-de-2028.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Rail disruption on the R2, R2 Nord and R11 lines is expected to continue until at least next week after a sinkhole collapsed into an access shaft at works to bury the rail line in Montcada i Reixac. The site lies near the Besòs River, the Rec Comtal canal and a groundwater aquifer, and investigators are examining why retaining concrete piles failed after a landslide of fractured slate and rock. Workers left the shaft only minutes before the collapse, which swallowed a crane and other equipment. Adif is injecting concrete and reducing nearby water flow to stabilize the site.",
+          "headline": "Rodalies disruption continues after sinkhole at Montcada rail works",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/a-10-minuts-de-la-tragedia-lesvoranc-de-lr2-va-sepultar-un-pou-don-acabaven-de-sortir-treballadors/noticia/3421944/"
+            },
+            {
+              "name": "Empordà",
+              "url": "https://www.emporda.info/societat/2026/07/23/adif-senala-aigues-freatiques-zona-possible-origen-esvoranc-soterrament-montcada-132725545.html"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona authorities are examining a series of major public-works incidents this month after a gas leak and subsequent explosion at metro accessibility works near Plaça de Sants injured eight people, two seriously. Firefighters say the leak has been neutralized after nearly 13 hours, while investigators are treating the pipe damage during metro construction and the later explosion during repair work as separate possible causes. The incident follows a sinkhole at L9 tunnel works in Sant Gervasi and the collapse at Montcada rail works, prompting renewed public concern about the safety and oversight of large infrastructure projects.",
+          "headline": "Barcelona examines a string of public-works incidents, including the Sants gas explosion",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260723/causas-escape-gas-explosion-plaza-de-sants-132729755"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/tres-accidents-juliol-negre-questionen-seguretat-obra-publica-731337/"
+            }
+          ]
+        },
+        {
+          "body": "The Barcelona Chamber of Commerce has raised its forecast for Catalunya's economic growth in 2026 by three-tenths of a percentage point to 2.5%, citing strong first-quarter activity, resilient employment, tourism prospects and domestic demand. It also raised its inflation forecast to 3.3%, pointing to renewed tensions in the Middle East. The chamber expects growth to slow to 1.8% in 2027 as domestic demand weakens and the impact of Next Generation EU investment fades, although investment and non-tourism services exports are expected to remain supportive.",
+          "headline": "Barcelona Chamber raises Catalunya's 2026 growth forecast to 2.5%",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/cambra-comerc-previsio-economia-2026/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}

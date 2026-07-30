@@ -1,0 +1,250 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "The United States and Iran halted direct strikes for a second day after two weeks of escalating attacks, amid reports that mediators were trying to revive diplomacy. The US military said its naval blockade of Iran remained in force, while officials cited concerns over widening the conflict, dwindling munitions and disruption to energy supplies. Fighting nevertheless spread: Yemen's Iran-aligned Houthis said they struck Saudi Aramco sites at Jizan and Yanbu, while Iran accused Ukraine of attacking an Iranian commercial vessel in the Caspian Sea. The pause helped push oil prices lower, though shipping through the Strait of Hormuz remains heavily disrupted and Red Sea routes are also under pressure.",
+          "headline": "US and Iran pause strikes as conflict spreads to the Red Sea and Caspian Sea",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/iran-war-spreads-red-sea-caspian-gulf-quiet-us-forgoes-strikes-2026-07-25/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/26/us-and-iran-hit-pause-on-strikes-for-second-day"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/oil-prices-crude-iran-shipping-2fdef9c0b59d90367206d103f0939d30"
+            }
+          ]
+        },
+        {
+          "body": "Wildfires driven by heat, drought and strong winds continued to threaten Bordeaux and other parts of southwestern France, while Spain fought major blazes of its own. French authorities said roughly 250,000 people had been evacuated, with more than 75,000 evacuated in Spain and tens of thousands more ordered to shelter in place. The Gironde fire has burned about 42,000 hectares and advanced toward Bordeaux, though the city itself was not under evacuation orders. Spain declared a national emergency, and its fires have included a deadly blaze near Valencia. Officials warned that parched woodland and successive heatwaves could prolong the crisis.",
+          "headline": "Wildfires threaten Bordeaux as France and Spain battle mass evacuations",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/business/environment/french-firefighters-battle-keep-blazes-bordeaux-2026-07-26/"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/environment/20260726-bordeaux-under-threat-as-france-spain-battle-unprecedented-wildfires"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/26/more-than-360000-evacuated-as-wildfires-rage-in-france-and-spain"
+            }
+          ]
+        },
+        {
+          "body": "Police shot dead a 21-year-old German man of Lebanese heritage suspected of driving a van into people near Berlin's Pride celebrations and then attacking others with a knife or machete. One woman was killed and at least 29 people were injured in the Saturday-night attack near Tiergarten park. German Interior Minister Alexander Dobrindt said evidence indicated a suspected Islamist terrorist attack and said the suspect had a history of criminal convictions, radicalisation and alleged links to the Islamist scene. Authorities said he was killed after rushing at officers with a knife during an operation in the Spandau district.",
+          "headline": "Berlin Pride attack suspect killed by police after deadly vehicle and knife attack",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c62eg899l99o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/26/berlin-pride-van-knife-rampage-islamist-terrorist-attack-germany"
+            }
+          ]
+        },
+        {
+          "body": "Palestinian officials said Israeli settlers set fire to or attempted to set fire to two mosques in villages near Nablus and Tulkarem, vandalising property and leaving Hebrew graffiti including calls for revenge. The attacks followed a confrontation near the village of Tal in which four Palestinians and two Israelis were killed. Israel's military said soldiers found evidence of arson and graffiti in Qusra, condemned attacks on religious sites and said police would investigate. The violence came amid a wider Israeli military crackdown in the occupied West Bank and a sharp rise in settler attacks since the war in Gaza began.",
+          "headline": "Israeli settlers accused of torching West Bank mosques after deadly clashes",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/israeli-settlers-set-fire-west-bank-mosques-after-deadly-clash-2026-07-26/"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cjrv77gl4deo"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/26/israeli-crackdown-in-occupied-west-bank-intensifies-settlers-cause-mayhem"
+            }
+          ]
+        },
+        {
+          "body": "The Democratic Republic of Congo reported 3,200 Ebola infections and at least 1,405 deaths as its 17th Ebola outbreak spread across five provinces. Authorities said cases rose by roughly 1,000 in 10 days, although improved detection and testing contributed to the increase. The outbreak is caused by the Bundibugyo strain, for which there is no approved vaccine or treatment, and nearly 90% of cases have been reported in Ituri province. Health-worker strikes, difficult access to affected areas and limited transport have complicated the response, while researchers accelerate trials of potential vaccines and treatments.",
+          "headline": "Ebola infections and deaths surge in the Democratic Republic of Congo",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/21/health-worker-being-monitored-for-ebola-in-london-hospital-after-working-in-drc"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "A persistent heat dome brought dangerous heat and humidity across a broad stretch of the United States, with tens of millions of people under heat warnings or advisories. Forecasters expected temperatures well above normal from the Southwest and Gulf Coast through the Plains and Midwest, with some areas approaching or exceeding 108F and parts of the Southwest reaching 120F. Overnight temperatures were also expected to remain high, limiting recovery from accumulated heat stress. The weather pattern could also fuel severe storms, flash flooding and hail around the Great Lakes before temporary relief arrives in parts of the central US.",
+          "headline": "Dangerous heat dome expands across the central and southern United States",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/hot-weather-temperatures-climate-heat-dome-65d34e4c520472c7bb1f46cd133b7952"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/us-heat-wave-weather-6f185210909edf9dc190e8d5673a9cfc"
+            }
+          ]
+        },
+        {
+          "body": "Former Maine Senate president and logger Troy Jackson secured the Democratic nomination to challenge Republican Senator Susan Collins in November, in a race that could help determine control of the US Senate. Republicans moved quickly to portray Jackson as a party insider and to connect him to former candidate Graham Platner, while Jackson sought to emphasise his working-class background and accuse Collins of backing Donald Trump and corporate interests. Jackson had previously lost bids for Congress and the governorship, but Democrats argue that Maine remains a viable pickup opportunity in a state carried by Kamala Harris in 2024.",
+          "headline": "Maine Democrats select Troy Jackson to challenge Senator Susan Collins",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/maine-senate-susan-collins-platner-troy-jackson-a5f89f03b6a9aace01f4e829befb7809"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/26/how-republicans-conquer-troy-jackson-01012340"
+            }
+          ]
+        },
+        {
+          "body": "The Trump administration launched a campaign encouraging departing service members and veterans to become truck drivers, seeking to address the loss of tens of thousands of immigrant drivers whose commercial licences were cancelled or revoked in a federal enforcement crackdown. Veterans who drove large military vehicles may be able to bypass the commercial driving skills test, while others can attend driving school during their final months of active duty, with GI Bill support available for training. The Transportation Department said about 26,000 drivers were removed for failing English-proficiency requirements and 30,000 licences were cancelled after audits found they had been issued improperly.",
+          "headline": "White House seeks veterans to replace immigrant truckers removed in licensing crackdown",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/military-veteran-truckers-cdl-license-waiver-immigrants-e06bfe13fbc3aa0c13e58c212746229f"
+            }
+          ]
+        },
+        {
+          "body": "Republican Senate nominee Ken Paxton is trying to retain Donald Trump's gains with Hispanic voters in South Texas by stressing border security and culture-war issues, while Democrat James Talarico focuses on living costs, health care and the local effects of deportations and tariffs. Residents and business leaders in the Rio Grande Valley told Politico that reduced crossings are widely welcomed but that the immigration crackdown has also strained construction, retail and cross-border commerce. Polling cited in the report showed Talarico ahead among Hispanic voters, although Republicans said their ground operation and messaging on social issues could still mobilise socially conservative Latino voters.",
+          "headline": "Texas Senate race tests the durability of Trump's gains with Hispanic voters",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/07/25/paxton-talarico-texas-senate-latino-voters-01005951"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's government plans to declare areas hit by major fires in Madrid, Ávila and Toledo as zones seriously affected by a civil-protection emergency, making them eligible for disaster assistance. Prime Minister Pedro Sánchez said conditions had improved overnight but warned that difficult hours remained before the main fires could be stabilised. Fires across the three central provinces have burned about 77,000 hectares and forced evacuation or confinement of roughly 90,000 to 95,000 people, while a separate fire in Castellón remained out of control. Spain's burned area rose from 130,000 to 150,000 hectares in less than a day, Sánchez said.",
+          "headline": "Spain prepares disaster-area aid as major fires continue across several regions",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260726/consejo-ministros-declarara-gravemente-afectadas-zonas-afectadas-por-incendios/17169487.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260727/11601542/ligero-optimismo-evolucion-fuego-madrid-avila-toledo.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260726/incendios-madrid-avila-toledo-esperanza-ceder-mejora-condiciones-hectareas-arrasadas-vecinos-desalojados-132830024"
+            }
+          ]
+        },
+        {
+          "body": "An estimated 25,000 people marched through Palma in Mallorca's largest protest to date against overtourism and the touristification of the Balearic Islands. Organisers said the island's housing costs, loss of public space and pressure on services had reached a breaking point after 19 million visitors last year and a projected record this year. The demonstration was largely peaceful during its route through the city centre, but ended with clashes between protesters and police; authorities reported at least one person injured, while organisers said they knew of around 10 injuries. Protesters called for fewer tourist arrivals and accommodation places.",
+          "headline": "Thousands march in Palma against overtourism, with clashes reported at the end of the protest",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260726/11601499/miles-mallorquines-toman-calles-palma-protesta-masiva-turistificacion.html"
+            }
+          ]
+        },
+        {
+          "body": "The investigation into the 2021 public rescue of airline Plus Ultra intensified after several people under investigation reportedly implicated former Socialist prime minister José Luis Rodríguez Zapatero in an alleged influence-peddling network. Julio Martínez Martínez, described as a friend of Zapatero and administrator of a company central to the case, submitted a document offering cooperation with the court before his scheduled testimony. Two former Plus Ultra executives also reportedly assigned Zapatero greater responsibility for the matters under investigation. Zapatero has denied directing the company, saying he worked only as an outside consultant, while the government has defended the airline rescue as lawful and properly supervised.",
+          "headline": "Plus Ultra investigation intensifies over alleged links to former Prime Minister Zapatero",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-07-26/la-semana-que-dejo-a-zapatero-aislado-en-la-red-de-plus-ultra.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/07/26/6a650ee421efa0b3138b45b7.html"
+            }
+          ]
+        },
+        {
+          "body": "Cantabria has recorded 108 deaths attributable to high temperatures since May, more than double the 59 heat-related deaths reported between May and September 2023, according to Spain's Carlos III Health Institute mortality-monitoring system. The normally mild northern region has experienced persistent heat, with at least one heat-attributable death reported each day since June 14 and peaks of five in a day during a late-June heatwave. June was the hottest on record in the region, and July temperatures have remained more than 3.5C above average. Low rainfall is also stressing vegetation and threatening crops, including maize.",
+          "headline": "Cantabria reports 108 heat-attributable deaths since May",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260726/cantabria-registra-fallecimientos-atribuibles-calor-desde-mayo/17168365.shtml"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Rodalies services on the R2, R2 Nord and R11 lines resumed after a four-day suspension caused by a large sinkhole beside railway works in Montcada i Reixac. Adif filled the hole and Renfe conducted empty test runs before restoring passenger service, though trains must slow through the affected section under a temporary speed restriction. The sinkhole was about 17 metres deep and 19 metres wide and swallowed a crane, generators and a workers' cabin during construction of a future rail tunnel. Adif said monitoring found no movement affecting nearby tracks, ground or buildings, and an investigation into the cause continues.",
+          "headline": "Rodalies R2, R2 Nord and R11 services resume after the Montcada construction sinkhole",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260726/restablecida-circulacion-lineas-r2-r2-nord-r11-rodalies-132816684"
+            }
+          ]
+        },
+        {
+          "body": "Nearly half of residential buildings inspected in Catalonia in 2024 had important, serious or very serious deficiencies requiring action by owners, according to the Catalan ombudsman's annual report. Of around 11,350 technical building inspection applications, almost 53% received certificates indicating no problems or only minor defects, while 47% received provisional, precautionary or failed ratings. Residential buildings at least 45 years old must undergo the visual inspection, but the report warned that many eligible properties have not done so, often for economic or social reasons. Since 1998, about 98,322 inspections have been completed among more than 1.1 million residential buildings in Catalonia.",
+          "headline": "Technical inspections find serious deficiencies in nearly half of inspected Catalan buildings",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260726/cinco-diez-edificios-suspenden-inspecciones-tecnicas-catalunya-deficiencias-graves-132707437"
+            }
+          ]
+        },
+        {
+          "body": "Residents of Barcelona's Verdun neighbourhood voted overwhelmingly to rename it Verdum, choosing the Catalan form associated with a local bird over the current name, which recalls the French city and First World War battle of Verdun. In the non-binding consultation, open to residents aged 14 and older in Nou Barris, 429 people voted for Verdum and 118 for Verdun. The Nou Barris district government said it would begin the formal process for the change, which ultimately requires approval by Barcelona's municipal council. Both spellings have long been used locally, with the debate over the official name continuing for decades.",
+          "headline": "Residents vote overwhelmingly to change Barcelona neighbourhood name from Verdun to Verdum",
+          "sources": [
+            {
+              "name": "3Cat Barcelona",
+              "url": "https://www.3cat.cat/3catinfo/verdum-simposa-clarament-a-verdun-en-el-proces-participatiu-sobre-el-nom-del-barri/noticia/3422117/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/barri-verdun-majoria-amplia-canviar-el-nom-pel-de-verdum-731850/"
+            }
+          ]
+        },
+        {
+          "body": "Extreme heat is worsening conditions for nearly 2,000 people sleeping rough in Barcelona, where central temperatures have not fallen below 24C for a month. Arrels Foundation said 58% of people living on the street cannot rest adequately, while lack of water, shade and access to showers makes it difficult to follow standard heat-safety advice. The organisation also said some climate shelters, including libraries, are unavailable during summer or cannot be accessed with people's belongings, and more active streets and earlier cleaning shifts add to stress and disrupt sleep. Arrels called for low-threshold emergency spaces, overnight accommodation and a longer-term housing response.",
+          "headline": "Extreme heat worsens conditions for Barcelona's homeless population",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/altes-temperatures-colpegen-sensellarime-gent-viu-carrer-mor-calor/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
