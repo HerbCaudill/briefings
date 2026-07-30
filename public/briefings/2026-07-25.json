@@ -1,0 +1,162 @@
+{
+  "sections": [
+    {
+      "title": "World",
+      "stories": [
+        {
+          "headline": "US-Iran strikes escalate as Tehran targets regional bases and Red Sea shipping",
+          "body": "The United States continued strikes on Iranian targets for a 13th consecutive night as Iran said it had targeted US assets in Bahrain, Jordan and Kuwait. Yemen's Houthi movement said it struck two Saudi oil tankers in the Red Sea and was enforcing a blockade on Saudi shipping, while Reuters reported sources saying Iran had sent commanders and missile- and drone-related equipment to Yemen. President Donald Trump threatened major military punishment for Iran and the Houthis, and the attacks added to concerns over shipping through both the Red Sea and the Strait of Hormuz, pushing Brent crude above $100 a barrel.",
+          "sources": [
+            {"name":"Reuters","url":"https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/"},
+            {"name":"France 24","url":"https://www.france24.com/en/middle-east/20260724-us-pummels-iranian-sites-tehran-targets-regional-bases-stationing-us-forces"},
+            {"name":"Al Jazeera","url":"https://www.aljazeera.com/news/liveblog/2026/7/25/iran-war-live-trump-says-us-locked-and-loaded-as-it-seeks-iran-talks"}
+          ]
+        },
+        {
+          "headline": "Mass evacuations as catastrophic wildfires spread across France and Spain",
+          "body": "Tens of thousands of people were evacuated from wildfires in southwest France and Spain, where Madrid declared its first national wildfire emergency. In France, authorities ordered the full evacuation of the Cap Ferret peninsula as fires threatened homes, campsites and its only access road; Reuters reported about 63,000 people ordered out, while the Guardian put the total fleeing or under lockdown in both countries above 200,000. Outside Madrid, two large fires merged and a third threatened to join them amid extreme heat and wind, with both countries seeking EU firefighting assistance.",
+          "sources": [
+            {"name":"Reuters","url":"https://www.reuters.com/business/environment/spain-declares-emergency-wildfires-force-thousands-evacuations-2026-07-24/"},
+            {"name":"The Guardian","url":"https://www.theguardian.com/world/2026/jul/24/france-evacuation-cap-ferret-peninsula-wildfire"}
+          ]
+        },
+        {
+          "headline": "International Criminal Court removes chief prosecutor Karim Khan over sexual-misconduct allegations",
+          "body": "Member states of the International Criminal Court voted to remove chief prosecutor Karim Khan following sexual-misconduct allegations. Khan, who had already stepped aside after an oversight finding of serious misconduct, denies wrongdoing and says the process was unfair; his lawyers argue an independent judicial determination did not establish misconduct under the relevant framework. The vote comes as the court faces intense US and Israeli pressure connected to its 2024 arrest warrants for Israeli leaders, and Khan's deputies, Nazhat Shameem Khan and Mame Mandiaye Niang, will lead the office pending selection of a successor.",
+          "sources": [
+            {"name":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/7/24/icc-prosecutor-khan-removed-over-sexual-misconduct-allegations-sources"},
+            {"name":"France 24","url":"https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say"},
+            {"name":"BBC News","url":"https://www.bbc.com/news/articles/cqjxddx12qqo"}
+          ]
+        },
+        {
+          "headline": "Trump imposes new forced-labor tariffs on 60 trading partners",
+          "body": "The Trump administration imposed duties of 10% or 12.5% on goods from 60 trading partners, including China, European countries, Japan and Canada, alleging inadequate enforcement against imports made with forced labor. The Section 301 measures took effect as a temporary 10% global tariff expired and cover 99.4% of US imports, although oil and gas, fertilizer, some food, aircraft parts, critical minerals and goods already covered by national-security tariffs are among the exemptions. Several partners rejected the premise of the action, while Britain, the EU and Japan said existing agreements or rate caps limited its immediate effect.",
+          "sources": [
+            {"name":"Reuters","url":"https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/"},
+            {"name":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/7/24/extremely-disappointing-us-trade-partners-respond-to-trumps-new-tariffs"}
+          ]
+        },
+        {
+          "headline": "Indian government seeks time after youth protesters demand education minister's resignation",
+          "body": "India's government asked until Saturday afternoon to respond to youth protesters demanding Education Minister Dharmendra Pradhan's resignation over exam-paper leaks. Leaders of the self-styled Cockroach Janta Party said the resignation was non-negotiable, alongside demands that cases against protesters be dropped and families of students reported to have died by suicide after the leak receive compensation. The movement grew after a medical-school entrance test affecting about two million students was cancelled in May; protests and parliamentary disruption continued after clashes with police in Delhi earlier in the week.",
+          "sources": [
+            {"name":"Reuters","url":"https://www.reuters.com/world/india/india-youth-protest-leaders-hold-talks-with-government-protests-will-continue-2026-07-24/"},
+            {"name":"France 24","url":"https://www.france24.com/en/video/20260724-protests-grow-as-cockroach-janta-party-says-talks-with-government-stall"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "US",
+      "stories": [
+        {
+          "headline": "Madison police shooting is investigated as a homicide amid calls for accountability",
+          "body": "The fatal shooting of Corey Durell Ruiz by a Madison police officer is being investigated as a homicide, according to the police chief, as the city’s independent monitor accused the department of obstructing her inquiry. Ruiz's family, represented by civil-rights lawyer Ben Crump, called for the officer to face criminal charges at a news conference. Protests followed the shooting, while the chief said he was committed to working with the independent monitor.",
+          "sources": [
+            {"name":"The Washington Post","url":"https://www.washingtonpost.com/nation/2026/07/23/police-monitor-madison-subpoena-department-evidence-shooting/"},
+            {"name":"Associated Press","url":"https://apnews.com/article/corey-ruiz-death-madison-wisconsin-police-7ea2c187227243cb1c7988514d1091ac"}
+          ]
+        },
+        {
+          "headline": "Teen pleads guilty in the 2024 Apalachee High School shooting that killed four people",
+          "body": "Colt Gray, 16, pleaded guilty to murder in the September 2024 shooting at Apalachee High School in Georgia that killed two students and two teachers and wounded several others. Gray entered the plea without an agreement with prosecutors, after previously pleading not guilty. A victim's sister called for the maximum sentence of life in prison without parole.",
+          "sources": [
+            {"name":"Associated Press","url":"https://apnews.com/article/apalachee-georgia-school-shooting-colt-gray-8be7ba5efae9cce53e0f8c61253a5f1b"}
+          ]
+        },
+        {
+          "headline": "Sons of man killed by ICE in Houston demand accountability at congressional hearing",
+          "body": "The sons of Lorenzo Salgado Araujo demanded a transparent investigation at a Houston forum with Democratic members of Congress after their father was fatally shot by an ICE officer during a traffic stop. Harris County District Attorney Sean Teare said the Department of Homeland Security had not provided requested evidence, including the shooter's name. Officials initially said Salgado Araujo had used his vehicle as a weapon, but agents were not wearing body cameras and witnesses dispute that account; his family says he was not the target of the ICE operation.",
+          "sources": [
+            {"name":"Associated Press","url":"https://apnews.com/article/ice-immigration-houston-texas-congress-2f603ff0db2652a254ffd029354833f0"},
+            {"name":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/7/25/sons-of-immigrant-killed-by-ice-in-texas-share-grief-demand-accountability"}
+          ]
+        },
+        {
+          "headline": "Justice Department withdraws subpoenas for New York Times reporters after admitting legal errors",
+          "body": "The Justice Department withdrew subpoenas seeking testimony from three New York Times reporters about sources for stories on President Trump's Qatari-gifted Air Force One jet, after a federal judge sharply criticized the government's legal work. Judge Arun Subramanian said the department had inverted rules requiring subpoenas of journalists to be a last resort and indicated he would have quashed them. The department said its national-security leak investigation remains open and criticized the judge, while the withdrawal followed similar recent retreats from subpoenas targeting Washington Post and Wall Street Journal journalists.",
+          "sources": [
+            {"name":"Associated Press","url":"https://apnews.com/article/usmediatimesair-force-one-42429e4d4da8accc42b6c3ddf3f4fed5"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spain",
+      "stories": [
+        {
+          "headline": "Spain declares national emergency as major fires threaten Madrid and Ávila",
+          "body": "Spain declared a national emergency for wildfires affecting the Madrid region and Ávila province after several blazes merged or threatened to merge. More than 60,000 people were evacuated or confined, with 43 homes destroyed in Villa del Prado and the Madrid fire described as beyond the capacity of firefighting services. Cooler nighttime temperatures, lower winds and higher humidity gave emergency crews an opportunity to contain the fires, while authorities said no injuries had been reported in Madrid or Ávila.",
+          "sources": [
+            {"name":"El País","url":"https://elpais.com/espana/2026-07-23/el-gobierno-declara-la-emergencia-nacional-en-la-comunidad-de-madrid-y-en-avila-por-los-incendios.html"},
+            {"name":"RTVE","url":"https://www.rtve.es/noticias/20260724/incendios-espana-hoy-ultima-hora-directo/17168820.shtml"},
+            {"name":"El Mundo","url":"https://www.elmundo.es/espana/2026/07/24/6a62f699ea01db221484dc4e-directo.html"}
+          ]
+        },
+        {
+          "headline": "Spain's Supreme Court applies the amnesty law to eight Catalan independence-related cases",
+          "body": "Spain's Supreme Court applied the amnesty law to eight people convicted of disobedience or public-order offenses linked to the Catalan independence process, its first use of the law after the EU Court of Justice found it compatible with EU rules. Those covered include four former Catalan Parliament board members, including former speaker Roger Torrent, former Sabadell mayor Maties Serracant, and three people convicted over 2019 protests following the procés verdict. Separately, the Constitutional Court rejected the final outstanding constitutional challenge to the law, brought by the Extremadura regional government.",
+          "sources": [
+            {"name":"RTVE","url":"https://www.rtve.es/noticias/20260724/supremo-aplica-amnistia-a-ocho-condenados-por-desobediencia-desordenes-publicos/17168093.shtml"},
+            {"name":"El País","url":"https://elpais.com/espana/2026-07-24/el-constitucional-rechaza-el-recurso-de-la-junta-de-extremadura-contra-la-ley-de-amnistia.html"},
+            {"name":"La Vanguardia","url":"https://www.lavanguardia.com/politica/20260724/11600405/supremo-amnistia-ocho-condenados-desordenes-publicos.html"}
+          ]
+        },
+        {
+          "headline": "Plus Ultra president and CEO resign after being summoned in investigation involving Zapatero",
+          "body": "Plus Ultra president Julio Martínez Sola and chief executive Roberto Roselli resigned while remaining under investigation over the airline's pandemic-era €53 million public rescue loan. Their departures followed an internal dispute and court filings in which they said the airline paid €530,000, or 1% of the rescue amount, to companies tied to Julio Martínez Martínez for assistance with the process; the filings implicated former prime minister José Luis Rodríguez Zapatero in efforts surrounding the aid. A National Court judge has summoned both executives to testify in September, and minority shareholder Hugo Castaño has been proposed as executive president subject to approval by the state holding company SEPI.",
+          "sources": [
+            {"name":"El País","url":"https://elpais.com/espana/2026-07-24/el-juez-calama-cita-a-declarar-a-los-directivos-de-plus-ultra-que-implicaron-a-zapatero-en-el-rescate.html"},
+            {"name":"El Mundo","url":"https://www.elmundo.es/espana/2026/07/24/6a63cfbae4d4d8e0578b4578.html"},
+            {"name":"La Vanguardia","url":"https://www.lavanguardia.com/politica/20260724/11600646/dimiten-presidente-ceo-plus-ultra-investigados-prestamo-aerolinea.html"}
+          ]
+        },
+        {
+          "headline": "Spain mobilizes immigration offices to tackle delays in its large-scale migrant regularization program",
+          "body": "Spain's Migration Ministry has sought help from provincial immigration offices to address delays in its extraordinary migrant regularization program, which has received nearly 1.2 million applications, far above the original forecast of 500,000. Around 1,300 of roughly 1,800 office staff have volunteered to process cases outside working hours for €10 per completed file. The ministry is seeking to meet the three-month deadline for deciding applications despite the summer period and an expanding backlog.",
+          "sources": [
+            {"name":"El País","url":"https://elpais.com/espana/2026-07-24/migraciones-pide-apoyo-a-las-oficinas-de-extranjeria-para-evitar-mas-retrasos-en-la-regularizacion.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Barcelona & Catalunya",
+      "stories": [
+        {
+          "headline": "Rail services remain disrupted after major sinkhole at R2 works in Montcada i Reixac",
+          "body": "A major sinkhole at works to bury the R2 rail line in the Vallbona-Montcada i Reixac area caused no injuries but forced the cutoff of water to the historic Rec Comtal canal, harming local wildlife. Rural agents found about 10 dead fish, while authorities moved surviving fish to remaining pools and added water there. Adif says it will install a temporary conduit to restore the canal's flow around the sinkhole, allowing repairs to continue in dry conditions; city officials are seeking restoration and possible accountability for any environmental damage.",
+          "sources": [
+            {"name":"betevé","url":"https://beteve.cat/medi-ambient/victimes-collaterals-esvoranc-r2-vallbona-fauna-rec-comtal/"}
+          ]
+        },
+        {
+          "headline": "Technical incident invalidates Catalunya's 2025 PISA results for comparison",
+          "body": "Catalunya's 2025 PISA results, due in September, will not be comparable with those of other regions, countries or previous years because the sample was not statistically representative. The exemption rate reached 23.2%, far above the OECD's recommended 5%, leaving 591 of 2,545 selected students out of the assessment, most because of cognitive, behavioural or emotional needs. The data will still appear in Spain's national report but without comparability; unions and opposition groups criticized the government for weak oversight and delayed disclosure of the problem.",
+          "sources": [
+            {"name":"3Cat","url":"https://www.3cat.cat/3catinfo/educacio-diu-que-les-proves-pisa-2025-no-seran-comparables-amb-les-daltres-anys-per-un-error-estadistic/noticia/3422012/"},
+            {"name":"La Vanguardia","url":"https://www.lavanguardia.com/vida/20260724/11600061/catalunya-queda-excluida-pruebas-pisa-incidencia-tecnica.html"},
+            {"name":"El Periódico","url":"https://www.elperiodico.com/es/sociedad/20260724/oposicion-sindicatos-critican-caos-incompetencia-gestion-govern-cataluna-pruebas-pisa-132783146"}
+          ]
+        },
+        {
+          "headline": "Worker dies after head injury at Camp Nou construction site",
+          "body": "A 54-year-old subcontracted Romanian worker died after suffering a head injury while working at the Camp Nou redevelopment site, the first fatal workplace accident reported since the project began in June 2023. Initial reports say he was painting from an elevated platform when he was struck, possibly by a beam. Mossos d'Esquadra have notified the duty court and the Labour Department, while the CCOO union called for a rigorous investigation, citing subcontracted workers' conditions, intense schedules and the afternoon heat.",
+          "sources": [
+            {"name":"betevé","url":"https://beteve.cat/societat/mor-operari-54-anys-obres-camp-nou-cop-cap/"},
+            {"name":"3Cat","url":"https://www.3cat.cat/3catinfo/mor-un-treballador-de-les-obres-del-camp-nou-en-un-accident-laboral/noticia/3422101/"},
+            {"name":"La Vanguardia","url":"https://www.lavanguardia.com/deportes/fc-barcelona/20260724/11600485/fallece-operario-primer-accidente-mortal-obras-nuevo-camp-nou.html"}
+          ]
+        },
+        {
+          "headline": "Two Besòs households evacuated after serious structural problems were found in their building",
+          "body": "Two households were evacuated from a building on Carrer de Catània in Barcelona's Besòs neighbourhood after firefighters found serious structural problems following a water leak and shored up the flats. One household of nine, including three children and an elderly wheelchair user, says two members have spent 12 days sleeping outdoors or on the beach despite the city's offer of temporary accommodation for the others. Neighbourhood groups say roughly 200 local buildings with 4,000 homes are affected by aluminosis, and demand immediate decent rehousing and permanent repairs; the city and regional government plan a €415 million, 10-year regeneration program.",
+          "sources": [
+            {"name":"betevé","url":"https://beteve.cat/societat/desallotjats-dos-pisos-besos-problemes-estructurals-greus-edifici/"}
+          ]
+        }
+      ]
+    }
+  ]
+}
