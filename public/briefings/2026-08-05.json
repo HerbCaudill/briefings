@@ -1,0 +1,248 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "US, Qatari and Omani officials say negotiations have made progress toward restoring a ceasefire in the US-Iran conflict and enabling safer shipping through the Strait of Hormuz, though no final agreement has been announced. Washington says a deal could come within days, while Iran says its talks are with Oman rather than directly with the US. Key unresolved issues include the operating rules for shipping lanes, service fees and security arrangements. The prospect of progress pushed oil prices lower, but shipping remained disrupted and a vessel was reportedly struck near Oman.",
+          "headline": "Diplomatic efforts intensify over a deal to reopen the Strait of Hormuz",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/04/us-qatar-progress-iran-ceasefire-hormuz-strait"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/4/us-says-deal-on-reopening-hormuz-close-as-iran-oman-hold-positive-talks"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260805-us-says-iran-hormuz-deal-could-come-today-or-tomorrow-as-oil-prices-plunge"
+            }
+          ]
+        },
+        {
+          "body": "A Russian overnight missile and drone attack on Kyiv and the surrounding region killed at least 17 people and injured 44, Ukrainian President Volodymyr Zelensky said. Ukrainian authorities reported damage to residential buildings, warehouses and other sites, with fears that people remained beneath rubble; an ammonia leak was also reported. Ukraine said Russia launched 24 ballistic missiles, four anti-ship missiles and 115 drones, with air defences intercepting 98 drones but no missiles. Russia said it had targeted logistics and supply facilities, while Ukraine accused it of deliberately striking civilians and civilian infrastructure.",
+          "headline": "Russian ballistic missile attack on Kyiv region kills at least 17 people",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c330pxyvzzyo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/05/russia-kyiv-attack-kills-at-least-14-people-ukraine-authorities"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region"
+            }
+          ]
+        },
+        {
+          "body": "The United States has revoked the visa of Brazil's ambassador in Washington, Maria Luiza Ribeiro Viotti, escalating a dispute with President Luiz Inácio Lula da Silva's government ahead of Brazil's October election. The State Department called the move reciprocal, citing Brazil's refusal to approve President Donald Trump's ambassadorial nominee and its denial of visas to two US officials who planned to visit Brazil. Brazil condemned the decision as politically motivated interference in its domestic affairs. Washington said Viotti has not been expelled and could regain her visa if Brazil approves its nominee.",
+          "headline": "US revokes Brazil's ambassador's visa as diplomatic dispute escalates",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cy9wpww7dyro"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/04/us-revokes-brazil-ambassador-visa"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260805-us-revokes-brazilian-ambassador-s-visa-amid-escalating-diplomatic-dispute"
+            }
+          ]
+        },
+        {
+          "body": "Taiwan has begun its annual Han Kuang military exercises, its largest military drills, aimed at preparing the island for a possible Chinese invasion. The exercises come as Beijing, which claims Taiwan as its territory, has increased its military pressure on the self-governing island in recent years.",
+          "headline": "Taiwan launches annual military exercises amid growing pressure from China",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20260805-taiwan-launches-major-war-games-as-china-pressure-grows"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Michigan's Democratic Senate primary remained too close to call overnight, with progressive former public health official Abdul El-Sayed holding a narrow lead over Representative Haley Stevens. The contest has become a prominent test of whether the party's progressive wing can win in a battleground state, particularly after polling had suggested a more decisive El-Sayed victory. The eventual nominee will face former Republican Representative Mike Rogers in November, and Democrats are already focused on repairing divisions after a contentious primary.",
+          "headline": "Michigan's Democratic Senate primary becomes a key test for the party's progressive wing",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/08/05/michigan-senate-primary-progressives-unclear-01025096"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260805-michigan-democratic-primary-test-progressive-movement-us"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/live/election-primary-08-04-2026"
+            }
+          ]
+        },
+        {
+          "body": "Representative Wesley Bell decisively defeated former Representative Cori Bush in their Democratic primary rematch in Missouri's 1st District, two years after he first unseated her. The result is a setback for progressives seeking to turn opposition to US military aid for Israel and support from AIPAC into a decisive primary issue. An AIPAC-backed super PAC spent about $2 million supporting Bell, far less than in 2024, while Bell also had backing from establishment Democrats including House Minority Leader Hakeem Jeffries and the Congressional Black Caucus PAC.",
+          "headline": "Wesley Bell defeats Cori Bush in Missouri Democratic primary rematch",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/live-updates/2026/08/04/michigan-missouri-primary-democrats-test/cori-bush-wesley-bell-primary-analysis-01024982"
+            }
+          ]
+        },
+        {
+          "body": "A divided full US Court of Appeals for the District of Columbia Circuit ruled that the Trump administration improperly terminated billions of dollars in clean-energy funding from the Biden-era Greenhouse Gas Reduction Fund. The congressionally authorized $20 billion programme uses nonprofit intermediaries to finance smaller clean-energy, efficiency and transportation projects. The Environmental Protection Agency had frozen and then cancelled grants to groups including Climate United Fund, alleging mismanagement and possible fraud; the groups deny wrongdoing. The ruling is temporarily on hold to allow the EPA to seek Supreme Court intervention.",
+          "headline": "Federal appeals court says Trump administration wrongly terminated climate funds",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/epa-grants-climate-united-trump-36ad8c6684939a1788dd49979e0f3ad9"
+            }
+          ]
+        },
+        {
+          "body": "Authorities arrested a 38-year-old man at President Donald Trump's Los Angeles-area golf course after he allegedly photographed and filmed security preparations before a presidential fundraiser. Officers said he had ammunition in his pocket and that his pickup truck contained a loaded 9mm pistol, binoculars and a badge identifying him as a security protection agent. A subsequent search of his home reportedly found additional firearms, ammunition, body armour and notebooks containing concerning statements. He was charged with weapons offences and pleaded not guilty.",
+          "headline": "Armed man arrested while monitoring security near Trump's Los Angeles-area golf course",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/trump-golf-course-california-armed-man-arrested-9b5617796efe673a57ad163680d8e8dd"
+            },
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/08/04/jeanine-john-taele-arrested-trump-golf-course-near-la/"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260805-armed-man-arrested-outside-trump-s-los-angeles-golf-course-before-presidential-visit"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Authorities in Ceuta are working to identify the victims of last week's mass migrant crossing from Morocco, with reports placing the death toll between 75 and 79 people and forensic examinations under way on at least 77 bodies. The former military hospital has been converted into a temporary morgue, while officials warn that identification will be difficult because relatives are largely in Morocco and DNA and fingerprint comparisons require international coordination. An extraordinary EU interior ministers' meeting expressed solidarity with Spain but adopted no concrete measures; Italy proposed that the EU lead relations with Morocco to help curb future crossings.",
+          "headline": "Ceuta migrant crisis leaves dozens dead as Spain and the EU confront its fallout",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-05/un-hangar-a-5-para-custodiar-a-los-77-fallecidos-que-dejo-la-avalancha-de-ceuta.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260805/11607889/ue-rebaja-tension-italia-propone-bruselas-lidere-relacion-marruecos.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/es-complica-la-identificacio-dels-morts-a-ceuta-mentre-continuen-buscant-els-desapareguts/noticia/3423592/"
+            }
+          ]
+        },
+        {
+          "body": "Ceuta's government says it is concerned by social-media posts calling for another collective crossing from Morocco into the Spanish enclave on 15 August. Messages circulating on platforms including TikTok and WhatsApp invite people to join groups coordinating an attempt to cross, with the Moroccan border town of Fnideq identified as a meeting point. Local officials have notified the relevant authorities and called for additional national police resources and European support after the recent deadly migration crisis.",
+          "headline": "Spain warns of a new social-media call for a mass crossing into Ceuta",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260805/11608118/gobierno-ceuta-reconoce-preocupacion-nuevo-llamamiento-entrada-masiva-difundido-redes-sociales.html"
+            }
+          ]
+        },
+        {
+          "body": "At least 17 migrants died after a boat carrying 19 people drifted for 15 days while attempting to reach the Balearic Islands, according to Spain's government delegation in the islands. The two survivors, both from the Maghreb and suffering from dehydration and malnutrition, told rescuers that the other passengers died during the voyage. Separately, authorities recovered two bodies from another boat near Cabrera and rescued 17 people, while others remained missing. Maritime rescue services are searching the area and an NGO is examining whether the vessel may be linked to boats reported missing last month.",
+          "headline": "At least 17 migrants die after a boat drifts for 15 days while trying to reach the Balearic Islands",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-04/mueren-al-menos-17-migrantes-al-tratar-de-alcanzar-las-costas-de-baleares.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/moren-17-migrants-en-una-pastera-que-intentava-arribar-a-mallorca-despres-de-15-dies-a-la-deriva/noticia/3423497/"
+            }
+          ]
+        },
+        {
+          "body": "National Court judge José Luis Calama has ordered the police economic-crime unit, UDEF, to produce an exhaustive review of the ownership and financing history of airline Plus Ultra. The inquiry seeks to establish the role and possible impact of Venezuelan capital in the company, particularly when it received a €53 million public rescue package during the pandemic. The order is part of a broader investigation into alleged irregularities and influence peddling connected to the bailout, in which former Prime Minister José Luis Rodríguez Zapatero has been placed under investigation.",
+          "headline": "Judge orders exhaustive review of Venezuelan investment in Plus Ultra",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-04/el-juez-pide-a-la-udef-un-estudio-exhaustivo-sobre-el-capital-venezolano-en-plus-ultra.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260804/juez-pide-informe-exhaustivo-udef-conocer-propiedad-venezolana-plus-ultra/17179731.shtml"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona public transport operator TMB will audit linings in all metro tunnels after a 27 July fire between Clot and Glòries stations on Line 1 injured about 140 people and forced the evacuation of roughly 230 passengers. The preliminary investigation indicates that part of a 48-metre waterproofing sheet installed in 2019 detached, touched the overhead power line and caught fire. TMB says that material is not used elsewhere on the network, but it will assess whether other materials could pose an added fire risk and replace any that do. The operator also plans to improve emergency information for passengers.",
+          "headline": "TMB to audit metro tunnel linings after the L1 fire that injured about 140 people",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/tmb-auditoria-revestiments-tunels-metro-incendi-clot/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260804/pieza-tunel-cayo-catenaria-desato-tunel-auditoria-133101120"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia's Council of Statutory Guarantees has found that a proposed law restricting speculative home purchases violates several constitutional protections, including private property, inheritance rights, freedom of enterprise and legal certainty. The non-binding opinion also says the proposal improperly addresses civil-law matters through urban-planning legislation and criticises its fast-track parliamentary procedure. The initiative, promoted by Comuns and backed by the regional government, seeks to limit purchases in high-pressure areas when homes would not be used residentially. The government says it will seek legally viable revisions, while opposition parties have urged that the bill be withdrawn.",
+          "headline": "Catalonia's statutory council finds proposed restrictions on speculative home purchases unconstitutional",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/cge-rebutja-limitar-compra-especulativa-habitatge/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260805/11607905/govern-modificara-norma-compra-especulativa-inconstitucional.html"
+            }
+          ]
+        },
+        {
+          "body": "Hiking organisations are calling for a gradual reopening of parts of Collserola after months of access restrictions imposed because of African swine fever. The Centre Excursionista de Catalunya says the restrictions have forced it to replace regular outdoor activities with city parks and have cut participation in its Barcelona children's camps by half. Groups propose designated safe routes, controlled access hours and hygiene measures such as cleaning footwear, and say they are willing to help authorities manage them. They also criticise permissions granted for a film production in natural areas while recreational access remains restricted.",
+          "headline": "Hiking groups demand a plan to reopen access to Collserola despite African swine fever restrictions",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/entitats-excursionistes-reclamen-pla-accedir-collserola-pesta-porcina/"
+            }
+          ]
+        },
+        {
+          "body": "Residents of Barcelona's Vila Olímpica and Poblenou say homeless encampments along the waterfront have expanded over the past year, raising concerns about sanitation and safety. Advocates for homeless people and the neighbourhood association say any clearance must be accompanied by housing or another safe destination, warning that removals merely displace people to more marginal areas. Arrels Fundació says some people now living near the coast were previously cleared from the Zona Franca. City officials say interventions are made when there are health or coexistence problems and that they try to support people afterward.",
+          "headline": "Concern grows over expanding homeless encampments along Barcelona's waterfront",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/creix-preocupacio-veins-assentaments-litoral/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
