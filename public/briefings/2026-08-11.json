@@ -1,0 +1,272 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Colombia declared a national emergency after a magnitude 7.4 earthquake struck Chocó province on Monday, killing at least 132 people and injuring hundreds. The deep quake was felt across much of western Colombia and in neighbouring countries, with severe damage reported in Pereira, Cali, Manizales and other cities. Dozens of buildings collapsed, people were believed trapped beneath rubble, and communications outages slowed assessments near the epicentre. Authorities warned that the toll could rise as rescue operations continued and aftershocks followed.",
+          "headline": "Colombia declares emergency after 7.4 earthquake kills at least 132",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c20e360lx0vo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/colombia-earthquake-cali-pereira-choco"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20"
+            }
+          ]
+        },
+        {
+          "body": "Donald Trump said the United States would seek compensation from Iran for deaths and damage he attributed to Tehran over decades, responding to Iranian demands for war reparations. Iran has conditioned reopening the Strait of Hormuz, a vital route for oil and liquefied natural gas trade, on US reparations and an end to sanctions. Negotiations involving Iran and Oman remain under way, but Trump’s demands could further complicate an already stalled effort to reopen the waterway.",
+          "headline": "Trump demands compensation from Iran as Strait of Hormuz talks continue",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/trump-demands-iran-pay-compensation-for-decades-of-us-soldier-deaths"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue"
+            }
+          ]
+        },
+        {
+          "body": "Israeli Prime Minister Benjamin Netanyahu rejected a US-backed 15-point Gaza roadmap, saying Israeli forces would not withdraw until Hamas undergoes what he described as genuine and complete disarmament. The plan envisages Hamas and other armed groups surrendering weapons in phases, an Israeli withdrawal from areas it controls, and deployment of an international stabilization force alongside a new Palestinian police force. Reports indicated Israeli military officials had discussed pilot withdrawals days before Netanyahu’s statement, while US officials reportedly viewed his public rejection partly through the lens of an approaching Israeli election.",
+          "headline": "Netanyahu says Israel will not withdraw from Gaza until Hamas disarms",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/ce3q5282ep3o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/benjamin-netanyahu-rejection-us-deal-gaza-risky-gamble"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260810-netanyahu-says-no-gaza-withdrawal-until-hamas-disarms"
+            }
+          ]
+        },
+        {
+          "body": "A Ukrainian drone attack on Nizhnekamsk in Russia’s Tatarstan republic killed at least 13 people, including a child, and injured dozens, Russian authorities said. Ukraine said it targeted the Taneco oil refinery, one of Russia’s largest and most advanced, roughly 1,200 kilometres from the Ukrainian border. Russian officials said a hostel and other civilian infrastructure were hit, while Ukraine described the strike as part of its campaign against facilities supporting Russia’s war effort. Seven of the dead were reported to be Uzbek citizens, and Tatarstan declared a day of mourning.",
+          "headline": "Ukrainian drone strike in Tatarstan kills at least 13",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cvgjvgv926po"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/ukraine-drone-strike-on-oil-refinery-russia"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk"
+            }
+          ]
+        },
+        {
+          "body": "The World Health Organization says genomic sequencing indicates the current Ebola outbreak in the Democratic Republic of Congo began about three months before authorities officially declared an emergency on 15 May. More than 1,900 people have died in what is now the second-deadliest recorded Ebola outbreak, with insecurity in eastern Congo limiting access to many patients. WHO officials said the virus was initially mistaken for malaria or typhoid and warned that health teams are still struggling to catch up with transmission of the Bundibugyo strain, for which no approved vaccine or recognized treatment exists.",
+          "headline": "WHO says DR Congo Ebola outbreak began months before it was declared",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c5ydx7m8gzeo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/ebola-started-3-months-earlier-than-official-declaration"
+            }
+          ]
+        },
+        {
+          "body": "Western Europe recorded its hottest combined June and July on record, according to Copernicus, with average temperatures 2.79C above normal and repeated heatwaves since May. Persistent heat and unusually low rainfall have intensified drought across Spain, France, parts of Germany and the United Kingdom, leaving vegetation primed for severe wildfires. The wider continent has also seen exceptional early-August heat, with new temperature records in Austria, Slovakia and Hungary, while low Danube water levels have disrupted river transport and affected energy production.",
+          "headline": "Western Europe records hottest June and July amid drought and wildfire risk",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/environment/2026/aug/10/weather-tracker-europe-break-heat-records-temperatures-drought-wildfires"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/europa-occidental-viu-juny-juliol-mes-calorosos-historia-copernicus/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "President Donald Trump signed an executive order urging changes to childhood immunization policy, including reducing the number of recommended vaccines and splitting the combined measles, mumps and rubella vaccine into separate shots. The order is guidance rather than a federal mandate because school-entry requirements are generally set by states. Medical evidence and decades of research have found no link between vaccines and autism, and the US Centers for Disease Control and Prevention says there is no published evidence of a benefit from separating the MMR vaccine while delaying doses can leave children vulnerable to disease.",
+          "headline": "Trump order calls for fewer childhood vaccines and separate MMR shots",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/vaccine-research-autism-trump-kennedy-rfk-d10f81f221c4ae9f5b2f83dd0ee98b29"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/ce3q5vl581wo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260810-trump-pushes-rethink-of-school-vaccine-mandates-and-mmr-shots"
+            }
+          ]
+        },
+        {
+          "body": "Washington is confronting the prospect of a prolonged National Guard presence after the deployment ordered by President Trump was extended through 2029. Guard members from several states have patrolled prominent areas of the capital as part of the federal law-enforcement operation, prompting continuing debate over public safety, local control and the normalization of a military presence in civilian public spaces.",
+          "headline": "Washington grapples with National Guard deployment extended through 2029",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/national-guard-deployment-washington-trump-crime-66e7c6ab6beccd4146f39cff514f99c8"
+            }
+          ]
+        },
+        {
+          "body": "Primary contests in Wisconsin and Minnesota are becoming tests of the Democratic Party’s divide between progressives and establishment-backed candidates. In Wisconsin’s governor’s race, state representative Francesca Hong, a democratic socialist running on affordability and other progressive policies, leads Milwaukee County Executive David Crowley, who is backed by outgoing Governor Tony Evers and argues for a more moderate path. Minnesota’s Senate primary similarly pits Lieutenant Governor Peggy Flanagan against Representative Angie Craig, while both states’ contests will also test candidates backed by Trump and Republicans ahead of the general election.",
+          "headline": "Wisconsin and Minnesota primaries test Democrats’ progressive wing",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/wisconsin-minnesota-connecticut-democrat-socialist-hong-418b77c56be6b9d8afae26854cb69b51"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/minnesota-primary-flanagan-craig-lindell-senate-governor-bbadfd4d2a4a1184be74f75ed26b9b72"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/08/09/wisconsin-governor-race-hong-crowley-electability-01030198"
+            }
+          ]
+        },
+        {
+          "body": "The Trump administration has issued new executive orders seeking to limit who can obtain US citizenship, including a narrower new attempt to restrict birthright citizenship after the Supreme Court struck down an earlier effort in June. The new order focuses on categories already subject to limited exceptions, including children born to accredited foreign diplomatic personnel and people designated as alien enemies. The administration says it adjusted the policy in response to the court’s ruling, but the measures are expected to face legal challenges because birthright citizenship is broadly guaranteed by the Fourteenth Amendment.",
+          "headline": "Trump renews effort to restrict birthright citizenship",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/birthright-citizenship-immigration-trump-07cf9d5f493e57d6fc652bf6f17edd92"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain’s government and the opposition-controlled Senate are heading toward an institutional confrontation over the migration crisis in Ceuta after the Senate requested appearances by the interior, defence and foreign ministers. The ministers are expected to decline, saying they will instead address the issue in Congress later this month. Ceuta’s regional president, Juan Jesús Vivas, says between 8,000 and 11,000 migrants remain in the autonomous city after mass crossings in late July and has called for an urgent detention centre and more staff to process expulsions. The central government says identifying unaccompanied minors and pursuing family reunification should be priorities.",
+          "headline": "Spanish government and Senate head for clash over Ceuta migration crisis",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-11/el-gobierno-y-el-senado-se-encaminan-hacia-un-choque-institucional-por-las-comparecencias-sobre-la-crisis-de-ceuta.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260810/ministro-torres-vivas-analizar-situacion-crisis-migratoria-ceuta/17185415.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/italia-i-dinamarca-aprofiten-la-crisi-de-ceuta-per-reclamar-centres-de-deportacio-fora-de-la-ue/noticia/3424207/"
+            }
+          ]
+        },
+        {
+          "body": "The wildfire that began near Niebla in Huelva province last week has burned more than 20,000 hectares and remains beyond extinguishing capacity, according to the Andalusian government. About 800 people have been evacuated from communities in Huelva and nearby Seville province as strong, shifting winds, low humidity, high temperatures and difficult terrain drive the fire. Officials say convective conditions are preventing aerial water drops from effectively reaching the flames, and precise burned-area measurements will require satellite analysis.",
+          "headline": "Niebla wildfire in Huelva burns more than 20,000 hectares",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-10/el-incendio-de-niebla-huelva-supera-ya-las-20000-hectareas-afectadas.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/andalucia/2026/08/10/6a79fd42fc6c837f198b4586.html?intcmp=masnoticiasportada"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Defence Ministry and intelligence services have raised concerns that a planned SAIC Motor electric-car factory near Ferrol could create an espionage risk because of its proximity to a naval arsenal and Navantia’s military shipyard. The Chinese manufacturer’s proposed 200 million euro investment is expected to create about 1,000 jobs in an economically depressed area. The national government and Galicia’s regional authorities continue to support the project, saying major investments undergo security reviews and can be subject to conditions to protect national security.",
+          "headline": "Chinese car plant near Ferrol naval base raises espionage concerns",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-10/el-gobierno-mantiene-su-apoyo-a-la-fabrica-china-en-ferrol-pese-a-las-alertas-de-defensa.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260810/defensa-preocupacion-riesgo-espionaje-instalacion-planta-china-junto-base-naval-ferrol/17185581.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/la-implantacio-duna-fabrica-xinesa-a-prop-duna-base-naval-ferrol-neguiteja-el-cni-i-lexercit/noticia/3424247/"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Catalunya is preparing for the total solar eclipse on 12 August with a civil-protection operation covering mobility, security and public health. The eclipse will be visible across the territory, though totality will be limited to southern areas including the Camp de Tarragona, Terres de l’Ebre and parts of Lleida, lasting from 28 seconds to 1 minute and 32 seconds depending on location. Authorities have designated 18 official viewing sites with capacity for 50,000 people and 20,000 vehicles, deployed up to 700 Mossos officers, and restricted southbound truck traffic on parts of the AP-7 and N-340. Renfe will also run a late additional R16 service from Tortosa to Barcelona after the eclipse.",
+          "headline": "Catalunya prepares special transport and safety plans for total solar eclipse",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-govern-presenta-el-dispositiu-especial-per-a-leclipsi-del-12-dagost-i-les-afectacions-al-transit-previstes/noticia/3421984/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/renfe-programa-tren-reforc-tortosa-barcelona-eclipsi/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260811/11611578/espero-eclipse-dos-anos-quiero-vivirlo-mi-familia.html"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona will continue to experience intense heat and high humidity, including very muggy nights, with daytime temperatures again expected to exceed 30C. While conditions for the 12 August eclipse are expected to be mostly sunny, afternoon cloud development and storms over the Pyrenees and inland areas could obstruct viewing in parts of Catalunya. Forecasts suggest Barcelona may see only some cloud, but clouds from the pre-coastal range and low coastal cloud, particularly farther south, remain possible at eclipse time.",
+          "headline": "Barcelona faces intense heat and humid nights as eclipse clouds remain possible",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/temps-barcelona-dimarts-11-agost-xafogor-intensa/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/quin-temps-fara-durant-leclipsi-solar-els-nuvols-poden-fer-la-guitza-a-part-de-catalunya/noticia/3423642/"
+            }
+          ]
+        },
+        {
+          "body": "Adif is set to resume construction work near Barcelona’s Trinitat Vella after vibrations from overnight soil-compaction work led to the precautionary evacuation of residents from three buildings last week. Firefighters found no structural damage and residents were allowed to return, but the rail infrastructure operator halted the works to review its construction method and install monitoring and topographic-control systems. Adif says it will use daytime weekday working hours, optimize compaction and increase monitoring to avoid further vibrations; local residents say the affected buildings are vulnerable because of aluminosis and other longstanding structural problems.",
+          "headline": "Adif to resume Trinitat Vella works after vibration-triggered evacuation",
+          "sources": [
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/adif-repren-obres-trinitat-vella-734759/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/sociedad/20260810/adif-reemprende-miercoles-obras-trinitat-vella-vibraciones-desalojo-133227346"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
