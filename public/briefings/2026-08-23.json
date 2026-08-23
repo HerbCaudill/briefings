@@ -1,0 +1,252 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Canada will impose retaliatory tariffs on US steel, dairy, appliances, agricultural equipment, pulp and paper, electronics and other products from September 8, Prime Minister Mark Carney said after Washington placed 50% tariffs on about $20 billion in Canadian goods. Carney said negotiations had broken down over terms he called uneconomic, unfair and harmful to Canadian sovereignty, including demands affecting Canada’s ability to make other trade deals. The US measures cover sectors including wine, furniture, clothing, cement, fishing equipment and hockey gear; President Donald Trump responded by accusing Canada of seeking the benefits of statehood without becoming a state.",
+          "headline": "Canada vows dollar-for-dollar retaliation after US imposes 50% tariffs on some Canadian goods",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/canada-says-will-match-new-us-50-tariffs-dollar-for-dollar"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/canada-us-trade-war-trump-carney-tariffs-4d18583fe52134ca8550652ad9772d2c"
+            }
+          ]
+        },
+        {
+          "body": "Iran’s top security official, Mohsen Rezaei, warned that any country taking part in US economic restrictions on Iran would be considered an enemy and could face retaliation against its interests. He said Tehran would first seek talks with governments joining the US effort, but threatened to strike if they did not step back. The warning follows President Donald Trump’s pledge to launch what he called the most crushing economic operation against Iran, with Treasury Secretary Scott Bessent due to outline further sanctions. The dispute comes amid a continuing conflict, a largely halted Strait of Hormuz and stalled diplomatic efforts.",
+          "headline": "Iran says countries joining the US economic campaign against it will be treated as enemies",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260822-middle-east-live-iran-allows-several-iraqi-oil-tankers-to-pass-through-hormuz"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/23/iran-new-security-chief-trump-economic-war-enemies-mohsen-rezaei"
+            }
+          ]
+        },
+        {
+          "body": "Russia and Ukraine exchanged major air attacks that officials said killed at least 17 people, while President Vladimir Putin warned that Ukraine’s strikes on Russian economic targets had opened “Pandora’s box” and would draw a more destructive response. Russian attacks killed at least seven people in Ukraine, including one in Kyiv after ballistic missiles hit railway infrastructure, while Ukrainian strikes killed at least 10 people in Russia and Russian-occupied territory. The latest exchange followed a Russian drone attack on a Kryvyi Rih shopping centre that reportedly killed 16 people. France said it would send additional interceptor missiles as Ukraine’s air defences face mounting pressure.",
+          "headline": "Russia and Ukraine trade fresh attacks as France pledges interceptor missiles to Kyiv",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/france-to-deliver-interceptor-missiles-to-ukraine-after-fresh-wave-of-russian-strikes"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/almenys-14-morts-en-un-doble-atac-rus-a-un-centre-comercial-de-la-ciutat-natal-de-zelenski/noticia/3425467/"
+            }
+          ]
+        },
+        {
+          "body": "An Israeli drone strike hit a vehicle near Beit Jinn, southwest of Damascus, wounding several people, according to Syrian officials, who condemned it as a violation of sovereignty and international law. Israel said it had targeted a person preparing imminent attacks against its forces. The incident was Israel’s second reported strike in Syria within a week and followed an attack on the Abu al-Duhur airbase near the Turkish border. US envoy Tom Barrack said the earlier strike may have been intended to provoke Turkey, a claim Israel’s defence minister rejected as inaccurate.",
+          "headline": "Israel strikes near Damascus as tensions with Syria and Turkey deepen",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c2dkdegr2xeo"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/22/israeli-drone-strike-on-civilian-vehicle-causes-injuries-in-syria"
+            }
+          ]
+        },
+        {
+          "body": "The Democratic Republic of Congo has received more than 16,000 Ebola vaccine doses as authorities respond to an outbreak that has killed more than 2,500 people. World Health Organization officials have warned that the epidemic is spreading exponentially and could surpass the 2014-16 West African outbreak, the deadliest Ebola outbreak on record. UN officials have also warned that existing emergency funds could be exhausted within weeks, adding urgency to vaccination and containment efforts.",
+          "headline": "DR Congo receives Ebola vaccine doses as officials warn the outbreak is spreading rapidly",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/dr-congo-receives-ebola-vaccines-in-face-of-exponential-outbreak"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/ebola-epidemic-in-dr-congo-is-spreading-18-times-faster-than-deadliest-outbreak-on-record"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "A federal judge in New York vacated a Trump administration policy that suspended immigrant-visa processing for nationals of 75 countries, including Afghanistan, Iran, Russia and Somalia. Judge Jeannette Vargas ruled that Secretary of State Marco Rubio had exceeded his authority and that the policy was contrary to the Immigration and Nationality Act because it required the refusal of visas to otherwise eligible applicants based on nationality. The case was brought by nonprofit groups and individuals whose relatives or employment-based applications had been affected; the administration may appeal.",
+          "headline": "Federal judge strikes down Trump administration policy suspending visas for nationals of 75 countries",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/trump-administration-visa-ban-immigration-64feb19b54d1bce50891437a5ba25d50"
+            }
+          ]
+        },
+        {
+          "body": "Thousands of residents in northwest Indiana were still without power nine to 10 days after severe storms, leaving families reliant on generators, fuel lines, food distribution and other emergency support. The prolonged outage has put communities including Gary into what residents described as survival mode, while utility crews continue repairing damaged power lines. The disruption has compounded the strain on households already dealing with storm damage and a long recovery.",
+          "headline": "Thousands in Indiana remain without electricity more than a week after severe storms",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/08/22/thousands-indiana-residents-still-without-power-10-days-after-storm/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/indiana-power-outages-gary-ohio-floods-e0fbdd4a721b6269e8ec62e512299b11"
+            }
+          ]
+        },
+        {
+          "body": "Tropical Storm Moke was moving toward Hawaii with strengthening winds and the potential to bring more heavy rain and gusts to the Big Island, where communities are still recovering from flooding and wind damage caused by Hurricane Lala. The approaching system raised concerns about further mudslides, washed-out roads and debris in areas already hit by the earlier storm. NOAA satellite imagery showed Moke advancing across the Pacific toward the islands.",
+          "headline": "Tropical Storm Moke strengthens as it approaches Hawaii",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/hawaii-tropical-storm-moke-hurricane-lala-df1cd9f982a4013fbb8fb63164247690"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/hawaii-tropical-lala-moke-rain-mudslides-430ec3d8fca83646e9478b3161e96e92"
+            }
+          ]
+        },
+        {
+          "body": "Democrats have largely converged on a tougher message about border security but remain split over whether Immigration and Customs Enforcement should be reformed or abolished. Progressive candidates in several Senate races have embraced abolishing ICE, while moderates and candidates in border states argue for stricter safeguards, such as body cameras and limits on enforcement practices. A Politico poll found strong support for abolition among progressive Democrats but far less among undecided midterm voters, highlighting a strategic divide as the party tries to appeal both to its energized base and to swing voters.",
+          "headline": "Democrats remain divided between reforming and abolishing ICE ahead of the midterms",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/08/22/democrats-ice-midterms-01045482"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain’s management of the mass arrival of migrants in Ceuta has been complicated by tensions between the central and local governments, limited accommodation and growing local opposition to temporary shelters. Morocco’s justice minister has called for an agreement covering the return of both survivors and the bodies of people who died during the crossing, saying Rabat requires forensic information and wants Moroccan minors in Ceuta repatriated as part of a broader solution. Morocco has also renewed claims to Ceuta and Melilla, prompting Spain to state that both are Spanish cities and part of EU territory.",
+          "headline": "Ceuta faces a worsening migration crisis as Morocco seeks the return of survivors and the dead",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-23/ceuta-la-crisis-imposible.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260822/marruecos-devuelva-migrantes-supervivientes-ceuta/17199032.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260822/espana-traslada-marruecos-rechazo-tajante-133558513"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Health Ministry has called an urgent meeting with regional authorities to coordinate vaccine supplies for migrants who remain in Ceuta after the mass arrival from Morocco at the end of July. Authorities plan to prioritize vaccination against measles, chickenpox, polio, tetanus and diphtheria, while a ministry delegation assesses pressure on the city’s hospital and primary-care services. Official figures recorded 5,801 crisis-related medical consultations between July 31 and August 14, alongside more than 2,500 Red Cross treatments, as local medical groups warn that services are overwhelmed.",
+          "headline": "Spain convenes an emergency meeting to send vaccines to Ceuta amid pressure on health services",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260822/sanidad-urgencia-vacunas-ceuta-presion-crisis-inmigrantes/17198984.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/sanitat-convoca-les-comunitats-autonomes-perque-aportin-vacunes-per-als-migrants-de-ceuta/noticia/3425518/"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Supreme Court rejected an emergency request by three senators from the opposition Popular Party to force ministers to appear before the Senate during August over the Ceuta migration crisis. The court said the legally required exceptional urgency had not been demonstrated and that parliamentary scrutiny would not lose its purpose if the matter proceeded through the ordinary process with the government given a chance to respond. State lawyers have been given 10 days to submit arguments in the ordinary interim proceedings.",
+          "headline": "Spain's Supreme Court rejects an opposition bid to compel ministers to appear before the Senate over Ceuta",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260822/supremo-agosto-comparecencias-ministros-crisis-ceuta/17198773.shtml"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Torrential overnight rain flooded parts of the Costa Daurada, forcing evacuations from campsites and a nightclub and causing hundreds of emergency incidents in the Baix Penedès and northern Tarragonès. About 300 people were evacuated from a campsite in Roda de Berà, while flooding damaged roads, vehicles, hotels and beachfront areas. Seven people were injured, including three when a wall collapsed at Roda de Berà’s port, and emergency services received nearly 700 calls. Rainfall exceeded 100 litres per square metre in several places, with some local reports of far higher totals in only a few hours.",
+          "headline": "Torrential rain floods parts of the Costa Daurada, triggering evacuations and widespread incidents",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/evacuats-dun-camping-de-roda-de-bera-laigua-ens-arribava-fins-al-melic-i-hem-sortit-corrents/noticia/3425492/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/general/aiguats-torrencials-calor-frenada/"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/catalunya/2026/08/22/pluges-fins-200-litres-provoquen-incidencies-sud-catalunya-133561623.html"
+            }
+          ]
+        },
+        {
+          "body": "Hundreds of anti-fascist demonstrators gathered in Barcelona’s Plaça de Sant Jaume as the far-right Save Europe Act movement held a smaller rally calling for “remigration.” Authorities kept the groups apart with a large police deployment, and no major incidents were reported beyond verbal confrontations. Barcelona City Council said it would refer messages from the far-right event to prosecutors, arguing that its banner and chants, including “This is not immigration, it is invasion,” could amount to hate speech. The movement says it seeks EU-wide restrictions on non-European immigration and faster deportations.",
+          "headline": "Hundreds of anti-fascist demonstrators overshadow a far-right Save Europe Act rally in Barcelona",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/concentracio-antifeixista-contra-save-europe-act-sant-jaume/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sucesos/20260822/save-europe-act-reune-centenar-ultras-antifascistas-plaza-sant-jaume-barcelona-133573655"
+            }
+          ]
+        },
+        {
+          "body": "The user-led Transporta’m public-transport app will release an update adding real-time information for Barcelona’s Metro and Bicing systems. The Metro feature will show train positions and passenger volume on a map, while Bicing data will show the number of available bicycles and empty docking spaces. The app, created by the Dignitat a les Vies platform with the PTP transport association, already has about 90,000 users and also covers Rodalies, regional Renfe services, FGC and other municipal transport information.",
+          "headline": "Barcelona public-transport app adds real-time Metro and Bicing information",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/informacio-temps-real-metro-bicing-actualitzacio-transportam/"
+            }
+          ]
+        },
+        {
+          "body": "Nearly 63,000 people are waiting to obtain a driving licence in Barcelona, a backlog that has grown 34% over four years and can mean waits of about six months even to begin practical lessons. Driving-school representatives blame shortages of both examiners and administrative staff at the traffic authority, saying examiners are sometimes diverted to office tasks. Although the DGT plans to add examiner posts in Catalonia, industry representatives say Barcelona’s high cost of living has made it difficult to attract staff, contributing to financial pressure on local driving schools.",
+          "headline": "Barcelona driving-test backlog reaches nearly 63,000 applicants",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/sis-mesos-espera-pujar-examen-carnet-conduir/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
