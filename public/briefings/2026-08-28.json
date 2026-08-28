@@ -1,0 +1,250 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Flash floods triggered by a Himalayan glacier collapse have killed nearly 600 people in Nepal and Tibet, with thousands still missing and at least 93,000 people believed affected, according to the Red Cross. The disaster destroyed villages, roads, bridges and power infrastructure, leaving some communities inaccessible. Rescuers temporarily halted operations after a debris-dammed lake near the border began overflowing, raising fears of another destructive surge downstream toward river systems leading south from the region.",
+          "headline": "Nepal-Tibet floods leave hundreds dead as a new upstream lake threatens further disaster",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/28/is-nepal-facing-another-devastating-flood-from-a-new-lake"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/nepal-flood-disaster-reconstructed-minute-by-minute"
+            }
+          ]
+        },
+        {
+          "body": "Iran says it is drawing up conditions for reopening the Strait of Hormuz after requests from mediators, insisting that the United States must first take practical steps to meet its demands. The move comes six months into a conflict that has disrupted global energy supplies and widened regional fighting. While the United States and Israel claim progress toward their goals, analysts cited by Al Jazeera say Iran retains key nuclear capabilities and that many of Washington's objectives remain unresolved.",
+          "headline": "Iran says it will draft conditions for reopening the Strait of Hormuz",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/28/iran-war-live-tehran-prepares-conditions-to-open-strait-of-hormuz"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/28/after-six-months-of-war-what-have-us-iran-gained-and-lost"
+            }
+          ]
+        },
+        {
+          "body": "Nikolay Mladenov, the Board of Peace's high representative, has warned that failures by both Israeli and Palestinian sides to follow a peace roadmap threaten the Gaza ceasefire and that a return to war would be devastating. He said plans for an International Stabilization Force were advancing and that reconstruction pledges had reached $7 billion, but Israel has publicly disputed elements of the roadmap. Continued Israeli attacks and severe constraints on Gaza's farmers and food production underline the fragility of humanitarian conditions in the territory.",
+          "headline": "Gaza ceasefire risks collapse, Board of Peace envoy warns",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/28/board-of-peace-envoy-mladenov-warns-gaza-ceasefire-risks-collapse"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/26/gaza-farmers-struggle-scraps-of-land-constant-threat"
+            }
+          ]
+        },
+        {
+          "body": "Norway is observing national mourning after King Harald V died in Oslo at age 89, ending a reign that began in 1991. His son, Crown Prince Haakon, immediately succeeded him as King Haakon VIII and will swear an accession oath before parliament in the coming days. Thousands gathered outside the royal palace as flags were lowered and church bells rang, while leaders across Europe paid tribute to Harald's public service. The succession comes as scrutiny of Crown Princess Mette-Marit's past associations and family controversies continues.",
+          "headline": "Norway mourns King Harald V as Haakon VIII succeeds him",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/28/norway-king-harald-dies-leaving-stormy-succession-mette-marit-crown-princesss-epstein-links"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
+            }
+          ]
+        },
+        {
+          "body": "Western officials estimate that Russia is suffering about 6,000 more casualties each month in Ukraine than it can replace, despite recruiting roughly 1,000 people daily. They say Moscow is unlikely to risk another large mobilisation because of the political and economic fallout from its 2022 call-up. Fighting remains intense around Ukraine's eastern fortress belt, including Sloviansk and Kostiantynivka, while Kyiv is increasingly targeting Russian airfields, fuel infrastructure, missile assets and supply routes rather than relying solely on air defenses.",
+          "headline": "Russia is losing thousands more troops each month than it can recruit, Western officials say",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/28/ukraine-reinforces-donetsk-as-it-seeks-to-disrupt-russias-weapons-flow"
+            }
+          ]
+        },
+        {
+          "body": "Meta has settled a lawsuit brought by 29 US states over claims that Facebook and Instagram were designed to addict young users, agreeing to pay up to $18 billion and introduce changes including youth time limits and restrictions on nighttime use. Critics say the agreement falls short because it does not end features such as infinite scrolling and disappearing stories, while the company avoided a trial and its shares rose after the deal. The settlement may encourage regulators elsewhere to seek similar concessions, though separate cases concerning Meta's global impact remain unresolved.",
+          "headline": "Meta reaches major settlement with US states over alleged harms to young users",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/claus-de-la-multa-multimilionaria-a-meta-limitacions-i-com-afecta-a-europa/noticia/3426029/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "President Donald Trump signed an executive order directing US federal agencies to use the name “Lake America” for Lake Ontario, escalating tensions with Canada amid a widening trade dispute. The order applies only to US government maps, documents and geographic databases and cannot compel Canada or international mapmakers to adopt the name. Canadian Prime Minister Mark Carney and several Great Lakes governors rejected the change, while Trump linked it to his broader criticism of Canada and its trade relationship with the United States.",
+          "headline": "Trump signs order renaming Lake Ontario “Lake America” in the US",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/lake-ontario-canada-america-trump-trade-war-3ac58dca0ca83c15605d4dbff146b28a"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america"
+            }
+          ]
+        },
+        {
+          "body": "Jurors resumed deliberations in the Massachusetts murder trial of Lindsay Clancy, who is charged in the deaths of her three children. The case has drawn intense attention following closing arguments by prosecutors seeking a guilty verdict and defense lawyers arguing on Clancy's behalf. The jury's second day of deliberations took place at Plymouth Superior Court.",
+          "headline": "Jury deliberates in Lindsay Clancy trial over deaths of her three children",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/lindsay-clancy-trial-deliberations-e9d58e81851b146736efe94f26956cd6"
+            }
+          ]
+        },
+        {
+          "body": "A federal investigation found that a chemical tank at a Longview, Washington, paper mill had been judged “not fit for continued service” 10 months before it failed in May, killing 11 people. The US Chemical Safety Board said an inspection contractor had recommended internal inspections and repairs, but Nippon Dynawave Packaging did not carry them out before the failure. The cause remains under investigation, while the company says it is cooperating with investigators and supporting affected workers and families.",
+          "headline": "Washington chemical tank had been deemed unfit before deadly failure, investigators say",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/nippon-dynawave-longview-chemical-tank-rupture-washington-3da9aff673419848f5cc29e076baabeb"
+            }
+          ]
+        },
+        {
+          "body": "Federal immigration agents have detained dozens of people in Danbury, Connecticut, during an operation that local officials and activists say has frightened immigrant families and disrupted the start of the school year. Advocates said more than 50 people had been arrested by Wednesday evening, including people detained near homes, parks, schools and daycare facilities. Homeland Security said agents had targeted public-safety threats, while newly released data show ICE arrests rising nationally despite state laws intended to limit immigration enforcement cooperation.",
+          "headline": "ICE arrests are rising even in Democratic-leaning states, Connecticut operation highlights",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/dhs-ice-connecticut-danbury-arrests-immigration-d8695bbb883591669accaf266e8bb6a9"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Tensions in Ceuta are intensifying after the mass arrival of tens of thousands of migrants from Morocco in late July. Protesters have attempted to block Red Cross food distributions, police have intervened to prevent clashes, and parts of a migrant camp were burned amid growing anger over the pace of returns. Interior Minister Fernando Grande-Marlaska told parliament that authorities had not been able to foresee an influx on that scale, saying misinformation and several overlapping factors contributed to the crisis.",
+          "headline": "Tensions and violence deepen in Ceuta as Spain struggles to support migrants",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-08-28/el-gobierno-pide-al-pp-que-le-ayude-a-parar-la-violencia-en-ceuta-en-medio-de-bloqueos-del-reparto-de-comida-a-los-inmigrantes.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260828/comparecencia-marlaska-congreso-crisis-migratoria-ceuta/17204418.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260828/11621316/ceuta-acerca-estallido-social-quema-campamento-migrantes.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's annual inflation rate rose seven-tenths of a point to 4.3% in August, its highest level in more than three years, according to preliminary figures from the National Statistics Institute. Higher fuel and vehicle-lubricant prices, linked to the energy shock from the Iran conflict, were the main cause, with food prices also contributing. Core inflation, which excludes energy and unprocessed food, eased slightly to 2.9%, while the government is increasing its diesel tax relief from September.",
+          "headline": "Spain's inflation rises above 4% in August, driven by fuel prices",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260828/11621516/inflacion-dispara-encima-4-agosto-encarecimiento-carburantes.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/els-preus-es-disparen-a-lagost-pel-carburant-lipc-puja-al-4-3-la-taxa-mes-alta-en-3-anys/noticia/3426125/"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Eighteen families and seven businesses displaced by a sinkhole linked to Barcelona's L9 metro works may not be able to return until early 2027. Authorities say ground-consolidation work beneath buildings on Rubinstein and Teodora Lamadrid streets must be completed before the tunnel-boring machine can resume safely. Most of the initially affected homes have already been cleared for return, and another 15 homes may reopen in the coming weeks, but the remaining properties include a building with more serious structural damage.",
+          "headline": "Families displaced by Putxet metro-work sinkhole may not return home until early 2027",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/divuit-families-afectades-per-lesvoranc-de-ll9-no-podran-tornar-a-casa-fins-al-gener-del-2027/noticia/3426217/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260828/tres-bloques-putxet-afectados-socavon-no-podran-volver-principios-2027-133732300"
+            }
+          ]
+        },
+        {
+          "body": "A cable theft between La Sagrera and Badalona has disrupted Barcelona's R1 commuter rail service, limiting trains between L'Hospitalet de Llobregat and Maçanet-Massanes to two per hour in each direction. The incident was detected shortly before 3 p.m. and has caused average delays of about 25 minutes, with longer journeys possible near the affected stretch. Adif staff are working to restore normal service.",
+          "headline": "Cable theft between La Sagrera and Badalona causes major R1 commuter rail delays",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/robatori-cable-sagrera-badalona-retards/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260828/robo-cable-sagrera-badalona-barcelona-r1-rodalies-133737971"
+            }
+          ]
+        },
+        {
+          "body": "Sea water off Barcelona reached 27.9°C at a depth of one metre, a new local record and around 2.4°C above the seasonal average. The unusually warm Mediterranean follows a summer of record air and water temperatures across the region, with temperatures exceeding 28°C near Tarragona and nearing 31°C at Sa Dragonera in the Balearic Sea. Experts warn that warmer seas can intensify tropical nights and provide additional energy for severe storms when colder air arrives aloft.",
+          "headline": "Barcelona records a new sea-temperature high of 27.9°C",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/nou-record-aigua-mar/"
+            }
+          ]
+        },
+        {
+          "body": "Firefighters continue to monitor and cool the perimeter of the Collserola wildfire, which has burned 54 hectares and is the largest fire in the range in three decades. Although the blaze is under control, crews have found hot spots inside the perimeter that could flare up in the wind. Officials say unusual westerly winds helped the fire spread rapidly, while access restrictions in parts of Collserola also remain in place because of efforts to contain African swine fever among wild boar.",
+          "headline": "Authorities continue monitoring the Collserola wildfire after it burned 54 hectares",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/bomber-graf-preveu-grans-incendis-collserola-mes-sovint/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/economia/20260827/acceso-restringido-collserola-cero-casos-peste-porcina-133709866"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona City Council has announced €150 million in new investment for blue-economy projects through 2030, roughly €50 million more than in the previous strategy period. Most of the funding will support facilities including the Maritime Technology Park, BlueTechPort and Barcelona Mar de Ciència, with further potential funding available through investment and port-innovation programs. The strategy also expands beyond marine industries to include freshwater management, urban drainage, water reuse and projects intended to strengthen the city's international role in sustainable ocean innovation.",
+          "headline": "Barcelona plans an additional €150 million for blue-economy projects through 2030",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260828/barcelona-inversion-150-millones-economia-azul-ano-2030-133733071"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
