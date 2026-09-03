@@ -64,6 +64,7 @@ export async function runLiveMorningBriefing(
             lane,
             model: MORNING_BRIEFING_MODEL,
             schemaPath: gatherSchemaPath,
+            timeZone: args.timeZone,
           }),
         ),
       lanes: MORNING_BRIEFING_LANES,
@@ -104,6 +105,7 @@ export async function runLiveMorningBriefing(
             model: MORNING_BRIEFING_MODEL,
             schemaPath: synthesisSchemaPath,
             synthesisDirectoryPath: paths.synthesisDirectoryPath,
+            timeZone: args.timeZone,
           }),
         ),
     })
@@ -176,6 +178,7 @@ export function describeMorningBriefingDryRun(
     },
     lanes: MORNING_BRIEFING_LANES.map(lane => ({ key: lane.key, sources: lane.sources })),
     paths,
+    timeZone: args.timeZone,
   }
 }
 
@@ -198,10 +201,12 @@ export type RunLiveMorningBriefingArgs = {
   cwd?: string
   /** Optional daily-note directory. */
   dailyNotesDirectoryPath?: string
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** Optional run instant. */
   now?: Date
   /** Optional private state directory. */
   stateDirectoryPath?: string
+  /** IANA time zone used to interpret the target date. */
+  timeZone: string
 }

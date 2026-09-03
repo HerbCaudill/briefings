@@ -45,7 +45,7 @@ export type MorningBriefingRunPaths = {
 }
 
 type GetMorningBriefingRunPathsArgs = {
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** Run instant used to produce a unique directory. */
   now: Date

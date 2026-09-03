@@ -29,7 +29,7 @@ export function upsertDailyBriefing(
 export function publishDailyBriefingToNote(
   /** Daily notes directory. */
   dailyDirectoryPath: string,
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string,
   /** Validated Daily briefing Markdown. */
   briefing: string,

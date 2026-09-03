@@ -12,7 +12,7 @@ Assigned sources, in this exact spelling and order:
 
 Use the connected Google Calendar tools for calendars. Inspect the accessible calendar list and match non-primary calendar names case-insensitively. Do not substitute a similarly named calendar.
 
-For the primary calendar, read today's events. Record Europe/Madrid start time, duration, title, event URL, response status, useful event context, declines, pending invitations, and meaningful free stretches.
+For the primary calendar, read today's events. Record start time in the local time zone stated in the run context, duration, title, event URL, response status, useful event context, declines, pending invitations, and meaningful free stretches.
 
 For Lynne's calendar, read today's timed events and report aggregate workload only: occupied therapy hours, occupied hours for other meetings or appointments, the end time of her last busy event, and any overlap between categories. Classify therapy only when the title or existing calendar label supports it. Exclude declined, cancelled, all-day, and free events. Never expose client names or individual therapy titles.
 

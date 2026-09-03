@@ -58,7 +58,8 @@ ${readMorningBriefingPrompt(args.lane.promptFileName)}
 
 ## Run context
 
-- Europe/Madrid date: ${args.date}
+- Local date: ${args.date}
+- Local time zone: ${args.timeZone}
 - Carryover artifact: ${args.carryoverPath}
 `
 }
@@ -110,7 +111,7 @@ type GatherMorningBriefingLaneArgs = {
   codexCommand: string
   /** Working repository path. */
   cwd: string
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** Environment inherited by Codex. */
   environment: NodeJS.ProcessEnv
@@ -122,4 +123,6 @@ type GatherMorningBriefingLaneArgs = {
   model: string
   /** Gather output JSON Schema path. */
   schemaPath: string
+  /** IANA time zone used to interpret the target date. */
+  timeZone: string
 }

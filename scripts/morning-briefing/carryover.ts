@@ -3,7 +3,7 @@ import { join } from "node:path"
 
 /** Build the carryover investigation artifact from the latest three prior briefings. */
 export function buildCarryoverMarkdown(
-  /** Daily-note directory and current Europe/Madrid date. */
+  /** Daily-note directory and current local date. */
   args: BuildCarryoverMarkdownArgs,
 ): string {
   const entries = readdirSync(args.dailyDirectoryPath)
@@ -59,6 +59,6 @@ function escapeRegExp(value: string): string {
 type BuildCarryoverMarkdownArgs = {
   /** Directory containing dated Markdown notes. */
   dailyDirectoryPath: string
-  /** Current Europe/Madrid date, excluded from carryover. */
+  /** Current local date, excluded from carryover. */
   date: string
 }

@@ -16,7 +16,7 @@ The coordinator will own every subprocess and wait for each one directly. It wil
 
 ## Tasks
 
-1. Add dated run paths, Europe/Madrid date handling, carryover extraction, atomic persistence, and daily-note section replacement.
+1. Add dated run paths, local-time-zone date handling, carryover extraction, atomic persistence, and daily-note section replacement.
 2. Define the shared gather-result and synthesis-result schemas plus standalone prompts for the schedule, communications, work, and synthesis agents.
 3. Add a Codex CLI runner that writes model output and JSONL events, then orchestrate the three gatherers concurrently with explicit failure artifacts.
 4. Add final briefing validation, Obsidian publication and sync, and clean pinned-task presentation through Codex App Server.

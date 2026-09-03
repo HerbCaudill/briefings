@@ -4,7 +4,7 @@ import { mkdirSync } from "node:fs"
 import { join } from "node:path"
 
 import { MORNING_BRIEFING_STATE_DIRECTORY_PATH } from "./constants.ts"
-import { formatMadridDate } from "./date.ts"
+import { formatLocalDate, getLocalTimeZone } from "./date.ts"
 import { describeMorningBriefingDryRun, runLiveMorningBriefing } from "./liveRuntime.ts"
 import { acquireMorningBriefingRunLock } from "./runLock.ts"
 
@@ -13,13 +13,16 @@ async function main(): Promise<void> {
   const arguments_ = process.argv.slice(2)
   const dryRun = arguments_.includes("--dry-run")
   const dateArgument = arguments_.find(argument => !argument.startsWith("--"))
-  const date = dateArgument ?? formatMadridDate()
+  const timeZone = getLocalTimeZone()
+  const date = dateArgument ?? formatLocalDate(new Date(), timeZone)
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date))
     throw new Error(`Expected a YYYY-MM-DD date, received ${date}`)
 
   if (dryRun) {
-    process.stdout.write(`${JSON.stringify(describeMorningBriefingDryRun({ date }), null, 2)}\n`)
+    process.stdout.write(
+      `${JSON.stringify(describeMorningBriefingDryRun({ date, timeZone }), null, 2)}\n`,
+    )
     return
   }
 
@@ -29,7 +32,7 @@ async function main(): Promise<void> {
   )
 
   try {
-    const briefing = await runLiveMorningBriefing({ date })
+    const briefing = await runLiveMorningBriefing({ date, timeZone })
     process.stdout.write(briefing)
   } finally {
     releaseLock()

@@ -569,12 +569,13 @@ function toError(error: unknown): Error {
   return error instanceof Error ? error : new Error(String(error))
 }
 
-/** Format a YYYY-MM-DD date as a stable human-readable Madrid date. */
+/** Format a calendar date without shifting it through a local time zone. */
 function formatDisplayDate(date: string): string {
+  const [year, month, day] = date.split("-").map(Number)
   return new Intl.DateTimeFormat("en-US", {
     dateStyle: "long",
-    timeZone: "Europe/Madrid",
-  }).format(new Date(`${date}T12:00:00Z`))
+    timeZone: "UTC",
+  }).format(new Date(Date.UTC(year!, month! - 1, day!)))
 }
 
 export type MorningBriefingThreadSummary = {
@@ -593,7 +594,7 @@ type PresentMorningBriefingInCodexArgs = {
   codexCommand?: string
   /** Daily note path read by the presentation agent. */
   dailyNotePath: string
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** App Server JSONL event log path. */
   eventsPath: string

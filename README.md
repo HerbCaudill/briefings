@@ -44,7 +44,7 @@ During synthesis, only the URLs selected by the first `pi` pass are fetched and 
 
 ## Personal morning briefing
 
-`pnpm briefing:morning` runs a local workflow for the current Europe/Madrid date. An optional `YYYY-MM-DD` argument backfills another date, and `--dry-run` prints the planned lanes, destinations, and artifact paths without contacting sources or writing either destination.
+`pnpm briefing:morning` runs a local workflow for the current date in the machine's time zone. An optional `YYYY-MM-DD` argument backfills another date, and `--dry-run` prints the time zone, planned lanes, destinations, and artifact paths without contacting sources or writing either destination.
 
 The workflow extracts carryover from the three latest daily briefings, then runs three ephemeral Codex agents in parallel:
 

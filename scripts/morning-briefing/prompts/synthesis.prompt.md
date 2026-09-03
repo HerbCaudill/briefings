@@ -30,7 +30,7 @@ Under Sources, include every source below in this exact order. Use `- [x] Source
 - Meeting transcripts
 - Local agent sessions
 
-Under Calendar, list each timed primary event in Europe/Madrid order as `- 14:00 **[Event](URL)** (1h)`. Put useful context, a decline, pending response, or other unusual status on the following indented line. Add one short line about free stretches when useful.
+Under Calendar, list each timed primary event in chronological order using the local time zone stated in the run context, as `- 14:00 **[Event](URL)** (1h)`. Put useful context, a decline, pending response, or other unusual status on the following indented line. Add one short line about free stretches when useful.
 
 Under Other calendars, write exactly three compact bullets in this order: `**Lynne:**` with aggregate hours and last busy time only; `**DevResults:**` with explicit absences; and `**Family and Tamariu House:**` with relevant dated plans. Do not reveal client names or individual therapy details.
 

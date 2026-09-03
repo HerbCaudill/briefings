@@ -1,24 +1,20 @@
-/** Format a date as YYYY-MM-DD in Europe/Madrid. */
-export function formatMadridDate(
+/** Read the machine's current IANA time zone. */
+export function getLocalTimeZone(): string {
+  return Intl.DateTimeFormat().resolvedOptions().timeZone
+}
+
+/** Format a date as YYYY-MM-DD in the current local time zone. */
+export function formatLocalDate(
   /** Instant to format. */
   date: Date = new Date(),
+  /** IANA time zone, defaulting to the machine's current zone. */
+  timeZone: string = getLocalTimeZone(),
 ): string {
   return new Intl.DateTimeFormat("en-CA", {
     day: "2-digit",
     month: "2-digit",
-    timeZone: "Europe/Madrid",
+    timeZone,
     year: "numeric",
-  }).format(date)
-}
-
-/** Format a human-readable date in Europe/Madrid. */
-export function formatMadridDisplayDate(
-  /** Instant to format. */
-  date: Date = new Date(),
-): string {
-  return new Intl.DateTimeFormat("en-US", {
-    dateStyle: "long",
-    timeZone: "Europe/Madrid",
   }).format(date)
 }
 

@@ -16,14 +16,19 @@ export async function synthesizeMorningBriefing(
 ): Promise<string> {
   writeTextAtomically(
     args.mergedPath,
-    `${JSON.stringify({ date: args.date, gatherResults: args.gatherResults }, null, 2)}\n`,
+    `${JSON.stringify(
+      { date: args.date, gatherResults: args.gatherResults, timeZone: args.timeZone },
+      null,
+      2,
+    )}\n`,
   )
 
   const prompt = `${readMorningBriefingPrompt("synthesis.prompt.md")}
 
 ## Run context
 
-- Europe/Madrid date: ${args.date}
+- Local date: ${args.date}
+- Local time zone: ${args.timeZone}
 - Carryover artifact: ${args.carryoverPath}
 - Merged gather artifact: ${args.mergedPath}
 `
@@ -66,7 +71,7 @@ type SynthesizeMorningBriefingArgs = {
   codexCommand: string
   /** Working repository path. */
   cwd: string
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** Environment inherited by Codex. */
   environment: NodeJS.ProcessEnv
@@ -82,4 +87,6 @@ type SynthesizeMorningBriefingArgs = {
   schemaPath: string
   /** Directory for synthesis attempts and event logs. */
   synthesisDirectoryPath: string
+  /** IANA time zone used to interpret the target date. */
+  timeZone: string
 }

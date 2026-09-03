@@ -38,7 +38,7 @@ export function finishMorningBriefingManifest(
 }
 
 export type MorningBriefingManifest = {
-  /** Target Europe/Madrid date. */
+  /** Target local date. */
   date: string
   /** Compact failure when the whole run did not finish. */
   error?: string
