@@ -9,6 +9,7 @@
     "format": "oxfmt",
     "lint": "eslint .",
     "briefing": "tsx scripts/news-briefing/run.ts",
+    "morning-briefing": "tsx scripts/morning-briefing/run.ts",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest"

@@ -1,0 +1,116 @@
+import { spawn } from "node:child_process"
+import { mkdirSync } from "node:fs"
+import { dirname } from "node:path"
+
+import { writeTextAtomically } from "./atomicWrite.ts"
+
+const AGENT_TIMEOUT_MS = 45 * 60 * 1_000
+const FORCE_KILL_DELAY_MS = 5_000
+
+/** Build the non-interactive Codex arguments shared by gather and synthesis agents. */
+export function getCodexExecArgs(
+  /** Paths and model settings for one agent run. */
+  args: GetCodexExecArgsArgs,
+): string[] {
+  return [
+    "exec",
+    "--model",
+    args.model,
+    "--sandbox",
+    "danger-full-access",
+    "--cd",
+    args.cwd,
+    "--thread-source",
+    args.threadSource,
+    "--ephemeral",
+    "--json",
+    "--output-schema",
+    args.schemaPath,
+    "--output-last-message",
+    args.outputPath,
+    "-",
+  ]
+}
+
+/** Run one ephemeral Codex agent and persist its complete JSONL event stream. */
+export async function runCodexAgent(
+  /** Agent process configuration and prompt. */
+  args: RunCodexAgentArgs,
+): Promise<void> {
+  mkdirSync(dirname(args.outputPath), { recursive: true })
+  mkdirSync(dirname(args.eventsPath), { recursive: true })
+
+  const child = spawn(args.codexCommand, getCodexExecArgs(args), {
+    env: args.environment,
+    stdio: ["pipe", "pipe", "pipe"],
+  })
+  const eventChunks: Buffer[] = []
+  const errorChunks: Buffer[] = []
+
+  child.stdout.on("data", chunk => eventChunks.push(Buffer.from(chunk)))
+  child.stderr.on("data", chunk => errorChunks.push(Buffer.from(chunk)))
+  child.stdin.end(args.prompt)
+
+  await new Promise<void>((resolve, reject) => {
+    let timedOut = false
+    const timeout = setTimeout(() => {
+      timedOut = true
+      child.kill("SIGTERM")
+      setTimeout(() => child.kill("SIGKILL"), FORCE_KILL_DELAY_MS).unref()
+    }, args.timeoutMs ?? AGENT_TIMEOUT_MS)
+
+    child.on("error", error => {
+      clearTimeout(timeout)
+      writeTextAtomically(args.eventsPath, Buffer.concat(eventChunks).toString("utf8"))
+      reject(error)
+    })
+    child.on("close", (code, signal) => {
+      clearTimeout(timeout)
+      writeTextAtomically(args.eventsPath, Buffer.concat(eventChunks).toString("utf8"))
+      if (timedOut) {
+        reject(new Error(`Codex timed out after ${args.timeoutMs ?? AGENT_TIMEOUT_MS}ms`))
+        return
+      }
+      if (code === 0) {
+        resolve()
+        return
+      }
+
+      const standardError = Buffer.concat(errorChunks).toString("utf8").trim()
+      const exitDescription = signal ? `stopped by ${signal}` : `exited with code ${code}`
+      reject(
+        new Error(
+          standardError
+            ? `Codex ${exitDescription}:\n${standardError}`
+            : `Codex ${exitDescription}`,
+        ),
+      )
+    })
+  })
+}
+
+export type GetCodexExecArgsArgs = {
+  /** Working repository path. */
+  cwd: string
+  /** Model ID. */
+  model: string
+  /** Schema-constrained final output path. */
+  outputPath: string
+  /** JSON Schema path for the final response. */
+  schemaPath: string
+  /** Source label for diagnostics. */
+  threadSource: string
+}
+
+export type RunCodexAgentArgs = GetCodexExecArgsArgs & {
+  /** Codex executable path. */
+  codexCommand: string
+  /** Complete JSONL event log path. */
+  eventsPath: string
+  /** Environment inherited by the agent process. */
+  environment: NodeJS.ProcessEnv
+  /** Prompt read from a standalone prompt file with run context appended. */
+  prompt: string
+  /** Optional timeout override. */
+  timeoutMs?: number
+}

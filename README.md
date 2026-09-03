@@ -11,6 +11,7 @@ pnpm lint            # Run ESLint
 pnpm test            # Run Vitest
 pnpm format          # Format the repo with Prettier
 pnpm briefing        # Fetch today's candidate file, then synthesize missing final briefings
+pnpm morning-briefing # Gather and publish today's personal morning briefing
 ```
 
 The briefing command also accepts an optional date argument:
@@ -37,6 +38,20 @@ During synthesis, only the URLs selected by the first `pi` pass are fetched and 
 
 ## Repo boundaries
 
-`briefings` owns crawling, extraction, raw persistence, final JSON generation, and the scheduler command itself (`pnpm briefing`).
+`briefings` owns both briefing pipelines: news crawling, extraction, raw persistence, and final JSON generation under `scripts/news-briefing/`; and the private multi-agent morning workflow under `scripts/morning-briefing/`.
 
-`dotfiles` should only own the LaunchAgent wiring that invokes the repo-owned scheduler command, plus any thin shared `news-briefing` skill description that assumes candidate files already exist.
+`dotfiles` should only own LaunchAgent wiring and thin shared skill wrappers. Scheduled commands live here.
+
+## Personal morning briefing
+
+`pnpm morning-briefing` runs a local workflow for the current Europe/Madrid date. An optional `YYYY-MM-DD` argument backfills another date, and `--dry-run` prints the planned lanes, destinations, and artifact paths without contacting sources or writing either destination.
+
+The workflow extracts carryover from the three latest daily briefings, then runs three ephemeral Codex agents in parallel:
+
+- schedule and Google Tasks;
+- Gmail and messaging; and
+- GitHub, meeting transcripts, and local agent sessions.
+
+Each agent writes schema-constrained JSON plus its complete JSONL event stream. One final agent reads the merged results and creates a validated canonical `final.md`. The publisher atomically writes that exact briefing under `## Daily briefing` in `~/Code/herbcaudill/notes/daily/YYYY-MM-DD.md`, waits for Obsidian Sync, then creates a clean dated Codex task with the same content. It discovers the current Pinned sidebar section, pins the new task, and unpins older morning briefing presentation tasks.
+
+Private artifacts never enter `public/` or Git. Each run has its own directory under `~/.local/state/morning-briefing/YYYY-MM-DD/`, including `carryover.md`, per-lane results and event logs, `merged.json`, synthesis attempts, `final.md`, the presentation event log, and `manifest.json`. A single-run lock prevents scheduled runs from overlapping.

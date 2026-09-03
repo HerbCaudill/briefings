@@ -1,0 +1,85 @@
+import { join } from "node:path"
+
+import { writeTextAtomically } from "./atomicWrite.ts"
+import { runCodexAgent } from "./codexAgent.ts"
+import { decodeSynthesisResult } from "./decodeAgentOutput.ts"
+import { readMorningBriefingPrompt } from "./readPromptFile.ts"
+import type { MorningBriefingGatherResult } from "./types.ts"
+import { validateFinalBriefingMarkdown } from "./validateBriefing.ts"
+
+const MAX_AGENT_ATTEMPTS = 2
+
+/** Persist merged gather results and synthesize one validated canonical briefing. */
+export async function synthesizeMorningBriefing(
+  /** Gather results, run paths, and Codex settings. */
+  args: SynthesizeMorningBriefingArgs,
+): Promise<string> {
+  writeTextAtomically(
+    args.mergedPath,
+    `${JSON.stringify({ date: args.date, gatherResults: args.gatherResults }, null, 2)}\n`,
+  )
+
+  const prompt = `${readMorningBriefingPrompt("synthesis.prompt.md")}
+
+## Run context
+
+- Europe/Madrid date: ${args.date}
+- Carryover artifact: ${args.carryoverPath}
+- Merged gather artifact: ${args.mergedPath}
+`
+  let lastError: Error | undefined
+
+  for (let attempt = 1; attempt <= MAX_AGENT_ATTEMPTS; attempt += 1) {
+    const outputPath = join(args.synthesisDirectoryPath, `attempt-${attempt}.json`)
+    const eventsPath = join(args.synthesisDirectoryPath, `attempt-${attempt}.events.jsonl`)
+
+    try {
+      await runCodexAgent({
+        codexCommand: args.codexCommand,
+        cwd: args.cwd,
+        environment: args.environment,
+        eventsPath,
+        model: args.model,
+        outputPath,
+        prompt,
+        schemaPath: args.schemaPath,
+        threadSource: "morning-briefing-synthesis",
+      })
+      const result = decodeSynthesisResult(outputPath)
+      const markdown = validateFinalBriefingMarkdown(result.markdown)
+      writeTextAtomically(args.finalPath, markdown)
+      return markdown
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error))
+    }
+  }
+
+  throw new Error(
+    `Morning briefing synthesis failed after ${MAX_AGENT_ATTEMPTS} attempts: ${lastError?.message ?? "Unknown error"}`,
+  )
+}
+
+type SynthesizeMorningBriefingArgs = {
+  /** Carryover artifact path. */
+  carryoverPath: string
+  /** Codex executable path. */
+  codexCommand: string
+  /** Working repository path. */
+  cwd: string
+  /** Target Europe/Madrid date. */
+  date: string
+  /** Environment inherited by Codex. */
+  environment: NodeJS.ProcessEnv
+  /** Canonical Markdown output path. */
+  finalPath: string
+  /** Schema-checked gather results. */
+  gatherResults: MorningBriefingGatherResult[]
+  /** Combined gather artifact path. */
+  mergedPath: string
+  /** Codex model ID. */
+  model: string
+  /** Synthesis output JSON Schema path. */
+  schemaPath: string
+  /** Directory for synthesis attempts and event logs. */
+  synthesisDirectoryPath: string
+}

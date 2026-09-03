@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["coverage", "lane", "report"],
+  "properties": {
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["detail", "source", "status"],
+        "properties": {
+          "detail": { "type": "string" },
+          "source": { "type": "string" },
+          "status": { "type": "string", "enum": ["covered", "incomplete"] }
+        }
+      }
+    },
+    "lane": { "type": "string" },
+    "report": { "type": "string" }
+  }
+}

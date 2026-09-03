@@ -8,6 +8,7 @@ pnpm preview         # Preview production build
 pnpm test            # Vitest
 pnpm format          # Prettier
 pnpm briefing        # Fetch today, then synthesize any missing final briefings
+pnpm morning-briefing # Gather and publish today's personal morning briefing
 ```
 
 ## Architecture
@@ -24,6 +25,8 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 **Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. `.github/workflows/daily-briefing.yml` runs `pnpm briefing` daily at 5:00 AM UTC, supports manual dispatch, and uses `pi --provider openai --model gpt-5.6-terra` with the `OPENAI_API_KEY` repository secret.
 
+**Morning briefing pipeline:** `scripts/morning-briefing/` — extracts carryover from recent Obsidian daily notes, runs schedule, communications, and work gather agents concurrently through `codex exec`, schema-checks and persists their results and JSONL events under `~/.local/state/morning-briefing/`, synthesizes one canonical Markdown briefing, atomically saves it to the daily note, waits for Obsidian Sync, and creates a clean pinned Codex presentation task. The local LaunchAgent invokes the executable repo entrypoint at 07:00.
+
 **Key app file:** `src/App.tsx` — contains all app logic: date state, fetching, keyboard navigation (Ctrl+D/P/N for today/prev/next), calendar popover for date selection. Types (`Briefing`, `Section`, `Story`, `Source`, `BriefingIndex`) are defined at the end of the file.
 
 **UI components** in `src/components/ui/` are shadcn/ui primitives (calendar, popover, button, dropdown-menu) built on Radix UI.
@@ -36,4 +39,4 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 ## Boundary with dotfiles
 
-`dotfiles` should only own the LaunchAgent wiring and the shared `news-briefing` skill wrapper. The fetch/extract pipeline, candidate daily files, and the scheduler command (`pnpm briefing`) live in this repo.
+`dotfiles` should only own LaunchAgent wiring and thin shared skill wrappers. The news and morning pipeline code, prompts, schemas, intermediate-file conventions, and scheduler commands live in this repo.
