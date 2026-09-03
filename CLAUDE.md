@@ -7,8 +7,8 @@ pnpm lint            # ESLint
 pnpm preview         # Preview production build
 pnpm test            # Vitest
 pnpm format          # Prettier
-pnpm briefing        # Fetch today, then synthesize any missing final briefings
-pnpm morning-briefing # Gather and publish today's personal morning briefing
+pnpm briefing:news    # Fetch today, then synthesize any missing final briefings
+pnpm briefing:morning # Gather and publish today's personal morning briefing
 ```
 
 ## Architecture
@@ -17,13 +17,13 @@ Daily news briefings viewer — a single-page React app that fetches and renders
 
 The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/news-briefing/`.
 
-**Fetch stage:** `pnpm briefing` clears any generated files for the requested date, crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, deduplicates by article URL, and writes compact metadata to `public/briefings/raw/YYYY-MM-DD.json` without fetching article pages.
+**Fetch stage:** `pnpm briefing:news` clears any generated files for the requested date, crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, deduplicates by article URL, and writes compact metadata to `public/briefings/raw/YYYY-MM-DD.json` without fetching article pages.
 
 **Synthesis stage:** The same command compares candidate files in `public/briefings/raw/` with final files in `public/briefings/`, invokes `pi` once to select stories from compact headline/URL metadata, fetches only those selected article bodies, writes the hydrated selection to `public/briefings/raw/YYYY-MM-DD-selection.json`, invokes `pi` again to summarize that selection, and writes the final app-facing JSON.
 
 **App data flow:** On mount, fetches `/briefings/index.json` (array of `{date, title}` objects). Selecting a date fetches `/briefings/{YYYY-MM-DD}.json` — a structured JSON object with `sections[]`, each containing a `title` and `stories[]`. Each story has a `headline`, `body`, and `sources[]` (with `name` and `url`). The app renders these directly as React components.
 
-**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. `.github/workflows/daily-briefing.yml` runs `pnpm briefing` daily at 5:00 AM UTC, supports manual dispatch, and uses `pi --provider openai --model gpt-5.6-terra` with the `OPENAI_API_KEY` repository secret.
+**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. `.github/workflows/daily-briefing.yml` runs `pnpm briefing:news` daily at 5:00 AM UTC, supports manual dispatch, and uses `pi --provider openai --model gpt-5.6-terra` with the `OPENAI_API_KEY` repository secret.
 
 **Morning briefing pipeline:** `scripts/morning-briefing/` — extracts carryover from recent Obsidian daily notes, runs schedule, communications, and work gather agents concurrently through `codex exec`, schema-checks and persists their results and JSONL events under `~/.local/state/morning-briefing/`, synthesizes one canonical Markdown briefing, atomically saves it to the daily note, waits for Obsidian Sync, and creates a clean pinned Codex presentation task. The local LaunchAgent invokes the executable repo entrypoint at 07:00.
 

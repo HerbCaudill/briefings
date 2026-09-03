@@ -60,4 +60,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Run briefing pipeline
-        run: pnpm briefing
+        run: pnpm briefing:news
