@@ -42,8 +42,7 @@ test("publishes verified research to the task's new list and retries task update
     }),
   )
   let listId = "inbox"
-  let notes =
-    "Research: queued; findings will be linked here for the morning review.\nPreserve this context."
+  let notes = "Preserve this context."
   vi.mocked(loadGoogleTasks).mockImplementation(async () => ({
     lists: [],
     tasks: [{ id: "task", listId, title: "Renew card", notes, status: "needsAction" }],
@@ -72,8 +71,7 @@ test("publishes verified research to the task's new list and retries task update
   await researchQueue()
   expect(runCodexAgent).toHaveBeenCalledTimes(1)
   expect(notes).toContain("Preserve this context.")
-  expect(notes).toContain("obsidian://open?vault=notes&file=Residence%20renewal")
-  expect(notes).toContain("Question: Which card do you hold?")
+  expect(notes).toContain("Next: Review requirements")
   expect(readFileSync(join(state, "research/hash.json.done"), "utf8")).toBeTruthy()
 })
 

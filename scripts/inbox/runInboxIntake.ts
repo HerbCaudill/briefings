@@ -39,7 +39,7 @@ export async function runInboxIntake(): Promise<number> {
       archivePath: join(VAULT_PATH, "Inbox archive.md"),
       statePath: join(INBOX_STATE_PATH, "captures"),
       date,
-      transfer: (capture, draft) => transferCapture({ capture, draft }),
+      transfer: (capture, draft, recovery) => transferCapture({ capture, draft, ...recovery }),
       classify: async capture => {
         writeTextAtomically(snapshotPath, JSON.stringify(await loadGoogleTasks()))
         const outputPath = join(INBOX_STATE_PATH, "agents", `${capture.id}.classification.json`)

@@ -71,32 +71,16 @@ export async function researchQueue(): Promise<void> {
           continue
         }
         const taskNotes = latest.notes ?? ""
-        const context = result.notePath
-          ? `Context: obsidian://open?vault=notes&file=${encodeURIComponent(result.notePath.replace(/\.md$/, ""))}`
-          : ""
-        const additions = [
-          result.notePath
-            ? "Research: ready for review."
-            : "Research: blocked; needs clarification.",
-          result.next ? `Next: ${result.next}` : "",
-          result.question ? `Question: ${result.question}` : "",
-          context,
-        ].filter(line => line && !taskNotes.includes(line))
-        const notes = [
-          taskNotes
-            .replace(
-              /^Research: queued; findings will be linked here for the morning review\.\n?/gm,
-              "",
-            )
-            .trimEnd(),
-          ...additions,
-        ]
-          .filter(Boolean)
-          .join("\n")
-        const params = { tasklist: latest.listId, task: latest.id }
-        await runGoogleTasks(["tasks", "tasks", "patch"], { params, body: { notes } })
-        const verified = (await runGoogleTasks(["tasks", "tasks", "get"], { params })) as GoogleTask
-        if (verified.notes !== notes) throw new Error("Research task-link verification failed")
+        const next = result.next ? `Next: ${result.next}` : ""
+        const notes = [taskNotes, taskNotes.includes(next) ? "" : next].filter(Boolean).join("\n")
+        if (notes !== taskNotes) {
+          const params = { tasklist: latest.listId, task: latest.id }
+          await runGoogleTasks(["tasks", "tasks", "patch"], { params, body: { notes } })
+          const verified = (await runGoogleTasks(["tasks", "tasks", "get"], {
+            params,
+          })) as GoogleTask
+          if (verified.notes !== notes) throw new Error("Research task-note verification failed")
+        }
         writeTextAtomically(donePath, `${new Date().toISOString()}\n`)
         console.log(`[inbox-research] Ready for review: ${latest.title}`)
       } catch (error) {
@@ -113,11 +97,7 @@ export async function researchQueue(): Promise<void> {
 /** Locate the task even after a list move. */
 async function findTask(record: CaptureRecord) {
   const { tasks } = await loadGoogleTasks()
-  return tasks.find(
-    task =>
-      !task.deleted &&
-      (task.id === record.target!.id || task.notes?.includes(`capture-${record.capture.id}`)),
-  )
+  return tasks.find(task => !task.deleted && task.id === record.target!.id)
 }
 
 /** Validate the result and confirm any promised note is inside the vault and nonempty. */

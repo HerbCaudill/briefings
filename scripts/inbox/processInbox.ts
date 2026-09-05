@@ -19,7 +19,15 @@ export async function processInbox(args: ProcessInboxArgs): Promise<number> {
         : { capture, date: args.date, draft: await args.classify(capture) }
       writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
       if (!record.target) {
-        record.target = await args.transfer(capture, record.draft)
+        record.target = await args.transfer(capture, record.draft, {
+          candidate: record.candidate,
+          insertionAttempted: record.insertionAttempted,
+          checkpoint: candidate => {
+            record.insertionAttempted = true
+            if (candidate) record.candidate = candidate
+            writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
+          },
+        })
         writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
       }
       archiveCapture(args, record)
@@ -38,7 +46,10 @@ function archiveCapture(args: ProcessInboxArgs, record: CaptureRecord): void {
   const archive = existsSync(args.archivePath) ? readFileSync(args.archivePath, "utf8") : ""
   if (!archive.includes(marker)) {
     const heading = `## ${record.date}`
-    const entry = `${record.capture.raw}\n\n[Google Task](${record.target!.url}) ${marker}\n\n`
+    const followUp = record.draft.question
+      ? `Follow-up for review: ${record.draft.question}\n\n`
+      : ""
+    const entry = `${record.capture.raw}\n\n${followUp}[Google Task](${record.target!.url}) ${marker}\n\n`
     const headingIndex = archive.indexOf(`${heading}\n`)
     const next =
       headingIndex === -1
@@ -76,5 +87,16 @@ type ProcessInboxArgs = {
   /** Read-only classifier. */
   classify: (capture: Capture) => Promise<CaptureDraft>
   /** Idempotent task creation with read-back verification. */
-  transfer: (capture: Capture, draft: CaptureDraft) => Promise<CaptureTarget>
+  transfer: (
+    capture: Capture,
+    draft: CaptureDraft,
+    recovery: {
+      /** Previously returned destination awaiting verification. */
+      candidate?: CaptureTarget
+      /** Whether Google may already have received the insertion. */
+      insertionAttempted?: boolean
+      /** Persist insertion intent or its returned destination. */
+      checkpoint: (candidate?: CaptureTarget) => void
+    },
+  ) => Promise<CaptureTarget>
 }

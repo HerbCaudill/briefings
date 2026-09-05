@@ -12,14 +12,12 @@ test("verifies a transfer before archiving and preserves captures appended durin
   const original = "2026-09-03T11:24:07+02:00: Keep laundry going today"
   const later = "2026-09-05T15:00:00+02:00: Call the plumber\n"
   writeFileSync(inboxPath, original)
-  const transfer = vi
-    .fn()
-    .mockResolvedValue({
-      id: "task",
-      listId: "inbox",
-      title: "Keep laundry going",
-      url: "https://tasks.google.com/task/task",
-    })
+  const transfer = vi.fn().mockResolvedValue({
+    id: "task",
+    listId: "inbox",
+    title: "Keep laundry going",
+    url: "https://tasks.google.com/task/task",
+  })
   const args = {
     inboxPath,
     archivePath,
@@ -39,6 +37,7 @@ test("verifies a transfer before archiving and preserves captures appended durin
   await processInbox(args)
   expect(readFileSync(inboxPath, "utf8")).toBe(later)
   expect(readFileSync(archivePath, "utf8")).toContain(original)
+  expect(readFileSync(archivePath, "utf8")).toContain("Still relevant? Originally September 3.")
   expect(readFileSync(archivePath, "utf8")).toContain("https://tasks.google.com/task/task")
 
   // A sync replay must not create another task or archive entry.

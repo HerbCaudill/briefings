@@ -38,6 +38,10 @@ export type CaptureRecord = {
   capture: Capture
   /** Classification saved before creating a task. */
   draft: CaptureDraft
+  /** Insertion intent persisted before the remote write. */
+  insertionAttempted?: boolean
+  /** Returned destination persisted before read-back verification. */
+  candidate?: CaptureTarget
   /** Destination recorded only after read-back verification. */
   target?: CaptureTarget
   /** Local processing date for the archive heading. */
