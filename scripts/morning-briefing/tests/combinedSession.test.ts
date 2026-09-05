@@ -46,5 +46,5 @@ readline.createInterface({ input: process.stdin }).on('line', line => {
     .filter(event => event.method === "test/turn")
   expect(turns).toHaveLength(2)
   expect(turns.map(turn => turn.params.threadId)).toEqual(["session", "session"])
-  expect(turns[1].params.input[0].text).toContain('listNames: ["Inbox", "Today"]')
+  expect(turns[1].params.input[0].text).toBe("$task-review inbox, today")
 })
