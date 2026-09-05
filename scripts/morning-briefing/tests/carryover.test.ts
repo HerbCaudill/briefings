@@ -6,7 +6,7 @@ import { describe, expect, test } from "vitest"
 import { buildCarryoverMarkdown } from "../carryover.ts"
 
 describe("buildCarryoverMarkdown", () => {
-  test("keeps only Open issues and Next steps from the three latest prior briefings", () => {
+  test("keeps only Open issues from the three latest prior briefings", () => {
     const root = mkdtempSync(join(tmpdir(), "morning-carryover-"))
     const dailyDirectoryPath = join(root, "daily")
     mkdirSync(dailyDirectoryPath)
@@ -27,6 +27,7 @@ describe("buildCarryoverMarkdown", () => {
     expect(carryover).toContain("## 2026-08-30")
     expect(carryover).not.toContain("Today's issue")
     expect(carryover).not.toContain("Completed work")
+    expect(carryover).not.toContain("Follow up on")
   })
 })
 

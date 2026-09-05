@@ -1,4 +1,10 @@
-import type { MorningBriefingGatherResult, MorningBriefingLane } from "./types.ts"
+import type {
+  CreatedMorningBriefingTask,
+  MorningBriefingGatherResult,
+  MorningBriefingLane,
+  MorningBriefingSynthesisResult,
+  MorningBriefingTaskDraft,
+} from "./types.ts"
 
 /** Gather independent source lanes, synthesize once, then publish the same briefing twice. */
 export async function runMorningBriefingPipeline(
@@ -13,13 +19,19 @@ export async function runMorningBriefingPipeline(
     if (result.status === "rejected") throw result.reason
     return result.value
   })
-  const markdown = await args.synthesize(gatherResults)
+  const synthesis = await args.synthesize(gatherResults)
+  const createdTasks = await args.createTasks(synthesis.newTasks)
+  const markdown = await args.finalize(synthesis.markdown, createdTasks)
   await args.publishDailyNote(markdown)
   await args.presentInCodex(markdown)
   return markdown
 }
 
 export type RunMorningBriefingPipelineArgs = {
+  /** Create deduplicated actions in the Google Tasks Inbox list. */
+  createTasks: (tasks: readonly MorningBriefingTaskDraft[]) => Promise<CreatedMorningBriefingTask[]>
+  /** Add the task-creation outcome as the briefing's final section. */
+  finalize: (markdown: string, tasks: readonly CreatedMorningBriefingTask[]) => Promise<string>
   /** Gather one independent source lane. */
   gatherLane: (lane: MorningBriefingLane) => Promise<MorningBriefingGatherResult>
   /** Source lanes to gather concurrently. */
@@ -31,5 +43,7 @@ export type RunMorningBriefingPipelineArgs = {
   /** Save and verify the Daily briefing section in Obsidian. */
   publishDailyNote: (markdown: string) => Promise<void>
   /** Synthesize one canonical briefing from every gather artifact. */
-  synthesize: (gatherResults: MorningBriefingGatherResult[]) => Promise<string>
+  synthesize: (
+    gatherResults: MorningBriefingGatherResult[],
+  ) => Promise<MorningBriefingSynthesisResult>
 }

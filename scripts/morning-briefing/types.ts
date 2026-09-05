@@ -30,6 +30,22 @@ export type MorningBriefingLane = {
 
 /** Schema-constrained result from the final synthesis agent. */
 export type MorningBriefingSynthesisResult = {
-  /** Complete briefing beginning with the level-two Daily briefing heading. */
+  /** Briefing content before the deterministic New tasks section is added. */
   readonly markdown: string
+  /** Actions that are absent from both incomplete and completed Google Tasks. */
+  readonly newTasks: readonly MorningBriefingTaskDraft[]
+}
+
+/** A task selected by synthesis for creation in the Inbox list. */
+export type MorningBriefingTaskDraft = {
+  /** Source context and links that make the task actionable. */
+  readonly notes: string
+  /** Short action-oriented task title. */
+  readonly title: string
+}
+
+/** A task successfully created in Google Tasks. */
+export type CreatedMorningBriefingTask = MorningBriefingTaskDraft & {
+  /** Browser URL for the created task. */
+  readonly url: string
 }

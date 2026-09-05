@@ -17,20 +17,16 @@ export function buildCarryoverMarkdown(
       if (!dailyBriefing) return []
 
       const openIssues = extractSection(dailyBriefing, "### Open issues", 3)
-      const nextSteps = extractSection(dailyBriefing, "### Next steps", 3)
-      if (!openIssues && !nextSteps) return []
+      if (!openIssues) return []
 
-      return [{ date, openIssues, nextSteps }]
+      return [{ date, openIssues }]
     })
     .slice(0, 3)
 
   if (entries.length === 0)
     return "# Carryover checklist\n\nNo prior Daily briefing sections were found.\n"
 
-  const sections = entries.map(
-    entry =>
-      `## ${entry.date}\n\n${[entry.openIssues, entry.nextSteps].filter(Boolean).join("\n\n")}\n`,
-  )
+  const sections = entries.map(entry => `## ${entry.date}\n\n${entry.openIssues}\n`)
 
   return `# Carryover checklist\n\n${sections.join("\n")}`
 }

@@ -1,15 +1,36 @@
-import { MORNING_BRIEFING_LANES, REQUIRED_BRIEFING_HEADINGS } from "./constants.ts"
+import {
+  MORNING_BRIEFING_LANES,
+  REQUIRED_BRIEFING_HEADINGS,
+  SYNTHESIZED_BRIEFING_HEADINGS,
+} from "./constants.ts"
 
 /** Validate the canonical final briefing before either publication step. */
 export function validateFinalBriefingMarkdown(
   /** Candidate briefing Markdown. */
   markdown: string,
 ): string {
+  const normalized = validateBriefing(markdown, REQUIRED_BRIEFING_HEADINGS)
+  const newTasksIndex = normalized.indexOf("\n### New tasks\n")
+  if (/^### /m.test(normalized.slice(newTasksIndex + "\n### New tasks\n".length)))
+    throw new Error("New tasks must be the final section")
+  return normalized
+}
+
+/** Validate synthesis output before task creation adds the final section. */
+export function validateSynthesizedBriefingMarkdown(
+  /** Candidate briefing Markdown without New tasks. */
+  markdown: string,
+): string {
+  return validateBriefing(markdown, SYNTHESIZED_BRIEFING_HEADINGS)
+}
+
+/** Validate shared briefing structure and source coverage. */
+function validateBriefing(markdown: string, headings: readonly string[]): string {
   if (!markdown.startsWith("## Daily briefing\n"))
     throw new Error("The final briefing must begin with `## Daily briefing`")
 
   let previousIndex = -1
-  for (const heading of REQUIRED_BRIEFING_HEADINGS) {
+  for (const heading of headings) {
     const headingIndex = markdown.indexOf(`\n${heading}\n`)
     if (headingIndex < 0) throw new Error(`The final briefing is missing ${heading}`)
     if (headingIndex <= previousIndex)

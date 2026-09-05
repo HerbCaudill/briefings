@@ -14,6 +14,8 @@ import {
 import { presentMorningBriefingInCodex } from "./codexPresentation.ts"
 import { publishDailyBriefingToNote } from "./dailyNote.ts"
 import { gatherMorningBriefingLane } from "./gatherMorningBriefingLane.ts"
+import { createInboxTasks } from "./createInboxTasks.ts"
+import { finalizeMorningBriefing } from "./finalizeBriefing.ts"
 import {
   createMorningBriefingManifest,
   finishMorningBriefingManifest,
@@ -52,6 +54,18 @@ export async function runLiveMorningBriefing(
 
   try {
     const markdown = await runMorningBriefingPipeline({
+      createTasks: tasks =>
+        runStage("google-tasks", [paths.newTasksPath], async () => {
+          const createdTasks = await createInboxTasks({ tasks })
+          writeTextAtomically(paths.newTasksPath, `${JSON.stringify(createdTasks, null, 2)}\n`)
+          return createdTasks
+        }),
+      finalize: (briefing, tasks) =>
+        runStage("finalize", [paths.finalPath], async () => {
+          const finalBriefing = finalizeMorningBriefing(briefing, tasks)
+          writeTextAtomically(paths.finalPath, finalBriefing)
+          return finalBriefing
+        }),
       gatherLane: lane =>
         runStage(`gather:${lane.key}`, [join(paths.gatherDirectoryPath, `${lane.key}.json`)], () =>
           gatherMorningBriefingLane({
@@ -92,14 +106,13 @@ export async function runLiveMorningBriefing(
           await syncMorningBriefingToObsidian()
         }),
       synthesize: gatherResults =>
-        runStage("synthesis", [paths.mergedPath, paths.finalPath], () =>
+        runStage("synthesis", [paths.mergedPath], () =>
           synthesizeMorningBriefing({
             carryoverPath: paths.carryoverPath,
             codexCommand,
             cwd,
             date: args.date,
             environment,
-            finalPath: paths.finalPath,
             gatherResults,
             mergedPath: paths.mergedPath,
             model: MORNING_BRIEFING_MODEL,

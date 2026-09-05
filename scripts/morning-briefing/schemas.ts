@@ -17,4 +17,10 @@ export const MorningBriefingGatherResultSchema = Schema.Struct({
 /** Result returned by the synthesis agent. */
 export const MorningBriefingSynthesisResultSchema = Schema.Struct({
   markdown: Schema.String,
+  newTasks: Schema.Array(
+    Schema.Struct({
+      notes: Schema.String,
+      title: Schema.String,
+    }),
+  ),
 })

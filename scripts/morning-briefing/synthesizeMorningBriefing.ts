@@ -4,8 +4,8 @@ import { writeTextAtomically } from "./atomicWrite.ts"
 import { runCodexAgent } from "./codexAgent.ts"
 import { decodeSynthesisResult } from "./decodeAgentOutput.ts"
 import { readMorningBriefingPrompt } from "./readPromptFile.ts"
-import type { MorningBriefingGatherResult } from "./types.ts"
-import { validateFinalBriefingMarkdown } from "./validateBriefing.ts"
+import type { MorningBriefingGatherResult, MorningBriefingSynthesisResult } from "./types.ts"
+import { validateSynthesizedBriefingMarkdown } from "./validateBriefing.ts"
 
 const MAX_AGENT_ATTEMPTS = 2
 
@@ -13,7 +13,7 @@ const MAX_AGENT_ATTEMPTS = 2
 export async function synthesizeMorningBriefing(
   /** Gather results, run paths, and Codex settings. */
   args: SynthesizeMorningBriefingArgs,
-): Promise<string> {
+): Promise<MorningBriefingSynthesisResult> {
   writeTextAtomically(
     args.mergedPath,
     `${JSON.stringify(
@@ -51,9 +51,7 @@ export async function synthesizeMorningBriefing(
         threadSource: "morning-briefing-synthesis",
       })
       const result = decodeSynthesisResult(outputPath)
-      const markdown = validateFinalBriefingMarkdown(result.markdown)
-      writeTextAtomically(args.finalPath, markdown)
-      return markdown
+      return { ...result, markdown: validateSynthesizedBriefingMarkdown(result.markdown) }
     } catch (error) {
       lastError = error instanceof Error ? error : new Error(String(error))
     }
@@ -75,8 +73,6 @@ type SynthesizeMorningBriefingArgs = {
   date: string
   /** Environment inherited by Codex. */
   environment: NodeJS.ProcessEnv
-  /** Canonical Markdown output path. */
-  finalPath: string
   /** Schema-checked gather results. */
   gatherResults: MorningBriefingGatherResult[]
   /** Combined gather artifact path. */

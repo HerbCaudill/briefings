@@ -59,6 +59,9 @@ export const REQUIRED_BRIEFING_HEADINGS = [
   "### Other calendars",
   "### Open issues",
   "### Yesterday",
-  "### Next steps",
   "### Proposed standup",
+  "### New tasks",
 ] as const
+
+/** Headings written by synthesis before task creation determines the final section. */
+export const SYNTHESIZED_BRIEFING_HEADINGS = REQUIRED_BRIEFING_HEADINGS.slice(0, -1)

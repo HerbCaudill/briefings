@@ -9,7 +9,8 @@ describe("runMorningBriefingPipeline", () => {
     const startedLanes: string[] = []
     const releases = new Map<string, () => void>()
     const gathered = MORNING_BRIEFING_LANES.map(lane => createGatherResult(lane.key))
-    const finalMarkdown = "## Daily briefing\n\n### Sources\n\nComplete.\n"
+    const synthesizedMarkdown = "## Daily briefing\n\n### Sources\n\nComplete.\n"
+    const finalMarkdown = `${synthesizedMarkdown}\n### New tasks\n\n- [Reply to Ann](https://tasks.google.com/task/new-task?sa=6)\n`
     const publishDailyNote = vi.fn().mockResolvedValue(undefined)
     const presentInCodex = vi.fn().mockResolvedValue(undefined)
 
@@ -21,10 +22,21 @@ describe("runMorningBriefingPipeline", () => {
         )
       },
       lanes: MORNING_BRIEFING_LANES,
+      createTasks: vi.fn().mockResolvedValue([
+        {
+          notes: "From the morning briefing",
+          title: "Reply to Ann",
+          url: "https://tasks.google.com/task/new-task?sa=6",
+        },
+      ]),
+      finalize: vi.fn().mockResolvedValue(finalMarkdown),
       prepare: vi.fn().mockResolvedValue(undefined),
       presentInCodex,
       publishDailyNote,
-      synthesize: vi.fn().mockResolvedValue(finalMarkdown),
+      synthesize: vi.fn().mockResolvedValue({
+        markdown: synthesizedMarkdown,
+        newTasks: [{ notes: "From the morning briefing", title: "Reply to Ann" }],
+      }),
     })
 
     await vi.waitFor(() => expect(startedLanes).toHaveLength(MORNING_BRIEFING_LANES.length))
@@ -47,6 +59,8 @@ describe("runMorningBriefingPipeline", () => {
       runMorningBriefingPipeline({
         gatherLane: async lane => createGatherResult(lane.key),
         lanes: MORNING_BRIEFING_LANES,
+        createTasks: vi.fn(),
+        finalize: vi.fn(),
         prepare: vi.fn().mockResolvedValue(undefined),
         presentInCodex,
         publishDailyNote,
@@ -73,6 +87,8 @@ describe("runMorningBriefingPipeline", () => {
         return Promise.resolve(createGatherResult(lane.key))
       },
       lanes: MORNING_BRIEFING_LANES,
+      createTasks: vi.fn(),
+      finalize: vi.fn(),
       prepare: vi.fn().mockResolvedValue(undefined),
       presentInCodex: vi.fn(),
       publishDailyNote,

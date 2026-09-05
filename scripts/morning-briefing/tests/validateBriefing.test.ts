@@ -29,10 +29,6 @@ None.
 
 - Work.
 
-### Next steps
-
-Everything actionable is already captured in Google Tasks.
-
 ### Proposed standup
 
 \`\`\`text
@@ -42,6 +38,10 @@ Everything actionable is already captured in Google Tasks.
 🎯 *Today*
 - Briefings: continue
 \`\`\`
+
+### New tasks
+
+- None.
 `
 
 describe("validateFinalBriefingMarkdown", () => {
@@ -69,5 +69,13 @@ describe("validateFinalBriefingMarkdown", () => {
     expect(() =>
       validateFinalBriefingMarkdown(validBriefing.replace("🎯 *Today*", "Today")),
     ).toThrow("copy-ready standup block")
+  })
+
+  test("requires New tasks to be the final section", () => {
+    expect(() =>
+      validateFinalBriefingMarkdown(
+        validBriefing.replace("### New tasks", "### New tasks\n\n- None.\n\n### Afterward"),
+      ),
+    ).toThrow("final section")
   })
 })

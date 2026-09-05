@@ -2,8 +2,20 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["markdown"],
+  "required": ["markdown", "newTasks"],
   "properties": {
-    "markdown": { "type": "string" }
+    "markdown": { "type": "string" },
+    "newTasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "notes"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "notes": { "type": "string" }
+        }
+      }
+    }
   }
 }
