@@ -10,8 +10,7 @@ import {
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
 import { INBOX_STATE_PATH, VAULT_PATH } from "./constants.ts"
 import { loadGoogleTasks } from "./loadGoogleTasks.ts"
-import { runGoogleTasks } from "./runGoogleTasks.ts"
-import type { GoogleTask } from "./types.ts"
+import { publishResearch } from "./publishResearch.ts"
 import type { CaptureRecord } from "./types.ts"
 
 /** Finish queued research independently of capture intake, one canonical note at a time. */
@@ -70,17 +69,7 @@ export async function researchQueue(): Promise<void> {
           )
           continue
         }
-        const taskNotes = latest.notes ?? ""
-        const next = result.next ? `Next: ${result.next}` : ""
-        const notes = [taskNotes, taskNotes.includes(next) ? "" : next].filter(Boolean).join("\n")
-        if (notes !== taskNotes) {
-          const params = { tasklist: latest.listId, task: latest.id }
-          await runGoogleTasks(["tasks", "tasks", "patch"], { params, body: { notes } })
-          const verified = (await runGoogleTasks(["tasks", "tasks", "get"], {
-            params,
-          })) as GoogleTask
-          if (verified.notes !== notes) throw new Error("Research task-note verification failed")
-        }
+        await publishResearch(latest, result.notePath, result.nextSteps)
         writeTextAtomically(donePath, `${new Date().toISOString()}\n`)
         console.log(`[inbox-research] Ready for review: ${latest.title}`)
       } catch (error) {
@@ -105,7 +94,8 @@ function readResearchResult(path: string): ResearchResult {
   const result = JSON.parse(readFileSync(path, "utf8")) as ResearchResult
   if (
     typeof result.notePath !== "string" ||
-    typeof result.next !== "string" ||
+    !Array.isArray(result.nextSteps) ||
+    result.nextSteps.some(step => typeof step !== "string" || !step.trim() || step.length > 1024) ||
     typeof result.question !== "string"
   )
     throw new Error("Invalid research result")
@@ -126,8 +116,8 @@ function readResearchResult(path: string): ResearchResult {
 type ResearchResult = {
   /** Vault-relative durable note. */
   notePath: string
-  /** Operational next action. */
-  next: string
+  /** Concrete execution steps, in order. */
+  nextSteps: string[]
   /** Missing information or decision. */
   question: string
 }

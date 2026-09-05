@@ -1,10 +1,10 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["notePath", "next", "question"],
+  "required": ["notePath", "nextSteps", "question"],
   "properties": {
     "notePath": { "type": "string" },
-    "next": { "type": "string" },
+    "nextSteps": { "type": "array", "items": { "type": "string" } },
     "question": { "type": "string" }
   }
 }

@@ -62,6 +62,10 @@ export type GoogleTask = {
   deleted?: boolean
   /** Google-provided browser link. */
   webViewLink?: string
+  /** Parent identifier for a subtask. */
+  parent?: string
+  /** Lexicographic order among siblings. */
+  position?: string
 }
 
 /** Structured API request. */

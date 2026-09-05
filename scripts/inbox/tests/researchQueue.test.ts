@@ -43,6 +43,13 @@ test("publishes verified research to the task's new list and retries task update
   )
   let listId = "inbox"
   let notes = "Preserve this context."
+  const children: {
+    id: string
+    title: string
+    parent: string
+    position: string
+    status?: string
+  }[] = []
   vi.mocked(loadGoogleTasks).mockImplementation(async () => ({
     lists: [],
     tasks: [{ id: "task", listId, title: "Renew card", notes, status: "needsAction" }],
@@ -54,24 +61,51 @@ test("publishes verified research to the task's new list and retries task update
       args.outputPath,
       JSON.stringify({
         notePath: "Residence renewal.md",
-        next: "Review requirements",
+        nextSteps: ["Review requirements", "Book appointment"],
         question: "Which card do you hold?",
       }),
     )
     listId = "today"
   })
-  vi.mocked(runGoogleTasks).mockRejectedValueOnce(new Error("Temporary API failure"))
-  await expect(researchQueue()).rejects.toThrow("need retry")
-  expect(existsSync(join(state, "research/hash.json.done"))).toBe(false)
+  let loseInsertResponse = true
   vi.mocked(runGoogleTasks).mockImplementation(async (command, request) => {
     expect(request.params?.tasklist).toBe("today")
     if (command[2] === "patch") notes = request.body!.notes!
+    if (command[2] === "list") {
+      expect(request.params).toMatchObject({ showCompleted: true, showHidden: true })
+      return { items: children }
+    }
+    if (command[2] === "insert") {
+      expect(request.params?.parent).toBe("task")
+      expect(request.params?.previous).toBe(children.at(-1)?.id)
+      const child = {
+        id: `child-${children.length}`,
+        title: request.body!.title!,
+        parent: "task",
+        position: String(children.length),
+      }
+      children.push(child)
+      if (loseInsertResponse) {
+        loseInsertResponse = false
+        throw new Error("Insert succeeded but response was lost")
+      }
+      return child
+    }
+    if (command[2] === "get" && request.params?.task !== "task")
+      return children.find(child => child.id === request.params?.task)
     return { id: "task", notes }
   })
+  await expect(researchQueue()).rejects.toThrow("need retry")
+  expect(existsSync(join(state, "research/hash.json.done"))).toBe(false)
+  // A completed step must not be recreated when publication resumes.
+  expect(children).toHaveLength(1)
+  children[0]!.status = "completed"
   await researchQueue()
   expect(runCodexAgent).toHaveBeenCalledTimes(1)
   expect(notes).toContain("Preserve this context.")
-  expect(notes).toContain("Next: Review requirements")
+  expect(notes).toContain("obsidian://open?vault=")
+  expect(notes).toContain("file=Residence%20renewal")
+  expect(children.map(child => child.title)).toEqual(["Review requirements", "Book appointment"])
   expect(readFileSync(join(state, "research/hash.json.done"), "utf8")).toBeTruthy()
 })
 
@@ -85,7 +119,7 @@ test("retries research when its promised Obsidian note is missing", async () => 
     .mockImplementation(async args => {
       writeFileSync(
         args.outputPath,
-        JSON.stringify({ notePath: "Missing.md", next: "Review", question: "" }),
+        JSON.stringify({ notePath: "Missing.md", nextSteps: [], question: "" }),
       )
     })
   await expect(researchQueue()).rejects.toThrow("need retry")
@@ -93,7 +127,7 @@ test("retries research when its promised Obsidian note is missing", async () => 
     writeFileSync(join(paths.root, "vault/Missing.md"), "Recovered findings.")
     writeFileSync(
       args.outputPath,
-      JSON.stringify({ notePath: "Missing.md", next: "Review", question: "" }),
+      JSON.stringify({ notePath: "Missing.md", nextSteps: [], question: "" }),
     )
   })
   await researchQueue()
