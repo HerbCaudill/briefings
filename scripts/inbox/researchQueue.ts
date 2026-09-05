@@ -1,0 +1,153 @@
+import { existsSync, mkdirSync, readFileSync, readdirSync } from "node:fs"
+import { isAbsolute, join, relative, resolve } from "node:path"
+import { writeTextAtomically } from "../morning-briefing/atomicWrite.ts"
+import { runCodexAgent } from "../morning-briefing/codexAgent.ts"
+import {
+  BRIEFINGS_REPOSITORY_PATH,
+  CODEX_COMMAND_PATH,
+  MORNING_BRIEFING_MODEL,
+} from "../morning-briefing/constants.ts"
+import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
+import { INBOX_STATE_PATH, VAULT_PATH } from "./constants.ts"
+import { loadGoogleTasks } from "./loadGoogleTasks.ts"
+import { runGoogleTasks } from "./runGoogleTasks.ts"
+import type { GoogleTask } from "./types.ts"
+import type { CaptureRecord } from "./types.ts"
+
+/** Finish queued research independently of capture intake, one canonical note at a time. */
+export async function researchQueue(): Promise<void> {
+  mkdirSync(INBOX_STATE_PATH, { recursive: true, mode: 0o700 })
+  let release: () => void
+  try {
+    release = acquireMorningBriefingRunLock(join(INBOX_STATE_PATH, "research.lock"))
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "EEXIST") return
+    throw error
+  }
+  try {
+    const capturesPath = join(INBOX_STATE_PATH, "captures")
+    if (!existsSync(capturesPath)) return
+    const failures: unknown[] = []
+    for (const file of readdirSync(capturesPath)
+      .filter(file => file.endsWith(".json"))
+      .sort()) {
+      const record = JSON.parse(readFileSync(join(capturesPath, file), "utf8")) as CaptureRecord
+      const resultPath = join(INBOX_STATE_PATH, "research", `${record.capture.id}.json`)
+      const donePath = `${resultPath}.done`
+      if (!record.target || !record.draft.research || existsSync(donePath)) continue
+      try {
+        const current = await findTask(record)
+        if (!current || current.status === "completed") {
+          writeTextAtomically(donePath, "Task already completed or removed.\n")
+          continue
+        }
+        if (!existsSync(resultPath)) {
+          console.log(`[inbox-research] Researching: ${current.title}`)
+          const pendingPath = `${resultPath}.pending`
+          await runCodexAgent({
+            codexCommand: CODEX_COMMAND_PATH,
+            cwd: BRIEFINGS_REPOSITORY_PATH,
+            environment: { ...process.env, CODEX_INTERNAL_ORIGINATOR_OVERRIDE: "Codex Desktop" },
+            eventsPath: `${resultPath}.events.jsonl`,
+            model: MORNING_BRIEFING_MODEL,
+            outputPath: pendingPath,
+            schemaPath: join(import.meta.dirname, "schemas/research.schema.json"),
+            persistent: true,
+            threadSource: `inbox-research:${record.capture.id}`,
+            timeoutMs: null,
+            prompt: `${readFileSync(join(import.meta.dirname, "prompts/research.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture: record.capture, research: record.draft.research, task: current, taskUrl: record.target.url, vaultPath: VAULT_PATH })}`,
+          })
+          const validated = readResearchResult(pendingPath)
+          writeTextAtomically(resultPath, JSON.stringify(validated))
+        }
+        const result = readResearchResult(resultPath)
+        // Reload after research: the human may have moved, edited, or completed the task.
+        const latest = await findTask(record)
+        if (!latest || latest.status === "completed") {
+          writeTextAtomically(
+            donePath,
+            "Research saved; task completed or removed during research.\n",
+          )
+          continue
+        }
+        const taskNotes = latest.notes ?? ""
+        const context = result.notePath
+          ? `Context: obsidian://open?vault=notes&file=${encodeURIComponent(result.notePath.replace(/\.md$/, ""))}`
+          : ""
+        const additions = [
+          result.notePath
+            ? "Research: ready for review."
+            : "Research: blocked; needs clarification.",
+          result.next ? `Next: ${result.next}` : "",
+          result.question ? `Question: ${result.question}` : "",
+          context,
+        ].filter(line => line && !taskNotes.includes(line))
+        const notes = [
+          taskNotes
+            .replace(
+              /^Research: queued; findings will be linked here for the morning review\.\n?/gm,
+              "",
+            )
+            .trimEnd(),
+          ...additions,
+        ]
+          .filter(Boolean)
+          .join("\n")
+        const params = { tasklist: latest.listId, task: latest.id }
+        await runGoogleTasks(["tasks", "tasks", "patch"], { params, body: { notes } })
+        const verified = (await runGoogleTasks(["tasks", "tasks", "get"], { params })) as GoogleTask
+        if (verified.notes !== notes) throw new Error("Research task-link verification failed")
+        writeTextAtomically(donePath, `${new Date().toISOString()}\n`)
+        console.log(`[inbox-research] Ready for review: ${latest.title}`)
+      } catch (error) {
+        failures.push(error)
+        console.error(`[inbox-research] ${record.target.title}: ${String(error)}`)
+      }
+    }
+    if (failures.length) throw new Error(`${failures.length} research item(s) need retry; see log`)
+  } finally {
+    release()
+  }
+}
+
+/** Locate the task even after a list move. */
+async function findTask(record: CaptureRecord) {
+  const { tasks } = await loadGoogleTasks()
+  return tasks.find(
+    task =>
+      !task.deleted &&
+      (task.id === record.target!.id || task.notes?.includes(`capture-${record.capture.id}`)),
+  )
+}
+
+/** Validate the result and confirm any promised note is inside the vault and nonempty. */
+function readResearchResult(path: string): ResearchResult {
+  const result = JSON.parse(readFileSync(path, "utf8")) as ResearchResult
+  if (
+    typeof result.notePath !== "string" ||
+    typeof result.next !== "string" ||
+    typeof result.question !== "string"
+  )
+    throw new Error("Invalid research result")
+  if (result.notePath) {
+    const notePath = resolve(VAULT_PATH, result.notePath)
+    if (
+      isAbsolute(result.notePath) ||
+      relative(VAULT_PATH, notePath).startsWith("..") ||
+      !notePath.endsWith(".md") ||
+      !readFileSync(notePath, "utf8").trim()
+    )
+      throw new Error("Research context note verification failed")
+  } else if (!result.question.trim())
+    throw new Error("Research returned neither a note nor a blocker")
+  return result
+}
+
+type ResearchResult = {
+  /** Vault-relative durable note. */
+  notePath: string
+  /** Operational next action. */
+  next: string
+  /** Missing information or decision. */
+  question: string
+}

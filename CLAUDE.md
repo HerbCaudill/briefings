@@ -9,6 +9,7 @@ pnpm test            # Vitest
 pnpm format          # Prettier
 pnpm briefing:news    # Fetch today, then synthesize any missing final briefings
 pnpm briefing:morning # Gather and publish today's personal morning briefing
+pnpm inbox:process    # Transfer Siri captures and start independent research
 ```
 
 ## Architecture
@@ -25,7 +26,11 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 **Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. `.github/workflows/daily-briefing.yml` runs `pnpm briefing:news` daily at 5:00 AM UTC, supports manual dispatch, and uses `pi --provider openai --model gpt-5.6-terra` with the `OPENAI_API_KEY` repository secret.
 
-**Morning briefing pipeline:** `scripts/morning-briefing/` — extracts carryover from recent Obsidian daily notes, runs schedule, communications, and work gather agents concurrently through `codex exec`, schema-checks and persists their results and JSONL events under `~/.local/state/morning-briefing/`, synthesizes one canonical Markdown briefing, atomically saves it to the daily note, waits for Obsidian Sync, and creates a clean pinned Codex presentation task. The local LaunchAgent invokes the executable repo entrypoint at 07:00.
+**Morning briefing pipeline:** `scripts/morning-briefing/` — processes new inbox captures, extracts carryover from recent Obsidian daily notes, runs schedule, communications, and work gather agents concurrently through `codex exec`, schema-checks and persists their results and JSONL events under `~/.local/state/morning-briefing/`, synthesizes one canonical Markdown briefing, atomically saves it to the daily note, waits for Obsidian Sync, and creates a pinned Codex session. After verifying the exact briefing, a second turn invokes task-review once with `listNames: ["Inbox", "Today"]` and asks the first useful question. If the interview kickoff fails, the verified briefing remains pinned. The local LaunchAgent invokes the executable repo entrypoint at 07:00.
+
+**Siri inbox processing:** `scripts/inbox/` — runs hourly and before the morning briefing. A read-only classifier interprets timestamped captures from Obsidian `inbox.md`; deterministic code deduplicates against Google Tasks, inserts or links the task, verifies the destination, and archives the original capture in `Inbox archive.md`. Private journals and recovery snapshots live under `~/.local/state/inbox-processing/`. Each capture is identified by its original timestamp and text, so retries and sync replays reuse its verified transfer. Source rewrites preserve captures appended while an agent is working and check for intervening changes before replacing the file.
+
+An independently locked worker processes relevant research in persistent Codex sessions with no fixed time limit. Research writes canonical subject notes in Obsidian; deterministic code verifies the note, refreshes the task's current location, and adds only an operational summary, question, and context link. Failed task updates reuse verified research. Findings and unresolved questions surface in the morning Inbox review. `pnpm inbox:process --dry-run` inspects paths and capture count without writes; `--research-worker` drains queued research. Intake logs to `/tmp/inbox-processing.log`; detached research logs to `/tmp/inbox-research.log`.
 
 **Key app file:** `src/App.tsx` — contains all app logic: date state, fetching, keyboard navigation (Ctrl+D/P/N for today/prev/next), calendar popover for date selection. Types (`Briefing`, `Section`, `Story`, `Source`, `BriefingIndex`) are defined at the end of the file.
 

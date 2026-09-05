@@ -6,6 +6,19 @@ import { describe, expect, test } from "vitest"
 import { getCodexExecArgs, runCodexAgent } from "../codexAgent.ts"
 
 describe("getCodexExecArgs", () => {
+  test("can preserve a research session and restrict classification to reads", () => {
+    const args = getCodexExecArgs({
+      cwd: "/repo",
+      model: "gpt-5.6-sol",
+      outputPath: "/result",
+      schemaPath: "/schema",
+      threadSource: "inbox-research",
+      persistent: true,
+      sandbox: "read-only",
+    })
+    expect(args).not.toContain("--ephemeral")
+    expect(args[args.indexOf("--sandbox") + 1]).toBe("read-only")
+  })
   test("runs an ephemeral schema-constrained agent in the briefing repo", () => {
     expect(
       getCodexExecArgs({

@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "question", "research", "duplicate"],
+  "properties": {
+    "title": { "type": "string" },
+    "question": { "type": "string" },
+    "research": { "type": "string" },
+    "duplicate": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "listId"],
+          "properties": { "id": { "type": "string" }, "listId": { "type": "string" } }
+        }
+      ]
+    }
+  }
+}

@@ -17,12 +17,12 @@ export function getCodexExecArgs(
     "--model",
     args.model,
     "--sandbox",
-    "danger-full-access",
+    args.sandbox ?? "danger-full-access",
     "--cd",
     args.cwd,
     "--thread-source",
     args.threadSource,
-    "--ephemeral",
+    ...(args.persistent ? [] : ["--ephemeral"]),
     "--json",
     "--output-schema",
     args.schemaPath,
@@ -53,11 +53,14 @@ export async function runCodexAgent(
 
   await new Promise<void>((resolve, reject) => {
     let timedOut = false
-    const timeout = setTimeout(() => {
-      timedOut = true
-      child.kill("SIGTERM")
-      setTimeout(() => child.kill("SIGKILL"), FORCE_KILL_DELAY_MS).unref()
-    }, args.timeoutMs ?? AGENT_TIMEOUT_MS)
+    const timeout =
+      args.timeoutMs === null
+        ? undefined
+        : setTimeout(() => {
+            timedOut = true
+            child.kill("SIGTERM")
+            setTimeout(() => child.kill("SIGKILL"), FORCE_KILL_DELAY_MS).unref()
+          }, args.timeoutMs ?? AGENT_TIMEOUT_MS)
 
     child.on("error", error => {
       clearTimeout(timeout)
@@ -90,6 +93,10 @@ export async function runCodexAgent(
 }
 
 export type GetCodexExecArgsArgs = {
+  /** Preserve a standalone research session for later follow-up. */
+  persistent?: boolean
+  /** Optional sandbox restriction for classification. */
+  sandbox?: "read-only" | "danger-full-access"
   /** Working repository path. */
   cwd: string
   /** Model ID. */
@@ -111,6 +118,6 @@ export type RunCodexAgentArgs = GetCodexExecArgsArgs & {
   environment: NodeJS.ProcessEnv
   /** Prompt read from a standalone prompt file with run context appended. */
   prompt: string
-  /** Optional timeout override. */
-  timeoutMs?: number
+  /** Optional timeout override; null lets research finish without a fixed time limit. */
+  timeoutMs?: number | null
 }

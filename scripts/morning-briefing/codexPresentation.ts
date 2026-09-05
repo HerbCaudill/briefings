@@ -173,6 +173,7 @@ export async function presentMorningBriefingInCodex(
 ): Promise<void> {
   const eventLines: string[] = []
   let presentationThreadArchived = false
+  let reviewStarted = false
   let presentationThreadId = ""
   const threadSource = `morning-briefing:${randomUUID()}`
   const child = spawn(args.codexCommand ?? CODEX_COMMAND_PATH, ["app-server"], {
@@ -192,6 +193,9 @@ export async function presentMorningBriefingInCodex(
       eventLines,
       lines,
       threadSource,
+      onReviewStarted: () => {
+        reviewStarted = true
+      },
       onThreadArchived: () => {
         presentationThreadArchived = true
       },
@@ -203,7 +207,7 @@ export async function presentMorningBriefingInCodex(
     child.kill("SIGTERM")
     await waitForProcessExit(child)
 
-    if (!presentationThreadArchived) {
+    if (!presentationThreadArchived && !reviewStarted) {
       try {
         await archiveMorningBriefingThread({
           codexCommand: args.codexCommand ?? CODEX_COMMAND_PATH,
@@ -256,10 +260,32 @@ async function runPresentationStateMachine(args: PresentationStateMachineArgs): 
       clearTimeout(timeout)
       resolve()
     }
+    const startReview = () => {
+      phase = "reviewing"
+      finalMessage = ""
+      args.onReviewStarted()
+      const request = getMorningBriefingPresentationTurnStartRequest(
+        presentationThreadId,
+        args.dailyNotePath,
+      )
+      send({
+        ...request,
+        id: nextRequestId++,
+        params: {
+          ...request.params,
+          input: [{ type: "text", text: readMorningBriefingPrompt("task-review.prompt.md") }],
+        },
+      })
+    }
     const stopWithError = (error: Error, archiveFailedThread = true) => {
       if (settled) return
 
-      if (archiveFailedThread && presentationThreadId && phase !== "archiving-failed-thread") {
+      if (
+        archiveFailedThread &&
+        presentationThreadId &&
+        phase !== "archiving-failed-thread" &&
+        phase !== "reviewing"
+      ) {
         failureToReport = error
         phase = "archiving-failed-thread"
         archiveRequestId = nextRequestId++
@@ -342,7 +368,22 @@ async function runPresentationStateMachine(args: PresentationStateMachineArgs): 
 
         const item = message.params?.item
         if (message.method === "item/completed" && item?.type === "agentMessage") {
-          if (phase === "presenting") finalMessage = item.text ?? finalMessage
+          if (phase === "presenting" || phase === "reviewing")
+            finalMessage = item.text ?? finalMessage
+          return
+        }
+
+        if (message.method === "turn/completed" && phase === "reviewing") {
+          if (message.params?.turn?.status !== "completed" || !finalMessage.trim()) {
+            stopWithError(
+              new Error(
+                message.params?.turn?.error?.message ??
+                  "Task review did not start; the briefing remains pinned",
+              ),
+            )
+            return
+          }
+          finish()
           return
         }
 
@@ -412,7 +453,7 @@ async function runPresentationStateMachine(args: PresentationStateMachineArgs): 
             presentationThreadId,
           )
           if (threadIdsToUnpin.length === 0) {
-            finish()
+            startReview()
             return
           }
 
@@ -431,7 +472,7 @@ async function runPresentationStateMachine(args: PresentationStateMachineArgs): 
           pendingUnpinRequestIds.delete(message.id) &&
           pendingUnpinRequestIds.size === 0
         ) {
-          finish()
+          startReview()
         }
       } catch (error) {
         stopWithError(error instanceof Error ? error : new Error(String(error)))
@@ -605,6 +646,7 @@ type PresentationPhase =
   | "starting-thread"
   | "naming-thread"
   | "presenting"
+  | "reviewing"
   | "listing-sections"
   | "pinning"
   | "listing-pinned-threads"
@@ -621,6 +663,8 @@ type MorningBriefingThreadSection = {
 type PresentationChild = ReturnType<typeof spawn>
 
 type PresentationStateMachineArgs = PresentMorningBriefingInCodexArgs & {
+  /** Preserve the verified pinned briefing if the review kickoff fails. */
+  onReviewStarted: () => void
   /** Running App Server process. */
   child: PresentationChild
   /** Buffered raw events. */

@@ -30,6 +30,7 @@ describe("runMorningBriefingPipeline", () => {
         },
       ]),
       finalize: vi.fn().mockResolvedValue(finalMarkdown),
+      processInbox: vi.fn().mockResolvedValue(undefined),
       prepare: vi.fn().mockResolvedValue(undefined),
       presentInCodex,
       publishDailyNote,
@@ -61,6 +62,7 @@ describe("runMorningBriefingPipeline", () => {
         lanes: MORNING_BRIEFING_LANES,
         createTasks: vi.fn(),
         finalize: vi.fn(),
+        processInbox: vi.fn().mockResolvedValue(undefined),
         prepare: vi.fn().mockResolvedValue(undefined),
         presentInCodex,
         publishDailyNote,
@@ -89,6 +91,7 @@ describe("runMorningBriefingPipeline", () => {
       lanes: MORNING_BRIEFING_LANES,
       createTasks: vi.fn(),
       finalize: vi.fn(),
+      processInbox: vi.fn().mockResolvedValue(undefined),
       prepare: vi.fn().mockResolvedValue(undefined),
       presentInCodex: vi.fn(),
       publishDailyNote,
@@ -109,3 +112,26 @@ describe("runMorningBriefingPipeline", () => {
 function createGatherResult(lane: string): MorningBriefingGatherResult {
   return { coverage: [], lane, report: `${lane} report` }
 }
+
+test("finishes capture intake before gathering tasks for the briefing", async () => {
+  const stages: string[] = []
+  await runMorningBriefingPipeline({
+    processInbox: async () => {
+      stages.push("inbox")
+    },
+    prepare: async () => {
+      stages.push("prepare")
+    },
+    lanes: [MORNING_BRIEFING_LANES[0]],
+    gatherLane: async lane => {
+      stages.push("gather")
+      return createGatherResult(lane.key)
+    },
+    synthesize: async () => ({ markdown: "Briefing", newTasks: [] }),
+    createTasks: async () => [],
+    finalize: async text => text,
+    publishDailyNote: async () => {},
+    presentInCodex: async () => {},
+  })
+  expect(stages).toEqual(["inbox", "prepare", "gather"])
+})

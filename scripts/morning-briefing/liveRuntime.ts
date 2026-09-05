@@ -1,5 +1,7 @@
 import { mkdirSync } from "node:fs"
 import { join } from "node:path"
+import { runInboxIntake } from "../inbox/runInboxIntake.ts"
+import { startInboxResearch } from "../inbox/startInboxResearch.ts"
 
 import { writeTextAtomically } from "./atomicWrite.ts"
 import { buildCarryoverMarkdown } from "./carryover.ts"
@@ -54,6 +56,14 @@ export async function runLiveMorningBriefing(
 
   try {
     const markdown = await runMorningBriefingPipeline({
+      processInbox: () =>
+        runStage("inbox-intake", [], async () => {
+          try {
+            await runInboxIntake()
+          } finally {
+            await startInboxResearch()
+          }
+        }),
       createTasks: tasks =>
         runStage("google-tasks", [paths.newTasksPath], async () => {
           const createdTasks = await createInboxTasks({ tasks })

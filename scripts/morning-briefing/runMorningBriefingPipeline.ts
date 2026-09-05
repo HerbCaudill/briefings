@@ -11,6 +11,7 @@ export async function runMorningBriefingPipeline(
   /** Injected stages for one morning briefing run. */
   args: RunMorningBriefingPipelineArgs,
 ): Promise<string> {
+  await args.processInbox()
   await args.prepare()
   const settledGatherResults = await Promise.allSettled(
     args.lanes.map(lane => args.gatherLane(lane)),
@@ -28,6 +29,8 @@ export async function runMorningBriefingPipeline(
 }
 
 export type RunMorningBriefingPipelineArgs = {
+  /** Transfer new captures before gathering the current task lists. */
+  processInbox: () => Promise<void>
   /** Create deduplicated actions in the Google Tasks Inbox list. */
   createTasks: (tasks: readonly MorningBriefingTaskDraft[]) => Promise<CreatedMorningBriefingTask[]>
   /** Add the task-creation outcome as the briefing's final section. */
