@@ -36,7 +36,7 @@ export async function runInboxIntake(): Promise<number> {
     const snapshotPath = join(INBOX_STATE_PATH, "tasks.json")
     return await processInbox({
       inboxPath,
-      archivePath: join(VAULT_PATH, "Inbox archive.md"),
+      archivePath: join(VAULT_PATH, "documents/inbox.archive.md"),
       statePath: join(INBOX_STATE_PATH, "captures"),
       date,
       transfer: (capture, draft, recovery) => transferCapture({ capture, draft, ...recovery }),

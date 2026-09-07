@@ -8,7 +8,7 @@ import { processInbox } from "../processInbox.ts"
 test("verifies a transfer before archiving and preserves captures appended during classification", async () => {
   const root = mkdtempSync(join(tmpdir(), "capture-test-"))
   const inboxPath = join(root, "inbox.md")
-  const archivePath = join(root, "Inbox archive.md")
+  const archivePath = join(root, "documents/inbox.archive.md")
   const original = "2026-09-03T11:24:07+02:00: Keep laundry going today"
   const later = "2026-09-05T15:00:00+02:00: Call the plumber\n"
   writeFileSync(inboxPath, original)
@@ -55,7 +55,7 @@ test("keeps the capture when task verification fails", async () => {
   await expect(
     processInbox({
       inboxPath,
-      archivePath: join(root, "Inbox archive.md"),
+      archivePath: join(root, "documents/inbox.archive.md"),
       statePath: join(root, "state"),
       date: "2026-09-05",
       classify: async () => ({

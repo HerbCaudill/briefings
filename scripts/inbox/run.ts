@@ -17,7 +17,7 @@ async function main(): Promise<void> {
       JSON.stringify(
         {
           source,
-          archive: join(VAULT_PATH, "Inbox archive.md"),
+          archive: join(VAULT_PATH, "documents/inbox.archive.md"),
           state: INBOX_STATE_PATH,
           captures: existsSync(source) ? parseCaptures(readFileSync(source, "utf8")).length : 0,
           destination: "Google Tasks: Inbox",
