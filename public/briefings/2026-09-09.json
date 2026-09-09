@@ -1,0 +1,262 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Oil prices rose above $100 a barrel after the US struck five Iranian tankers in the Gulf of Oman and near Kharg Island, saying the action followed two attempted Iranian ballistic-missile attacks on a US warship. Iran retaliated with missiles aimed at a US base in Jordan, where Jordanian forces said they intercepted 18 of 20 missiles, and claimed attacks on US vessels and oil tankers in the region. The escalation further threatens shipping through the Strait of Hormuz, a route that normally carries about a fifth of global oil and liquefied natural gas supplies, while Houthi attacks on Saudi energy facilities added to regional supply concerns.",
+          "headline": "US-Iran attacks on oil tankers push crude prices above $100 a barrel",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cyvznqypz0yo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260908-middle-east-live-us-destroys-five-iranian-oil-tankers-as-iran-threatens-kuwait-and-bahrain"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
+            }
+          ]
+        },
+        {
+          "body": "Britain announced a ban on imports from Israeli settlements in the occupied West Bank and new restrictions on exports and services that materially support the occupation. Foreign Secretary Ed Miliband described settlement violence as ethnic cleansing and said the UK now formally regards Israel's occupation of the West Bank as unlawful in its entirety. France, Canada and nine other countries joined a statement backing trade restrictions on settlement goods and calling for settlement expansion to stop. Israel responded by closing the UK consulate in Jerusalem and barring 12 British MPs and activists from entry.",
+          "headline": "Britain, France and Canada move to ban imports from Israeli West Bank settlements",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/uk-france-canada-to-ban-imports-from-israeli-settlements"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/8/uk-bans-goods-from-israeli-west-bank-settlements-what-that-really-means"
+            }
+          ]
+        },
+        {
+          "body": "A technical problem in the UK air-traffic-control provider Nats' flight-processing system caused a second day of widespread disruption, with more than 1,900 flight cancellations and hundreds of thousands of passengers affected. Nats chief Martin Rolfe was due to brief Transport Secretary Heidi Alexander amid calls from Ryanair and Wizz Air for him to resign. Rolfe said a cyberattack had been ruled out and that the outage was not the same fault behind major disruptions in 2023 and 2025, while airlines questioned why backup systems had not prevented another large-scale failure. Flights were resuming, but authorities warned that delays would continue as airlines recovered.",
+          "headline": "UK air-traffic-control failure leaves widespread flight disruption",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/09/uk-flight-cancellations-nats-martin-rolfe-heidi-alexander"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260909-travellers-in-uk-face-ongoing-disruption-after-air-traffic-control-glitch"
+            }
+          ]
+        },
+        {
+          "body": "The Trump administration announced that it will ban imports of selected Canadian alcohol, dairy products and motorcycles from 29 September, escalating a trade dispute after Canada's retaliatory tariffs on US products took effect. The White House said Canada was discriminating against American businesses; other Canadian products will face higher tariffs rather than outright bans. Canada's trade minister, Dominic LeBlanc, called the measures unjustified and said Ottawa would protect Canadian workers and businesses while seeking a good-faith resolution. The moves follow failed trade talks and previous US tariffs on roughly $20 billion of Canadian goods.",
+          "headline": "US bans Canadian alcohol, dairy and motorcycle imports as trade dispute escalates",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c99dm1000p7o"
+            },
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/08/us-announces-ban-certain-canadian-imports-dairy-alcohol-other-products/"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260909-us-bans-canadian-alcohol-motorcycles-and-dairy-products-as-trade-spat-escalates"
+            }
+          ]
+        },
+        {
+          "body": "OpenAI says an unreleased AI model, deployed through roughly 10,000 agents, produced a solution in 88 hours to a long-standing problem involving the Navier-Stokes equations, which describe fluid motion. The work has not yet been independently verified or accepted by the Clay Mathematics Institute, which administers the Millennium Prize problems. The announcement drew criticism from New York University mathematician Tristan Buckmaster and Anthropic researcher Levent Alpöge, who said they had been pursuing a separate AI-assisted approach and questioned whether OpenAI began its effort after learning of their progress. OpenAI denied accessing their work or user data, while acknowledging it could not rule out that de-identified product-usage data helped improve its models.",
+          "headline": "OpenAI claims breakthrough on a difficult mathematics problem, prompting questions from rival researchers",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cy7zygy3rl2o"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/technology/20260909-openai-says-models-solved-one-of-math-hardest-problems-researchers-cry-foul"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Missouri's congressional elections were thrown into uncertainty after Justice Brett Kavanaugh declined an emergency Republican request to block a Missouri Supreme Court decision restoring earlier district lines, while a federal judge issued a temporary restraining order requiring officials to proceed under the newer map used in the August primaries. The newer map is expected to give Republicans an additional House seat. Democrats appealed the federal ruling and sought an emergency stay, while election officials faced an immediate ballot-change deadline ahead of absentee voting later this month. The competing orders came eight weeks before Election Day and left local administrators preparing for either map.",
+          "headline": "Conflicting court rulings throw Missouri's congressional map and election preparations into uncertainty",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/politics/2026/09/08/supreme-court-blocks-missouri-congressional-map-favoring-gop/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/redistricting-congress-trump-gerrymandering-house-aadd3c4e6cc3a2c8100756cb7b352289"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/08/supreme-court-rejects-missouri-redistricting-bid-01068211"
+            }
+          ]
+        },
+        {
+          "body": "Stefany Shaheen, the daughter of Senator Jeanne Shaheen, won the Democratic primary in New Hampshire's 1st Congressional District, defeating Maura Sullivan and other candidates in a closely fought contest. The seat is open because Representative Chris Pappas is running for Senate and is expected to be competitive in the general election; Kamala Harris carried the district by two points in 2024. Shaheen sought to emphasize her local public service and medical-research advocacy while distancing herself from aspects of her mother's record, but her family name also helped provide an early polling advantage and access to donors.",
+          "headline": "Stefany Shaheen wins New Hampshire Democratic House primary",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/09/stefany-shaheen-wins-new-hampshire-house-primary-01068480"
+            }
+          ]
+        },
+        {
+          "body": "Initial flight data indicates that an Amazon cargo jet may have begun a go-around, an aborted landing maneuver, before it overran a runway at Miami International Airport. The aircraft, arriving from San Juan, Puerto Rico, crossed a road near the airport after the crash on Sunday. Five people were killed, three were critically injured and two others were hospitalized with less severe injuries. Investigators are examining the data as part of their inquiry into the accident.",
+          "headline": "Flight data indicates Amazon cargo jet attempted to abort landing before deadly Miami crash",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/transportation/2026/09/08/amazon-cargo-plane-appeared-consider-aborting-landing-before-miami-crash-investigators-say/"
+            },
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/amazon-cargo-plane-crash-miami-airport-victims-6c23909e94ea2faedd28071749fc00e3"
+            }
+          ]
+        },
+        {
+          "body": "Republicans are gathering in Dallas for a two-day midterm convention designed to energize the party before November's elections, with Donald Trump scheduled to speak on both days. Many party figures want the event to highlight tax cuts, border policy and contrasts with Democrats, while also worrying that Trump's low approval ratings and focus on his own agenda could complicate campaigns in competitive districts. Some lawmakers are skipping the convention to campaign at home, and others have expressed concern about issues they view as off-message, including Trump's push for election legislation. The event is an unusual national convention-style effort for a midterm campaign.",
+          "headline": "Republicans gather for a Trump-centered midterm convention in Dallas",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/08/gop-midterm-convention-trump-message-01066258"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/trump-sinventa-una-convencio-a-mida-per-evitar-una-patacada-a-les-eleccions-de-novembre/noticia/3427557/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's Supreme Court has temporarily suspended the registration of many beneficiaries of the Democratic Memory Law, commonly known as the grandchildren's law, in the overseas electoral roll, preventing them from voting in forthcoming elections unless they can document that their Spanish ancestors were exiles from the Civil War or Franco dictatorship. The decision does not suspend the granting of nationality itself. The court questioned a later government instruction that presumed exile status for people who left Spain between 1936 and 1955. The ruling, sought by Vox and Iustitia Europa, triggered a dispute between Vox and the People's Party over credit for the legal challenge.",
+          "headline": "Spain's Supreme Court suspends voting rights for beneficiaries of the nationality-by-descent law",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260908/tribunal-supremo-suspende-manera-cautelar-ley-nietos/17216676.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260909/pp-vox-enzarzan-paternidad-recurso-134080656"
+            }
+          ]
+        },
+        {
+          "body": "Spain's government and opposition clashed in Congress over the recent mass arrival of migrants in Ceuta, with People's Party leader Alberto Núñez Feijóo accusing Prime Minister Pedro Sánchez of being vulnerable to pressure from Morocco and again demanding an early election. The government has approved the declassification of about 40 reports from police, intelligence and military bodies covering the period around the 30 and 31 July border crossing. Ministers said the documents contained no evidence so far that Moroccan authorities encouraged the crossing, and accused the opposition of spreading conspiracy theories and exploiting a humanitarian crisis in which 141 migrants died.",
+          "headline": "Ceuta migration crisis drives a new confrontation between Spain's government and opposition",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260909/crisis-ceuta-sesion-control-gobierno-congreso/17217682.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260909/11630378/gobierno-desclasifica-informes-ceuta-ver-pruebas-marruecos.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain recorded its lowest results since joining the OECD's PISA assessment in 2000, with 15-year-olds scoring 451 in reading, 457 in mathematics and 477 in science. Compared with 2022, the country lost 23 points in reading, 16 in mathematics and eight in science; the OECD treats a 20-point decline as roughly equivalent to a school year of learning. The fall was part of a wider global decline, with analysts citing weaker concentration, reduced willingness to make sustained effort and the spread of mobile-phone use as possible factors. Catalonia's sample was deemed non-comparable because 23.2% of students were excluded, above the OECD limit.",
+          "headline": "New PISA results show a sharp decline in Spanish students' reading performance",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20260909/11630435/claves-fracaso-pisa-alumnos-leen-dispuestos-esforzarse-sucumben-movil.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/caiguda-sense-precedents-a-pisa-espanya-retrocedeix-lequivalent-a-un-curs-en-comprensio-lectora/noticia/3427383/"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Josep Lluís Trapero has resigned as director general of the Mossos d'Esquadra after two years in the role, a move Interior Minister Núria Parlon described as personal and irrevocable. Ferran López, currently leading the Catalan police delegation in Madrid and a former head of the force, will succeed him as director general on 15 September. Miquel Esquius, the current police chief, is retiring, and Sílvia Catà, previously commissioner for the Girona police region, will replace him as chief commissioner. Catà will be the first woman to hold the force's top operational post.",
+          "headline": "Catalonia's Mossos police chief Trapero resigns; Sílvia Catà will become the force's first woman chief",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/trapero-dimiteix-com-a-director-general-dels-mossos-desquadra-despres-de-dos-anys-al-carrec/noticia/3427771/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/josep-lluis-trapero-dimiteix-director-general-mossos-dos-anys-carrec/"
+            }
+          ]
+        },
+        {
+          "body": "Torrential-rain warnings led Catalan authorities to suspend classes, recommend remote work and restrict nonessential activity in the counties of Vallès Occidental, Baix Llobregat, Garraf, Alt Penedès and Baix Penedès. The storms disrupted rail services, including a temporary halt to high-speed trains between Barcelona and Madrid while crews repaired overhead power equipment damaged near Sant Vicenç dels Horts. Barcelona-El Prat airport recorded about 30 flight cancellations and two diversions to Madrid, while Rodalies services imposed speed restrictions on several lines. Authorities warned that intense rain could return despite precipitation shifting north and east during the morning.",
+          "headline": "Torrential-rain alert disrupts schools, rail service and flights in Barcelona and surrounding counties",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260909/cataluna-lluvias-alerta-clases-comarcas/17217683.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/alerta-per-pluges-intenses-a-gran-part-del-territori-aquest-dimecres-amb-perill-maxim-en-4-comarques/noticia/3427544/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/seguiment-pluges-intenses-afectacions-barcelona-9-setembre-2026/"
+            }
+          ]
+        },
+        {
+          "body": "A proposed European Commission affordable-housing regulation would give governments a common framework to restrict short-term tourist rentals and second-home purchases in stressed housing markets. Barcelona City Hall says the proposal supports its plan to eliminate the city's more than 10,000 licensed tourist apartments by the end of 2028 and return them to the residential market. The tourist-apartment industry disputes that interpretation, arguing that the regulation would require authorities to demonstrate that short-term rentals have harmed housing availability or affordability for at least three years and that any restrictions are proportionate. The proposal has therefore intensified the existing legal and political dispute over Barcelona's policy.",
+          "headline": "European housing measures intensify debate over Barcelona's planned ban on tourist apartments",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/crisi-de-lhabitatge-brusselles-vol-restringir-el-lloguer-turistic-i-la-compra-de-segones-residencies/noticia/3427684/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260908/futuro-reglamento-europeo-vivienda-enciende-pugna-pisos-turisticos-barcelona-134075841"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/economia/ajuntament-comissio-europea-avala-la-decisio-eliminar-pisos-turistics-2028-738401/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
