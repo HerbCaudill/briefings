@@ -1,0 +1,316 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Yemen's Iran-aligned Houthi movement has seized the strategic Red Sea port city of Mokha from Saudi-backed government forces after fierce fighting, according to military sources, witnesses and multiple news reports. Government forces also withdrew from Perim Island in the Bab al-Mandab Strait, while the Houthis were reported to have taken Zuqar Island and other territory along the coast. The advances bring the group closer to control of the waterway linking the Red Sea to the Gulf of Aden, raising concerns over commercial shipping as the Houthis continue to threaten Saudi-linked vessels. Hundreds have reportedly been killed and thousands displaced during the offensive, while Saudi-led forces have responded with air strikes and the Houthis have attacked Saudi cities and oil facilities with drones and missiles.",
+          "headline": "Houthis seize Yemen's strategic port of Mokha, tightening their grip on the Red Sea coast",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c4g7vr0lngwo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/10/houthis-seize-key-port-mocha-yemen-red-sea-coast-iran-saudi-arabia-us"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran"
+            }
+          ]
+        },
+        {
+          "body": "Houthi forces have taken Perim Island, also known as Mayyun, in the middle of the Bab al-Mandab Strait, according to a local government official and eyewitnesses. The reported takeover follows the capture of Mokha and completes a rapid push along Yemen's remaining Red Sea coastline. Control of the island and nearby coast would strengthen the Houthis' position around one of the world's most important maritime chokepoints, through which shipping between Asia and Europe passes.",
+          "headline": "Houthis take Perim Island near the Bab al-Mandab Strait, raising the threat to Red Sea shipping",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/9/11/iran-war-live-irgc-attacks-us-unmanned-vessel-in-hormuz-two-ships-hit"
+            }
+          ]
+        },
+        {
+          "body": "A Hong Kong court sentenced three former leaders of the now-disbanded Hong Kong Alliance, which organized annual Tiananmen Square commemorations, to between five and seven years in prison under the national security law. Lee Cheuk-yan received seven years, Chow Hang-tung seven years and three months, and Albert Ho five years and two months after pleading guilty. The court found that their calls to end one-party dictatorship amounted to incitement to subvert state power. Rights groups, the United Nations and foreign governments condemned the convictions, saying the security law imposed by Beijing in 2020 has sharply curtailed the civil liberties that once allowed Hong Kong to hold public vigils for the 1989 crackdown.",
+          "headline": "Hong Kong jails Tiananmen vigil activists for up to seven years",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cvgyvk2djk4o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/11/hong-kong-court-hands-stiff-jail-sentences-to-tiananmen-vigil-activists"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20260911-hong-kong-court-sentences-tiananmen-vigil-activists-to-between-5-and-7-years-in-jail"
+            }
+          ]
+        },
+        {
+          "body": "Anthropic said it disrupted several attempts to use its Claude AI models for research that could support biological-weapons development, as well as state-linked surveillance, espionage, fraud and influence operations. In one case, a scientist sought assistance with a proposal to engineer more harmful mutations of chikungunya at what appeared to be a military research institute; Anthropic said it could not determine whether the work was intended to be weaponized and banned the accounts as a precaution. Its report also described surveillance operations originating in China, Iran and West Africa that targeted dissidents and minority communities, including Hong Kong pro-democracy activists. The company said increasingly capable models can perform complex scientific work, increasing the need for safeguards despite the overlap between legitimate biomedical research and potentially dangerous applications.",
+          "headline": "Anthropic says it blocked attempted AI-assisted biological-weapons research and disrupted AI surveillance campaigns",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cx2zrrpkx20o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/11/anthropic-warns-of-bids-to-use-ai-to-build-biological-weapons"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/technology/20260911-anthropic-ai-surveillance-targeting-dissidents-china-iran-west-africa"
+            }
+          ]
+        },
+        {
+          "body": "Ukrainian officials said a Russian drone strike on a shopping centre in Pavlohrad killed five people and wounded 67, including eight children, as attacks on civilians and urban infrastructure intensified. Elsewhere in eastern Ukraine, police urged residents to leave Slovyansk and Kramatorsk, key Ukrainian-held cities in the Donbas defensive belt, where Russian drone and glide-bomb attacks have become increasingly frequent. Ukrainian police said civilian injuries in the two cities rose from 70 in June to 212 in August, while Russia controls nearly all of Luhansk and about 80% of Donetsk region. Residents across Ukraine also report that more frequent and unpredictable air raids are disrupting sleep, schooling, transport and daily life.",
+          "headline": "Russia strikes a Ukrainian shopping centre as civilians are urged to leave Donbas fortress cities",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cpvelrmp1vmo"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwyz89w59l3o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/10/russias-new-shelling-tactics-deepen-suffering-in-ukraine"
+            }
+          ]
+        },
+        {
+          "body": "Russian President Vladimir Putin arrived in New Delhi for a two-day BRICS summit expected to focus on the wars in Ukraine and the Middle East as well as economic pressures. Indian Prime Minister Narendra Modi is due to meet Putin and Iranian President Masoud Pezeshkian, while Chinese President Xi Jinping is also expected to hold talks. The gathering comes as the regional conflict affecting the Gulf and Red Sea has intensified and Russia's war in Ukraine continues without a clear diplomatic breakthrough.",
+          "headline": "Putin arrives in India for a BRICS summit dominated by the Ukraine and Middle East wars",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20260911-putin-xi-india-brics-summit-ukraine-middle-east-wars"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/9/11/iran-war-live-irgc-attacks-us-unmanned-vessel-in-hormuz-two-ships-hit?update=4939744"
+            }
+          ]
+        },
+        {
+          "body": "Brent crude rose above $100 a barrel and approached $110 as the conflict involving the United States and Iran effectively closed the Strait of Hormuz to Gulf oil and gas supplies. Wholesale gas prices also climbed sharply, while long-term government borrowing costs rose in the United States, Britain and Australia as investors anticipated renewed inflation pressure and potentially higher interest rates. The reported Houthi capture of Mokha in Yemen has added to fears of further disruption to Red Sea shipping. Analysts warned that the combination of expensive energy, elevated bond yields and fiscal uncertainty could weigh on households and global financial markets.",
+          "headline": "Oil, gas and borrowing costs rise as fears of a wider Middle East conflict escalate",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c5y48rz2nddo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/sep/11/australian-fuel-prices-set-to-rise-by-30c-as-global-markets-react-to-deadly-cocktail"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Donald Trump ended the Republican Party's midterm convention in Dallas by urging supporters to vote and asking them to raise their right hands and pledge to do so. He repeated his argument that a Democratic victory would damage the country, defended his conduct of the war involving Iran, and offered few new policy announcements after promising the previous night to pay every adult American $5,000 if Republicans retain Congress. The convention took place amid weak polling for Trump and concerns about affordability, energy prices and the war, while Democrats held a smaller protest nearby and argued that Republicans were trying to mobilize their base through fear and personal loyalty to the president.",
+          "headline": "Trump closes the Republican midterm convention with a loyalty pledge and a call to vote",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260911/trump-cierra-convencion-dallas-votar-elecciones/17220589.shtml"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/11/republican-midterm-convention-wraps-up-in-dallas-texas-key-takeaways"
+            }
+          ]
+        },
+        {
+          "body": "Republican leaders and lawmakers were caught off guard by Trump's proposal to send $5,000 to every adult American if the party retains control of Congress in November, and many are questioning how it could be funded, enacted or legally defended. The proposal could cost more than $1 trillion for roughly 270 million adults, while projected tariff revenue would fall far short of covering it in the near term. Some Republicans embraced the idea or said they wanted more details, but fiscal conservatives expressed concern about its cost and party leaders acknowledged there is little prospect of passing legislation before the election. Democrats called the pledge an attempted bribe and said it was meant to distract from economic pressures and the Middle East war.",
+          "headline": "Republicans scramble over Trump's proposed $5,000 payments tied to a GOP midterm victory",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/10/republicans-split-trump-payouts-midterms-01071816"
+            },
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/10/many-republicans-skeptical-about-trump-plan-tie-5000-dividends-gop-wins/"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/10/trump-promises-5000-payouts-if-gop-wins-midterms-can-the-us-afford-it"
+            }
+          ]
+        },
+        {
+          "body": "The US Supreme Court again blocked Missouri's proposed new congressional map, which was designed to favor Republicans, extending a legal dispute that has created uncertainty over the state's electoral boundaries. The ruling is the latest development in a closely watched fight over redistricting ahead of the midterm elections.",
+          "headline": "Supreme Court again blocks Missouri's proposed congressional map favoring Republicans",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/politics/2026/09/10/supreme-court-again-blocks-new-missouri-congressional-map-favoring-gop/"
+            }
+          ]
+        },
+        {
+          "body": "California Governor Gavin Newsom signed legislation restricting social-media platforms from providing addictive features to users under 16. The law identifies practices such as infinite scrolling and autoplay as potentially concerning features, making California one of the most aggressive US states in seeking to limit design choices that encourage prolonged use by children and teenagers.",
+          "headline": "California enacts strict limits on addictive social-media features for users under 16",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/09/10/newsom-signs-bill-banning-addictive-features-social-media-protect-teens/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Gonzalo Sanz, the chief of staff to Spain's central-government delegate in Ceuta, resigned after declassified intelligence documents showed he received a warning from the CNI about social-media calls for a mass irregular crossing into the city before it occurred. Sanz said he passed the warning to delegate Miguel Ángel Pérez Triano on 29 July, while Pérez Triano had said he did not know about the messages and call. The resignation comes six weeks after an estimated 70,000 to 80,000 migrants entered Ceuta, intensifying political pressure over the government's response and the handling of advance intelligence.",
+          "headline": "Ceuta crisis deepens after a senior government aide resigns over intelligence warnings before the mass crossing",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-11/dimite-el-jefe-de-gabinete-del-delegado-del-gobierno-en-ceuta-por-el-salto-fronterizo.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260911/dimite-jefe-gabinete-delegacion-gobierno-ceuta-aviso-cni-redes-sociales/17220754.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260911/11632637/dimite-jefe-gabinete-delegacion-gobierno-ceuta-polemica-contactos-cni.html"
+            }
+          ]
+        },
+        {
+          "body": "A fire destroyed about 40 makeshift shelters in the El Tarajal migrant settlement in Ceuta, where roughly 200 people, including families with children, had been waiting for official accommodation. Emergency services reported no injuries and brought the blaze under control within about two hours, after evacuating people from the area. The cause remains under investigation, though witnesses told local media that candles may have started the fire; authorities were also examining whether it was accidental or deliberate.",
+          "headline": "Fire destroys around 40 migrant shelters in Ceuta's El Tarajal settlement",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-11/al-menos-40-tiendas-de-migrantes-incendiadas-en-las-naves-del-tarajal.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260911/ceuta-hoy-directo-ultima-hora-video-cronica/17220551.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260911/11632620/incendio-asentamiento-ceuta-naves-tarajal-chabolas-inmigrantes.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's Supreme Court temporarily suspended voting rights for people registered in the overseas electoral roll after obtaining Spanish citizenship through the Democratic Memory Law, known as the grandchildren's law, while it considers legal challenges. The court cited an exceptional increase in the number of overseas voters, saying 408,262 had been added since the 2023 general election and that the growth could affect the transparency and perceived fairness of elections. Five of six judges backed the precautionary measure, while one dissented, arguing that the ruling prematurely addressed issues that should be decided on the merits.",
+          "headline": "Spain's Supreme Court suspends voting rights for some citizenship-by-descent recipients, citing electoral concerns",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-10/el-supremo-ve-en-la-ley-de-nietos-un-peligro-fundado-real-y-serio-de-afectar-a-las-elecciones.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260910/supremo-freno-ley-nietos-preservar-transparencia-elecciones/17220076.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/10/6aa2abfde9cf4ac1068b458d.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's Congress approved the initial passage of legislation that would allow Sahrawis born in Western Sahara under Spanish colonial administration, and certain direct descendants, to seek Spanish nationality. The proposal was backed by most parties, with the conservative People's Party and Junts abstaining and Vox opposing it, and now moves to the Senate. The measure would apply to people born before 29 September 1977 and would also allow Sahrawis to seek nationality after two years of legal residence in Spain rather than the usual ten. Supporters called it a historic repair for Spain's abandonment of the territory, while the debate unfolded amid tensions with Morocco over the Ceuta migration crisis.",
+          "headline": "Spanish Congress begins legislation to grant nationality to Sahrawis born under Spanish colonial rule",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-10/el-congreso-inicia-la-recuperacion-de-la-nacionalidad-a-los-saharauis-con-la-abstencion-de-pp-y-junts-y-el-rechazo-de-vox.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260910/congreso-vota-nacionalizacion-saharauis-plena-polemica-marruecos-ley-nietos/17219863.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-congres-aprova-concedir-la-nacionalitat-als-sahrauis-nascuts-abans-del-1977/noticia/3427990/"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Catalan President Salvador Illa used his address for Catalonia's National Day to call for coexistence, inclusion and a united response to hatred and political exclusion. Saying that no one is more Catalan than anyone else, Illa emphasized the country's capacity to integrate newcomers and urged collective action on education, housing, infrastructure and regional financing. His appeal came as political leaders gathered for the Diada amid concern over the rise of the far right and tensions following clashes at Barcelona's Fossar de les Moreres.",
+          "headline": "Catalonia marks its National Day as President Salvador Illa calls for unity and rejects political exclusion",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/salvador-illa-ningu-es-mes-catala-que-ningu-no-podem-permetre-que-es-posi-en-perill-la-convivencia/noticia/3428008/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/salvador-illa-diada-unitat-pais-catalans-tots/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260911/diada-catalunya-govern-partidos-exclusion-cohesion-extrema-derecha-134174023"
+            }
+          ]
+        },
+        {
+          "body": "Three people were arrested and several others investigated after confrontations between anti-fascist independence supporters and supporters of the far-right pro-independence party Aliança Catalana at Barcelona's Fossar de les Moreres on the eve of the Diada. Mossos d'Esquadra deployed heavily to keep the rival groups apart, allowing Aliança Catalana's notified event to proceed while blocking the opposing, unnotified gathering from entering the square. Tensions escalated when protesters tried to breach the police cordon and paint was thrown during a speech by party leader Sílvia Orriols. Authorities estimated that about 500 Aliança Catalana supporters and 2,500 anti-fascist demonstrators attended, and 14 Mossos officers were reported lightly injured.",
+          "headline": "Three arrested after clashes between far-right and anti-fascist independence supporters at Barcelona's Fossar de les Moreres",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/un-ampli-dispositiu-dels-mossos-al-fossar-separa-lesquerra-independentista-dalianca-catalana/noticia/3428106/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/mossos-blinden-fossar-moreres-mobilitzacions-contraries-diada-2026/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260910/11632105/mossos-blindan-fossar-les-moreres-evitar-choques-alianca-catalana-entidades-antifascistas.html"
+            }
+          ]
+        },
+        {
+          "body": "Firefighters brought a wildfire on Barcelona's Montjuïc hill under control after it burned about one hectare of scrubland below the castle and generated a smoke column visible across the city. The fire began near Miramar Road in steep, difficult-to-access terrain and spread rapidly in the sea breeze, prompting the deployment of ten city fire units and aerial support from the Catalan fire service. As a precaution, authorities evacuated or restricted access to the castle and nearby areas, suspended the cable car and protected the fortress while crews contained the blaze. No injuries were reported, and the fire was later declared extinguished.",
+          "headline": "Montjuïc wildfire is brought under control after forcing the evacuation of Barcelona Castle and suspension of the cable car",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/incendi-montjuic-carretera-miramar-vegetacio/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/un-incendi-a-montjuic-genera-una-columna-de-fum-visible-des-de-diferents-punts-de-barcelona/noticia/3428061/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20260910/incendio-montjuic-humo-trafico-barcelona-134141238"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
