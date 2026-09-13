@@ -1,0 +1,246 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Houthi rebels say they struck a military base in southern Saudi Arabia as renewed fighting with Yemeni government forces intensifies. The group’s offensive around the Bab al-Mandeb Strait has seized the port city of Mocha and nearby coastline and islands, displacing more than 70,000 people since July, according to the UN migration agency. About 1,400 Yemenis reached Djibouti in a single 24-hour period, including women and children rescued after boats ran out of fuel, while humanitarian agencies warn that the escalation is deepening Yemen’s already severe crisis after 12 years of war.",
+          "headline": "Houthi offensive in Yemen drives new displacement and strikes Saudi base",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260913-middle-east-live-houthis-say-hit-saudi-base-after-renewed-fighting-with-yemeni-forces"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/yemen-houthi-offensive-triggers-new-displacement-crisis"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours"
+            }
+          ]
+        },
+        {
+          "body": "Saudi Arabia has shut its 1,200-kilometre East-West oil pipeline after it came under attack amid the expanding regional conflict. The route has been a major outlet for Middle Eastern oil supplies while the Strait of Hormuz has been largely closed by war, raising concerns that its closure could further disrupt energy markets and push prices higher.",
+          "headline": "Saudi Arabia shuts East-West oil pipeline after attacks",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/larabia-saudita-tanca-loleoducte-que-connecta-el-golf-persic-i-el-mar-roig-per-atacs-des-de-liraq/noticia/3428308/"
+            }
+          ]
+        },
+        {
+          "body": "Sweden is voting in a tightly contested general election that could bring the anti-immigration Sweden Democrats into government for the first time. The centre-left bloc led by Social Democrat Magdalena Andersson has held a polling lead, but the gap has narrowed against Prime Minister Ulf Kristersson’s right-wing alliance. Kristersson’s current coalition relies on parliamentary support from the Sweden Democrats; if the right retains a majority, the party is expected to seek cabinet posts.",
+          "headline": "Swedes vote in close election that could put far right in government",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260913-swedes-vote-in-close-general-election-that-could-usher-far-right-into-government"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/13/voting-under-way-in-sweden-election-that-could-see-far-right-enter-govt"
+            }
+          ]
+        },
+        {
+          "body": "Indonesian rescue teams are searching the Java Sea for more than 100 passengers and crew from the Virgo Transport 8, which lost contact in rough weather while travelling from Surabaya to Banjarmasin. The vessel was carrying 243 people, and rescue ships and a helicopter have evacuated more than 100 survivors, while reported death and missing figures have changed as the operation continues. High waves are hampering the search, and authorities are investigating whether weather or technical failures contributed to the disaster.",
+          "headline": "Rescuers search for more than 100 missing after Indonesian ferry disaster",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cvgykzgljlyo"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-102-rescued-after-indonesian-ferry-goes-missing-in-java-sea"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather"
+            }
+          ]
+        },
+        {
+          "body": "Leaders of the 11-member BRICS group concluded their New Delhi summit with a joint declaration calling for greater influence for the Global South in international governance and urging restraint in the Middle East. China’s Xi Jinping, Russia’s Vladimir Putin, Iran’s leaders and other attendees overcame earlier divisions to agree on the statement, while the summit also hosted bilateral meetings intended to ease regional tensions.",
+          "headline": "BRICS leaders call for Middle East restraint at New Delhi summit",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/brics-summit-what-came-out-of-the-new-delhi-meeting"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/video/20260912-brics-what-is-in-the-joint-statement-from-the-11-members"
+            }
+          ]
+        },
+        {
+          "body": "Anthropic chief executive Dario Amodei has urged AI companies to slow the advance of frontier models while governments and industry develop safeguards for their risks. In an essay, he proposed independent monitoring during model development alongside industry-wide and global regulation. OpenAI chief Sam Altman and xAI founder Elon Musk endorsed the broad call, as concerns grow over AI systems’ potential for cyberattacks, biological misuse, economic disruption and loss of human control.",
+          "headline": "Anthropic chief calls for slower AI development and stronger oversight",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/technology/20260912-anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-ceo-danthropic-demana-desaccelerar-el-desenvolupament-de-la-ia-lhi-devem-a-la-humanitat/noticia/3428327/"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "A growing public debate over advanced AI risks is putting pressure on Washington to decide whether and how to slow the development of increasingly capable systems. Technology leaders and researchers are calling for independent safety evaluations and stronger regulation, while the administration has stressed the strategic importance of maintaining US leadership in AI.",
+          "headline": "Washington faces pressure to respond to fears of catastrophic AI risks",
+          "sources": []
+        },
+        {
+          "body": "A judge has blocked a Homeland Security plan that would have sharply reduced staffing at the Federal Emergency Management Agency. The ruling temporarily preserves the agency’s workforce while the legal challenge proceeds, amid concerns that large-scale cuts could weaken disaster preparedness and emergency response.",
+          "headline": "Judge blocks Homeland Security plan to halve FEMA staffing",
+          "sources": []
+        },
+        {
+          "body": "Republicans are increasingly concerned that their Senate nominee Michael Whatley is failing to close a polling gap with Democrat Roy Cooper in North Carolina, a state long viewed as a crucial battleground. GOP figures at a party convention in Dallas described the race as difficult despite substantial planned outside spending, while President Donald Trump is due to campaign with Whatley. Republicans hope late-deciding voters and stronger turnout can narrow the contest, but party operatives cite weak enthusiasm and Trump’s standing with unaffiliated voters as major obstacles.",
+          "headline": "Republicans fear North Carolina Senate race is slipping away",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/12/gop-anxiety-grows-north-carolina-senate-race-01073311"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spanish police have transferred 864 migrants from the Loma Colmenar area of Ceuta into a newly opened temporary camp at Los Rosales, with the government saying the move was voluntary and passed without incident. The operation is intended to move people off the streets and help process their cases after a major recent influx into the autonomous city. Spain says it now has about 4,300 temporary places available in Ceuta and plans to exceed 6,000, including additional accommodation for women with children.",
+          "headline": "Spain moves hundreds of migrants from Ceuta streets into temporary accommodation",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260913/policia-traslada-migrantes-a-centro-acogida-rosales-ceuta/17222856.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260913/11633654/policia-traslada-inmigrantes-aun-pernoctaban-calle-864-nuevas-plazas-acogida-habilitadas-gobierno.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/la-policia-trasllada-mes-de-800-migrants-que-vivien-al-carrer-a-ceuta-a-una-installacio-temporal/noticia/3428363/"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Ceuta migration crisis is widening into a political and institutional dispute over whether the government received and acted on warnings before a mass border crossing. Newly declassified documents and conflicting accounts among officials have added to pressure on Pedro Sánchez’s government, while an investigation is under way. Reporting also points to delays in a government data-intelligence platform that was meant to integrate migration and other security warnings, though security experts say authorities already had enough information to prepare for a major contingency.",
+          "headline": "Ceuta crisis intensifies political pressure on Spain's government",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-12/la-guerra-abierta-en-la-delegacion-de-ceuta-por-los-avisos-del-salto-fronterizo-atrapa-al-gobierno-en-un-nuevo-cruce-de-versiones.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260913/11633341/seis-aristas-crisis-ceuti-traeran-cola.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260913/moncloa-gasto-ocho-millones-plataforma-inteligencia-parada-crisis-ceuta-134202950"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Supreme Court has temporarily suspended the inclusion of thousands of newly naturalized Spaniards in the overseas electoral register, citing a serious risk to the transparency and objectivity of elections. The measure concerns citizenship granted to descendants of Spanish exiles under the Democratic Memory Law and follows a large increase in overseas voters. Justice Minister Félix Bolaños has called the decision legally questionable and urged the court to resolve the underlying cases before the 2027 election, while affected communities in Latin America say they fear further restrictions on rights tied to their citizenship.",
+          "headline": "Supreme Court suspension of voting rights for newly naturalized Spaniards sparks backlash",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-13/cuatro-horas-de-deliberacion-para-suspender-el-voto-a-miles-de-nacionalizados-por-la-ley-de-nietos.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/argentina/2026-09-12/frustracion-y-miedo-a-perder-otros-derechos-entre-los-nuevos-espanoles-en-sudamerica.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/12/6aa531bee4d4d876078b456d.html"
+            }
+          ]
+        },
+        {
+          "body": "Podemos politician and former equality minister Irene Montero has announced that she will seek to lead a left-wing candidacy in Spain’s next general election through open primaries. Her proposal would allow candidates and voters outside Podemos to participate, putting pressure on other parties to the left of the governing Socialists as they consider alliances for 2027. Montero used her launch to advocate a higher minimum wage, a 30-hour workweek, price controls and increased public services, while Podemos leader Ione Belarra said she would seek the Madrid regional presidency.",
+          "headline": "Irene Montero launches bid to lead Spain's left in next general election",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-13/liderar-la-izquierda-para-las-generales-el-ultimo-desafio-de-irene-montero.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/12/6aa5381fe4d4d89e308b459b.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "The number of children placed in Barcelona’s emergency temporary accommodation rose 47.5% between 2020 and 2025, from 1,705 to 2,515, according to city data. Families are also spending far longer in hotels, hostels and similar emergency housing: their average stay nearly doubled from 103 to 202 days. The city says the figures show that emergency accommodation, intended as a short-term response to sudden housing loss, is becoming a chronic service as families struggle to obtain or retain housing.",
+          "headline": "Barcelona reports sharp rise in children living in emergency temporary accommodation",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/nombre-infants-allotjaments-temporals-urgencia-augmenta-50-per-cent-5-anys/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/societat/ultima-hora-tota-actualitat-ajuntament-ciutat-barris-724851/"
+            }
+          ]
+        },
+        {
+          "body": "An education strike is causing schools in Catalunya to postpone or cancel bookings for end-of-year trips, language stays and camps, travel agencies say. One agency reported 60% fewer requests than a year ago and said more than 150 public secondary schools had told it they would not organise an end-of-year trip. Agencies warn of serious consequences for transport providers, guides and activity monitors if the uncertainty continues, while some families are exploring independently organised trips that can cost substantially more per student.",
+          "headline": "Education strike freezes school-trip bookings across Catalunya",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/cauen-60-per-cent-viatges-escolars-vaga-educacio/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/primera-mobilitzacio-del-curs-dels-docents-valencians-que-no-descarten-tornar-a-la-vaga-indefinida/noticia/3428333/"
+            }
+          ]
+        },
+        {
+          "body": "A fifth copper-cable theft in less than a week has disrupted rail services in the tunnel linking Barcelona’s Estació de França and Glòries. The theft reduced R2 Sud service to two trains an hour in each direction between Sant Vicenç de Calders and Passeig de Gràcia, requiring some passengers travelling to Estació de França to transfer to regional services. Operators later said the incident had been resolved, although delays of around 20 minutes remained as the timetable recovered; the transport ministry plans to install high-capacity surveillance cameras at vulnerable sites.",
+          "headline": "Fifth copper theft in six days disrupts rail tunnel between Estació de França and Glòries",
+          "sources": [
+            {
+              "name": "3Cat Barcelona",
+              "url": "https://www.3cat.cat/3catinfo/quart-robatori-de-coure-en-cinc-dies-al-tunel-que-connecta-lestacio-de-franca-amb-glories/noticia/3428237/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
