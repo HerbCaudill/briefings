@@ -110,11 +110,18 @@ export async function runLiveMorningBriefing(
             eventsPath: paths.presentationEventsPath,
           }),
         ),
-      publishDailyNote: briefing =>
-        runStage("obsidian", [join(dailyNotesDirectoryPath, `${args.date}.md`)], async () => {
+      publishDailyNote: async briefing => {
+        await runStage("obsidian", [join(dailyNotesDirectoryPath, `${args.date}.md`)], async () => {
           dailyNotePath = publishDailyBriefingToNote(dailyNotesDirectoryPath, args.date, briefing)
-          await syncMorningBriefingToObsidian()
-        }),
+        })
+        try {
+          await runStage("obsidian-sync", [], () => syncMorningBriefingToObsidian())
+        } catch (error) {
+          console.warn(
+            `[morning-briefing] Obsidian Sync failed; continuing with the saved briefing: ${compactError(error)}`,
+          )
+        }
+      },
       synthesize: gatherResults =>
         runStage("synthesis", [paths.mergedPath], () =>
           synthesizeMorningBriefing({
