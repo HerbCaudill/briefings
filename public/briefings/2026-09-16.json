@@ -1,0 +1,234 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "The House voted 220-204 to approve a war powers resolution that would require President Donald Trump to halt sustained military operations against Iran or secure congressional authorization. Seven Republicans joined Democrats in the third such House vote since the conflict began, though the measure has not reached the president and would likely face a veto. A Congressional Budget Office assessment put the war's cost at at least $38 billion, projected a further $3 billion per month depending on intensity, and warned that depleted missile-defense inventories could take at least five years to rebuild even with increased production.",
+          "headline": "US House again votes to limit Trump's Iran war powers as costs mount",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/15/iran-war-cost-cbo-report"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/16/us-house-votes-to-end-iran-war-7-republicans-join-in-favour"
+            }
+          ]
+        },
+        {
+          "body": "The Pentagon inspector general said the war with Iran has produced strategic munitions shortfalls and industrial bottlenecks in replenishing stocks, contradicting repeated assurances from Trump that US supplies are virtually unlimited. The watchdog said more than $22 billion was spent on munitions between February and June, while overall war-related spending over that period reached $33.4 billion, including equipment losses and other expenditures. The report did not disclose remaining inventories, but noted efforts to speed procurement and production as analysts have warned that some Patriot and THAAD interceptor stocks were heavily depleted.",
+          "headline": "Pentagon watchdog confirms US munitions shortfalls linked to the Iran war",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c9gk58xgng0vo"
+            }
+          ]
+        },
+        {
+          "body": "European Commission President Ursula von der Leyen said she wants to explore making Canada the EU's first associate member, building on the existing CETA trade agreement with a wider partnership on defense, technology, energy, critical minerals, artificial intelligence, cybersecurity and Arctic security. The proposal comes as Prime Minister Mark Carney seeks to reduce Canada's dependence on US trade amid tariff tensions and political strain with Washington. In her State of the Union address, von der Leyen also proposed a European Security Council that could include partners such as the UK, Ukraine, Canada and Norway.",
+          "headline": "EU opens the door to Canada as its first associate member and proposes a European Security Council",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member"
+            },
+            {
+              "name": "France 24",
+              "url": "http://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address"
+            }
+          ]
+        },
+        {
+          "body": "At least 20 people, including children, were reported killed after a war-damaged multi-storey residential building collapsed overnight in Gaza City's Tal al-Hawa area, with dozens more feared trapped beneath the rubble. Residents said several families had been living in the building despite warnings that it was structurally unsafe after earlier strikes. Civil Defence crews and local residents searched largely by hand because of shortages of heavy rescue equipment, though some machinery was later borrowed; local officials said widespread war damage and restrictions on construction and rescue equipment have left many displaced Palestinians living in dangerous buildings.",
+          "headline": "Gaza residential building collapse kills at least 20 as rescue operations continue",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cvp8d00j9gg5o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped"
+            }
+          ]
+        },
+        {
+          "body": "US prosecutors charged five people they say worked for Russian intelligence services in an international network that recruited people to conduct surveillance, planned killings and attacks on civilian and military infrastructure in countries seen as aligned with Ukraine. The defendants, who remain at large, include two Russian nationals, two Cuban nationals and a Venezuelan national. The Justice Department said the network sought to recruit US-based operatives to target a prominent Russian dissident believed to live near Washington, offering one person $40,000 to make the target disappear, and also pursued a killing plot in Lithuania.",
+          "headline": "US charges five alleged Russian intelligence agents over global assassination plots",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "http://www.france24.com/en/americas/20260916-us-announces-charges-against-five-alleged-agents-for-russia-over-assassination-plots"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/16/us-charges-five-people-over-alleged-russian-assassination-plots"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/15/russia-us-killings-plot"
+            }
+          ]
+        },
+        {
+          "body": "Saudi Arabia's coalition said its air defenses intercepted and destroyed a Houthi drone south of Mecca before it entered prohibited airspace over Islam's holiest city, calling the security of holy sites and pilgrims a red line. The Houthis denied targeting Mecca, with a spokesperson describing the allegation as a recycled falsehood. The Organization of Islamic Cooperation condemned what it called an attack on the city, while Saudi authorities issued security alerts in several areas after a week of attacks by Iran-aligned groups and the US Embassy advised Americans to reconsider travel to Saudi Arabia.",
+          "headline": "Saudi coalition says it intercepted a Houthi drone near Mecca, a claim the Houthis deny",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east"
+            },
+            {
+              "name": "France 24",
+              "url": "http://www.france24.com/en/middle-east/20260916-middle-east-live-saudi-arabia-accuses-houthi-rebels-of-launching-a-drone-strike-on-mecca"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "The Supreme Court blocked broad restrictions on mail ballots sought by the Trump administration ahead of the midterm elections. The administration had argued that the plan was needed to guard against voter fraud, while states and voting-rights groups warned that imposing the restrictions could disrupt election administration and create confusion in ongoing contests.",
+          "headline": "Supreme Court blocks sweeping mail-ballot restrictions ahead of the midterm elections",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/politics/2026/09/14/supreme-court-blocks-sweeping-mail-ballot-restrictions-midterm-elections/"
+            }
+          ]
+        },
+        {
+          "body": "The Senate failed to advance cryptocurrency legislation, effectively ending the bill's chances in the current Congress. Democrats had raised concerns that the proposed framework did not adequately address President Donald Trump's cryptocurrency business interests, contributing to the collapse of the effort.",
+          "headline": "Senate fails to advance cryptocurrency legislation, ending its prospects for this Congress",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/15/senate-fails-advance-crypto-bill-dooming-effort-this-congress/"
+            }
+          ]
+        },
+        {
+          "body": "More employers are removing coverage for GLP-1 weight-loss medications from workplace health plans, making access increasingly difficult for patients who rely on the drugs. For workers whose plans no longer cover the treatment, the difference can mean paying hundreds of dollars more each month.",
+          "headline": "Employers are increasingly dropping coverage for GLP-1 weight-loss drugs",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/15/employers-are-dropping-glp-1-coverage-costly-workplace-perk/"
+            }
+          ]
+        },
+        {
+          "body": "New Census data show that the US poverty rate declined slightly, but the figures do not reflect more recent cuts to social safety-net programs. Analysts and advocates warn that those policy changes could erode the improvement and leave more households vulnerable in the period ahead.",
+          "headline": "US poverty rate edges down, but analysts warn recent safety-net cuts may reverse progress",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/15/us-poverty-rate-drops-slightly-experts-fear-worse-ahead/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's government plans to build permanent temporary foreigner-assistance centers in Ceuta and Melilla, each with 800 places, to expand its capacity to identify and screen people entering the autonomous cities irregularly. Interior Minister Fernando Grande-Marlaska is due to discuss the projects with the European commissioner for migration as Ceuta faces the aftermath of the entry of 80,000 people on July 30 and 31. The facilities, expected to cost about €9 million in EU emergency funding, would provide health checks, identity and biometric registration, vulnerability assessments and referral to the appropriate procedure, with stays limited to 72 hours.",
+          "headline": "Spain plans permanent migrant-identification centers in Ceuta and Melilla amid the Ceuta crisis",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20260916/gobierno-centros-permanentes-ceuta-melilla-triaje-identificacion-inmigrantes-134325990"
+            }
+          ]
+        },
+        {
+          "body": "Ceuta's prosecutor's office has said the National Court should investigate whether decisions or omissions by the central government's delegate in Ceuta, Miguel Ángel Pérez Triano, may have contributed to the migration crisis. The opinion supports sending proceedings opened in Ceuta after complaints by the groups Manos Limpias and Hazte Oír to the National Court, which is handling the main case into the mass entry.",
+          "headline": "Spanish prosecutor backs an investigation into whether Ceuta's government delegate contributed to the mass migrant entry",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260916/fiscalia-avala-investigar-si-hubo-decisiones-u-omisiones-del-delegado-ceuta-pudieron-incidir-crisis/17226982.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Supreme Court judge Pablo Llarena has declined for now to apply Spain's amnesty law to former Catalan president Carles Puigdemont in the alleged embezzlement case linked to the independence process, leaving the arrest warrants against him in place. Llarena acknowledged that a July ruling by the EU Court of Justice removed one basis for denying amnesty, namely potential harm to EU financial interests, but maintained that Puigdemont and other independence leaders may have received a personal financial benefit by avoiding the cost of the 2017 referendum. He indicated he could apply the amnesty once the Constitutional Court issues a favorable ruling in a relevant appeal.",
+          "headline": "Judge refuses to apply the amnesty law to Carles Puigdemont over alleged embezzlement",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/llarena-ignora-el-tjue-i-mante-lordre-de-detencio-de-puigdemont-a-lespera-del-constitucional/noticia/3428762/"
+            }
+          ]
+        },
+        {
+          "body": "European Commission President Ursula von der Leyen announced a proposed EU KIDS Act that would bar children under 13 from social media and require parental creation and supervision of accounts for those aged 13 to 15. The proposal would also limit younger teenagers' contact with strangers and screen time, while requiring platforms to make their products safer for users aged 15 to 18. Von der Leyen said the EU should make large technology companies demonstrate that their services are safe and address addictive design features such as infinite scrolling and algorithmic recommendations; the plan could also affect video games and AI chatbots.",
+          "headline": "Von der Leyen proposes restricting social-media access for children under 15",
+          "sources": [
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/internacional/20260915/union-europea-prohibicion-redes-sociales-menores-15-anos-acceso-plataformas-videojuegos-salud-mental-134316499"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/von-der-leyen-ret-comptes-a-leurocambra-menors-i-xarxes-riscos-de-la-ia-i-relacions-amb-la-xina/noticia/3428861/"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona City Council says the accidental publication of personal data affected 1,245 Guardia Urbana officers, more than twice the number initially reported. Thirty-eight municipal gazette documents published between September 2023 and May 2026 included officers' full names, assigned units and work shifts in promotion and internal-mobility processes before being removed. The council said it has issued internal guidance to strengthen protections for police data and that it has no evidence so far of criminal or improper use, while unions have filed a complaint with Catalonia's data-protection authority and opposition parties have demanded further action.",
+          "headline": "Barcelona says accidental publication of police officers' personal data affected 1,245 municipal officers",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/filtracio-dades-personals-guardia-urbana-afectar-1245-agents/"
+            }
+          ]
+        },
+        {
+          "body": "DWS, Deutsche Bank's asset-management arm, has put Barcelona's Diagonal Mar shopping center on the market and is seeking more than €500 million for the asset. The firm has hired CBRE and JLL to advise on the sale of the complex in Sant Martí, which has roughly 90,000 square meters of retail space; DWS owns about two-thirds of the leasable area because Alcampo owns the hypermarket space. DWS bought the center for €493 million in 2016, and a sale near the current target would rank among Spain's largest shopping-center transactions, with completion expected in the first quarter of 2027.",
+          "headline": "Deutsche Bank asset manager puts Barcelona's Diagonal Mar shopping center up for sale for more than €500 million",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/venda-centre-comercial-diagonal-mar/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20260916/deutsche-bank-venta-diagonal-mar-barcelona-134319668"
+            }
+          ]
+        },
+        {
+          "body": "European Commission representative in Spain Daniel Calleja said Barcelona has an exceptional opportunity in artificial intelligence, but argued that small and medium-sized businesses need more training and financing to adopt it. He cited AI use of 19% among SMEs compared with 57% among large companies, while speakers at Barcelona's Forward Tech Summit highlighted the city's research assets, including the Barcelona Supercomputing Center and open projects such as AINA and ALIA. Officials and industry representatives urged companies and public administrations to integrate AI, but stressed that adoption should be balanced and accompanied by faster, clearer rules on safety, ethics and acceptable uses.",
+          "headline": "Barcelona and EU officials push AI adoption for small businesses while calling for faster safeguards",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/daniel-calleja-barcelona-oportunitat-extraordinaria-ia/"
+            },
+            {
+              "name": "The New Barcelona Post",
+              "url": "https://www.thenewbarcelonapost.cat/ia-ecosistema-empresarial-foment-treball/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
