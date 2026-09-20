@@ -1,0 +1,254 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Russian authorities said a large Ukrainian drone attack on Moscow and the surrounding region killed at least two people, injured others, damaged a facility at the Moscow oil refinery and forced the evacuation of residents from a high-rise building. Moscow Mayor Sergei Sobyanin said more than 1,600 drones had been intercepted since Saturday, including 450 aimed at the capital, and accused Ukraine of trying to disrupt the final day of Russia's tightly controlled parliamentary election. President Volodymyr Zelenskyy said Ukraine had struck a key oil-industry facility and a logistics site that support Russia's war effort. Ukrainian authorities also reported deaths in Russian overnight attacks on the Kyiv and Sumy regions.",
+          "headline": "Mass Ukrainian drone attack on Moscow region kills two and damages refinery",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c34gdjk1ne8yo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/20/hundreds-of-drones-target-moscow-on-last-day-of-voting-in-russias-parliamentary-election"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says"
+            }
+          ]
+        },
+        {
+          "body": "Voters in Berlin and Mecklenburg-Western Pomerania are casting ballots in state elections that could intensify pressure on Chancellor Friedrich Merz after his Christian Democratic Union's recent setback in Saxony-Anhalt. Polls suggest the CDU faces a close contest with the Left in Berlin and risks one of its worst regional results in Mecklenburg-Western Pomerania, where the Social Democrats and the far-right Alternative for Germany are competing for first place. The AfD's continued strength, particularly in eastern Germany, and Merz's poor approval ratings have fuelled speculation about his political future only 16 months into his term.",
+          "headline": "German state elections put Chancellor Merz under renewed pressure",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cme8xj6g2ny7o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/20/german-chancellor-friedrich-merz-state-elections-berlin-far-right"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/20/two-german-states-go-to-the-polls-after-far-right-gains"
+            }
+          ]
+        },
+        {
+          "body": "Yemen's Iran-backed Houthi movement said it used ballistic and cruise missiles and drones against sensitive sites in Riyadh and an Aramco energy facility in Yanbu. Saudi-led coalition forces said they intercepted and destroyed a ballistic missile aimed at Riyadh and thwarted attempted attacks on other cities, while Saudi authorities did not confirm the full extent of damage or casualties. Residents reported explosions and black smoke near Riyadh's airport, where flight operations were disrupted, in the first air-raid alerts for the capital since fighting with the Houthis escalated in July.",
+          "headline": "Houthis claim strikes on Riyadh as Saudi Arabia says it intercepted missile",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwly5d9v7r43o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh"
+            }
+          ]
+        },
+        {
+          "body": "Iran's security leadership said Tehran would deliver devastating blows if necessary and set conditions for ending the conflict, including an end to the war and the lifting of a US naval blockade. The statement came amid continuing regional escalation, though the available report did not provide further detail on negotiations, timing or the specific measures Iran would take.",
+          "headline": "Iran demands end to war and lifting of US naval blockade",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/9/20/iran-war-live-tehran-calls-for-end-to-war-lifting-of-us-naval-blockade"
+            }
+          ]
+        },
+        {
+          "body": "Health workers in Bunia, the capital of the Democratic Republic of the Congo's Ituri province, have begun receiving the Ervebo Ebola vaccine as authorities confront a rapidly growing Bundibugyo-strain outbreak. The rollout, backed by the World Health Organization and Médecins Sans Frontières, is expected to reach 50,000 frontline workers in Ituri and North Kivu, while 20,000 recipients will be monitored for up to a year to assess protection against the strain. The vaccine was developed for the more common Zaire strain and is being used under a compassionate-use programme; authorities reported at least 3,639 deaths and 7,541 infections since May.",
+          "headline": "DR Congo begins Ebola vaccinations for frontline health workers",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/20/dr-congo-rolls-out-ebola-vaccine-for-health-workers-as-death-toll-rises"
+            }
+          ]
+        },
+        {
+          "body": "Cuba's electricity grid suffered a total disconnection on Friday, leaving millions without power in the country's seventh major blackout of the year. Grid operator UNE said a transmission failure compounded by poor weather caused the outage and that restoration was proceeding gradually, with priority given to hospitals and water pumping facilities. Cuba's ageing thermoelectric infrastructure and chronic fuel shortages have produced repeated outages, while the government says US sanctions and an oil blockade have worsened the crisis; Washington attributes it to internal mismanagement.",
+          "headline": "Cuba suffers another nationwide blackout amid fuel shortages",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c6j9x4387lzxo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/millions-without-power-in-cuba-as-electrical-grid-collapses-again"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Reporters from CNN, MS NOW and Politico were blocked from entering the White House and had their press credentials deactivated after President Donald Trump announced he was barring the outlets over what he called fake-news coverage. The organisations said the move violated constitutional protections for press freedom, while the White House Correspondents' Association called for access to be restored and warned that a standard used against these outlets could be applied more broadly. Trump did not identify specific reporting behind the decision and suggested other outlets could follow.",
+          "headline": "CNN, MS NOW and Politico reporters denied White House access after Trump ban",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cj4gklz9dxplo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260919-cnn-ms-now-politico-reporters-blocked-from-white-house-after-trump-ban"
+            }
+          ]
+        },
+        {
+          "body": "Candidates in gubernatorial races across the United States are increasingly calling for state-level AI safeguards, citing risks including fraud, job displacement, child safety and threats to privacy. Responses collected by Politico show broad frustration with the absence of a federal framework, though many candidates have yet to offer detailed proposals. The debate comes as the Trump administration argues for preempting state regulation, while governors and lawmakers from both parties pursue their own measures and the National Governors Association prepares guidance for incoming and incumbent governors.",
+          "headline": "Gubernatorial candidates push state AI safeguards amid federal inaction",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/19/governor-candidates-ai-regulation-states-midterms-01084879"
+            }
+          ]
+        },
+        {
+          "body": "President Donald Trump's proposal to allow 300,000 metric tons of tariff-free imported beef at prices below the domestic market is drawing opposition from Republican lawmakers in cattle-producing states as well as ranchers who fear it will depress cattle prices. Democratic and independent candidates in competitive Senate contests in Nebraska, Iowa, Kansas and Texas are using the policy to argue that Republicans have failed rural communities facing rising production costs and an agricultural downturn. Republican critics of the plan say they support lowering consumer prices but want policies that expand the domestic herd rather than increase imports.",
+          "headline": "Trump's beef-import plan creates election-year strain for farm-state Republicans",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/09/19/trumps-beef-plan-problem-nebraska-iowa-kansas-texas-01084910"
+            }
+          ]
+        },
+        {
+          "body": "Farmers are pressing Congress for relief as the current farm bill expires at the end of September. While most programme funding under the law is expected to continue through the end of the year, the approaching deadline highlights unresolved negotiations over long-term agricultural policy and support for a sector under economic pressure.",
+          "headline": "Farmers seek congressional relief as farm bill deadline approaches",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/business/2026/09/19/farmers-need-relief-heres-what-is-holding-up-congress/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Fifty days after more than 80,000 people crossed from Morocco into Ceuta during a mass border breach, more than 10,000 migrants remain in the Spanish enclave, according to reports citing government figures. About 8,300 are housed in temporary facilities while thousands more remain on the streets or in informal settlements, despite the opening of a port camp intended for 1,700 people. Authorities are still identifying many arrivals, including hundreds or more than a thousand possible unaccompanied minors, while residents, aid workers and officials face mounting pressure over housing, security and the processing of migrants' legal status.",
+          "headline": "Ceuta struggles to accommodate thousands after mass border crossing",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-20/el-mapa-de-ceuta-50-dias-despues-de-la-entrada-mas-de-10000-migrantes-entre-centros-y-asentamientos-informales.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260920/ceuta-ampliar-plazas-campamento-puerto/17232436.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/20/6aaecc4bfdddff0a3a8b4574.html"
+            }
+          ]
+        },
+        {
+          "body": "More than 1,000 migrant children are still living on Ceuta's streets after the mass crossing, according to El País, with many repeatedly going to police headquarters seeking identification and placement but unable to enter the system. Spain's regional governments have begun receiving unaccompanied minors who arrived before the late-July crisis, and authorities say procedures for children who arrived during the mass crossing are under way. The pace of processing, however, has left many children exposed to precarious conditions and caught in a political dispute over responsibility for their care.",
+          "headline": "More than 1,000 unaccompanied children remain in limbo in Ceuta",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-20/mas-de-1000-menores-aun-deambulan-por-ceuta-entre-la-guerra-politica-y-el-limbo.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-19/comunidades-gobernadas-por-pp-y-vox-siguen-acogiendo-a-menores-migrantes-que-llegaron-a-ceuta-antes-de-la-crisis.html"
+            }
+          ]
+        },
+        {
+          "body": "Spain's National Court has ordered the Transport Ministry to provide administrative records on the temporary migrant camp at Ceuta's port within 20 days, after accepting a legal challenge brought by the police union SUP over security concerns. The court had previously declined to suspend the camp as an emergency measure, allowing the government to proceed with moving roughly 1,700 migrants there from beach settlements. The union says it wants to review risk assessments, security protocols and staffing for what it considers a particularly sensitive location.",
+          "headline": "Spain's National Court seeks records on Ceuta migrant camp",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260919/audiencia-nacional-pide-gobierno-expedientes-del-campamento-del-puerto-ceuta/17231944.shtml"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/19/6aae7ee8e85ecee33c8b4576.html"
+            }
+          ]
+        },
+        {
+          "body": "Prime Minister Pedro Sánchez and opposition leader Alberto Núñez Feijóo are appearing in Catalonia as both parties begin positioning for Spain's next general election. Sánchez is attending the Socialists' Festa de la Rosa in Gavà before travelling to New York for UN-related events focused on artificial intelligence and progressive politics, while Feijóo is appearing in Badalona and plans to keep pressure on the government over its handling of the Ceuta migration crisis. Catalonia remains a central electoral battleground: it is a major source of Socialist votes and an area where the Popular Party needs to improve substantially.",
+          "headline": "Sánchez and Feijóo use Catalonia appearances to frame coming general-election contest",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/catalunya/2026-09-20/sanchez-y-feijoo-anticipan-en-cataluna-la-carrera-para-las-generales.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-20/sanchez-se-vuelca-en-la-ia-y-en-el-progresismo-de-mamdani-en-nueva-york-mientras-el-pp-intentar-estirar-ceuta.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona Mayor Jaume Collboni has announced a pilot network of affordable shops, beginning in the Marina neighbourhood of Sants-Montjuïc and expected to open by the end of 2027. Managed by a third-sector organisation in a municipally owned building, the project would offer affordable fresh food while linking neighbourhood commerce with vocational training and employment. Collboni discussed the idea with New York Mayor Zohran Mamdani, whose administration plans public supermarkets to reduce the cost of essential groceries; Barcelona says its initiative would fill gaps in underserved areas rather than compete with private shops or municipal markets.",
+          "headline": "Barcelona plans pilot affordable-food shop network inspired by New York proposal",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/barcelona-tindra-xarxa-comercos-assequibles-nova-york/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/collboni-anuncia-un-supermercat-assequible-a-barcelona-a-finals-del-2027-semblant-als-de-nova-york/noticia/3429622/"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia's Republican Left party, ERC, has apologised after its internal guarantees commission concluded that former communications leaders Sergi Sabrià and Marc Colomer bore primary responsibility for a 2023 false-flag poster campaign that linked Ernest Maragall and his brother, former Catalan president Pasqual Maragall, to Alzheimer's disease. The party said it could not discipline them because they are no longer members, and found that other participants had acted on orders. ERC said it would improve transparency, decision traceability and oversight of party resources to prevent informal parallel structures and similar incidents.",
+          "headline": "ERC apologises after inquiry names former officials in Maragall poster scandal",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/erc-tanca-expedient-cartells-maragall-alzheimer-demana-perdo/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/erc-culpa-sergi-sabria-i-marc-colomer-dels-cartells-ofensius-contra-els-germans-maragall-el-2023/noticia/3429607/"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona is expected to approach 30°C on Sunday as a warm spell continues, with temperatures forecast to rise further above 30°C in parts of the metropolitan area early next week. Clear skies and only limited high cloud are expected, while inland and pre-coastal areas could be hotter still. A change to maritime winds is expected to temper the heat later in the week, but the unusually summery conditions are forecast to continue even as autumn officially begins.",
+          "headline": "Barcelona faces near-30°C temperatures in unusually warm start to autumn",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/temps-barcelona-diumenge-20-setembre-encara-mes-calor/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
