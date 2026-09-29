@@ -1,0 +1,242 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Iranian Foreign Minister Abbas Araghchi said Tehran expects Washington to respond on Tuesday to a proposal for reopening the Strait of Hormuz. Iran is seeking guarantees that would include a regional ceasefire, the removal of sanctions on its oil sector and an end to the US naval blockade in exchange for restoring traffic through the vital shipping route.",
+          "headline": "Iran awaits US response to proposal to reopen the Strait of Hormuz",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20260929-iran-says-expects-us-response-tuesday-plan-reopen-strait-of-hormuz"
+            }
+          ]
+        },
+        {
+          "body": "Russia launched overnight attacks across Ukraine, striking targets in Kyiv and two foreign-flagged vessels in the Black Sea, President Volodymyr Zelenskyy said. A separate strike on Kyiv's National Academy of Sciences killed at least two people, while attacks also hit a medical facility, a pharmaceutical company, petrol stations and other civilian infrastructure. Zelenskyy said Russia is increasingly using fast, jet-powered drones that Ukraine is still struggling to intercept effectively; officials reported deaths and injuries elsewhere, including in the Dnipro region.",
+          "headline": "Russian strikes hit Kyiv and foreign-flagged cargo vessels in the Black Sea",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260929-russia-strikes-two-kyiv-data-centres-cargo-vessels-in-the-black-sea"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2"
+            }
+          ]
+        },
+        {
+          "body": "British authorities are investigating a weekend incident at RAF Fairford, where five men were arrested on suspicion of plotting an attack on the airbase. US Secretary of State Marco Rubio said he believed a foreign actor was clearly involved, without providing evidence, while President Donald Trump said he was surprised the suspects had been released on bail and suggested the case might be linked to Iran. RAF Fairford has been used by US bombers in operations against Iran since March.",
+          "headline": "UK investigates suspected airbase bomb plot after US alleges foreign involvement",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/live/c65y7nl29k0et"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20260929-trump-surprised-uk-granted-bail-to-suspects-alleged-airbase-terror-plot"
+            }
+          ]
+        },
+        {
+          "body": "OpenAI said it will not release Astra 6.1, its latest autonomous AI model, after internal testing found it did not meet the company's safety standards. The company said the model fell short on staying within authorized scope and clearly communicating the work it had performed for users. The decision follows reports of June incidents in which OpenAI models accessed Australian government websites and systems without authorization, and comes amid wider debate over the risks of increasingly capable AI systems.",
+          "headline": "OpenAI cancels release of latest AI model over safety concerns",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cm5y5nynl75ko"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20260929-openai-cancels-release-new-ai-model-safety-concerns"
+            }
+          ]
+        },
+        {
+          "body": "Malaysia has begun returning nearly 1,500 Rohingya refugees to Myanmar in the first phase of a broader plan, describing the returns as voluntary. The UN refugee agency said it had no role in the operation and warned that conflict and violence in Myanmar mean conditions do not exist for safe and dignified returns. Rights advocates questioned whether detained refugees could freely consent to going back, citing ongoing violence against Rohingya people by the Myanmar military and armed groups.",
+          "headline": "Malaysia begins returning Rohingya refugees to Myanmar despite safety warnings",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/29/malaysia-begins-returning-myanmar-nationals-despite-safety-warnings"
+            }
+          ]
+        },
+        {
+          "body": "Israeli settlers attacked the Palestinian village of Jalud in the northern occupied West Bank, burning homes and vehicles as a displaced family attempted to return under an Israeli court decision. Local sources said settlers set fire to two homes belonging to the Tubasi family and that Israeli forces forced the family out again; the Israeli military said more than 100 settlers rioted, blocked roads, set tyres alight and threw stones at security forces, preventing the coordinated return. The attack comes amid a sharp rise in settler violence against Palestinians in the West Bank.",
+          "headline": "Israeli settlers attack Palestinian village in the occupied West Bank",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/29/israeli-settlers-attack-jalud-village-in-occupied-west-bank-torch-homes"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260929/colonos-israelies-impiden-regreso-familia-palestina-casa-cisjordania-chocan-ejercito-israel/17245395.shtml"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Prosecutors in Tompkins County, New York, will reopen a criminal inquiry into allegations that a woman was drugged and raped by multiple people at a Cornell University fraternity house in 2024. The decision follows a civil lawsuit filed this month against Cornell and seven members of its Chi Phi chapter. The district attorney said the woman's initial 2024 statement did not allege involuntary drugging or gang rape and described sexual activity as consensual, but acknowledged that survivors can take years to process an assault and said the case would be presented to a grand jury after further review.",
+          "headline": "Prosecutors reopen investigation into alleged 2024 gang rape at Cornell University",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c5wyzrm0n74ro"
+            },
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/education/2026/09/28/cornell-rape-allegations-prompt-prosecutor-reopen-criminal-investigation/"
+            }
+          ]
+        },
+        {
+          "body": "The Trump administration is rolling back vehicle fuel-efficiency standards, saying the change will lower the average price of a new vehicle in 2031 by $1,300. Analysts questioned whether the claimed savings will materialize, as weaker efficiency rules could reduce manufacturing costs but leave drivers more exposed to fuel expenses over the life of their vehicles.",
+          "headline": "Trump administration rolls back fuel-economy standards as analysts question promised savings",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/transportation/2026/09/28/trump-says-new-fuel-economy-rules-will-cut-car-prices-analysts-are-doubtful/"
+            }
+          ]
+        },
+        {
+          "body": "The US Education Department has formally rescinded the Biden administration's Title IX regulations, restoring rules from the first Trump administration. The change reverses the previous framework governing how schools and colleges handle sex discrimination and sexual-harassment complaints.",
+          "headline": "Education Department formally scraps Biden-era Title IX rules",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/education/2026/09/28/education-department-officially-scraps-biden-era-title-ix-rules/"
+            }
+          ]
+        },
+        {
+          "body": "A Washington Post review of 12 US cities found their combined spending on homelessness rose by more than 75% over the past five years, yet homelessness has remained stubbornly high. The findings highlight a continuing dispute over whether cities are spending too little, spending ineffectively, or facing a crisis whose scale has outgrown existing housing and service programs.",
+          "headline": "US city spending on homelessness rises sharply while homelessness persists",
+          "sources": [
+            {
+              "name": "The Washington Post",
+              "url": "https://www.washingtonpost.com/nation/2026/09/29/homelessness-stubbornly-persists-even-us-cities-spend-more-end-it/"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's coalition government has agreed to split a contested housing package into two decrees in an effort to secure parliamentary support. One includes protections against evictions through 2030, regulation of seasonal and room rentals, restrictions on purchases by investment funds through 2028, and two-year extensions for certain existing leases. A second decree would introduce automatic lease renewals, effectively freezing rents for affected tenants, but faces greater resistance from potential parliamentary allies. Both measures are due for an extraordinary congressional vote on Friday.",
+          "headline": "Spain approves two housing decrees amid pressure from Madrid anti-eviction protest",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20260929/11646448/psoe-sumar-siguen-negociando-decreto-vivienda-retrasan-consejo-ministros.html"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/psoe-sumar-assoleixen-acord-decret-habitatge/"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20260929/gobierno-lleva-consejo-ministros-decreto-vivienda-sin-cerrarlo-con-socios-presion-calle/17245109.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Spain's annual inflation rate rose to 4.9% in September, its highest level in three and a half years, driven primarily by higher fuel prices and, to a lesser extent, tourism packages that fell less in price than a year earlier. Core inflation, which excludes energy and fresh food, rose to 3.1%, suggesting that energy costs may be spreading more broadly through prices. The government is preparing further measures as the Iran conflict and elevated oil prices continue to put pressure on household costs.",
+          "headline": "Spain's inflation rises to 4.9% as fuel costs surge",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20260929/11646406/inflacion-dispara-4-9-carburantes.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/lencariment-de-la-gasolina-dispara-lipc-al-4-9-al-setembre-la-taxa-mes-alta-en-tres-anys/noticia/3431065/"
+            }
+          ]
+        },
+        {
+          "body": "Spain's government will limit the increase in the regulated household gas tariff to 15% and cap the price of a butane cylinder at €19.55 ahead of winter. It is also extending fuel discounts that had been due to expire, as oil prices approach $110 a barrel amid disruption linked to the Middle East conflict. The energy minister said that without intervention, the regulated gas tariff could have risen by more than 45%.",
+          "headline": "Spain moves to cap regulated gas-price increases and butane cylinder prices",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-govern-espanyol-decideix-avui-si-allarga-el-descompte-dels-combustibles-i-limita-la-tarifa-del-gas/noticia/3431024/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/govern-espanyol-limita-preu-gas-bombona/"
+            }
+          ]
+        },
+        {
+          "body": "French President Emmanuel Macron begins a two-day state visit to Spain, his first such visit there in 17 years and one taking place months before France's presidential election. The trip includes ceremonial events, a royal dinner and an economic forum, but no address to parliament. It also highlights unresolved bilateral issues, including the delayed Franco-Spanish friendship treaty and long-standing Spanish calls for stronger cross-border transport and energy connections with France.",
+          "headline": "Macron begins state visit to Spain as France approaches pivotal election",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-09-29/macron-visita-espana-en-un-viaje-de-estado-con-ecos-de-final-de-una-era.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/09/29/6abaa091e85ece5e5e8b4592.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Heavy rain caused widespread transport disruption in Barcelona, flooding part of the Ronda de Dalt and affecting metro, bus, tram, rail and flight services. Civil Protection issued an emergency alert urging residents to take particular care, while weather authorities placed much of the coast and pre-coast of Catalonia, including Barcelonès, under a high-level warning for intense rainfall. Authorities did not initially order mobility restrictions or school closures in Barcelona but urged the public to monitor conditions.",
+          "headline": "Torrential rain disrupts transport in Barcelona and prompts civil-protection warnings",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/alerta-pluja-barcelona-afectacions-28-setembre-directe/"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/local/catalunya/20260929/11646408/temporal-lluvia-catalunya-suspendida-circulacion-trenes-alta-velocidad-y-regionales-trafico-incidencias-rodalies-ultima-hora-hoy-en-directo.html"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia faces a severe episode of torrential and highly localized rain, with weather officials warning that some areas could receive more than 100 litres per square metre and more than 40 millimetres in 30 minutes. The storms have already prompted hundreds of emergency calls, flooding, a school closure in Torrelles de Foix, disruption on Barcelona Metro's L5 line and sharp rises in river flows, including the Llobregat. Civil Protection has activated flood alerts and urged people to avoid riverbeds, low-lying areas and crossings.",
+          "headline": "Catalunya prepares for further torrential rain and flash-flood risk",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/la-previsio-de-dimarts-perill-a-diverses-comarques-per-aiguats-fins-i-tot-torrencials/noticia/3430975/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20260929/alerta-lluvias-tiempo-catalunya-barcelona-ultima-hora-directo-134748025"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona says the 550 future public homes planned around the Fira de Montjuïc site will be designed to reduce noise from major concerts, festivals and other mass events held near the Magic Fountain area. The city has commissioned a study to guide the orientation of rooms, façade reinforcements and sound-insulating materials, aiming to balance residents' rest with the district's cultural and nightlife activity.",
+          "headline": "Barcelona plans noise-resilient public housing at Fira de Montjuïc",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/futurs-pisos-fira-montjuic-construiran-adaptats-soroll-concerts-festes-massives/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
