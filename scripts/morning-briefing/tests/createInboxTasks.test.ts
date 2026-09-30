@@ -1,46 +1,57 @@
-import { describe, expect, test, vi } from "vitest"
-
+import { mkdtempSync } from "node:fs"
+import { tmpdir } from "node:os"
+import { join } from "node:path"
+import { expect, test, vi } from "vitest"
 import { createInboxTasks } from "../createInboxTasks.ts"
+import type { TasksClient } from "../../tasks/types.ts"
 
-describe("createInboxTasks", () => {
-  test("creates only titles absent from incomplete and completed tasks across all lists", async () => {
-    const runCommand = vi.fn(async (command: readonly string[], request: unknown) => {
-      const method = command.join(" ")
-      if (method === "tasks tasklists list")
-        return {
-          items: [
-            { id: "inbox", title: "Inbox" },
-            { id: "today", title: "Today" },
-          ],
-        }
-      if (method === "tasks tasks list") {
-        const tasklist = (request as { params: { tasklist: string } }).params.tasklist
-        return tasklist === "today"
-          ? { items: [{ id: "done", title: "Already captured" }] }
-          : { items: [] }
+test("deduplicates completed tasks and resumes a saved capture after description failure", async () => {
+  const statePath = mkdtempSync(join(tmpdir(), "briefing-capture-"))
+  const record = {
+    kind: "task" as const,
+    id: "new",
+    title: "New action",
+    description: "",
+    availability: "available",
+    url: "https://tasks/?task=new",
+  }
+  const client = {
+    spaceId: "space",
+    list: vi
+      .fn()
+      .mockResolvedValue([{ ...record, id: "old", title: "Already captured", status: "done" }]),
+    get: vi.fn().mockResolvedValue(record),
+    write: vi.fn(),
+  } as unknown as TasksClient
+  let fail = true
+  vi.mocked(client.write).mockImplementation(async (command, input) => {
+    if (command === "capture")
+      return {
+        createdIds: ["new"],
+        records: [{ ...record, creationKey: `capture:${input.eventKey}` }],
       }
-      return { id: "created-id", title: "New action" }
-    })
-
-    await expect(
-      createInboxTasks({
-        runCommand,
-        tasks: [
-          { notes: "Old", title: "  already   CAPTURED " },
-          { notes: "Context", title: "New action" },
-          { notes: "Duplicate draft", title: "new action" },
-        ],
-      }),
-    ).resolves.toEqual([
-      {
-        notes: "Context",
-        title: "New action",
-        url: "https://tasks.google.com/task/created-id?sa=6",
-      },
-    ])
-    expect(runCommand).toHaveBeenCalledWith(
-      ["tasks", "tasks", "insert"],
-      expect.objectContaining({ params: { tasklist: "inbox" } }),
-    )
+    if (fail) {
+      fail = false
+      throw new Error("description lost")
+    }
+    return { affectedIds: ["new"], records: [record] }
   })
+  const args = {
+    client,
+    statePath,
+    date: "2026-09-30",
+    tasks: [
+      { title: "Already captured", notes: "" },
+      { title: "New action", notes: "Context" },
+    ],
+  }
+  await expect(createInboxTasks(args)).rejects.toThrow("description lost")
+  expect(await createInboxTasks(args)).toEqual([
+    { title: "New action", notes: "Context", url: record.url },
+  ])
+  expect(vi.mocked(client.write).mock.calls.filter(call => call[0] === "capture")).toHaveLength(1)
+  const descriptions = vi
+    .mocked(client.write)
+    .mock.calls.filter(call => call[0] === "save-description")
+  expect(descriptions[0]).toEqual(descriptions[1])
 })

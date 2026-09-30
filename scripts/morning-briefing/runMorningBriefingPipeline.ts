@@ -31,7 +31,7 @@ export async function runMorningBriefingPipeline(
 export type RunMorningBriefingPipelineArgs = {
   /** Transfer new captures before gathering the current task lists. */
   processInbox: () => Promise<void>
-  /** Create deduplicated actions in the Google Tasks Inbox list. */
+  /** Create deduplicated actions in the Tasks Inbox list. */
   createTasks: (tasks: readonly MorningBriefingTaskDraft[]) => Promise<CreatedMorningBriefingTask[]>
   /** Add the task-creation outcome as the briefing's final section. */
   finalize: (markdown: string, tasks: readonly CreatedMorningBriefingTask[]) => Promise<string>

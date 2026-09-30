@@ -17,15 +17,17 @@ export type CaptureDraft = {
   /** Research scope, or empty when no research is useful. */
   research: string
   /** An existing incomplete task for the same action, if unambiguous. */
-  duplicate: { id: string; listId: string } | null
+  duplicate: { id: string; kind: "task" | "project" } | null
 }
 
-/** Verified Google Tasks destination. */
+/** Verified typed Tasks destination. */
 export type CaptureTarget = {
   /** Task identifier. */
   id: string
-  /** Current list identifier. */
-  listId: string
+  /** Object kind, including promoted projects. */
+  kind: "task" | "project"
+  /** Bound peer space. */
+  spaceId: string
   /** Current title. */
   title: string
   /** Link to the task. */
@@ -34,6 +36,10 @@ export type CaptureTarget = {
 
 /** Durable transfer journal, also used as the research queue. */
 export type CaptureRecord = {
+  /** Journal version; legacy records require explicit provenance resolution. */
+  version?: 2
+  /** Original legacy journal retained during conversion. */
+  legacy?: unknown
   /** Source capture. */
   capture: Capture
   /** Classification saved before creating a task. */

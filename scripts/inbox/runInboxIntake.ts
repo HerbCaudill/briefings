@@ -11,7 +11,10 @@ import {
 import { formatLocalDate } from "../morning-briefing/date.ts"
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
 import { INBOX_STATE_PATH, VAULT_PATH } from "./constants.ts"
-import { loadGoogleTasks } from "./loadGoogleTasks.ts"
+import { createTasksClient } from "../tasks/createTasksClient.ts"
+import { targetFromRecord } from "../tasks/targetFromRecord.ts"
+import { loadTasks } from "../tasks/loadTasks.ts"
+import { migrateCaptureRecord } from "../tasks/migrateCaptureRecord.ts"
 import { parseCaptures } from "./parseCaptures.ts"
 import { processInbox } from "./processInbox.ts"
 import { transferCapture } from "./transferCapture.ts"
@@ -39,9 +42,19 @@ export async function runInboxIntake(): Promise<number> {
       archivePath: join(VAULT_PATH, "documents/inbox.archive.md"),
       statePath: join(INBOX_STATE_PATH, "captures"),
       date,
+      prepareRecord: async record => {
+        const client = createTasksClient()
+        const migrated = await migrateCaptureRecord(record, client)
+        if (migrated.target)
+          migrated.target = targetFromRecord(
+            await client.get(migrated.target.kind, migrated.target.id),
+            client.spaceId,
+          )
+        return migrated
+      },
       transfer: (capture, draft, recovery) => transferCapture({ capture, draft, ...recovery }),
       classify: async capture => {
-        writeTextAtomically(snapshotPath, JSON.stringify(await loadGoogleTasks()))
+        writeTextAtomically(snapshotPath, JSON.stringify(await loadTasks()))
         const outputPath = join(INBOX_STATE_PATH, "agents", `${capture.id}.classification.json`)
         await runCodexAgent({
           codexCommand: CODEX_COMMAND_PATH,
@@ -60,7 +73,8 @@ export async function runInboxIntake(): Promise<number> {
           !draft.title?.trim() ||
           typeof draft.question !== "string" ||
           typeof draft.research !== "string" ||
-          (draft.duplicate !== null && (!draft.duplicate?.id || !draft.duplicate?.listId))
+          (draft.duplicate !== null &&
+            (!draft.duplicate?.id || !["task", "project"].includes(draft.duplicate?.kind)))
         )
           throw new Error("Invalid capture classification")
         return draft

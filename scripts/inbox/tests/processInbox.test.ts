@@ -14,9 +14,10 @@ test("verifies a transfer before archiving and preserves captures appended durin
   writeFileSync(inboxPath, original)
   const transfer = vi.fn().mockResolvedValue({
     id: "task",
-    listId: "inbox",
+    kind: "task",
+    spaceId: "space",
     title: "Keep laundry going",
-    url: "https://tasks.google.com/task/task",
+    url: "https://tasks-sigma-seven.vercel.app/?task=task",
   })
   const args = {
     inboxPath,
@@ -38,7 +39,9 @@ test("verifies a transfer before archiving and preserves captures appended durin
   expect(readFileSync(inboxPath, "utf8")).toBe(later)
   expect(readFileSync(archivePath, "utf8")).toContain(original)
   expect(readFileSync(archivePath, "utf8")).toContain("Still relevant? Originally September 3.")
-  expect(readFileSync(archivePath, "utf8")).toContain("https://tasks.google.com/task/task")
+  expect(readFileSync(archivePath, "utf8")).toContain(
+    "https://tasks-sigma-seven.vercel.app/?task=task",
+  )
 
   // A sync replay must not create another task or archive entry.
   writeFileSync(inboxPath, original)

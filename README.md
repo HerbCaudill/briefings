@@ -48,10 +48,12 @@ During synthesis, only the URLs selected by the first `pi` pass are fetched and 
 
 The workflow extracts carryover from the three latest daily briefings, then runs three ephemeral Codex agents in parallel:
 
-- schedule and Google Tasks;
+- schedule and the Tasks board;
 - Gmail and messaging; and
 - GitHub, meeting transcripts, and local agent sessions.
 
 Each agent writes schema-constrained JSON plus its complete JSONL event stream. One final agent reads the merged results and creates a validated canonical `final.md`. The publisher atomically writes that exact briefing under `## Daily briefing` in `~/Code/herbcaudill/notes/daily/YYYY-MM-DD.md`, waits for Obsidian Sync, then creates a clean dated Codex task with the same content. It discovers the current Pinned sidebar section, pins the new task, and unpins older morning briefing presentation tasks.
 
 Private artifacts never enter `public/` or Git. Each run has its own directory under `~/.local/state/morning-briefing/YYYY-MM-DD/`, including `carryover.md`, per-lane results and event logs, `merged.json`, synthesis attempts, `final.md`, the presentation event log, and `manifest.json`. A single-run lock prevents scheduled runs from overlapping.
+
+Task capture, research publication and duplicate detection use the managed Tasks CLI. See [Tasks integration](docs/tasks-integration.md) for the enrolled-space binding, journal recovery and legacy-history rules.

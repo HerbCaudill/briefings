@@ -4,7 +4,7 @@ import { join } from "node:path"
 import { expect, test } from "vitest"
 import { presentMorningBriefingInCodex } from "../codexPresentation.ts"
 
-test("presents the exact briefing then starts one Inbox/Today review in the same pinned session", async () => {
+test("presents the exact briefing then starts one Inbox review in the same pinned session", async () => {
   const root = mkdtempSync(join(tmpdir(), "combined-session-"))
   const command = join(root, "codex")
   writeFileSync(
@@ -46,5 +46,5 @@ readline.createInterface({ input: process.stdin }).on('line', line => {
     .filter(event => event.method === "test/turn")
   expect(turns).toHaveLength(2)
   expect(turns.map(turn => turn.params.threadId)).toEqual(["session", "session"])
-  expect(turns[1].params.input[0].text).toBe("$task-review inbox, today")
+  expect(turns[1].params.input[0].text).toBe("$task-review inbox")
 })

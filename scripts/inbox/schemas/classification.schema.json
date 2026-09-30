@@ -12,8 +12,11 @@
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["id", "listId"],
-          "properties": { "id": { "type": "string" }, "listId": { "type": "string" } }
+          "required": ["id", "kind"],
+          "properties": {
+            "id": { "type": "string" },
+            "kind": { "type": "string", "enum": ["task", "project"] }
+          }
         }
       ]
     }

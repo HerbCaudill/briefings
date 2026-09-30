@@ -1,1 +1,1 @@
-$task-review inbox, today
+$task-review inbox

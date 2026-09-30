@@ -2,57 +2,54 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs"
 import { join } from "node:path"
 import { expect, test, vi } from "vitest"
 import { runCodexAgent } from "../../morning-briefing/codexAgent.ts"
-import { loadGoogleTasks } from "../loadGoogleTasks.ts"
-import { runGoogleTasks } from "../runGoogleTasks.ts"
 import { researchQueue } from "../researchQueue.ts"
 
-const paths = vi.hoisted(() => ({
+const fixture = vi.hoisted(() => ({
   root: `/tmp/inbox-research-test-${Date.now()}-${Math.random()}`,
+  get: vi.fn(),
+  write: vi.fn(),
 }))
 vi.mock("../constants.ts", () => ({
-  INBOX_STATE_PATH: `${paths.root}/state`,
-  VAULT_PATH: `${paths.root}/vault`,
+  INBOX_STATE_PATH: `${fixture.root}/state`,
+  VAULT_PATH: `${fixture.root}/vault`,
 }))
 vi.mock("../../morning-briefing/codexAgent.ts", () => ({ runCodexAgent: vi.fn() }))
-vi.mock("../loadGoogleTasks.ts", () => ({ loadGoogleTasks: vi.fn() }))
-vi.mock("../runGoogleTasks.ts", () => ({ runGoogleTasks: vi.fn() }))
+vi.mock("../../tasks/createTasksClient.ts", () => ({
+  createTasksClient: () => ({ spaceId: "space", get: fixture.get, write: fixture.write }),
+}))
+vi.mock("../../tasks/saveDescription.ts", () => ({
+  saveDescription: async (args: unknown) => fixture.write(args),
+}))
 
-test("publishes verified research to the task's new list and retries task updates without repeating research", async () => {
-  const state = join(paths.root, "state")
-  const vault = join(paths.root, "vault")
+test("reuses verified research after a publication failure and refreshes human edits", async () => {
+  const state = join(fixture.root, "state")
+  const vault = join(fixture.root, "vault")
   mkdirSync(join(state, "captures"), { recursive: true })
   mkdirSync(vault, { recursive: true })
   writeFileSync(
     join(state, "captures/hash.json"),
     JSON.stringify({
+      version: 2,
       capture: { id: "hash", timestamp: "2026-09-05T10:00:00+02:00", raw: "Research renewal" },
-      draft: {
-        title: "Renew card",
-        research: "Find renewal requirements",
-        question: "",
-        duplicate: null,
-      },
+      draft: { title: "Renew card", research: "Find requirements", question: "", duplicate: null },
       target: {
-        id: "task",
-        listId: "inbox",
+        kind: "project",
+        spaceId: "space",
+        id: "project",
         title: "Renew card",
-        url: "https://tasks.google.com/task/task",
+        url: "https://tasks/?project=project",
       },
       date: "2026-09-05",
     }),
   )
-  let listId = "inbox"
-  let notes = "Preserve this context."
-  const children: {
-    id: string
-    title: string
-    parent: string
-    position: string
-    status?: string
-  }[] = []
-  vi.mocked(loadGoogleTasks).mockImplementation(async () => ({
-    lists: [],
-    tasks: [{ id: "task", listId, title: "Renew card", notes, status: "needsAction" }],
+  let description = "Preserve this context."
+  fixture.get.mockImplementation(async () => ({
+    kind: "project",
+    id: "project",
+    title: "Renew card",
+    description,
+    availability: "available",
+    status: "active",
   }))
   vi.mocked(runCodexAgent).mockImplementation(async args => {
     mkdirSync(join(state, "research"), { recursive: true })
@@ -62,74 +59,32 @@ test("publishes verified research to the task's new list and retries task update
       JSON.stringify({
         notePath: "Residence renewal.md",
         nextSteps: ["Review requirements", "Book appointment"],
-        question: "Which card do you hold?",
+        question: "Which card?",
       }),
     )
-    listId = "today"
+    description = "New human context."
   })
-  let loseInsertResponse = true
-  vi.mocked(runGoogleTasks).mockImplementation(async (command, request) => {
-    expect(request.params?.tasklist).toBe("today")
-    if (command[2] === "patch") notes = request.body!.notes!
-    if (command[2] === "list") {
-      expect(request.params).toMatchObject({ showCompleted: true, showHidden: true })
-      return { items: children }
-    }
-    if (command[2] === "insert") {
-      expect(request.params?.parent).toBe("task")
-      expect(request.params?.previous).toBe(children.at(-1)?.id)
-      const child = {
-        id: `child-${children.length}`,
-        title: request.body!.title!,
-        parent: "task",
-        position: String(children.length),
-      }
-      children.push(child)
-      if (loseInsertResponse) {
-        loseInsertResponse = false
-        throw new Error("Insert succeeded but response was lost")
-      }
-      return child
-    }
-    if (command[2] === "get" && request.params?.task !== "task")
-      return children.find(child => child.id === request.params?.task)
-    return { id: "task", notes }
-  })
+  fixture.write.mockRejectedValueOnce(new Error("lost reply")).mockResolvedValue(undefined)
   await expect(researchQueue()).rejects.toThrow("need retry")
   expect(existsSync(join(state, "research/hash.json.done"))).toBe(false)
-  // A completed step must not be recreated when publication resumes.
-  expect(children).toHaveLength(1)
-  children[0]!.status = "completed"
   await researchQueue()
   expect(runCodexAgent).toHaveBeenCalledTimes(1)
-  expect(notes).toContain("Preserve this context.")
-  expect(notes).toContain("obsidian://open?vault=")
-  expect(notes).toContain("file=Residence%20renewal")
-  expect(children.map(child => child.title)).toEqual(["Review requirements", "Book appointment"])
+  expect(fixture.write.mock.calls[1][0]).toMatchObject({
+    record: { kind: "project", description: "New human context." },
+    text: expect.stringContaining("New human context."),
+  })
+  expect(fixture.write.mock.calls[1][0].text).toContain("1. Review requirements")
   expect(readFileSync(join(state, "research/hash.json.done"), "utf8")).toBeTruthy()
 })
 
-test("retries research when its promised Obsidian note is missing", async () => {
-  const state = join(paths.root, "state")
+test("does not mark a missing target complete or rerun old completion receipts", async () => {
+  const state = join(fixture.root, "state")
   const record = JSON.parse(readFileSync(join(state, "captures/hash.json"), "utf8"))
   record.capture.id = "missing"
   writeFileSync(join(state, "captures/missing.json"), JSON.stringify(record))
-  vi.mocked(runCodexAgent)
-    .mockClear()
-    .mockImplementation(async args => {
-      writeFileSync(
-        args.outputPath,
-        JSON.stringify({ notePath: "Missing.md", nextSteps: [], question: "" }),
-      )
-    })
+  fixture.get.mockRejectedValue(new Error("Tasks target unknown"))
+  vi.mocked(runCodexAgent).mockClear()
   await expect(researchQueue()).rejects.toThrow("need retry")
-  vi.mocked(runCodexAgent).mockImplementation(async args => {
-    writeFileSync(join(paths.root, "vault/Missing.md"), "Recovered findings.")
-    writeFileSync(
-      args.outputPath,
-      JSON.stringify({ notePath: "Missing.md", nextSteps: [], question: "" }),
-    )
-  })
-  await researchQueue()
-  expect(runCodexAgent).toHaveBeenCalledTimes(2)
+  expect(existsSync(join(state, "research/missing.json.done"))).toBe(false)
+  expect(runCodexAgent).not.toHaveBeenCalled()
 })

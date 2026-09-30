@@ -9,7 +9,8 @@ import {
 } from "../morning-briefing/constants.ts"
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
 import { INBOX_STATE_PATH, VAULT_PATH } from "./constants.ts"
-import { loadGoogleTasks } from "./loadGoogleTasks.ts"
+import { createTasksClient } from "../tasks/createTasksClient.ts"
+import { migrateCaptureRecord } from "../tasks/migrateCaptureRecord.ts"
 import { publishResearch } from "./publishResearch.ts"
 import type { CaptureRecord } from "./types.ts"
 
@@ -30,14 +31,16 @@ export async function researchQueue(): Promise<void> {
     for (const file of readdirSync(capturesPath)
       .filter(file => file.endsWith(".json"))
       .sort()) {
-      const record = JSON.parse(readFileSync(join(capturesPath, file), "utf8")) as CaptureRecord
+      let record = JSON.parse(readFileSync(join(capturesPath, file), "utf8")) as CaptureRecord
       const resultPath = join(INBOX_STATE_PATH, "research", `${record.capture.id}.json`)
       const donePath = `${resultPath}.done`
       if (!record.target || !record.draft.research || existsSync(donePath)) continue
       try {
+        record = await migrateCaptureRecord(record)
+        writeTextAtomically(join(capturesPath, file), JSON.stringify(record, null, 2))
         const current = await findTask(record)
-        if (!current || current.status === "completed") {
-          writeTextAtomically(donePath, "Task already completed or removed.\n")
+        if (current.status === "done") {
+          writeTextAtomically(donePath, "Task already completed.\n")
           continue
         }
         if (!existsSync(resultPath)) {
@@ -54,7 +57,7 @@ export async function researchQueue(): Promise<void> {
             persistent: true,
             threadSource: `inbox-research:${record.capture.id}`,
             timeoutMs: null,
-            prompt: `${readFileSync(join(import.meta.dirname, "prompts/research.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture: record.capture, research: record.draft.research, task: current, taskUrl: record.target.url, vaultPath: VAULT_PATH })}`,
+            prompt: `${readFileSync(join(import.meta.dirname, "prompts/research.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture: record.capture, research: record.draft.research, task: current, taskUrl: record.target!.url, vaultPath: VAULT_PATH })}`,
           })
           const validated = readResearchResult(pendingPath)
           writeTextAtomically(resultPath, JSON.stringify(validated))
@@ -62,19 +65,22 @@ export async function researchQueue(): Promise<void> {
         const result = readResearchResult(resultPath)
         // Reload after research: the human may have moved, edited, or completed the task.
         const latest = await findTask(record)
-        if (!latest || latest.status === "completed") {
-          writeTextAtomically(
-            donePath,
-            "Research saved; task completed or removed during research.\n",
-          )
+        if (latest.status === "done") {
+          writeTextAtomically(donePath, "Research saved; task completed during research.\n")
           continue
         }
-        await publishResearch(latest, result.notePath, result.nextSteps)
+        await publishResearch(
+          latest,
+          result.notePath,
+          result.nextSteps,
+          createTasksClient(),
+          `research:${record.capture.id}`,
+        )
         writeTextAtomically(donePath, `${new Date().toISOString()}\n`)
         console.log(`[inbox-research] Ready for review: ${latest.title}`)
       } catch (error) {
         failures.push(error)
-        console.error(`[inbox-research] ${record.target.title}: ${String(error)}`)
+        console.error(`[inbox-research] ${record.target!.title}: ${String(error)}`)
       }
     }
     if (failures.length) throw new Error(`${failures.length} research item(s) need retry; see log`)
@@ -83,10 +89,9 @@ export async function researchQueue(): Promise<void> {
   }
 }
 
-/** Locate the task even after a list move. */
+/** Read the typed target; missing or deleted targets remain actionable failures. */
 async function findTask(record: CaptureRecord) {
-  const { tasks } = await loadGoogleTasks()
-  return tasks.find(task => !task.deleted && task.id === record.target!.id)
+  return createTasksClient().get(record.target!.kind, record.target!.id)
 }
 
 /** Validate the result and confirm any promised note is inside the vault and nonempty. */

@@ -32,7 +32,7 @@ export type MorningBriefingLane = {
 export type MorningBriefingSynthesisResult = {
   /** Briefing content before the deterministic New tasks section is added. */
   readonly markdown: string
-  /** Actions that are absent from both incomplete and completed Google Tasks. */
+  /** Actions that are absent from both incomplete and completed Tasks. */
   readonly newTasks: readonly MorningBriefingTaskDraft[]
 }
 
@@ -44,7 +44,7 @@ export type MorningBriefingTaskDraft = {
   readonly title: string
 }
 
-/** A task successfully created in Google Tasks. */
+/** A task successfully created in Tasks. */
 export type CreatedMorningBriefingTask = MorningBriefingTaskDraft & {
   /** Browser URL for the created task. */
   readonly url: string

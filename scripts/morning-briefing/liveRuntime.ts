@@ -65,8 +65,8 @@ export async function runLiveMorningBriefing(
           }
         }),
       createTasks: tasks =>
-        runStage("google-tasks", [paths.newTasksPath], async () => {
-          const createdTasks = await createInboxTasks({ tasks })
+        runStage("tasks", [paths.newTasksPath], async () => {
+          const createdTasks = await createInboxTasks({ tasks, date: args.date })
           writeTextAtomically(paths.newTasksPath, `${JSON.stringify(createdTasks, null, 2)}\n`)
           return createdTasks
         }),

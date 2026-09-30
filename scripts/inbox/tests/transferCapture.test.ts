@@ -1,82 +1,53 @@
-import { expect, test } from "vitest"
-import type { GoogleTask, GwsRequest } from "../types.ts"
+import { expect, test, vi } from "vitest"
 import { transferCapture } from "../transferCapture.ts"
+import type { TasksClient } from "../../tasks/types.ts"
 
-test("recovers a task after a lost insert response without duplicating the task", async () => {
-  const tasks: GoogleTask[] = []
-  let inserts = 0
-  const run = async (command: readonly string[], request: GwsRequest) => {
-    if (command[1] === "tasklists") return { items: [{ id: "inbox", title: "Inbox" }] }
-    if (command[2] === "list") return { items: tasks }
-    if (command[2] === "get") return tasks.find(task => task.id === request.params!.task)
-    if (command[2] === "insert") {
-      inserts++
-      tasks.push({ id: "created", title: request.body!.title!, notes: request.body!.notes })
-      throw new Error("lost response")
-    }
-    throw new Error("Unexpected command")
-  }
-  const args = {
-    capture: { id: "hash", timestamp: "2026-09-05T10:00:00+02:00", raw: "Call plumber" },
-    draft: { title: "Call plumber", question: "", research: "", duplicate: null },
-    run,
-  }
-  await expect(transferCapture(args)).rejects.toThrow("lost response")
-  await expect(transferCapture(args)).resolves.toMatchObject({ id: "created", listId: "inbox" })
-  expect(inserts).toBe(1)
+vi.mock("../runGoogleTasks.ts", () => ({
+  runGoogleTasks: vi.fn().mockRejectedValue(new Error("Legacy provider invoked")),
+}))
+
+const capture = { id: "hash", timestamp: "2026-09-30T10:00:00Z", raw: "Call plumber" }
+const draft = { title: "Call plumber", question: "", research: "", duplicate: null }
+const record = {
+  kind: "task" as const,
+  id: "new",
+  title: "Call plumber",
+  url: "https://tasks/?task=new",
+  availability: "available",
+  creationKey: "capture:siri:hash",
+}
+
+test("reuses the same creation request after a lost reply and keeps later human edits", async () => {
+  const client = {
+    spaceId: "space",
+    list: vi.fn().mockResolvedValue([]),
+    write: vi
+      .fn()
+      .mockRejectedValueOnce(new Error("lost reply"))
+      .mockResolvedValue({ createdIds: ["new"], records: [record] }),
+    get: vi.fn().mockResolvedValue({ ...record, title: "Call our plumber" }),
+  } as unknown as TasksClient
+  await expect(transferCapture({ capture, draft, client })).rejects.toThrow("lost reply")
+  expect(await transferCapture({ capture, draft, client, insertionAttempted: true })).toMatchObject(
+    { id: "new", kind: "task", spaceId: "space", title: "Call our plumber" },
+  )
+  expect(vi.mocked(client.write).mock.calls[0]).toEqual(vi.mocked(client.write).mock.calls[1])
 })
 
-test("preserves an uncertain insertion for review when its task cannot be identified", async () => {
-  const run = async (command: readonly string[]) =>
-    command[1] === "tasklists" ? { items: [{ id: "inbox", title: "Inbox" }] } : { items: [] }
+test("does not replace an unavailable journaled target with a matching title", async () => {
+  const client = {
+    spaceId: "space",
+    get: vi.fn().mockRejectedValue(new Error("deleted")),
+    list: vi.fn(),
+    write: vi.fn(),
+  } as unknown as TasksClient
   await expect(
     transferCapture({
-      capture: { id: "hash", timestamp: "2026-09-05T10:00:00+02:00", raw: "Call plumber" },
-      draft: { title: "Call plumber", question: "", research: "", duplicate: null },
-      insertionAttempted: true,
-      run,
+      capture,
+      draft,
+      client,
+      candidate: { kind: "task", spaceId: "space", id: "old", title: "Call plumber", url: "url" },
     }),
-  ).rejects.toThrow("uncertain outcome")
-})
-
-test("uses the journaled destination after Herb rewords a newly inserted task", async () => {
-  const tasks: GoogleTask[] = []
-  let candidate: import("../types.ts").CaptureTarget | undefined
-  let insertionAttempted = false
-  let inserts = 0
-  let failRead = true
-  const run = async (command: readonly string[]) => {
-    if (command[1] === "tasklists") return { items: [{ id: "inbox", title: "Inbox" }] }
-    if (command[2] === "list") return { items: tasks }
-    if (command[2] === "insert") {
-      inserts++
-      const task = { id: "created", title: "Renew card" }
-      tasks.push(task)
-      return task
-    }
-    if (command[2] === "get") {
-      tasks[0]!.title = "Renew our Spanish residence cards"
-      if (failRead) {
-        failRead = false
-        throw new Error("Read failed")
-      }
-      return tasks[0]
-    }
-    throw new Error("Unexpected command")
-  }
-  const args = {
-    capture: { id: "hash", timestamp: "2026-09-05T10:00:00+02:00", raw: "Renew card" },
-    draft: { title: "Renew card", question: "", research: "", duplicate: null },
-    checkpoint: (target?: import("../types.ts").CaptureTarget) => {
-      insertionAttempted = true
-      if (target) candidate = target
-    },
-    run,
-  }
-  await expect(transferCapture(args)).rejects.toThrow("Read failed")
-  await expect(transferCapture({ ...args, candidate, insertionAttempted })).resolves.toMatchObject({
-    id: "created",
-    title: "Renew our Spanish residence cards",
-  })
-  expect(inserts).toBe(1)
+  ).rejects.toThrow("deleted")
+  expect(client.write).not.toHaveBeenCalled()
 })

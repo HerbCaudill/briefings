@@ -14,9 +14,10 @@ export async function processInbox(args: ProcessInboxArgs): Promise<number> {
   for (const capture of captures) {
     try {
       const recordPath = join(args.statePath, `${capture.id}.json`)
-      const record: CaptureRecord = existsSync(recordPath)
+      let record: CaptureRecord = existsSync(recordPath)
         ? (JSON.parse(readFileSync(recordPath, "utf8")) as CaptureRecord)
-        : { capture, date: args.date, draft: await args.classify(capture) }
+        : { version: 2, capture, date: args.date, draft: await args.classify(capture) }
+      if (args.prepareRecord) record = await args.prepareRecord(record)
       writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
       if (!record.target) {
         record.target = await args.transfer(capture, record.draft, {
@@ -49,7 +50,7 @@ function archiveCapture(args: ProcessInboxArgs, record: CaptureRecord): void {
     const followUp = record.draft.question
       ? `Follow-up for review: ${record.draft.question}\n\n`
       : ""
-    const entry = `${record.capture.raw}\n\n${followUp}[Google Task](${record.target!.url}) ${marker}\n\n`
+    const entry = `${record.capture.raw}\n\n${followUp}[Task](${record.target!.url}) ${marker}\n\n`
     const headingIndex = archive.indexOf(`${heading}\n`)
     const next =
       headingIndex === -1
@@ -76,6 +77,8 @@ function archiveCapture(args: ProcessInboxArgs, record: CaptureRecord): void {
 }
 
 type ProcessInboxArgs = {
+  /** Convert legacy mappings before using a stored target. */
+  prepareRecord?: (record: CaptureRecord) => Promise<CaptureRecord>
   /** Capture file updated by Siri and Obsidian Sync. */
   inboxPath: string
   /** Single archive note. */
@@ -93,7 +96,7 @@ type ProcessInboxArgs = {
     recovery: {
       /** Previously returned destination awaiting verification. */
       candidate?: CaptureTarget
-      /** Whether Google may already have received the insertion. */
+      /** Whether the peer may already have received the insertion. */
       insertionAttempted?: boolean
       /** Persist insertion intent or its returned destination. */
       checkpoint: (candidate?: CaptureTarget) => void

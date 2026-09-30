@@ -29,7 +29,7 @@ export const MORNING_BRIEFING_LANES = [
       "Lynne's calendar",
       "DevResults calendar",
       "Family and Tamariu calendars",
-      "Google Tasks",
+      "Tasks",
     ],
   },
   {
