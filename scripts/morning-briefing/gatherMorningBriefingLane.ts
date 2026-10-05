@@ -3,6 +3,7 @@ import { join } from "node:path"
 import { writeTextAtomically } from "./atomicWrite.ts"
 import { runCodexAgent } from "./codexAgent.ts"
 import { decodeGatherResult } from "./decodeAgentOutput.ts"
+import { readMorningBriefingContext } from "./readMorningBriefingContext.ts"
 import { readMorningBriefingPrompt } from "./readPromptFile.ts"
 import type { MorningBriefingGatherResult, MorningBriefingLane } from "./types.ts"
 
@@ -55,6 +56,12 @@ function buildGatherPrompt(args: GatherMorningBriefingLaneArgs): string {
   return `${readMorningBriefingPrompt("gather-common.prompt.md")}
 
 ${readMorningBriefingPrompt(args.lane.promptFileName)}
+
+## Standing context
+
+Apply this Herb-maintained guidance when deciding what needs his attention:
+
+${readMorningBriefingContext()}
 
 ## Run context
 

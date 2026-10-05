@@ -3,6 +3,7 @@ import { join } from "node:path"
 import { writeTextAtomically } from "./atomicWrite.ts"
 import { runCodexAgent } from "./codexAgent.ts"
 import { decodeSynthesisResult } from "./decodeAgentOutput.ts"
+import { readMorningBriefingContext } from "./readMorningBriefingContext.ts"
 import { readMorningBriefingPrompt } from "./readPromptFile.ts"
 import type { MorningBriefingGatherResult, MorningBriefingSynthesisResult } from "./types.ts"
 import { validateSynthesizedBriefingMarkdown } from "./validateBriefing.ts"
@@ -24,6 +25,12 @@ export async function synthesizeMorningBriefing(
   )
 
   const prompt = `${readMorningBriefingPrompt("synthesis.prompt.md")}
+
+## Standing context
+
+Apply this Herb-maintained guidance when deciding what belongs in the briefing or Tasks Inbox:
+
+${readMorningBriefingContext()}
 
 ## Run context
 

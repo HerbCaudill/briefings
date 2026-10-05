@@ -10,6 +10,12 @@ export const CODEX_COMMAND_PATH = join(homedir(), "Library/pnpm/bin/codex")
 /** Directory containing Herb's Obsidian daily notes. */
 export const DAILY_NOTES_DIRECTORY_PATH = join(homedir(), "Code/herbcaudill/notes/daily")
 
+/** Herb-maintained standing guidance applied to every morning briefing run. */
+export const MORNING_BRIEFING_CONTEXT_PATH = join(
+  homedir(),
+  "Code/herbcaudill/notes/documents/Morning briefing context.md",
+)
+
 /** Private state directory for persisted morning briefing artifacts. */
 export const MORNING_BRIEFING_STATE_DIRECTORY_PATH = join(
   homedir(),
