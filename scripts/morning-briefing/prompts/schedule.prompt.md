@@ -12,7 +12,7 @@ Assigned sources, in this exact spelling and order:
 
 Use the connected Google Calendar tools for calendars. Inspect the accessible calendar list and match non-primary calendar names case-insensitively. The household calendars are named exactly `Family` and `Tamariu House`; query both separately. Do not substitute a similarly named calendar.
 
-Run `pnpm --silent briefing:location` to read the latest Backtrack location. It returns `barcelona`, `tamariu`, or `other` by comparing the latest coordinates with two approximate bounding boxes. Use the result as last-known place context when interpreting relevant calendar and household plans. `other` identifies no particular destination. If the script fails, omit location context and continue gathering. Keep the run's date and time zone unchanged.
+Run `pnpm --silent briefing:location` to read the latest Backtrack location. It returns `barcelona`, `tamariu`, or `other` by comparing the latest coordinates with two approximate bounding boxes. Include the returned place label in your report so synthesis can filter location-specific tasks, and use it as last-known place context when interpreting relevant calendar and household plans. `other` identifies no particular destination. If the script fails, omit location context and continue gathering. Keep the run's date and time zone unchanged.
 
 For the primary calendar, read today's events. Record start time in the local time zone stated in the run context, duration, title, event URL, response status, useful event context, declines, pending invitations, and meaningful free stretches.
 

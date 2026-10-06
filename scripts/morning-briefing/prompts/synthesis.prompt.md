@@ -31,6 +31,8 @@ Under Sources, include every source below in this exact order. Use `- [x] Source
 
 Outside Sources, include only relevant findings. Do not mention that a covered source had no matching events, absences, plans, messages, completed work, meetings, or other results. If a section has no relevant findings, leave it empty rather than adding a placeholder such as “None,” “Clear,” or “No items found.” This does not apply to incomplete-source warnings in Sources or to a meaningful absence that affects Herb's plans.
 
+Use the schedule lane's Backtrack location result to filter which tasks the briefing surfaces. When it is `tamariu`, omit tasks that require being in Barcelona; when it is `barcelona`, omit tasks that require being in Tamariu. Location-independent tasks remain eligible. If the result is `other` or unavailable, do not assume either place. Keep the complete task inventory for duplicate and completion checks.
+
 Under Calendar, list each timed primary event in chronological order using the local time zone stated in the run context, as `- 14:00 **[Event](URL)** (1h)`. Put useful context, a decline, pending response, or other unusual status on the following indented line. Add one short line about free stretches when useful.
 
 Under Other calendars, include only calendars with relevant information, in this order when present: `**Lynne:**` with aggregate hours and last busy time only; `**DevResults:**` with explicit absences; and `**Family and Tamariu House:**` with relevant dated plans. Omit a calendar instead of saying that no absences, plans, or events were found. Do not reveal client names or individual therapy details.
