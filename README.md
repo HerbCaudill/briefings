@@ -12,6 +12,7 @@ pnpm test            # Run Vitest
 pnpm format          # Format the repo with Prettier
 pnpm briefing:news    # Fetch today's candidate file, then synthesize missing final briefings
 pnpm briefing:morning # Gather and publish today's personal morning briefing
+pnpm briefing:location # Print barcelona, tamariu, or other from Backtrack's latest row
 ```
 
 The briefing command also accepts an optional date argument:
@@ -51,6 +52,8 @@ The workflow extracts carryover from the three latest daily briefings, then runs
 - schedule and the Tasks board;
 - Gmail and messaging; and
 - GitHub, meeting transcripts, and local agent sessions.
+
+The schedule agent uses `pnpm --silent briefing:location` for last-known place context. The command reads Backtrack's iCloud CSV and compares its final row with approximate boxes for Barcelona (latitude 41.32–41.48, longitude 2.05–2.23) and Tamariu (latitude 41.90–41.93, longitude 3.19–3.23). It returns `other` outside both boxes. It does not interpret timestamps or apply an age cutoff. A missing or invalid file causes the command to fail; the briefing continues without location context. An optional file-path argument lets you read another Backtrack CSV.
 
 Each agent writes schema-constrained JSON plus its complete JSONL event stream. One final agent reads the merged results and creates a validated canonical `final.md`. The publisher atomically writes that exact briefing under `## Daily briefing` in `~/Code/herbcaudill/notes/daily/YYYY-MM-DD.md`, waits for Obsidian Sync, then creates a clean dated Codex task with the same content. It discovers the current Pinned sidebar section, pins the new task, and unpins older morning briefing presentation tasks.
 

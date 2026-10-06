@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "briefing:news": "tsx scripts/news-briefing/run.ts",
     "briefing:morning": "tsx scripts/morning-briefing/run.ts",
+    "briefing:location": "tsx scripts/morning-briefing/location.ts",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
