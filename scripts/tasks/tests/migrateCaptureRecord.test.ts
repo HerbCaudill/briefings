@@ -11,15 +11,13 @@ const legacy = {
 test("resolves a legacy target to its promoted project while preserving the complete original journal", async () => {
   const client = {
     spaceId: "space",
-    resolve: vi
-      .fn()
-      .mockResolvedValue({
-        kind: "project",
-        id: "project",
-        title: "Current title",
-        url: "new-url",
-        availability: "available",
-      }),
+    resolve: vi.fn().mockResolvedValue({
+      kind: "project",
+      id: "project",
+      title: "Current title",
+      url: "new-url",
+      availability: "available",
+    }),
   } as unknown as TasksClient
   const record = await migrateCaptureRecord(legacy, client)
   expect(client.resolve).toHaveBeenCalledWith("google-tasks:google-id")

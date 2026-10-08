@@ -25,7 +25,12 @@ export function createTasksClient(
       (response.result.status && !["ok", "saved"].includes(response.result.status))
     )
       throw new Error("Invalid Tasks result")
-    return response.result
+    const { items, records } = response.result
+    return {
+      ...response.result,
+      ...(items ? { items: items.map(withCanonicalUrl) } : {}),
+      ...(records ? { records: records.map(withCanonicalUrl) } : {}),
+    }
   }
   /** Require one available identity; absence does not mean completion. */
   async function identity(command: string, input: Record<string, unknown>): Promise<BoardRecord> {
@@ -80,4 +85,11 @@ export function createTasksClient(
       return check(response)
     },
   }
+}
+
+/** Link tasks and projects through the public origin; never expose a deployment hostname. */
+function withCanonicalUrl(record: BoardRecord): BoardRecord {
+  return record.kind === "task" || record.kind === "project"
+    ? { ...record, url: `https://tasks.herbcaudill.com/?${record.kind}=${record.id}` }
+    : record
 }

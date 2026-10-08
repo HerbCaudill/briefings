@@ -75,6 +75,37 @@ test("follows an explicit task promotion while leaving ordinary deletion actiona
       response({ resolution: "deleted", items: [{ kind: "task", id: "other", deleted: true }] }),
     )
   const client = createTasksClient({ spaceId: "space", run })
-  expect(await client.get("task", "task")).toEqual(project)
+  expect(await client.get("task", "task")).toEqual({
+    ...project,
+    url: "https://tasks.herbcaudill.com/?project=project",
+  })
   await expect(client.get("task", "other")).rejects.toThrow("deleted")
+})
+
+test("returns canonical public links instead of deployment hostnames", async () => {
+  const deployment = (query: string) => `https://tasks-sigma-seven.vercel.app/?${query}`
+  const run = vi
+    .fn()
+    .mockResolvedValueOnce(
+      response({
+        items: [
+          { kind: "task", id: "one", url: deployment("task=one") },
+          { kind: "project", id: "two", url: deployment("project=two") },
+        ],
+      }),
+    )
+    .mockResolvedValueOnce({ status: "ok", metadata })
+    .mockResolvedValueOnce({
+      status: "saved",
+      metadata,
+      result: { records: [{ kind: "task", id: "three", url: deployment("task=three") }] },
+    })
+  const client = createTasksClient({ spaceId: "space", run })
+  expect((await client.list("task")).map(record => record.url)).toEqual([
+    "https://tasks.herbcaudill.com/?task=one",
+    "https://tasks.herbcaudill.com/?project=two",
+  ])
+  expect(
+    (await client.write("capture", { title: "Call", eventKey: "e" }, "r")).records?.[0]?.url,
+  ).toBe("https://tasks.herbcaudill.com/?task=three")
 })
