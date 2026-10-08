@@ -14,6 +14,7 @@ import {
   MORNING_BRIEFING_STATE_DIRECTORY_PATH,
 } from "./constants.ts"
 import { publishDailyBriefingToNote } from "./dailyNote.ts"
+import { readLocalMessages } from "./readLocalMessages.ts"
 import { gatherMorningBriefingLane } from "./gatherMorningBriefingLane.ts"
 import { createInboxTasks } from "./createInboxTasks.ts"
 import { finalizeMorningBriefing } from "./finalizeBriefing.ts"
@@ -90,20 +91,33 @@ export async function runLiveMorningBriefing(
             environment,
             gatherDirectoryPath: paths.gatherDirectoryPath,
             lane,
+            localMessagesPath: lane.key === "communications" ? paths.localMessagesPath : undefined,
             model: MORNING_BRIEFING_MODEL,
             schemaPath: gatherSchemaPath,
             timeZone: args.timeZone,
           }),
         ),
       lanes: MORNING_BRIEFING_LANES,
-      prepare: () =>
-        runStage("carryover", [paths.carryoverPath], async () => {
+      prepare: async () => {
+        await runStage("carryover", [paths.carryoverPath], async () => {
           const carryover = buildCarryoverMarkdown({
             dailyDirectoryPath: dailyNotesDirectoryPath,
             date: args.date,
           })
           writeTextAtomically(paths.carryoverPath, carryover)
-        }),
+        })
+        // Read native messaging apps from their databases; their UI is unreachable while the screen is locked.
+        await runStage("local-messages", [paths.localMessagesPath], async () => {
+          const localMessages = await readLocalMessages({
+            since: new Date(now.getTime() - LOCAL_MESSAGES_WINDOW_MS),
+            timeZone: args.timeZone,
+          })
+          writeTextAtomically(
+            paths.localMessagesPath,
+            `${JSON.stringify(localMessages, null, 2)}\n`,
+          )
+        })
+      },
       presentInT3: () =>
         runStage("t3-presentation", [], () =>
           presentMorningBriefingInT3({ dailyNotePath, date: args.date }),
@@ -209,6 +223,9 @@ export function describeMorningBriefingDryRun(
     timeZone: args.timeZone,
   }
 }
+
+/** Cover the communications lane's three-day review plus the accomplishment window. */
+const LOCAL_MESSAGES_WINDOW_MS = 4 * 24 * 60 * 60 * 1000
 
 /** Compact a failure for the private run manifest. */
 function compactError(error: unknown): string {

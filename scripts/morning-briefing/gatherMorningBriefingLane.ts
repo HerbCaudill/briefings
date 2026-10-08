@@ -68,7 +68,7 @@ ${readMorningBriefingContext()}
 - Local date: ${args.date}
 - Local time zone: ${args.timeZone}
 - Carryover artifact: ${args.carryoverPath}
-`
+${args.localMessagesPath ? `- Local messages artifact: ${args.localMessagesPath}\n` : ""}`
 }
 
 /** Require every assigned source exactly once and reject cross-lane output. */
@@ -122,6 +122,8 @@ type GatherMorningBriefingLaneArgs = {
   date: string
   /** Environment inherited by Codex. */
   environment: NodeJS.ProcessEnv
+  /** Signal and Apple Messages transcripts, for lanes that review them. */
+  localMessagesPath?: string
   /** Per-lane artifact directory. */
   gatherDirectoryPath: string
   /** Source lane to gather. */

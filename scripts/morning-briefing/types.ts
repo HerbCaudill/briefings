@@ -59,3 +59,23 @@ export type CreatedMorningBriefingTask = MorningBriefingTaskDraft & {
   /** Browser URL for the created task. */
   readonly url: string
 }
+
+/** Recent messages read headlessly from one local messaging app. */
+export type LocalMessagesSource = {
+  /** Source name matching the briefing checklist. */
+  readonly source: "Signal" | "Apple Messages"
+  /** Whether the local data could be read. */
+  readonly status: "complete" | "unavailable"
+  /** Why the source could not be read. */
+  readonly reason?: string
+  /** Recent conversations, oldest message first. */
+  readonly conversations: readonly LocalConversation[]
+}
+
+/** One conversation as a compact transcript. */
+export type LocalConversation = {
+  /** Contact or group name, or the raw identifier when no name is known. */
+  readonly name: string
+  /** One `YYYY-MM-DD HH:MM Sender: text` line per message. */
+  readonly transcript: string
+}

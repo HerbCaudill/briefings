@@ -12,7 +12,9 @@ Assigned sources, in this exact spelling and order:
 6. `Facebook Messenger`
 7. `LinkedIn`
 
-Use the Gmail connector for Gmail and the `messaging` skill for every messaging service. Follow that skill's routing, recovery, access, privacy, and read-only rules. Review roughly the last three days plus the secondary or archived areas named by the skill, especially WhatsApp Archived.
+Use the Gmail connector for Gmail and the `messaging` skill for every other messaging service. Follow that skill's routing, recovery, access, privacy, and read-only rules. Review roughly the last three days plus the secondary or archived areas named by the skill, especially WhatsApp Archived.
+
+For Signal and Apple Messages, read only the local messages artifact named in the run context. It holds one entry per source with a `status` and, when complete, recent conversations as `YYYY-MM-DD HH:MM Sender: text` transcripts, where `You` is Herb. Do not open either app or use Computer Use for them: the screen is usually locked during this run. When a source's status is `unavailable`, mark it incomplete and use its `reason` as the detail. These sources have no permalinks; cite the conversation name and timestamp instead.
 
 For Gmail, every query must include `in:inbox category:primary`. Do not widen into Updates, Promotions, Social, Forums, or archived mail. Gather threads where you were asked something and have not replied, important current issues with context, and what you sent during the accomplishment window when it represents a completed action or decision. Open each candidate thread and verify the latest meaningful reply before calling it unanswered. Skip newsletters, receipts, renewal reminders, and automated notices unless they report a concrete security event. Also skip unsolicited cold outreach, including investors, private-equity firms, brokers, and acquirers trawling for leads, and their follow-ups; these are spam and never warrant a reply task. Always omit one-time passwords, verification codes, magic links, sign-in links, and account-registration messages.
 

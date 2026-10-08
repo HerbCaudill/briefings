@@ -14,6 +14,7 @@ export function getMorningBriefingRunPaths(
     carryoverPath: join(root, "carryover.md"),
     finalPath: join(root, "final.md"),
     gatherDirectoryPath: join(root, "gather"),
+    localMessagesPath: join(root, "local-messages.json"),
     manifestPath: join(root, "manifest.json"),
     mergedPath: join(root, "merged.json"),
     newTasksPath: join(root, "new-tasks.json"),
@@ -30,6 +31,8 @@ export type MorningBriefingRunPaths = {
   finalPath: string
   /** Directory containing per-lane JSON and JSONL artifacts. */
   gatherDirectoryPath: string
+  /** Signal and Apple Messages transcripts read from local databases. */
+  localMessagesPath: string
   /** Run status and artifact index. */
   manifestPath: string
   /** Combined schema-checked gather results. */
