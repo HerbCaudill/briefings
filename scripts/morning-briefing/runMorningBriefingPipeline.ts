@@ -1,9 +1,9 @@
 import type {
-  CreatedMorningBriefingTask,
   MorningBriefingGatherResult,
   MorningBriefingLane,
   MorningBriefingSynthesisResult,
   MorningBriefingTaskDraft,
+  MorningBriefingTaskOutcome,
 } from "./types.ts"
 
 /** Gather independent source lanes, synthesize once, then publish the same briefing twice. */
@@ -32,9 +32,9 @@ export type RunMorningBriefingPipelineArgs = {
   /** Transfer new captures before gathering the current task lists. */
   processInbox: () => Promise<void>
   /** Create deduplicated actions in the Tasks Inbox list. */
-  createTasks: (tasks: readonly MorningBriefingTaskDraft[]) => Promise<CreatedMorningBriefingTask[]>
+  createTasks: (tasks: readonly MorningBriefingTaskDraft[]) => Promise<MorningBriefingTaskOutcome>
   /** Add the task-creation outcome as the briefing's final section. */
-  finalize: (markdown: string, tasks: readonly CreatedMorningBriefingTask[]) => Promise<string>
+  finalize: (markdown: string, tasks: MorningBriefingTaskOutcome) => Promise<string>
   /** Gather one independent source lane. */
   gatherLane: (lane: MorningBriefingLane) => Promise<MorningBriefingGatherResult>
   /** Source lanes to gather concurrently. */

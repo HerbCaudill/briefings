@@ -44,6 +44,16 @@ export type MorningBriefingTaskDraft = {
   readonly title: string
 }
 
+/** Tasks created by one run, and drafts deferred after Tasks failed. */
+export type MorningBriefingTaskOutcome = {
+  /** Tasks successfully created in Inbox. */
+  readonly created: readonly CreatedMorningBriefingTask[]
+  /** Drafts not confirmed in Tasks; a rerun for the same date resumes them. */
+  readonly deferred: readonly MorningBriefingTaskDraft[]
+  /** Why task creation stopped, when it did. */
+  readonly error?: string
+}
+
 /** A task successfully created in Tasks. */
 export type CreatedMorningBriefingTask = MorningBriefingTaskDraft & {
   /** Browser URL for the created task. */

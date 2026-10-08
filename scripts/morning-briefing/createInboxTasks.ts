@@ -6,9 +6,16 @@ import { createTasksClient } from "../tasks/createTasksClient.ts"
 import { saveDescription } from "../tasks/saveDescription.ts"
 import type { BoardRecord, TasksClient } from "../tasks/types.ts"
 import { writeTextAtomically } from "./atomicWrite.ts"
-import type { CreatedMorningBriefingTask, MorningBriefingTaskDraft } from "./types.ts"
+import type {
+  CreatedMorningBriefingTask,
+  MorningBriefingTaskDraft,
+  MorningBriefingTaskOutcome,
+} from "./types.ts"
 
-/** Capture deduplicated briefing actions with durable intentions for every publication phase. */
+/**
+ * Capture deduplicated briefing actions with durable intentions for every publication phase.
+ * The first Tasks failure defers the remaining drafts, so an unavailable board never blocks the briefing.
+ */
 export async function createInboxTasks(args: {
   /** Proposed actions from synthesis. */
   tasks: readonly MorningBriefingTaskDraft[]
@@ -18,22 +25,37 @@ export async function createInboxTasks(args: {
   client?: TasksClient
   /** Optional private test directory. */
   statePath?: string
-}): Promise<CreatedMorningBriefingTask[]> {
-  if (!args.tasks.length) return []
+}): Promise<MorningBriefingTaskOutcome> {
+  if (!args.tasks.length) return { created: [], deferred: [] }
   const client = args.client ?? createTasksClient()
   const statePath = args.statePath ?? join(homedir(), ".local/state/briefings-tasks/captures")
   if (!args.date) throw new Error("Briefing date is required for stable capture identity")
-  const existing = [...(await client.list("task")), ...(await client.list("project"))]
-  const titles = new Set(existing.map(task => normalizeTitle(task.title)))
-  const seen = new Set<string>()
   const created: CreatedMorningBriefingTask[] = []
-  for (const draft of args.tasks) {
+  let titles: Set<string>
+  try {
+    const existing = [...(await client.list("task")), ...(await client.list("project"))]
+    titles = new Set(existing.map(task => normalizeTitle(task.title)))
+  } catch (error) {
+    return { created, deferred: args.tasks, error: errorMessage(error) }
+  }
+  const seen = new Set<string>()
+  for (const [index, draft] of args.tasks.entries()) {
+    try {
+      await createTask(draft)
+    } catch (error) {
+      return { created, deferred: args.tasks.slice(index), error: errorMessage(error) }
+    }
+  }
+  return { created, deferred: [] }
+
+  /** Capture one draft, resuming its journal; skip duplicates. */
+  async function createTask(draft: MorningBriefingTaskDraft): Promise<void> {
     const title = normalizeTitle(draft.title)
-    if (!title || seen.has(title)) continue
+    if (!title || seen.has(title)) return
     seen.add(title)
     const eventKey = `briefing:${args.date}:${createHash("sha256").update(title).digest("hex")}`
     const path = join(statePath, `${eventKey}.json`)
-    if (!existsSync(path) && titles.has(title)) continue
+    if (!existsSync(path) && titles.has(title)) return
     const intent: {
       spaceId: string
       draft: MorningBriefingTaskDraft
@@ -73,7 +95,11 @@ export async function createInboxTasks(args: {
     created.push({ ...intent.draft, title: current.title, url: current.url })
     titles.add(title)
   }
-  return created
+}
+
+/** Compact a failure for the briefing. */
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error)
 }
 
 /** Conservative exact-title comparison across open and completed records. */

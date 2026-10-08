@@ -66,9 +66,13 @@ export async function runLiveMorningBriefing(
         }),
       createTasks: tasks =>
         runStage("tasks", [paths.newTasksPath], async () => {
-          const createdTasks = await createInboxTasks({ tasks, date: args.date })
-          writeTextAtomically(paths.newTasksPath, `${JSON.stringify(createdTasks, null, 2)}\n`)
-          return createdTasks
+          const outcome = await createInboxTasks({ tasks, date: args.date })
+          writeTextAtomically(paths.newTasksPath, `${JSON.stringify(outcome, null, 2)}\n`)
+          if (outcome.deferred.length)
+            console.warn(
+              `[morning-briefing] Deferred ${outcome.deferred.length} new tasks; continuing with the briefing: ${outcome.error}`,
+            )
+          return outcome
         }),
       finalize: (briefing, tasks) =>
         runStage("finalize", [paths.finalPath], async () => {

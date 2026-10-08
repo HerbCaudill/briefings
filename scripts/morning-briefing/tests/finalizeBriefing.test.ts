@@ -42,13 +42,16 @@ None.
 describe("finalizeMorningBriefing", () => {
   test("finishes the briefing with links to tasks that were actually created", () => {
     expect(
-      finalizeMorningBriefing(synthesizedBriefing, [
-        {
-          notes: "Source context",
-          title: "Reply to Ann",
-          url: "https://tasks.google.com/task/task-id?sa=6",
-        },
-      ]),
+      finalizeMorningBriefing(synthesizedBriefing, {
+        created: [
+          {
+            notes: "Source context",
+            title: "Reply to Ann",
+            url: "https://tasks.google.com/task/task-id?sa=6",
+          },
+        ],
+        deferred: [],
+      }),
     ).toBe(`${synthesizedBriefing}
 ### New tasks
 
@@ -57,10 +60,29 @@ describe("finalizeMorningBriefing", () => {
   })
 
   test("states when no new tasks were needed", () => {
-    expect(finalizeMorningBriefing(synthesizedBriefing, [])).toBe(`${synthesizedBriefing}
+    expect(finalizeMorningBriefing(synthesizedBriefing, { created: [], deferred: [] }))
+      .toBe(`${synthesizedBriefing}
 ### New tasks
 
 - None.
+`)
+  })
+
+  test("lists tasks that could not be created and why", () => {
+    expect(
+      finalizeMorningBriefing(synthesizedBriefing, {
+        created: [{ notes: "", title: "Reply to Ann", url: "https://tasks/?task=a" }],
+        deferred: [{ notes: "", title: "Cancel [Friday]" }],
+        error: "Tasks reply lost; inspect request r1",
+      }),
+    ).toBe(`${synthesizedBriefing}
+### New tasks
+
+- [Reply to Ann](https://tasks/?task=a)
+
+Tasks failed, so these were not created: Tasks reply lost; inspect request r1
+
+- Cancel \\[Friday\\]
 `)
   })
 })

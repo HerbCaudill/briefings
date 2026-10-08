@@ -21,7 +21,9 @@ vi.mock("../synthesizeMorningBriefing.ts", () => ({
     .fn()
     .mockResolvedValue({ markdown: "## Daily briefing\n", newTasks: [] }),
 }))
-vi.mock("../createInboxTasks.ts", () => ({ createInboxTasks: vi.fn().mockResolvedValue([]) }))
+vi.mock("../createInboxTasks.ts", () => ({
+  createInboxTasks: vi.fn().mockResolvedValue({ created: [], deferred: [] }),
+}))
 vi.mock("../finalizeBriefing.ts", () => ({
   finalizeMorningBriefing: vi.fn((markdown: string) => markdown),
 }))

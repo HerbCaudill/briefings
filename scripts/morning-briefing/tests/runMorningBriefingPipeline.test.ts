@@ -22,13 +22,16 @@ describe("runMorningBriefingPipeline", () => {
         )
       },
       lanes: MORNING_BRIEFING_LANES,
-      createTasks: vi.fn().mockResolvedValue([
-        {
-          notes: "From the morning briefing",
-          title: "Reply to Ann",
-          url: "https://tasks.google.com/task/new-task?sa=6",
-        },
-      ]),
+      createTasks: vi.fn().mockResolvedValue({
+        created: [
+          {
+            notes: "From the morning briefing",
+            title: "Reply to Ann",
+            url: "https://tasks.google.com/task/new-task?sa=6",
+          },
+        ],
+        deferred: [],
+      }),
       finalize: vi.fn().mockResolvedValue(finalMarkdown),
       processInbox: vi.fn().mockResolvedValue(undefined),
       prepare: vi.fn().mockResolvedValue(undefined),
@@ -128,7 +131,7 @@ test("finishes capture intake before gathering tasks for the briefing", async ()
       return createGatherResult(lane.key)
     },
     synthesize: async () => ({ markdown: "Briefing", newTasks: [] }),
-    createTasks: async () => [],
+    createTasks: async () => ({ created: [], deferred: [] }),
     finalize: async text => text,
     publishDailyNote: async () => {},
     presentInT3: async () => {},
