@@ -13,7 +13,6 @@ import {
   MORNING_BRIEFING_MODEL,
   MORNING_BRIEFING_STATE_DIRECTORY_PATH,
 } from "./constants.ts"
-import { presentMorningBriefingInCodex } from "./codexPresentation.ts"
 import { publishDailyBriefingToNote } from "./dailyNote.ts"
 import { gatherMorningBriefingLane } from "./gatherMorningBriefingLane.ts"
 import { createInboxTasks } from "./createInboxTasks.ts"
@@ -27,6 +26,7 @@ import { syncMorningBriefingToObsidian } from "./obsidian.ts"
 import { getMorningBriefingRunPaths } from "./runPaths.ts"
 import { runMorningBriefingPipeline } from "./runMorningBriefingPipeline.ts"
 import { synthesizeMorningBriefing } from "./synthesizeMorningBriefing.ts"
+import { presentMorningBriefingInT3 } from "./t3Presentation.ts"
 
 /** Run the repository-owned morning briefing workflow. */
 export async function runLiveMorningBriefing(
@@ -100,15 +100,9 @@ export async function runLiveMorningBriefing(
           })
           writeTextAtomically(paths.carryoverPath, carryover)
         }),
-      presentInCodex: briefing =>
-        runStage("codex-presentation", [paths.presentationEventsPath], () =>
-          presentMorningBriefingInCodex({
-            briefing,
-            codexCommand,
-            dailyNotePath,
-            date: args.date,
-            eventsPath: paths.presentationEventsPath,
-          }),
+      presentInT3: () =>
+        runStage("t3-presentation", [], () =>
+          presentMorningBriefingInT3({ dailyNotePath, date: args.date }),
         ),
       publishDailyNote: async briefing => {
         await runStage("obsidian", [join(dailyNotesDirectoryPath, `${args.date}.md`)], async () => {
@@ -203,7 +197,7 @@ export function describeMorningBriefingDryRun(
   return {
     date: args.date,
     destinations: {
-      codex: "A new dated task in the Pinned sidebar section",
+      t3: "A new dated thread, pinned in T3 Code",
       obsidian: join(args.dailyNotesDirectoryPath ?? DAILY_NOTES_DIRECTORY_PATH, `${args.date}.md`),
     },
     lanes: MORNING_BRIEFING_LANES.map(lane => ({ key: lane.key, sources: lane.sources })),

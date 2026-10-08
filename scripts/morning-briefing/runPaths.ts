@@ -17,7 +17,6 @@ export function getMorningBriefingRunPaths(
     manifestPath: join(root, "manifest.json"),
     mergedPath: join(root, "merged.json"),
     newTasksPath: join(root, "new-tasks.json"),
-    presentationEventsPath: join(root, "presentation.events.jsonl"),
     root,
     runId,
     synthesisDirectoryPath: join(root, "synthesis"),
@@ -37,8 +36,6 @@ export type MorningBriefingRunPaths = {
   mergedPath: string
   /** Tasks created in Inbox during the run. */
   newTasksPath: string
-  /** Codex App Server presentation event log. */
-  presentationEventsPath: string
   /** Unique private directory for this run. */
   root: string
   /** Filesystem-safe timestamp. */

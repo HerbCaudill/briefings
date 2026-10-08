@@ -24,7 +24,7 @@ export async function runMorningBriefingPipeline(
   const createdTasks = await args.createTasks(synthesis.newTasks)
   const markdown = await args.finalize(synthesis.markdown, createdTasks)
   await args.publishDailyNote(markdown)
-  await args.presentInCodex(markdown)
+  await args.presentInT3(markdown)
   return markdown
 }
 
@@ -41,8 +41,8 @@ export type RunMorningBriefingPipelineArgs = {
   lanes: readonly MorningBriefingLane[]
   /** Prepare the carryover and run directory before gathering. */
   prepare: () => Promise<void>
-  /** Present the saved briefing in a clean pinned Codex task. */
-  presentInCodex: (markdown: string) => Promise<void>
+  /** Ask T3 Code to present the saved briefing in a fresh pinned thread. */
+  presentInT3: (markdown: string) => Promise<void>
   /** Save and verify the Daily briefing section in Obsidian. */
   publishDailyNote: (markdown: string) => Promise<void>
   /** Synthesize one canonical briefing from every gather artifact. */

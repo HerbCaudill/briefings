@@ -3,7 +3,7 @@ import { tmpdir } from "node:os"
 import { join } from "node:path"
 import { afterEach, expect, test, vi } from "vitest"
 
-import { presentMorningBriefingInCodex } from "../codexPresentation.ts"
+import { presentMorningBriefingInT3 } from "../t3Presentation.ts"
 import { publishDailyBriefingToNote } from "../dailyNote.ts"
 import { runLiveMorningBriefing } from "../liveRuntime.ts"
 import { syncMorningBriefingToObsidian } from "../obsidian.ts"
@@ -25,7 +25,7 @@ vi.mock("../createInboxTasks.ts", () => ({ createInboxTasks: vi.fn().mockResolve
 vi.mock("../finalizeBriefing.ts", () => ({
   finalizeMorningBriefing: vi.fn((markdown: string) => markdown),
 }))
-vi.mock("../codexPresentation.ts", () => ({ presentMorningBriefingInCodex: vi.fn() }))
+vi.mock("../t3Presentation.ts", () => ({ presentMorningBriefingInT3: vi.fn() }))
 vi.mock("../obsidian.ts", () => ({ syncMorningBriefingToObsidian: vi.fn() }))
 vi.mock("../dailyNote.ts", async importOriginal => ({
   ...(await importOriginal<typeof import("../dailyNote.ts")>()),
@@ -55,9 +55,10 @@ test.each(["Obsidian Sync did not finish after 30 status checks", "Obsidian CLI 
     expect(readFileSync(join(args.dailyNotesDirectoryPath, `${args.date}.md`), "utf8")).toBe(
       markdown,
     )
-    expect(presentMorningBriefingInCodex).toHaveBeenCalledWith(
-      expect.objectContaining({ briefing: markdown }),
-    )
+    expect(presentMorningBriefingInT3).toHaveBeenCalledWith({
+      dailyNotePath: join(args.dailyNotesDirectoryPath, `${args.date}.md`),
+      date: args.date,
+    })
     expect(warning).toHaveBeenCalledWith(expect.stringContaining(message))
     const paths = getMorningBriefingRunPaths(args)
     expect(JSON.parse(readFileSync(paths.manifestPath, "utf8"))).toMatchObject({
@@ -65,7 +66,7 @@ test.each(["Obsidian Sync did not finish after 30 status checks", "Obsidian CLI 
       stages: {
         obsidian: { status: "complete" },
         "obsidian-sync": { status: "failed", error: message },
-        "codex-presentation": { status: "complete" },
+        "t3-presentation": { status: "complete" },
       },
     })
   },
@@ -78,7 +79,7 @@ test("still fails when the daily note cannot be saved", async () => {
   })
 
   await expect(runLiveMorningBriefing(args)).rejects.toThrow("disk full")
-  expect(presentMorningBriefingInCodex).not.toHaveBeenCalled()
+  expect(presentMorningBriefingInT3).not.toHaveBeenCalled()
 })
 
 /** Keep all run artifacts and notes in an isolated temporary directory. */

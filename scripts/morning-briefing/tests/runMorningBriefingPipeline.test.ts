@@ -12,7 +12,7 @@ describe("runMorningBriefingPipeline", () => {
     const synthesizedMarkdown = "## Daily briefing\n\n### Sources\n\nComplete.\n"
     const finalMarkdown = `${synthesizedMarkdown}\n### New tasks\n\n- [Reply to Ann](https://tasks.google.com/task/new-task?sa=6)\n`
     const publishDailyNote = vi.fn().mockResolvedValue(undefined)
-    const presentInCodex = vi.fn().mockResolvedValue(undefined)
+    const presentInT3 = vi.fn().mockResolvedValue(undefined)
 
     const runPromise = runMorningBriefingPipeline({
       gatherLane: lane => {
@@ -32,7 +32,7 @@ describe("runMorningBriefingPipeline", () => {
       finalize: vi.fn().mockResolvedValue(finalMarkdown),
       processInbox: vi.fn().mockResolvedValue(undefined),
       prepare: vi.fn().mockResolvedValue(undefined),
-      presentInCodex,
+      presentInT3,
       publishDailyNote,
       synthesize: vi.fn().mockResolvedValue({
         markdown: synthesizedMarkdown,
@@ -46,15 +46,15 @@ describe("runMorningBriefingPipeline", () => {
     await expect(runPromise).resolves.toBe(finalMarkdown)
     expect(gathered).toHaveLength(3)
     expect(publishDailyNote).toHaveBeenCalledWith(finalMarkdown)
-    expect(presentInCodex).toHaveBeenCalledWith(finalMarkdown)
+    expect(presentInT3).toHaveBeenCalledWith(finalMarkdown)
     expect(publishDailyNote.mock.invocationCallOrder[0]).toBeLessThan(
-      presentInCodex.mock.invocationCallOrder[0]!,
+      presentInT3.mock.invocationCallOrder[0]!,
     )
   })
 
   test("does not publish when synthesis fails", async () => {
     const publishDailyNote = vi.fn()
-    const presentInCodex = vi.fn()
+    const presentInT3 = vi.fn()
 
     await expect(
       runMorningBriefingPipeline({
@@ -64,14 +64,14 @@ describe("runMorningBriefingPipeline", () => {
         finalize: vi.fn(),
         processInbox: vi.fn().mockResolvedValue(undefined),
         prepare: vi.fn().mockResolvedValue(undefined),
-        presentInCodex,
+        presentInT3,
         publishDailyNote,
         synthesize: vi.fn().mockRejectedValue(new Error("invalid synthesis")),
       }),
     ).rejects.toThrow("invalid synthesis")
 
     expect(publishDailyNote).not.toHaveBeenCalled()
-    expect(presentInCodex).not.toHaveBeenCalled()
+    expect(presentInT3).not.toHaveBeenCalled()
   })
 
   test("waits for sibling gatherers to stop before rejecting", async () => {
@@ -93,7 +93,7 @@ describe("runMorningBriefingPipeline", () => {
       finalize: vi.fn(),
       processInbox: vi.fn().mockResolvedValue(undefined),
       prepare: vi.fn().mockResolvedValue(undefined),
-      presentInCodex: vi.fn(),
+      presentInT3: vi.fn(),
       publishDailyNote,
       synthesize: vi.fn(),
     })
@@ -131,7 +131,7 @@ test("finishes capture intake before gathering tasks for the briefing", async ()
     createTasks: async () => [],
     finalize: async text => text,
     publishDailyNote: async () => {},
-    presentInCodex: async () => {},
+    presentInT3: async () => {},
   })
   expect(stages).toEqual(["inbox", "prepare", "gather"])
 })
