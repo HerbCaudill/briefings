@@ -28,6 +28,7 @@ Under Sources, include every source below in this exact order. Use `- [x] Source
 - GitHub
 - Meeting transcripts
 - Local agent sessions
+- Scanned documents
 
 Outside Sources, include only relevant findings. Do not mention that a covered source had no matching events, absences, plans, messages, completed work, meetings, or other results. If a section has no relevant findings, leave it empty rather than adding a placeholder such as “None,” “Clear,” or “No items found.” This does not apply to incomplete-source warnings in Sources or to a meaningful absence that affects Herb's plans.
 
@@ -37,11 +38,11 @@ Under Calendar, list each timed primary event in chronological order using the l
 
 Under Other calendars, include only calendars with relevant information, in this order when present: `**Lynne:**` with aggregate hours and last busy time only; `**DevResults:**` with explicit absences; and `**Family and Tamariu House:**` with relevant dated plans. Omit a calendar instead of saying that no absences, plans, or events were found. Do not reveal client names or individual therapy details.
 
-Under Open issues, summarize significant unresolved communication, email, or discussion issues, biggest first. State what happened, current status, next event, and what involves you. Put small items in bullets. Compare carryover and source findings with recently completed Tasks, and drop resolved items with no follow-up.
+Under Open issues, summarize significant unresolved communication, email, or discussion issues, biggest first. State what happened, current status, next event, and what involves you. Put small items in bullets. Include scanned documents the documents lane marks as needing attention, with their deadline or amount and a link to the filed document. Do not mention routine filing. Compare carryover and source findings with recently completed Tasks, and drop resolved items with no follow-up.
 
 Under Yesterday, write up to six factual bullets from all sources, including relevant recently completed Tasks. Group repository work by project. Omit the section's bullets when no completed work was found; do not report that nothing was found or that a source had no recent activity. A completed task is evidence that its named action was completed, but do not infer broader outcomes beyond its title, descriptions, links, and project tasks. Do not present planned or in-progress work as completed.
 
-In `newTasks`, return only actions that need Herb and are not already captured or completed in the complete Tasks data. Compare tasks across the board by status, completion time, title, descriptions, links, project membership, and provenance. Do not add a task merely because a previous task is absent from an incomplete list; check recently completed tasks to determine whether it was resolved. Include unanswered asks, pending RSVPs, review requests, and discussion asks only when no adequate task exists. Use a short action-oriented `title`. Put source context, deadline, and primary-source URLs in `notes`; use an empty string only when no context is useful. Do not update or replace stale or ambiguous existing tasks. Return an empty array when everything actionable is already captured.
+In `newTasks`, return only actions that need Herb and are not already captured or completed in the complete Tasks data. Compare tasks across the board by status, completion time, title, descriptions, links, project membership, and provenance. Do not add a task merely because a previous task is absent from an incomplete list; check recently completed tasks to determine whether it was resolved. Include unanswered asks, pending RSVPs, review requests, discussion asks, and scanned documents that require action (payments, fines, deadlines, appointments) only when no adequate task exists. Use a short action-oriented `title`. Put source context, deadline, and primary-source URLs in `notes`; use an empty string only when no context is useful. Do not update or replace stale or ambiguous existing tasks. Return an empty array when everything actionable is already captured.
 
 Under Proposed standup, end the synthesized Markdown with a copy-ready fenced `text` block using literal emoji, your recent plainspoken Slack style, and this shape:
 

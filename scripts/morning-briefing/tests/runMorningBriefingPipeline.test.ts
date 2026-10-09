@@ -47,7 +47,7 @@ describe("runMorningBriefingPipeline", () => {
     MORNING_BRIEFING_LANES.forEach(lane => releases.get(lane.key)?.())
 
     await expect(runPromise).resolves.toBe(finalMarkdown)
-    expect(gathered).toHaveLength(3)
+    expect(gathered).toHaveLength(MORNING_BRIEFING_LANES.length)
     expect(publishDailyNote).toHaveBeenCalledWith(finalMarkdown)
     expect(presentInT3).toHaveBeenCalledWith(finalMarkdown)
     expect(publishDailyNote.mock.invocationCallOrder[0]).toBeLessThan(

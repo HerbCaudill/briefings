@@ -62,6 +62,12 @@ export const MORNING_BRIEFING_LANES = [
     promptFileName: "work.prompt.md",
     sources: ["GitHub", "Meeting transcripts", "Local agent sessions"],
   },
+  {
+    // Files new scans in Drive before reporting, so this is the one lane that writes
+    key: "documents",
+    promptFileName: "documents.prompt.md",
+    sources: ["Scanned documents"],
+  },
 ] as const
 
 /** Required section headings in the final briefing, in display order. */
