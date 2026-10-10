@@ -9,7 +9,7 @@ pnpm test            # Vitest
 pnpm format          # Prettier
 pnpm briefing:news    # Fetch today, then synthesize any missing final briefings
 pnpm briefing:morning # Gather and publish today's personal morning briefing
-pnpm inbox:process    # Transfer Siri captures and start independent research
+pnpm inbox:process    # Move reminders and Siri captures to Tasks and start independent research
 ```
 
 ## Architecture
@@ -30,7 +30,7 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 **Scan filing:** The `documents` lane is the only lane that writes. It files new family scans in Google Drive with the `file-scans` skill from dotfiles, which owns the naming rules and filing script, then reports scans that need Herb's attention. See `plans/005-scan-filing.md`.
 
-**Siri inbox processing:** `scripts/inbox/` — runs hourly and before the morning briefing. A read-only classifier interprets timestamped captures from Obsidian `inbox.md`; deterministic code deduplicates against Tasks, inserts or links the task, verifies the destination, and archives the original capture in `documents/inbox.archive.md`. Private journals and recovery snapshots live under `~/.local/state/inbox-processing/`. Each capture is identified by its original timestamp and text, so retries and sync replays reuse its verified transfer. Source rewrites preserve captures appended while an agent is working and check for intervening changes before replacing the file.
+**Siri inbox processing:** `scripts/inbox/` — runs hourly and before the morning briefing. It first moves every open reminder in the Apple Reminders list named Reminders straight into the Tasks Inbox through `scripts/inbox/reminders.swift` (EventKit; AppleScript takes over a minute per call), with no classification or research, and marks each reminder done only after its task is verified. A read-only classifier interprets timestamped captures from Obsidian `inbox.md`; deterministic code deduplicates against Tasks, inserts or links the task, verifies the destination, and archives the original capture in `documents/inbox.archive.md`. Private journals and recovery snapshots live under `~/.local/state/inbox-processing/`. Each capture is identified by its original timestamp and text, so retries and sync replays reuse its verified transfer. Source rewrites preserve captures appended while an agent is working and check for intervening changes before replacing the file.
 
 An independently locked worker processes relevant research in persistent Codex sessions with no fixed time limit. Research writes canonical subject notes in Obsidian; deterministic code verifies the note, refreshes the typed task or project, and links the canonical note and appends ordered next steps to its description. Questions and source metadata remain in Obsidian, with task backlinks and private journals used to find them. Failed task updates reuse verified research and reuse the original description request before appending missing steps. Findings and unresolved questions surface in the morning Inbox review. `pnpm inbox:process --dry-run` inspects paths and capture count without writes; `--research-worker` drains queued research. Intake logs to `/tmp/inbox-processing.log`; detached research logs to `/tmp/inbox-research.log`.
 
