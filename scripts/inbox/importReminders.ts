@@ -8,7 +8,10 @@ import type { TasksClient } from "../tasks/types.ts"
 /** Apple Reminders list that Siri captures land in. */
 const REMINDERS_LIST = "Reminders"
 
-/** Move open reminders to the Tasks inbox, marking each done only after its task is verified. */
+/**
+ * Move open reminders to the Tasks inbox, marking each done only after its task is verified.
+ * Reminders with due dates stay put, because Herb sets those so his phone will remind him.
+ */
 export async function importReminders(
   args: {
     /** Injectable Reminders boundary. */
@@ -18,7 +21,7 @@ export async function importReminders(
   } = {},
 ): Promise<number> {
   const reminders = args.reminders ?? appleReminders
-  const open = await reminders.list()
+  const open = (await reminders.list()).filter(reminder => !reminder.due)
   if (!open.length) return 0
   const client = args.client ?? createTasksClient()
   const failures: unknown[] = []
@@ -51,9 +54,10 @@ export async function importReminders(
 const appleReminders: ReminderSource = {
   async list() {
     const output = await runHelper("list", REMINDERS_LIST)
-    return (JSON.parse(output) as { id: string; name: string; body: string }[])
-      .map(({ id, name, body }) => ({
+    return (JSON.parse(output) as { id: string; name: string; body: string; due?: string }[])
+      .map(({ id, name, body, due }) => ({
         id,
+        due,
         title: [name, body]
           .map(part => part.trim().replace(/\s+/g, " "))
           .filter(Boolean)
@@ -82,6 +86,8 @@ type Reminder = {
   id: string
   /** Task title, including any notes. */
   title: string
+  /** Due date, when the reminder has one. */
+  due?: string
 }
 
 /** Reminders boundary. */

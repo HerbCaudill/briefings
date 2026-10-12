@@ -48,3 +48,16 @@ test("leaves the reminder open when the task cannot be verified", async () => {
   ).rejects.toThrow()
   expect(complete).not.toHaveBeenCalled()
 })
+
+test("leaves reminders with due dates alone, so the phone can still remind Herb", async () => {
+  const complete = vi.fn(async () => {})
+  const client = fakeClient(async () => ({ createdIds: [], records: [] }))
+  expect(
+    await importReminders({
+      reminders: { list: async () => [{ ...reminder, due: "2028-03-20" }], complete },
+      client,
+    }),
+  ).toBe(0)
+  expect(client.write).not.toHaveBeenCalled()
+  expect(complete).not.toHaveBeenCalled()
+})

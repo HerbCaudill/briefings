@@ -28,8 +28,15 @@ case ("list", let name) where !name.isEmpty:
     withDueDateStarting: nil, ending: nil, calendars: calendars)
   let fetched = DispatchSemaphore(value: 0)
   store.fetchReminders(matching: predicate) { reminders in
-    let items = (reminders ?? []).map {
-      ["id": $0.calendarItemIdentifier, "name": $0.title ?? "", "body": $0.notes ?? ""]
+    let items = (reminders ?? []).map { reminder in
+      var item = [
+        "id": reminder.calendarItemIdentifier, "name": reminder.title ?? "",
+        "body": reminder.notes ?? "",
+      ]
+      if let due = reminder.dueDateComponents.flatMap({ Calendar.current.date(from: $0) }) {
+        item["due"] = ISO8601DateFormatter().string(from: due)
+      }
+      return item
     }
     let json = try! JSONSerialization.data(withJSONObject: items)
     print(String(data: json, encoding: .utf8)!)
