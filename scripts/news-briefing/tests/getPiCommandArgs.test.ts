@@ -3,12 +3,12 @@ import { describe, expect, test } from "vitest"
 import { getPiCommandArgs } from "../getPiCommandArgs.ts"
 
 describe("getPiCommandArgs", () => {
-  test("selects the Codex provider used by the briefing workflow secret", () => {
+  test("uses the locally signed-in Codex provider", () => {
     expect(
       getPiCommandArgs({ prompt: "Select stories", rawBriefingPath: "raw/news.json" }),
     ).toEqual([
       "--provider",
-      "openai",
+      "openai-codex",
       "--model",
       "gpt-5.6-terra",
       "-p",

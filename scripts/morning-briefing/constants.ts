@@ -28,6 +28,12 @@ export const T3_APP_NAME = "T3 Code (Nightly)"
 /** Private file holding the URL of the T3 webhook task that presents the briefing. */
 export const T3_WEBHOOK_URL_PATH = join(homedir(), ".config/morning-briefing/t3-webhook-url")
 
+/** Private URL of the separate news presentation webhook task. */
+export const NEWS_T3_WEBHOOK_URL_PATH = join(
+  homedir(),
+  ".config/morning-briefing/news-t3-webhook-url",
+)
+
 /** Model used for source gathering and final synthesis. */
 export const MORNING_BRIEFING_MODEL = "gpt-5.6-sol"
 

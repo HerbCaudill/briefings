@@ -3,7 +3,7 @@ import { tmpdir } from "node:os"
 import { join } from "node:path"
 import { afterEach, expect, test, vi } from "vitest"
 
-import { presentMorningBriefingInT3 } from "../t3Presentation.ts"
+import { presentBriefingInT3, presentMorningBriefingInT3 } from "../t3Presentation.ts"
 
 const directories: string[] = []
 
@@ -18,6 +18,8 @@ test("opens T3 Code, then sends the date and daily note path to the webhook", as
     calls.push("open")
   })
   const fetch = vi.fn(async (_url: string, _init: RequestInit) => {
+    void _url
+    void _init
     calls.push("post")
     return new Response(null, { status: 202 })
   })
@@ -72,3 +74,23 @@ function writeWebhookUrl(content: string): string {
   writeFileSync(path, content)
   return path
 }
+
+test("sends the saved news JSON path to its own webhook", async () => {
+  const fetch = vi.fn().mockResolvedValue(new Response(null, { status: 202 }))
+  await presentBriefingInT3({
+    payload: { date: "2026-10-14", briefingPath: "/briefings/public/briefings/2026-10-14.json" },
+    webhookUrlPath: writeWebhookUrl("https://relay.example/news"),
+    fetch,
+    openT3: async () => {},
+  })
+  expect(fetch).toHaveBeenCalledWith(
+    "https://relay.example/news",
+    expect.objectContaining({
+      body: JSON.stringify({
+        date: "2026-10-14",
+        briefingPath: "/briefings/public/briefings/2026-10-14.json",
+      }),
+      method: "POST",
+    }),
+  )
+})

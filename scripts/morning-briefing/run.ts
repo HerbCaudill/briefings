@@ -1,12 +1,20 @@
 #!/usr/bin/env -S node --experimental-strip-types
 
 import { mkdirSync } from "node:fs"
+import { execFile } from "node:child_process"
 import { join } from "node:path"
+import { promisify } from "node:util"
 
-import { MORNING_BRIEFING_STATE_DIRECTORY_PATH } from "./constants.ts"
+import {
+  BRIEFINGS_REPOSITORY_PATH,
+  MORNING_BRIEFING_STATE_DIRECTORY_PATH,
+  NEWS_T3_WEBHOOK_URL_PATH,
+} from "./constants.ts"
 import { formatLocalDate, getLocalTimeZone } from "./date.ts"
 import { describeMorningBriefingDryRun, runLiveMorningBriefing } from "./liveRuntime.ts"
 import { acquireMorningBriefingRunLock } from "./runLock.ts"
+import { runScheduledBriefings } from "./runScheduledBriefings.ts"
+import { presentBriefingInT3 } from "./t3Presentation.ts"
 
 /** Parse CLI arguments and run or describe the morning briefing pipeline. */
 async function main(): Promise<void> {
@@ -32,7 +40,25 @@ async function main(): Promise<void> {
   )
 
   try {
-    const briefing = await runLiveMorningBriefing({ date, timeZone })
+    const briefing = await runScheduledBriefings({
+      runMorning: () => runLiveMorningBriefing({ date, timeZone }),
+      runNews: async () => {
+        const { stdout, stderr } = await promisify(execFile)("pnpm", ["briefing:news", date], {
+          cwd: BRIEFINGS_REPOSITORY_PATH,
+          maxBuffer: 10 * 1024 * 1024,
+        })
+        process.stdout.write(stdout)
+        process.stderr.write(stderr)
+      },
+      presentNews: () =>
+        presentBriefingInT3({
+          webhookUrlPath: NEWS_T3_WEBHOOK_URL_PATH,
+          payload: {
+            date,
+            briefingPath: join(BRIEFINGS_REPOSITORY_PATH, "public/briefings", `${date}.json`),
+          },
+        }),
+    })
     process.stdout.write(briefing)
   } finally {
     releaseLock()

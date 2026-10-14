@@ -8,7 +8,7 @@ pnpm preview         # Preview production build
 pnpm test            # Vitest
 pnpm format          # Prettier
 pnpm briefing:news    # Fetch today, then synthesize any missing final briefings
-pnpm briefing:morning # Gather and publish today's personal morning briefing
+pnpm briefing:morning # Run and present local news and personal morning briefings
 pnpm inbox:process    # Move reminders and Siri captures to Tasks and start independent research
 ```
 
@@ -24,7 +24,7 @@ The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/n
 
 **App data flow:** On mount, fetches `/briefings/index.json` (array of `{date, title}` objects). Selecting a date fetches `/briefings/{YYYY-MM-DD}.json` — a structured JSON object with `sections[]`, each containing a `title` and `stories[]`. Each story has a `headline`, `body`, and `sources[]` (with `name` and `url`). The app renders these directly as React components.
 
-**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. `.github/workflows/daily-briefing.yml` runs `pnpm briefing:news` daily at 5:00 AM UTC, supports manual dispatch, and uses `pi --provider openai --model gpt-5.6-terra` with the `OPENAI_API_KEY` repository secret.
+**Pipeline files:** `scripts/news-briefing/` — source config, extraction helpers, candidate briefing builder, missing-briefing detection, synthesis helpers, and the repo-owned scheduler entrypoint. The local 07:00 morning entrypoint runs `pnpm briefing:news` concurrently with the personal briefing under one run lock, using `pi --provider openai-codex --model gpt-5.6-terra` with the local Codex login. There is no GitHub Actions news schedule. After news is generated and pushed, its separate T3 webhook creates a pinned `News briefing – YYYY-MM-DD` thread and unpins only older news threads. Its credential is `~/.config/morning-briefing/news-t3-webhook-url`, and its presentation prompt is `scripts/morning-briefing/prompts/news-presentation.prompt.md`. Either briefing can finish if the other fails; the scheduled command waits for both before releasing its lock.
 
 **Morning briefing pipeline:** `scripts/morning-briefing/` — processes new inbox captures, extracts carryover from recent Obsidian daily notes, runs schedule, communications, work, and documents gather agents concurrently through `codex exec`, schema-checks and persists their results and JSONL events under `~/.local/state/morning-briefing/`, synthesizes one canonical Markdown briefing, atomically saves it to the daily note, waits for Obsidian Sync, then opens T3 Code and posts the date and daily note path to a T3 webhook task. That task starts a fresh thread that renames and pins itself, unpins older briefing threads, repeats the saved briefing exactly, and then queues one task-review of the Inbox. The webhook URL is a credential stored in `~/.config/morning-briefing/t3-webhook-url`; the task prompt lives in T3, not in this repo. The T3 relay holds the request until the app is online. The local LaunchAgent invokes the executable repo entrypoint at 07:00.
 

@@ -13,14 +13,25 @@ export async function presentMorningBriefingInT3(
   /** Saved briefing location and injectable dependencies. */
   args: PresentMorningBriefingInT3Args,
 ): Promise<void> {
-  const webhookUrlPath = args.webhookUrlPath ?? T3_WEBHOOK_URL_PATH
-  const webhookUrl = readWebhookUrl(webhookUrlPath)
+  await presentBriefingInT3({
+    ...args,
+    payload: { dailyNotePath: args.dailyNotePath, date: args.date },
+    webhookUrlPath: args.webhookUrlPath ?? T3_WEBHOOK_URL_PATH,
+  })
+}
+
+/** Open T3 and deliver a saved briefing location to its presentation task. */
+export async function presentBriefingInT3(
+  /** Webhook credential path, saved artifact, and optional transport overrides. */
+  args: PresentBriefingInT3Args,
+): Promise<void> {
+  const webhookUrl = readWebhookUrl(args.webhookUrlPath)
   const openT3 = args.openT3 ?? openT3App
   const fetch_ = args.fetch ?? fetch
 
   await openT3()
   const response = await fetch_(webhookUrl, {
-    body: JSON.stringify({ dailyNotePath: args.dailyNotePath, date: args.date }),
+    body: JSON.stringify(args.payload),
     headers: { "content-type": "application/json" },
     method: "POST",
   })
@@ -30,12 +41,25 @@ export async function presentMorningBriefingInT3(
   }
 }
 
+type PresentBriefingInT3Args = {
+  /** Saved briefing location and target date for the task prompt. */
+  payload: Record<string, string>
+  /** Private file containing this presentation task's webhook URL. */
+  webhookUrlPath: string
+  /** Optional HTTP client. */
+  fetch?: (url: string, init: RequestInit) => Promise<Response>
+  /** Optional T3 Code launcher. */
+  openT3?: () => Promise<void>
+}
+
 /** Read the private webhook URL, which acts as the task's credential. */
 function readWebhookUrl(path: string): string {
   try {
     const url = readFileSync(path, "utf8").trim()
     if (url) return url
-  } catch {}
+  } catch {
+    // Report missing and unreadable credentials with the same actionable path.
+  }
   throw new Error(`Missing T3 webhook URL in ${path}`)
 }
 
