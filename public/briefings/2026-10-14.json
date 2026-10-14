@@ -1,0 +1,276 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Russian missile and drone attacks killed at least six people in Ukraine and disrupted electricity for roughly 600,000 people, including in Kyiv and Kharkiv. Ukraine said the strikes hit energy infrastructure despite Donald Trump's recent claim that an energy ceasefire had taken effect. Moscow said it targeted facilities supporting Ukraine's military, while President Volodymyr Zelenskyy accused Russia of deliberately violating the ceasefire and said Western partners had provided no early warning of the ballistic-missile attack on Kyiv.",
+          "headline": "Russian strikes cut power to 600,000 people in Ukraine",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cm2d6e62p49do"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+            }
+          ]
+        },
+        {
+          "body": "The Saudi-led coalition struck a fuel depot near Houthi-controlled Sanaa after Houthi missiles and drones targeted Riyadh, Saudi oil facilities and an Aramco building in Dhahran. Saudi authorities said they intercepted projectiles aimed at the capital, while the Houthis said their attacks respond to Saudi operations in Yemen. The escalation follows recent deadly strikes on Riyadh airport and raises fears of wider consequences for regional energy supplies.",
+          "headline": "Saudi coalition and Houthis exchange strikes in Yemen conflict",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/crx2d60y1py3o"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/middle-east/20261014-live-saudi-arabia-reports-aramco-building-hit-and-four-wounded-in-houthi-missile-attacks"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east"
+            }
+          ]
+        },
+        {
+          "body": "The Vatican said Pope Leo XIV, 71, underwent successful surgery at Rome's Gemelli Hospital to remove the lower lobe of his right lung after doctors identified an early-stage adenocarcinoma. He woke normally after the 90-minute operation and is expected to remain in hospital for about a week while further tests determine whether the cancer has spread. The Vatican said the Pope had shown no prior symptoms and that his schedule has been cleared until 20 October.",
+          "headline": "Pope Leo XIV undergoes successful lung-cancer surgery",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/ck1wvd9dvv22o"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261014-what-we-know-about-pope-leo-xiv-s-lung-cancer-operation"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/internacional/20261013/11657611/papa-leon-xiv-cancer-pulmon-operacion.html"
+            }
+          ]
+        },
+        {
+          "body": "Turkish police raided the Istanbul headquarters of Halk TV, a broadcaster seen as close to the opposition CHP, halted its live broadcasts and detained 11 people. Prosecutors reportedly issued warrants for 17 people in an investigation of the channel's owner involving allegations of bribery, bid-rigging and money laundering. Authorities also appointed a trustee to run the outlet, while its chairman called the raid a dark day for Turkey.",
+          "headline": "Turkey raids opposition broadcaster Halk TV and halts live programming",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/crx23y3d970vo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20261014-dark-day-for-turkey-pro-opposition-tv-channel-boss-slams-police-raid-broadcast-halt"
+            }
+          ]
+        },
+        {
+          "body": "A Ukrainian former military officer identified as Serhii K. has gone on trial in Hamburg over the 2022 explosions that damaged the Nord Stream gas pipelines. German prosecutors allege he led a team of divers, an explosives expert and others acting on behalf of unidentified Ukrainian state entities, and argue the attack on civilian infrastructure constitutes a war crime. He denies involvement, as does Ukraine; the trial is expected to continue into February.",
+          "headline": "Ukrainian ex-officer goes on trial in Germany over Nord Stream sabotage",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cw99zpmnxzmjo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts"
+            }
+          ]
+        },
+        {
+          "body": "Donald Trump said that large-scale oil, gas and mineral exploration is preparing to begin in Greenland, claiming the territory holds unusually accessible oil reserves. He gave no details of planned US involvement. The announcement follows a security agreement with Denmark and Greenland that expands the US military role on the island while reaffirming Danish sovereignty and Greenlanders' right to self-determination.",
+          "headline": "Trump says major oil, gas and mineral exploration will begin in Greenland",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261014-trump-says-massive-oil-gas-and-mineral-exploration-to-begin-in-greenland"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Senior Republican lawmakers privately believe their party is unlikely to keep control of the US House in the midterm elections, Politico reports. Party groups have begun withdrawing advertising from several contested House races and shifting resources toward protecting the Senate majority. Republican officials publicly insist they remain competitive, but lawmakers cited weak polling for Donald Trump and a difficult national environment as major obstacles.",
+          "headline": "Top Republicans privately fear they cannot retain the House",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/14/house-republicans-private-lost-cause-01117673"
+            }
+          ]
+        },
+        {
+          "body": "Georgia Democratic Senator Jon Ossoff said he has no interest in a 2028 presidential campaign and pledged to serve a full six-year Senate term if re-elected. His comments were his strongest rejection yet of speculation about a national bid, which has grown alongside his fundraising, polling lead over Republican Mike Collins and prominence in a key swing state.",
+          "headline": "Jon Ossoff says he will not run for president in 2028",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/13/jon-ossoff-zero-interest-2028-georgia-01117546"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's Court of Auditors has applied the amnesty law to Carles Puigdemont, Artur Mas, Oriol Junqueras and more than 30 other former Catalan officials over alleged misuse of public funds connected to the 2017 independence referendum and overseas promotion of the process. The ruling ends the accounting case, lifts precautionary measures and cancels guarantees of more than €4 million. It follows a July ruling by the EU Court of Justice that found the amnesty compatible with EU law in this context.",
+          "headline": "Court of Auditors applies amnesty to Puigdemont and other Catalan independence figures",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-14/ultima-hora-de-la-actualidad-politica-en-directo.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261014/11658572/tribunal-cuentas-amnistia-todos-responsables-proces.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-tribunal-de-comptes-amnistia-els-exalts-carrecs-del-govern-encausats-per-les-despeses-de-l1-o/noticia/3433978/"
+            }
+          ]
+        },
+        {
+          "body": "During a visit to Ceuta, King Felipe VI said Spain's sovereignty and territorial integrity, including Ceuta and Melilla, are non-negotiable and must be defended against any risk. The visit came two and a half months after a large irregular border crossing and amid Moroccan claims to the two autonomous cities. The King called for relations with Morocco based on mutual respect and good faith, and said migrants must be treated with dignity while respecting local laws.",
+          "headline": "King Felipe VI says sovereignty over Ceuta and Melilla is non-negotiable",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-13/miles-de-personas-reciben-con-entusiasmo-a-los-reyes-en-ceuta-hoy-toda-espana-es-caballa.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/10/13/6ace6368e4d4d800488b4596.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/els-reis-arriben-a-ceuta-en-una-visita-qualificada-dhistorica-i-marcada-per-la-tensio-amb-el-marroc/noticia/3433728/"
+            }
+          ]
+        },
+        {
+          "body": "Ada Colau said she is willing to withdraw as the proposed leader of the Frente Amplio electoral alliance, or even change its name, if that would help unite parties to the left of the PSOE before the general election. She urged Podemos, ERC and other progressive groups to negotiate a single candidacy, arguing that their policy differences do not justify division. Podemos and ERC have already announced cooperation, while the deadline for registering coalitions is Friday.",
+          "headline": "Ada Colau offers to step aside for a unified left-wing ticket",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261014/colau-dispuesta-a-apartarse-a-cambiar-nombre-frente-amplio-para-alianza-izquierdas-compartimos-programa/17265683.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261014/11658507/colau-ofrece-negociar-lineas-rojas-propia-candidatura-marca-electoral.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20261014/ada-colau-frente-amplio-liderazgo-ceder-cambiar-nombre-podemos-erc-elecciones-generales-135310896"
+            }
+          ]
+        },
+        {
+          "body": "Spain's annual inflation rate rose six-tenths of a point to 4.9% in September, its highest level since February 2023, as fuel prices surged amid the Iran war. Core inflation also rose to 3.1%. The government will retain its 20-cent-per-litre fuel-tax reduction through November because fuel inflation exceeded the threshold for extending the measure, while electricity-tax reductions will not be activated.",
+          "headline": "Fuel costs push Spain's annual inflation rate to 4.9%",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/economia/20261014/11658482/ine-confirma-escalada-inflacion-4-9-septiembre.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20261014/ine-confirma-inflacion-dispara-4-135311331"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Farmers from across Catalonia are driving tractors toward Barcelona to protest rising production costs, limited direct aid, foreign competition and bureaucracy. Unió de Pagesos, joined by Asaja, says higher fuel, energy, feed and fertiliser costs linked to wars and the climate crisis have made many farms unviable. The group is seeking emergency aid of up to €17,000 per professional farm and lower-tax agricultural diesel, with slow-moving convoys expected to disrupt major roads.",
+          "headline": "Catalan farmers drive tractors toward Barcelona over costs and support",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/mobilitzacio-pagesa-per-denunciar-laugment-de-costos-lencariment-del-gasoil-i-la-falta-dajuts/noticia/3433784/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20261014/agricultores-catalanes-marcha-lenta-tractores-barcelona-crisis-sector-135304862"
+            },
+            {
+              "name": "Diari de Girona",
+              "url": "https://www.diaridegirona.cat/comarques/2026/10/14/centenars-pagesos-marxen-cap-barcelona-135314488.html"
+            }
+          ]
+        },
+        {
+          "body": "TMB and bus-worker unions reached a preliminary four-year labour agreement overnight, leading unions to cancel Wednesday's partial strike and five further October stoppages. The deal provides for a gradual move toward a 35-hour working week, 10 additional annual rest days from 2027, more weekend rest days and up to three further days if agreed conditions are met. Workers must still ratify the agreement, while negotiations continue on other parts of the collective agreement.",
+          "headline": "TMB bus strike called off after deal on hours and leave",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/desconvocada-vaga-parcial-autobusos-tmb-octubre/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/nova-jornada-de-vagues-parcials-dautobusos-de-tmb-consulta-els-serveis-minims/noticia/3433897/"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://www.totbarcelona.cat/mobilitat/desconvocada-vaga-bus-tmb-35-hores-setmanals-i-deu-dies-mes-de-festa-746583/"
+            }
+          ]
+        },
+        {
+          "body": "Delays and altered schedules continue on the Barcelona-Madrid high-speed line after a train fire in Aragón left one track unavailable. Renfe has removed the unaffected front carriages to Zaragoza, but the burned rear section remains on site and may take days to remove because of its condition, location and the need to keep the parallel track operating. Services are running on a single track with speed restrictions, prompting cancellations, combined trains and delays that have affected tens of thousands of daily passengers.",
+          "headline": "Barcelona-Madrid high-speed rail disruption continues after train fire",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/mobilitat/segon-dia-retards-alta-velocitat-barcelona-madrid-tren-incendiat/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20261014/renfe-retira-parte-ave-incendiado-poner-fecha-reapertura-via-cerrada-135313985"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/local/barcelona/20261014/11658153/retrasos-tren-incendiado-agravan-perdida-confianza-ave-alta-velocidad.html"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia's annual inflation rate rose five-tenths of a point to 4.5% in September, its highest since February 2023, while core inflation reached 3%. Energy and transport drove the increase: electricity, gas and other fuels rose 13%, personal vehicle use rose 16.7%, and fuel and other combustibles rose 24.4% year on year. Food inflation was lower at 2.9%, though fresh vegetables, eggs, fruit and beef all recorded notable increases.",
+          "headline": "Catalonia's annual inflation rate rises to 4.5%",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/lipc-senfila-al-setembre-per-lincrement-del-cost-de-lenergia-que-puja-i-que-baixa/noticia/3433907/"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/ipc-setembre-puja-quatre-encariment-interanual-mes-alt-febrer-2023/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
