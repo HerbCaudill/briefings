@@ -1,0 +1,2725 @@
+{
+  "articles": [
+    {
+      "headline": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c8wy9veedgygo"
+    },
+    {
+      "headline": "Why is Starlink internet so important on the battlefield in Ukraine?",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cqkgk4zg54reo"
+    },
+    {
+      "headline": "What if you could turn off your algorithm? Australia is about to try",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/videos/ck78pj2qy42po"
+    },
+    {
+      "headline": "Russell Brand was a 'sexual predator', prosecution alleges as rape trial begins",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c3qjn45pepx1o"
+    },
+    {
+      "headline": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cmp3gnngv3e9o"
+    },
+    {
+      "headline": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/videos/c63dj4p4k5dlo"
+    },
+    {
+      "headline": "White House defends new press secretary amid questions about her legal credentials",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/ckqxne2evqreo"
+    },
+    {
+      "headline": "Brooklyn novelty shop reeling from 'surreal' row with Kelly Clarkson over mechanical bird",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cxvgdneplgzeo"
+    },
+    {
+      "headline": "Sally Rooney books withdrawn in UK over Palestine Action support",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cmx23q4g307vo"
+    },
+    {
+      "headline": "Australian woman charged with lacing colleague's curry with snail poison",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cmp3gnep35gko"
+    },
+    {
+      "headline": "How backlash against data centres could shape the US midterm elections",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c0rezqpnekro"
+    },
+    {
+      "headline": "Student protesters attack government buildings in Albania",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cq80zk5k2ep4o"
+    },
+    {
+      "headline": "Dog that hunts invasive 'sea vomit' honoured as animal of the year",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cvwy761zyx7eo"
+    },
+    {
+      "headline": "'It's rough out here': Americans struggle with rising inflation",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c305649p2d6o"
+    },
+    {
+      "headline": "I'm 12 and I want to try protein powder - should I?",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cm158555dq1go"
+    },
+    {
+      "headline": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cm04054ykqqqo"
+    },
+    {
+      "headline": "US inflation rises more than expected - here's what is happening with prices",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cwy8lx3pg4k2o"
+    },
+    {
+      "headline": "How a Chinese-made toy gets to a US retailer",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c5djvyde0y1jo"
+    },
+    {
+      "headline": "India and China aren't friends - but Nepal wants to unite them against climate threats",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cvy0rd1j2kzlo"
+    },
+    {
+      "headline": "Burnham treads carefully with Zelensky visit, balancing Trump and Ukraine",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cmx23q4dwvneo"
+    },
+    {
+      "headline": "North Korea and China open new bridge after 12-year delay",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/ck1exgw3j115o"
+    },
+    {
+      "headline": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/crkg7q97z078o"
+    },
+    {
+      "headline": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c6zxj0gzk4x4o"
+    },
+    {
+      "headline": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cqzjx448vxkgo"
+    },
+    {
+      "headline": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/crje5we583qwo"
+    },
+    {
+      "headline": "Kenya confirms second Ebola case - a relative of the first victim",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cw5yn8rn04ljo"
+    },
+    {
+      "headline": "Why Zelensky's meeting with Burnham matters",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/videos/c65yngxdzdd5o"
+    },
+    {
+      "headline": "Watch: Endangered orangutans released back into the wild after Borneo fires",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/videos/c6073z5rvrk3o"
+    },
+    {
+      "headline": "How did Katie Zacharia do at her first - very brief - White House briefing?",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/videos/cxm235y4l54lo"
+    },
+    {
+      "headline": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story"
+    },
+    {
+      "headline": "Guinea-Bissau denies it has approved controversial vaccine trial in newborns",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial"
+    },
+    {
+      "headline": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
+    },
+    {
+      "headline": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+    },
+    {
+      "headline": "Joni Mitchell becomes US citizen: ‘A journey that began 62 years ago’",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/music/2026/oct/14/joni-mitchell-becomes-us-citizen-a-journey-that-began-62-years-ago"
+    },
+    {
+      "headline": "Intense waves and floods batter California waterfront homes and boardwalks",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods"
+    },
+    {
+      "headline": "UK asks Interpol to reject Argentina’s ‘politically motivated’ requests for Falklands oil arrests",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/13/britain-interpol-reject-argentina-falkland-islands-arrests"
+    },
+    {
+      "headline": "How a scandal engulfing Brazil’s top court could return the Bolsonaros to power",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula"
+    },
+    {
+      "headline": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads"
+    },
+    {
+      "headline": "UK’s ‘incoherent’ approach to China plagued by lack of expertise, report says",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says"
+    },
+    {
+      "headline": "Russia arrests Japanese journalist on allegations of spying",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying"
+    },
+    {
+      "headline": "Graduate student accused of poisoning colleague and trying to flee to China arrested at LAX",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/wyoming-student-graduate-poison-arrest"
+    },
+    {
+      "headline": "Indonesia wildfire fuelled by El Niño razes almost 300 homes",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/13/indonesia-wildfire-el-nino-razes-300-homes-bankga-belitung"
+    },
+    {
+      "headline": "Victoria to become first state to make abortions free as Coalition matches Labor election promise",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/15/victoria-to-become-first-state-to-make-abortions-free"
+    },
+    {
+      "headline": "Greens senator Jordon Steele-John takes leave amid investigation into complaints",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/15/greens-senator-jordan-steele-john-leave-investigation-complaints-ntwnb"
+    },
+    {
+      "headline": "Senior Victorian public servants hid loss of up to $285m from Covid grants given to ineligible businesses",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/15/vic-gov-hid-285m-loss-from-covid-grants-corruption-watchdog-ibac-finds-ntwnfb"
+    },
+    {
+      "headline": "Labor and Coalition block bill that would ban incarcerated women being shackled in childbirth",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/15/labor-coalition-bill-banning-shackling-incarcerated-women-ntwnfb"
+    },
+    {
+      "headline": "Poland’s ascent from Soviet state to top 20 economy reverses the brain drain",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub"
+    },
+    {
+      "headline": "Verse from the waste land: Rotterdam’s poetic bin lorries granted cultural status",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/15/rotterdam-poems-bin-lorries-granted-cultural-status"
+    },
+    {
+      "headline": "Student protests in Albania turn violent as demonstrators clash with police",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes"
+    },
+    {
+      "headline": "Pope Leo’s recovery from lung cancer surgery ‘progressing as planned’",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/pope-leo-recovery-lung-cancer-surgery-progressing-as-planned"
+    },
+    {
+      "headline": "In Ukraine, civilian casualties were already rising. Restrictions on Starlink will only worsen the death toll",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll"
+    },
+    {
+      "headline": "Israel blocks construction of key Gaza base created by Trump peace board",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base"
+    },
+    {
+      "headline": "Two container ships sink near strait of Hormuz amid surge in Iranian attacks",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections"
+    },
+    {
+      "headline": "New UK sanctions powers will enable action against supporters of illegal Israeli settlements",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/politics/2026/oct/14/uk-sanctions-powers-action-supporters-israeli-settlements"
+    },
+    {
+      "headline": "Iranian woman handed death sentence for ‘blasphemy’ in social media post",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet"
+    },
+    {
+      "headline": "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital"
+    },
+    {
+      "headline": "South and Central Asia",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/south-and-central-asia"
+    },
+    {
+      "headline": "The Thomson Reuters Trust Principles. , opens new tab",
+      "region": "world",
+      "source": "Reuters",
+      "url": "https://www.thomsonreuters.com/en/about-us/trust-principles.html"
+    },
+    {
+      "headline": "the memorandum's language about the Strait of Hormuz",
+      "region": "world",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/why-has-iran-us-ceasefire-memorandum-frayed-2026-07-13/"
+    },
+    {
+      "headline": "Iran vows to fight until US accepts demands; ships sink in Hormuz",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz"
+    },
+    {
+      "headline": "If you’re just joining us",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?update=5049283"
+    },
+    {
+      "headline": "Protesters heckle US defence secretary over Iran war during US military event",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?update=5049249"
+    },
+    {
+      "headline": "Japan advises against non-essential travel to Saudi Arabia",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?update=5049224"
+    },
+    {
+      "headline": "New UK sanctions on illegal Israeli settlements take effect today",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?update=5049206"
+    },
+    {
+      "headline": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions"
+    },
+    {
+      "headline": "US inflation rises before midterm elections, fuelling rate hike fears",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+    },
+    {
+      "headline": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/10/15/openai-bugging-suspect-allegedly-booked-one-way-trip-to-saudi-arabia"
+    },
+    {
+      "headline": "Israel has detained more than 2,000 Palestinian children since 2023: report",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report"
+    },
+    {
+      "headline": "Trump suggests those who leak government information should ‘be shot’",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/trump-suggests-those-who-leak-government-information-should-be-shot"
+    },
+    {
+      "headline": "Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/trump-administration-seeks-to-strip-ilhan-omar-of-us-citizenship-wsj"
+    },
+    {
+      "headline": "North Korea tests two submarine-launched missiles, state media reports",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports"
+    },
+    {
+      "headline": "Teenager dies as heavy rain floods Istanbul",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul"
+    },
+    {
+      "headline": "Kenya’s Ebola cases test preparedness beyond Nairobi",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/kenyas-ebola-cases-test-preparedness-beyond-nairobi"
+    },
+    {
+      "headline": "Tunisia: What has Kais Saied achieved economically in seven years?",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/tunisia-what-has-kais-saied-achieved-economically-in-seven-years"
+    },
+    {
+      "headline": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/suspected-israeli-online-operations-cause-alarm-in-iran-and-lebanon"
+    },
+    {
+      "headline": "White House spokesperson Katie Zacharia’s law career faces scrutiny",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/white-house-spokesperson-katie-zacharias-law-career-faces-scrutiny"
+    },
+    {
+      "headline": "Real Madrid come from 3-1 down to beat Roma on Champions League travels",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/real-madrid-come-from-3-1-down-to-beat-roma-on-champions-league-travels"
+    },
+    {
+      "headline": "Ex-UK army chef jailed for ‘terror’-related offence",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/ex-uk-army-chef-jailed-for-terror-related-offence"
+    },
+    {
+      "headline": "Two scenarios for the Yemen war",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/14/two-scenarios-for-the-yemen-war"
+    },
+    {
+      "headline": "Sudan cannot afford to dismiss a chance for dialogue",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/10/14/sudan-cannot-afford-to-dismiss-a-chance-for-dialogue"
+    },
+    {
+      "headline": "‘Like we don’t exist’: Palestinians in West Bank denied say in Israel vote",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/14/like-we-dont-exist-palestinians-in-west-bank-denied-say-in-israel-vote"
+    },
+    {
+      "headline": "Tensions with teachers, pupils and Turkiye: Inside Azerbaijan’s hijab row",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/tensions-with-teachers-pupils-and-turkiye-inside-azerbaijans-hijab-row"
+    },
+    {
+      "headline": "Can you guess these twin cities?",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/from-cairo-to-tokyo-can-you-guess-these-twin-cities"
+    },
+    {
+      "headline": "Air France says it will follow Israeli rule barring crew from some nations",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/13/air-france-risks-breaking-the-law-by-adopting-israels-nationality-policy"
+    },
+    {
+      "headline": "How protests have shaped India: From agitations against Hindi to farm laws",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/13/how-protests-have-shaped-india-from-anti-hindi-agitation-to-farm-laws"
+    },
+    {
+      "headline": "What led Manchester United’s Martinez to meltdown in Madrid – all to know",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/10/14/manchester-united-premier-league-carrick-ratcliffe"
+    },
+    {
+      "body": "Romania on Wednesday was probing a possible fresh drone attack on a tanker off its Black Sea coast. Suspected Russian drones have hit several ships off Romania and neighbouring Bulgaria since last week in the latest spillover from the Ukraine war in the Black Sea. Follow our liveblog for the latest updates.",
+      "date": "2026-10-15",
+      "headline": "Ukraine live: Romania probes possible drone attack on tanker",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261015-ukraine-live-romania-probes-possible-drone-attack-on-tanker"
+    },
+    {
+      "body": "Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist President Gustavo Petro led a rally in Bogota, joined by trade unionists, Indigenous groups, students and feminist activists.",
+      "date": "2026-10-15",
+      "headline": "Thousands protest across Colombia against new right-wing president",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president"
+    },
+    {
+      "body": "Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States, alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against Senator Flavio Bolsonaro. Meta denies the allegations.",
+      "date": "2026-10-14",
+      "headline": "Lula’s party accuses Meta of election interference ahead of Brazil runoff",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff"
+    },
+    {
+      "body": "North Korea test-fired two types of submarine-launched strategic cruise missiles on Wednesday, state media KCNA reported Thursday, saying the launches posed no threat to neighbouring countries. The tests follow heightened tensions with South Korea after a September 21 landmine explosion in the Demilitarised Zone injured three South Korean soldiers.",
+      "date": "2026-10-14",
+      "headline": "North Korea test-fires submarine-launched cruise missiles amid rising tensions",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20261014-north-korea-test-fires-submarine-launched-cruise-missiles"
+    },
+    {
+      "body": "Anti-government protests in Albania’s capital Tirana turned violent for a second consecutive night on Wednesday, leaving several government buildings damaged and at least one ablaze. Thousands demanded Prime Minister Edi Rama’s resignation and improved university conditions. Police fired tear gas and deployed water cannons as protesters smashed windows and attacked buildings.",
+      "date": "2026-10-14",
+      "headline": "Albania protests turn violent as protestors demand PM Rama's resignation",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation"
+    },
+    {
+      "body": "Defending champions Paris Saint-Germain held off a second-half comeback to beat Manchester City 4-2 away in the Champions League on Wednesday. Goals from Desire Doue, Ousmane Dembele and Vitinha gave PSG a 3-0 lead before Erling Haaland struck twice. Maghnes Akliouche added a fourth, while Ferran Torres missed a late penalty.",
+      "date": "2026-10-14",
+      "headline": "PSG beat Manchester City in Champions League after financial rules verdict",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/sport/20261014-psg-beat-manchester-city-champions-league"
+    },
+    {
+      "body": "The French anti-terrorism prosecutor has taken ​over the investigation into a school shooting near Marseille, after an initial probe found the 14-year-old suspect appeared to belong to ​a ‌group called the True Crime ⁠Community. Two teachers were shot and wounded, after a student opened fire with ⁠a hunting rifle that had been hidden inside a guitar case. FRANCE 24's Sharon Gaffney speaks with Alexandre Rodde, security consultant, researcher and author of the report \"Understanding nihilistic violent extremism and the True Crime Community in France\".",
+      "date": "2026-10-14",
+      "headline": "French anti-terror investigators probe True Crime Community link to school shooting",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261014-french-anti-terror-investigators-probe-true-crime-community-link-to-school-shooting"
+    },
+    {
+      "body": "The French glassmaker Duralex is known for its practically unbreakable tableware - and business model. It's been pulled back from the brink for the fifth time in 25 years, by an entrepreneur who is vowing a new, environmentally-conscious chapter for the manufacturer. Also in the show - high energy prices fuel inflation in the US just weeks before midterm elections, and Greenland hits back at Donald Trump's plans for 'massive oil, gas, and mineral exploration' there.",
+      "date": "2026-10-14",
+      "headline": "French glassmaker Duralex pulled back from the brink - again",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/french-glassmaker-duralex-pulled-back-from-the-brink-again"
+    },
+    {
+      "body": "In tonight's edition, Kenya confirms a second case of Ebola. Also, Nobel Peace Prize winner Navi Pillay warns that international justice is facing growing pressure. And millions of people in Nigeria have been without Tiktok for about a month.",
+      "date": "2026-10-14",
+      "headline": "Kenya reports second Ebola case",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/kenya-reports-second-ebola-case"
+    },
+    {
+      "body": "Elon Musk’s ⁠SpaceX restricted “military-grade” ​Starlink services overnight into Wednesday, hampering Ukrainian drone strike missions and air defenses, Ukraine reported. In response, Musk said that the US government was behind any slowdown in Ukraine's Starshield system.",
+      "date": "2026-10-14",
+      "headline": "What is Starshield, SpaceX's military version of Starlink?",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261014-what-is-starshield-spacex-s-military-version-of-starlink"
+    },
+    {
+      "body": "Lawyers for a Ukrainian ex-military officer accused of leading the bombing of Russia's Nord Stream ​pipeline in September 2022 argued at the start of his trial in Germany on Wednesday that \"an aggressor's infrastructure\" may have been a lawful target. FRANCE 24's Juliette Brown reports.",
+      "date": "2026-10-14",
+      "headline": "Nord Stream may have been lawful target, argue lawyers for Ukrainian accused of bombing",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/nord-stream-may-have-been-lawful-target-argue-lawyers-for-ukrainian-accused-of-bombing"
+    },
+    {
+      "body": "Restrictions reported by Ukraine on its use of the US satellite internet system Starlink have exposed Kyiv's reliance on the technology for both offensive and defensive operations in its fight against Russia'a invasion, analysts and observers say. Speaking with FRANCE 24's Mark Owen, David Galbreath Professor of War and Technology at the University of Bath, says that \"we always knew that allowing a private organisation like Starlink to have such a big impact on the combat operations in Ukraine was going to be challenging\", explaining that \"it is no surprise\" that Starlink services had been throttled after SpaceX boss Elon Musk called the targeting by Ukrainian drones of data services in Russia \"a step too far\".",
+      "date": "2026-10-14",
+      "headline": "Starlink restriction 'no surprise' after Musk condemned Ukraine strikes on Russian data centres",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/starlink-restriction-no-surprise-after-musk-condemned-ukraine-strikes-on-russian-data-centres"
+    },
+    {
+      "body": "Donald Trump has sparked outrage after sharing the distressing footage of a 23-year-old man with mental illness being fatally mauled by a tiger at Yorkshire Wildlife Park, captioned \"Don't ever mess with nature!\" This followed hours later by an AI-generated video of himself taming a tiger. The posts have been condemned as disrespectful to the victim, William Chapman, and his grieving family, who have urged people to stop sharing harrowing content of the attack. Vedika Bahl goes through it.",
+      "date": "2026-10-14",
+      "headline": "Trump sparks outrage over AI tiger video after sharing footage of fatal UK attack",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/trump-sparks-outrage-over-ai-tiger-video-after-sharing-footage-of-fatal-uk-attack-1"
+    },
+    {
+      "body": "It all started as a bit of online satire by a few young people fed up by corruption. Clearly though, the Cockroach movement's no longer a laughing matter for India’s government which has shut transport and blocked rallying points in the capital to quell the momentum of youth-led mobilization that's already down the education minister over rampant school exam cheating and is now spearheading the protests against the culling of names from voter rolls, with the electoral commission chief accused of bias.",
+      "date": "2026-10-14",
+      "headline": "How far will cockroach movement go? India's youth-led protests defy Modi government",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261014-how-far-will-cockroach-movement-go-india-s-youth-led-protests-defy-modi-government"
+    },
+    {
+      "body": "What is the strategic logic behind the Houthis’ increasingly high-risk confrontation with Saudi Arabia? “Their experience in the past is that threats pay,” explains Dr. Elizabeth Kendall, Middle East specialist and President of Girton College, University of Cambridge. Dr. Kendall argues that the movement’s increasingly audacious military operations are not merely expressions of ideological hostility or Iranian influence, but calculated instruments of political coercion aimed at securing legitimacy, expanding territorial control and strengthening its negotiating leverage.",
+      "date": "2026-10-14",
+      "headline": "‘Growing ambitions’: Dr. Kendall on Houthis’ quest to be recognised as Yemen’s ‘legitimate' leaders",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/growing-ambitions-dr-kendall-on-houthis-quest-to-be-recognised-as-yemen-s-legitimate-leaders"
+    },
+    {
+      "body": "Is Narendra Modi losing his most powerful political asset: the perception of invincibility? As India's youth protest movement confronts an increasingly combative government, Dr. Subir Sinha, Director of the SOAS South Asia Institute and Reader in Development Studies, argues that the political significance of the demonstrations extends far beyond the arrests of opposition activists and the growing confrontation between protesters and state institutions. Dr. Sinha examines how the government's increasingly repressive response may be exposing the fragility of its authority and institutional legitimacy. Could India's emerging protest movement be dismantling the political mythology that has sustained Modi's hold on power?",
+      "date": "2026-10-14",
+      "headline": "‘The idea that Modi must be feared because he holds all levers of power has gone out of the window’",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/the-idea-that-modi-must-be-feared-because-he-holds-all-levers-of-power-has-gone-out-of-the-window"
+    },
+    {
+      "body": "Yemen's Houthi rebels said Wednesday they had targeted facilities belonging to Saudi oil giant Aramco after officials in Riyadh reported a strike on a building in an area housing the energy giant's headquarters. The Iran-back militia also claimed missile strikes on the capital Riyadh and vowed to continue attacking Saudi airports and oil facilities.",
+      "date": "2026-10-14",
+      "headline": "Houthis threaten escalation after strike on Saudi oil giant Aramco",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261014-yemen-houthis-vow-continue-saudi-attacks-oil-giant-aramco-headquarters-hit"
+    },
+    {
+      "body": "More than a year after the assassination of far-right influencer Charlie Kirk in September 2025, young activists from the organisation he co-founded, Turning Point USA, are working tirelessly to honour his legacy by rallying the youth vote ahead of the US midterm elections.",
+      "date": "2026-10-14",
+      "headline": "In Phoenix, young ultra-conservatives look to carry on Charlie Kirk’s legacy",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20261014-in-phoenix-young-ultra-conservatives-look-to-carry-on-charlie-kirk-s-legacy"
+    },
+    {
+      "body": "Yemen's Houthis said Wednesday they had targeted facilities belonging to Saudi Aramco, after Saudi officials reported a strike on a building in an area housing the energy giant's operations centre. Powerful explosions meanwhile rattled the Saudi capital, as the coalition fighting the Houthis said it had intercepted a missile fired by the Iran-backed group towards Riyadh.",
+      "date": "2026-10-14",
+      "headline": "Houthis say targeted Saudi oil giant Aramco, vow more attacks",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261014-houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks"
+    },
+    {
+      "body": "King Felipe VI on Tuesday said Ceuta and Melilla were \"an inalienable part\" of Spain as he made a landmark visit to the north African territories claimed by neighbouring Morocco. But the monarch, who rarely makes political interventions, emphasised Spain's need to \"maintain good neighbourly relations\" with Rabat after July's unprecedented migrant surge into Ceuta strained historically delicate ties. FRANCE 24's Sarah Morris reports from Madrid, Spain.",
+      "date": "2026-10-14",
+      "headline": "Ceuta an 'inalienable' part of Spain, king says on key visit",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261014-ceuta-an-inalienable-part-of-spain-king-says-on-key-visit"
+    },
+    {
+      "body": "Ukraine accused Elon Musk's SpaceX on Wednesday of limiting Starlink services, crippling its drones, as Russian missiles knocked out power stations in attacks President Volodymyr Zelensky called \"ostentatious disrespect\" to Donald Trump. Kyiv's relationship with Washington has taken a sharp turn for the worse since US President Trump abruptly lifted sanctions on Russian diesel last week and publicly turned on Zelensky. FRANCE 24's Gulliver Cragg reports from Kyiv, Ukraine.",
+      "date": "2026-10-14",
+      "headline": "Ukraine accuses SpaceX of crippling military missions as ties with US worsen",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261014-ukraine-accuses-spacex-of-crippling-military-missions-as-ties-with-us-worsen"
+    },
+    {
+      "body": "Cornell University will ban parties and social events at fraternity houses until the end of the academic year, its president said on Tuesday, responding to the outcry over an alleged ​gang rape on ‌campus in 2024. The measure is the strongest reaction yet from Cornell's leadership to a lawsuit ⁠filed by a former undergraduate, Jane Doe, alleging seven men sexually assaulted her during a party. Over the last several weeks, the Ivy League school in Ithaca, New York, and its ‌president, Michael Kotlikoff, have come under heavy criticism over its response to ⁠the allegations.",
+      "date": "2026-10-14",
+      "headline": "Cornell University bans fraternity parties after alleged gang rape",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261014-cornell-university-bans-fraternity-parties-after-alleged-gang-rape"
+    },
+    {
+      "body": "Some high schools in France remained closed on Wednesday, a day after tens of thousands of people joined rallies across the country to support protesting students. On Saturday, national demonstrations against the spiralling cost of living are to take place, and unions and student groups see the two protest currents fusing together.",
+      "date": "2026-10-14",
+      "headline": "School closures persist in France as protests gain momentum",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261014-school-closures-persist-in-france-as-protests-gain-momentum"
+    },
+    {
+      "body": "WASILLA, Alaska — Three weeks out from Election Day, President Donald Trump took a helicopter to a plane to another helicopter to a motorcade to an ice hockey rink in Alaska's Matanuska-Susitna Valley, traversing nearly 4,000 miles over more than eight hours to turn out his base here to help Republicans defend the Senate. But Trump’s trek might not be enough to save Sen. Dan Sullivan, who’s running in a tougher-than-expected race against Democrat Mary Peltola in a state where the president’s approval rating is underwater and independents outnumber both Republicans and Democrats. Alaska strategists and voters who spoke to POLITICO acknowledged that Sullivan faces a difficult path to reelection, despite Trump’s time investment and the outside money pouring in. “Very conservative MAGA voters can’t vote for you harder,” said Scott Kendall, a veteran political strategist who worked on two of Alaska GOP Sen. Lisa Murkowski’s campaigns and was chief of staff to former Alaska Gov. Bill Walker. “Donald Trump’s support in this current climate is both a blessing and a curse.” Even some Trump supporters at the Tuesday night rally admitted the outlook appeared bleak. “I think Alaska’s turning blue,” said Matt Niessink, a 45-year-old general contractor from Wasilla. He said he had voted for Trump three times and planned to support Republicans this year. What did he wish the president would do differently? “I wish he’d shut his mouth sometimes and not be such a pompous ass,” Niessink said. The president was in Wasilla — population 10,556 — because the outlook is darkening for his party in a state he carried by 13 points just two years ago. In a midterm year defined by the cost of gas and groceries, the Last Frontier has been hit particularly hard, with the average price of diesel nearing $7 per gallon. In the Senate race, Peltola is flush with cash and leads Sullivan in most polls. MAGA Inc., the cash-rich Trump-aligned super PAC, is increasingly focusing on Alaska as one in a slate of states that can help Republicans hold the Senate. Enter Trump, who has been spending the cycle’s crucial final weeks holding rallies in red states to juice support among his base, which tends to see depressed turnout in years when he’s not on the ballot. “That was a lot of flying,” the president said at the top of his remarks. “In fact, they were thinking about canceling. They said, ‘Sir, you’re very busy, this is very tough.’” But, Trump continued, he refused to cancel for a state he won three times. Echoing his comments at other red-state rallies, Trump asked the roaring crowd for “one big favor” — to “pretend that I'm on the ballot, because every time I've been on the ballot, we win.” He repeated his promise that Americans will receive $5,000 dividends if Republicans hold both chambers. “What this is about is getting out the vote,” Sullivan told reporters before Trump’s speech. “A rising tide of enthusiasm lifts all the candidates.” Unlike some other Republican candidates in tight races, Sullivan has shied away from distancing himself from the least popular aspects of Trump’s presidency. Sullivan proclaimed on stage at the rally that “the conflict in the Middle East is temporary. The true forever war is the national Democrats’ war against Alaska oil and gas and our jobs.” And although a campaign aide released a statement condemning Trump’s move to import Russian diesel, Sullivan did not join four of his Republican Senate colleagues, including Murkowski, who called on Trump to reverse the decision. Art Hackney, a veteran Republican strategist in Alaska, said that “most of the people who support” Sullivan “think that he should” break more with the president. Hackney, who runs a pro-Sullivan super PAC called “We Stand with Dan,” attributed that choice to loyalty — but suggested the president’s demand of fealty, and treatment of frequent dissenter Murkowski, could also be part of Sullivan’s calculus. “A lot of his longtime supporters and the people who are in the industries that would benefit from that wish he would be more blunt,” Hackney said. “But with what Murkowski has done, if Dan did something considered a disrespectful trigger or something, what do you think would happen? It could well have implications for things that affect Alaska's economy.” Like this content? Consider signing up for POLITICO's Playbook PM newsletter .",
+      "date": "2026-10-14",
+      "headline": "‘I think Alaska’s turning blue’: Republicans fret Sullivan’s path to reelection",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/10/14/alaska-sullivan-trump-maga-01118073"
+    },
+    {
+      "headline": "increasingly focusing on Alaska as one in a slate of states",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/newsletters/playbook/2026/10/12/maga-inc-trims-the-map-01116150"
+    },
+    {
+      "headline": "major parties believe the government is corrupt",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx"
+    },
+    {
+      "headline": "there are just about as many voters who blame Democratic Gov. Tim Walz",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-most-minnesotans-critical-of-fraud-efforts-to-stop-it-most-important-voter-issues/"
+    },
+    {
+      "headline": "much bigger retreat by Republicans’ top super PAC",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/10/02/republicans-slf-scale-back-north-carolina-senate-spending-01104964"
+    },
+    {
+      "headline": "navigating their own tough decisions because of Republicans’ massive cash advantage",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/09/24/democrats-midterms-money-worries-disagreements-01090770"
+    },
+    {
+      "headline": "candidates shunned some of his potential rivals",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/09/03/kamala-harris-midterms-democrats-01063010"
+    },
+    {
+      "headline": "his victory over longtime Rep. John Larson in Connecticut",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/live-updates/2026/08/11/wisconsin-minnesota-south-carolina-connecticut-elections/larson-loses-connecticut-house-primary-01034736"
+    },
+    {
+      "headline": "surprising continued embrace of the New York City mayor",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/09/27/trumps-latest-mamdani-lovefest-comes-at-a-bad-time-for-republicans-01093811"
+    },
+    {
+      "headline": "already “actively thinking” about whether to wade into",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/09/25/senate-democrats-considering-spending-kansas-texas-01093042"
+    },
+    {
+      "headline": "told POLITICO that holding the state would be “tough",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/live-updates/2026/09/10/congress/republicans-senate-map-midterms-plan-01071850"
+    },
+    {
+      "body": "&lt;img src=\"https://imagenes.elpais.com/resizer/v2/UTT5PBARRZAR5JBXA52PUG5K5M.jpg?auth=03c65e106d6adf76c3ed3ede86575b72865c313752a904cbf8828ce8bb29032f\" width=\"4726\" height=\"3150\" alt=\"Varias personas en el centro de Sevilla, el 5 de octubre.\"&gt;&lt;/img&gt;&lt;p&gt;Las pensiones son el eterno agujero negro de todas las carreras electorales y esta precampaña del 29-N se incendió este miércoles precisamente por el pulso sobre su futuro. El &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/sanchez-carga-contra-el-pp-por-las-pensiones-si-pp-y-vox-llegan-al-gobierno-firman-la-carta-de-defuncion-del-estado-del-bienestar.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-14/sanchez-carga-contra-el-pp-por-las-pensiones-si-pp-y-vox-llegan-al-gobierno-firman-la-carta-de-defuncion-del-estado-del-bienestar.html\"&gt;PSOE y el PP entraron de lleno en la batalla para conseguir el voto de los pensionistas&lt;/a&gt;, un espectro de votantes que sigue confiando de forma mayoritaria en los dos grandes partidos. El presidente del Gobierno, Pedro Sánchez, está buscando fórmulas legales para poder aprobar una subida de las pensiones justo antes de las elecciones. En paralelo, el partido de Alberto Núñez Feijóo trata de dejar claro que él también siempre apoyará las revalorizaciones con el IPC, en contra de lo que sugirió la portavoz parlamentaria, Ester Muñoz, &lt;a href=\"https://elpais.com/economia/2026-10-14/la-portavoz-del-pp-ester-munoz-asegura-que-el-sistema-de-pensiones-va-a-colapsar-y-pide-cambiarlo.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/economia/2026-10-14/la-portavoz-del-pp-ester-munoz-asegura-que-el-sistema-de-pensiones-va-a-colapsar-y-pide-cambiarlo.html\"&gt;al sostener que el sistema de pensiones “va a petar”&lt;/a&gt; y que hay que cambiarlo de forma “valiente”. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/economia/2026-10-15/el-psoe-y-el-pp-encienden-la-batalla-por-el-futuro-de-las-pensiones.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;&lt;img src=\"https://imagenes.elpais.com/resizer/v2/3O2M732G6NFX7GC4V45HXXZXWY.jpg?auth=b2722452fc8d2745a9e789aabfeb34c95de8be87d28a1a3bc6c52b09506443f5\" width=\"5236\" height=\"2693\" alt=\"La portavoz del PP Ester Muñoz en una sesión de control al Gobierno en el Congreso de los Diputados.\"&gt;&lt;/img&gt;",
+      "date": "2026-10-15",
+      "headline": "El PSOE y el PP encienden la batalla por el futuro de las pensiones",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-10-15/el-psoe-y-el-pp-encienden-la-batalla-por-el-futuro-de-las-pensiones.html"
+    },
+    {
+      "body": "&lt;img src=\"https://imagenes.elpais.com/resizer/v2/OEQOOHBQZNFBBJRLV7JGZCKFO4.jpg?auth=14067dcccec9e678fed24defc650a9c30fd7e8bc0a9d77358a5265000d4c0c1e\" width=\"6000\" height=\"3375\" alt=\"José Félix Tezanos, presidente del CIS, en su comparecencia en el Senado en diciembre del año pasado. \"&gt;&lt;/img&gt;&lt;p&gt;El &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html\"&gt;avance del último barómetro del CIS&lt;/a&gt; ha reavivado la polémica por las &lt;a href=\"https://elpais.com/espana/2025-10-14/hay-que-ignorar-las-estimaciones-de-voto-del-cis.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2025-10-14/hay-que-ignorar-las-estimaciones-de-voto-del-cis.html\"&gt;sobreestimaciones &lt;/a&gt;de los apoyos del PSOE en los que ha incurrido el Centro en Investigaciones Sociológicas en más de una ocasión. La encuesta pública, con una muestra de gran tamaño (5.000 entrevistas) sitúa a los socialistas no solo a la cabeza en estimación de voto, &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html\"&gt;sino casi 12 puntos por delante del PP&lt;/a&gt;. Esos porcentajes distan mucho del promedio de sondeos privados. Ese mismo avance facilitado por el CIS muestra que en la escala de auto-ubicación ideológica, siendo el 1 la extrema izquierda y 10 la extrema derecha, el 18,9% se sitúa a sí mismo en el 1, casi tanto (22%) como los que se ubican en el 5, es decir, el centro. Los expertos consultados por este diario coinciden en señalar que no recuerdan una diferencia tan grande entre lo que dice el Centro de Investigaciones Sociológicas y el resto de encuestas. También apuntan a un mismo fallo: la sobrerrepresentación de votantes del PSOE en esa muestra de la población que debe ser lo más parecida posible al conjunto. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-15/por-que-tantos-sociologos-no-se-creen-la-encuesta-del-cis-el-sesgo-en-la-muestra-contamina-las-encuestas.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-15",
+      "headline": "Por qué tantos sociólogos no se creen la encuesta del CIS: el sesgo en la muestra contamina las encuestas",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-15/por-que-tantos-sociologos-no-se-creen-la-encuesta-del-cis-el-sesgo-en-la-muestra-contamina-las-encuestas.html"
+    },
+    {
+      "body": "&lt;p&gt;Cuando el sol empezó a emerger en Ceuta, &lt;a href=\"https://elpais.com/espana/2026-10-14/la-policia-se-prepara-para-iniciar-operativos-de-busqueda-en-las-barriadas-de-ceuta-de-los-migrantes-que-llegaron-en-julio.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/2026-10-14/la-policia-se-prepara-para-iniciar-operativos-de-busqueda-en-las-barriadas-de-ceuta-de-los-migrantes-que-llegaron-en-julio.html\"&gt;en el amanecer del 30 de julio,&lt;/a&gt; los trabajadores del único cementerio musulmán de la ciudad vieron decenas de cabezas asomar en el agua mientras se preparaban para la jornada laboral. Porque el campo santo de Sidi Embarek, visitado por los Reyes este martes como homenaje a las víctimas mortales de la entrada masiva, tiene vistas al mar justo a pocos metros del paso fronterizo de El Tarajal, &lt;a href=\"https://elpais.com/espana/2026-10-09/el-barrio-de-el-principe-refugio-de-los-migrantes-que-no-quieren-abandonar-ceuta.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/2026-10-09/el-barrio-de-el-principe-refugio-de-los-migrantes-que-no-quieren-abandonar-ceuta.html\"&gt;por donde accedieron unas 80.000 personas&lt;/a&gt;. Las obras de ampliación ya previstas en el cementerio se aceleraron entonces para albergar las tumbas sin nombre de 90 fallecidos de la avalancha. A los que se han sumado semanas después otros cinco migrantes muertos. El último, un hombre de origen subsahariano, sepultado bajo el número 5.523 a principios de mes, tras ser escupido por las aguas de la playa de Benítez. Y cuyos restos han sido relegados en solitario a un espacio apartado, de difícil acceso. Pues nadie visita a esos muertos ni acude a su entierro. Junto al cadáver del ahogado se suceden más cavidades vacías destinadas específicamente para migrantes. En el campo santo ceutí están seguros de que serán ocupadas.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-15/las-tumbas-sin-nombre-de-migrantes-siguen-llenando-el-cementerio-musulman-de-ceuta.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;&lt;img src=\"https://imagenes.elpais.com/resizer/v2/NOSBS7VGJZBS7C5MQIMTFM6WYQ.jpeg?auth=b1ed1a7ad9012fc81a547f8e3004d79a6bb1b413a9f27a8bf71e1467d6a75e90\" width=\"4032\" height=\"2419\" alt=\"Entierro en el cementerio musulmán de Sidi Embarek junto a las tumbas de los migrantes.\"&gt;&lt;/img&gt;&lt;img src=\"https://imagenes.elpais.com/resizer/v2/MQPPVEGOL5GBXNXSMZ5Y45DEJE.jpeg?auth=a827cbf537aeb1f88226847fcdebe118a91ef7c0e2c9c3581cb4de6740c414e1\" width=\"1178\" height=\"654\" alt=\"La tumba 5.408 de Sidi Embarek junto a la inscripción que recuerda la tragedia.\"&gt;&lt;/img&gt;&lt;img src=\"https://imagenes.elpais.com/resizer/v2/ZWD6V5HR3NGSXEJED4JJOREPM4.jpg?auth=4424a0f5242f6700da0884bf5be13826e2b804f2de85527fe80e61e12be6ddda\" width=\"3648\" height=\"2432\" alt=\"La terraza inferior que continúa en obras.\"&gt;&lt;/img&gt;&lt;img src=\"https://imagenes.elpais.com/resizer/v2/CIJQTDBRK5HQ7BKQWKFCGAYNZY.jpeg?auth=ff613f54edec500f33c0aa0d0a38c03be9fd4cf75df132e69fe1d78e9b9989d7\" width=\"1178\" height=\"651\" alt=\"La tumba 5.523 del cementerio musulmán de Ceuta.\"&gt;&lt;/img&gt;",
+      "date": "2026-10-15",
+      "headline": "Las tumbas sin nombre de los migrantes siguen llenando el cementerio musulmán de Ceuta",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-15/las-tumbas-sin-nombre-de-migrantes-siguen-llenando-el-cementerio-musulman-de-ceuta.html"
+    },
+    {
+      "body": "&lt;p&gt;La respuesta a la pregunta es tan obvia que cabe ahorrarla. Sin embargo, la opinión de un grupo de magistrados de &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html\"&gt;la Sala III del Tribunal Supremo parece ir por un camino contrario&lt;/a&gt; al marcado indudablemente por el artículo 23 de la Constitución Española, al menos cuando se trata de algunos españoles que accedieron a la nacionalidad en virtud de la Ley de Memoria Democrática de 2022, por razón de la persecución política que sufrieron sus antepasados como consecuencia de la Guerra Civil.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-13/se-puede-impedir-votar-a-un-espanol.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-13",
+      "headline": "¿Se puede impedir votar a un español?",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-13/se-puede-impedir-votar-a-un-espanol.html"
+    },
+    {
+      "body": "&lt;p&gt;Uno de los objetivos fundacionales del &lt;a href=\"https://elpais.com/noticias/pacto-toledo/\" target=\"_self\" rel=\"\" title=\"https://elpais.com/noticias/pacto-toledo/\"&gt;Pacto de Toledo&lt;/a&gt; para las pensiones, que se alcanzó en 1995 con el difícil consenso de todo el arco parlamentario, fue alejar el debate de las pensiones de los intereses partidistas y, sobre todo, electorales. Se trataba del fondo, que era garantizar el sistema público de pensiones, y de la forma, ya que supuso consensuar que ningún partido utilizaría este asunto ni a los pensionistas como arma arrojadiza, sobre todo en épocas electorales. Y así fue durante años. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/economia/2026-10-15/olvidar-el-pacto-de-toledo-y-volver-a-usar-las-pensiones-como-arma-arrojadiza.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-15",
+      "headline": "Olvidar el Pacto de Toledo y volver a usar las pensiones como arma arrojadiza",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/economia/2026-10-15/olvidar-el-pacto-de-toledo-y-volver-a-usar-las-pensiones-como-arma-arrojadiza.html"
+    },
+    {
+      "body": "&lt;p&gt;La historia &lt;a href=\"https://elpais.com/espana/2026-10-14/el-tribunal-de-cuentas-aplica-la-amnistia-a-puigdemont-mas-y-otros-33-encausados-por-los-gastos-del-proces.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-10-14/el-tribunal-de-cuentas-aplica-la-amnistia-a-puigdemont-mas-y-otros-33-encausados-por-los-gastos-del-proces.html\"&gt;del expediente del Tribunal de Cuentas&lt;/a&gt; contra los líderes del &lt;i&gt;procés &lt;/i&gt;demuestra la extraordinaria influencia de los avatares políticos en las más diversas instituciones, sobre todo si tienen funciones y poderes jurisdiccionales. La investigación se inició tras suspenderse la autonomía catalana en aplicación del artículo 155 de la Constitución, en un clima de ofensiva total, en diversos frentes, contra los impulsores de aquel proyecto de ruptura del país. El órgano fiscalizador contaba entonces con una clara mayoría conservadora, que cifró en decenas de millones de euros –más de 70 según los primeros cálculos aproximativos– el dinero público que la Generalitat presidida por Carles Puigdemont se habría gastado para desarrollar sus planes, mientras la Fiscalía pedía en vía penal 30 años de prisión para sus dirigentes.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-15/tribunal-de-cuentas-de-reclamar-millones-al-carpetazo.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-15",
+      "headline": "Tribunal de Cuentas: de reclamar millones al carpetazo",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-15/tribunal-de-cuentas-de-reclamar-millones-al-carpetazo.html"
+    },
+    {
+      "body": "&lt;p&gt;El obispo Fernando García Cadiñanos envía un &lt;i&gt;wasap &lt;/i&gt;para retrasar cinco minutos el comienzo de esta entrevista. Justo cuando tenía previsto atender por teléfono a este periódico, “un amiguete” le había llamado para comentarle una noticia en la prensa que le había hecho gracia. “Cosas eclesiales que hablan de obispos”, dice García Cadiñanos sin querer revelar el titular con el que “compartió risas” con su compañero. Es habitual que los obispos no se mojen con las cuestiones de la actualidad que les preocupan o simplemente, como en este caso, les arranquen una carcajada. Solo unos pocos asuntos empujan al episcopado español a alzar la voz de forma contundente, y García Cadiñanos es el presidente de una de las subcomisiones de la Conferencia Episcopal Española (CEE), la encargada de marcar las líneas rojas en uno de esos temas en los que la Iglesia no se calla: &lt;a href=\"https://elpais.com/espana/2026-01-27/el-lider-de-los-obispos-espanoles-sobre-la-regularizacion-extraordinaria-de-inmigrantes-se-reconoce-asi-su-dignidad.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-01-27/el-lider-de-los-obispos-espanoles-sobre-la-regularizacion-extraordinaria-de-inmigrantes-se-reconoce-asi-su-dignidad.html\"&gt;la acogida y regularización de los inmigrantes&lt;/a&gt;. “En el fondo del fenómeno migratorio está la indignidad del mundo que estamos construyendo. Detrás de eso está el sistema económico, las relaciones comerciales y los juegos de poder; que están en el trasfondo del sufrimiento y de las muertes de muchas personas”, apunta el prelado.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-09-20/el-obispo-responsable-de-la-comision-episcopal-de-migraciones-hay-mucho-miedo-mucha-ideologia-mucha-fake-news.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-15",
+      "headline": "El obispo responsable de la comisión episcopal de migraciones: “Hay mucho miedo, mucha ideología, mucha ‘fake news”",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-09-20/el-obispo-responsable-de-la-comision-episcopal-de-migraciones-hay-mucho-miedo-mucha-ideologia-mucha-fake-news.html"
+    },
+    {
+      "body": "&lt;img src=\"https://imagenes.elpais.com/resizer/v2/ZW76MCIGWVGRPO2NEMH6EIESTU.JPG?auth=a4b017f0f7e35396ddd1c2e7a885d58b28b7750cb08f6a49cbd3d7b7c378cde0\" width=\"4551\" height=\"3034\" alt=\"Ada Colau, Jaume Asens y Jéssica Albiach, en una imagen de archivo.\"&gt;&lt;/img&gt;&lt;p&gt;La candidata de Frente Amplio a la presidencia del Gobierno, Ada Colau, ha abierto este miércoles la puerta &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-12/el-frente-amplio-propone-a-ada-colau-como-candidata-a-la-presidencia-y-deja-abierta-la-integracion-de-podemos.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-12/el-frente-amplio-propone-a-ada-colau-como-candidata-a-la-presidencia-y-deja-abierta-la-integracion-de-podemos.html\"&gt;a renunciar a encabezar la coalición &lt;/a&gt;e incluso a cambiar su nombre para facilitar un acuerdo con Podemos y otras formaciones de cara a las elecciones generales del 29 de noviembre. “Todo se puede discutir”, ha afirmado en una entrevista en TVE, coincidiendo con el inicio de las primarias telemáticas de Podemos y apenas un día después de que Izquierda Unida, Más Madrid, Comuns y Movimiento Sumar acordaran que &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-13/los-partidos-del-frente-amplio-acuerdan-que-emilio-delgado-sea-numero-uno-por-madrid.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-13/los-partidos-del-frente-amplio-acuerdan-que-emilio-delgado-sea-numero-uno-por-madrid.html\"&gt;Emilio Delgado encabezará la lista de Frente Amplio por Madrid&lt;/a&gt;. La exalcaldesa de Barcelona ha insistido en que su prioridad es conseguir “una sola papeleta” de las izquierdas, pese a las dificultades para cerrar un pacto antes del viernes, cuando expira el plazo para registrar las coaliciones electorales. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/catalunya/2026-10-14/colau-ofrece-renunciar-a-su-candidatura-y-cambiar-el-nombre-de-frente-amplio-para-lograr-la-unidad-con-podemos.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "Colau ofrece renunciar a su candidatura y cambiar el nombre de Frente Amplio para lograr la unidad con Podemos",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/catalunya/2026-10-14/colau-ofrece-renunciar-a-su-candidatura-y-cambiar-el-nombre-de-frente-amplio-para-lograr-la-unidad-con-podemos.html"
+    },
+    {
+      "body": "&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-se-aferra-a-la-espana-periferica-para-reducir-la-ventaja-de-pp-y-vox.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-se-aferra-a-la-espana-periferica-para-reducir-la-ventaja-de-pp-y-vox.html\"&gt;El PSOE ganaría las elecciones generales&lt;/a&gt; con un 34% del voto en caso de que se celebraran hoy, según el barómetro de octubre del Centro de Investigaciones Sociológicas (CIS), publicado este miércoles. El PSOE crece tres puntos en intención de voto respecto al estudio publicado en septiembre y aumenta su distancia sobre el PP hasta los 11,8 puntos. El instituto dirigido por José Félix Tezanos deja a los populares en segunda posición con el 22,2% de los sufragios, 3,3 puntos menos que en septiembre. La tercera fuerza del Parlamento en intención de voto es el partido de Santiago Abascal, que suma medio punto respecto a septiembre y obtiene el 17,1% del voto. Las formaciones &lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-13/los-partidos-del-frente-amplio-acuerdan-que-emilio-delgado-sea-numero-uno-por-madrid.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/elecciones-generales/2026-10-13/los-partidos-del-frente-amplio-acuerdan-que-emilio-delgado-sea-numero-uno-por-madrid.html\"&gt;de Sumar/Frente Amplio&lt;/a&gt; reciben un 6,1% de los apoyos y Podemos pierde seis décimas, quedándose en el 3,1%. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "El PSOE aumenta la distancia sobre el PP hasta los 11,8 puntos tras la convocatoria electoral, según el CIS",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html"
+    },
+    {
+      "body": "&lt;p&gt;El barómetro de octubre del Centro de Investigaciones Sociológicas (CIS) constata que el problema de la vivienda es la principal preocupación para los españoles. El 55,7% de los más de 5.000 encuestados afirma que es el mayor problema del país y hay un 33,8% que indica que es la dificultad que más le afecta “personalmente”. El estudio del instituto que dirige José Félix Tezanos se realizó durante los primeros días de octubre, por lo que es el primer barómetro hecho desde el &lt;a href=\"https://elpais.com/espana/madrid/2026-09-23/maricarmen-se-queda-un-centenar-de-activistas-espera-junto-a-la-anciana-a-la-comision-judicial.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/madrid/2026-09-23/maricarmen-se-queda-un-centenar-de-activistas-espera-junto-a-la-anciana-a-la-comision-judicial.html\"&gt;desahucio de Maricarmen&lt;/a&gt; Abascal y la &lt;a href=\"https://elpais.com/espana/2026-10-02/el-debate-de-los-decretos-se-convierte-en-un-juicio-demoledor-contra-junts.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/2026-10-02/el-debate-de-los-decretos-se-convierte-en-un-juicio-demoledor-contra-junts.html\"&gt;caída de los decretos de vivienda el 2 de octubre en el pleno del Congreso de los Diputados&lt;/a&gt;. Más de la mitad de los encuestados (57,1%) opina que, ante una situación como la vivida por Maricarmen, debe primar la protección de las personas vulnerables. Además, hay ocho de cada 10 ciudadanos que quieren que la vivienda sea garantizada como derecho constitucional. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/el-571-de-los-espanoles-afirma-que-ante-un-desahucio-debe-primar-la-proteccion-a-los-vulnerables-y-no-un-contrato.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "El 57,1% de los españoles afirma que ante un desahucio debe primar la protección a los vulnerables y no un contrato",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-14/el-571-de-los-espanoles-afirma-que-ante-un-desahucio-debe-primar-la-proteccion-a-los-vulnerables-y-no-un-contrato.html"
+    },
+    {
+      "body": "&lt;p&gt;El líder del PSOE, Pedro Sánchez, ha aprovechado en un mitin en Zaragoza este miércoles &lt;a href=\"https://elpais.com/economia/2026-10-14/la-portavoz-del-pp-ester-munoz-asegura-que-el-sistema-de-pensiones-va-a-colapsar-y-pide-cambiarlo.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/economia/2026-10-14/la-portavoz-del-pp-ester-munoz-asegura-que-el-sistema-de-pensiones-va-a-colapsar-y-pide-cambiarlo.html\"&gt;la confusión del PP con las pensiones&lt;/a&gt;, con mensajes contradictorios entre sus líderes sobre una posible reforma y un colapso del sistema, para cargar contra Alberto Núñez Feijóo. “Feijóo dice ‘ni media broma con las pensiones’ y su portavoz dice ‘que el sistema está colapsado’. Entre las tijeras de Feijóo y Abascal, el amigo de Milei y su motosierra, estos, si llegan al Gobierno, firman la carta de defunción del Estado del bienestar. Mi compromiso es cuatro años más de revalorización de pensiones sin ningún recorte”, ha señalado.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/sanchez-carga-contra-el-pp-por-las-pensiones-si-pp-y-vox-llegan-al-gobierno-firman-la-carta-de-defuncion-del-estado-del-bienestar.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "Sánchez carga contra Feijóo por las pensiones: “Si PP y Vox llegan al Gobierno firman la carta de defunción del Estado del bienestar”",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-14/sanchez-carga-contra-el-pp-por-las-pensiones-si-pp-y-vox-llegan-al-gobierno-firman-la-carta-de-defuncion-del-estado-del-bienestar.html"
+    },
+    {
+      "body": "&lt;p&gt;Margarita Robles será la &lt;i&gt;número dos&lt;/i&gt; de Pedro Sánchez en las listas del PSOE por Madrid. El presidente del Gobierno ha vuelto a confiar en la ministra de Defensa, &lt;a href=\"https://elpais.com/politica/2016/05/12/actualidad/1463034164_287873.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/politica/2016/05/12/actualidad/1463034164_287873.html\"&gt;que ya ocupó ese puesto en las elecciones de 2016.&lt;/a&gt; Con esta apuesta, Sánchez refuerza a Robles después de las críticas que la antigua magistrada &lt;a href=\"https://elpais.com/espana/2026-08-26/robles-indigna-al-resto-del-gobierno-al-chocar-con-marlaska-y-plantear-que-el-cni-si-aviso-de-que-venia-un-gran-salto-en-ceuta.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-08-26/robles-indigna-al-resto-del-gobierno-al-chocar-con-marlaska-y-plantear-que-el-cni-si-aviso-de-que-venia-un-gran-salto-en-ceuta.html\"&gt;recibió de otros ministros y pesos pesados socialistas&lt;/a&gt; por su defensa de la labor del CNI en la crisis de Ceuta. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/elecciones-generales/2026-10-14/margarita-robles-sera-la-numero-dos-de-pedro-sanchez-en-las-listas-del-psoe.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "Margarita Robles será la ‘número dos’ de Pedro Sánchez en las listas del PSOE",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-14/margarita-robles-sera-la-numero-dos-de-pedro-sanchez-en-las-listas-del-psoe.html"
+    },
+    {
+      "body": "&lt;p&gt;El Tribunal de Cuentas ha absuelto a decenas de líderes y cargos políticos de varios gobiernos de la Generalitat por los gastos del &lt;i&gt;procés&lt;/i&gt;. En total, 33 encausados, entre los que se encuentran los expresidentes de la Generalitat Carles Puigdemont y Artur Mas. El fallo aplica la ley de amnistía para absolver a los políticos independentistas demandados, después de que en julio el Tribunal de Justicia de la Unión Europea (TJUE) dictaminara que no se habían visto afectados los intereses de la Unión, tal y como había planteado una cuestión prejudicial del Tribunal de Cuentas. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-14/el-tribunal-de-cuentas-aplica-la-amnistia-a-puigdemont-mas-y-otros-33-encausados-por-los-gastos-del-proces.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "El Tribunal de Cuentas aplica la amnistía a Puigdemont, Mas y otros 31 encausados por los gastos del ‘procés’",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-14/el-tribunal-de-cuentas-aplica-la-amnistia-a-puigdemont-mas-y-otros-33-encausados-por-los-gastos-del-proces.html"
+    },
+    {
+      "body": "&lt;p&gt;Melilla ha recibido este miércoles a los Reyes, Felipe VI y Letizia Ortiz, envuelta en la bandera roja y amarilla. En la plaza de España, donde confluyen la Asamblea (Ayuntamiento de la ciudad), la sucursal del Banco de España, el casino militar y la delegación del Gobierno, colgaban de cada edificio insignias rojigualdas y fotografías de los Reyes. A las 12.00 del mediodía, &lt;a href=\"https://elpais.com/espana/2026-10-13/miles-de-personas-reciben-con-entusiasmo-a-los-reyes-en-ceuta-hoy-toda-espana-es-caballa.html\" target=\"_blank\" rel=\"noreferrer\" title=\"https://elpais.com/espana/2026-10-13/miles-de-personas-reciben-con-entusiasmo-a-los-reyes-en-ceuta-hoy-toda-espana-es-caballa.html\"&gt;una gran ovación inundaba el centro de la ciudad: “De Ceuta y de Melilla, no nos moverán”&lt;/a&gt;, se escuchaba entre los centenares de personas que han acudido a recibir a Felipe VI y doña Letizia. Los centros educativos han dado permiso a los alumnos para salir a partir de las 10.30 de la mañana, por lo que muchos de los asistentes eran universitarios y niños. “Melilla no es de España, Melilla es España”, ha dicho el presidente de la ciudad autónoma, Juan José Imbroda. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-14/una-melilla-euforica-recibe-a-los-reyes-tras-su-visita-a-ceuta-no-nos-moveran.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "Una Melilla eufórica recibe a los Reyes tras su visita a Ceuta: “No nos moverán”",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-14/una-melilla-euforica-recibe-a-los-reyes-tras-su-visita-a-ceuta-no-nos-moveran.html"
+    },
+    {
+      "body": "&lt;p&gt;Alberto Núñez Feijóo concede una “gravedad extraordinaria” a la información, &lt;a href=\"https://elpais.com/espana/2026-10-12/buques-de-guerra-marroquies-invadieron-aguas-de-ceuta-coincidiendo-con-la-entrada-masiva-de-inmigrantes.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-10-12/buques-de-guerra-marroquies-invadieron-aguas-de-ceuta-coincidiendo-con-la-entrada-masiva-de-inmigrantes.html\"&gt;desvelada por EL PAÍS, de que buques de la Marina Real de Marruecos navegaron sin pedir autorización por aguas de soberanía española&lt;/a&gt; coincidiendo con la entrada masiva de inmigrantes del pasado 30 y 31 de julio. El líder del PP reclama al presidente del Gobierno, Pedro Sánchez, que comparezca en la Diputación Permanente del Congreso para dar explicaciones sobre esos hechos, que considera “un punto de no retorno”, al tiempo que ha trasladado esa información a la Audiencia Nacional, en la causa que investiga la crisis de Ceuta y en la que el PP está personado.&lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-14/feijoo-exige-a-sanchez-que-de-explicaciones-en-el-congreso-sobre-la-entrada-de-buques-marroquies-en-aguas-espanolas.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "date": "2026-10-14",
+      "headline": "Feijóo exige a Sánchez que dé explicaciones en el Congreso sobre la entrada de buques marroquíes en aguas españolas",
+      "region": "spain",
+      "source": "El País",
+      "url": "https://elpais.com/espana/2026-10-14/feijoo-exige-a-sanchez-que-de-explicaciones-en-el-congreso-sobre-la-entrada-de-buques-marroquies-en-aguas-espanolas.html"
+    },
+    {
+      "headline": "El enchufe de J�sica en Tragsatec puso la lupa judicial sobre las colocaciones a dedo en el holding",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/15/6acfc56921efa0224a8b4591.html"
+    },
+    {
+      "headline": "S�nchez utiliza las pensiones para sembrar el p�nico con los \"recortes\" de PP y Vox: \"Firmar�n la carta de defunci�n del Estado de Bienestar\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/14/6acfbccce9cf4a48088b459d.html"
+    },
+    {
+      "headline": "Illa salva los 4,3 millones que aval� a los l�deres independentistas",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/15/6acfb517fdddff75718b4579.html"
+    },
+    {
+      "headline": "El Rey Felipe VI pronuncia un contundente discurso de apoyo a los ciudadanos de Melilla: \"Estamos preparados para defender nuestros valores y nuestras libertades\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acfb1a3fdddffdb3c8b45a3.html"
+    },
+    {
+      "headline": "El Rey sobrevive al sanchismo",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/15/6acfb5aae85ecec27e8b4590.html"
+    },
+    {
+      "headline": "El caso Bego�a G�mez se lleva por delante a un alto cargo de la C�mara de Cuentas de Andaluc�a",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/andalucia/2026/10/14/6acfb431e9cf4a8c238b4598.html?intcmp=masnoticiasportada"
+    },
+    {
+      "headline": "Desmantelada en Sagunto una cl�nica clandestina que administraba drogas alucin�genas y promet�a curar el c�ncer",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/comunidad-valenciana/2026/10/14/6acf9d5721efa0ca358b458c.html?intcmp=masnoticiasportada"
+    },
+    {
+      "headline": "Un colegio de Barcelona pide 70.000 euros a los padres de dos alumnos que se suicidaron",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/cataluna/2026/10/14/6acf6002e4d4d8454b8b4580.html?intcmp=masnoticiasportada"
+    },
+    {
+      "headline": "Detenido un joven por apu�alar a otro durante una reyerta en Parla",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/madrid/2026/10/14/6acf6475fdddffad438b45cf.html?intcmp=masnoticiasportada"
+    },
+    {
+      "headline": "Ester Mu�oz sobre la fractura en el CGPJ en el apoyo a Biedma: \"Se puede ser progresista sin ser feminista\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/murcia/2026/10/14/6acfb9cbe4d4d80d1a8b4597.html"
+    },
+    {
+      "headline": "Los vocales progresistas del CGPJ se niegan a firmar un comunicado de apoyo a la juez Biedma, objetivo de las cloacas del PSOE",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf4b17e9cf4ad8248b459d.html"
+    },
+    {
+      "headline": "S�nchez a�pa a Robles a n�mero dos del PSOE en Madrid por delante de Marlaska tras la crisis de Ceuta",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/14/6acfa004e85ece67338b45a6.html"
+    },
+    {
+      "headline": "El PP carga contra la \"hipocres�a\" de la portavoz del PSOE por los \"30 pisos\" de su pareja: \"Es una buitre consorte\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/14/6acf7bd3e4d4d8d2338b45c3.html"
+    },
+    {
+      "headline": "Cuando 70.000 personas se conectan a la vez: el desaf�o tecnol�gico del Riyadh Air Metropolitano",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://dondelapasionseconecta.elmundo.es/cuando-70000-personas-se-conectan-a-la-vez-el-desafio-tecnologico-del-metropolitano.html"
+    },
+    {
+      "headline": "Nueve a�os que valen todo un reinado de \"unidad y permanencia\": Felipe VI contra el golpe de Puigdemont y contra la 'invasi�n' de Mohamed VI",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/15/6acfb348e4d4d80d1a8b458d.html"
+    },
+    {
+      "headline": "Los \"30 pisos\" de la pareja de la portavoz de Ferraz le explotan al PSOE en su campa�a contra los \"rentistas\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acfd0c5e9cf4a98198b45c6.html"
+    },
+    {
+      "headline": "El Rey Felipe VI, en su visita a Melilla: \"Estamos preparados para defender nuestros valores y nuestras libertades\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acfc5a2e4d4d8ee298b458a-video.html"
+    },
+    {
+      "headline": "Los antidisturbios que cargaron en la Complutense denuncian falta de \"pautas claras\" por parte de la Delegaci�n del Gobierno: \"Nos dejan a los pies de los caballos\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acfb926fc6c83af588b459a.html"
+    },
+    {
+      "headline": "Visita de los Reyes a Ceuta y Melilla, �ltima hora en directo | Imbroda: \"Melilla no es de Espa�a, es Espa�a. Aqu� comienza Espa�a. Aqu� comienza Europa\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf150e3e9f6f8c5229f984-directo.html"
+    },
+    {
+      "headline": "La Aemet alerta de una dana y de un desplome de las temperaturas para el fin de semana y Protecci�n Civil aconseja extremar la precauci�n en las carreteras",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf37b0e85ecefb528b4589.html"
+    },
+    {
+      "headline": "Melilla ba�a de cari�o a los Reyes 19 a�os despu�s y se�ala a Marruecos: \"Escucha Mohamed: �que viva Espa�a, eh!\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf65d521efa0ca358b4577.html"
+    },
+    {
+      "headline": "El Tribunal Supremo ratifica la condena a �balos y Koldo y despeja la v�a de acudir al TC",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf664fe4d4d8d2338b45b5.html"
+    },
+    {
+      "headline": "Miles de personas reciben a los Reyes en Melilla con banderas de Espa�a",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf65e6fdddfff12d8b456d-video.html"
+    },
+    {
+      "headline": "Gallardo, el ex l�der del PSOE de Extremadura, recurre su condena por el caso del 'herman�simo': \"No hubo un plan preconcebido\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/extremadura/2026/10/14/6acf4a75e9cf4ad8248b4596.html"
+    },
+    {
+      "headline": "Un juez de Florida se opone a que declare el testigo que podr�a exculpar a Pablo Ibar",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf3e96e85ecec27e8b456f.html"
+    },
+    {
+      "headline": "El Tribunal de Cuentas se ve obligado a aplicar la ley de amnist�a y perdona m�s de cuatro millones a los independentistas por el proc�s",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf3bd4fdddffec208b45bd.html"
+    },
+    {
+      "headline": "Investigan como homicidio el hallazgo del cad�ver de una mujer de 83 a�os en su piso en Burgos",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6acf295ffc6c837c488b4571.html"
+    },
+    {
+      "headline": "El negocio del narco se hace global \"con Espa�a en el medio\": \"Colombianos, eslavos... Todos trafican ya con todo\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/14/6ace55dce9cf4a98198b4590.html"
+    },
+    {
+      "headline": "Pardo de Vera, ex secretaria de Estado de Transportes: \"Pepe Bono y Jos� Blanco me llamaron para interesarse por determinadas constructoras\"",
+      "region": "spain",
+      "source": "El Mundo",
+      "url": "https://www.elmundo.es/espana/2026/10/13/6ace6df121efa06c418b458a.html"
+    },
+    {
+      "headline": "S�nchez elige a Robles como n�mero dos de la lista del PSOE de cara a las elecciones generales",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/sanchez-elige-a-robles-como-numero-dos-lista-del-psoe-cara-a-elecciones-generales/17266527.shtml"
+    },
+    {
+      "headline": "Muere una mujer de 82 a�os al desplomarse el ascensor de una residencia de mayores en V�lez-M�laga",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261015/muere-mujer-ascensor-velez-malaga/17267362.shtml"
+    },
+    {
+      "headline": "PP y Vox presentan la moci�n de censura contra el alcalde de Algeciras tras negarse a abandonar su cargo",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/pp-vox-presentan-mocion-censura-contra-alcalde-algeciras-tras-negarse-a-abandonar-su-cargo/17267225.shtml"
+    },
+    {
+      "headline": "EE.UU. propone aranceles a los buques espa�oles y sanciones a las exportaciones por el veto comercial a Israel",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/eeuu-aranceles-buques-restricciones-exportaciones-bloqueo-comercio-israeli/17267101.shtml"
+    },
+    {
+      "headline": "Felipe VI recuerda que en Melilla \"empieza la UE\": \"Estamos preparados para defender nuestros valores y libertades\"",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/rey-felipe-discurso-melilla-cronica/17266798.shtml"
+    },
+    {
+      "headline": "Adolfo Su�rez Illana. Concordia frente a odio y polarizaci�n",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/play/audios/conversaciones-con-jose-maria-brunet-memoria-y-retos-de-espana/adolfo-suarez-illana-concordia-frente-a-odio-polarizacion/17266648/"
+    },
+    {
+      "headline": "UPN y PP sellan el acuerdo para concurrir en coalici�n a las elecciones generales del 29-N",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/upn-pp-sellan-acuerdo-para-concurrir-coalicion-a-elecciones-generales-del-29-n/17266826.shtml"
+    },
+    {
+      "headline": "Landaluce afronta aislado sus �ltimos d�as como alcalde de Algeciras tras las dos denuncias por agresi�n sexual a compa�eras del PP",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/landaluce-afronta-aislado-ultimos-dias-como-alcalde-algeciras-tras-dos-denuncias-por-agresion-sexual-a-companeras-del-pp/17265773.shtml"
+    },
+    {
+      "headline": "La izquierda busca in extremis una alianza y Podemos celebra primarias cerca de acabar el plazo para registrar coaliciones",
+      "region": "spain",
+      "source": "RTVE",
+      "url": "https://www.rtve.es/noticias/20261014/izquierdas-buscan-alianza-podemos-celebra-primarias-cerca-acabar-plazo-coaliciones/17265802.shtml"
+    },
+    {
+      "headline": "Conde-Pumpido: “Solo queda que el Supremo aplique la amnistía y cierre la causa del 'procés'”",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/politica/20261014/11659047/conde-pumpido-ley-amnistia-derogar-tendra-efectos-retroactivos.html"
+    },
+    {
+      "headline": "El gallego nace y se hace",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/politica/20261014/11659145/gallego-nace.html"
+    },
+    {
+      "headline": "Los quijotes de España",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/politica/20261015/11659123/quijotes-espana.html"
+    },
+    {
+      "headline": "Sánchez, preparado para un choque con Meloni en el Consejo Europeo",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/politica/20261015/11659107/sanchez-preparado-choque-meloni-consejo-europeo.html"
+    },
+    {
+      "headline": "Que no estamos tan mal",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/opinion/20261015/11659152/mal.html"
+    },
+    {
+      "headline": "La policía cazó al ladrón del Barça tras alardear de tener relojes de los jugadores",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/local/barcelona/20261015/11659099/policia-cazo-ladron-barca-alardear-relojes-jugadores.html"
+    },
+    {
+      "headline": "Los Mossos detienen a uno de los jefes de los ladrones de casas de futbolistas",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/local/barcelona/20261012/11656614/mossos-detienen-jefes-ladrones-casas-futbolistas.html"
+    },
+    {
+      "headline": "Protesta masiva y cargas policiales el primer día de huelga de los profesores en Madrid",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/local/madrid/20261014/11658470/arranca-huelga-favor-educacion-publica-madrid-exigir-mejoras-laborales.html"
+    },
+    {
+      "headline": "Trump impregna su campaña de imperialismo sobre Groenlandia y Canadá",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/internacional/20261015/11659347/trump-impregna-campana-imperialismo-sobre-groenlandia-canada-terminara-siendo-51.html"
+    },
+    {
+      "headline": "Miles de rusos huyen antes de que el ejército pueda reclutarlos",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/internacional/20261015/11658714/rusia-ucrania-guerra-movilizacion-soldados.html"
+    },
+    {
+      "headline": "La UE baraja nuevos instrumentos para armarse ante las prácticas comerciales de Pekín",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/economia/20261015/11659085/ue-baraja-nuevos-instrumentos-armarse-frente-practicas-comerciales-pekin.html"
+    },
+    {
+      "headline": "Amira Haas: “En Israel hay señales muy evidentes de un nuevo fascismo”",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/internacional/20261015/11655516/amira-haas-israel-hay-senales-evidentes-nuevo-fascismo.html"
+    },
+    {
+      "headline": "Juan Ramírez de Lucas, el verdadero último amor de Lorca que no aparece en 'La bola negra'",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/cultura/20261015/11659144/verdadero-ultimo-amor-garcia-lorca-juan-ramirez-de-lucas-la-bola-negra.html"
+    },
+    {
+      "headline": "‘La bola negra’ va a marcar época",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/cultura/culturas/20261003/11649387/bola-negra-ambrossi-calvo.html"
+    },
+    {
+      "headline": "El Madrid de los suplentes marca tres goles en seis minutos y logra una épica victoria en Roma",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/deportes/real-madrid/20261014/11659149/madrid-suplentes-marca-tres-goles-seis-minutos-logra-epica-victoria-roma.html"
+    },
+    {
+      "headline": "No hay piedad con Vinícius: sanción de cuatro partidos",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/deportes/real-madrid/20261014/11659091/cta-piedad-vinicius-sancion-cuatro-partidos-tiron-pelo-protesta.html"
+    },
+    {
+      "headline": "Mourinho y Vinícius, contra LaLiga y la RFEF: “Antes el gato enseñaba la cola, ahora va por libre”",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/deportes/real-madrid/20261015/11659173/mourinho-vinicius-echan-humo-laliga-rfef-gato-ensenaba-cola-libre-vergueenza.html"
+    },
+    {
+      "headline": "El mismo cielo: cómo proteger a las aves en un país clave para la biodiversidad europea",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/vida/20261014/11659017/cielo-como-proteger-aves-pais-clave-biodiversidad-europea-brl.html"
+    },
+    {
+      "headline": "Atención: rayos, precauciones básicas",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/natural/20261015/11658941/atencion-rayos-precauciones-basicas.html"
+    },
+    {
+      "headline": "La Aemet alerta de una dana y de un desplome de las temperaturas para el fin de semana",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/natural/20261014/11658896/semana-traera-lluvias-intensas-litoral-mediterraneo-baleares.html"
+    },
+    {
+      "headline": "“La ropa que llevas no es neutral: cada prenda habla de quién eres y de a quién te opones”",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/vivo/tendencias/20261015/11658043/ropa-llevas-neutral-prenda-habla-te-opones.html"
+    },
+    {
+      "headline": "El Salón Náutico de Barcelona afronta una edición marcada por la transformación",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/local/barcelona/20261015/11659112/salon-nautico-barcelona-afronta-edicion-marcada-crecimiento-transformacion.html"
+    },
+    {
+      "headline": "El Valle de Ricote, un oasis en la Región de Murcia",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/magazine/viajes/20261015/11657784/valle-ricote-oasis-region-murcia-brl.html"
+    },
+    {
+      "headline": "Terror en el supermercado",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/vida/20261015/11658982/terror-supermercado.html"
+    },
+    {
+      "headline": "Lamine Yamal provoca un fenómeno fan en los familiares de sus rivales",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20261015/11658792/lamine-yamal-provoca-fenomeno-fan-familiares-rivales.html"
+    },
+    {
+      "headline": "“Dejé de fumar hace 21 años y nunca he bebido; mi vida no es ejemplar, pero no me he dañado”",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/vivo/longevity/20261015/11658594/jordi-gonzalez-presentador-65-anos-anos-he-tenido-madrugar-acostarme-tarde-trabajar-fines-semana-verano-postergue-mi-juventud-trabajo.html"
+    },
+    {
+      "headline": "El empresario francés Cédric Meston salva la histórica Duralex",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/economia/20261014/11659018/empresario-frances-cedric-meston-salva-historica-duralex.html"
+    },
+    {
+      "headline": "Hallado el naufragio más antiguo del mundo en la costa de Turquía",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/cultura/20261014/11658990/hallado-naufragio-mas-antiguo-mundo-costa-turquia.html"
+    },
+    {
+      "headline": "Las mejores fotos de viajes y aventuras según los Siena Photo Awards 2026",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/magazine/viajes/20261015/11657919/mejores-fotos-viajes-aventuras-siena-photo-awards-2026.html"
+    },
+    {
+      "headline": "Nueve empresas europeas de armamento que suministran a Ucrania han sufrido atentados atribuidos a Rusia",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/internacional/20261015/nueve-empresas-europeas-armamento-suministran-ucrania-sufren-sabotajes-incendios-135340883"
+    },
+    {
+      "headline": "Alerta en los servicios de inteligencia europeos por posibles ataques rusos: \"La guerra híbrida está escalando\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/internacional/20260928/alerta-servicios-inteligencia-europeos-posibles-ataques-rusos-134697576"
+    },
+    {
+      "headline": "El Gobierno agita el miedo a la \"privatización\" de las pensiones de PP y Vox y estudia subirlas antes del 29N",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261015/gobierno-miedo-privatizacion-pensiones-pp-135337971"
+    },
+    {
+      "headline": "El gasto en pensiones toca un nuevo récord en agosto, hasta los 14.470 millones de euros",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/economia/20260825/gasto-pensiones-sube-6-2-133634011"
+    },
+    {
+      "headline": "Los agentes rurales catalanes llevarán porras extensibles por primera vez ante el aumento de situaciones de riesgo",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261015/agentes-rurales-cataluna-llevaran-porras-primera-vez-135323941"
+    },
+    {
+      "headline": "Interior crece un 35% y proyecta casi 2.000 nuevas plazas de Mossos, bomberos y agentes rurales",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20260227/presupuestos-generalitat-2026-interior-mossos-bomberos-127359063"
+    },
+    {
+      "headline": "Parlon defiende que los nuevos presupuestos permitirán aumentar el número de Mossos en toda Catalunya",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20260302/parlon-defiende-nuevos-presupuestos-permitiran-incrementar-mossos-territorio-127450971"
+    },
+    {
+      "headline": "La compra de casas por parte de extranjeros registra su mayor desplome desde la pandemia",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/economia/20261015/compra-casas-parte-extranjeros-registra-135343046"
+    },
+    {
+      "headline": "Las claves de la ley de memoria democrática de Catalunya: de las multas por enaltecer el franquismo a la retirada de símbolos",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261015/claves-ley-memoria-democratica-catalunya-franquismo-multas-simbolos-135288723"
+    },
+    {
+      "headline": "Sánchez asciende a Robles, una de sus ministras más valoradas y conocidas, y reparte a otros 10 miembros del Gobierno por ocho provincias",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261014/sanchez-asciende-robles-ministras-valoradas-135343882"
+    },
+    {
+      "headline": "Más allá del algoritmo: cómo llevar la IA a la industria empresarial",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/consorci-zona-franca/20261015/algoritmo-llevar-ia-industria-empresarial-bc-135061249"
+    },
+    {
+      "headline": "La actualidad de hoy 15 de octubre de 2026",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/ultimas-noticias/"
+    },
+    {
+      "headline": "¿Cómo van Rufián y Colau en las encuestas? ¿Quién va mejor en los sondeos de las elecciones generales?",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261015/rufian-colau-encuestas-sondeos-elecciones-generales-135338725"
+    },
+    {
+      "headline": "El voto latino se aleja de Trump y reduce las opciones de los republicanos para el Congreso de EEUU",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/internacional/20261014/voto-latino-trump-reduce-midterms-medio-mandato-elecciones-135344999"
+    },
+    {
+      "headline": "España encabeza el desapego universitario en Europa: el 31% de estudiantes no se sienten parte de la universidad",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261015/espana-encabeza-desapego-estudiantes-universidad-134876137"
+    },
+    {
+      "headline": "La universidad pierde atractivo como lugar social: \"No tenemos tiempo ni ganas de hacer vida en el campus\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261015/universidad-declive-vida-social-universitaria-motivos-estudiantes-135171441"
+    },
+    {
+      "headline": "El Rey se despide de Ceuta y Melilla con ganas de volver y pide para ambas ciudades más \"abrazo y cercanía\" de España",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261014/rey-ceuta-melilla-cercania-volver-marruecos-alto-voltaje-135339668"
+    },
+    {
+      "headline": "El grupo con \"antecedentes terroristas\" que denunció Isabel Díaz Ayuso no está en la acampada de Sol",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sucesos/20261015/ayuso-denuncio-grupo-terroristas-acampada-sol-135350155"
+    },
+    {
+      "headline": "El Defensor del Pueblo debe esperar a que acabe la vía judicial para recurrir los autos de la 'ley de nietos' ante el TC",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261015/defensor-pueblo-acabe-via-judicial-recurrir-autos-ley-de-nietos-135343015"
+    },
+    {
+      "headline": "La encuesta de EL PERIÓDICO sobre las elecciones generales, al completo: datos internos, cruces y respuestas individuales",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/politica/20261015/encuesta-periodico-elecciones-generales-datos-internos-gesop-135289628"
+    },
+    {
+      "headline": "Carta de un lector: \"No dejemos la política en manos de quienes más gritan\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/entre-todos/participacion/dejemos-politica-manos-gritan-carta-lector-javier-gonzalez-135273894"
+    },
+    {
+      "headline": "La meca del cine friki de L’Hospitalet instalará consolas con ‘Street Fighter’ que usan el cuerpo como controlador",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/que-hacer/planes/20261015/street-fighter-consolas-estreno-hospitalet-barcelona-cine-friki-135334645"
+    },
+    {
+      "headline": "Qué fue de Claudia Schiffer, la alemana que dominó el mundo de la pasarela en los años 90",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/gente/20261015/claudia-schiffer-que-fue-alemana-domino-mundo-pasarela-anos-90-135251855"
+    },
+    {
+      "headline": "La consagración de Miguel Bernardeau: del fenómeno adolescente 'Élite' al reconocimiento de la crítica por 'La bola negra'",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261015/consagracion-miguel-bernardeau-fenomeno-adolescente-134895211"
+    },
+    {
+      "headline": "¿Puede el aumento de los precios provocar un cambio electoral? Estreno de 'Bienvenidos a EEUU', el videopódcast de EL PERIÓDICO",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/internacional/20261014/aumento-precios-provocar-cambio-electoral-bienvendios-eeuu-videopodcast-el-periodico-135281740"
+    },
+    {
+      "headline": "Mad Max o la última gota de gasolina…en Bali",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/trafico-y-transportes/20261015/mad-max-o-ultima-gota-135348533"
+    },
+    {
+      "headline": "Pedro Sánchez: “De joven hacía break dance, se me daba bien. Es algo que la gente no se imagina de un presidente del Gobierno\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://woman.elperiodico.com/celebrities/pedro-sanchez-joven-break-dance-presidente-135312188"
+    },
+    {
+      "headline": "Premio Planeta, 75 años de un \"lanzamiento motorizado\" literario",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261014/premio-planeta-75-anos-lanzamiento-135335702"
+    },
+    {
+      "headline": "Espí, Endrick y Rüdiger salvan al Madrid del abismo en Roma",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/deportes/20261014/roma-real-madrid-champions-goles-resultado-resumen-135347614"
+    },
+    {
+      "headline": "Vinicius se hace la víctima tras su sanción y Mourinho explota: \"Se hacen cosas sin vergüenza ya, los madridistas no son estúpidos\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/deportes/20261015/vinicius-victima-sancion-mourinho-explota-135348959"
+    },
+    {
+      "headline": "Només el 50% de municipis obligats a tenir un pla d'emergència per inundacions el té vigent: consulta el mapa",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/nomes-el-50-de-municipis-obligats-a-tenir-un-pla-demergencia-per-inundacions-el-te-vigent-consulta-el-mapa/noticia/3433389/"
+    },
+    {
+      "headline": "Quines decisions pot prendre un alcalde en cas que es decreti una alerta per inundacions?",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/quines-decisions-pot-prendre-un-alcalde-en-cas-que-es-decreti-una-alerta-per-inundacions/noticia/3434111/"
+    },
+    {
+      "headline": "Colau, disposada a fer un pas al costat a Front Ampli per aconseguir una candidatura única d'esquerres",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/colau-disposada-a-fer-un-pas-al-costat-a-front-ampli-per-aconseguir-una-candidatura-unica-desquerres/noticia/3433971/"
+    },
+    {
+      "headline": "El pols entre Junts i Aliança: què diuen les enquestes i on poden anar els vots el 29N",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/el-pols-entre-junts-i-alianca-que-diuen-les-enquestes-i-on-poden-anar-els-vots-el-29n/noticia/3434119/"
+    },
+    {
+      "headline": "Un CIS fet en ple cas Maricarmen amplia l'avantatge del PSOE sobre el PP, amb lleu pujada de Vox, i enforteix el Front Ampli i ERC",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/un-cis-fet-en-ple-cas-maricarmen-amplia-lavantatge-del-psoe-sobre-el-pp-amb-lleu-pujada-de-vox-i-enforteix-front-ampli-i-erc/noticia/3433955/"
+    },
+    {
+      "headline": "CEO: el PSC guanyaria les eleccions al Congrés a Catalunya, amb pujada d'ERC i Vox, i baixada de Comuns i Junts",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/ceo-el-psc-guanyaria-les-eleccions-al-congres-a-catalunya-amb-pujada-derc-i-vox-i-baixada-de-comuns-i-junts/noticia/3434048/"
+    },
+    {
+      "headline": "Sis mesos de l'acord UE-Mercosur: del recel de la pagesia als \"efectes positius\" que hi veu Europa",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/sis-mesos-de-lacord-ue-mercosur-del-recel-de-la-pagesia-als-efectes-positius-que-hi-veu-europa/noticia/3433973/"
+    },
+    {
+      "headline": "L'Hospital de Bellvitge coordina un assaig clínic per millorar el tractament de la miastènia greu",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/lhospital-de-bellvitge-coordina-un-assaig-clinic-per-millorar-el-tractament-de-la-miastenia-greu/noticia/3434112/"
+    },
+    {
+      "headline": "Les millors fotografies de vida salvatge de l'any: de les cigonyes de bec d'esclop al tritó ponent ous",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/les-millors-fotografies-de-vida-salvatge-de-lany-de-les-cigonyes-de-bec-desclop-al-trito-ponent-ous/noticia/3434136/"
+    },
+    {
+      "headline": "Pare Manyanet, obligat a demanar perdó per abusos sexuals a Colòmbia: la història de lluita de dos germans",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/pare-manyanet-obligat-a-demanar-perdo-per-abusos-sexuals-a-colombia-la-historia-de-lluita-de-dos-germans/noticia/3412006/"
+    },
+    {
+      "headline": "L'acomiaden mentre està de baixa per l'assassinat masclista de la seva mare: \"És inhumà\"",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/lacomiaden-mentre-esta-de-baixa-per-lassassinat-masclista-de-la-seva-mare-es-inhuma/noticia/3432913/"
+    },
+    {
+      "headline": "Sonia Malkine, la dona que va guiar els maquis cap a la Vall d'Aran per derrocar Franco",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/sonia-malkine-la-dona-que-va-guiar-els-maquis-cap-a-la-vall-daran-per-derrocar-franco/noticia/3432185/"
+    },
+    {
+      "headline": "Gir històric dels testimonis de Jehovà: ja permeten rebre transfusions de sang",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/gir-historic-dels-testimonis-de-jehova-ja-permeten-rebre-transfusions-de-sang/noticia/3431598/"
+    },
+    {
+      "headline": "La congregació de l'escola Pare Manyanet demanda els pares de dos alumnes que es van suïcidar",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/lescola-pare-manyanet-demanda-els-pares-de-dos-alumnes-de-barcelona-que-es-van-suicidar/noticia/3433923/"
+    },
+    {
+      "headline": "Ferit amb arma blanca al carrer un metge del CAP de Torelló",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/ferit-amb-arma-blanca-al-carrer-un-metge-del-cap-de-torello/noticia/3434093/"
+    },
+    {
+      "headline": "Mor una motorista en un accident de trànsit al districte de les Corts, a Barcelona",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/mor-una-motorista-en-un-accident-de-transit-al-districte-de-les-corts-a-barcelona/noticia/3434007/"
+    },
+    {
+      "headline": "Alerten que creixen les discriminacions lingüístiques greus a l'administració, sobretot a la sanitat",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/alerten-que-creixen-les-discriminacions-linguistiques-greus-a-ladministracio-sobretot-a-la-sanitat/noticia/3434107/"
+    },
+    {
+      "headline": "Trànsit vol fer més cursos de conducció segura per combatre els accidents mortals de motoristes",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/transit-vol-fer-mes-cursos-de-conduccio-segura-per-combatre-els-accidents-mortals-de-motoristes/noticia/3434121/"
+    },
+    {
+      "headline": "Badia comença a retirar 355 tones d'amiant que hi ha repartit per més d'un centenar d'edificis",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/badia-comenca-a-retirar-355-tones-damiant-que-hi-ha-repartit-per-mes-dun-centenar-dedificis/noticia/3433992/"
+    },
+    {
+      "headline": "La Fira Mediterrània de Manresa aixeca el teló: un tast dels imprescindibles",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/la-fira-mediterrania-de-manresa-aixeca-el-telo-un-tast-dels-imprescindibles/noticia/3433835/"
+    },
+    {
+      "headline": "Incertesa sobre el futur de les cases de Sant Romà de Sau: l'ACA publica un projecte per enderrocar-les",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/incertesa-sobre-el-futur-de-les-cases-de-sant-roma-de-sau-laca-publica-un-projecte-per-enderrocar-les/noticia/3434099/"
+    },
+    {
+      "headline": "De Portbou a Blanes en caiac \"per un litoral més accessible\"",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/de-portbou-a-blanes-en-caiac-per-un-litoral-mes-accessible/noticia/3433991/"
+    },
+    {
+      "headline": "Una frase que esdevé una novel·la: un pla seqüència literari sense paràgrafs ni punts",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/una-frase-que-esdeve-una-novella-un-pla-sequencia-literari-sense-paragrafs-ni-punts/noticia/3433975/"
+    },
+    {
+      "headline": "Càrregues policials el primer dia de vaga per l'educació pública a Madrid: 5 detinguts i 7 ferits",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/carregues-policials-el-primer-dia-de-vaga-per-leducacio-publica-a-madrid-5-detinguts-i-7-ferits/noticia/3434130/"
+    },
+    {
+      "headline": "El desabastiment de fàrmacs per a la menopausa angoixa les pacients i tensiona les consultes",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/el-desabastiment-de-farmacs-per-a-la-menopausa-angoixa-les-pacients-i-tensiona-les-consultes/noticia/3433717/"
+    },
+    {
+      "headline": "Adif preveu recuperar la normalitat a l'alta velocitat a principis de la setmana que ve",
+      "region": "barcelona",
+      "source": "3Cat",
+      "url": "https://www.3cat.cat/3catinfo/adif-preveu-recuperar-la-normalitat-a-lalta-velocitat-a-principis-de-la-setmana-que-ve/noticia/3433977/"
+    },
+    {
+      "body": "La Muntanyesa ha guanyat per 2 a 0 davant l’Escala a La Bombonera. Melero ha avançat els de Nou Barris amb un gol des del mig del camp i el segon ha estat en pròpia porteria després d’una gran jugada de Moha Traoré . Amb aquesta victòria, els de Luis Gallego es converteixen en els líders del grup 5 de la Tercera Federació . Un golàs de Melero per desencallar el primer temps En una primera part sense gaires ocasions, l’equip visitant ha enviat la pilota al travesser . En el partit predominaven les centrades laterals, però que acabaven en res. Fins que en els darrers 10 minuts, en una falta assenyalada al mig del camp, Sergi Melero ha aprofitat el factor sorpresa per inaugurar el marcador amb un dels millors gols d’aquesta temporada. El gol en pròpia dona tranquil·litat a la Monta A la represa, l’equip local ha sentenciat el partit. Una centrada de Moha Traoré per la banda esquerra ha acabat amb gol en pròpia porteria de Bertrana . La Monta ha tingut més ocasions per ampliar diferències respecte a l’Escala , però Jonatan Morilla , el porter de l’equip gironí, ho ha impedit. Finalment, els tres punts s’han quedat al camp de la Muntanyesa . També et pot interessar La xifra increïble que vol superar el Barça després de guanyar el Galatasaray Carles Alcoyent Corominas 2 minuts de lectura",
+      "date": "2026-10-14",
+      "headline": "La Muntanyesa, líder de la Tercera Federació: Victòria davant l’Escala",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/esports/muntanyesa-lider-tercera-federacio-victoria-davant-escala/"
+    },
+    {
+      "body": "No fa ni 10 dies que es va obrir la possibilitat perquè Barcelona pugui apujar al màxim l’impost sobre els béns immobles ( IBI ) als pisos turístics de la ciutat, però el govern de Jaume Collboni s’ha apressat per poder-ho fer realitat. De fet, l’executiu ja va dur la carpeta a una Comissió d’Economia i Hisenda extraordinària i, ara, ha convocat un plenari també extraordinari per seguir avançant en la qüestió. Si no hi ha cap gir de guió inesperat, el triumvirat PSC-BComú-ERC permetrà que el Ple doni la seva primera llum verda a aquesta modificació de les ordenances fiscals per encarir fins a un 150 % l’IBI als propietaris dels habitatges d’ús turístic (HUT). Aquest encariment es farà en funció del nombre de pisos que tingui cada propietari. Per a qui en tingui un, el recàrrec de l’IBI serà del 50 % . Per a qui en tingui dos, tres o quatre, el recàrrec de l’IBI serà del 100 % . Per a qui en tingui més de quatre, el recàrrec serà del 150 % . També et pot interessar L’Ajuntament vol eliminar tots els pisos turístics de Barcelona el novembre del 2028 Josep Bassas Sergio Segura Sílvia Gutiérrez 2 minuts de lectura Quants pisos turístics hi ha a Barcelona? Aquest encariment progressiu permetrà a l’Ajuntament incidir específicament en els propietaris que acumulin més pisos turístics sota un mateix titular. De fet, les 10.627 llicències d’HUT de Barcelona es reparteixen així: 3.274 pisos turístics estan en mans de titulars que només en tenen un. 1.276 pisos turístics estan en mans de titulars que en tenen dos, tres o quatre a nom seu. 6.077 pisos turístics estan en mans de titulars que en tenen més de quatre a nom seu. Un cop el Plenari doni la primera llum verda a aquesta modificació de les ordenances fiscals, l’expedient quedarà en exposició pública perquè s’hi puguin fer al·legacions, mentre que l’aprovació definitiva serà a finals d’any. L’encariment de l’IBI és una estratègia més per declarar la guerra als pisos turístics, abans que Barcelona els pugui eliminar definitivament el 2028 . També et pot interessar Pedro Sánchez troba una via alternativa per aprovar els decrets d’habitatge tombats pel Congrés Marina Segura i Vidal 1 minut de lectura",
+      "date": "2026-10-14",
+      "headline": "Un ple extraordinari donarà llum verda a l’IBI més alt de la història per als pisos turístics",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/ple-municipal-barcelona-octubre-2026-extraordinari-ibi-pisos-turistics/"
+    },
+    {
+      "body": "Coincidint amb l’estrena del documental de betevé À la ville de Barcelona. 40 anys , i en la setmana que es compleixen quatre dècades des que la ciutat va saber que seria la seu dels Jocs Olímpics del 1992 , el publicista Lluís Bassat ha passat pel bàsics per explicar com va viure l’etapa olímpica. Es tracta d’una de les figures que més van influir en la imatge que va projectar Barcelona al món entre finals dels anys 80 i principis dels 90 del segle passat. Bassat va ser, també, un dels ideòlegs de les imatges més recordades de l’estiu del 1992: les cerimònies d’inauguració i clausura dels jocs a l’Estadi Olímpic. Va ser el mateix publicista qui va convèncer l’alcalde Pasqual Maragall de ser valents : “Pensa, Pasqual, que la carrera de 100 metres lliures és igual aquí que en qualsevol jocs olímpics del món, el que realment és diferent són les cerimònies i les que hem vist fins ara són bastant lletges “, li va etzibar Bassat. Els Jocs Olímpics de Lluís Bassat També et pot interessar On eres el 17 d’octubre del 1986? betevé estrena ‘À la ville de Barcelona. 40 anys’ Neus Reig 1 minut de lectura Una cerimònia per a la posteritat “Jo no us proposo un espectacle , jo us proposo un espot publicitari “, va explicar Bassat al jurat del concurs que havia d’escollir qui s’havia d’encarregar de les cerimònies. Un cop es va haver d’enfrontar al moment inicial del full en blanc, “tot va començar amb la música” , diu Bassat. I és per això, i perquè volia potenciar el talent del país, que van escollir l’òpera en un moment en què hi havia “els millors tenors i sopranos del món”. D’aquella decisió en van sortir la resta d’imatges d’aquell 25 de juliol de l’any 1992. A l’hora d’escollir quin creu que va ser el millor moment de la cerimònia d’inauguració, Bassat es queda amb l’encesa del peveter : “ L’arc i la fletxa és la imatge publicitària més potent que s’hagi fet mai en unes cerimònies olímpiques”. Un moment que, confessa Bassat, va viure “tremolant”. “Quan es va encendre el peveter vaig saltar un metre del seient”, ha recordat. També et pot interessar El projecte Valors olímpics arriba a l’Escola Betània Patmos, a Barcelona Redacció 1 minut de lectura El llegat de la transformació olímpica Lluís Bassat també ha reflexionat sobre el canvi que va fer la ciutat a partir d’aquell octubre del 1986 en què va saber que seria seu olímpica . En la seva opinió, la ciutat “li deu molt als Jocs Olímpics” perquè, si no s’haguessin celebrat “ no tindríem rondes i no tindríem el mar , al costat s’hi mantindria la via del tren”. Tot i això, demana no ser inclòs en aquest deute: “A mi no em deuen res , vaig fer la meva feina i el mèrit va ser d’un equip de 165 persones “. Recupera l’entrevista sencera a Lluís Bassat",
+      "date": "2026-10-14",
+      "headline": "Lluís Bassat: “L’arc i la fletxa és la imatge publicitària més potent que s’ha fet en uns jocs”",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/lluis-bassat-arc-fletxa-imatge-potent-jocs/"
+    },
+    {
+      "body": "(EFE/Redacció) El davanter brasiler del Reial Madrid Vinícius Júnior haurà de complir quatre partits de sanció per la seva expulsió amb vermella directa l’última jornada de Lliga contra el Vila-real, per la qual cosa es perdrà el clàssic contra el Barça a l’Spotify Camp Nou el diumenge dia 25. Vinícius no podrà jugar el clàssic El Comitè de Disciplina de la Federació Espanyola de Futbol (RFEF) ha sancionat el brasiler aquest dimecres per la seva expulsió en el minut 73, “per estirar els cabells ” a Nathan Saliba, “amb la pilota en joc, sense estar la pilota en disputa entre ells” i per dirigir-se a l’àrbitre en actitud agressiva després de la vermella, segons va reflectir l’acta del col·legiat Isidro Díaz. També et pot interessar La xifra increïble que vol superar el Barça després de guanyar el Galatasaray Amb aquesta sanció el madridista serà baixa en el proper partit, diumenge que ve contra el Sevilla , en el clàssic a Barcelona i en les següents jornades lligueres contra el Racing a Santander l’1 de novembre i a Mestalla davant el València el dia 7.",
+      "date": "2026-10-14",
+      "headline": "Quatre partits de sanció a Vinícius, que es perdrà el clàssic Barça-Madrid",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/esports/quatre-partits-sancio-vinicius-perdra-classic-barca-madrid/"
+    },
+    {
+      "body": "(ACN) Tres homes de 21, 23 i 32 anys han estat detinguts a Barcelona per la presumpta relació amb la mort violenta d’un altre home la matinada del 12 d’octubre al barri de les Roquetes, al districte de Nou Barris. Cap a les dues, els Mossos van rebre un avís per una agressió comesa per un grup de persones contra un home en ple carrer. Quan els agents van arribar al lloc dels fets, al carrer de Romaní, van localitzar una persona ferida probablement per arma blanca . Tot i les maniobres de reanimació practicades inicialment pels Mossos i, posteriorment, pels efectius del Sistema d’Emergències Mèdiques (SEM), la víctima morir. Detenim a Barcelona tres homes de 21, 23 i 32 anys per la seva presumpta relació amb la mort violenta d'un altre home la matinada del 12 d'octubre a Nou Barris. Les detencions es van fer el mateix dilluns al migdia. La investigació de la DIC continua sota secret. pic.twitter.com/CgeScAt4h1 &mdash; Mossos (@mossos) October 14, 2026 Les detencions dels tres individus es van fer el mateix dilluns al migdia. La investigació de la Divisió d’Investigació Criminal (DIC) dels Mossos d’Esquadra continua sota secret d’actuacions. També et pot interessar Els Mossos investiguen la mort d’un home per arma blanca aquesta matinada a les Roquetes Redacció 1 minut de lectura",
+      "date": "2026-10-14",
+      "headline": "Detinguts tres homes per la mort violenta d’un altre a les Roquetes la matinada del 12 d’octubre",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/detinguts-mort-violenta-nou-barris-12-octubre/"
+    },
+    {
+      "body": "La congregació titular de les escoles Manyanet ha demandat per vulneració de l’honor les famílies de dos alumnes de centres de Barcelona que es van suïcidar el 2019 i el 2021. Els demandats són els pares de la Kira , que era alumna a Sant Andreu, i de l’ Òscar , que es va treure la vida als 21 anys i que havia estudiat abans al centre de les Corts. La institució considera que els pares han fet contra ells “acusacions molt greus” a través de les xarxes i d’entrevistes. Els demanen 70.000 euros , segons ha avançat 3Cat. Fonts de la congregació Fills de la Sagrada Família han explicat a betevé que el detonant de la demanda està relacionat amb el cas de l’Òscar. Fa anys que la família sospita que el noi podria haver patit abusos sexuals per part d’un capellà quan encara era alumne del centre i que l’entitat no va fer prou per impedir-ho. És una acusació, segons aquestes fonts, “sense proves”, que hauria estat “induïda” per l’altre pare demandat, el de la Kira, i amb mitjans de l’ associació Trencats , contra la qual també s’interposa la demanda. “Ens estem defensant”, asseguren des de la congregació. “La demanda no té fonament”, segons l’advocada Per a l’advocada que representa l’associació i les famílies, Noelia Rebón, els pares “no s’estan inventant res”. El capellà Joaquim Calvet va ser condemnat el 2023 per tinença de pornografia infantil després que el denunciés un informàtic de l’escola Manyanet de Sant Andreu, on també va ser docent. “Els pares no són responsables de la reputació de les escoles”, diu Rebón, que creu que la demanda “busca silenciar-los”. Enfrontaments judicials oberts No és l’únic litigi obert entre les dues parts. El centre Pare Manyanet ja es va querellar fa dos anys contra els pares de la Kira per injúries i calúmnies. Tot i que la causa es va arxivar inicialment, l’abril d’aquest any la congregació va presentar un recurs que ha estat admès a tràmit. Al gener se celebrarà el judici sobre la responsabilitat civil de l’escola per la suposada inacció davant de l’assetjament patit per la Kira. També et pot interessar L’audiència prèvia del judici pel cas de la Kira confronta família i escola Abigail Armengol 2 minuts de lectura",
+      "date": "2026-10-14",
+      "headline": "La congregació de les escoles Manyanet demanda els pares de dos alumnes que es van suïcidar",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/escoles-manyanet-pares-alumnes-suicidar-kira/"
+    },
+    {
+      "body": "El Grup Municipal de Vox ha denunciat a través d’un comunicat de premsa “la proliferació” de súpers 24 hores al districte de Sarrià – Sant Gervasi . Segons diu que ha esbrinat a través d’un reguitzell de preguntes al govern de Jaume Collboni, ara mateix hi ha 163 establiments al districte i ha crescut un 20 % en tres anys el nombre de llicències d’aquest tipus concedides per l’Ajuntament. Per això, el partit denuncia “una falta de control del govern municipal i una política que perjudica el comerç de proximitat”. Així ho ha dit el conseller de Vox a Sarrià – Sant Gervasi, Carlos Oliva, en el comunicat. I afegeix: “No podem permetre que perdem la identitat comercial dels barris mentre es mira cap a un altre costat davant de possibles activitats il·legals”. De fet, Oliva avisa que pot haver-hi “ negocis vinculats a màfies ” dins d’alguns supermercats de 24 hores. També et pot interessar Veto als súpers 24 h: Barcelona suspèn llicències perquè no n’obrin més durant un any Ester Magdaleno Roger Torres i Liñán 5 minuts de lectura",
+      "date": "2026-10-14",
+      "headline": "Vox denuncia una asfíxia al comerç tradicional de Sarrià – Sant Gervasi pels súpers 24 hores",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/vox-denuncia-asfixia-comerc-tradicional-sarria-sant-gervasi-culpa-supers-24-hores/"
+    },
+    {
+      "body": "Elisava és la primera escola de disseny de l’estat espanyol. Fundada l’any 1961, ha format més de 31.000 estudiants de més de 100 països i ha marcat el pols del disseny a la ciutat de Barcelona. L’exposició “ Elisava 65 anys: En moviment “ —que es pot veure a l’escola— mostra l’evolució del centre al llarg de més de sis dècades. La mostra, que serveix per inaugurar la Barcelona Design Week 2026 , reuneix fotografies, plans d’estudis, projectes i carnets conservats a l’ Arxiu Històric d’Elisava . El recorregut s’articula a través dels grans processos de transformació que travessen la història del centre, des de l’evolució del seu model pedagògic a la incorporació de la tecnologia, passant per la consolidació de la professió i l’obertura internacional. Alguns dels dissenys que es poden veure en l’exposició. Foto: Elisava També et pot interessar Barcelona Design Week 2026: dates, programa i tot el que n’has de saber Núria Dias Sílvia Carbonell 4 minuts de lectura Clau per situar Barcelona a escala global Es tracta d’una escola pionera convertida en una universitat global que durant tots aquests anys, explica la degana d’Elisava, Marta González Colominas, “ha estat clau per situar Barcelona i Espanya a escala internacional en l’àmbit creatiu “. Alex Trochut, Júlia Esqué i Emili Padrós són alguns dels professionals del moment que han passat per aquesta escola: “Hem format milers d’alumnes que avui en dia lideren agències, estudis, indústries creatives a tot el món i que segueixen aportant valor”, apunta la degana. Alumnes de les primeres promocions d’Elisava es busquen en les fotografies de l’exposició Escola (i alumnes) pioneres Alumnes de les primeres promocions d’Elisava no s’han volgut perdre la inauguració d’aquesta exposició commemorativa. Marta Dalmau, de 84 anys i interiorista durant 50, va ser alumna del primer curs de la història d’Elisava, l’any 1961, un moment en què el disseny era una professió emergent, però moltes dones van voler començar a estudiar una especialitat fins al moment desconeguda. “ Entrar en aquesta escola em va canviar la vida , vaig descobrir un món desconegut”, explica Marta Dalmau a betevé. “Tot una sèrie de professors que van ser molt importants per a nosaltres: ens van canviar la manera de pensar, l’escola va ser una innovació extraordinària “, diu emocionada. També et pot interessar La Barcelona Design Week 2026 reivindica la prova, l’error i l’experimentació Clara Vera Colina 3 minuts de lectura Exposicions, xerrades i més Amb motiu dels 65 anys, Elisava acollirà una programació oberta a tota la comunitat que inclourà exposicions, xerrades, una performance i tallers impartits per professionals i experts del sector. A través d’aquestes activitats, els assistents podran descobrir noves perspectives, metodologies i projectes que mostren com el disseny actua com una eina d’innovació, pensament crític i transformació cultural. Inauguració de la Barcelona Design Week La inauguració d’aquesta exposició ha donat el tret de sortida a la Barcelona Design Week 2026 , que ha començat aquest dimecres i s’allargarà fins al 25 d’octubre. Durant 12 dies hi ha previstes més de 150 activitats en 80 espais de Barcelona i rodalia, com ara les portes obertes d’Elisava . També et pot interessar Exposicions a Barcelona: la teva agenda de museus Neus Valls Núria Dias Sílvia Carbonell 9 minuts de lectura",
+      "date": "2026-10-14",
+      "headline": "65 anys dissenyant Barcelona des d’Elisava",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/cultura/exposicio-65-anys-elisava/"
+    },
+    {
+      "body": "La previsió del temps per a aquest dijous, 15 d’octubre, manté la calma i l’estabilitat amb la presència de força intervals de núvols baixos , sobretot concentrats a primera hora del dia i al tard. Més sol al migdia en una jornada menys càlida. La mirada és al cap de setmana: possible episodi de pluja abundant a moltes comarques acompanyat d’un temporal marítim de llevant . Previsió horària per a Barcelona : 6 h: visibilitat puntualment reduïda 9 h: suavitat entre 18 i 19 ºC 12 h: sol mig esmorteït 15 h: menys escalfor i màximes de 22 i 23 ºC 18 h: cel variable 21 h: més núvols baixos També et pot interessar Floodup: fotografies i incidències dels darrers aiguats per millorar el coneixement i la resiliència Marcos Amores Sánchez 2 minuts de lectura Pocs canvis, però possible episodi de pluja intensa a la vista Es manté l’estabilitat, però alhora el flux de vents marítims . Això farà que continuïn sent probables els intervals de núvols baixos, així com les boirines matinals . Més sol durant les hores centrals del dia. Mínimes amb pocs canvis i encara més suaus de les habituals per a mitjans d’octubre. Màximes amb tendència a baixar un parell de graus. En aquest sentit serà difícil arribar als 25 ºC . Una situació que es repetirà de cara a divendres, però que podria canviar de manera radical a l’inici del cap de setmana , 17 i 18 d’octubre. L’arribada d’un embossament d’aire fred en altura amb la combinació de vents de llevant al litoral amb un mar Mediterrani sobreescalfat encara amb 24 i 25 ºC podria portar-nos un episodi de pluja localment abundant i general . També notarem un estat de la mar cada vegada més enrabiat i mogut. També et pot interessar Adam, Kevin, Lola i Vera: els noms de les borrasques i danes 2026-2027 Ariadna Corominas del Hoyo 2 minuts de lectura Inici d’un descens progressiu de la temperatura La temperatura iniciarà un clar descens a partir del migdia i tarda de dissabte, 17 d’octubre. Fins aleshores, més suavitat de l’habitual i poca sensació de tardor . Serà llavors, entre diumenge i l’inici de la setmana que ve, que l’arribada d’una massa d’aire més freda farà que haguem de recuperar la màniga llarga i alguna jaqueta una mica més gruixuda . nou canal de WhatsApp Vols rebre cada dia la previsió del temps per WhatsApp? Segueix el canal de betevé el temps I no t’oblidis d’activar la campaneta!",
+      "date": "2026-10-14",
+      "headline": "La calor atípica es desinflarà aquest dijous, 15 d’octubre: molta humitat i sol mig apagat",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/medi-ambient/temps-barcelona-dijous-15-octubre-menys-calor-humitat-sol-apagat/"
+    },
+    {
+      "body": "(ACN) Seat ha incrementat les vendes un 4,3 % fins al setembre, arribant a les 52.660 unitats, mentre que Cupra ha aconseguit 23.406 matriculacions en el mateix període, un increment del 21,4 % en comparació amb l’any passat. Així ho constata Seat aquest dimecres en un comunicat en què remarca que les dues marques tanquen els nou primers mesos de l’any amb un increment de vendes del 9 % , amb 76.066 vehicles matriculats. La quota conjunta de totes dues marques en el mercat espanyol és del 8,3 %. Per separat, Seat és la quarta marca més venuda, amb el 4,3 % del mercat. “Els resultats demostren la fortalesa d’una marca plenament vigent, amb models de referència”, ha assegurat el director general de Seat i Cupra a Espanya, Mikel Palomera. També et pot interessar Seat admet que podria desaparèixer: “És un dels escenaris factibles” Redacció 1 minut de lectura El Seat Ibiza continua liderant les vendes Pel que fa als models, el Seat Ibiza es manté líder amb 22.020 unitats matriculades i és el segon més venut a Espanya en l’acumulat de l’any. L’ Arona ha entregat 16.406 unitats, amb la qual cosa és sisè en el rànquing, mentre que el León , amb les seves dues versions, arriba a les 10.779. D’altra banda, Cupra continua pel camí de batre rècords amb un 21,4 % més de matriculacions que ara fa un any. Això fa preveure que pugui superar el ritme de l’any passat, quan va aconseguir el seu màxim històric amb un total anual de 26.589 matriculacions . El Cupra Formentor és el model més venut de la marca, amb 8.913 unitats i un increment del 26 %, seguit del Cupra León i el Cupra Terramar. D’altra banda, el Cupra Raval és el llançament amb més èxit de la història de la marca, amb 51.000 comandes mundials, més del doble de la previsió inicial. A Espanya, ha fet 1.192 matriculacions. També et pot interessar El Cupra Raval s’exhibeix amb un mapa del barri a la carrosseria Jordi Escofet 1 minut de lectura",
+      "date": "2026-10-14",
+      "headline": "Seat augmenta les vendes un 4,3 % fins al setembre mentre que Cupra es dispara un 21,4 %",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/seat-augmenta-vendes-cupra-dispara-setembre-2026/"
+    },
+    {
+      "headline": "La xifra increïble que vol superar el Barça després de guanyar el Galatasaray Carles Alcoyent Corominas 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/esports/increible-xifra-busca-barca-galatasaray/"
+    },
+    {
+      "headline": "Barcelona pugui apujar al màxim l’impost sobre els béns immobles",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/consell-ministres-aprova-de-nou-decrets-habitatge/"
+    },
+    {
+      "headline": "L’Ajuntament vol eliminar tots els pisos turístics de Barcelona el novembre del 2028 Josep Bassas Sergio Segura Sílvia Gutiérrez 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/barcelona-eliminara-tots-pisos-turistics-2028/"
+    },
+    {
+      "headline": "Pedro Sánchez troba una via alternativa per aprovar els decrets d’habitatge tombats pel Congrés Marina Segura i Vidal 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/sanchez-troba-via-alternativa-aprovar-decrets-habitatge-tombats-congres-diputats/"
+    },
+    {
+      "headline": "On eres el 17 d’octubre del 1986? betevé estrena ‘À la ville de Barcelona. 40 anys’ Neus Reig 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/punt-de-fuga/estrena-a-la-ville-de-barcelona-40-anys/"
+    },
+    {
+      "headline": "El projecte Valors olímpics arriba a l’Escola Betània Patmos, a Barcelona Redacció 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/esports/projecte-valors-olimpics-arriba-escola-betania-patmos-barcelona/"
+    },
+    {
+      "headline": "L’audiència prèvia del judici pel cas de la Kira confronta família i escola Abigail Armengol 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/audiencia-previa-judici-kira-alumna-pare-manyanet/"
+    },
+    {
+      "headline": "Veto als súpers 24 h: Barcelona suspèn llicències perquè no n’obrin més durant un any Ester Magdaleno Roger Torres i Liñán 5 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/veto-supers-24-hores-barcelona-suspen-llicencies-no-obrin-mes-1-any/"
+    },
+    {
+      "headline": "Barcelona Design Week 2026: dates, programa i tot el que n’has de saber Núria Dias Sílvia Carbonell 4 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/agenda/barcelona-design-week-programa/"
+    },
+    {
+      "headline": "La Barcelona Design Week 2026 reivindica la prova, l’error i l’experimentació Clara Vera Colina 3 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/cultura/barcelona-design-week-2026-test/"
+    },
+    {
+      "headline": "Exposicions a Barcelona: la teva agenda de museus Neus Valls Núria Dias Sílvia Carbonell 9 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/agenda/exposicions-museus-art-barcelona/"
+    },
+    {
+      "headline": "Floodup: fotografies i incidències dels darrers aiguats per millorar el coneixement i la resiliència Marcos Amores Sánchez 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/medi-ambient/floodup-fotografies-incidencies-aiguats-setembre-octubre-2026/"
+    },
+    {
+      "headline": "Adam, Kevin, Lola i Vera: els noms de les borrasques i danes 2026-2027 Ariadna Corominas del Hoyo 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/medi-ambient/borrasques-danes-noms-2026-2027/"
+    },
+    {
+      "headline": "nou canal de WhatsApp Vols rebre cada dia la previsió del temps per WhatsApp? Segueix el canal de betevé el temps I no t’oblidis d’activar la campaneta!",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://www.whatsapp.com/channel/0029VaxmdYh9Gv7YlS5bWI47"
+    },
+    {
+      "headline": "Seat admet que podria desaparèixer: “És un dels escenaris factibles” Redacció 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/seat-desaparicio-escenari-factible/"
+    },
+    {
+      "headline": "El Cupra Raval s’exhibeix amb un mapa del barri a la carrosseria Jordi Escofet 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/cupra-raval-versio-mapa-barri/"
+    },
+    {
+      "headline": "Talls nocturns a la ronda Litoral durant dos mesos per unes obres en els fonaments",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/talls-nocturns-a-la-ronda-litoral-durant-dos-mesos-per-unes-obres-en-els-fonaments/noticia/3433915/"
+    },
+    {
+      "headline": "Mor un home en un incendi en un habitatge al districte de Sants-Montjuïc de Barcelona",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/mor-un-home-en-un-incendi-en-un-habitatge-al-districte-de-sants-montjuic-de-barcelona/noticia/3433916/"
+    },
+    {
+      "headline": "Veïns dels barris de Collserola busquen respostes pels aiguats: \"Ho he hagut de llençar gairebé tot\"",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/barris-de-muntanya-de-collserola-busquen-respostes-als-aiguats-ho-he-hagut-de-llencar-gairebe-tot/noticia/3433751/"
+    },
+    {
+      "headline": "125 anys del Tibidabo: els orígens del parc d'atraccions impulsat pel doctor Andreu",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/125-anys-del-tibidabo-els-origens-del-parc-datraccions-impulsat-pel-doctor-andreu/noticia/3431893/"
+    },
+    {
+      "headline": "Enxampen in fraganti dos lladres de coure quan intentaven vendre'l a una deixalleria a la Sagrera",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/enxampen-in-fraganti-dos-lladres-de-coure-quan-intentaven-vendrel-a-una-deixalleria-a-la-sagrera/noticia/3433567/"
+    },
+    {
+      "headline": "El sobreesforç de les llars de Barcelona pel lloguer: les diferències per districtes, en gràfics",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/el-sobreesforc-de-les-llars-de-barcelona-pel-lloguer-les-diferencies-per-districtes-en-grafics/noticia/3432992/"
+    },
+    {
+      "headline": "Homenatge a la Maricarmen i l'Olga i crida a la vaga general en la manifestació per l'habitatge",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/minut-de-silenci-en-record-de-la-maricarmen-i-lolga-i-pel-dret-a-un-habitatge-digne-i-assequible/noticia/3433358/"
+    },
+    {
+      "headline": "Mor una dona atropellada per un camió de les escombraries a Barcelona",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/mor-una-dona-atropellada-per-un-camio-de-les-escombraries-a-barcelona/noticia/3431956/"
+    },
+    {
+      "headline": "Suspenen el desnonament d'una veïna de Sant Andreu arran dels decrets de l'habitatge",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/suspenen-el-desnonament-duna-veina-de-sant-andreu-arran-dels-decrets-de-lhabitatge/noticia/3431644/"
+    },
+    {
+      "headline": "El Sindicat de Llogateres se suma a l'acampada per l'habitatge a la plaça Catalunya de Barcelona",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/el-sindicat-de-llogateres-se-suma-a-lacampada-per-lhabitatge-a-la-placa-catalunya-de-barcelona/noticia/3431565/"
+    },
+    {
+      "headline": "La història d'un carrer de Barcelona dedicat a una persona que no va existir: Guillem de Llúria",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/la-historia-dun-carrer-de-barcelona-dedicat-a-una-persona-que-no-va-existir-guillem-de-lluria/noticia/3427597/"
+    },
+    {
+      "headline": "Curiositats dels noms dels carrers de Barcelona: des de secrets veïnals fins a alguna pífia històrica",
+      "region": "barcelona",
+      "source": "3Cat Barcelona",
+      "url": "https://www.3cat.cat/3catinfo/curiositats-dels-noms-dels-carrers-de-barcelona-des-de-secrets-veinals-fins-a-alguna-pifia-historica/noticia/3428895/"
+    },
+    {
+      "headline": "Les incidències ferroviàries posen a prova el model de liberalització de l’alta velocitat",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://elmon.cat/moneconomia/macroeconomia/infraestructures/incidencies-ferroviaries-prova-model-competencia-alta-velocitat-134577/"
+    },
+    {
+      "headline": "688 barcelonins morts en un any esperant la dependència",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/societat/688-barcelonins-morts-en-un-any-esperant-la-dependencia-746649/"
+    },
+    {
+      "headline": "Junts denuncia Collboni a la Junta Electoral per presentar un sistema d’enllumenat que funciona des de l’estiu",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/societat/ultima-hora-tota-actualitat-ajuntament-ciutat-barris-724851/"
+    },
+    {
+      "headline": "L’Audiència reobre el cas de catalanofòbia a la Clínica Diagonal",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://elmon.cat/societat/llengua/laudiencia-reobre-el-cas-de-catalanofobia-a-la-clinica-diagonal-1195591/"
+    },
+    {
+      "headline": "De Movistar+ a Ràdio Formentera, l’impacte transversal dels Premis Vinari",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://vadevi.elmon.cat/actualitat/de-movistar-a-radio-formentera-limpacte-transversal-dels-premis-vinari-157261/"
+    },
+    {
+      "headline": "Junts exigeix la neteja immediata de les escultures vandalitzades de la plaça de Catalunya",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/societat/junts-exigeix-la-neteja-immediata-de-les-escultures-vandalitzades-de-la-placa-de-catalunya-746687/"
+    },
+    {
+      "headline": "CaixaBank reconeix Estephania Bonnett, de Playlab Films, amb el ‘Premi A Professional Autònoma’ a Barcelona",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://elmon.cat/moneconomia/empreses/caixabank-reconeix-estephania-bonnett-de-playlab-films-amb-el-premi-professional-autonoma-a-barcelona-134440/"
+    },
+    {
+      "headline": "Gastronomia local i de l’Extrem Orient a les Glòries, en la 15a edició de Mercat de Mercats",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/actualitat/gastronomia-local-i-de-lextrem-orient-a-les-glories-en-la-15a-edicio-de-mercat-de-mercats-744356/"
+    },
+    {
+      "headline": "Tanca Magatzems del Pilar, una botiga icònica del barri Gòtic",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/societat/tanca-magatzems-pilar-botiga-inconica-barri-gotic-746313/"
+    },
+    {
+      "headline": "Lluir un ros radiant: el teu xampú de camamilla casolà, fàcil i amb només 2 ingredients",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/viure-be/bellesa/lluir-un-ros-radiant-el-teu-xampu-de-camamilla-casola-facil-i-amb-nomes-2-ingredients-3784/"
+    },
+    {
+      "headline": "Inflamació silenciosa: la solució és a la teva dieta. «La fibra afavoreix la sacietat, regula la glucosa i nodreix la teva microbiota»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/viure-be/nutricio/inflamacio-silenciosa-la-solucio-es-a-la-teva-dieta-la-fibra-afavoreix-la-sacietat-regula-la-glucosa-i-nodreix-la-teva-microbiota-3779/"
+    },
+    {
+      "headline": "Olga Albaladejo, psicòloga: «Preparar la roba la nit anterior elimina una petita elecció del matí»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/viure-be/psicologia/olga-albaladejo-psicologa-preparar-la-roba-la-nit-anterior-elimina-una-petita-eleccio-del-mati-3789/"
+    },
+    {
+      "headline": "Rocío, entrenadora de pilates: «Els 34 exercicis clàssics de Pilates Mat tenen una lògica que prepara un moviment per al següent»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/viure-be/benestar/rocio-entrenadora-de-pilates-els-34-exercicis-classics-de-pilates-mat-tenen-una-logica-que-prepara-un-moviment-per-al-seguent-3774/"
+    },
+    {
+      "headline": "Descobert el vincle: dormir 80 minuts menys durant 6 setmanes ens fa engreixar",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/curiositat/ciencia/descobert-el-vincle-dormir-80-minuts-menys-durant-6-setmanes-ens-fa-engreixar-4321/"
+    },
+    {
+      "headline": "El mar revela un anell amb el gravat inèdit del Far d’Alexandria, una Meravella Antiga",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/curiositat/arqueologia/el-mar-revela-un-anell-amb-el-gravat-inedit-del-far-dalexandria-una-meravella-antiga-4306/"
+    },
+    {
+      "headline": "Sòcrates, filòsof: «Opinar amb encert sense entendre és anar com un cec pel camí»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/curiositat/pensament/socrates-filosof-opinar-amb-encert-sense-entendre-es-anar-com-un-cec-pel-cami-4301/"
+    },
+    {
+      "headline": "Sete Cidades, el poble de Portugal en un volcà: «El seu nom recorda unes ciutats fundades en una illa misteriosa»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/curiositat/ciencia/sete-cidades-el-poble-de-portugal-en-un-volca-el-seu-nom-recorda-unes-ciutats-fundades-en-una-illa-misteriosa-4315/"
+    },
+    {
+      "headline": "No serà el 2026: l’eclipsi solar més llarg del segle deixarà 6 minuts de foscor absoluta",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/escapat/experiencies/no-sera-el-2026-leclipsi-solar-mes-llarg-del-segle-deixara-6-minuts-de-foscor-absoluta-1221/"
+    },
+    {
+      "headline": "El pintoresc poble medieval de Catalunya que va veure créixer Aitana Bonmatí: «Tot va començar al camp de terra»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/escapat/destins/el-pintoresc-poble-medieval-de-catalunya-que-va-veure-creixer-aitana-bonmati-tot-va-comencar-al-camp-de-terra-1225/"
+    },
+    {
+      "headline": "Confirmat: aquests són els objectes inesperats que la normativa et permet portar a l’equipatge de mà",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/escapat/consells/confirmat-aquests-son-els-objectes-inesperats-que-la-normativa-et-permet-portar-a-lequipatge-de-ma-1223/"
+    },
+    {
+      "headline": "Els 18 jocs d’aigua ocults de Barcelona: el mapa definitiu per banyar-se al mig dels edificis",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/escapat/experiencies/els-18-jocs-daigua-ocults-de-barcelona-el-mapa-definitiu-per-banyar-se-al-mig-dels-edificis-1265/"
+    },
+    {
+      "headline": "Jordi Cruz, xef: «El truc perquè els plàtans no es posin negres és no guardar-los a la nevera; fes servir paper film»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/consumidor/alimentacio/jordi-cruz-xef-el-truc-perque-els-platans-no-es-posin-negres-es-no-guardar-los-a-la-nevera-fes-servir-paper-film-4530/"
+    },
+    {
+      "headline": "Mercedes, hostalera: «Fa una dècada el menú costava 10 euros, ara són 15 i 20 el cap de setmana. Cal fer molts números»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/consumidor/consum-i-estalvi/mercedes-hostalera-fa-una-decada-el-menu-costava-10-euros-ara-son-15-i-20-el-cap-de-setmana-cal-fer-molts-numeros-4535/"
+    },
+    {
+      "headline": "Dani García, el xef: «Les teves llenties seran més lleugeres si tritures el xoriç amb brou i pastanaga, sense sofregit»",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/consumidor/alimentacio/dani-garcia-el-xef-les-teves-llenties-seran-mes-lleugeres-si-tritures-el-xoric-amb-brou-i-pastanaga-sense-sofregit-4525/"
+    },
+    {
+      "headline": "Demà s’esperen cues quilomètriques a Action pels llençols d’hotel més barats: màxima suavitat",
+      "region": "barcelona",
+      "source": "Tot Barcelona",
+      "url": "https://www.totbarcelona.cat/consumidor/ofertes/dema-sesperen-cues-quilometriques-a-action-pels-llencols-dhotel-mes-barats-maxima-suavitat-4520/"
+    },
+    {
+      "headline": "Directo | Renfe programa 65 trenes en la alta velocidad entre Madrid y Barcelona",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261015/trafico-barcelona-hoy-rodalies-carreteras-ave-directo-133938712"
+    },
+    {
+      "headline": "El relevo del activista Marcel Vivet en la lista de Guanyem certifica el 'adiós' de Dolors Sabater en Badalona",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/relevo-activista-marcel-vivet-lista-135340435"
+    },
+    {
+      "headline": "Barcelona limpiará \"lo más pronto posible\" las esculturas vandalizadas de la plaza Catalunya",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/barcelona-limpiara-pronto-posible-esculturas-vandalizadas-plaza-catalunya-135337698"
+    },
+    {
+      "headline": "Desconcierto entre los comercios de Barcelona adheridos a los ‘Bonus Consum’: \"No tengo ni idea de cómo funcionan\"",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/desconcierto-comercios-barcelona-adheridos-bonus-consum-idea-funcionan-135320963"
+    },
+    {
+      "headline": "MAPA | Dónde utilizar los ‘Bonus Consum’ 2026 en Barcelona: las tiendas donde ahorrarse 10 euros en compras",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/bonus-consum-2026-barcelona-tiendas-donde-usarlos-135300992"
+    },
+    {
+      "headline": "Área Metropolitana",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/area-metropolitana/"
+    },
+    {
+      "headline": "Peinan el Besòs desde Montcada en el décimo día de búsqueda del desaparecido en Granollers",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/peinan-besos-montcada-decimo-dia-granollers-desaparecido-135330925"
+    },
+    {
+      "headline": "Ivan Nogales asume la jefatura de la Policía Local de Santa Coloma tras liderar su unidad especial 'antiocupaciones'",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/ivan-nogales-asume-jefatura-policia-santa-coloma-tras-liderar-su-unidad-especial-antiocupaciones-135319834"
+    },
+    {
+      "headline": "Granollers crea un fondo de cuatro millones de euros para reparar los daños del temporal y reclama ayudas al Estado",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/granollers-fondo-4-millones-reparar-danos-lluvias-torrenciales-ayuntamiento-generalitat-recuperacion-negocios-comercios-135322367"
+    },
+    {
+      "headline": "Cae en Sabadell una banda criminal que facilitaba la entrada irregular de migrantes dominicanos en Europa",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/sucesos/20261014/cae-sabadell-banda-criminal-facilitaba-entrada-dominicanos-irregular-pasaporte-colombia-135312658"
+    },
+    {
+      "headline": "Modernismo gratis: la desconocida joya oculta en un parque público de Terrassa",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/que-hacer/planes/20261014/modernismo-gratis-terrassa-desconocida-joya-oculta-parque-publico-106721019"
+    },
+    {
+      "headline": "Qué hacer esta semana en Barcelona: los mejores planes",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/que-hacer/planes/20261013/que-hacer-barcelona-mejores-planes-semana-agenda-102304377"
+    },
+    {
+      "headline": "La versión de culto de 'Drácula' que convirtió Catalunya en Transilvania",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/que-hacer/planes/20261013/version-culto-dracula-catalunya-jess-franco-localizaciones-135273270"
+    },
+    {
+      "headline": "El último concierto de Oques Grasses en Barcelona",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/fotos/en-imagenes/ultimo-concierto-oques-grasses-barcelona-135216425"
+    },
+    {
+      "headline": "Ambiente del Pre concierto de Oques Grasses en la esplanada del estadio Olímpico de Montjuic",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/fotos/ocio-y-cultura/ambiente-pre-concierto-oques-grasses-135200191"
+    },
+    {
+      "headline": "Manifestación en la plaza Universitat, bajo el lema: Por Olga y Maricarmen: ¡El negocio de la vivienda mata!",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/fotos/sociedad/manifestacion-plaza-universitat-lema-olga-135191025"
+    },
+    {
+      "headline": "Prieto confía en que Granollers y los municipios de su entorno sean declarados zona catastrófica antes del 29-N",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/carlos-prieto-confia-granollers-municipios-entorno-zona-catastrofica-135342551"
+    },
+    {
+      "headline": "El Hospital de Bellvitge coordina en España un ensayo de autoinyección para mejorar la miastenia",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/hospital-bellvitge-coordina-espana-ensayo-autoinyeccion-mejorar-miastenia-135339080"
+    },
+    {
+      "headline": "Juno Kitchen, el restaurante que reivindica el talento gastronómico femenino",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/gastronomia/restaurantes/20261014/juno-kitchen-restaurante-barcelona-mujeres-135333985"
+    },
+    {
+      "headline": "Badalona se convierte en la capital del cortometraje con la proyección de 230 cortos en el FILMETS",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/badalona-convierte-capital-cortometraje-proyeccion-135331661"
+    },
+    {
+      "headline": "Barcelona celebra una gran feria gastronómica con degustaciones y cocina en directo este fin de semana",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/barcelona-mercat-de-mercats-2026-fechas-actividades-dv-loc-135220035"
+    },
+    {
+      "headline": "Barcelona abre gratis edificios singulares que normalmente están cerrados al público",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/barcelona-edificios-singulares-gratis-open-house-2026-135328332"
+    },
+    {
+      "headline": "¿Qué tiene correr 10 kilómetros por Barcelona para querer repetir cada año?",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/correr-10-kilometros-barcelona-repetir-135326950"
+    },
+    {
+      "headline": "El AMB renueva la flota de la línea MB3 de Molins de Rei (Barcelona) con 2 nuevos microbuses",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/amb-renueva-flota-linea-mb3-molins-de-rei-135328502"
+    },
+    {
+      "headline": "El Salón Náutico de Barcelona zarpa en el Port Vell con el reto de escalar posiciones en el ránking internacional",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/economia/20261014/salon-nautico-barcelona-inauguracion-63-edicion-reto-escalar-ranking-europeo-port-vell-135322325"
+    },
+    {
+      "headline": "\"Estamos preparando el cava\": Empiezan las esperadas obras para retirar 355 toneladas de amianto de Badia del Vallès tras años de lucha vecinal",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/preparando-cava-empiezan-esperadas-obras-amianto-tuberias-viviendas-127-europa-libre-135323351"
+    },
+    {
+      "headline": "Secun de la Rosa (56 años): \"Yo soy de una Barcelona que, si bajaba por las Ramblas, en una esquina del Palau Reial estaba Serrat cantando y en la otra esquina estaba Antonio Gades bailando flamenco\"",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/barcelona/20261014/barcelona-secun-de-la-rosa-actor-peliculas-entrevista-dv-loc-135285197"
+    },
+    {
+      "headline": "Aina Clotet (44 años) señala uno de los problemas que más le entristecen de Barcelona: \"El olor a orina es horroroso\"",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/gente/20261014/barcelona-aina-clotet-actriz-dv-loc-134803879"
+    },
+    {
+      "headline": "El conflicte de la Policia Local de Palamós s'enquista després de quinze dies sense fer hores extres",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/13/conflicte-policia-local-palamos-senquista-135171961.html"
+    },
+    {
+      "headline": "Sant Feliu cedeix quatre finques a la Generalitat per construir prop de 90 habitatges de lloguer assequible",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/13/sant-feliu-cedeix-quatre-finques-135284670.html"
+    },
+    {
+      "headline": "Com salvar el litoral dels efectes del canvi climàtic? Calonge obre el debat",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/13/com-salvar-litoral-dels-efectes-135268558.html"
+    },
+    {
+      "headline": "L'Associó Veïnal Els Griells reclama al Síndic de Greuges que s'aturi la venda d'un local públic",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/13/lassocio-veinal-els-griells-reclama-135166164.html"
+    },
+    {
+      "headline": "Abba i Queen tot sopant a La Gavina",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/12/abba-queen-tot-sopant-gavina-135261595.html"
+    },
+    {
+      "headline": "Projecten sis escenaris artificials històrics submarins al fons marí del Montgrí, des de Montgó a cala Calella",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/12/projecten-sis-escenaris-artificials-historics-135239330.html"
+    },
+    {
+      "headline": "La Festa de la Cervesa de Platja d’Aro tanca cinc dies de celebració amb milers de visitants",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/11/festa-cervesa-platja-d-aro-135229658.html"
+    },
+    {
+      "headline": "Platja d'Aro vol posar xifres a la demanda d’habitatge i obre un registre de demandants",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/10/platja-daro-vol-posar-xifres-135201574.html"
+    },
+    {
+      "headline": "Enxampen l'alcalde de Santa Cristina d'Aro conduint begut en moto",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/10/enxampen-begut-moto-alcalde-santa-cristina-daro-135177822.html"
+    },
+    {
+      "headline": "Platja d'Aro refarà dos dels ponts que passen per sobre del Ridaura",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/09/primer-pont-ridaura-refara-platja-daro-2027-135183544.html"
+    },
+    {
+      "headline": "El més llegit al Baix Empordà",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/el-mes-vist/"
+    },
+    {
+      "headline": "Esperen 57 anys per recuperar l'escola i han de tancar-ne l'edifici només vuit dies després d'estrenar-lo",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/comarques/2026/10/14/les-llosses-recupera-lescola-cap-135333661.html"
+    },
+    {
+      "headline": "Aquestes són les set discoteques gironines nominades per ser entre les 100 millors del món el 2026",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/comarques/2026/10/14/aquestes-son-les-set-discoteques-135341786.html"
+    },
+    {
+      "headline": "PSC i Aliança Catalana empaten en intenció directa de vot a Girona, amb ERC molt a prop",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/comarques/2026/10/14/psc-alianca-catalana-empaten-intencio-135339511.html"
+    },
+    {
+      "headline": "Mor un home de 83 anys en caure des del seu pis a Figueres",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/alt-emporda/2026/10/14/mor-home-83-anys-caure-135336003.html"
+    },
+    {
+      "headline": "Creen una plataforma de treballadors de residències de gent gran de les comarques gironines per denunciar \"precarietat\"",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/comarques/2026/10/14/creen-plataforma-treballadors-residencies-gent-135333868.html"
+    },
+    {
+      "headline": "L'Agència Catalana de l'Aigua neteja la llera del riu Ridaura per reduir el risc d'inundacions futures",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/10/14/lagencia-catalana-laigua-neteja-llera-135314407.html"
+    },
+    {
+      "headline": "1 Una veïna de la Bisbal denuncia que fa 20 anys que paga per un pis on l'Ajuntament no li permet ni viure ni reformar",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/02/21/veina-bisbal-denuncia-fa-20-127098887.html"
+    },
+    {
+      "headline": "2 El casament del fill del president del Grup Planeta reuneix Salvador Illa, Alberto Núñez Feijóo i Manuel Valls a Torroella",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/societat/2026/09/19/casament-fill-grup-planeta-reuneix-134465762.html"
+    },
+    {
+      "headline": "3 Un veí de Mont-ras alerta d’un \"amagatall\" en una olivera i els Mossos hi troben cocaïna i haixix",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/02/20/vei-alerta-amagatall-olivera-mossos-troba-droga-montras-127072895.html"
+    },
+    {
+      "headline": "4 Una dona de 80 anys, a l'UCI del Trueta després de ser rescatada en estat crític de la Platja Gran de Palamós",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/comarques/2026/06/27/dona-80-anys-luci-trueta-131875349.html"
+    },
+    {
+      "headline": "5 «Mai no ens rendirem»: el llegat de Gabi Villarrubia torna a la Fosca de Palamós",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/baix-emporda/2026/08/28/mai-ens-rendirem-llegat-gabi-133743255.html"
+    },
+    {
+      "headline": "1 Mapa | Aquestes són les carreteres afectades per les tractorades previstes aquest dimecres a Catalunya",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/economia/2026/10/14/mapa-carreteras-afectadas-tractoradas-14octubre-barcelona-cataluna-135211039.html"
+    },
+    {
+      "headline": "3 L’arribada d’una dana amenaça de provocar un canvi brusc de temps a partir del cap de setmana i noves pluges torrencials al Mediterrani",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/societat/2026/10/14/arribada-dana-cap-setmana-canvi-temps-pluges-mediterrani-135315146.html"
+    },
+    {
+      "headline": "4 El malson d’una família de l'Escala per la «invasió» dels arbres de la casa del costat: «Ja no sabem per on tirar, estem desesperats»",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/alt-emporda/2026/10/14/malson-d-familia-lescala-per-135312446.html"
+    },
+    {
+      "headline": "5 Mor l'exjugador del Girona i l'Atlètic de Madrid, Josep Antoni Gasca",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/girona-fc/2026/10/14/mor-lexjugador-girona-latletic-madrid-135334531.html"
+    },
+    {
+      "headline": "6 Troben al carrer un nen de dos anys que es va escapar d'una escola infantil d'Alacant sense que les cuidadores se n'adonessin",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/espanya-internacional/2026/10/14/troben-carrer-nen-dos-anys-escapar-escola-infantil-alacant-135320886.html"
+    },
+    {
+      "headline": "8 Neix una cursa solidària de 90 quilòmetres que travessarà el Gironès per lluitar contra el càncer",
+      "region": "extras",
+      "source": "Diari de Girona",
+      "url": "https://www.diaridegirona.cat/girona/2026/10/14/neix-cursa-solidaria-90-quilometres-135332852.html"
+    },
+    {
+      "headline": "Kiku Prats, exfutbolista del Figueres i el Roses: «Deien que jugava a futbol perquè era molt bo; no pas perquè m’agradés»",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/esports/2026/10/11/kiku-prats-exfutbolista-figueres-roses-135222016.html"
+    },
+    {
+      "headline": "Ensurt en un partit de Tercera Catalana a Peralada: dos jugadors evacuats en ambulància fins a l'hospital de Figueres",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/esports/2026/09/28/ensurt-partit-tercera-catalana-jugadors-evacuats-ambulancia-hospital-figueres-134762521.html"
+    },
+    {
+      "headline": "Corallers, entre el risc i l’aventura, un ofici mil·lenari en extinció explicat en primera persona",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/comarca/2026/08/22/corallers-entre-el-risc-aventura-ofici-millenari-extincio-explicat-primera-persona-133321928.html"
+    },
+    {
+      "headline": "Clotilde Martínez, excorallera: \"A vegades havia sortit de l’aigua amb els pits i la zona dels ronyons negres com el carbó\"",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/comarca/2026/08/22/clotilde-martinez-excorallera-a-vegades-havia-sortit-de-laigua-amb-els-pits-zona-dels-ronyons-negres-com-el-carbo-133333414.html"
+    },
+    {
+      "headline": "SOS Costa Brava reclama garantir el compliment de la normativa per protegir les praderies de posidònia al Cap de Creus",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/comarca/2026/08/20/sos-costa-brava-reclama-garantir-133489776.html"
+    },
+    {
+      "headline": "El pop fresc de Rick Astley enlluerna el públic de Cap Roig amb un concert ple d'energia, carisma i grans 'hits'",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/catalunya/2026/07/19/pop-fresc-rick-astley-enlluerna-132595631.html"
+    },
+    {
+      "headline": "Els pisos a la Costa Brava s’encareixen fins a un 69% en cinc anys: aquests són els municipis més cars i més barats",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/economia/2026/07/11/pisos-costa-brava-encariment-132284331.html"
+    },
+    {
+      "headline": "Dos municipis gironins, als extrems del mapa socioeconòmic de Catalunya",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/girona/2026/06/27/municipis-gironins-als-extrems-mapa-131875828.html"
+    },
+    {
+      "headline": "Calella de Palafrugell programa de nou 'El meu avi' a la Cantada d'Havaneres després de la polèmica de l'any passat",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/girona/2026/06/22/calella-palafrugell-programa-nou-meu-131683600.html"
+    },
+    {
+      "headline": "Les Anxoves de l'Escala desembarquen al mercat mexicà en una campanya de Prodeca",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/gastronomia/2026/05/07/les-anxoves-lescala-desembarquen-mercat-129962024.html"
+    },
+    {
+      "headline": "SOS Costa Brava porta als tribunals la urbanització de la Muntanya de Sant Sebastià de Llafranc",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/girona/2026/04/17/sos-costa-brava-porta-als-129230471.html"
+    },
+    {
+      "headline": "Aquest és el restaurant preferit d'Alexia Putellas a la Costa Brava",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/fets-gent/2026/04/16/aquest-restaurant-preferit-dalexia-putellas-129160994.html"
+    },
+    {
+      "headline": "Sílvia Soler: \"Amb el pas del temps, la nostàlgia es va transformant en una cosa gairebé agradable\"",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2026/04/08/silvia-soler-amb-pas-temps-la-nostalgia-es-va-transformant-en-una-cosa-gairebe-agradable-128668067.html"
+    },
+    {
+      "headline": "Francesc Estañol, exporter del Figueres: \"El bar del poble es va omplir de representants de clubs que em venien a fitxar\"",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/esports/2026/03/30/francesc-estanol-exfutbolista-figueres-128578414.html"
+    },
+    {
+      "headline": "Aquests són els municipis de l'Empordà on és més car comprar un pàrquing",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/economia/2026/02/23/comprar-parquing-emporda-municipis-es-mes-car-127061323.html"
+    },
+    {
+      "headline": "A presó una multireincident amb prop de 40 detencions per robar en pobles del Baix Empordà",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/societat/2026/02/10/preso-multireincident-prop-40-robatoris-baix-emporda-126672447.html"
+    },
+    {
+      "headline": "El pitxitxi de l'Escala, Youssef, es converteix en Pepiño a l'Ourense",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/esports/2026/02/05/pitxitxi-lescala-youssef-converteix-pepino-126467071.html"
+    },
+    {
+      "headline": "El grup criminal desarticulat al Baix Empordà va robar 46.200 euros en joies i diners en cinc robatoris a gent gran",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/girona/2026/01/30/grup-criminal-desarticulat-baix-emporda-126277580.html"
+    },
+    {
+      "headline": "El temporal s'endú les platges de l'Escala i deixa passejos plens de sorra a la Costa Brava",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/fotos/2025/12/29/temporal-sendu-les-platges-lescala-125227830.html"
+    },
+    {
+      "headline": "Camil Ysern, músic castelloní redescobert per Carles Coll",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/opinio/2025/11/14/camil-ysern-music-castelloni-redescobert-123733503.html"
+    },
+    {
+      "headline": "David Costa, l'exfutbolista del Figueres que ara corre ultramaratons",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/esports/2025/10/14/david-costa-lexfutbolista-figueres-ara-corre-ultramaratons-122601560.html"
+    },
+    {
+      "headline": "Franz Ferdinand desferma el Cap Roig Festival amb grans èxits com 'Take Me Out' i 'Do You Want To'",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/08/16/concert-musica-palafrugell-cap-roig-festival-franz-ferdinand-120672448.html"
+    },
+    {
+      "headline": "Palafrugell uneix l’Empordà a través de la creació artística",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/08/10/palafrugell-uneix-emporda-traves-creacio-artistica-120347210.html"
+    },
+    {
+      "headline": "El Parlament reprova la \"censura\" d''El meu avi' a la Cantada de Palafrugell",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/07/25/parlament-reprova-censura-meu-avi-120049795.html"
+    },
+    {
+      "headline": "Tres noies agafen per la samarreta i entreguen a la policia un home que els havia fet tocaments durant la festa major de Palafrugell",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/girona/2025/07/22/tres-noies-agafen-per-samarreta-home-tocaments-palafrugell-119944203.html"
+    },
+    {
+      "headline": "'El meu avi' es canta a les havaneres de Calella de Palafrugell després d'una sonora xiulada i mocadorada",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/07/06/cantada-dhavaneres-calella-de-palafrugell-el-meu-avi-ortega-monasterio-119410811.html"
+    },
+    {
+      "headline": "Polèmica per 'El meu avi': l'alcaldessa de Palafrugell nega que s'hagi prohibit als grups d'havaneres sumar-se al públic si la canta",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/07/05/polemica-per-meu-avi-lalcaldessa-119388404.html"
+    },
+    {
+      "headline": "La família Ortega-Monasterio creu que Calella de Palafrugell \"censura\" amb la retirada d''El meu avi' de la cantada",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/06/26/familia-ortega-monasterio-creu-calella-censura-el-meu-avi-cantada-havaneres-119095835.html"
+    },
+    {
+      "headline": "Adeu a 'El meu avi': el documental del Club 2000 de l'Alt Empordà fa repensar la cantada d'havaneres de Calella",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/06/26/adeu-meu-avi-documental-club-119088585.html"
+    },
+    {
+      "headline": "El primer Pla compleix 100 anys: \"Com a targeta de presentació és excepcional; gairebé tota la seva temàtica ja és aquí\"",
+      "region": "extras",
+      "source": "Empordà",
+      "url": "https://www.emporda.info/cultura/2025/06/17/josep-pla-centenari-coses-vistes-118719951.html"
+    },
+    {
+      "headline": "Eloi Planes, l’empresari poeta que es volia comprar un R4 i va acabar liderant una IBEX 35",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/eloi-planes-true-leaders/"
+    },
+    {
+      "headline": "Com transforma el territori l’empresa familiar? En Clau Familiar obre el debat a Osona",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/empresa-familiar-debat-osona/"
+    },
+    {
+      "headline": "Disseny, arts escèniques i solidaritat: plans pel cap de setmana",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/que-fer-aquest-cap-de-setmana-barcelona-16-18-octubre-2026/"
+    },
+    {
+      "headline": "25 anys d'Escena Poblenou: el festival que crema i et fa moure",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/25-anys-escena-poblenou-2026/"
+    },
+    {
+      "headline": "El Saló Nàutic aspira a superar els 20.000 visitants en cinc dies",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/salo-nautic-aspira-superar-20000-visitants-en-cinc-dies/"
+    },
+    {
+      "headline": "Premi Planeta: nou finalistes, identitats ocultes i un milió d'euros en joc",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/claus-premi-planeta-nou-finalistes-milio-euros/"
+    },
+    {
+      "headline": "Barcelona, capital mundial del documental musical, a Moments Estel·lars",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/barcelona-capital-mundial-documental-musical-moments-estellars-in-edit/"
+    },
+    {
+      "headline": "Míriam Iscla, Anna Güell i Raquel Ferri protagonitzen 'Morning Sun'",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/morning-sun-la-villarroel/"
+    },
+    {
+      "headline": "Joel Joan estrena la comèdia 'Bons i dolents' al Condal",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/joel-joan-bons-dolents/"
+    },
+    {
+      "headline": "Julio Manrique dirigeix 'Bouvetøya' al Lliure",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/julio-manrique-dirigeix-bouvetoeya-lliure/"
+    },
+    {
+      "headline": "'Mamma Mia! El Musical' arriba a Barcelona amb els grans èxits d'ABBA",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/mamma-mia-musical-barcelona/"
+    },
+    {
+      "headline": "250 espais i un cap de setmana per reconèixer l’arquitectura que ens envolta",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/250-espais-cap-setmana-reconeixer-arquitectura-48h-open-house/"
+    },
+    {
+      "headline": "Anselm Kiefer, entre plantes, pedres i les ferides de la guerra",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/anselm-kiefer-plantes-pedres-ferides-guerra/"
+    },
+    {
+      "headline": "Petr Kvíčala, entre formes, colors i moviment",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/petr-kvicala-formes-colors-moviment-martorell/"
+    },
+    {
+      "headline": "El disseny, abans de convertir-se en objecte",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/disseny-abans-objecte-barcelona-design-week/"
+    },
+    {
+      "headline": "Culminar l’Everest sense sortir de Barcelona",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/culminar-everest-sense-sortir-barcelona-eclipso/"
+    },
+    {
+      "headline": "Gairebé un segle després, Barcelona recupera Dalí",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/segle-despres-barcelona-recupera-dali/"
+    },
+    {
+      "headline": "Morts vivents, monstres i malsons en un Sitges de terror",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/morts-vivents-monstres-malsons-sitges-terror/"
+    },
+    {
+      "headline": "In-Edit o les històries que no caben en una cançó",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/in-edit-histories-no-caben-canco/"
+    },
+    {
+      "headline": "El Festival Escena Poblenou celebra 25 anys",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/festival-escena-poblenou-2026/"
+    },
+    {
+      "headline": "L'Auditori celebra la jornada familiar 'Toca Festa'",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/auditori-toca-festa-2026/"
+    },
+    {
+      "headline": "Repensar el present des de Barcelona per imaginar el futur",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/repensar-present-barcelona-imaginar-futur-biennal-pensament/"
+    },
+    {
+      "headline": "Quan la poesia es torna rebel",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/quan-poesia-torna-rebel-nudo/"
+    },
+    {
+      "headline": "Els Pets tanquen la seva gira amb un concert al Palau de la Música",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/pets-concert-palau-musica/"
+    },
+    {
+      "headline": "Els llegendaris Deep Purple arriben al Sant Jordi Club",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/deep-purple-sant-jordi-club/"
+    },
+    {
+      "headline": "Oques Grasses s'acomiada dels escenaris",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/oques-grasses-barcelona-2026/"
+    },
+    {
+      "headline": "L'OBC i Jan Lisiecki interpreten la Setena de Beethoven i Chopin",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/setena-beethoven-chopin-auditori/"
+    },
+    {
+      "headline": "Si tornés a emprendre, ho faria com el meu avi",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/si-tornes-emprendre-avi/"
+    },
+    {
+      "headline": "Què necessita avui la joventut empresària?",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/que-necessita-joventut-empresaria-vicenc-del-mar-aijec/"
+    },
+    {
+      "headline": "Els cels de Barcelona",
+      "region": "extras",
+      "source": "The New Barcelona Post",
+      "url": "https://www.thenewbarcelonapost.cat/cels-barcelona-amaya-ledesma/"
+    }
+  ],
+  "date": "2026-10-15"
+}

@@ -1,0 +1,238 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Two container ships have sunk near the Strait of Hormuz after missile or projectile attacks, amid a sharp increase in strikes on commercial shipping. Iranian authorities said one ship hit a naval mine while using an unauthorised route, but the UK Maritime Trade Operations agency said both vessels appeared to have been struck by unidentified projectiles. The attacks have sharply reduced oil shipments through the waterway and added to fuel-price pressure ahead of US midterm elections.",
+          "headline": "Iranian attacks sink container ships in the Strait of Hormuz",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/14/container-ship-sinks-strait-of-hormuz-surge-iranian-attacks-iran-us-midterm-elections"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz"
+            }
+          ]
+        },
+        {
+          "body": "Ukraine says new speed restrictions on SpaceX connectivity disrupted drone missions and air-defence systems during Russian attacks. The limits reportedly cut connections for weapons travelling faster than 100 mph. Elon Musk said Starshield, SpaceX's military service, is owned and controlled by the US government, and that decisions on its use or limits are made by the US military and president. Some service had been restored by Wednesday evening.",
+          "headline": "Ukraine says Starlink restrictions are crippling drone and air-defence operations",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c8wy9veedgygo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261014-what-is-starshield-spacex-s-military-version-of-starlink"
+            }
+          ]
+        },
+        {
+          "body": "Indonesia will test dropping dry ice over South Sumatra as it tries to reduce toxic haze from fires that have burned almost 900,000 hectares this year. The fires have been intensified by El Niño conditions and land clearing, and their smoke has caused respiratory illness and disrupted life across Indonesia, Singapore, Malaysia and beyond. Experts say the dry-ice approach may provide only limited local relief because smoke will continue to be carried in by weather systems.",
+          "headline": "Indonesia tests dry ice to tackle toxic haze from widespread fires",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads"
+            },
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/videos/c63dj4p4k5dlo"
+            }
+          ]
+        },
+        {
+          "body": "Tens of thousands of students protested in Tirana over education costs, corruption and poor prospects after graduation, with some setting fire to a government building and two banks, throwing stones and damaging businesses. Police used water cannon and tear gas, and authorities said 23 officers and six others were injured while 35 people were detained. The unrest is the most violent challenge yet to Prime Minister Edi Rama following months of protests.",
+          "headline": "Protests in Albania turn violent as demonstrators demand the prime minister resign",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation"
+            }
+          ]
+        },
+        {
+          "body": "North Korea says it test-fired two types of submarine-launched strategic cruise missiles off its east coast to test the reliability of its deterrent and improve naval readiness. The launch follows a series of recent North Korean ballistic and hypersonic missile tests, alongside growing tensions with South Korea after a September landmine blast in the demilitarised zone injured three South Korean soldiers.",
+          "headline": "North Korea test-fires submarine-launched cruise missiles",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/asia-pacific/20261014-north-korea-test-fires-submarine-launched-cruise-missiles"
+            }
+          ]
+        },
+        {
+          "body": "Kenya has confirmed a second Ebola case, a 39-year-old relative of the first patient who died after travelling from the Democratic Republic of Congo. The new patient was already in quarantine when he became ill, and health officials say the two cases are linked with no evidence of wider community transmission. Authorities have traced most of the 128 people identified as contacts of the first patient.",
+          "headline": "Kenya confirms a second Ebola case",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cw5yn8rn04ljo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/kenya-reports-second-ebola-case"
+            }
+          ]
+        },
+        {
+          "body": "Brazil's Congress has approved a constitutional amendment reducing the maximum work week from 44 to 40 hours and banning six-day workweeks. The change could affect more than 30 million workers, especially in retail, hospitality and restaurants. President Luiz Inácio Lula da Silva has championed the measure ahead of the presidential runoff, while his rival Flávio Bolsonaro reversed his earlier opposition after polls showed strong public support.",
+          "headline": "Brazil cuts its work week to 40 hours ahead of the presidential runoff",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "US consumer prices rose 3.7% in the year to September, up from 3.4% in August and above forecasts. Petrol prices rose 9.1% during the month and 34.2% over the year, accounting for more than half the monthly increase as Middle East supply disruptions pushed energy costs higher. The report arrives shortly before the midterm elections and the Federal Reserve's next interest-rate decision.",
+          "headline": "US inflation rises more than expected, driven by petrol prices",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cwy8lx3pg4k2o"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears"
+            }
+          ]
+        },
+        {
+          "body": "Republicans are increasingly concerned that Alaska Senator Dan Sullivan could lose his seat to Democrat Mary Peltola, despite President Donald Trump travelling to Wasilla to campaign for him. Peltola leads in most polls, while high diesel prices and Trump's weak approval among independents are complicating the Republican campaign. Some Sullivan supporters say he should distance himself more clearly from the president.",
+          "headline": "Republicans worry about Senator Dan Sullivan's re-election race in Alaska",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/14/alaska-sullivan-trump-maga-01118073"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain's main parties are making pensions a central issue ahead of the 29 November election. Pedro Sánchez's PSOE is considering ways to approve or announce a pension increase before the vote, while warning that a PP and Vox government could bring cuts or privatisation. PP leader Alberto Núñez Feijóo says he supports linking pensions to inflation, despite comments by a party spokesperson that the current system is unsustainable.",
+          "headline": "Spain's election campaign turns to pensions",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/economia/2026-10-15/el-psoe-y-el-pp-encienden-la-batalla-por-el-futuro-de-las-pensiones.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20261015/gobierno-miedo-privatizacion-pensiones-pp-135337971"
+            }
+          ]
+        },
+        {
+          "body": "The US Federal Maritime Commission has proposed charging Spanish-flagged ships $200,000 per voyage and restricting some Spanish exports in response to Spain's restrictions on arms-related trade with Israel. The commission began investigating after Spain denied port access to US maritime-security vessels linked to Israel. Spain says its measures are not discriminatory and plans to submit formal arguments during the 60-day consultation period; the proposed sanctions are not yet final.",
+          "headline": "US proposes tariffs on Spanish ships over Spain's Israel trade embargo",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261014/eeuu-aranceles-buques-restricciones-exportaciones-bloqueo-comercio-israeli/17267101.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Spain's October CIS poll gives PSOE 34% of the vote and puts it 11.8 points ahead of PP, which is estimated at 22.2%; Vox is third on 17.1%. The result is far more favourable to PSOE than most private polls. Sociologists cited by El País question whether the CIS sample overrepresents PSOE supporters, saying the gap between its estimate and other surveys is unusually large.",
+          "headline": "CIS poll puts PSOE 11.8 points ahead of PP",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/elecciones-generales/2026-10-14/el-psoe-aumenta-la-distancia-sobre-el-pp-hasta-los-118-puntos-tras-la-convocatoria-electoral-segun-el-cis.html"
+            },
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-15/por-que-tantos-sociologos-no-se-creen-la-encuesta-del-cis-el-sesgo-en-la-muestra-contamina-las-encuestas.html"
+            }
+          ]
+        },
+        {
+          "body": "Left-wing parties are trying to agree on a single electoral alliance before Friday's coalition-registration deadline. Ada Colau, chosen as the Frente Amplio candidate for prime minister, said she would be willing to discuss the candidate, lists and even the coalition's name to secure an agreement with Podemos. The parties broadly agree on policy, but negotiations have not yet produced a deal.",
+          "headline": "Spain's left seeks a unified election ticket before the registration deadline",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261014/izquierdas-buscan-alianza-podemos-celebra-primarias-cerca-acabar-plazo-coaliciones/17265802.shtml"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona's city government is moving to increase IBI property tax on tourist apartments, with a proposed surcharge of 50% for owners of one flat, 100% for owners of two to four, and 150% for owners of more than four. Most of the city's 10,627 tourist-apartment licences are held by owners with more than four properties. The measure is part of the city's effort to phase out tourist apartments by 2028.",
+          "headline": "Barcelona moves to raise property tax on tourist apartments by up to 150%",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/ple-municipal-barcelona-octubre-2026-extraordinari-ibi-pisos-turistics/"
+            }
+          ]
+        },
+        {
+          "body": "A possible DANA and easterly winds could bring intense, persistent rain to Catalonia and the wider Mediterranean coast from Saturday, along with rough seas and a marked drop in temperatures. Aemet says the greatest risk is likely on Sunday but stresses that the exact path and impact remain uncertain. Barcelona is expected to stay calm through Friday before the weather changes at the weekend.",
+          "headline": "Catalonia faces a possible weekend of heavy rain and rough seas",
+          "sources": [
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/natural/20261014/11658896/semana-traera-lluvias-intensas-litoral-mediterraneo-baleares.html"
+            },
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/medi-ambient/temps-barcelona-dijous-15-octubre-menys-calor-humitat-sol-apagat/"
+            }
+          ]
+        },
+        {
+          "body": "Of the 655 Catalan municipalities required to maintain flood-emergency plans, only 329, or 50.2%, have an approved and current plan. Another 223 have plans awaiting review, some of them expired for years, while 103 have never had one. Civil Protection says the plans set out responsibilities, communications and practical measures during flooding, reducing the need for improvisation as extreme rainfall becomes more frequent.",
+          "headline": "Only half of Catalan municipalities required to have flood plans have current ones",
+          "sources": [
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/nomes-el-50-de-municipis-obligats-a-tenir-un-pla-demergencia-per-inundacions-el-te-vigent-consulta-el-mapa/noticia/3433389/"
+            }
+          ]
+        },
+        {
+          "body": "The religious congregation that owns the Manyanet schools has sued the parents of two former Barcelona students who died by suicide, seeking €70,000 for alleged harm to its honour and image. The parents have publicly alleged that the schools failed to protect their children, including in relation to alleged bullying and possible abuse. Their lawyer says the lawsuit is an attempt to silence them, while the congregation says it is responding to serious accusations made without evidence.",
+          "headline": "Manyanet school congregation sues parents of two students who died by suicide",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/escoles-manyanet-pares-alumnes-suicidar-kira/"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/lescola-pare-manyanet-demanda-els-pares-de-dos-alumnes-de-barcelona-que-es-van-suicidar/noticia/3433923/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
