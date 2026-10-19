@@ -10,6 +10,10 @@ export type BoardRecord = {
   description?: string
   /** Task or project lifecycle. */
   status?: string
+  /** Explicit tag attached to a task. */
+  tagId?: string | null
+  /** Tag inherited from a project when no explicit tag is set. */
+  effectiveTag?: { id: string; name: string } | null
   /** Source identity retained through import and promotion. */
   sourceId?: string | null
   /** Creation receipt identity. */

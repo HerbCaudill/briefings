@@ -11,6 +11,7 @@
     "briefing:news": "tsx scripts/news-briefing/run.ts",
     "briefing:morning": "tsx scripts/morning-briefing/run.ts",
     "briefing:location": "tsx scripts/morning-briefing/location.ts",
+    "briefing:barcelona": "tsx scripts/morning-briefing/checkBarcelonaStint.ts",
     "messages:local": "tsx scripts/morning-briefing/localMessages.ts",
     "preview": "vite preview",
     "test": "vitest run",
