@@ -29,13 +29,26 @@ case ("list", let name) where !name.isEmpty:
   let fetched = DispatchSemaphore(value: 0)
   store.fetchReminders(matching: predicate) { reminders in
     let items = (reminders ?? []).map { reminder in
-      var item = [
+      var item: [String: Any] = [
         "id": reminder.calendarItemIdentifier, "name": reminder.title ?? "",
         "body": reminder.notes ?? "",
       ]
+      if let url = reminder.url { item["url"] = url.absoluteString }
+      if let location = reminder.location { item["location"] = location }
+      if reminder.priority > 0 { item["priority"] = reminder.priority }
+      if let start = reminder.startDateComponents.flatMap({ Calendar.current.date(from: $0) }) {
+        item["start"] = ISO8601DateFormatter().string(from: start)
+      }
+      let alarms = (reminder.alarms ?? []).map { alarm in
+        alarm.absoluteDate.map { ISO8601DateFormatter().string(from: $0) }
+          ?? "\(Int(alarm.relativeOffset / 60)) minutes relative to due time"
+      }
+      let recurrence = (reminder.recurrenceRules ?? []).map { $0.description }
       if let due = reminder.dueDateComponents.flatMap({ Calendar.current.date(from: $0) }) {
         item["due"] = ISO8601DateFormatter().string(from: due)
       }
+      if !alarms.isEmpty { item["alarms"] = alarms }
+      if !recurrence.isEmpty { item["recurrence"] = recurrence }
       return item
     }
     let json = try! JSONSerialization.data(withJSONObject: items)
