@@ -1,0 +1,224 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "President Volodymyr Zelensky said the United States has resumed providing Ukraine with advance warnings of Russian ballistic-missile attacks after talks in Oslo with US envoy Steve Witkoff. Witkoff is due to meet Vladimir Putin in St Petersburg to discuss proposals for ending the war, following what US officials described as constructive talks involving Ukraine and European partners. Zelensky welcomed the restored warnings as life-saving but said Ukraine is still losing people and time to Russian attacks; Moscow has ruled out political concessions ahead of the meeting.",
+          "headline": "US resumes intelligence sharing with Ukraine as envoy prepares Putin meeting",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cq5ynkx3xy11o"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy"
+            }
+          ]
+        },
+        {
+          "body": "Nigeria has confirmed an Ebola case in a woman who travelled from Uganda to Abuja, where she is isolated and receiving treatment. Authorities have identified 44 close contacts and begun tracing them. The case is the first in West Africa linked to the current East African outbreak, which began in the Democratic Republic of Congo, has caused more than 4,600 deaths, and has also reached Kenya. The outbreak involves the relatively rare Bundibugyo strain, for which no approved vaccine or treatment exists.",
+          "headline": "Nigeria confirms Ebola case as outbreak spreads across Africa",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cm2l4xw7xpjgo"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa"
+            }
+          ]
+        },
+        {
+          "body": "Italy will deploy 500 additional soldiers to Milan and pursue tougher penalties after cost-of-living protests turned into clashes, looting and vandalism. Police detained 271 young people after unrest over the weekend, with 32 arrested. The government is considering a new offence for violent participation in demonstrations and financial liability for parents of minors involved in damage. France is also planning a large police presence and limited military deployment for further protests after its own recent riots.",
+          "headline": "Italy sends 500 troops to Milan after riots",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261020-italy-announces-new-security-measures-after-milan-riots-deploying-500-soldiers"
+            }
+          ]
+        },
+        {
+          "body": "Iran has attacked at least 15 container ships in the Strait of Hormuz in 10 days, using drones, mines and other weapons, according to reporting cited by the Guardian. Traffic through the waterway has fallen sharply, while Brent crude approached $108 a barrel. A container ship sank after reportedly hitting a mine, prompting people to search for floating cargo amid rumours of valuable electronics. Iran's Revolutionary Guard says it can attack vessels crossing without permission or with transponders switched off.",
+          "headline": "Iranian attacks disrupt shipping through the Strait of Hormuz",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships"
+            }
+          ]
+        },
+        {
+          "body": "US aviation regulators have certified Boeing’s 737 Max 10, the largest version of its best-selling Max family, for passenger service. The approval comes more than five years after the aircraft’s first flight and after years of delay, giving Boeing an important regulatory milestone as it seeks to recover from its safety and management crisis. Deliveries are expected to begin in 2027.",
+          "headline": "Boeing’s 737 Max 10 receives final FAA certification",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/technology/20261021-boeing-s-737-max-10-finally-wins-faa-approval-after-years-of-delays"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/tv-shows/business/20261020-us-regulators-certify-boeing-737-max-10-after-years-of-delay"
+            }
+          ]
+        },
+        {
+          "body": "President Luiz Inácio Lula da Silva and right-wing candidate Flavio Bolsonaro are each pursuing legal action that could disqualify the other days before Brazil’s presidential runoff. Bolsonaro’s campaign alleges that Lula abused government communications through mass WhatsApp messages, while Lula’s campaign plans to accuse Meta of algorithmically suppressing its content and favouring Bolsonaro. The electoral court has ordered Meta to show that it is treating both campaigns equally, and polling points to a close vote.",
+          "headline": "Brazil’s presidential rivals seek each other’s disqualification before runoff",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20261020-lula-campaign-seeks-disqualify-bolsonoro-from-brazil-presidential-vote-over-meta-interference"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "Donald Trump announced an $8 billion aid plan for farmers facing high diesel costs, seeking to shore up Republican support in closely contested farm-state races. The payments may not arrive until late November or December and the funding source does not currently contain enough money, meaning Congress may need to approve funds or the administration may need to redirect them. Farm groups say considerably more assistance is needed to offset the effects of tariffs, weather losses and disruption linked to the Iran war.",
+          "headline": "Trump announces $8 billion farm-aid plan before midterms",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/20/trump-farmers-payments-gop-midterms-01128165"
+            }
+          ]
+        },
+        {
+          "body": "A Politico poll found that 47% of respondents associate Republicans with tax incentives for technology companies, compared with 21% for Democrats, as concerns grow about AI and data-centre development. Voters were more likely to favour candidates who would remove data-centre incentives than those proposing new ones. Both parties are responding to local opposition, but Democrats have pressed the issue more aggressively and sought to link Republican tax changes to Big Tech’s expanding data-centre footprint.",
+          "headline": "Poll ties Republicans to Big Tech tax breaks amid data-centre backlash",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/20/poll-voters-see-republicans-as-the-party-of-big-tech-tax-breaks-01127726"
+            }
+          ]
+        },
+        {
+          "body": "Alaska Republicans worry that retired teacher Dan J. Sullivan could draw enough first-choice votes from Republican Senator Dan S. Sullivan to affect the Senate race under the state’s ranked-choice system. The incumbent also faces former Democratic Representative Mary Peltola, and two recent simulated ranked-choice polls put Peltola ahead. Sullivan’s campaign and allied groups are stressing his middle initial and party affiliation in mailers, door-to-door outreach and a radio jingle.",
+          "headline": "Alaska Republicans fear same-name candidate could hurt Senator Dan Sullivan",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/20/republicans-senate-worries-alaska-voting-rules-01127619"
+            }
+          ]
+        },
+        {
+          "body": "Illinois Governor JB Pritzker is investing at least $38 million in battleground campaigns, much of it supporting Black and Hispanic candidates who have received limited national Democratic support. His spending includes races in all six early Democratic nominating states and could build relationships with key constituencies if he seeks the presidency in 2028. Pritzker says he is focused on the 2026 elections, while allies say the investments show a willingness to support difficult races that others have overlooked.",
+          "headline": "JB Pritzker spends heavily on Black and Hispanic candidates before possible 2028 bid",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/20/pritzker-midterms-black-hispanic-spending-president-01127611"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "Spain’s Supreme Court has applied the amnesty law to former Catalan vice-president Oriol Junqueras and former ministers Raül Romeva, Dolors Bassa and Jordi Turull, ending the disqualification penalties that remained from their 2019 convictions for misuse of public funds. The decision follows a Constitutional Court ruling that the Supreme Court should have granted amnesty. The Supreme Court sharply criticised the Constitutional Court’s reasoning, while the leaders can now stand for election or hold public office again.",
+          "headline": "Supreme Court grants amnesty to Junqueras and three Catalan independence leaders",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-20/el-supremo-asume-la-doctrina-del-constitucional-y-amnistia-a-junqueras-y-tres-exconsejeros.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261020/supremo-aplica-amnistia-por-malversacion-a-junqueras-turull-romeva-bassa-tras-aval-del-constitucional/17274689.shtml"
+            }
+          ]
+        },
+        {
+          "body": "The Popular Party and Vox are negotiating ways to avoid splitting the right-wing vote in Spain’s Senate election on 29 November. PP leader Alberto Núñez Feijóo suggested Vox could refrain from standing in some constituencies in return for PP support in appointments of regional-designated senators. The parties hope a deal could help them secure a three-fifths Senate majority, enabling appointments without relying on the left, which is contesting the election through a joint PSOE–Frente Amplio ticket.",
+          "headline": "PP and Vox negotiate Senate-election coordination",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/elecciones-generales/2026-10-20/feijoo-confirma-negociaciones-con-vox-para-las-listas-del-senado-si-estan-a-la-altura-el-pp-tambien.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261020/feijoo-confirma-negociaciones-vox-error-facilitar-sanchismo-control-senado/17274299.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Spain’s Constitutional Court is expected to reject an appeal seeking to restore voting rights for more than 160,000 Spaniards abroad who gained nationality through the descendants law. The Supreme Court suspended their voting rights shortly before the general election. A majority of Constitutional Court judges reportedly considers the appeal premature because the Supreme Court has opened a period for affected people to make submissions, meaning ordinary legal remedies have not yet been exhausted.",
+          "headline": "Constitutional Court expected to reject appeal on descendants-law voting rights",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-21/el-constitucional-se-dispone-a-rechazar-el-amparo-presentado-por-la-ley-de-nietos.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Barcelona City Council has approved the creation of a joint public company with the Generalitat to accelerate repairs to 4,000 homes in Besòs-Maresme affected by aluminosis and other serious structural problems. Barcelona will contribute €265 million over 12 years and the Generalitat €150 million. Only 192 homes have been rehabilitated in four years under the existing approach. Officials say the current plan is to renovate all affected homes, while a study that models demolition of the most damaged buildings is a theoretical financial scenario rather than an active proposal.",
+          "headline": "Barcelona and Catalonia create company to rehabilitate 4,000 Besòs-Maresme homes",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/reproven-laia-bonet-rehabilitacions-besos-maresme/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20261020/barcelona-besos-rehabilitacion-pisos-aluminosis-derribos-135559348"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia will keep digital whiteboards in I3, I4 and I5 classrooms but will end their unrestricted use and prevent open internet access. The Education Department had previously planned to remove the screens, but concluded that conditions attached to EU funding prevented their withdrawal. The revised policy calls for limited, teacher-led use only when it adds educational value, and creates a restricted children’s profile that can access authorised resources but cannot browse freely online.",
+          "headline": "Catalonia keeps digital whiteboards in early-childhood classrooms but removes open internet access",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/catalunya-mante-pissarres-digitals-infantil-elimina-us-lliure-acces-internet/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/sociedad/20261020/catalunya-no-retirara-pantallas-educacion-infantil-al-contrario-anuncio-135532789"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona has offered Sareb between €3.5 million and €4 million to buy the Raval plot occupied by the Àgora Juan Andrés Benítez, a community space facing a court-ordered eviction. The eviction was suspended after the city made its offer. The purchase and final price are not settled, and no final use has been chosen, though the site could accommodate 20 to 25 homes. The space has been occupied and managed by local groups since 2014, while the city argues that acquiring scarce public land in Raval is beneficial.",
+          "headline": "Barcelona offers Sareb up to €4 million for Raval community site",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/societat/ajuntament-ofereix-sareb-quatre-milions-agora-benitez/"
+            },
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20261020/barcelona-vivienda-compra-solar-sareb-agora-juan-andres-benitez-135551795"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
