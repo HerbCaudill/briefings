@@ -12,7 +12,7 @@ $node = (& mise.exe which node).Trim()
 if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $node)) { throw 'No configured mise Node runtime.' }
 Set-Location -LiteralPath $repo
 $entry = if ($Job -eq 'morning') { 'scripts/morning-briefing/run.ts' } else { 'scripts/inbox/run.ts' }
-$arguments = @('--import','tsx',$entry)
+$arguments = @('--experimental-strip-types',$entry)
 if ($Job -eq 'research') { $arguments += '--research-worker' }
 & $node @arguments *>> (Join-Path $state "$Job.log")
 exit $LASTEXITCODE
