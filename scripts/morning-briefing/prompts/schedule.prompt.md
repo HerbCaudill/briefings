@@ -14,6 +14,8 @@ Use the connected Google Calendar tools for calendars. Inspect the accessible ca
 
 Run `pnpm --silent briefing:location` to read the latest Backtrack location. It returns `barcelona`, `tamariu`, or `other` by comparing the latest coordinates with two approximate bounding boxes. Include the returned place label in your report so synthesis can filter location-specific tasks, and use it as last-known place context when interpreting relevant calendar and household plans. `other` identifies no particular destination. If the script fails, omit location context and continue gathering. Keep the run's date and time zone unchanged.
 
+On Windows without a configured `BACKTRACK_CSV_PATH`, the command returns `unknown`. Omit location filtering in that case; do not treat the mini's physical location as Herb's location.
+
 For the primary calendar, read today's events. Record start time in the local time zone stated in the run context, duration, title, event URL, response status, useful event context, declines, pending invitations, and meaningful free stretches.
 
 For Lynne's calendar, read today's timed events and report aggregate workload only: occupied therapy hours, occupied hours for other meetings or appointments, the end time of her last busy event, and any overlap between categories. Classify therapy only when the title or existing calendar label supports it. Exclude declined, cancelled, all-day, and free events. Never expose client names or individual therapy titles.

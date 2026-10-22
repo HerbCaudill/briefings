@@ -20,6 +20,7 @@ describe("readSignalMessages", () => {
 
     expect(
       await readSignalMessages({
+        platform: "darwin",
         run,
         since: new Date("2026-10-05T00:00:00+02:00"),
         timeZone: "Europe/Madrid",
@@ -53,6 +54,7 @@ describe("readSignalMessages", () => {
       .mockResolvedValue({ code: 51, stdout: "", stderr: "User interaction is not allowed." })
 
     const result = await readSignalMessages({
+      platform: "darwin",
       run,
       since: new Date("2026-10-05T00:00:00+02:00"),
       timeZone: "Europe/Madrid",
@@ -61,5 +63,23 @@ describe("readSignalMessages", () => {
     expect(result).toMatchObject({ source: "Signal", status: "unavailable", conversations: [] })
     expect(result.reason).toContain("Always Allow")
     expect(run).toHaveBeenCalledTimes(1)
+  })
+
+  test("reads Windows transcripts through the native OS key store without a Keychain prompt", async () => {
+    const result = await readSignalMessages({
+      platform: "win32",
+      since: new Date("2026-10-05T00:00:00+02:00"),
+      timeZone: "Europe/Madrid",
+      run: async (command, args) => {
+        if (command !== "sigtop" || args.includes("-k"))
+          throw new Error("Unexpected credential access")
+        writeFileSync(join(args.at(-1)!, "Test.txt"), "2026-10-06 09:00 Test: Windows transcript\n")
+        return { code: 0, stdout: "", stderr: "" }
+      },
+    })
+    expect(result).toMatchObject({
+      status: "complete",
+      conversations: [{ name: "Test", transcript: "2026-10-06 09:00 Test: Windows transcript" }],
+    })
   })
 })

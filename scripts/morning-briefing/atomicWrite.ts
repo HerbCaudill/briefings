@@ -29,6 +29,8 @@ export function writeTextAtomically(
     closeSync(file)
   }
   renameSync(temporaryPath, path)
+  // Node cannot flush directory handles on Windows; the file is flushed before the rename.
+  if (process.platform === "win32") return
   const directory = openSync(dirname(path), "r")
   try {
     fsyncSync(directory)

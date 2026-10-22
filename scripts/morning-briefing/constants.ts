@@ -5,7 +5,11 @@ import { join, resolve } from "node:path"
 export const BRIEFINGS_REPOSITORY_PATH = resolve(import.meta.dirname, "../..")
 
 /** Absolute path to the Codex executable used by scheduled runs. */
-export const CODEX_COMMAND_PATH = join(homedir(), "Library/pnpm/bin/codex")
+export const CODEX_COMMAND_PATH =
+  process.env.CODEX_COMMAND_PATH ??
+  (process.platform === "win32"
+    ? join(homedir(), "AppData/Local/mise/shims/codex.exe")
+    : join(homedir(), "Library/pnpm/bin/codex"))
 
 /** Directory containing Herb's Obsidian daily notes. */
 export const DAILY_NOTES_DIRECTORY_PATH = join(homedir(), "Code/herbcaudill/notes/daily")

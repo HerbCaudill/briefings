@@ -43,10 +43,19 @@ async function main(): Promise<void> {
     const briefing = await runScheduledBriefings({
       runMorning: () => runLiveMorningBriefing({ date, timeZone }),
       runNews: async () => {
-        const { stdout, stderr } = await promisify(execFile)("pnpm", ["briefing:news", date], {
-          cwd: BRIEFINGS_REPOSITORY_PATH,
-          maxBuffer: 10 * 1024 * 1024,
-        })
+        const { stdout, stderr } = await promisify(execFile)(
+          process.execPath,
+          [
+            "--import",
+            "tsx",
+            join(BRIEFINGS_REPOSITORY_PATH, "scripts/news-briefing/run.ts"),
+            date,
+          ],
+          {
+            cwd: BRIEFINGS_REPOSITORY_PATH,
+            maxBuffer: 10 * 1024 * 1024,
+          },
+        )
         process.stdout.write(stdout)
         process.stderr.write(stderr)
       },

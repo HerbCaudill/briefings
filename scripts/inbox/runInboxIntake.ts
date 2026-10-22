@@ -35,7 +35,9 @@ export async function runInboxIntake(): Promise<number> {
   }
   try {
     // A Reminders failure must not hold up the Obsidian captures.
-    const reminders = await importReminders().then(
+    const reminders = await (
+      process.platform === "win32" ? Promise.resolve(0) : importReminders()
+    ).then(
       count => ({ count }),
       (error: unknown) => ({ count: 0, error }),
     )

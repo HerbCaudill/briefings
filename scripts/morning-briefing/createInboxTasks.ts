@@ -4,6 +4,7 @@ import { homedir } from "node:os"
 import { join } from "node:path"
 import { createTasksClient } from "../tasks/createTasksClient.ts"
 import { saveDescription } from "../tasks/saveDescription.ts"
+import { journalFileName } from "../tasks/journalFileName.ts"
 import type { BoardRecord, TasksClient } from "../tasks/types.ts"
 import { writeTextAtomically } from "./atomicWrite.ts"
 import type {
@@ -54,7 +55,7 @@ export async function createInboxTasks(args: {
     if (!title || seen.has(title)) return
     seen.add(title)
     const eventKey = `briefing:${args.date}:${createHash("sha256").update(title).digest("hex")}`
-    const path = join(statePath, `${eventKey}.json`)
+    const path = join(statePath, journalFileName(eventKey))
     if (!existsSync(path) && titles.has(title)) return
     const intent: {
       spaceId: string

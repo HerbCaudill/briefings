@@ -1,4 +1,4 @@
-import { chmodSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs"
+import { mkdtempSync, readFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import { join } from "node:path"
 import { describe, expect, test } from "vitest"
@@ -50,16 +50,16 @@ describe("getCodexExecArgs", () => {
 
   test("terminates an agent that exceeds its timeout and preserves its event log", async () => {
     const directoryPath = mkdtempSync(join(tmpdir(), "morning-agent-timeout-"))
-    const commandPath = join(directoryPath, "hanging-agent")
     const eventsPath = join(directoryPath, "events.jsonl")
-    writeFileSync(commandPath, "#!/usr/bin/env node\nsetInterval(() => undefined, 1000)\n")
-    chmodSync(commandPath, 0o755)
 
     await expect(
       runCodexAgent({
-        codexCommand: commandPath,
+        codexCommand: process.execPath,
         cwd: "/repo",
-        environment: process.env,
+        environment: {
+          ...process.env,
+          NODE_OPTIONS: `--import=data:text/javascript,${encodeURIComponent("setInterval(() => {}, 1000); await new Promise(() => {})")}`,
+        },
         eventsPath,
         model: "gpt-5.6-sol",
         outputPath: join(directoryPath, "result.json"),

@@ -1,4 +1,7 @@
 import { spawn } from "node:child_process"
+import { homedir } from "node:os"
+import { join } from "node:path"
+import { openWindowsDesktopApp } from "./openWindowsDesktopApp.ts"
 
 const MAX_STATUS_CHECKS = 30
 const STATUS_DELAY_MS = 1_000
@@ -36,12 +39,18 @@ export async function syncMorningBriefingToObsidian(
 
 /** Open Obsidian so its CLI and Sync service are available. */
 function openObsidianApp(): Promise<void> {
+  if (process.platform === "win32") return openWindowsDesktopApp("Obsidian desktop")
   return runCommand("open", ["-a", "Obsidian"]).then(() => undefined)
 }
 
 /** Run one official Obsidian CLI command. */
 function runObsidianCommand(arguments_: string[]): Promise<string> {
-  return runCommand("obsidian", arguments_)
+  return runCommand(
+    process.platform === "win32"
+      ? join(homedir(), "AppData/Local/Programs/Obsidian/Obsidian.com")
+      : "obsidian",
+    arguments_,
+  )
 }
 
 /** Run a local command and return standard output. */

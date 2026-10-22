@@ -1,25 +1,23 @@
 import { spawn } from "node:child_process"
 import type { TasksRunner, TasksResponse } from "./types.ts"
+import { getManagedInvocation } from "../getManagedInvocation.ts"
 
 /** Run the managed CLI with converged reads, stdin JSON and bounded output. */
 export const runTasks: TasksRunner = (command, input, requestId) =>
   new Promise((resolve, reject) => {
-    const child = spawn(
-      "tasks",
-      [
-        command,
-        "--freshness",
-        "converged",
-        "--timezone",
-        "Europe/Madrid",
-        "--timeout-ms",
-        "70000",
-        "--input",
-        "-",
-        ...(requestId ? ["--request-id", requestId] : []),
-      ],
-      { stdio: ["pipe", "pipe", "pipe"] },
-    )
+    const invocation = getManagedInvocation("tasks", [
+      command,
+      "--freshness",
+      "converged",
+      "--timezone",
+      "Europe/Madrid",
+      "--timeout-ms",
+      "70000",
+      "--input",
+      "-",
+      ...(requestId ? ["--request-id", requestId] : []),
+    ])
+    const child = spawn(invocation.command, invocation.args, { stdio: ["pipe", "pipe", "pipe"] })
     let stdout = ""
     const timer = setTimeout(() => {
       child.kill()
@@ -33,7 +31,10 @@ export const runTasks: TasksRunner = (command, input, requestId) =>
       }
     })
     child.stderr.resume()
-    child.on("error", reject)
+    child.on("error", error => {
+      clearTimeout(timer)
+      reject(error)
+    })
     child.on("close", code => {
       clearTimeout(timer)
       try {

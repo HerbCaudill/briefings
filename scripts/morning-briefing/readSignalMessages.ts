@@ -7,7 +7,7 @@ import type { LocalMessagesSource } from "./types.ts"
 
 /**
  * Read recent Signal Desktop conversations with sigtop, which works with the screen locked.
- * Apple's `security` tool fetches the database key, so the Keychain's "Always Allow" approval
+ * Windows uses sigtop's native OS key store. Apple's `security` tool fetches the database key, so the Keychain's "Always Allow" approval
  * stays attached to a stable binary across sigtop updates.
  */
 export async function readSignalMessages(
@@ -19,16 +19,21 @@ export async function readSignalMessages(
     timeZone: string
     /** Command runner, injectable for tests. */
     run?: CommandRunner
+    /** Host operating system, injectable for source tests. */
+    platform?: NodeJS.Platform
   },
 ): Promise<LocalMessagesSource> {
   const run = args.run ?? runCommand
-  const key = await run("/usr/bin/security", [
-    "find-generic-password",
-    "-w",
-    "-s",
-    "Signal Safe Storage",
-  ]).catch(error => ({ code: -1, stdout: "", stderr: String(error) }))
-  if (key.code !== 0 || !key.stdout.trim())
+  const windows = (args.platform ?? process.platform) === "win32"
+  const key = windows
+    ? { code: 0, stdout: "", stderr: "" }
+    : await run("/usr/bin/security", [
+        "find-generic-password",
+        "-w",
+        "-s",
+        "Signal Safe Storage",
+      ]).catch(error => ({ code: -1, stdout: "", stderr: String(error) }))
+  if (!windows && (key.code !== 0 || !key.stdout.trim()))
     return unavailable(
       `The Keychain did not release the Signal Safe Storage key; run \`pnpm messages:local\` once at the Mac and choose Always Allow (${key.stderr.trim()})`,
     )
@@ -41,8 +46,7 @@ export async function readSignalMessages(
         "export-messages",
         "-f",
         "text-short",
-        "-k",
-        "macos:-",
+        ...(windows ? [] : ["-k", "macos:-"]),
         "-s",
         `${formatLocalMinute(args.since, args.timeZone)},`,
         directory,

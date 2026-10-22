@@ -4,6 +4,7 @@ import { homedir } from "node:os"
 import { join } from "node:path"
 import { writeTextAtomically } from "../morning-briefing/atomicWrite.ts"
 import { createTasksClient } from "./createTasksClient.ts"
+import { journalFileName } from "./journalFileName.ts"
 import type { BoardRecord } from "./types.ts"
 
 /** Save an immutable description intention before dispatch so retries preserve the observed base. */
@@ -23,7 +24,7 @@ export async function saveDescription(
   const requestId = `briefings-description:${createHash("sha256").update(args.eventKey).digest("hex")}`
   const path = join(
     args.statePath ?? join(homedir(), ".local/state/briefings-tasks/descriptions"),
-    `${requestId}.json`,
+    journalFileName(requestId),
   )
   const intention = existsSync(path)
     ? JSON.parse(readFileSync(path, "utf8"))

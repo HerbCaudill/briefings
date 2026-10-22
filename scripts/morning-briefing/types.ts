@@ -65,7 +65,9 @@ export type LocalMessagesSource = {
   /** Source name matching the briefing checklist. */
   readonly source: "Signal" | "Apple Messages"
   /** Whether the local data could be read. */
-  readonly status: "complete" | "unavailable"
+  readonly status: "complete" | "stale" | "unavailable"
+  /** Last Mac export time, when this source comes from the retained Mac artifact. */
+  readonly exportedAt?: string
   /** Why the source could not be read. */
   readonly reason?: string
   /** Recent conversations, oldest message first. */

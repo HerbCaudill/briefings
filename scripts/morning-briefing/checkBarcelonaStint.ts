@@ -1,5 +1,7 @@
 import { execFile } from "node:child_process"
 import { promisify } from "node:util"
+import { pathToFileURL } from "node:url"
+import { getManagedInvocation } from "../getManagedInvocation.ts"
 
 import { createTasksClient } from "../tasks/createTasksClient.ts"
 import { analyzeBarcelonaStint, type BarcelonaStintInput } from "./analyzeBarcelonaStint.ts"
@@ -38,11 +40,16 @@ async function readEvents(
         maxResults: 2500,
         ...(pageToken ? { pageToken } : {}),
       }
-      const { stdout } = await exec(
-        "gws-delegated",
-        ["calendar", "events", "list", "--params", JSON.stringify(params)],
-        { maxBuffer: 16 * 1024 * 1024 },
-      )
+      const invocation = getManagedInvocation("gws-delegated", [
+        "calendar",
+        "events",
+        "list",
+        "--params",
+        JSON.stringify(params),
+      ])
+      const { stdout } = await exec(invocation.command, invocation.args, {
+        maxBuffer: 16 * 1024 * 1024,
+      })
       const response = JSON.parse(stdout) as { items?: typeof items; nextPageToken?: string }
       if (!Array.isArray(response.items)) return null
       items.push(...response.items)
@@ -68,7 +75,7 @@ function addDays(date: string, days: number): string {
   return new Date(Date.parse(`${date}T00:00:00Z`) + days * 86_400_000).toISOString().slice(0, 10)
 }
 
-if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const date = process.argv[2]
   if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date))
     throw new Error("Usage: pnpm briefing:barcelona YYYY-MM-DD")
