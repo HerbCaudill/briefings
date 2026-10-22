@@ -16,6 +16,8 @@ Run `pnpm --silent briefing:location` to read the latest Backtrack location. It 
 
 On Windows without a configured `BACKTRACK_CSV_PATH`, the command returns `unknown`. Omit location filtering in that case; do not treat the mini's physical location as Herb's location.
 
+On the Windows mini, invoke the two repo-owned helpers with Node's native TypeScript support: `node --experimental-strip-types scripts/morning-briefing/location.ts` and `node --experimental-strip-types scripts/morning-briefing/checkBarcelonaStint.ts YYYY-MM-DD`. These are the same helpers as the pnpm commands, but avoid the tsx loader that stalled in the Windows scheduled environment. Use their outputs under the same rules below.
+
 For the primary calendar, read today's events. Record start time in the local time zone stated in the run context, duration, title, event URL, response status, useful event context, declines, pending invitations, and meaningful free stretches.
 
 For Lynne's calendar, read today's timed events and report aggregate workload only: occupied therapy hours, occupied hours for other meetings or appointments, the end time of her last busy event, and any overlap between categories. Classify therapy only when the title or existing calendar label supports it. Exclude declined, cancelled, all-day, and free events. Never expose client names or individual therapy titles.
