@@ -49,10 +49,10 @@
       "url": "https://www.bbc.com/news/articles/cqvgrmzdzgr7o"
     },
     {
-      "headline": "YouTuber arrested after popular Indian finance influencer's suicide",
+      "headline": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
       "region": "world",
       "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/ckx2d0ej7w7do"
+      "url": "https://www.bbc.com/news/articles/cr5ynl63v0pyo"
     },
     {
       "headline": "US embassy accuses Canada of election meddling ahead of midterms",
@@ -61,16 +61,16 @@
       "url": "https://www.bbc.com/news/articles/cmn06g29522lo"
     },
     {
+      "headline": "YouTuber arrested after popular Indian finance influencer's suicide",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/ckx2d0ej7w7do"
+    },
+    {
       "headline": "French weekend protests to be limited to union demos only, says Macron",
       "region": "world",
       "source": "BBC News",
       "url": "https://www.bbc.com/news/articles/cvde8g40xx42o"
-    },
-    {
-      "headline": "Russell Brand accuser said alleged rape 'really hurt', court hears",
-      "region": "world",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/c9e8lz4mrg88o"
     },
     {
       "headline": "Retired decorator's Pokémon cards sell for £1.5m",
@@ -127,28 +127,10 @@
       "url": "https://www.bbc.com/news/videos/cm5ynpz5jj5do"
     },
     {
-      "headline": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
+      "headline": "UK needs to be ready for emergencies and hostile acts, warns defence secretary",
       "region": "world",
       "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/cr3wv99614deo"
-    },
-    {
-      "headline": "El Salvador's president threatens Haitian gangs over military hostages",
-      "region": "world",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/cq33xpjekve4o"
-    },
-    {
-      "headline": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
-      "region": "world",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/cqwy71ww156ro"
-    },
-    {
-      "headline": "Grandparent hugging consent ad pulled after criticism",
-      "region": "world",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/c83vqn6zwrx0o"
+      "url": "https://www.bbc.com/news/articles/cwd094x57p32o"
     },
     {
       "headline": "Barclays cutting 5,000 jobs as it increases reliance on AI",
@@ -163,6 +145,24 @@
       "url": "https://www.bbc.com/news/articles/c6reyx1d9ge9o"
     },
     {
+      "headline": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cr3wv99614deo"
+    },
+    {
+      "headline": "Grandparent hugging consent ad pulled after criticism",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c83vqn6zwrx0o"
+    },
+    {
+      "headline": "Russell Brand accuser said alleged rape 'really hurt', court hears",
+      "region": "world",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c9e8lz4mrg88o"
+    },
+    {
       "headline": "Watch: What the data centre boom means for Arizona ahead of midterm elections",
       "region": "world",
       "source": "BBC News",
@@ -175,10 +175,10 @@
       "url": "https://www.bbc.com/news/videos/c6y8lvg2p50po"
     },
     {
-      "headline": "BBC inside Australian court as man charged with attacking MP stays silent in first hearing",
+      "headline": "Airbnb hosts can no longer make guests strip beds and wash dishes under new rules",
       "region": "world",
       "source": "BBC News",
-      "url": "https://www.bbc.com/news/videos/cq398rg0lnd1o"
+      "url": "https://www.bbc.com/news/articles/c6n049gg75r4o"
     },
     {
       "headline": "Controversial US-backed vaccine trial in African newborns halted",
@@ -295,6 +295,18 @@
       "url": "https://www.theguardian.com/business/2026/oct/22/jim-chalmers-economy-speech-rising-unemployment-inflation"
     },
     {
+      "headline": "Macron bans ‘illegitimate‘ protests in France as he tries to get a grip on unrest",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest"
+    },
+    {
+      "headline": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+      "region": "world",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
+    },
+    {
       "headline": "Shamonda virus detected in human for first time in France",
       "region": "world",
       "source": "The Guardian",
@@ -311,18 +323,6 @@
       "region": "world",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/oct/22/fallout-fast-tracking-french-rioting-cases"
-    },
-    {
-      "headline": "‘America, this is a warning’: pro- Trump Maga media in a froth over Europe protests",
-      "region": "world",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/oct/22/trump-maga-media-europe-protests"
-    },
-    {
-      "headline": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
-      "region": "world",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
     },
     {
       "headline": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
@@ -373,40 +373,28 @@
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive"
     },
     {
-      "headline": "India’s PM Modi, Israel’s PM Netanyahu discuss Middle East crisis",
+      "headline": "Outposts, violence, impunity: The anatomy of Israeli settler land grabs",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073895"
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073952"
     },
     {
-      "headline": "‘War unwinnable for Trump’ with Iran’s ‘defiant defence’",
+      "headline": "Trump: Iran is driving up the price of oil prior to the US midterm elections",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073772"
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5074178"
     },
     {
-      "headline": "India oil imports return to pre-US war on Iran levels",
+      "headline": "Israeli strikes, artillery shelling intensifies in southern Lebanon",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073817"
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073931"
     },
     {
-      "headline": "Trump hints at potential attack on Iran before November 3 vote",
+      "headline": "Pentagon, Lockheed sign F-35 deal for 850 fighter jets",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073785"
-    },
-    {
-      "headline": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent"
-    },
-    {
-      "headline": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/22/carney-and-erdogan-launch-strong-and-resilient-canada-turkiye-partnership"
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5074155"
     },
     {
       "headline": "Netanyahu promises Iran regime change: Can Israel topple Tehran government?",
@@ -415,22 +403,28 @@
       "url": "https://www.aljazeera.com/news/2026/10/22/netanyahu-promises-iran-regime-change-can-israel-topple-tehran-government"
     },
     {
-      "headline": "Outposts, violence, impunity: The anatomy of Israeli settler land grabs",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/10/22/outposts-violence-impunity-the-anatomy-of-israeli-settler-land-grabs"
-    },
-    {
       "headline": "Ilhan Omar home raid, Haines attack: Inside rise in violence on officials",
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news-analysis/2026/10/22/ilhan-omar-home-raid-haines-attack-inside-rise-in-violence-on-officials"
     },
     {
-      "headline": "Neha Bora can outwit the police. Can Indian youth leader outfox Modi?",
+      "headline": "Italy and Spain lift border controls after months of tension over Ceuta",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/10/22/is-neha-bora-indias-new-red-star-modis-real-gen-z-threat"
+      "url": "https://www.aljazeera.com/news/2026/10/22/italy-and-spain-lift-border-controls-after-months-of-tension-over-ceuta"
+    },
+    {
+      "headline": "Carney, Erdogan launch ‘strong and resilient’ Canada-Turkiye partnership",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/carney-and-erdogan-launch-strong-and-resilient-canada-turkiye-partnership"
+    },
+    {
+      "headline": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent"
     },
     {
       "headline": "Germany arrests Ukrainian man accused of spying for Russia",
@@ -439,10 +433,10 @@
       "url": "https://www.aljazeera.com/news/2026/10/22/germany-arrests-ukrainian-man-accused-of-spying-for-russia"
     },
     {
-      "headline": "What is the Turkiye-Libya maritime deal, and why is the EU opposing it?",
+      "headline": "Neha Bora can outwit the police. Can Indian youth leader outfox Modi?",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/22/what-is-the-turkiye-libya-maritime-deal-and-why-are-the-eu-egypt-opposed"
+      "url": "https://www.aljazeera.com/features/2026/10/22/is-neha-bora-indias-new-red-star-modis-real-gen-z-threat"
     },
     {
       "headline": "Rising costs and tight budgets strain Americans ahead of midterm elections",
@@ -469,10 +463,10 @@
       "url": "https://www.aljazeera.com/news/2026/10/22/michigan-senate-debate-key-takeaways-from-el-sayed-rogers-clash"
     },
     {
-      "headline": "FIFA’s Infantino made to wait on Asian support as chief coy at AFC session",
+      "headline": "Israeli attacks in Gaza kill four, including a young girl",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/22/fifas-infantino-made-to-wait-on-asian-support-as-chief-coy-at-afc-session"
+      "url": "https://www.aljazeera.com/news/2026/10/22/israeli-attacks-in-gaza-kill-four-including-a-young-girl"
     },
     {
       "headline": "Attack on Saudi Arabia’s King Fahd airport kills two people",
@@ -505,16 +499,16 @@
       "url": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence"
     },
     {
+      "headline": "What is the Turkiye-Libya maritime deal, and why is the EU opposing it?",
+      "region": "world",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/what-is-the-turkiye-libya-maritime-deal-and-why-are-the-eu-egypt-opposed"
+    },
+    {
       "headline": "Tigray resumes daily life amid fears of wider war",
       "region": "world",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/10/22/tigray-resumes-daily-life-amid-fears-of-wider-war"
-    },
-    {
-      "headline": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
-      "region": "world",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/21/musk-pledges-10bn-in-spacex-shares-for-us-children-who-really-gains"
     },
     {
       "headline": "How war in Lebanon has cost young people with autism and ADHD",
@@ -523,10 +517,65 @@
       "url": "https://www.aljazeera.com/news/2026/10/21/how-cost-israels-war-on-lebanon-has-on-young-people-with-autism-and-adhd"
     },
     {
-      "headline": "Maradona doctor was made ‘scapegoat’ for his death, Argentinian court told",
+      "headline": "FIFA’s Infantino made to wait on Asian support as chief coy at AFC session",
       "region": "world",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/22/maradona-doctor-was-made-scapegoat-for-his-death-argentinian-court-told"
+      "url": "https://www.aljazeera.com/sports/2026/10/22/fifas-infantino-made-to-wait-on-asian-support-as-chief-coy-at-afc-session"
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "🔴Live: Authorities in Lyon and Marseille ban all protests Saturday",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump"
+    },
+    {
+      "body": "In Paris, shopkeepers fear further losses ahead of a demonstration planned for next Saturday. After last weekend’s protests saw scenes of vandalism, some are considering closing their shops, while others plan to stay open.",
+      "date": "2026-10-22",
+      "headline": "French shopkeepers fear new looting in upcoming protests",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/french-shopkeepers-fear-new-looting-in-upcoming-protests"
+    },
+    {
+      "body": "Ukraine and Russia exchanged drone and missile strikes on Thursday, killing seven people in Ukraine, according to authorities. Moscow said it had intercepted 630 Ukrainian drones targeting the Russian capital. The strikes came hours after US envoy Steve Witkoff met Vladimir Putin in St. Petersburg. Witkoff said Moscow was ready to resume trilateral talks with Kyiv and Washington.",
+      "date": "2026-10-22",
+      "headline": "Ukraine and Russia exchange strikes after US envoy visit to the Kremlin",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin"
+    },
+    {
+      "body": "President Donald Trump's push to redistrict congressional maps and a Georgia state election law disproportionately affecting African Americans are aimed at diluting the power of the Black vote. Six decades after Atlanta was at the heart of the civil rights movement that granted Blacks in the southern states the right to vote, the community is fighting back.",
+      "date": "2026-10-22",
+      "headline": "Georgia on Democrats’ minds: Powering up the Black vote to counter Trump's meddling",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20261022-georgia-on-democrats-minds-powering-up-black-vote-counter-trump-meddling"
+    },
+    {
+      "body": "Concerns are mounting as Ethiopia and Eritrea inch closer to war. With Ethiopia now having taken control of the border town of Zalambessa, the fear is that Prime Minister Abiy Ahmed will send his troops into Eritrea. In Perspective, we spoke to Martin Plaut, a senior research fellow at the Institute of Commonwealth Studies at the University of London.",
+      "date": "2026-10-22",
+      "headline": "Ethiopia-Eritrea: Is there a risk of a wider conflict?",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261022-ethiopia-eritrea-is-there-a-risk-of-a-wider-conflict"
+    },
+    {
+      "body": "The French \"interfac\" student movement organised new protests on Thursday, even though it is currently the school holidays in France. Student representatives are set to meet soon with Education Minister Edouard Geffray. Details by FRANCE 24's Ellen Gainsford.",
+      "date": "2026-10-22",
+      "headline": "French students demonstrate again, despite school holidays",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/french-students-demonstrate-again-despite-school-holidays"
+    },
+    {
+      "body": "Reports claim that the US and Israel have ramped up military drills and planned new strikes in Iran, potentially targeting energy sites, drone facilities and missile arsenals. Details by FRANCE 24's correspondent in Jerusalem, Noga Tarnopolsky.",
+      "date": "2026-10-22",
+      "headline": "Reports show US and Israel are planning new strikes on Iran",
+      "region": "world",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261022-reports-show-us-and-israel-plan-new-strikes-on-iran"
     },
     {
       "body": "Italian truck drivers have been blocking refineries and key roads to protest against soaring diesel prices. Italy’s government has warned truckers blocking roads could face criminal penalties, as authorities move to clear demonstrations. Details by FRANCE 24's correspondent in Rome, Seema Gupta.",
@@ -569,9 +618,9 @@
       "url": "https://www.france24.com/en/tv-shows/people-profit/20261022-combatting-online-scams-in-the-age-of-ai"
     },
     {
-      "body": "Laura D. Keesman, an assistant professor of sociology based in Amsterdam, analysed recent French mobilisations and the government's police response. After weekend of unrest and riots, the government acknowledged that the security response had fallen short and promised a stronger approach ahead of a new wave of protests.",
+      "body": "Delano D'Souza is pleased to welcome Dr. Laura Keesman, Assistant Professor of Sociology at the Vrije Universiteit Amsterdam. Dr. Keesman examines the complex relationship between peaceful protest, radical activism, social inequality and state authority. She challenges the tendency to interpret disruptive demonstrations exclusively through the lens of extremism. Even when protesters engage in confrontational or unlawful actions, she argues, their motivations may remain rooted in genuine political and socioeconomic grievances.",
       "date": "2026-10-22",
-      "headline": "What is happening in France? Unpacking the recent waves of protests",
+      "headline": "France: 'Legitimate' grievances over education & inflation risk being overshadowed by violent unrest",
       "region": "world",
       "source": "France 24",
       "url": "https://www.france24.com/en/video/20261022-what-is-happening-in-france-unpacking-the-recent-waves-of-protests"
@@ -617,13 +666,6 @@
       "url": "https://www.france24.com/en/tv-shows/press-review/20261022-are-fresh-us-israeli-strikes-on-iran-in-the-pipeline"
     },
     {
-      "date": "2026-10-22",
-      "headline": "🔴 Live: France will ban 'illegitimate' protests in coming days, says Macron",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump"
-    },
-    {
       "body": "In an interview with FRANCE 24, exiled former Tibetan leader Lobsang Sangay said any successor to the Dalai Lama appointed by China \"is going to be a fake one\". He also likened Beijing's ethnic unity law to \"an ethnic erasure\", said Tibetan concerns had been \"downgraded a bit\" in US-China talks and accused China of failing to warn of the deadly August floods on the Nepal-Tibet border.",
       "date": "2026-10-22",
       "headline": "Dalai Lama appointed by China 'is going to be a fake one', exiled former Tibetan leader says",
@@ -655,52 +697,12 @@
       "url": "https://www.france24.com/en/video/20261022-popular-dissatisfaction-across-europe-promises-of-more-economic-growth-haven-t-come-true-1"
     },
     {
-      "body": "Youth-driven protests have been popping up all over Europe: in Belgium, Italy, Spain, Portugal, Albania, Serbia and Greece. The spark here in France was deteriorating conditions in high schools and universities, particularly for students from underprivileged backgrounds. Meanwhile, wages aren't keeping up with inflation. The housing crisis is front and centre in places like Spain and Portugal, while corruption and democratic backsliding have sparked uproar in Albania and Serbia.",
+      "body": "With less than two weeks until Election Day, most statewide debates have come and gone. Democrats tried to paint their Republican opponents into corners over loyalty to President Donald Trump, and Republicans tried to stake out nuanced positions on the Iran war and data centers. Here’s what we learned from the more than two dozen statewide candidate debates that occurred — and from those that didn’t. Republicans walk a fine line with an unpopular Trump In debate after debate, Democrats tried to tie their opponents to the unpopular president. Republicans weren’t always willing to let them. Several candidates — especially in blue states — were willing to break with the president. In New Hampshire, GOP former Sen. John Sununu said he’s “never met President Trump” and emphasized he’s “never hesitated to stand up to my party or the president when they're wrong,” specifically criticizing Trump’s policies on trade, Iran and Ukraine. In Minnesota, Republican Senate nominee Michelle Tafoya said she disagreed with Trump’s tariff policy and immigration enforcement, and when asked if she would appear onstage with Trump, she demurred. “I am talking to Minnesotans. Theirs is the only endorsement that I care about,” she said. In Maine, GOP Sen. Susan Collins emphasized that she has voted against the president more than 100 times this year, and criticized his approach on Iran. Bobby Charles, the GOP nominee for governor and a former official in President George W. Bush’s State Department during the Iraq and Afghanistan wars, said he disagreed with Trump’s “extended engagement” in Iran because “I know what it means to get stuck in a place.” Some Republicans became frustrated by their opponents' efforts to tie them to the president. “He wants to make this about Donald Trump,” said former Rep. Mike Rogers (R-Mich.) “The bingo game ought to be, how many times can he put the word ‘Trump’ in any answer that he has given in the last, whatever, 30 minutes? It’s ridiculous.” But in some redder states, candidates were more willing to hug the president — recognizing support from his base will be critical to win . “We need the Trump voters to come out,” Sen. Roger Marshall (R-Kansas) said in a debate Wednesday. “Just like with my wife, I can disagree with her. Now, my wife is always right, and President Trump is not always right. But I do think that it's great that I have a relationship that I can pick up the phone and discuss with him the pros and cons of what he's contemplating.” It’s the economy, stupid Democrats hammered Republicans on affordability issues, blaming Trump’s tariff policy and Iran for spiking prices. In response, a few conceded some Trump policies were hurting them — while others tried to blame the last president. “That Bidenomics, that Green New Deal that my opponent voted for, that’s where all this inflation came from,” said Rep. Mike Collins (R-Ga.) in a Senate debate in early October. The other Collins, Susan, went the opposite way in blue-leaning Maine. “The bottom line is Troy and I both would have voted against the Canadian tariffs,” she said in an October 13 debate, after saying the Iran war was “not well thought out.” Rep. Ashley Hinson, the GOP nominee for Senate in Iowa, said she would pause the gasoline tax before acknowledging the effect of the war: \"I trust in our U.S. military, the greatest fighting force in the world, to bring this to a close as quickly as possible, because I know people are being squeezed,” she said. Democrats largely sang the same tune on Trump’s policies. “These tariffs are crushing our state, and we'll repeal those tariffs,” said Sen. John Ossoff (D-Ga.). “The tariffs and the war in Iran has hurt Iowa more than any other state,” said state Rep. Josh Turek (D-Iowa). “If you appreciate having record diesel fuel prices … then I'd say vote for Roger Marshall,” said Adam Hamilton, the Democratic nominee running for Senate in Kansas. “If you want change, then I'd like to ask you to vote for me.” Everyone hates data centers Republicans and Democrats showed a remarkable similarity in their distaste for data centers even as their specific policy prescriptions diverged — a sign of the issue’s rapid ascent as a bipartisan bogeyman, even as Trump reiterates his support for them. Candidates from both parties called for local control. “Look, if you don't want a data center, I will stand up and defend it and make sure you don't get it,” said Rick Jackson, a Republican billionaire businessman running for Georgia governor. “Local communities know best,” said Hinson, the Iowa Republican. In Maine, both Senate candidates said guardrails should be installed to prevent the data centers from raising utility rates for local residents. In Iowa, both gubernatorial candidates — Democrat Rob Sand and Republican Zach Lahn — supported ending tax breaks for data center developers. In New Hampshire, both Senate candidates agreed with GOP Gov. Kelly Ayotte’s push for a statewide moratorium. “At the end of the day, it's up to our governor, our local leaders, to make decisions about any big infrastructure, transmission, power plants, new factories, and data centers should be treated just the same,” Sununu said. Gaffe gamechangers Debates can do candidates more harm than good, and some candidates had some cringey moments. In Alaska, Democratic former Rep. Mary Peltola appeared to be reading from a notecard throughout a recent debate, giving her opponent, GOP Sen. Dan Sullivan, a chance to pounce. \"We weren't supposed to get these questions beforehand, were we?\" he asked the moderator. “You can’t cue-card your way through the Senate,” Sullivan later wrote on social media. Sullivan had his own moment a few weeks earlier when he peeked at Peltola’s answer during a lightning-round question, prompting laughter from the audience. “Happy to help, Dan,” Peltola wrote on social media . In Kansas, Marshall faced loud chats of “you don’t live here” during a debate at the state fair, while speaking about his residence in Kansas and his home in Florida . In Maine, Jackson said Collins should “shut up” after a protester interrupted the debate and Collins claimed the demonstrator was “obviously one of Troy's supporters.\" \"Oh, shut up,” Jackson said. “I don't even know that kid.\" Collins has pounced on the moment to try to paint Jackson as a sexist hothead; Jackson later said he did not regret his outburst. In Iowa, Hinson responded to a question about ensuring the solvency of Social Security by slamming young people’s saving habits . “We also need to be talking about millennials saving money,” she said. “Millennials are the worst group of savers in the country right now and have the least amount of savings.” The debates that didn’t happen Fear of gaffes may have cost voters a chance to see their candidates square off, as the longstanding political tradition of campaign debates took another hit this cycle. In Senate battlegrounds across the country, nominees in both parties outright refused to join their opponents onstage or carefully ducked debates. In Texas, Attorney General Ken Paxton rebuffed invitation after invitation (including one from Fox News), even after Trump urged him to get onstage. In Ohio, the Senate candidates still haven’t reached an agreement to debate. In North Carolina, there is no debate scheduled between the major-party Senate candidates for the first time in nearly 30 years . There doesn’t seem to be a partisan division over who will and won’t debate. Democratic Arizona Gov. Katie Hobbs and Ohio Democratic nominee Amy Acton refused to debate their opponents. So did GOP Gov. Greg Abbott of Texas and Sen. Tommy Tuberville of Alabama, who have rebuffed invitations to debate. “There’s so much difference between us, I mean, there’s no reason to get up there and argue about differences of opinion,” Tuberville, running for Alabama governor against Democratic former Sen. Doug Jones, told reporters in August. Andrew Howard, Jason Beeferman, Lisa Kashinsky, Aaron Pellish, Alec Hernandez, Erin Doherty and Jessica Piper contributed reporting.",
       "date": "2026-10-22",
-      "headline": "Europe's wave of anger: How far will youth-led protests go?",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20261022-europe-s-wave-of-anger-how-far-will-youth-led-protests-go"
-    },
-    {
-      "body": "Michael Carrick's side saw their winless run extend to seven matches in all competitions as a Nico Paz double powered the Italian side to an emphatic 4-1 win on Wednesday night.",
-      "date": "2026-10-22",
-      "headline": "Manchester United blown out of the water by Como in Champions League rout",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261022-manchester-united-blown-out-of-the-water-by-como-in-champions-league-rout"
-    },
-    {
-      "body": "In Pavlohrad, a Ukrainian city less than 90km from the front line with Russia, there is no respite from war. Residents describe daily life under bombardment, caught between exhaustion and determination. Amid criticism of Trump, TikTok rumours and strikes against civilians, FRANCE 24 gathered accounts from those who “refuse to yield”.",
-      "date": "2026-10-22",
-      "headline": "Ukraine’s Pavlohrad refuses to yield to Putin despite unrelenting bombardment",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261022-war-in-ukraine-under-bombardment-the-city-that-refuses-to-bow-to-putin"
-    },
-    {
-      "body": "As governments and corporations alike scramble to install a patch to fix fundamental security flaws in a programming language that helps run roughly 70 percent of the world's websites, here's what you need to know about how AI has helped bring these critical vulnerabilities to light.",
-      "date": "2026-10-22",
-      "headline": "'Backbone of the web': What is PHP and how has it raised AI hacking fears?",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/technology/20261022-backbone-of-the-web-what-is-php-and-how-has-it-raised-ai-hacking-fears"
-    },
-    {
-      "body": "Russia and Ukraine traded major drone and missile strikes on each other's capitals overnight, hours after Moscow signalled readiness to resume US-mediated peace talks. President Donald Trump said negotiations were closer than ever to ending the war, though the Kremlin expressed doubts over Ukrainian and European proposals.",
-      "date": "2026-10-22",
-      "headline": "Russia and Ukraine trade strikes overnight as Moscow signals readiness for peace talks",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
-    },
-    {
-      "body": "Irish lawmakers voted Wednesday to scrap a requirement for UN approval before deploying military peacekeepers overseas, approving the controversial legislation by 79 votes to 71. Opposition lawmakers warned the move threatened Ireland’s longstanding military neutrality. Ireland is not a NATO member but has traditionally participated in international peacekeeping missions.",
-      "date": "2026-10-22",
-      "headline": "Ireland votes to end UN approval requirement for overseas peacekeeping missions",
-      "region": "world",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions"
+      "headline": "The good, the bad and the unruly from over two dozen candidate debates",
+      "region": "us",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/10/22/senate-governor-debates-midterms-takeaways-01131948"
     },
     {
       "body": "A new company whose polls had influenced campaign decisions and helped shape the midterms narrative admitted that it was faking its polling data on Tuesday night, setting off a firestorm in the electionsphere. Wedgewood Polls, facing an imminent publication of an investigation from FiftyPlusOne showing it was fabricating its numbers, declared late Tuesday night that it had been an “experimental project” to show how an “entirely fabricated polling firm” could sway public opinion while painting themselves as the good guys. They’d left an impact and been included by multiple credible polling aggregators including The New York Times — and mentioned twice in POLITICO's Morning Score polling roundup. Speculation is flying about what, exactly, Wedgewood was trying to achieve, and there’s still little public information about the defunct company that had crowdfunded thousands of dollars for its fake data. Was it an effort to boost progressives Democrats in primaries? If so, were progressives or Republicans really behind it? Was it being used to game betting markets? Were top operatives using the bogus data to make spending decisions? Were aggregation accounts too quick to jump on posting the data? An email to the account listed on Wedgewood’s X account bounced back, and previous PDFs of polls that were tied to the account are no longer available online. Regardless of what Wedgewood said it was trying to achieve (they remain adamant the project “was never intended to sway an election or permanently mislead the public”) — pollsters, operatives and candidates alike said there were real world implications for posting fake data online. Mallory McMorrow, the unsuccessful Michigan Democratic Senate candidate who dropped out before her primary, said a fake Wedgewood poll that showed her crashing to single-digit support against Abdul El-Sayed and Rep. Haley Stevens “dried up” donations, “devastated” volunteers and led to numerous calls to exit the race. “It killed us,” McMorrow wrote on X . “These were some of the absolute worst days on the campaign. Especially for my team. There are no words to explain the morale blow, and nothing I could do or say to my team to fix it.” Jennifer Holdsworth, a Democratic operative who ran a super PAC supporting McMorrow, said the Wedgewood poll “was used by several donors to pull back funding at a time we were being outspent by $80 million.” The account also posted a poll showing democratic socialist Francesca Hong leading in the Wisconsin gubernatorial primary, when there was scant public polling, something that contributed to the narrative she was ahead before the election (which she lost). They also posted a poll showing the Mississippi Senate race within reach, just before Democrats plowed money into the state. Scott Colom, the Democrat running for the seat, blasted the poll to his press list as proof there was “massive momentum” behind him. That led election watchers to argue that Wedgewood’s data was being used to make spending decisions in top outside groups, which elicited a response from Democrats’ main Senate super PAC. “Absolutely not. We don’t make spending or strategic decisions based on external polling,” Lauren French, a spokesperson for Senate Majority PAC, said on X . In its investigation, FiftyPlusOne said it had included Wedgewood in its aggregator because the firm was founded by people who had worked in the polling industry previously. There’s also been broad finger-pointing at the aggregator X accounts that post polls frequently — and sometimes without verifying their accuracy. “You posted our polls multiple times. If you suspected it was fake, why did you post our results?” Wedgewood’s account shot back after Polling USA wrote that “my suspicions about Wedgewood were correct.” The whole ordeal illuminates just how big a problem polling could be in 2028, where both parties will have presidential primaries and polling can shift the narrative on a dime. “What I’m concerned about is essentially information pollution, things that are either intended to skew prediction markets or just straight misinformation flying around,” Charlotte Swasey, a pollster for the Democratic group Searchlight, told POLITICO Magazine recently. “It would be really difficult, especially in a primary, to tell people that what they’re seeing about their preferred candidate isn’t real.” A version of this article first appeared in POLITICO Pro’s Morning Score. Want to receive the newsletter every weekday? Subscribe to POLITICO Pro. You’ll also receive daily policy news and other intelligence you need to act on the day’s biggest stories.",
@@ -866,7 +868,7 @@
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/por-que-no-te-callas-milei.html"
     },
     {
-      "body": "&lt;p&gt;La Guardia Civil ha registrado este jueves un edificio y una nave industrial utilizados por organizaciones de ayuda a migrantes en Ceuta en el marco de una investigación que indaga sobre un supuesto reparto de aerosoles de gas pimienta y armas blancas. Las pesquisas estudian si se incitó &lt;a href=\"https://elpais.com/espana/2026-10-21/al-menos-11-militares-han-resultado-heridos-en-enfrentamientos-con-inmigrantes-en-ceuta.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-10-21/al-menos-11-militares-han-resultado-heridos-en-enfrentamientos-con-inmigrantes-en-ceuta.html\"&gt;a migrantes a atacar a miembros de Fuerzas y Cuerpos de Seguridad&lt;/a&gt;, según indican fuentes policiales. Hay ocho personas investigadas, según el auto judicial que ha autorizado las actuaciones, al que ha tenido acceso EL PAÍS. Fuentes de No Name Kitchen y las Brigadas de Apoyo Mutuo, organizaciones que utilizan como sede los inmuebles registrados y a las que pertenecen las personas implicadas, rechazan las acusaciones y aseguran que su actividad se limita a la asistencia humanitaria y a la documentación de posibles vulneraciones de derechos. El operativo, por el que no han trascendido detenciones, sigue abierto. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-22/la-guardia-civil-investiga-a-miembros-de-dos-ong-de-ceuta-por-repartir-aerosoles-de-gas-pimienta-y-armas-blancas.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
+      "body": "&lt;p&gt;La Guardia Civil ha registrado este jueves un edificio y una nave industrial utilizados por organizaciones de ayuda a migrantes en Ceuta en el marco de una investigación que indaga sobre un supuesto reparto de aerosoles de gas pimienta y armas blancas. Las pesquisas estudian si se incitó &lt;a href=\"https://elpais.com/espana/2026-10-21/al-menos-11-militares-han-resultado-heridos-en-enfrentamientos-con-inmigrantes-en-ceuta.html\" target=\"_self\" rel=\"\" title=\"https://elpais.com/espana/2026-10-21/al-menos-11-militares-han-resultado-heridos-en-enfrentamientos-con-inmigrantes-en-ceuta.html\"&gt;a migrantes a atacar a miembros de Fuerzas y Cuerpos de Seguridad&lt;/a&gt;, según indican fuentes policiales. Hay ocho personas investigadas, según el auto judicial que ha autorizado las actuaciones, al que ha tenido acceso EL PAÍS. Fuentes de No Name Kitchen y las Brigadas de Apoyo Mutuo, organizaciones que utilizan como sede los inmuebles registrados y a las que pertenecen las personas implicadas, rechazan las acusaciones y aseguran que su actividad se limita a la asistencia humanitaria y a la documentación de posibles vulneraciones de derechos. El operativo, durante el que se ha localizado a tres inmigrantes, sigue abierto. &lt;/p&gt;&lt;p&gt;&lt;a href=\"https://elpais.com/espana/2026-10-22/la-guardia-civil-investiga-a-miembros-de-dos-ong-de-ceuta-por-repartir-aerosoles-de-gas-pimienta-y-armas-blancas.html\" target=\"_blank\"&gt;Seguir leyendo&lt;/a&gt;&lt;/p&gt;",
       "date": "2026-10-22",
       "headline": "La Guardia Civil investiga a miembros de dos ONG de Ceuta por repartir aerosoles de gas pimienta y armas blancas",
       "region": "spain",
@@ -1212,16 +1214,10 @@
       "url": "https://www.lavanguardia.com/internacional/20261022/11665646/empujones-forcejeos-parlamento-albanes-diferencias-sobre-protesta-estudiantil.html"
     },
     {
-      "headline": "Lluís Puig retira el lazo amarillo y retoma su escaño en el Parlament",
+      "headline": "El PSOE acepta el cara a cara Sánchez-Feijóo el 16 de noviembre en “medios privados”",
       "region": "spain",
       "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/politica/20261022/11665574/lluis-puig-remueve-lazo-amarillo-escano-reivindica-independentismo-atril.html"
-    },
-    {
-      "headline": "Comín vuelve a España 9 años después",
-      "region": "spain",
-      "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/politica/20261022/11665313/comin-vuelve-espana-congreso-aplaza-exilio-domingo.html"
+      "url": "https://www.lavanguardia.com/politica/20261022/11665724/psoe-acepta-cara-cara-sanchez-feijoo-16-noviembre-medios-privados.html"
     },
     {
       "headline": "El PP crea con IA vídeos falsos de socialistas admitiendo delitos",
@@ -1236,22 +1232,22 @@
       "url": "https://www.lavanguardia.com/politica/20261022/11665185/alvarez-toledo-semper-acompanaran-feijoo-lista-madrid-elecciones-29-n.html"
     },
     {
-      "headline": "El PP hace equilibrios tras la controvertida visita de Milei",
+      "headline": "Lluís Puig retira el lazo amarillo y retoma su escaño en el Parlament",
       "region": "spain",
       "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/politica/20261022/11665479/pp-equilibrios-controvertida-visita-milei.html"
+      "url": "https://www.lavanguardia.com/politica/20261022/11665574/lluis-puig-remueve-lazo-amarillo-escano-reivindica-independentismo-atril.html"
     },
     {
-      "headline": "División en el seno de Comuns: Aina Vidal no repetirá como diputada en el Congreso",
+      "headline": "Illa se vio con Puig en privado tras su regreso a Catalunya, pero no habrá foto",
       "region": "spain",
       "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/politica/elecciones/20261022/11665345/aina-vidal-repetira-diputada-congreso-exclusion-genera-division-seno-comuns.html"
+      "url": "https://www.lavanguardia.com/politica/20261022/11665710/illa-vio-puig-privado-regreso-catalunya-habra-foto.html"
     },
     {
-      "headline": "EE.UU. e Israel se preparan para reanudar sus bombardeos sobre Irán",
+      "headline": "El Ibex cae un 2,1% y pierde los 19.000 puntos por el repunte del petróleo y las dudas tecnológicas",
       "region": "spain",
       "source": "La Vanguardia",
-      "url": "https://www.lavanguardia.com/internacional/20261022/11665606/ee-uu-e-israel-preparan-reanudar-bombardeos-sobre-iran.html"
+      "url": "https://www.lavanguardia.com/economia/20261022/11665745/ibex-cae-2-1-pierde-19-000-puntos-repunte-petroleo-dudas-tecnologicas.html"
     },
     {
       "headline": "Muere en Francia un hombre por el virus de Shamonda, el primer caso conocido en humanos",
@@ -1272,7 +1268,7 @@
       "url": "https://www.lavanguardia.com/internacional/20261022/11664802/plan-afd-desmantelar-ue-dinamitar-comision-eurocamara.html"
     },
     {
-      "headline": "La ciencia reescribe 'La noche estrellada' de Van Gogh",
+      "headline": "'La noche estrellada' de Van Gogh existió: la ciencia revela que fue el amanecer del 22 de julio del 1889",
       "region": "spain",
       "source": "La Vanguardia",
       "url": "https://www.lavanguardia.com/ciencia/20261022/11664247/ciencia-reescribe-noche-estrellada-gogh.html"
@@ -1368,64 +1364,70 @@
       "url": "https://www.lavanguardia.com/tecnologia/20261022/11663839/ia-inteligencia-artificial-endeudamiento-burbuja.html"
     },
     {
+      "headline": "Las rutas de senderismo más bonitas para fotografiar los colores del otoño",
+      "region": "spain",
+      "source": "La Vanguardia",
+      "url": "https://www.lavanguardia.com/magazine/viajes/20261022/11662595/rutas-senderismo-mas-bonitas-fotografiar-colores-otono.html"
+    },
+    {
+      "headline": "El Banco Europeo de Inversiones dobla su apuesta por la adaptación climática y presenta un plan de 30.000 millones",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261022/banco-europeo-inversiones-financiacion-adaptacion-climatica-millones-euros-135621741"
+    },
+    {
+      "headline": "Qué sabemos (y qué no) del Superniño en España: las incógnitas sobre lluvias, calor y otros desastres climáticos",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261022/efectos-supernino-espana-lluvias-calor-extremos-climaticos-135621176"
+    },
+    {
+      "headline": "Omar Sy, de vuelta con 'Lupin': \"Me sentí un poco culpable por el robo del Louvre\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261022/omar-sy-lupin-entrevista-temporada-4-135614436"
+    },
+    {
+      "headline": "Netflix pone fecha de estreno a la tercera parte de 'Lupin'",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/tele/yotele/20230420/netflix-fecha-estreno-tercera-parte-lupin-86268033"
+    },
+    {
+      "headline": "Un estudio astronómico da con el momento exacto en que se pintó 'La noche estrellada' de Van Gogh",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20261022/estudio-astronomico-momento-exacto-noche-estrellada-van-gogh-135631177"
+    },
+    {
+      "headline": "Álvaro Carmona, el científico que 'diagnostica' obras de arte: \"En 'Las Meninas' está retratada la enfermedad que padeció Messi de niño\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20260614/alvaro-carmona-cientifico-diagnostica-enfermedades-obras-arte-cuadros-131318863"
+    },
+    {
+      "headline": "Andreu Escrivà, ambientólogo: \"Pensar que el planeta existe para uso exclusivo de los seres humanos es un problema\"",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/sociedad/20260524/andreu-escriva-ambientologo-planeta-tierra-seres-humanos-sostenibilidad-130459922"
+    },
+    {
+      "headline": "Álex Palou protagonizará el anuncio oficial de la llegada de la IndyCar al Circuit de Catalunya",
+      "region": "spain",
+      "source": "El Periódico",
+      "url": "https://www.elperiodico.com/es/deportes/20261022/alex-palou-anuncio-oficial-indycar-circuit-catalunya-2027-135632207"
+    },
+    {
       "headline": "Lluís Puig vuelve al Parlament y retira el lazo amarillo de su escaño: \"Me sigo declarando independentista\"",
       "region": "spain",
       "source": "El Periódico",
       "url": "https://www.elperiodico.com/es/politica/20261022/lluis-puig-regreso-parlament-cataluna-135621301"
     },
     {
-      "headline": "DIRECTO Amnistía | Lluís Puig reaviva la causa independentista en el Parlament: \"Nada empieza ni acaba hoy\"",
+      "headline": "Argentina entra de nuevo en recesión y Milei llama \"imbéciles\" a los que hablan de la crisis",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/politica/20261022/carles-puigdemont-amnistia-ultima-hora-directo-135044373"
-    },
-    {
-      "headline": "El Tour 2027 comenzará el 2 de julio en Edimburgo: dureza extrema para encumbrar una sexta victoria de Pogacar",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/deportes/20261022/tour-2027-extrema-dureza-epica-tadej-pogacar-135620595"
-    },
-    {
-      "headline": "El Tour femenino 2027 aguarda a Paula Blasi repleto de montaña y con el Puy de Dôme",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/deportes/20261022/tour-femenino-2027-aguarda-paula-blasi-puy-dome-135617314"
-    },
-    {
-      "headline": "Studio Ghibli: emocionar al mundo desde la ecología, el pacifismo y la fantasía",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/ocio-y-cultura/studio-ghibli-magia-animacion-miyazaki-135593221-rm/index.html"
-    },
-    {
-      "headline": "Studio Ghibli o la poesía en la animación, por Quim Casas",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20260506/studio-ghibli-o-poesia-animacion-129903060"
-    },
-    {
-      "headline": "La 'ghiblimanía' desatada por ChatGPT caldea el Cómic Barcelona: \"Sin nuestros dibujos, la IA no es nada\"",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/cultura/pop/20250404/polemica-imagenes-chatgpt-estilo-ghibli-inteligencia-artificial-comic-ilustracion-116003583"
-    },
-    {
-      "headline": "La Plataforma para la Educación Mediática reclama al Govern una estrategia pública contra la desinformación",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/sociedad/20261022/plataforma-educacion-mediatica-exige-govern-estrategia-contra-desinformacion-135577835"
-    },
-    {
-      "headline": "Puente presume de que las obras en Rodalies han reducido las incidencias por las lluvias: de 630 en enero a 14 en octubre",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/economia/20261022/president-illa-ministro-oscar-puente-rodalies-traspaso-r1-135613589"
-    },
-    {
-      "headline": "Macron prohíbe todas las manifestaciones que no estén organizadas por los sindicatos",
-      "region": "spain",
-      "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/internacional/20261022/macron-servicios-inteligencia-disturbios-francia-protestas-135618560"
+      "url": "https://www.elperiodico.com/es/internacional/20261022/argentina-entra-recesion-milei-llama-imbeciles-crisis-135639766"
     },
     {
       "headline": "Las profesiones que buscan a los jóvenes y que quieren romper la brecha de género",
@@ -1452,16 +1454,16 @@
       "url": "https://www.elperiodico.com/es/deportes/20261022/gobierno-denuncia-tebas-tad-tuit-135632403"
     },
     {
-      "headline": "El Banco Europeo de Inversiones dobla su apuesta por la adaptación climática y presenta un plan de 30.000 millones",
+      "headline": "Agricultura pide calma ante el virus de Shamonda, con positivos en animales en Girona, Córdoba, Toledo, Cantabria, Madrid y Ávila",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/sociedad/20261022/banco-europeo-inversiones-financiacion-adaptacion-climatica-millones-euros-135621741"
+      "url": "https://www.elperiodico.com/es/sanidad/20261022/agricultura-espana-alerta-por-el-virus-shamonda-135635639"
     },
     {
-      "headline": "Qué sabemos (y qué no) del Superniño en España: las incógnitas sobre lluvias, calor y otros desastres climáticos",
+      "headline": "Virus shamonda: qué es, cómo se contagia y principales síntomas",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/sociedad/20261022/efectos-supernino-espana-lluvias-calor-extremos-climaticos-135621176"
+      "url": "https://www.elperiodico.com/es/sanidad/20261022/virus-shamonda-contagia-principales-sintomas-135625812"
     },
     {
       "headline": "Barcelona cerrará por falta de licencia el supermercado que relevó a la popular librería Ona de Gràcia",
@@ -1470,16 +1472,16 @@
       "url": "https://www.elperiodico.com/es/barcelona/20261022/barcelona-cierra-supermercado-relevo-libreria-ona-gracia-falta-licencia-135635260"
     },
     {
-      "headline": "Inspecció del Treball detecta que 105 vehículos de los jardineros de Barcelona circulan sin aire acondicionado y a temperaturas elevadas",
+      "headline": "Un vecino denuncia discriminación de un conductor de bus de Barcelona y el Síndic insta a cambiarlo de línea",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/barcelona/20261022/barcelona-calor-trabajadores-inspeccio-treball-vehiculos-aire-acondicionado-parques-jardines-135636691"
+      "url": "https://www.elperiodico.com/es/barcelona/20261022/vecino-discriminacion-conductor-bus-barcelona-sindic-cambiarlo-linea-135241525"
     },
     {
-      "headline": "Agricultura pide calma ante el virus de Shamonda, con positivos en animales en Girona, Córdoba, Toledo, Cantabria, Madrid y Ávila",
+      "headline": "El PSOE acepta el debate a cuatro de RTVE el 26 de noviembre y el 'cara a cara' en una TV privada el 16",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/sanidad/20261022/agricultura-espana-alerta-por-el-virus-shamonda-135635639"
+      "url": "https://www.elperiodico.com/es/politica/20261022/psoe-acepta-debate-cuatro-rtve-135638642"
     },
     {
       "headline": "Leo Messi ya saluda a Asturias: así ha sido la multitudinaria llegada del astro argentino al hotel Reconquista",
@@ -1500,22 +1502,22 @@
       "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261022/santiago-auseron-reivindica-rebetiko-genero-concierto-barcelona-135631690"
     },
     {
-      "headline": "Álex Palou protagonizará el anuncio oficial de la llegada de la IndyCar al Circuit de Catalunya",
+      "headline": "Studio Ghibli: emocionar al mundo desde la ecología, el pacifismo y la fantasía",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/deportes/20261022/alex-palou-anuncio-oficial-indycar-circuit-catalunya-2027-135632207"
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/studio-ghibli-magia-animacion-miyazaki-135593221-rm/index.html"
     },
     {
-      "headline": "Anticorrupción rechaza devolver el móvil al exjefe de gabinete de Sánchez en el PSOE",
+      "headline": "Macron prohíbe todas las manifestaciones que no estén organizadas por los sindicatos",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/politica/20261022/anticorrupcion-rechaza-devolver-movil-exjefe-gabinete-pedro-sanchez-caso-leire-diez-135631132"
+      "url": "https://www.elperiodico.com/es/internacional/20261022/macron-servicios-inteligencia-disturbios-francia-protestas-135618560"
     },
     {
-      "headline": "Un vecino denuncia discriminación de un conductor de bus de Barcelona y el Síndic insta a cambiarlo de línea",
+      "headline": "Inspecció del Treball detecta que 105 vehículos de los jardineros de Barcelona circulan sin aire acondicionado y a temperaturas elevadas",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/barcelona/20261022/vecino-discriminacion-conductor-bus-barcelona-sindic-cambiarlo-linea-135241525"
+      "url": "https://www.elperiodico.com/es/barcelona/20261022/barcelona-calor-trabajadores-inspeccio-treball-vehiculos-aire-acondicionado-parques-jardines-135636691"
     },
     {
       "headline": "Cerca de 50.000 trabajadores con discapacidad podrán anticipar su jubilación: \"Cada dolencia que entra en la lista es una alegría\"",
@@ -1530,16 +1532,16 @@
       "url": "https://woman.elperiodico.com/celebrities/isabel-diaz-ayuso-sueldo-600-euros-vivienda-135313987"
     },
     {
-      "headline": "Vox sitúa como candidato por Tarragona a un exdirigente de un partido neonazi acusado de un ataque racista a un centro de menores",
+      "headline": "Condis logra 305 millones para obtener liquidez y reforzar las tiendas que compró a Diges en Menorca y a Roges en Manresa",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/tarragona/20261022/vox-situa-candidato-tarragona-neonazi-ataque-racista-barcelona-135631486"
+      "url": "https://www.elperiodico.com/es/economia/20261022/condis-305-millones-liquidez-tiendas-diges-roges-correfour-135639487"
     },
     {
-      "headline": "Omar Sy, de vuelta con 'Lupin': \"Me sentí un poco culpable por el robo del Louvre\"",
+      "headline": "El Tour 2027 comenzará el 2 de julio en Edimburgo: dureza extrema para encumbrar una sexta victoria de Pogacar",
       "region": "spain",
       "source": "El Periódico",
-      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20261022/omar-sy-lupin-entrevista-temporada-4-135614436"
+      "url": "https://www.elperiodico.com/es/deportes/20261022/tour-2027-extrema-dureza-epica-tadej-pogacar-135620595"
     },
     {
       "headline": "Louis-Gabriel Nouchi, el 'enfant terrible' de la moda francesa debuta en la 080 con guiño a Almodóvar: \"Quiero que cada persona se sienta deseable\"",
@@ -1728,12 +1730,44 @@
       "url": "https://www.3cat.cat/3catinfo/medinya-podria-ser-independent-gracies-a-la-llei-de-memoria-democratica/noticia/3434824/"
     },
     {
+      "body": "Una setmana després d’activar els Bonus Consum, més de 70.000 barcelonins ja s’han registrat per obtenir-los. I d’entre tots ells, més de 14.000 ja els ha fet servir en alguna de les més de 1.900 botigues de barri que, de moment, s’han adherit a la iniciativa. La Pilar, de Sant Andreu, és una de les veïnes que s’ha beneficiat del descompte. Aquest dijous al matí ha pagat 50 € per un jersei que, sense el val de 10 € de l’Ajuntament, li hagués costat 60 € . Només ha hagut de registrar-se a la pàgina web del consistori per obtenir un codi QR que ha ensenyat a la botiguera a l’hora de pagar. També et pot interessar Com aconseguir i on gastar els Bonus Consum de 10 € abans que s’acabin Marina Segura i Vidal 2 minuts de lectura Incentiu per gastar més La iniciativa està ajudant els comerços de proximitat a fer caixa en un període de l’any (després de la tornada a l’escola) en què les famílies tenen la butxaca més escurada, explica l’Ana Sánchez, de la carnisseria J. Tena. “Els Bonus Consum animen la gent a comprar una mica més i, fins i tot, allò que a vegades no arriben a comprar”. “Funcionen bastant bé”, afegeix. De fet, hi ha clients que ho corroboren. L’Anton, que aquest dijous ha comprat a Carn + Carn del carrer Gran de Sant Andreu, confessa: “Pujaré una mica el consum per arribar almenys als 30 € “. És l’import mínim perquè es pugui aplicar el descompte. Són 10 € de regal que, segons l’Ajuntament, estan fent que de mitjana la gent es gasti 48,83 € en botigues de barri. Altres usuaris asseguren que “el descompte s’agraeix” en un context de gran escalada de preus. Més de mig milió d’euros en vendes En només una setmana s’han generat vendes valorades en gairebé 700.000 euros . Un cop gastat el primer val es pot optar a un total de dos descomptes més . Això sí, no són il·limitats i estan subjectes a un pressupost fix. Un cop s’esgoti, s’acabaran els descomptes, sense previsió de quan pot passar això encara. Després de les rebaixes de gener s’activarà una segona tongada de Bonus Consum amb les mateixes condicions. També et pot interessar Barcelona Oberta demana deixar de posar traves al comerç i facilitar l’activitat econòmica Olga Borràs Boada 3 minuts de lectura",
+      "date": "2026-10-22",
+      "headline": "Més de 14.000 barcelonins ja han fet servir els Bonus Consum: “El descompte s’agraeix”",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/14000-barcelonins-ja-han-fet-servir-bonus-consum/"
+    },
+    {
       "body": "Barcelona concentra 32 dels 100 barris que més diners dediquen a pagar el lloguer de tot Espanya, segons les darreres dades de l’Institut Nacional d’Estadística (INE). La despesa mitjana destinada a pagar l’habitatge a la ciutat assoleix el seu màxim a Pedralbes, amb 2.002 € mensuals . És la segona zona més cara de tot l’Estat. Completen el podi barceloní les Tres Torres , amb una despesa mitjana de 1.911 € i la zona oest de Sant Gervasi – Galvany , que es queda a certa distància, als 1.744 €. L’últim barri barceloní que consta a la llista és Provençals del Poblenou , amb un lloguer mitjà de 976 €. Són les darreres dades disponibles, corresponen al 2024 , el mateix any que va entrar en vigor el topall del lloguer , que regula els preus dels arrendaments a les zones tensionades com Barcelona. Es tenen en compte, només, les ciutats de més de 250.000 habitants i estan fraccionades per zones, que no necessàriament coincideixen amb els barris oficials. Més de 1.000 euros de diferència Entre el primer barri barceloní que consta a la llista, Pedralbes, i l’últim, Provençals del Poblenou , hi ha més de 1.000 euros de diferència . Concretament, 1.026 €. Els salts de preus són més acusats a les posicions més altes de la llista. Per exemple, entre l’oest de Sant Gervasi – Galvany (1.744 €) i Diagonal Mar i el Front Marítim del Poblenou (1.508), per exemple, hi ha 236 € de diferència. També et pot interessar Quant costaria un lloguer a Barcelona si no hi hagués un topall als preus? Roger Torres i Liñán 1 minut de lectura En canvi, entre els barris que ocupen les darreres posicions, la diferència és molt més petita , d’entre 1 i 29 €. Si comparem l’est de la Sagrada Família (993 €) amb la zona que ocupa la posició següent, l’est de la Vila de Gràcia (992 €), el cost només varia d’1 €. I en aquesta mateixa línia, hi ha una diferència de preu semblant entre l’est de la Sagrada Família i el barri que té immediatament al damunt, la Salut (997 €). En aquest cas, són 4 €. Madrid, al costat de Barcelona A més de Barcelona, hi ha una altra ciutat que també predomina a la llista de l’INE: Madrid . La ciutat encapçala el rànquing: el barri de Recoletos és el més car d’Espanya amb un cost mitjà del lloguer de 2.037 € . Supera, per poc, els preus de Pedralbes. La capital espanyola ocupa 63 llocs a la llista. Entre les dues ciutats, acaparen 94 posicions . Només s’hi colen tres punts més del territori espanyol: un barri de Màlaga (posició 40), un altre de València (48) i quatre zones de Palma. També et pot interessar El lloguer cau un 4,9 % a Barcelona des del topall, malgrat un repunt a quasi tota la ciutat Redacció 2 minuts de lectura",
       "date": "2026-10-22",
       "headline": "Preu dels lloguers: Barcelona concentra 32 dels barris més cars d’Espanya",
       "region": "barcelona",
       "source": "betevé",
       "url": "https://beteve.cat/economia/preu-lloguer-barcelona-concentra-32-barris-mes-cars-espanya/"
+    },
+    {
+      "body": "La 3a Jornada de la Plataforma per a l’Educació Mediàtica (PEM), celebrada avui dijous a la Biblioteca Sarrià – J. V. Foix de Barcelona, ha reunit experts, periodistes i representants d’entitats per reflexionar sobre l’ impacte de la desinformació en la democràcia i els reptes que planteja la irrupció de la intel·ligència artificial. La sessió, emmarcada en la Setmana Mundial de l’Alfabetització Mediàtica i Informacional de la Unesco, ha estat inaugurada per la presidenta de la PEM i vicepresidenta del Consell de l’Audiovisual de Catalunya (CAC), Laura Pinyol, i pel gerent de Biblioteques de Barcelona, Ferran Burguillos. Durant la jornada, Laura Pinyol i el director de Relacions Institucionals de la Xarxa Audiovisual Local (XAL), Xavier Casinos, han presentat el Manifest per unes polítiques públiques estratègiques d’alfabetització mediàtica i informacional (AMI) a Catalunya . El document reclama al govern de la Generalitat que situï l’alfabetització mediàtica al centre de l’agenda política i impulsi una estratègia estable per combatre la desinformació i reforçar el pensament crític de la ciutadania. També et pot interessar Barcelona crearà una unitat per combatre les notícies falses a les xarxes socials Marta Casals Torres Roger Torres i Liñán 1 minut de lectura Educació mediàtica per a tots els públics La plataforma, integrada per una cinquantena d’entitats i institucions dels àmbits de l’educació i la comunicació, alerta de l’ augment de la desinformació i de la proliferació de continguts falsos a través de xarxes socials, plataformes digitals i serveis de missatgeria. Segons el manifest, aquesta situació posa en risc el dret de la ciutadania a rebre una informació veraç i contrastada. Una de les principals novetats de la proposta és que l’educació mediàtica no es limita als centres educatius , sinó que s’estén al conjunt de la població. El manifest defensa programes de formació per a infants, joves, persones adultes i gent gran , amb una atenció especial als col·lectius més vulnerables davant les bretxes digitals i informatives. També et pot interessar Polítics i xarxes: “Si no s’assessoren poden convertir-se en un mem i objecte de burla social” Andrea Cuerva Bonich 1 minut de lectura La desinformació afecta els processos electorals La conferència inaugural ha anat a càrrec de la investigadora del CIDOB Carme Colomina, que ha analitzat l’impacte dels algoritmes i de les plataformes digitals en l’accés a la informació. Colomina ha alertat que la desinformació i la polarització incideixen directament en la qualitat dels processos democràtics i electorals . La jornada s’ha completat amb dues taules rodones sobre la lluita contra la desinformació i la seva influència en el vot de la ciutadania, així com amb una exposició dedicada a l’alfabetització mediàtica i a l’ús responsable de les pantalles. Entre les entitats adherides al manifest hi ha betevé , que comparteix la demanda de la Plataforma per a l’Educació Mediàtica perquè l’alfabetització mediàtica i informacional esdevingui una prioritat de les polítiques públiques.",
+      "date": "2026-10-22",
+      "headline": "La Plataforma per a l’Educació Mediàtica reclama una estratègia pública contra la desinformació",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/cultura/plataforma-educacio-mediatica-reclama-estrategia-publica-contra-desinformacio/"
+    },
+    {
+      "body": "La seu de l’Institut d’Estudis Catalans acull aquesta setmana la primera reunió per revisar i redactar la nova Declaració Universal dels Drets Lingüístics. Es tracta d’un text que vetlla per les llengües minoritàries i per totes aquelles que no tenen garantida la seva conservació. Experts i intel·lectuals de tot el món són a Barcelona per debatre les millores i correccions que necessita el text definitiu. La cimera està organitzada pel Pen Català i el Centre Internacional Escarré per a les Minories Ètniques i les Nacions (Ciemen). També et pot interessar Irídia, Òmnium i l’ANC denuncien una “vulneració de drets lingüístics” en el judici de Roger Español Núria Granados 1 minut de lectura Les xarxes socials i la globalització, esculls per a les llengües minoritàries La trobada actualitza el text tenint en compte els reptes amb què moltes llengües conviuen actualment. Per exemple, un dels grans esculls són les xarxes socials, que homogeneïtzen les llengües majoritàries i agreugen la situació de la resta. Per això, els experts de la cimera parlen de persones amb més vulnerabilitat lingüística, que són aquelles que es comuniquen amb llengües que tenen risc de perdre força o, fins i tot, de desaparèixer. Jordi Garrell , director del Ciemen, assenyala que estan fent “un procés d’actualització i una crida a un col·lectiu intel·lectual i d’entitats i associacions i del món acadèmic internacional perquè facin aquelles aportacions que permetin tenir una visió actualitzada del document”. D’aquesta manera, volen que el text es converteixi en “un punt de referència a l’hora de legislar ampliacions de constitucions “. De fet, el projecte aspira que les Nacions Unides adoptin formalment aquesta declaració. També et pot interessar L’ús del català és minoritari entre els joves durant les activitats esportives o de lleure Redacció 1 minut de lectura",
+      "date": "2026-10-22",
+      "headline": "Barcelona acull la primera trobada per revisar la Declaració Universal dels Drets Lingüístics",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/barcelona-acull-cimera-per-revisar-declaracio-universal-drets-linguistics/"
+    },
+    {
+      "body": "(ACN) Inspecció de Treball ha constatat que l’Institut Municipal de Parcs i Jardins de Barcelona no compleix els requisits mínims de seguretat laboral perquè una part dels vehicles que utilitza la plantilla no disposen de sistemes de climatització . Així ho recull un informe de l’organisme del 15 de setembre elaborat arran d’una denúncia de la CGT . D’aquesta manera, Inspecció de Treball ha requerit a l’empresa municipal que corregeixi les deficiències detectades en els vehicles sense aire condicionat i garanteixi la protecció dels treballadors durant els episodis de calor. També et pot interessar La CGT denuncia desprotecció dels treballadors municipals davant les onades de calor Sandra García Prat 2 minuts de lectura Dos treballadors amb cops de calor Segons la CGT, 127 vehicles van superar els 40 graus a l’interior durant l’estiu i almenys dos treballadors van patir cops de calor . El sindicat va presentar la denúncia abans que es produïssin aquestes incidències laborals i va demanar que es tramités amb caràcter d’urgència. Tot i això, la resolució d’Inspecció de Treball no va arribar fins al setembre. Aquesta conclou que Parcs i Jardins ha establert unes condicions de treball que no compleixen amb els requisits mínims de seguretat establerts per la normativa d’aplicació. Així mateix, assenyala que els vehicles afectats no disposen de climatització, fet que exposa els treballadors a temperatures elevades a l’interior durant els mesos d’estiu. Tant els representants de l’empresa com els del comitè d’empresa van reconèixer aquesta situació durant les compareixences que consten en el document. També et pot interessar Barcelona reparteix polseres per prevenir cops de calor entre els treballadors de Parcs i Jardins Redacció 2 minuts de lectura El 58 % té aire condicionat, diu l’Ajuntament L’Ajuntament assegura que el 58 % de la flota té aire condicionat gràcies que Parcs i Jardins ha impulsat una inversió per instal·lar sistemes de climatització als vehicles. El consistori assegura que s’estan estudiant projectes d’inversió i mesures per estendre l’aire condicionat a més vehicles. Pel que fa als vehicles que aquest estiu encara no disposaven de sistemes de climatització, l’Ajuntament afirma que es va seguir un protocol de prevenció de riscos adaptat a les temperatures. També et pot interessar La CGT denuncia que dos treballadors de Parcs i Jardins han patit cops de calor mentre treballaven Arnau Vaqué 1 minut de lectura Mesures condicionades pel pressupost Durant la investigació , els responsables de Parcs i Jardins van explicar que preveuen instal·lar sistemes de climatització en alguns vehicles i substituir progressivament els que no es poden adaptar. Segons l’informe, però, aquestes actuacions estan condicionades per limitacions pressupostàries que poden dependre també de l’Ajuntament de Barcelona. També et pot interessar El servei de neteja treballarà com a màxim 20 minuts consecutius en episodis de calor extrema Roger Torres i Liñán 1 minut de lectura",
+      "date": "2026-10-22",
+      "headline": "Inspecció de Treball insta Parcs i Jardins a corregir la falta de climatització a part dels vehicles",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/inspeccio-treball-instar-parcs-jardins-falta-climatitzacio-part-vehicles/"
     },
     {
       "body": "Triar el nom d’un fill no sempre és fàcil. Cal trobar-ne un que convenci i, en cas que hi hagi dos progenitors , posar-se d’acord. Una tasca que es pot convertir en una missió impossible. A banda, com en tot, també hi ha modes . Júlia, Martina, Emma i Sofia van ser els noms femenins més posats l’any 2025 a Catalunya. Els masculins : Biel, Nil, Marc i Jan. Però hi ha noms que sonen antics, que eren populars fa gairebé un segle i que s’estan tornant a posar. Passa als Estats Units , on un estudi va assenyalar el retorn de noms com Eleanor, Violet, Nora i Hazel. Una tornada progressiva durant el segle XXI després de dècades pràcticament desapareguts . El professor de la UB, Jordi Muñoz , va voler comprovar si això també passa amb els noms catalans . Amèlia ha multiplicat per 15 la popularitat Noms com Victòria, Amèlia, Aurora i Emília s’havien convertit en residuals a finals del segle passat . En canvi, en les últimes dècades han multiplicat la seva popularitat. Alguns de manera sorprenent, com Amèlia, que es posa 15 vegades més que en el seu punt més baix. Comencen a tornar també els noms de besàvies catalanes? https://t.co/ix8m3WhrIb pic.twitter.com/bVmqqe8xuL &mdash; Jordi Muñoz (@jordimunozm) October 14, 2026 Tot i això, es tracta de noms que segueixen lluny dels més posats. Almenys, per ara. Victòria és un nom que porten tres de cada mil nenes que han nascut en aquesta dècada. Júlia , el més popular, s’ha posat, en el mateix període de temps, a més de 15 de cada mil nenes. També et pot interessar El nom de Mercè, copatrona de Barcelona, ja no es posa a les nenes Clara Vera Colina Marina Sancho 2 minuts de lectura També hi ha noms masculins que remunten el vol En el cas dels noms d’home, també hi ha exemples que segueixen el mateix patró. Mateu ha multiplicat per 13 la seva popularitat. D’altres, com Tomàs, Elies i Fèlix , van tenir el seu punt més baix als anys 80 i 90 del segle passat, però encadenen dècades de crescuda. Tal com passa en els noms femenins, també queden lluny dels més posats. Tomàs és el nom de dos de cada mil nens catalans nascuts a partir del 2020 . En canvi, hi ha més de 13 de cada mil nens nascuts en aquesta dècada que es diuen Nil, el nom més posat . També et pot interessar Quins són els cognoms més comuns a Barcelona el 2026? Consulta-ho en aquesta llista Eva Vial 1 minut de lectura Quins són els noms que han desaparegut? L’investigador de l’ Institut de Biologia Evolutiva de la UPF , Francesc Calafell , ha explicat al programa bàsics que la tendència és que els noms més posats siguin cada vegada més curts. Per contra, indica que “s’han perdut els compostos”. Noms com Josep Maria o Maria del Carme , que havien estat dels més triats, estan prop de desaparèixer . L’efecte dels noms dels famosos Calafell ha apuntat, també, que quan un personatge guanya molta popularitat , pot produir un efecte directe en la freqüència d’us del seu nom. L’efecte pot ser en positiu, com va passar amb Leo durant els anys que Messi jugava al Barça , però també pot ser en negatiu. És el cas, per exemple, de la relació directe entre l’aparició d’ Aïda Nízar , exconcursant de Gran Hermano percebuda com a antipàtica , i la reducció en l’ús d’aquest nom durant els anys posteriors al concurs . Recupera l’entrevista a Francesc Calafell",
@@ -1808,36 +1842,16 @@
       "url": "https://beteve.cat/esports/triatlo-sense-fronteres-participara-amb-35-persones-al-challenge-barcelona/"
     },
     {
-      "body": "Una guitarra, una veu i la poesia com a territori compartit. Laura Marchal ens visita amb Toni Abellán abans del seu concert al Festival Jazz de Barcelona, aquest dissabte, 24 d’octubre, al Jamboree. Una conversa amb música en acústic per descobrir què passa quan el flamenc es troba amb la cançó pròpia i amb les paraules d’altres temps. Nascuda a Alcalá la Real, formada a Sevilla i establerta a Barcelona, la cantaora parla de les arrels que travessen la seva música i del camí que l’ha portada a escriure les cançons de La semilla del encanto . També ens acostem a la seva manera d’entendre el cant com a un espai de calma, memòria i llibertat creadora. Federico García Lorca ocupa un lloc central en la conversa. Seguim el recorregut del Pequeño vals vienés , que Leonard Cohen i Enrique Morente van portar als seus universos musicals i que Marchal ha enregistrat amb Víctor Franco i Alba Armengou. Aquest fil ens condueix al projecte discogràfic que prepara al voltant de la generació del 27, als escriptors i escriptores que està llegint i als poemes que connecten amb les seves inquietuds actuals. La cita al Jamboree reunirà Toni Abellán a la guitarra i Jesús Campos a la percussió, amb convidats com Pau Figueras, Ana Colom i Federico Vannini. Parlem de les complicitats entre aquests músics, del diàleg entre flamenc i jazz i de les sorpreses que prepara per a les dos sessions, a les 19 h i a les 20.45 h.",
-      "date": "2026-10-22",
-      "headline": "Laura Marchal porta el seu flamenc d’autor al Jamboree abans del Festival Jazz de Barcelona",
+      "headline": "Com aconseguir i on gastar els Bonus Consum de 10 € abans que s’acabin Marina Segura i Vidal 2 minuts de lectura",
       "region": "barcelona",
       "source": "betevé",
-      "url": "https://beteve.cat/tot-passa/laura-marchal-porta-el-seu-flamenc-dautor-al-jamboree-abans-del-festival-de-jazz-de-barcelona/"
+      "url": "https://beteve.cat/economia/com-aconseguir-on-gastar-bonus-consum-10-euros/"
     },
     {
-      "body": "(ACN) Gairebé dos de cada 10 catalans (18,2 %) es canviarien de seient al transport públic si al costat s’hi assegués una persona sense llar, en comparació del 15,4 % del conjunt d’Espanya. És una de les dades de l’informe territorial de l’Enquesta d’indicadors nacionals d’aporofòbia (EINA), elaborat per AporoLAB (IQS School of Management), amb la col·laboració de la Fundació La Caixa. L’estudi analitza situacions quotidianes d’aporofòbia , és a dir, el rebuig, aversió, por o menyspreu cap a les persones pobres, sense recursos o en situació de sensellarisme. La mitjana d’actituds aporofòbiques és superior a Catalunya que a la resta de l’estat, tal com ha explicat a l’ACN el codirector d’AporoLAB i degà de l’IQS School of Management, Flavio Comim. També et pot interessar Arrels alerta que el 80 % de les persones que viuen al carrer ha patit alguna agressió Maria Solans 1 minut de lectura L’informe es basa en 953 entrevistes a Catalunya , fetes entre maig i agost del 2026, i compara els resultats amb una mostra estatal de 6.000 persones. Es tracta del primer referent al món que separa entre creences, actituds i opinions polítiques. El codirector d’AforoLAB ha remarcat que hi haurà “problemes més seriosos” per reduir l’aporofòbia a Catalunya que a la resta de l’estat: “La gent és conscient que parla malament de les persones pobres i s’han naturalitzat les actituds quotidianes” , ha apuntat. Pel que fa a la relació entre l’augment de l’extrema dreta i l’aporofòbia, Comim ha remarcat que les persones de dretes a Espanya són gairebé quatre vegades més aporofòbiques . També et pot interessar La fiscalia alerta de l’augment de delictes d’aporofòbia 20 anys després del crim del caixer Redacció 2 minuts de lectura Una “càrrega” per als serveis públics L’informe mostra altres conclusions, com ara que el 9,4 % de catalans atribueix la pobresa a la mandra o a la manca de principis morals. A més, el 8,5 % de catalans descriu les persones pobres com a moralment inferiors o amb addiccions. A Espanya, és el 10,2 %. Finalment, el 32,8 % de catalans considera que les persones pobres són una càrrega per als recursos i serveis públics. El percentatge és pràcticament igual al d’Espanya, del 33,1%. També et pot interessar L’Hospital del Mar obre una unitat pionera per a persones sense llar Clara Aliaguilla 2 minuts de lectura Aporofòbia juvenil El jovent és el grup amb més respostes negatives en diversos indicadors. El 20,2 % dels joves de 18 a 24 anys descriu les persones pobres com a moralment inferiors o amb addiccions . Entre les persones de 65 anys o més, el percentatge baixa al 4,5 %. A més, el 23,8 % dels joves es canviaria de lloc al transport públic si s’hi assegués una persona sense llar.",
-      "date": "2026-10-22",
-      "headline": "Un 18 % dels catalans canviaria de lloc al transport públic si al costat s’hi assegués un sensellar",
+      "headline": "Barcelona Oberta demana deixar de posar traves al comerç i facilitar l’activitat econòmica Olga Borràs Boada 3 minuts de lectura",
       "region": "barcelona",
       "source": "betevé",
-      "url": "https://beteve.cat/societat/18-per-cent-catalans-canviaria-lloc-transport-public-costat-persona-sense-llar/"
-    },
-    {
-      "body": "A betevé notícies t’expliquem què està passant a Barcelona amb una mirada àgil, connexions en directe i informació del temps destacada. El rigor, la professionalitat i la proximitat continuen sent els pilars dels informatius de betevé.",
-      "date": "2026-10-22",
-      "headline": "betevé notícies migdia",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/btv-noticies-migdia/beteve-noticies-migdia-741/"
-    },
-    {
-      "body": "Arriba la festa de la Castanyada 2026 i el Halloween a Barcelona ! Els diferents barris de la ciutat han preparat desenes d’activitats per viure la nit més terrorífica de l’any, celebrar la Castanyada i la nit de Tots Sants. Prepara la teva disfressa de por, els panellets i les castanyes i suma’t a la proposta que més t’agradi! Et detallem què fer a Barcelona per la Castanyada i Halloween 2026. Què fer a Barcelona per la Castanyada i Halloween 2026 Halloween 2026 al Poble Espanyol Halloween 2026 al Tibidabo Túnel del terror a la Trinitat Vella “HalloQueer” Castanyera a La Pedrera Concert de Halloween al Palau de la Música Halloween al Phenomena Halloween als Encants i túnel del terror Nit d’ànimes de Porta Espectacle familiar al Magatzem d’Arts Halloween al Casino l’Aliança Cursa de bèsties del Clot Escape room terrorífics Festes als carrers Concerts de Halloween Candellight Castanyada als barris Altar del Dia de Morts, al Consolat de Mèxic Passatge Terrorífic i Rutes Truc o Tracte Sant Antoni Castanyada als Jardins de Can Ferrero ‘Nit d’ànimes’, a la Casa Sagnier Passatge de la Sedeta Desfilada de “Catrines” a la Rambla Halloween 2026 al Poble Espanyol Creepy Family El Poble Espanyol et proposa gaudir del Halloween ! Torna Creepy per celebrar el Halloween 2026 , que atemorirà un any més els visitants. L’espectacle ofereix la versió diürna, dirigida al públic familiar (versió Haunted ) i una altra a partir de la tarda vespre, més apropiada per a un públic jove i adult (versió Scream ). Quan?: 17, 18, 24 i 25 i 31 d’octubre i 1 de novembre, de 10 a 17 h i de 17 a 21 h. Preu: de 12,5 a 16,5 €. Què has de saber?: segons l’horari que escullis per entrar als túnels misteriosos, el nivell de por variarà: – de 10 h a 18 h versió HAUNTED, amb un enfocament més lúdic i un nivell d’ensurts suau (recomanat a partir de 3 anys). -de 18 h a 21 h versió SCREAM, amb una mica més d’intensitat, per a qui busca emocions més fortes (recomanat a partir de 7 anys). La Zona El Poble Espanyol obre les portes de La Zona, la seva experiència de terror més pertorbadora. Quan?: 16 i 23 d’octubre (a les 20 h), 30 d’octubre (a les 19 h) i 31 d’octubre (a les 20.30 h). Última entrada de 23 a 23.40 h, depèn de l’aforament. Preu: a partir de 24 €. Què has de saber?: és aconsellable ser major d’edat, si ets menor, has d’entrar acompanyat per un adult Festa Mascarada El Poble Espanyol organitza també la quarta edició de la festa Mascarada. Una nit amb una acurada selecció musical i en la qual s’anima els assistents a portar una màscara per submergir-se en el concepte de Mascarada. Dissabte 31 d’octubre, de 23 h a 6 h. Halloween 2026 al Tibidabo El Tibidabo es vesteix de Halloween !, aquí algunes de les propostes: L’Últim Ball:&nbsp; és un&nbsp; espectacle de por per a totes les edats on els zombis més terrorífics envaeixen el Tibidabo. Del 3 d’octubre al 8 de novembre . Inclòs amb entrada al parc. Dissabtes a les 20.30 h i diumenges a les 19.30 h. Hotel 666 : L’hotel més misteriós de Barcelona et dona la benvinguda perquè visquis una estada única. Passeja per les habitacions d’un hotel abandonat en el qual habiten&nbsp; personatges icònics del cinema del terror . Diferents horaris dies d’obertura del parc. Beyond : l’ atracció de realitat virtual immersiva , també s’apunta a la temporada de Halloween. Descobreix&nbsp; Traumatika , una experiència de terror única i plena de zombis. Túnel del terror a la Trinitat Vella 2026 Ja és tot un clàssic! Torna el túnel més terrorífic ! El trobaràs a la Trinitat Vella, en concret al Centre Cívic. Quan? La cita serà el divendres 30 d’octubre de 2026 , de 19 a 0 h. A partir dels 8 anys. Amb reserva prèvia presencial al Centre Cívic de Trinitat Vella fins al 9 d’octubre. Entrades prioritàries pels veïns de Trinitat Vella. “HalloQueer” 2026 L’Esquerra de l’Eixample celebrarà una nova edició del Halloween de la diversitat, la igualtat i la unió. El Gaixample acollirà una fira amb els comerços de barri, entitats i artesans. Quan? Dissabte 24 d’octubre de 2026, a la plaça d’Universitat Horari : D’11 a 1 h Què has de saber?: Hi haurà de tot vermutada, concerts, bingo, maquillatge de terror, drag queen i molt més Castanyera a La Pedrera Aquesta any la Castanyera visita La Pedrera i omple l’edifici d’objectes de la tardor! Sabràs trobar-los a dins de la casa més singular d’Antoni Gaudí? Descobreix La Pedrera a través de reptes. Activitat els dies 10, 12, 17, 24 i 31 d’octubre, a les 10 h . Entrades, 9.50 € (menors de 3 anys, gratuït). Concert de Halloween al Palau de la Música: Psicosi El Palau de la Música programa una nova edició del concert de Tots Sants amb Cinema de terror, a càrrec de l’Orquestra Simfònica del Vallès. &gt;&gt; Dissabte, 31 d’octubre, a les 18.30 h . Sessió sorpresa per halloween, al Phenomena La sala de cinema Phenomena torna a programar una sessió doble sorpresa , per la nit de halloween. Projectaran dues pel·lícules de terror. &gt;&gt; Dissabte 31 d’octubre, a partir de les 22 h. Halloween als Encants i Túnel del Terror Un any més el Mercat dels Encants celebra Halloween! El 30 y 31 de octubre no t’ho pensis i entra a Circus, un passatge terrorífic ambientat en la història dels Encants. Un antic circ ha despertat i els seus personatges estan esperant que hi vagis… t’hi atreveixes? I aconseguiràs sortir…? Estigues al cas al web del Mercat dels Encants, perquè hi trobaràs molt aviat les reserves disponibles ! &gt;&gt; Divendres 30, de 16 a 19 h i dissabte 31, d’11 a 14 i 16 a 19 h. Nit d’Ànimes de Porta Saps que a Porta preparen cada any, a Can Verdaguer, activitats per a tots els gustos i edats per celebrar la castanyada i halloween? Divendres 23 i dissabte, 24 d’octubre (gratuït), Plaça de Sóller. Divendres 23 d’octubre, castanyada infantil. 17.30 h: tallers de manualitats, beguda terrorífica, queimada i castanyada. | 18.30 h: túnel de terror infantil, per a menors de 14 anys i apte per a persones amb alta sensibilitat a llum i colors. Dissabte 24 d’octubre, túnel de la por. 18 h: Contenció 13 (per a majors de 14 anys). Una experiència de terror per a persones adultes que posarà a prova la vostra capacitat per sortir-ne, els sistemes de contenció fallen i les cel·les s’han obert… L’últim grup podrà entrar a les 20.30 h. Espectacle familiar al Magatzem d’Ars Una castanyada de por és l’espectacle familiar del Magatzem d’Ars per aquests dies de Tots Sants. Els més petits podran gaudir d’una història que gira al voltant de la història de la castanyera , que, com cada any, baixa de la muntanya i quan arriba a la ciutat s’adona que els nens estan més interessats en les disfresses i les llaminadures de Halloween. Per evitar que l’oblidin, la castanyera pren una sèrie de decisions, algunes poc encertades. &gt;&gt; Dissabtes i diumenges, del 17 d’octubre a l’1 de novembre. Festival Boca per a adolescents El festival dedicat als joves presenta una edició especial per a la nit de Halloween. És una festa de joves d’entre els 14 i 18 anys. Hi haurà música urbana, electrònica i indie amb Ultralone, Soumeya i L4, compartint cartell amb CUTEMOBB, que presentarà a NARA ZOE amb Kenzo Jr i Leïti com a convidats. >> Dissabte, 31 d’octubre de 18 a 22 h . Monumental Club edició Halloween Nit terrorífica especial al Monumental Club. Hi haurà concurs de disfresses , el directe de Los Ganglios , aquellare de Dj’s amb Hal9000, Siria DJ i Asia Knox . També hi haurà la versió per nens amb el Monumental Kids , on la programació que començarà a les 12 h amb Dj’s i xou infanti de Siameses i DJ Xau. >> Monumental Club . Dissabte, 31 d’octubre, de 15 a 23 h. La Monumental >> Monumental Kids . Dissabte, 31 d’octubre, a partir de les 12 h. La Monumental Gran Social Halloween al Casino l’Aliança No et perdis el programa d’activitats que han preparat al Casino l’Aliança del Poblenou, amb concurs de disfresses inclòs! Una festa diferent de halloween, on ballar salsa, timba cubana, bachata i música de DJ Papi. Una festa per ballar de por! 22.30 h: Taller Misteriós de Ball 23 h: Salsa & Bachata Session amb Animacions a càrrec de La Casa Del Son 1.30 h: Concurs de Disfresses 2 h: Closing Retro Hits & Latin Commercial Embruixat Cursa de bèsties de foc dels diables del Clot Coincidint amb aquestes dates els diables del Clot celebren la seva cursa de bèsties de foc (dins la festa major). Si no ets de castanyes ni halloween… aprofita aquesta cita que coincideix per dates! &gt;&gt; 31 d’octubre, a les 17 h, al carrer de Consell de Cent (Entre Independència i Meridiana). Escape room terrorífics Els coneguts popularment com a escape room continuen tenint molts seguidors. N’hi ha per a tots els gustos: de ciència, fantasia, intriga i, evidentment, també n’hi ha de por. Mira, remena i tria el que més t’agradi… o el que més por et faci! Festes als carrers de Gràcia i Sants Les comissions dels carrers que guarneixen per la Festa Major de Gràcia i per la Festa Major de Sants , també organitzen les seves pròpies festes (podeu trobar tota la informació a les seves xarxes socials): Carrer Verdi del Mig (Gràcia): Dissabte 31 d’octubre. Festa de la castanyada i dia de morts. 12 h vermut musical. 17 h castanyada i muntatge de l’altar. 18 h tardeo. 20 h botifarrada i DJ a les 22 h. Ves-hi disfressat i porta el teu got! Carrer de la Perla (Gràcia): Dissabte 31 d’octubre. Dia de Morts. 19 h. Tacos, música i altar de morts. Carrer Llibertat (Gràcia): Dissabte 31 d’octubre. Castaween. 18 h. Ets més de castanyada o de halloween? no escullis! Consulta més festes de la Castanyada als centres cívics de la ciutat Candlelight: música de Halloween Concerts de Halloween amb un repertori de melodies de por a l’església del Sagrat Cor . El concert inclourà peces com Thriller, de Michael Jackson; Psycho , de Bernard Herrmann; el tema de Stranger things; una selecció de Malson abans de Nadal ; Danse macabre , de Saint-Saëns, i Night on Bald Mountain , de Mussorgski.&nbsp;&nbsp; &gt;&gt; 30 d’octubre del 2026, a les 19 i 21 h. Castanyada als barris Els diferents barris de la ciutat es bolquen per celebrar la castanyada, amb infinitat de propostes gratuïtes. Aquí pots consultar els enllaços del recull d’activitats que es fan, per districtes . Castanyada a Nou Barris Castanyada a Gràcia Castanyada a Sarrià – Sant Gervasi Castanyada a Sants-Montjuïc Castanyada a les Corts Castanyada a Ciutat Vella Castanyada a Sant Martí Castanyada a l’Eixample Castanyada a Horta-Guinardó Castanyada a Sant Andreu &gt;&gt;Tot el que has de saber de la castanyada als barris Altar del Dia dels Morts, al Consolat de Mèxic de Barcelona A Mèxic,&nbsp;el dia de Tots Sants&nbsp; se celebra de manera molt diferent . Se l’anomena el&nbsp; Dia de Morts &nbsp;i és una jornada festiva per recordar els difunts. Els mexicans instal·len&nbsp; altars en honor dels&nbsp;morts&nbsp;de la família , on s’ofrenen aliments, espelmes, flors i objectes d’ús quotidià del difunt. Per això, un any més, el Consolat de Mèxic a Barcelona torna a fer l’Altar del Dia de Morts, obert a visites en horari d’oficina el dijous 29 i divendres 30 d’octubre i el dilluns 2 i dimarts 3 de novembre . el dimarts 27 (a partir 19 h) i i dimecres 28 d’octubre (a partir 16 h) també es podrà visitar però amb reserva prèvia a entradium (els menors de 13 anys no cal que reservin entrada). Passatge Terrorífic i Ruta Truc o Tracte a Sant Antoni Un any més, entra al passatge terrorífic dels comerços del barri de Sant Antoni i passa-hi molta por! Es farà davant el mercat de Sant Antoni! L’ entrada és gratuïta per als infants de fins a 120 cm i també podràs aconseguir passis gratuïts comprant a les botigues de SOM Sant Antoni, Encants o Mercat de Sant Antoni. &gt;&gt; Dissabte 31 d’octubre 2026, de 17 a 21 h. Plaça de Conxa Pérez Collado. Gratuït &gt;&gt; Divendres 30 d’octubre de 17 a 20 h, es farà la Ruta Truc o Tracte de l’associació de comerciants Som Sant Antoni. Els petits podran recollir caramels i omplir el seu cartró visitant les botigues de SOM Sant Antoni. &gt;&gt; Divendres 30 d’octubre de 17 a 20 h, també hi haurà la ruta de castaween de l’associació de comerciants Sant Antoni Comerç (SAC) perquè els infants recullin caramels als establiments participants. Festa de la castanyada als Jardins de Can Farrero Castanyes, festa i molt de ritme faran d’aquesta festa popular i tradicional la més divertida de La Marina. Hi haurà un munt d’activitats, entre les quals una animació musical per a tota la família (ZUM del grup d’animació La Tresca i La Verdesca), i castanyes calentes per a tothom. &gt;&gt; Divendres, 30 d’octubre de 2026, a partir de les 17.30 h i fins 19 h. Gratuït . Nit d’ànimes, a la Casa Sagnier Atreveix-te a entrar al túnel del terror&nbsp;més terrorífic! Cada any, els adolescents del casal Dimecres Joves ens demostren el seu talent organitzant un túnel del terror que et farà tremolar de por! Activitat oberta a partir de 8 anys. Els menors de 12 anys han de venir acompanyats d’un adult.&nbsp;No cal inscripció. L’activitat està adreçada a partir dels 8 anys. Els menors de 12 anys hauran d’anar acompanyats d’una persona adulta. Gratuït sense inscripció. &gt;&gt; Divendres 30 d’octubre, de 17.30 a 20 h Nit d’Ànimes · Túnel del terror. Passatge del terror a La Sedeta Els alumnes de l’Institut Vila de Gràcia preparen aquesta activitat terrorífica al Centre Cívic La Sedeta. (En cas d’haver-hi molta cua, quan quedin 20 minuts pel tancament s’avisarà a la gent si podrà entrar o no). Gratuït . &gt;&gt; Dimecres, 28 d’octubre, de 17 a 19 h . L’accés és fa per ordre d’arribada i no hi ha reserva prèvia.&nbsp; Desfilada de Catrinas: nova ubicació! Un any més, per Tots Sants, torna la desfilada de Catrinas que es fa tradicionalment pel Dia de Morts a Mèxic. Però amb una novetat, a causa de les obres de les Rambles, es farà en una nova ubicació: el Port Vell! El recorregut serà des del World Trade Centre fins a l’estàtua de Colon. L’organitza Mexcat Barcelona. &gt;&gt; Diumenge 1 de novembre, al Port Vell (des del World Trade Center fins a Colon) a la tarda (horari pendent de confirmar).",
-      "date": "2026-10-22",
-      "headline": "Castanyada i Halloween 2026: Què fer a Barcelona? Activitats més destacades",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/agenda/castanyada-halloween-barcelona/"
+      "url": "https://beteve.cat/economia/barcelona-oberta-demana-deixar-posar-traves-comerc/"
     },
     {
       "headline": "Quant costaria un lloguer a Barcelona si no hi hagués un topall als preus? Roger Torres i Liñán 1 minut de lectura",
@@ -1850,6 +1864,54 @@
       "region": "barcelona",
       "source": "betevé",
       "url": "https://beteve.cat/economia/lloguer-barcelona-cau-4-per-cent-topall-pero-repunta-segon-trimestre-2025/"
+    },
+    {
+      "headline": "Barcelona crearà una unitat per combatre les notícies falses a les xarxes socials Marta Casals Torres Roger Torres i Liñán 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/barcelona-creara-unitat-fake-news-xarxes-socials/"
+    },
+    {
+      "headline": "Polítics i xarxes: “Si no s’assessoren poden convertir-se en un mem i objecte de burla social” Andrea Cuerva Bonich 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/politics-xarxes-si-no-assessoren-mem-objecte-burla-social/"
+    },
+    {
+      "headline": "Irídia, Òmnium i l’ANC denuncien una “vulneració de drets lingüístics” en el judici de Roger Español Núria Granados 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/denuncien-vulneracio-drets-linguistics-judici-espanol/"
+    },
+    {
+      "headline": "L’ús del català és minoritari entre els joves durant les activitats esportives o de lleure Redacció 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/us-catala-minoritari-joves-activitats-lleure-esport/"
+    },
+    {
+      "headline": "La CGT denuncia desprotecció dels treballadors municipals davant les onades de calor Sandra García Prat 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/cgt-denuncia-desproteccio-treballadors-municipals-calor/"
+    },
+    {
+      "headline": "Barcelona reparteix polseres per prevenir cops de calor entre els treballadors de Parcs i Jardins Redacció 2 minuts de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/societat/ajuntament-barcelona-reparteix-polseres-prevenir-cops-calor-parcs-jardins/"
+    },
+    {
+      "headline": "La CGT denuncia que dos treballadors de Parcs i Jardins han patit cops de calor mentre treballaven Arnau Vaqué 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/economia/cgt-denuncia-cops-calor-treballadors-parcs-jardins/"
+    },
+    {
+      "headline": "El servei de neteja treballarà com a màxim 20 minuts consecutius en episodis de calor extrema Roger Torres i Liñán 1 minut de lectura",
+      "region": "barcelona",
+      "source": "betevé",
+      "url": "https://beteve.cat/politica/mesures-calor-extrema-servei-neteja-treballara-maxim-20-minuts-consecutius/"
     },
     {
       "headline": "El nom de Mercè, copatrona de Barcelona, ja no es posa a les nenes Clara Vera Colina Marina Sancho 2 minuts de lectura",
@@ -1874,60 +1936,6 @@
       "region": "barcelona",
       "source": "betevé",
       "url": "https://beteve.cat/societat/fenomens-extrems-disparen-serveis-bombers-barcelona/"
-    },
-    {
-      "headline": "Gairebé 200 sensellar van pernoctar en allotjaments d’emergència pels aiguats d’octubre a Barcelona Roger Torres i Liñán 1 minut de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/politica/gairebe-200-sensellar-pernoctar-allotjaments-emergencia-aiguats-octubre-barcelona/"
-    },
-    {
-      "headline": "Centenars de persones sense llar es refugien de les pluges torrencials a la parròquia de Santa Anna Laura Suñol 2 minuts de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/societat/persones-sense-llar-refugien-pluja-torrencial-parroquia-santa-anna/"
-    },
-    {
-      "headline": "fa costat amb Manolo González abans de visitar el Racing de Santander",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/esports/pol-lozano-capitans-espanyol-defensa-feina-manolo-gonzalez/"
-    },
-    {
-      "headline": "suport del vestidor a l’entrenador Manolo González",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/esports/aficio-espanyol-tanca-files-manolo/"
-    },
-    {
-      "headline": "Dani Jarque ja té el seu espai al Museu de Cera de Barcelona Redacció Esports 2 minuts de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/esports/dani-jarque-espai-museu-cera-barcelona/"
-    },
-    {
-      "headline": "va aprovar apujar la taxa als creuers d’escala",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/politica/barcelona-declara-guerra-creuers-escala-ple-aprova-encarir-taxa-turistica/"
-    },
-    {
-      "headline": "Troben una arma de foc a plena llum del dia i abandonada al mig del carrer a l’Eixample Núria Granados 1 minut de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/societat/troben-arma-foc-mig-carrer-eixample/"
-    },
-    {
-      "headline": "Detinguts dos homes per dos robatoris violents en una farmàcia i una fleca d’Horta-Guinardó | VÍDEO Núria Granados 1 minut de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/societat/detinguts-dos-robatoris-violents-comercos-horta-guinardo/"
-    },
-    {
-      "headline": "Arrenca l’Any Gaudí: consulta les activitats més destacades d’aquest 2026 Guillem Martínez 3 minuts de lectura",
-      "region": "barcelona",
-      "source": "betevé",
-      "url": "https://beteve.cat/cultura/any-gaudi-2026-activitats-destacades/"
     },
     {
       "headline": "A presó provisional dos homes per una agressió sexual a una dona sense llar a Barcelona",
@@ -1996,7 +2004,7 @@
       "url": "https://www.totbarcelona.cat/societat/barcelona-tancara-super-llibreria-ona-gracia-llicencia-748561/"
     },
     {
-      "headline": "Última hora | Els 15 dipòsits fluvials de la ciutat es van omplir i buidar dues vegades i mitja entre el 3 i el 5 d’octubre",
+      "headline": "Última hora | TMB reforça els busos als cementiris per Tots Sants: dates i línies afectades",
       "region": "barcelona",
       "source": "Tot Barcelona",
       "url": "https://www.totbarcelona.cat/societat/ultima-hora-tota-actualitat-ajuntament-ciutat-barris-724851/"
@@ -2162,6 +2170,12 @@
       "region": "barcelona",
       "source": "El Periódico Barcelona",
       "url": "https://www.elperiodico.com/es/barcelona/20261022/el-gran-centro-comercial-mataro-parc-reclama-mas-de-300-millones-al-ayuntamiento-por-frenar-la-ampliacion-135632449"
+    },
+    {
+      "headline": "Vox sitúa como candidato por Tarragona a un exdirigente de un partido neonazi acusado de un ataque racista a un centro de menores",
+      "region": "barcelona",
+      "source": "El Periódico Barcelona",
+      "url": "https://www.elperiodico.com/es/tarragona/20261022/vox-situa-candidato-tarragona-neonazi-ataque-racista-barcelona-135631486"
     },
     {
       "headline": "Área Metropolitana",
@@ -2852,168 +2866,6 @@
       "region": "extras",
       "source": "The New Barcelona Post",
       "url": "https://www.thenewbarcelonapost.cat/valor-coses-necessiten-temps-artesania-moda/"
-    },
-    {
-      "headline": "Ofereixen proves gratuïtes per conscienciar sobre la detecció precoç de patologia hepàtica",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/ofereixen-proves-gratuites-per-conscienciar-sobre-deteccio-precoc-de-patologia-hepatica"
-    },
-    {
-      "headline": "El Suprem confirma l’aixecament de les ordres de detenció contra Puigdemont, Comín i Puig",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/suprem-confirma-aixecament-ordre-detencio-contra-puigdemont-puig-comin-aplicacio-amnistia"
-    },
-    {
-      "headline": "Espanya i Itàlia acorden posar fi als controls fronterers als vols i les connexions marítimes",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/espanya-i-italia-acorden-posar-fi-controls-fronterers-vols-connexions-maritimes"
-    },
-    {
-      "headline": "Lluís Puig torna a Terrassa: \"Hem d’estar tots amnistiats\"",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/puig-torna-terrassa-hem-estar-tots-amnistiats"
-    },
-    {
-      "headline": "Rafael Grasa: “Ja n’hi ha prou d’una Unió Europea que parla, que diu coses que no són certes, i que s’enganya”",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/rafael-grasa-ja-n-hi-ha-prou-d-una-unio-europea-que-parla-que-diu-coses-que-no-son-certes-i-que-s-enganya-"
-    },
-    {
-      "headline": "Les llars monomarentals pateixen un risc més elevat d'exclusió residencial",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/llars-monomarentals-pateixen-risc-mes-elevat-exclusio-residencial"
-    },
-    {
-      "headline": "Comín promet en català davant la JEC acatar la Constitució “pel mandat de l’1 d’Octubre i per imperatiu legal”",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/comin-des-de-madrid-despres-de-9-anys-exili-espanya-ha-capitulat-i-aquesta-batalla-hem-guanyat-nosaltres-"
-    },
-    {
-      "headline": "Francesc Millán: \"Pensar en una Europa alliberada dels Estats Units és utòpic\"",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/francesc-millan-pensar-europa-alliberada-estats-units-es-utopic-"
-    },
-    {
-      "headline": "Rodalies en temps de descompte: la factura milionària d'una xarxa vulnerable al clima extrem",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/rodalies-temps-descompte-factura-milionaria-xarxa-vulnerable-clima-extrem"
-    },
-    {
-      "headline": "Francisca Valenzuela:",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/en-la-maternitat-hi-ha-un-dol-mort-un-mateix?redirect=%2F"
-    },
-    {
-      "headline": "\"L'avortament a Brasil és una política de mort i persecució\"",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/lillah-halla-avortament-brasil-una-politica-mort-persecucio?redirect=%2F"
-    },
-    {
-      "headline": "Meritxell Neddermann:",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/meritxell-neddermann-soc-incapac-crear-res-no-ressoni-meva-veritat-interna?redirect=%2F"
-    },
-    {
-      "headline": "Marta Duran Lozano:",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/marta-duran-avortament-adolescencia-tambe-pot-ser-tragicomedia?redirect=%2F"
-    },
-    {
-      "headline": "“Amb l’escena de la Penélope Cruz vaig tenir malsons”",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/amb-escena-penelope-cruz-vaig-tenir-malsons?redirect=%2F"
-    },
-    {
-      "headline": "Assassinat al teatre, Clarice Lispector, sèries de culte i noves escenes al Poblenou",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/assassinat-teatre-clarice-lispector-series-culte-noves-escenes-poblenou"
-    },
-    {
-      "headline": "'Les Culpables': un retrat col·lectiu sobre l'avortament adolescent",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/les-culpables-retrat-col-lectiu-sobre-avortament-adolescent"
-    },
-    {
-      "headline": "Lillah Halla \"L'avortament a Brasil és una política de mort i persecució\"",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/lillah-halla-avortament-brasil-una-politica-mort-persecucio"
-    },
-    {
-      "headline": "Meritxell Neddermann “Soc incapaç de crear res que no ressoni amb la meva veritat interna”",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/meritxell-neddermann-soc-incapac-crear-res-no-ressoni-meva-veritat-interna"
-    },
-    {
-      "headline": "José Maldonado transforma el flamenc en un llenç viu amb 'Guacamayo'",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/jose-maldonado-transforma-flamenc-en-un-llenc-viu-amb-guacamayo-"
-    },
-    {
-      "headline": "El cos com a projecte: què intentem canviar quan ens modifiquem la pell?",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/cos-com-projecte-que-intentem-canviar-quan-modifiquem-pell"
-    },
-    {
-      "headline": "Josep Maria Castellet, una obra que transcendeix",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/josep-maria-castellet-una-obra-que-transcendeix"
-    },
-    {
-      "headline": "Marta Duran Lozano “L'avortament en l’adolescència també pot ser una tragicomèdia”",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/marta-duran-avortament-adolescencia-tambe-pot-ser-tragicomedia"
-    },
-    {
-      "headline": "Què estaries disposat a fer per la fama?",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/que-estaries-disposat-fer-fama"
-    },
-    {
-      "headline": "El somni americà de Dana Lixenberg",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/somni-america-dana-lixenberg"
-    },
-    {
-      "headline": "El fundador de la Legió torna a la vida en el cos d’una dona basca",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/fundador-legio-torna-vida-en-cos-d-dona-basca"
-    },
-    {
-      "headline": "La llum d'una vida a 'Morning Sun'",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/la-llum-d-una-vida-a-morning-sun"
-    },
-    {
-      "headline": "La Fundació Pere Tarrés formarà sobre ciberdelinqüència a majors de 65 anys",
-      "region": "extras",
-      "source": "Diari de Barcelona",
-      "url": "https://www.diaridebarcelona.cat/w/fundacio-pere-tarres-formara-sobre-ciberdelinquencia-majors-65"
     }
   ],
   "date": "2026-10-22"

@@ -3,94 +3,76 @@
     {
       "stories": [
         {
-          "body": "Russia launched a major missile attack on Kyiv and other Ukrainian regions hours after Vladimir Putin told US envoy Steve Witkoff that Moscow was prepared in principle to resume trilateral talks with the United States and Ukraine after 10 November. At least two people were killed and 22 wounded in Kyiv, where strikes damaged homes, energy infrastructure, a bridge, an ambulance station and other civilian sites; Odesa's port was also hit. President Volodymyr Zelenskyy said the attack showed Russia had not changed its approach to the war and called for more air defences, Patriot interceptors and sanctions, while Ukraine's foreign minister said flattery and appeasement would not stop Russian aggression.",
-          "headline": "Russia strikes Kyiv hours after signalling readiness to resume Ukraine peace talks",
+          "body": "Two people were killed and eight wounded when a Houthi attack struck King Fahd International Airport in Dammam, while two others died after Saudi air defences intercepted a drone targeting Saudi Aramco's Shaybah oilfield. The Iran-aligned Houthis said they had also targeted other Saudi airports, the defence ministry and Aramco facilities, as Saudi Arabia and its allies reported intercepting additional drones. Reports that Aramco evacuated staff from its Dhahran headquarters, alongside Iranian claims of attacks on vessels in the Gulf and mines near the Strait of Hormuz, heightened concern about energy supplies: Brent crude rose 3% to about $112 a barrel, its highest level since May.",
+          "headline": "Iran-linked attacks in Saudi Arabia kill four and push oil to a five-month high",
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
-            },
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
-            },
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war"
-            }
-          ]
-        },
-        {
-          "body": "Houthi drone and missile attacks killed two people at King Fahd International Airport in Dammam and two more when debris from an intercepted drone fell near an Aramco oil facility, Saudi authorities said. The Houthis also claimed attacks against Saudi defence and energy targets, while the United States ordered some diplomats and family members to leave Saudi Arabia because of attacks on civilian airports and critical infrastructure. The violence, along with reported Iranian attacks on vessels and mines near the Strait of Hormuz, pushed Brent crude above $112 a barrel as markets feared further disruption to global oil supply.",
-          "headline": "Houthi attacks kill civilians in Saudi Arabia as regional conflict threatens oil supplies",
-          "sources": [
-            {
-              "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/cqwy71ww156ro"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
             },
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/tres-morts-en-nous-atacs-a-larabia-saudita-a-un-aeroport-i-a-una-explotacio-petrolifera/noticia/3435488/"
             }
           ]
         },
         {
-          "body": "Iran's Revolutionary Guard says it has shifted from a defensive posture to an offensive and asymmetric doctrine, warning that a new attack could bring retaliation as well as operations against countries hosting US military bases. The announcement came amid continuing attacks on shipping around the Strait of Hormuz, Houthi strikes in Saudi Arabia and reports that the US and Israel are considering further attacks on Iran after the US midterm elections. President Donald Trump denied that negotiations with Tehran were under way but said the conflict could be resolved fairly soon; Iran says its missile stockpile and capabilities have expanded since the 2025 war.",
-          "headline": "Iran adopts an offensive military doctrine as Trump hints at possible action",
+          "body": "Russia and Ukraine traded large drone and missile attacks hours after US envoy Steve Witkoff met Vladimir Putin in St Petersburg and said Moscow had agreed in principle to resume talks with Kyiv and Washington after 10 November. Ukrainian authorities said Russian strikes on Kyiv killed at least two people and wounded 22, damaging homes, energy infrastructure, a bridge, an ambulance station and other sites; Moscow said it intercepted 630 Ukrainian drones aimed at the Russian capital. President Volodymyr Zelenskyy said the use of ballistic missiles, including cluster munitions, demonstrated that Russia was not serious about peace and called for stronger air defences and sanctions.",
+          "headline": "Russia and Ukraine exchange major strikes as Moscow agrees to resume trilateral talks",
           "sources": [
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent"
+              "name": "France 24",
+              "url": "https://www.france24.com/en/ukraine-and-russia-exchange-strikes-after-us-envoy-visit-to-the-kremlin"
             },
             {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?update=5073785"
+              "name": "France 24",
+              "url": "https://www.france24.com/en/russia-agrees-to-resume-trilateral-peace-talks-on-ukraine-war"
             },
             {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/internacional/20261022/11665606/ee-uu-e-israel-preparan-reanudar-bombardeos-sobre-iran.html"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
             }
           ]
         },
         {
-          "body": "Authorities, companies and website operators are rushing to patch security flaws in PHP, the programming language used by roughly 70% of websites. Researchers say the vulnerabilities had existed for years and may be difficult for people to exploit, but artificial intelligence could make exploitation much easier; major security companies have already recorded millions of attempted attacks. No successful breach linked to the flaws has yet been publicly confirmed, but the disclosure of the bugs before patching was complete has created an urgent race between defenders and attackers, especially because older PHP installations may need upgrading before they can apply the fix.",
-          "headline": "Governments race to patch serious PHP vulnerabilities affecting millions of websites",
+          "body": "President Emmanuel Macron said demonstrations called by people or groups without recognised authority would be prohibited in the coming days, while union-backed marches could proceed under legal conditions and with altered routes. The measures follow violent cost-of-living protests and looting last weekend, which Macron blamed in part on people seeking to loot and on ultra-left groups seeking to destabilise the state. Authorities have already imposed restrictions in Lyon, Marseille, Nice and Toulon, and a Paris march has been barred from entering the city centre; Macron is due to convene a defence council to decide further measures before planned Saturday demonstrations.",
+          "headline": "Macron seeks to ban unauthorised protests after violent unrest in France",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/internacional/20261022/macron-servicios-inteligencia-disturbios-francia-protestas-135618560"
+            }
+          ]
+        },
+        {
+          "body": "Two newly disclosed vulnerabilities in PHP, the language that underpins a large share of the web and platforms including WordPress, have prompted hosting providers and site operators to apply emergency mitigations and patches. Researchers found the flaws with assistance from advanced AI models and had planned a coordinated disclosure while fixes were prepared, but news leaked before the patch window was complete. There are no confirmed successful attacks, though security firms have recorded millions of attempted exploits; authorities and experts are urging owners to update immediately, with older PHP installations needing upgrades before they can receive the relevant fix.",
+          "headline": "Major PHP vulnerabilities put millions of websites at risk",
           "sources": [
             {
               "name": "BBC News",
               "url": "https://www.bbc.com/news/articles/cw98z6qlyvg3o"
             },
             {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/technology/20261022-backbone-of-the-web-what-is-php-and-how-has-it-raised-ai-hacking-fears"
-            },
-            {
               "name": "3Cat",
               "url": "https://www.3cat.cat/3catinfo/en-risc-milions-de-webs-del-mon-per-dues-vulnerabilitats-a-php-un-dels-llenguatges-mes-utilitzats/noticia/3435453/"
-            }
-          ]
-        },
-        {
-          "body": "President Emmanuel Macron said only demonstrations organised by authorised unions would be permitted in many French cities this weekend after protests over living costs and school conditions were followed by rioting, looting and damage to businesses and historic buildings. Cities including Lyon and Nice have imposed broader bans, while police deployments will rise by 20%. Authorities say about 2,700 people were arrested during last weekend's disorder and more than 1,000 have appeared in court, with fast-track proceedings drawing criticism from lawyers who say overwhelmed courts leave too little time to prepare cases.",
-          "headline": "France limits weekend protests to authorised union demonstrations after violent unrest",
-          "sources": [
-            {
-              "name": "BBC News",
-              "url": "https://www.bbc.com/news/articles/cvde8g40xx42o"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/22/fallout-fast-tracking-french-rioting-cases"
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/vida/20261022/11665346/que-php-como-utiliza-lenguaje-programacion-desatado-alarma-global-ciberseguridad.html"
             }
           ]
         },
         {
-          "body": "France has reported the first documented human infection with Shamonda virus, a livestock virus transmitted by biting midges that has been found in cattle, sheep, goats and other animals. The patient, who had a severely weakened immune system, died this month, and investigators are examining whether the infection caused or contributed to neurological complications and how it was acquired. French and European health authorities say the case appears exceptional, with no evidence of sustained human-to-human transmission and no identified risk to the general public, though further surveillance and research are under way.",
-          "headline": "France reports first known human Shamonda virus infection, with no wider public-health risk identified",
+          "body": "French authorities have identified the first documented human infection with Shamonda virus, a midge-borne virus previously known mainly in livestock such as cattle, sheep and goats. The patient, who had a severely compromised immune system and died in early October, experienced neurological complications that officials believe were very likely linked to the infection, although investigations continue into its role in the death and how it was acquired. French, European and World Health Organization officials say the case appears exceptional, there is no evidence of sustained human-to-human transmission, and the current risk to the public is low.",
+          "headline": "France reports first known human case of Shamonda virus",
           "sources": [
             {
               "name": "France 24",
@@ -101,8 +83,8 @@
               "url": "https://www.theguardian.com/world/2026/oct/22/shamonda-virus-detected-in-human-first-time-france"
             },
             {
-              "name": "3Cat",
-              "url": "https://www.3cat.cat/3catinfo/mor-a-franca-una-persona-infectada-pel-virus-de-shamonda-primer-cas-detectat-en-humans/noticia/3435596/"
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c6reyx1d9ge9o"
             }
           ]
         }
@@ -112,8 +94,8 @@
     {
       "stories": [
         {
-          "body": "Wedgewood Polls admitted it fabricated its survey data after an investigation by polling outlet FiftyPlusOne, raising questions about how bogus polls were used by campaigns, donors, media aggregators and prediction markets. Its results had been included by major aggregators and circulated in political coverage, and candidates said they had real consequences: former Michigan Senate candidate Mallory McMorrow said a false poll showing her support collapsing damaged fundraising and volunteer morale. FiftyPlusOne says it had vetted the firm's stated methodology and founders but was misled by fraudulent raw data, highlighting the vulnerability of election coverage to unverified polling.",
-          "headline": "Fake polling firm may have influenced campaign narratives and fundraising in the 2026 elections",
+          "body": "Wedgewood Polls admitted that it fabricated its polling data after being confronted by the polling-analysis site FiftyPlusOne, raising questions about how false surveys entered campaign coverage and polling aggregators. Its polls were cited by outlets including The New York Times and Politico and may have affected donor confidence, volunteer morale and narratives in several races. Michigan Democrat Mallory McMorrow said a false poll showing her support collapsing helped dry up donations and contributed to her exit from the Senate primary, while other Wedgewood surveys were promoted in races in Wisconsin and Mississippi. The episode has intensified concerns that unverified polling can distort political strategy, prediction markets and public perceptions in future primaries.",
+          "headline": "Fake polling firm may have influenced midterm narratives and campaign decisions",
           "sources": [
             {
               "name": "Politico",
@@ -126,22 +108,26 @@
           ]
         },
         {
-          "body": "Republicans have spent about $677 million on broadcast advertising in 10 key Senate battlegrounds, compared with $479 million for Democrats, but their dependence on outside groups means their money buys less airtime. Candidates and party committees can receive lower broadcast rates, while super PACs pay more, allowing strongly funded Democratic candidates to remain competitive despite a Republican advantage in outside spending. In states including Ohio, Texas and Michigan, the GOP's dollar advantage translates into only a modest majority of ads on air; Republican strategists also say some late ad purchases made by MAGA Inc. increased costs further.",
-          "headline": "Republicans' Senate spending edge buys fewer television ads than expected",
+          "body": "Across more than two dozen statewide debates, Democratic candidates repeatedly tied Republicans to President Donald Trump and blamed tariffs and the war with Iran for higher fuel and consumer costs, while Republican candidates varied in how closely they embraced the president. Candidates in several states also found rare bipartisan common ground in opposing or restricting data-centre development, favouring local control and safeguards against higher utility bills. The campaign debates also exposed a broader decline in the practice, with major-party candidates in several competitive states declining invitations or failing to agree on formats.",
+          "headline": "Midterm debates put affordability, Iran and data centres at the centre of state races",
           "sources": [
             {
               "name": "Politico",
-              "url": "https://www.politico.com/news/2026/10/21/senate-republicans-cash-advantage-television-01128724"
+              "url": "https://www.politico.com/news/2026/10/22/senate-governor-debates-midterms-takeaways-01131948"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/22/michigan-senate-debate-key-takeaways-from-el-sayed-rogers-clash"
             }
           ]
         },
         {
-          "body": "Georgia Republicans are relying on billionaire healthcare executive Rick Jackson, who has spent nearly $200 million on his gubernatorial campaign, to prevent a broader Democratic sweep in the state. Jackson remains in a close race with Democrat Keisha Lance Bottoms while Republicans fear their Senate candidate, Mike Collins, is falling behind Senator Jon Ossoff and other statewide contests may also be vulnerable. GOP strategists say Jackson has tried to focus on Georgia issues and associate himself with outgoing Governor Brian Kemp rather than Donald Trump, whose visits they worry could energise Democratic voters and alienate undecided moderates.",
-          "headline": "Georgia Republicans look to self-funding governor candidate Rick Jackson to limit wider losses",
+          "body": "Republicans have spent substantially more than Democrats on broadcast advertising in 10 key Senate battleground states, but much of that advantage is diluted because GOP spending relies more heavily on outside groups, which pay higher rates than campaigns and political parties. Republican groups have spent $677 million versus $479 million for Democrats, yet in states including Ohio, Texas and Michigan their spending share has translated into only a modestly larger share of ads on air. Strong Democratic candidate fundraising and lower candidate rates have helped offset Republican super-PAC money, while some GOP strategists say late reservations by Trump-aligned MAGA Inc. made airtime even more expensive.",
+          "headline": "Democrats' lower ad rates blunt Republicans' television spending advantage",
           "sources": [
             {
               "name": "Politico",
-              "url": "https://www.politico.com/news/2026/10/21/rick-jackson-georgia-trump-midterms-01128445"
+              "url": "https://www.politico.com/news/2026/10/21/senate-republicans-cash-advantage-television-01128724"
             }
           ]
         }
@@ -151,8 +137,26 @@
     {
       "stories": [
         {
-          "body": "Spain's conservative Popular Party has released an AI-generated campaign video that imitates the images and voices of socialist politicians and figures close to the government, making them appear to admit wrongdoing. The video, titled \"Leftists and Proud,\" was a response to a real PSOE video in which Pedro Sánchez embraced the label \"left-wing\" after Argentine President Javier Milei's visit. The PP's video depicts figures including Begoña Gómez, José Luis Ábalos, José Luis Rodríguez Zapatero and Santos Cerdán, prompting the PSOE to condemn the tactic as another step in a campaign based on personal attacks and misinformation.",
-          "headline": "Spain's PP uses AI-generated videos impersonating socialist figures in escalating campaign tactic",
+          "body": "Spain's Socialist Party has accepted a four-candidate election debate on RTVE on 26 November and a head-to-head debate between Prime Minister Pedro Sánchez and Popular Party leader Alberto Núñez Feijóo on private media on 16 November. The PSOE says both events are indispensable and has accused the PP of trying to veto the public broadcaster, while the parties remain divided over the venue for the four-way contest, which would also include Vox and Frente Amplio. The agreements come less than 40 days before the 29 November general election.",
+          "headline": "Sánchez accepts four-way RTVE debate and a head-to-head with Feijóo",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261022/ultima-hora-politica-espana-directo-gobierno-hoy-cronica/17277466.shtml"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20261022/psoe-acepta-debate-cuatro-rtve-135638642"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261022/11665724/psoe-acepta-cara-cara-sanchez-feijoo-16-noviembre-medios-privados.html"
+            }
+          ]
+        },
+        {
+          "body": "The Popular Party has released an AI-generated campaign video that imitates the images and voices of Socialist leaders and people connected to the government, making them appear to admit to alleged wrongdoing. The video, branded \"Lerdos y orgullosos,\" parodies a real Pedro Sánchez campaign video that reclaimed the insult \"zurdos\" for the left. PSOE spokesperson Rebeca Torró condemned the production as lamentable and said the PP was extending a strategy of personal attacks and falsehoods; reporting described it as the first known use by a Spanish political party of AI to impersonate political figures in this way.",
+          "headline": "Spain's PP uses AI-generated videos impersonating Socialist figures",
           "sources": [
             {
               "name": "El País",
@@ -165,44 +169,26 @@
           ]
         },
         {
-          "body": "Argentine President Javier Milei's visit to Madrid has become a flashpoint in Spain's pre-election campaign after he called Prime Minister Pedro Sánchez an \"unpresentable dictator\" and embraced Madrid regional president Isabel Díaz Ayuso. Sánchez's Socialist Party used the visit to rally its supporters, while the national leadership of the Popular Party sought to avoid making Milei central to the campaign, arguing that the PSOE was using the dispute to distract from domestic concerns. Some PP figures acknowledge that Milei's rhetoric could mobilise progressive voters, even as others praise or defend his political message.",
-          "headline": "Javier Milei's Madrid visit injects new tension into Spain's election campaign",
-          "sources": [
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-22/milei-agita-la-campana-con-insultos-a-sanchez-y-abrazos-a-ayuso.html"
-            },
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-22/el-pp-confia-en-que-el-impacto-de-la-visita-de-milei-se-diluya-el-29-n-si-llega-a-venir-la-ultima-semana-seria-distinto.html"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/politica/20261022/11665479/pp-equilibrios-controvertida-visita-milei.html"
-            }
-          ]
-        },
-        {
-          "body": "Spain and Italy have agreed not to extend reciprocal border controls on flights and passenger sea connections that were introduced in August after thousands of migrants entered Ceuta from Morocco. Italy initially imposed the checks on travellers arriving from Spain, and Madrid responded with equivalent controls on travellers from Italy. Following talks between the two countries' interior ministers and earlier discussions between Pedro Sánchez and Giorgia Meloni, the governments said the controls would end and be replaced by stronger information-sharing to protect the Schengen area.",
-          "headline": "Spain and Italy agree to lift border controls imposed during the Ceuta migration crisis",
+          "body": "Spain and Italy have agreed not to extend the reciprocal border controls imposed on flights and passenger sea links after the Ceuta migration crisis in late July. Italy introduced checks in early August in response to the arrival of thousands of migrants in Ceuta from Morocco, and Spain retaliated with comparable controls on travellers arriving from Italy. Following talks between Prime Minister Pedro Sánchez and Italian Prime Minister Giorgia Meloni, the countries' interior ministers agreed to restore normal Schengen movement while strengthening information-sharing and other security cooperation.",
+          "headline": "Spain and Italy agree to lift border controls imposed during Ceuta crisis",
           "sources": [
             {
               "name": "El País",
               "url": "https://elpais.com/espana/2026-10-22/espanol-e-italia-acuerdan-levantar-los-controles-fronterizos-a-vuelos-y-las-conexiones-maritimas.html"
             },
             {
-              "name": "El Mundo",
-              "url": "https://www.elmundo.es/espana/2026/10/22/6ad9c768fdddff962b8b45a2.html"
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261022/11665273/italia-espana-levantan-bloqueo-schengen.html"
             },
             {
-              "name": "Diari de Barcelona",
-              "url": "https://www.diaridebarcelona.cat/w/espanya-i-italia-acorden-posar-fi-controls-fronterers-vols-connexions-maritimes"
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/10/22/6ad9c768fdddff962b8b45a2.html"
             }
           ]
         },
         {
-          "body": "Spanish National Police found 74 undocumented migrants, including 10 unaccompanied minors, living in overcrowded and unsanitary conditions in an apartment in Ceuta's El Príncipe neighbourhood. Officers arrested a local man suspected of leading a criminal network that allegedly held migrants while arranging irregular transfers to mainland Spain and may have exploited adults and children for labour. Police said some minors had suffered physical abuse, including dog bites, and the investigation involves alleged offences relating to irregular migration, labour rights, injuries and child labour exploitation.",
-          "headline": "Police find 74 migrants, including 10 children, crowded into a Ceuta apartment",
+          "body": "Spanish National Police found 74 migrants living in overcrowded and precarious conditions in an apartment in Ceuta's El Príncipe neighbourhood, including 54 men, 10 women and 10 unaccompanied minors. Police arrested a Ceuta resident suspected of leading a criminal network that housed migrants while awaiting opportunities to move them illegally to mainland Spain. Investigators say some minors may have suffered physical abuse, including dog bites, and are examining alleged labour exploitation of both children and adults.",
+          "headline": "Police find 74 migrants, including 10 children, overcrowded in Ceuta apartment",
           "sources": [
             {
               "name": "RTVE",
@@ -217,24 +203,6 @@
               "url": "https://www.elmundo.es/espana/2026/10/22/6ada0335fc6c83d4428b45b6.html"
             }
           ]
-        },
-        {
-          "body": "The Popular Party has named Cayetana Álvarez de Toledo and Borja Sémper as second and third, respectively, on Alberto Núñez Feijóo's Madrid list for the 29 November general election. The pairing brings together two prominent but distinct currents within the party: Álvarez de Toledo is seen as a harder-line figure who may appeal to voters near Vox, while Sémper is associated with a more centrist profile. The PP described the list as evidence that it can accommodate different political sensibilities while presenting a broad alternative to the Sánchez government.",
-          "headline": "Spain's PP places Cayetana Álvarez de Toledo and Borja Sémper behind Feijóo on its Madrid ticket",
-          "sources": [
-            {
-              "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-22/alvarez-de-toledo-y-semper-seran-los-numeros-dos-y-tres-de-feijoo-en-la-lista-por-madrid.html"
-            },
-            {
-              "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/20261022/listas-pp-feijoo-29n-cayetana-alvarez-semper/17267600.shtml"
-            },
-            {
-              "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/politica/20261022/11665185/alvarez-toledo-semper-acompanaran-feijoo-lista-madrid-elecciones-29-n.html"
-            }
-          ]
         }
       ],
       "title": "Spain"
@@ -242,8 +210,8 @@
     {
       "stories": [
         {
-          "body": "The Spanish and Catalan governments say they will take another formal step next week toward transferring the R1 commuter rail line, which runs from Barcelona through the Maresme to Maçanet-Massanes, to Catalonia. Transport Minister Óscar Puente called the transfer irreversible and said a new Renfe service contract worth about €460 million annually would be approved on Tuesday, alongside Catalan government approval. Both sides are trying to complete the R1 arrangement before Spain's 29 November election, amid concern that a change in national government could complicate pending Rodalies transfers and financing.",
-          "headline": "Catalonia and Spain say the Rodalies R1 transfer agreement will be signed next week",
+          "body": "Spain's transport minister, Óscar Puente, and Catalan president Salvador Illa said the transfer of the R1 Rodalies line is irreversible and could be completed soon, with the relevant bilateral commission expected to meet before the 29 November general election. Puente said a new Renfe programme contract, setting services and annual financial obligations of roughly €460 million through 2028, is scheduled for approval next Tuesday. The R1, which connects Barcelona through the Maresme to Maçanet-Massanes, is intended to be the first infrastructure transfer in the broader Rodalies de Catalunya arrangement, whose joint operating company is expected to begin service in 2027.",
+          "headline": "Catalonia's planned transfer of the R1 commuter-rail line moves toward signature",
           "sources": [
             {
               "name": "3Cat",
@@ -256,22 +224,8 @@
           ]
         },
         {
-          "body": "Social organisations in Catalonia are calling on authorities to guarantee accessible, safe and nearby shelter for people living on the streets, in vehicles, settlements or shacks during heavy-rain and other severe-weather alerts. A coalition of homelessness and harm-reduction groups says emergency advice to stay indoors exposes the inequality faced by people without housing, estimating that nearly 24,000 people in Catalonia are homeless. They want emergency accommodation without barriers related to documentation, pets or personal belongings and greater involvement of outreach and homelessness teams in civil-protection planning; nearly 200 unhoused people used emergency accommodation in Barcelona during October's storms.",
-          "headline": "Social groups demand equal weather-emergency protection for Barcelona's unhoused residents",
-          "sources": [
-            {
-              "name": "betevé",
-              "url": "https://beteve.cat/societat/demanen-garantir-refugi-persones-sense-llar-durant-alertes/"
-            },
-            {
-              "name": "betevé",
-              "url": "https://beteve.cat/politica/gairebe-200-sensellar-pernoctar-allotjaments-emergencia-aiguats-octubre-barcelona/"
-            }
-          ]
-        },
-        {
-          "body": "Barcelona contains 32 of Spain's 100 areas with the highest average rents, according to National Statistics Institute data for 2024, led by Pedralbes at €2,002 a month, second only to Madrid's Recoletos. Separate analysis finds that Barcelona households spend an average 35.3% of their income on rent and utilities, above the commonly used 30% affordability threshold, with major differences between districts. In Ciutat Vella, housing-related costs consume 47.4% of average household income, while in Sarrià-Sant Gervasi they account for 26.6%, underscoring persistent inequalities despite rent controls introduced in 2024.",
-          "headline": "Barcelona's rental burden remains among Spain's highest",
+          "body": "Barcelona accounts for 32 of Spain's 100 most expensive rental areas, according to the latest National Statistics Institute figures, which cover 2024. Pedralbes ranks as the city's costliest area at an average monthly rent of €2,002, second nationally only to Madrid's Recoletos, while Tres Torres averages €1,911. A separate analysis finds that rent and utilities consume an average 35.3% of household income in Barcelona, rising to 47.4% in Ciutat Vella; the commonly cited affordability threshold is 30%.",
+          "headline": "Barcelona holds 32 of Spain's 100 most expensive rental areas",
           "sources": [
             {
               "name": "betevé",
@@ -280,6 +234,26 @@
             {
               "name": "3Cat Barcelona",
               "url": "https://www.3cat.cat/3catinfo/el-sobreesforc-de-les-llars-de-barcelona-pel-lloguer-les-diferencies-per-districtes-en-grafics/noticia/3432992/"
+            }
+          ]
+        },
+        {
+          "body": "Around 50 companies in Barcelona's cruise sector have issued a manifesto rejecting the city government's plan to raise the tourist tax for stopover cruise passengers to €30 by 2030. The industry says the measure unfairly discriminates against it and objects to using taxation to reduce cruise activity, while calling on Mayor Jaume Collboni for dialogue on a more balanced and environmentally respectful future for the sector. Under the phased increase approved in September, passengers staying less than 12 hours would see their current combined €11 charge rise gradually from 2027.",
+          "headline": "Barcelona cruise sector opposes planned €30 tax on short-stop passengers",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/politica/sector-creuers-rebutja-encariment-taxa-turistica-exigeix-dialeg-collboni/"
+            }
+          ]
+        },
+        {
+          "body": "Catalonia's Platform for Media Education has called on the Generalitat to make media and information literacy a lasting public-policy priority, with a stable strategy to counter disinformation and strengthen critical thinking. At a Barcelona conference during UNESCO's Global Media and Information Literacy Week, the coalition of about 50 education and communications organisations presented a manifesto advocating training not only in schools but also for adults, older people and groups especially vulnerable to digital and information gaps. Speakers warned that algorithmic platforms, misinformation and polarisation are affecting democratic and electoral processes.",
+          "headline": "Barcelona media-literacy platform calls for permanent strategy against disinformation",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/cultura/plataforma-educacio-mediatica-reclama-estrategia-publica-contra-desinformacio/"
             }
           ]
         }
