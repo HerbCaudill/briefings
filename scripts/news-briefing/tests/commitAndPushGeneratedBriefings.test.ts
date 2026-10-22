@@ -9,6 +9,7 @@ describe("commitAndPushGeneratedBriefings", () => {
     const commands: Array<{ args: string[]; command: string }> = []
 
     await commitAndPushGeneratedBriefings({
+      briefingDirectoryPath: mkdtempSync(path.join(tmpdir(), "briefings-git-")),
       dates: ["2026-04-18", "2026-04-20"],
       runCommand: async (command, args) => {
         commands.push({ args, command })

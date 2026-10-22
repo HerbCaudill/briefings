@@ -8,7 +8,7 @@ describe("getPiCommandArgs", () => {
       getPiCommandArgs({ prompt: "Select stories", rawBriefingPath: "raw/news.json" }),
     ).toEqual([
       "--provider",
-      "openai-codex",
+      "openai",
       "--model",
       "gpt-5.6-terra",
       "-p",

@@ -49,11 +49,13 @@ export function getGeneratedBriefingGitPaths(
   /** The briefing dates whose generated files should be staged. */
   dates: string[],
 ): string[] {
-  return dates.flatMap(date => [
-    getFinalBriefingPath(publicBriefingsGitDirectoryPath, date),
-    getRawBriefingPath(rawBriefingsGitDirectoryPath, date),
-    getSelectionBriefingPath(rawBriefingsGitDirectoryPath, date),
-  ])
+  return dates
+    .flatMap(date => [
+      getFinalBriefingPath(publicBriefingsGitDirectoryPath, date),
+      getRawBriefingPath(rawBriefingsGitDirectoryPath, date),
+      getSelectionBriefingPath(rawBriefingsGitDirectoryPath, date),
+    ])
+    .map(filePath => filePath.replaceAll("\\", "/"))
 }
 
 /** Check whether a file name is a dated briefing JSON file. */

@@ -7,7 +7,7 @@ export function getPiCommandArgs(
 ): string[] {
   return [
     "--provider",
-    "openai-codex",
+    process.env.PI_PROVIDER ?? "openai",
     "--model",
     "gpt-5.6-terra",
     "-p",

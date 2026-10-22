@@ -86,7 +86,7 @@ describe("runtime services", () => {
       {
         args: [
           "--provider",
-          "openai-codex",
+          "openai",
           "--model",
           "gpt-5.6-terra",
           "-p",

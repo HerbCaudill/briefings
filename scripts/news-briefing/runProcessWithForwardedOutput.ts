@@ -1,4 +1,5 @@
 import { spawn } from "node:child_process"
+import { getPiInvocation } from "./getPiInvocation.ts"
 import type { Readable, Writable } from "node:stream"
 
 /** Run a child process while forwarding stdout and stderr, then return captured stdout. */
@@ -10,7 +11,8 @@ export async function runProcessWithForwardedOutput(
   /** Output forwarding streams and optional process factory. */
   options: RunProcessWithForwardedOutputOptions = {},
 ): Promise<string> {
-  const childProcess = (options.spawnProcess ?? spawn)(command, args, {
+  const invocation = command === "pi" ? getPiInvocation(args) : { command, args }
+  const childProcess = (options.spawnProcess ?? spawn)(invocation.command, invocation.args, {
     stdio: ["ignore", "pipe", "pipe"],
   }) as ChildProcessWithOutputStreams
 

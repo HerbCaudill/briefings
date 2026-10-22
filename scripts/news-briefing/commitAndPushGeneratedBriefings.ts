@@ -18,7 +18,11 @@ export async function commitAndPushGeneratedBriefings(
 
   generateBriefingIndex(briefingDirectoryPath)
 
-  await runCommand("git", ["add", getBriefingIndexPath("public/briefings"), ...generatedPaths])
+  await runCommand("git", [
+    "add",
+    getBriefingIndexPath("public/briefings").replaceAll("\\", "/"),
+    ...generatedPaths,
+  ])
   await runCommand("git", ["commit", "-m", commitMessage])
   await runCommand("git", ["pull", "--rebase", "--autostash"])
   await runCommand("git", ["push"])
