@@ -3,68 +3,80 @@
     {
       "stories": [
         {
-          "body": "Russian missiles struck Kyiv overnight, wounding six people and sending residents to shelters, Ukrainian authorities said. The attack came as the Kremlin said it was ready to resume US-mediated trilateral talks with Ukraine next month following Vladimir Putin's meeting with US envoy Steve Witkoff. Donald Trump said negotiations were closer than ever to ending the war, while Moscow voiced doubts about Ukrainian and European proposals.",
-          "headline": "Russia signals readiness for new US-Ukraine talks after Kyiv missile strike",
+          "body": "Governments and website operators worldwide are rushing to patch critical vulnerabilities in PHP, a programming language used by a vast share of the web, including platforms such as WordPress and Wikipedia. Researchers using OpenAI technology uncovered flaws that could allow unauthenticated attackers to take control of web servers and steal sensitive data; security firm Wiz called them among the most severe vulnerabilities identified with AI assistance. Some governments, public bodies and major web services took systems offline as a precaution, while PHP developers urged all users to update immediately. Experts warn that poorly maintained sites may be especially exposed as technical details become public.",
+          "headline": "Critical PHP vulnerabilities trigger worldwide patching scramble",
           "sources": [
             {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c3qjnwye0ep5o"
             },
             {
               "name": "France 24",
-              "url": "https://www.france24.com/en/kremlin-says-ready-to-resume-3-way-talks-with-us-and-ukraine-mid-november"
+              "url": "https://www.france24.com/en/technology/20261022-backbone-of-the-web-what-is-php-and-how-has-it-raised-ai-hacking-fears"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/en-risc-milions-de-webs-del-mon-per-dues-vulnerabilitats-a-php-un-dels-llenguatges-mes-utilitzats/noticia/3435453/"
             }
           ]
         },
         {
-          "body": "The US State Department ordered some diplomats and family members to leave Saudi Arabia amid near-daily Houthi attacks on airports and energy infrastructure. Saudi authorities reported deaths and injuries after attacks on King Fahd International Airport in Dammam and an intercepted drone near the Shaybah oilfield. The State Department said reports of wider withdrawals from other Gulf countries were inaccurate, although officials told Reuters that plans for further family departures were under consideration.",
-          "headline": "Houthi attacks prompt US diplomatic departures from Saudi Arabia",
+          "body": "Russia launched a new missile attack on Kyiv hours after the Kremlin said it was ready in principle to resume three-way talks with the United States and Ukraine. The strikes hit homes, energy infrastructure and other sites in Kyiv and elsewhere, causing deaths and injuries, while Ukrainian President Volodymyr Zelenskyy said they showed Moscow was not serious about peace. US envoy Steve Witkoff had met Vladimir Putin in St Petersburg after talks with Zelenskyy, and Russian officials suggested a new round could take place in Abu Dhabi after 10 November. Zelenskyy said Ukraine could accept a ceasefire freezing the front line, with security guarantees to be negotiated afterward.",
+          "headline": "Russia strikes Kyiv as Moscow signals readiness to resume US-mediated peace talks",
           "sources": [
             {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cq3djn5nxx12o"
+            },
+            {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+              "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261022-russia-missiles-kyiv-ukraine-peace-talks"
+            }
+          ]
+        },
+        {
+          "body": "An attack on King Fahd International Airport in Dammam, eastern Saudi Arabia, killed a Saudi citizen and an Indian resident and injured eight people, Saudi civil aviation authorities said. Earlier, falling debris after the interception of a drone targeting an Aramco facility at the Shaybah oil field killed two more people. The attacks came amid an escalating conflict between Yemen's Iran-backed Houthi movement and the Saudi-backed Yemeni government, with Saudi airports and energy facilities repeatedly targeted in recent weeks. The United States ordered some diplomats and family members to leave Saudi Arabia, citing threats to civilian airports and critical infrastructure.",
+          "headline": "Attack on Saudi Arabia's King Fahd Airport kills two amid Houthi escalation",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cqwy71ww156ro"
             },
             {
               "name": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"
-            }
-          ]
-        },
-        {
-          "body": "French authorities banned demonstrations near key Paris sites as they prepared for further unrest after violent protests and looting over the cost of living. President Emmanuel Macron accused foreign leaders, including Donald Trump, of exploiting the violence for political purposes and spreading misleading narratives, including AI-generated images. The unrest has prompted travel warnings and pushed French 10-year government bond yields above 5%, their highest level since 2002.",
-          "headline": "France bans protests after violent unrest as Macron criticizes foreign leaders",
-          "sources": [
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump"
             },
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest"
+              "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
             }
           ]
         },
         {
-          "body": "The UN Environment Programme says national commitments to reduce emissions remain far below what is needed to meet the Paris Agreement's 1.5°C goal. On current commitments, the world is heading toward about 2.6°C of warming this century, sharpening the challenge for leaders ahead of the COP31 climate summit in Turkey.",
-          "headline": "UN warns the world is on course to breach the 1.5°C warming limit",
+          "body": "French authorities have banned planned demonstrations in several cities and imposed restrictions on public gatherings in sensitive parts of Paris after student protests over school conditions broadened into violent unrest, looting and attacks on public buildings. More than 2,000 people, mostly minors, were taken into custody during the disorder. President Emmanuel Macron said legitimate grievances would be addressed but rejected claims by US President Donald Trump that migration or foreign interference was behind the unrest, calling such commentary unacceptable and foolish. Interior Minister Laurent Nuñez said a temporary suspension of social-media platforms could be considered only under very strict conditions.",
+          "headline": "French cities ban protests after violent unrest",
           "sources": [
             {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/video/20261021-world-set-to-breach-1-5%C2%B0c-warming-limit-set-by-paris-climate-agreement"
-            }
-          ]
-        },
-        {
-          "body": "A New Mexico judge ordered Meta to pay $25 billion after a jury found that the company had deceived users about its data-privacy practices in a case connected to the Cambridge Analytica scandal. The judge imposed the maximum state penalty of $5,000 for each violation and said interest would accrue at 15% annually until payment. Meta has called the penalty a tax on speech and has previously settled related privacy claims elsewhere in the US.",
-          "headline": "Meta ordered to pay $25 billion in New Mexico privacy case",
-          "sources": [
-            {
-              "name": "France 24",
-              "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal"
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/22/stupid-talk-france-rejects-trumps-attempt-to-blame-unrest-on-migration"
             },
             {
               "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/internacional/20261021/11664898/juez-condena-meta-pagar-25-000-millones-vender-datos-usuarios-fines-electorales.html"
+              "url": "https://www.lavanguardia.com/internacional/20261021/11664828/macron-irrita-trump-manipular-disturbios.html"
+            }
+          ]
+        },
+        {
+          "body": "Ireland's parliament voted 79 to 71 to remove a requirement for United Nations approval before the country can deploy military peacekeepers overseas. Opponents said the change threatens Ireland's longstanding military neutrality, though Ireland is not a NATO member and has traditionally participated in international peacekeeping missions. Supporters backed the measure despite the closely divided vote.",
+          "headline": "Ireland votes to end UN-approval requirement for overseas peacekeeping deployments",
+          "sources": [
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261022-ireland-votes-un-veto-overseas-peacekeeping-missions"
             }
           ]
         }
@@ -74,36 +86,50 @@
     {
       "stories": [
         {
-          "body": "Republicans have spent substantially more than Democrats on broadcast advertising in key Senate states, but much of that money comes from outside groups that pay higher rates than candidates and political parties. In Ohio, Texas and Michigan, the resulting share of ads on air is far closer than the spending totals suggest. Democratic candidates' fundraising and lower ad rates have helped offset Republican super-PAC spending, while Republican groups have invested heavily in mail, calls and texts.",
-          "headline": "Republican TV spending advantage is weakened by reliance on outside groups",
+          "body": "A New Mexico judge ordered Meta to pay the state $25 billion after a jury found that Facebook intentionally deceived users about the privacy and handling of their personal data. The case stemmed from the Cambridge Analytica scandal, in which data from Facebook users was harvested for targeted political advertising during the 2016 election. Judge Francis Mathew said a larger penalty could have been justified under state law but reduced the award to $25 billion. Meta said the ruling would make it nearly impossible to do business in New Mexico and said it expected to prevail on appeal.",
+          "headline": "New Mexico court orders Meta to pay $25 billion over Facebook privacy deception",
           "sources": [
             {
-              "name": "Politico",
-              "url": "https://www.politico.com/news/2026/10/21/senate-republicans-cash-advantage-television-01128724"
-            }
-          ]
-        },
-        {
-          "body": "Georgia Republicans see wealthy first-time candidate Rick Jackson as their best chance to protect the party from broader losses, even as Democratic Senator Jon Ossoff maintains an advantage over Republican Mike Collins. Jackson has spent nearly $200 million in the governor's race and has sought to emphasize his association with Governor Brian Kemp rather than Donald Trump. Party strategists worry that Trump's visits could energize Democratic voters, while Jackson needs both crossover voters and the Republican base to win.",
-          "headline": "Georgia Republicans look to Rick Jackson to contain a potential midterm wipeout",
-          "sources": [
-            {
-              "name": "Politico",
-              "url": "https://www.politico.com/news/2026/10/21/rick-jackson-georgia-trump-midterms-01128445"
-            }
-          ]
-        },
-        {
-          "body": "New York Democratic congressional candidate Brad Lander was among about 80 American, Israeli and British volunteers detained by Israeli security forces while helping Palestinians harvest olives near Nahalin in the occupied West Bank. Organizers said the group was peacefully harvesting on private Palestinian land when the military declared the area a closed zone. Israeli officials said the harvest had not been coordinated in advance and described the large group as provocative; Lander was released after receiving a warning.",
-          "headline": "Brad Lander detained while joining West Bank olive harvest",
-          "sources": [
-            {
-              "name": "Politico",
-              "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/10/21/nyc-high-school-faces-backlash-over-intifada-post-01130770"
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/facebook-penalty-cambridge-analytica-new-mexico-b329f82c3d3db3758a159405acbd4d0e"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/oct/21/israeli-military-detains-brad-lander-rabbis-west-bank-olive-harvest"
+              "name": "France 24",
+              "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/22/facebooks-wrongdoing-why-has-meta-been-fined-25bn-in-new-mexico"
+            }
+          ]
+        },
+        {
+          "body": "Alabama, Arkansas and Louisiana asked the US Supreme Court to invalidate abortion shield laws in California, Massachusetts and New York, escalating the interstate legal fight over medication abortion. The Republican-led states argue that the laws obstruct their abortion bans by protecting out-of-state providers who prescribe abortion pills through telehealth and mail them to patients in states with restrictions. It is the first direct challenge by states to the validity of such shield laws, according to a legal scholar. The Supreme Court has original jurisdiction over disputes between states but rarely takes them up.",
+          "headline": "Three Republican-led states ask Supreme Court to overturn Democratic abortion shield laws",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/gop-democrats-abortion-providers-supreme-court-laws-62dda4e534b052a5560256e649d38290"
+            }
+          ]
+        },
+        {
+          "body": "A federal judge ruled that Idaho cannot prosecute doctors who perform abortions to protect a pregnant patient's health or prevent self-harm. US District Judge B. Lynn Winmill found that Idaho's near-total abortion ban violates the Fourteenth Amendment when it bars abortions needed to prevent serious but nonfatal harm, including harm related to mental illness. The ruling does not rest on a general right to abortion, but on limits to the state's power to compel a person to suffer serious medical harm for a pregnancy. Idaho Attorney General Raúl Labrador said the state would appeal.",
+          "headline": "Federal judge blocks Idaho prosecutions of doctors providing health-protecting abortions",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/idaho-abortion-ban-health-judge-a342b48b2042ed47d1e3738e3224802a"
+            }
+          ]
+        },
+        {
+          "body": "Workers with employer-sponsored health insurance are paying hundreds of dollars more toward their premiums this year, according to KFF's 2026 Employer Health Benefits Survey. Employees paid an average of $7,471 annually for family coverage, an increase of about 9%, or $621, from the previous year; workers at smaller companies were especially affected because they typically bear a larger share of costs. About 157 million Americans below retirement age rely on employer-sponsored coverage, making rising health costs a major election-year affordability issue.",
+          "headline": "Survey finds employer health-insurance costs continuing to climb for US workers",
+          "sources": [
+            {
+              "name": "Associated Press",
+              "url": "https://apnews.com/article/healthcare-insurance-employer-small-business-kff-survey-cfe1ad2eff54d88af04d0cc49bfd72f9"
             }
           ]
         }
@@ -113,50 +139,74 @@
     {
       "stories": [
         {
-          "body": "Spain's Constitutional Court declined to hear an appeal seeking to restore voting rights for roughly 160,000 citizens naturalized under the Democratic Memory Law before the November 29 general election. The court said the appeal was premature because the Supreme Court's suspension of their voting rights is not final. The dispute concerns people granted nationality under a government instruction on descendants of exiles, which Vox and Iustitia Europa have challenged.",
-          "headline": "Court leaves voting rights of 160,000 naturalized Spaniards unresolved",
+          "body": "Spain's Constitutional Court rejected an appeal seeking to restore voting rights to more than 160,000 people who acquired Spanish nationality under the Democratic Memory Law, often called the descendants or grandchildren law. The Supreme Court had temporarily suspended their enrollment in the overseas electoral register unless consulates establish that they are descendants of Civil War or early Franco-era exiles. The Constitutional Court said the appeal was premature because legal remedies remain before the Supreme Court, leaving the suspension in place ahead of the 29 November general election. Lawyers for affected citizens say their prospects of voting are now minimal and have challenged the measure as disproportionate.",
+          "headline": "Spain's Constitutional Court rejects appeal over descendants-law voters barred from elections",
           "sources": [
             {
               "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-21/el-constitucional-rechaza-el-amparo-por-la-ley-de-nietos-con-el-voto-en-contra-de-dos-magistrados-progresistas.html"
+              "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-abogado-de-afectados-por-la-ley-de-nietos-asume-que-no-podran-votar-el-constitucional-era-la-unica-via-posible.html"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/el-tc-denega-el-recurs-contra-la-suspensio-de-vot-dels-milers-de-nacionalitzats-per-la-llei-de-nets/noticia/3434957/"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20261022/supremo-jec-afectados-voto-nacionalizados-ley-nietos-135623211"
+            }
+          ]
+        },
+        {
+          "body": "Spain's conservative Popular Party released an AI-generated campaign video that imitates the images and voices of Socialist figures and people associated with the government, making them appear to admit wrongdoing. The video was framed as a response to a campaign clip by Prime Minister Pedro Sánchez embracing the label of being left-wing after insults from Argentine President Javier Milei. The PP's video includes simulated versions of Begoña Gómez, former minister José Luis Ábalos, former prime minister José Luis Rodríguez Zapatero and others. Socialist spokesperson Rebeca Torró condemned it as a continuation of an insult-based campaign, while reports said the tactic raised questions about its legitimacy and legality.",
+          "headline": "Spain's PP uses AI-generated videos impersonating Socialist figures in election campaign",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-pp-da-un-paso-mas-en-su-campana-y-suplanta-la-identidad-de-begona-gomez-zapatero-y-abalos-irse-de-putas-si-soy-zurdo.html"
             },
             {
               "name": "La Vanguardia",
-              "url": "https://www.lavanguardia.com/politica/20261022/11664880/tc-rechaza-recurso-defensor-pueblo-nietos-podran-votar.html"
+              "url": "https://www.lavanguardia.com/politica/20261022/11665207/pp-ia-imagen-voz-socialistas-contraatacar-campana-zurdos.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/politica/20261022/pp-ia-sanchez-orgullo-zurdo-135620481"
             }
           ]
         },
         {
-          "body": "Argentine President Javier Milei's visit to Madrid has become a campaign issue ahead of Spain's November general election. Milei insulted Prime Minister Pedro Sánchez and praised Santiago Abascal, while Sánchez linked Milei, Abascal and PP leader Alberto Núñez Feijóo to austerity and cuts. Madrid mayor José Luis Martínez-Almeida, of the PP, acknowledged that the visit offered Sánchez useful political ammunition.",
-          "headline": "Javier Milei's Madrid visit becomes a flashpoint in Spain's election campaign",
+          "body": "The Popular Party selected Cayetana Álvarez de Toledo as number two and spokesperson Borja Sémper as number three on Alberto Núñez Feijóo's Madrid list for the 29 November general election. The party said the two represent different perspectives within a broad political project, pairing Álvarez de Toledo's harder-edged profile with Sémper's more centrist appeal. Álvarez de Toledo, formerly sixth on the Madrid list, has been elevated as the party seeks to compete for voters between the PP and Vox, while Sémper remains in the position he held in the 2023 election.",
+          "headline": "PP puts Cayetana Álvarez de Toledo and Borja Sémper second and third on Feijóo's Madrid ticket",
           "sources": [
             {
               "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-22/milei-agita-la-campana-con-insultos-a-sanchez-y-abrazos-a-ayuso.html"
+              "url": "https://elpais.com/espana/2026-10-22/alvarez-de-toledo-y-semper-seran-los-numeros-dos-y-tres-de-feijoo-en-la-lista-por-madrid.html"
             },
             {
               "name": "RTVE",
-              "url": "https://www.rtve.es/noticias/20261021/sanchez-ve-a-feijoo-abascal-milei-como-misma-pena-la-motosierra-os-vamos-a-llevar-aserradero/17277489.shtml"
+              "url": "https://www.rtve.es/noticias/20261022/listas-pp-feijoo-29n-cayetana-alvarez-semper/17267600.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261022/11665185/alvarez-toledo-semper-acompanaran-feijoo-lista-madrid-elecciones-29-n.html"
             }
           ]
         },
         {
-          "body": "More than 100 migrants who entered Ceuta during a mass crossing at the end of July have received international protection, allowing them to remain, live and work legally in Spain. Authorities have issued 180 asylum decisions since July 31, although some concerned people who were already in the city rather than those who arrived during the crossing.",
-          "headline": "More than 100 migrants who entered Ceuta in July receive asylum",
+          "body": "Spain and Italy agreed not to extend reciprocal border checks on flights and passenger sea links that had been in place since August, when Italy imposed controls after the arrival of thousands of migrants in Ceuta from Morocco. Spain responded with similar measures for travelers from Italy, partially suspending free movement within the Schengen area for nearly three months. The agreement followed talks between the countries' interior ministers and a meeting between Prime Ministers Pedro Sánchez and Giorgia Meloni. Both governments said they would strengthen information-sharing and other security cooperation instead of prolonging the controls.",
+          "headline": "Spain and Italy agree to lift border controls imposed during the Ceuta migration crisis",
           "sources": [
             {
               "name": "El País",
-              "url": "https://elpais.com/espana/2026-10-22/mas-de-100-migrantes-de-ceuta-han-recibido-el-asilo.html"
-            }
-          ]
-        },
-        {
-          "body": "Six months after the PP formed a new round of regional governments with Vox in Extremadura, Aragón, Castilla y León and Andalucía, Vox-backed policies are advancing through regional measures and budgets. The agenda includes provisions tied to Spanish nationality in Aragón's housing law and censorship measures in Castilla y León, as PP and Vox could be approaching a national governing majority ahead of the general election.",
-          "headline": "PP-Vox regional coalitions advance a shared hard-right agenda",
-          "sources": [
+              "url": "https://elpais.com/espana/2026-10-22/espanol-e-italia-acuerdan-levantar-los-controles-fronterizos-a-vuelos-y-las-conexiones-maritimas.html"
+            },
             {
-              "name": "El País",
-              "url": "https://elpais.com/espana/elecciones-generales/2026-10-22/el-avance-de-vox-en-los-gobiernos-del-pp-de-la-nacionalidad-espanola-en-la-ley-de-vivienda-de-aragon-a-la-censura-en-castilla-y-leon.html"
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/espana/2026/10/22/6ad9c768fdddff962b8b45a2.html"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/politica/20261022/11665273/italia-espana-levantan-bloqueo-schengen.html"
             }
           ]
         }
@@ -166,22 +216,26 @@
     {
       "stories": [
         {
-          "body": "Barcelona is preparing a proposal for a phased reopening of parts of Collserola Natural Park after months of restrictions linked to African swine fever. The city wants the Carretera de les Aigües to be among the first areas reopened, subject to technical and scientific criteria set by the Generalitat. Officials stress that reopening must be gradual to avoid renewed restrictions and protect the agricultural sector from severe economic consequences.",
-          "headline": "Barcelona prepares phased reopening of Collserola after swine-fever restrictions",
+          "body": "Catalan President Salvador Illa and Transport Minister Óscar Puente reaffirmed that the transfer of the Rodalies commuter rail system to Catalan management will continue despite Spain's early election. The government and Renfe's board are expected to approve a program contract allowing the Generalitat to manage the service through 2028 while a new joint company is prepared. Both leaders said the transfer of the R1 line remains on course, though Puente acknowledged the election could affect its timetable. They also said new trains are expected in the first quarter of next year, while work on the network has reduced weather-related disruptions.",
+          "headline": "Catalonia and Renfe move to approve Rodalies operating agreement despite early election",
           "sources": [
             {
               "name": "betevé",
-              "url": "https://beteve.cat/politica/barcelona-prepara-desescalada-collserola-pesta-porcina/"
+              "url": "https://beteve.cat/societat/puente-traspas-rodalies-continua-avancament-electoral/"
             },
             {
-              "name": "betevé",
-              "url": "https://beteve.cat/medi-ambient/govern-reobrir-collserola-finals-2026-corredors-segurs/"
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/economia/20261022/president-illa-ministro-oscar-puente-rodalies-traspaso-r1-135613589"
+            },
+            {
+              "name": "Tot Barcelona",
+              "url": "https://elmon.cat/moneconomia/macroeconomia/infraestructures/traspas-r1-recta-final-dos-anys-tramits-rodalies-135069/"
             }
           ]
         },
         {
-          "body": "TMB bus workers called off planned strike days after management and unions reached a preliminary four-year collective agreement. The deal provides additional rest days, more weekend time off and a progressive reduction of the working week to 35 hours. It also cancels five further October protest days that had been scheduled after earlier negotiations failed.",
-          "headline": "TMB bus strike called off after management and unions reach preliminary deal",
+          "body": "Barcelona's planned TMB bus strikes were called off after management and unions reached a preliminary four-year collective agreement. The deal provides more rest days, including 10 additional days next year with the possibility of three more under certain conditions, increased weekend rest and a gradual reduction of the working week to 35 hours. The agreement cancels the stoppages scheduled for this week and five additional October strike days. Bus workers had sought improvements to schedules, pay and legally required consecutive weekly rest days.",
+          "headline": "TMB bus strike called off after management and unions reach pre-agreement",
           "sources": [
             {
               "name": "3Cat Barcelona",
@@ -190,22 +244,22 @@
           ]
         },
         {
-          "body": "Barcelona's ombudsman, David Bondia, has proposed exploring a collaborative purchase of the Bloc Papallona in Nova Esquerra de l'Eixample to prevent residents from being displaced. Options include purchase by housing-sector organizations and inclusion in the social-rental pool. Bondia argued that secure housing underpins other social rights and called for urgent property valuations and continued dialogue among residents, owners, social groups and the city.",
-          "headline": "Barcelona weighs collaborative purchase to preserve homes in the Bloc Papallona",
+          "body": "Barcelona's city government said it intends to maintain its political break with Israeli institutions and its aim of avoiding contracts with companies linked to settlements in occupied Palestinian territories, despite a Catalan High Court ruling that annulled provisions of a 2023 municipal declaration. Deputy mayor Maria Eugènia Gay said the city would appeal and would seek legally sound ways to preserve the declaration's objectives. She said the ruling did not require the city to reverse its institutional position or automatically pay compensation to companies that may have been excluded from public tenders.",
+          "headline": "Barcelona reaffirms break in relations with Israel after adverse Catalan High Court ruling",
           "sources": [
             {
-              "name": "betevé",
-              "url": "https://beteve.cat/economia/sindic-planteja-compra-bloc-papallona-entitats-sector-habitatge/"
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20261021/barcelona-ruptura-relaciones-israel-medallas-135588328"
             }
           ]
         },
         {
-          "body": "Mayor Jaume Collboni called for a debate on regulating commercial rents, particularly sharp increases when leases are renewed that can displace traditional neighborhood businesses. Barcelona Oberta, representing 24 shopping districts, rejected the idea as excessive intervention and instead called for easier access, more flexible land-use rules, faster administration and Sunday opening. Both sides agreed that local commerce is central to neighborhood life, though they differ on how to protect it.",
-          "headline": "Barcelona retailers and city hall clash over proposed commercial-rent regulation",
+          "body": "Dutch diagnostics company Qiagen has opened a global infectious-disease diagnostics research center in Esplugues de Llobregat after investing €13 million over two years. The 8,000-square-meter facility, in a former Braun factory, replaces the company's site at the University of Barcelona Science Park and houses research, manufacturing, sales, quality and regulatory operations. It will expand production and development of the QIAstat-Dx molecular testing platform, which identifies pathogens and antibiotic-resistance markers. The center employs 240 people and supports a technology developed in Barcelona that is now sold in more than 120 countries.",
+          "headline": "Qiagen invests €13 million in Barcelona infectious-disease research center",
           "sources": [
             {
-              "name": "betevé",
-              "url": "https://beteve.cat/economia/barcelona-oberta-demana-deixar-posar-traves-comerc/"
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20261021/qiagen-inaugura-barcelona-200-millones-inaugurar-centro-investigacion-enfermedades-infecciosas-135578158"
             }
           ]
         }
