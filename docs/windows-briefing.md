@@ -14,6 +14,6 @@ Windows capture and description journals use hashed filenames because logical re
 
 The mini's hourly `Inbox intake` job is enabled. `Inbox research` runs independently on demand, without a time limit. The Mac's hourly `process-inbox` now runs only the deterministic Reminders and Messages source entrypoint through its existing Full Disk Access launcher. Its capture and research journals were preserved on the mini before intake was enabled.
 
-Morning cutover is still pending a complete reviewed publication, including task creation. The mini's interactive `Morning briefing` task has no automatic trigger yet; the Mac morning job remains authoritative until that gate passes. Do not enable both morning jobs.
+The mini's interactive `Morning briefing` task runs daily at 07:00. Its acceptance run covered all 16 sources, saved both proposed tasks, published the exact final briefing to the daily note, completed Obsidian Sync, and successfully triggered the mini T3 presentation. The Mac morning LaunchAgent is unloaded and disabled; its source-only hourly job remains active. Do not enable both morning jobs.
 
 The managed Tasks peer runs in Herb's automatically signed-in desktop session; S4U and SSH clients use its authenticated loopback transport. The Windows CLI uses a revision-bound, hash-checked bundle outside the immutable selected release, avoiding elevated SSH failures on pnpm junctions.

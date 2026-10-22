@@ -46,6 +46,10 @@ An independently locked worker processes relevant research in persistent Codex s
 
 See [Tasks integration](docs/tasks-integration.md) for the CLI binding, durable request journals and legacy source resolution.
 
+## Windows automation
+
+The always-on mini owns the daily 07:00 morning/news run through the interactive Windows task `Morning briefing` and `scripts/windows/runBriefingJob.ps1`. Its Pi provider is `openai`. Obsidian Sync is the mini's only notes-vault sync method, and browser communications use Agent Chrome on loopback9223. `Inbox intake` runs hourly through S4U; `Inbox research` runs independently without a fixed time limit. The Mac morning LaunchAgent is disabled. Its hourly `process-inbox` retains only deterministic Reminders transfer and Apple Messages export through the stable Full Disk Access launcher. See [Windows setup](docs/windows-briefing.md).
+
 ## Boundary with dotfiles
 
 `dotfiles` should only own LaunchAgent wiring and thin shared skill wrappers. The news and morning pipeline code, prompts, schemas, intermediate-file conventions, and scheduler commands live in this repo.
