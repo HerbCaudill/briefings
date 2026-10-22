@@ -2,7 +2,6 @@ import { execFile, spawn } from "node:child_process"
 import { closeSync, openSync } from "node:fs"
 import { join } from "node:path"
 import { promisify } from "node:util"
-import { INBOX_STATE_PATH } from "./constants.ts"
 
 /** Start the independently locked research worker without holding up intake or the briefing. */
 export async function startInboxResearch(): Promise<void> {
@@ -10,13 +9,7 @@ export async function startInboxResearch(): Promise<void> {
     await promisify(execFile)("schtasks.exe", ["/Run", "/TN", "Inbox research"])
     return
   }
-  const log = openSync(
-    process.platform === "win32"
-      ? join(INBOX_STATE_PATH, "research.log")
-      : "/tmp/inbox-research.log",
-    "a",
-    0o600,
-  )
+  const log = openSync("/tmp/inbox-research.log", "a", 0o600)
   try {
     const child = spawn(
       process.execPath,
