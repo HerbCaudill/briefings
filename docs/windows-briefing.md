@@ -12,4 +12,8 @@ The Mac-only source entrypoint is `scripts/mac-sources/run.ts`. It exports recen
 
 Windows capture and description journals use hashed filenames because logical request IDs contain colons. The JSON retains the original request IDs and event keys. Existing Mac journal names remain unchanged. Artifact publication flushes the file before atomic rename; Node does not support the extra directory flush on Windows.
 
-Migration is not cut over yet. Keep automatic morning and Inbox schedules inactive until app linking, Mac-source transfer, one reviewed mini briefing, and the explicit Mac job handoff are complete. The existing Mac morning jobs remain authoritative until that handoff.
+The mini's hourly `Inbox intake` job is enabled. `Inbox research` runs independently on demand, without a time limit. The Mac's hourly `process-inbox` now runs only the deterministic Reminders and Messages source entrypoint through its existing Full Disk Access launcher. Its capture and research journals were preserved on the mini before intake was enabled.
+
+Morning cutover is still pending a complete reviewed publication, including task creation. The mini's interactive `Morning briefing` task has no automatic trigger yet; the Mac morning job remains authoritative until that gate passes. Do not enable both morning jobs.
+
+The managed Tasks peer runs in Herb's automatically signed-in desktop session; S4U and SSH clients use its authenticated loopback transport. The Windows CLI uses a revision-bound, hash-checked bundle outside the immutable selected release, avoiding elevated SSH failures on pnpm junctions.
