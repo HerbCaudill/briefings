@@ -6,7 +6,7 @@ Assigned sources, in this exact spelling and order:
 
 1. `Scanned documents`
 
-Unlike the other lanes, this lane has one assigned write action: file new scans. Use the `file-scans` skill and follow its "Unattended runs" section. Apply the full filing plan without asking for approval. Do not take any other action.
+This lane has one assigned write action: file new scans. Use the `file-scans` skill and follow its "Unattended runs" section. Apply the full filing plan without asking for approval. Do not take any other action.
 
 On Windows, the Mac's `~/Library/CloudStorage` mount is unavailable. Use an existing Drive for desktop mount when configured, or the skill's `gws-delegated` Drive fallback and scans folder ID. Do not mark the source incomplete just because the Mac mount is absent. Keep downloaded working copies in private local state and apply renames or moves to the actual Drive files.
 

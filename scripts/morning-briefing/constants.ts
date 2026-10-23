@@ -73,7 +73,7 @@ export const MORNING_BRIEFING_LANES = [
     sources: ["GitHub", "Meeting transcripts", "Local agent sessions"],
   },
   {
-    // Files new scans in Drive before reporting, so this is the one lane that writes
+    // Files new scans in Drive before reporting
     key: "documents",
     promptFileName: "documents.prompt.md",
     sources: ["Scanned documents"],
