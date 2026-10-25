@@ -1,5 +1,6 @@
 import { createTasksClient } from "../tasks/createTasksClient.ts"
 import { targetFromRecord } from "../tasks/targetFromRecord.ts"
+import { saveDescription } from "../tasks/saveDescription.ts"
 import type { TasksClient } from "../tasks/types.ts"
 import type { Capture, CaptureDraft, CaptureTarget } from "./types.ts"
 
@@ -19,6 +20,31 @@ export async function transferCapture(args: {
   client?: TasksClient
 }): Promise<CaptureTarget> {
   const client = args.client ?? createTasksClient()
+  const target = await findDestination(args, client)
+  if (args.capture.source) {
+    // Checkpoint duplicates too, before a description write can fail.
+    args.checkpoint?.(target)
+    const record = await client.get(target.kind, target.id)
+    const base = record.description ?? ""
+    await saveDescription(
+      {
+        record,
+        text: base.includes(args.capture.source.url)
+          ? base
+          : [base, `Source: ${args.capture.source.url}`].filter(Boolean).join("\n\n"),
+        eventKey: `capture-source:${args.capture.id}`,
+      },
+      client,
+    )
+  }
+  return target
+}
+
+/** Recover an acknowledged destination or perform the original idempotent insertion. */
+async function findDestination(
+  args: Parameters<typeof transferCapture>[0],
+  client: TasksClient,
+): Promise<CaptureTarget> {
   if (args.candidate) {
     if (args.candidate.spaceId !== client.spaceId) throw new Error("Capture space mismatch")
     return targetFromRecord(
@@ -43,7 +69,7 @@ export async function transferCapture(args: {
     if (matching.length > 1) throw new Error("Ambiguous capture title; review duplicates")
     if (matching.length === 1) return targetFromRecord(matching[0]!, client.spaceId)
   }
-  const eventKey = `siri:${args.capture.id}`
+  const eventKey = `${args.capture.source?.kind ?? "siri"}:${args.capture.id}`
   args.checkpoint?.()
   const result = await client.write("capture", { title: args.draft.title, eventKey }, eventKey)
   const created = result.records?.find(

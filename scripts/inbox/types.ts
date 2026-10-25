@@ -6,10 +6,14 @@ export type Capture = {
   timestamp: string
   /** Original text, without surrounding line breaks. */
   raw: string
+  /** Bookmark provenance; absent for existing Siri captures. */
+  source?: { kind: "x"; url: string }
 }
 
 /** Classification only; external actions are performed by the processor. */
 export type CaptureDraft = {
+  /** Bookmark routing; existing captures always become tasks. */
+  disposition?: "task" | "research" | "archive"
   /** Concise action or outcome. */
   title: string
   /** Unresolved question to surface during review. */
@@ -18,6 +22,31 @@ export type CaptureDraft = {
   research: string
   /** An existing incomplete task for the same action, if unambiguous. */
   duplicate: { id: string; kind: "task" | "project" } | null
+}
+
+/** Shared journal and verified transfer boundaries for any capture source. */
+export type CaptureProcessor = {
+  /** Private capture journal directory, also read by the research worker. */
+  statePath: string
+  /** Local processing date. */
+  date: string
+  /** Read-only source classifier. */
+  classify: (capture: Capture) => Promise<CaptureDraft>
+  /** Resolve legacy records and verify any existing target. */
+  prepareRecord?: (record: CaptureRecord) => Promise<CaptureRecord>
+  /** Idempotent transfer with write-ahead checkpoints. */
+  transfer: (
+    capture: Capture,
+    draft: CaptureDraft,
+    recovery: {
+      /** Previously acknowledged destination. */
+      candidate?: CaptureTarget
+      /** Whether insertion may already have happened. */
+      insertionAttempted?: boolean
+      /** Persist the insertion intent or acknowledged destination. */
+      checkpoint: (candidate?: CaptureTarget) => void
+    },
+  ) => Promise<CaptureTarget>
 }
 
 /** Verified typed Tasks destination. */

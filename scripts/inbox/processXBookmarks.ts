@@ -1,0 +1,87 @@
+import { existsSync, readFileSync } from "node:fs"
+import { join } from "node:path"
+import { writeTextAtomically } from "../morning-briefing/atomicWrite.ts"
+import { fetchXBookmarks } from "./fetchXBookmarks.ts"
+import { mergeXBookmarks } from "./mergeXBookmarks.ts"
+import { processCapture } from "./processCapture.ts"
+import { renderXBookmark } from "./renderXBookmark.ts"
+import type { CaptureProcessor } from "./types.ts"
+import type { XBookmarks } from "./xBookmarkTypes.ts"
+
+/** Archive bookmarks before routing new IDs through the shared capture journal. */
+export async function processXBookmarks(
+  args: CaptureProcessor & {
+    /** Existing exported JSON, also retaining pending bookmark content. */
+    jsonPath: string
+    /** Human-readable archive in Obsidian. */
+    markdownPath: string
+    /** Injectable complete API fetch. */
+    fetch?: () => Promise<XBookmarks>
+  },
+): Promise<number> {
+  const journalPath = join(args.statePath, "x-bookmarks.json")
+  const original: XBookmarks = JSON.parse(readFileSync(args.jsonPath, "utf8"))
+  if (
+    !Array.isArray(original.data) ||
+    original.data.some(post => !post.id || typeof post.text !== "string")
+  )
+    throw new Error("Invalid X bookmarks baseline export")
+  const journal: BookmarkJournal = existsSync(journalPath)
+    ? JSON.parse(readFileSync(journalPath, "utf8"))
+    : { version: 1, baselineIds: original.data.map(post => post.id), completedIds: [] }
+  if (
+    journal.version !== 1 ||
+    !Array.isArray(journal.baselineIds) ||
+    !Array.isArray(journal.completedIds)
+  )
+    throw new Error("Invalid X bookmarks journal")
+  // Save the baseline before replacing the export, so a crash cannot baseline new bookmarks.
+  writeTextAtomically(journalPath, JSON.stringify(journal, null, 2))
+  const failures: unknown[] = []
+  let archive = original
+  try {
+    const next = mergeXBookmarks(await (args.fetch ?? fetchXBookmarks)(), original)
+    writeTextAtomically(args.jsonPath, JSON.stringify(next, null, 2))
+    archive = next
+  } catch (error) {
+    failures.push(error)
+  }
+  const markdown =
+    [
+      `# X bookmarks\n\n${archive.data.length} archived bookmarks, newest fetched bookmarks first. Raw data: \`x-bookmarks/bookmarks.json\`.`,
+      ...archive.data.map(post => renderXBookmark(post, archive)),
+    ].join("\n\n") + "\n"
+  writeTextAtomically(args.markdownPath, markdown)
+  const handled = new Set([...journal.baselineIds, ...journal.completedIds])
+  let processed = 0
+  for (const post of archive.data.filter(post => !handled.has(post.id))) {
+    try {
+      await processCapture(
+        {
+          id: `x-${post.id}`,
+          timestamp: args.date,
+          raw: renderXBookmark(post, archive),
+          source: { kind: "x", url: `https://x.com/i/status/${post.id}` },
+        },
+        { ...args, statePath: join(args.statePath, "captures") },
+      )
+      journal.completedIds.push(post.id)
+      writeTextAtomically(journalPath, JSON.stringify(journal, null, 2))
+      processed++
+    } catch (error) {
+      failures.push(new Error(`X bookmark ${post.id}: ${String(error)}`))
+    }
+  }
+  if (failures.length) throw new Error(failures.map(String).join("\n"))
+  return processed
+}
+
+/** Source discovery receipt; capture journals retain routing and transfer checkpoints. */
+type BookmarkJournal = {
+  /** Journal schema version. */
+  version: 1
+  /** Original export IDs excluded from classification. */
+  baselineIds: string[]
+  /** Fully archived and routed IDs. */
+  completedIds: string[]
+}

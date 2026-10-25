@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["disposition", "title", "question", "research", "duplicate"],
+  "properties": {
+    "disposition": { "type": "string", "enum": ["task", "research", "archive"] },
+    "title": { "type": "string" },
+    "question": { "type": "string" },
+    "research": { "type": "string" },
+    "duplicate": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "kind"],
+          "properties": {
+            "id": { "type": "string" },
+            "kind": { "type": "string", "enum": ["task", "project"] }
+          }
+        }
+      ]
+    }
+  }
+}

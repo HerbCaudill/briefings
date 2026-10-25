@@ -34,17 +34,21 @@ export async function researchQueue(): Promise<void> {
       let record = JSON.parse(readFileSync(join(capturesPath, file), "utf8")) as CaptureRecord
       const resultPath = join(INBOX_STATE_PATH, "research", `${record.capture.id}.json`)
       const donePath = `${resultPath}.done`
-      if (!record.target || !record.draft.research || existsSync(donePath)) continue
+      const noteOnly =
+        record.capture.source?.kind === "x" && record.draft.disposition === "research"
+      if ((!record.target && !noteOnly) || !record.draft.research || existsSync(donePath)) continue
       try {
-        record = await migrateCaptureRecord(record)
-        writeTextAtomically(join(capturesPath, file), JSON.stringify(record, null, 2))
-        const current = await findTask(record)
-        if (current.status === "done") {
+        if (!noteOnly) {
+          record = await migrateCaptureRecord(record)
+          writeTextAtomically(join(capturesPath, file), JSON.stringify(record, null, 2))
+        }
+        const current = noteOnly ? undefined : await findTask(record)
+        if (current?.status === "done") {
           writeTextAtomically(donePath, "Task already completed.\n")
           continue
         }
         if (!existsSync(resultPath)) {
-          console.log(`[inbox-research] Researching: ${current.title}`)
+          console.log(`[inbox-research] Researching: ${current?.title ?? record.draft.title}`)
           const pendingPath = `${resultPath}.pending`
           await runCodexAgent({
             codexCommand: CODEX_COMMAND_PATH,
@@ -57,12 +61,21 @@ export async function researchQueue(): Promise<void> {
             persistent: true,
             threadSource: `inbox-research:${record.capture.id}`,
             timeoutMs: null,
-            prompt: `${readFileSync(join(import.meta.dirname, "prompts/research.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture: record.capture, research: record.draft.research, task: current, taskUrl: record.target!.url, vaultPath: VAULT_PATH })}`,
+            prompt: `${readFileSync(join(import.meta.dirname, noteOnly ? "prompts/research-bookmark.prompt.md" : "prompts/research.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture: record.capture, research: record.draft.research, task: current, taskUrl: record.target?.url, vaultPath: VAULT_PATH })}`,
           })
           const validated = readResearchResult(pendingPath)
+          if (noteOnly && !validated.notePath)
+            throw new Error("Bookmark research needs a verified note; leaving queued for retry")
           writeTextAtomically(resultPath, JSON.stringify(validated))
         }
         const result = readResearchResult(resultPath)
+        if (noteOnly) {
+          if (!result.notePath)
+            throw new Error("Bookmark research needs a verified note; leaving queued for retry")
+          writeTextAtomically(donePath, `${new Date().toISOString()}\n`)
+          console.log(`[inbox-research] Saved: ${result.notePath}`)
+          continue
+        }
         // Reload after research: the human may have moved, edited, or completed the task.
         const latest = await findTask(record)
         if (latest.status === "done") {
@@ -80,7 +93,9 @@ export async function researchQueue(): Promise<void> {
         console.log(`[inbox-research] Ready for review: ${latest.title}`)
       } catch (error) {
         failures.push(error)
-        console.error(`[inbox-research] ${record.target!.title}: ${String(error)}`)
+        console.error(
+          `[inbox-research] ${record.target?.title ?? record.draft.title}: ${String(error)}`,
+        )
       }
     }
     if (failures.length) throw new Error(`${failures.length} research item(s) need retry; see log`)

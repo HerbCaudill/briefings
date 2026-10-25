@@ -2,7 +2,8 @@ import { existsSync, mkdirSync, readFileSync } from "node:fs"
 import { join } from "node:path"
 import { writeTextAtomically } from "../morning-briefing/atomicWrite.ts"
 import { parseCaptures } from "./parseCaptures.ts"
-import type { Capture, CaptureDraft, CaptureRecord, CaptureTarget } from "./types.ts"
+import { processCapture } from "./processCapture.ts"
+import type { CaptureProcessor, CaptureRecord } from "./types.ts"
 
 /** Transfer a snapshot of captures, keeping the source until each destination is verified. */
 export async function processInbox(args: ProcessInboxArgs): Promise<number> {
@@ -13,24 +14,7 @@ export async function processInbox(args: ProcessInboxArgs): Promise<number> {
   let processed = 0
   for (const capture of captures) {
     try {
-      const recordPath = join(args.statePath, `${capture.id}.json`)
-      let record: CaptureRecord = existsSync(recordPath)
-        ? (JSON.parse(readFileSync(recordPath, "utf8")) as CaptureRecord)
-        : { version: 2, capture, date: args.date, draft: await args.classify(capture) }
-      if (args.prepareRecord) record = await args.prepareRecord(record)
-      writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
-      if (!record.target) {
-        record.target = await args.transfer(capture, record.draft, {
-          candidate: record.candidate,
-          insertionAttempted: record.insertionAttempted,
-          checkpoint: candidate => {
-            record.insertionAttempted = true
-            if (candidate) record.candidate = candidate
-            writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
-          },
-        })
-        writeTextAtomically(recordPath, JSON.stringify(record, null, 2))
-      }
+      const record = await processCapture(capture, args)
       archiveCapture(args, record)
       processed++
     } catch (error) {
@@ -76,30 +60,9 @@ function archiveCapture(args: ProcessInboxArgs, record: CaptureRecord): void {
   writeTextAtomically(args.inboxPath, remaining)
 }
 
-type ProcessInboxArgs = {
-  /** Convert legacy mappings before using a stored target. */
-  prepareRecord?: (record: CaptureRecord) => Promise<CaptureRecord>
+type ProcessInboxArgs = CaptureProcessor & {
   /** Capture file updated by Siri and Obsidian Sync. */
   inboxPath: string
   /** Single archive note. */
   archivePath: string
-  /** Private transfer journal directory. */
-  statePath: string
-  /** Processing date in the local time zone. */
-  date: string
-  /** Read-only classifier. */
-  classify: (capture: Capture) => Promise<CaptureDraft>
-  /** Idempotent task creation with read-back verification. */
-  transfer: (
-    capture: Capture,
-    draft: CaptureDraft,
-    recovery: {
-      /** Previously returned destination awaiting verification. */
-      candidate?: CaptureTarget
-      /** Whether the peer may already have received the insertion. */
-      insertionAttempted?: boolean
-      /** Persist insertion intent or its returned destination. */
-      checkpoint: (candidate?: CaptureTarget) => void
-    },
-  ) => Promise<CaptureTarget>
 }

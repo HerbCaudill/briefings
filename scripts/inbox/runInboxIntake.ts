@@ -1,25 +1,19 @@
 import { existsSync, mkdirSync, readFileSync } from "node:fs"
 import { join } from "node:path"
 import { setTimeout } from "node:timers/promises"
-import { writeTextAtomically } from "../morning-briefing/atomicWrite.ts"
-import { runCodexAgent } from "../morning-briefing/codexAgent.ts"
-import {
-  BRIEFINGS_REPOSITORY_PATH,
-  CODEX_COMMAND_PATH,
-  MORNING_BRIEFING_MODEL,
-} from "../morning-briefing/constants.ts"
 import { formatLocalDate } from "../morning-briefing/date.ts"
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
 import { INBOX_STATE_PATH, VAULT_PATH } from "./constants.ts"
 import { importReminders } from "./importReminders.ts"
 import { createTasksClient } from "../tasks/createTasksClient.ts"
 import { targetFromRecord } from "../tasks/targetFromRecord.ts"
-import { loadTasks } from "../tasks/loadTasks.ts"
 import { migrateCaptureRecord } from "../tasks/migrateCaptureRecord.ts"
 import { parseCaptures } from "./parseCaptures.ts"
 import { processInbox } from "./processInbox.ts"
 import { transferCapture } from "./transferCapture.ts"
-import type { CaptureDraft } from "./types.ts"
+import { classifyCapture } from "./classifyCapture.ts"
+import { processXBookmarks } from "./processXBookmarks.ts"
+import type { CaptureProcessor } from "./types.ts"
 
 /** Process reminders and captures under one shared lock, including the pre-briefing pass. */
 export async function runInboxIntake(): Promise<number> {
@@ -34,16 +28,30 @@ export async function runInboxIntake(): Promise<number> {
     }
   }
   try {
-    // A Reminders failure must not hold up the Obsidian captures.
-    const reminders = await (
-      process.platform === "win32" ? Promise.resolve(0) : importReminders()
-    ).then(
-      count => ({ count }),
-      (error: unknown) => ({ count: 0, error }),
-    )
-    const captures = await processCaptures()
-    if ("error" in reminders) throw reminders.error
-    return reminders.count + captures
+    const failures: unknown[] = []
+    let processed = 0
+    const sources = [
+      () => (process.platform === "win32" ? Promise.resolve(0) : importReminders()),
+      processCaptures,
+      () =>
+        process.platform === "win32"
+          ? processXBookmarks({
+              ...captureProcessor(),
+              statePath: INBOX_STATE_PATH,
+              jsonPath: join(VAULT_PATH, "documents/x-bookmarks/bookmarks.json"),
+              markdownPath: join(VAULT_PATH, "documents/X bookmarks.md"),
+            })
+          : Promise.resolve(0),
+    ]
+    for (const source of sources) {
+      try {
+        processed += await source()
+      } catch (error) {
+        failures.push(error)
+      }
+    }
+    if (failures.length) throw new Error(failures.map(String).join("\n"))
+    return processed
   } finally {
     release()
   }
@@ -53,11 +61,17 @@ export async function runInboxIntake(): Promise<number> {
 async function processCaptures(): Promise<number> {
   const inboxPath = join(VAULT_PATH, "inbox.md")
   if (!existsSync(inboxPath) || !parseCaptures(readFileSync(inboxPath, "utf8")).length) return 0
-  const date = formatLocalDate(new Date(), "Europe/Madrid")
-  const snapshotPath = join(INBOX_STATE_PATH, "tasks.json")
   return await processInbox({
+    ...captureProcessor(),
     inboxPath,
     archivePath: join(VAULT_PATH, "documents/inbox.archive.md"),
+  })
+}
+
+/** Shared classifier, identity recovery, and Tasks write boundary. */
+function captureProcessor(): CaptureProcessor {
+  const date = formatLocalDate(new Date(), "Europe/Madrid")
+  return {
     statePath: join(INBOX_STATE_PATH, "captures"),
     date,
     prepareRecord: async record => {
@@ -71,31 +85,6 @@ async function processCaptures(): Promise<number> {
       return migrated
     },
     transfer: (capture, draft, recovery) => transferCapture({ capture, draft, ...recovery }),
-    classify: async capture => {
-      writeTextAtomically(snapshotPath, JSON.stringify(await loadTasks()))
-      const outputPath = join(INBOX_STATE_PATH, "agents", `${capture.id}.classification.json`)
-      await runCodexAgent({
-        codexCommand: CODEX_COMMAND_PATH,
-        cwd: BRIEFINGS_REPOSITORY_PATH,
-        environment: process.env,
-        eventsPath: `${outputPath}.events.jsonl`,
-        model: MORNING_BRIEFING_MODEL,
-        outputPath,
-        schemaPath: join(import.meta.dirname, "schemas/classification.schema.json"),
-        sandbox: "read-only",
-        threadSource: "inbox-classification",
-        prompt: `${readFileSync(join(import.meta.dirname, "prompts/classify.prompt.md"), "utf8")}\n\nRun context:\n${JSON.stringify({ capture, date, snapshotPath })}`,
-      })
-      const draft = JSON.parse(readFileSync(outputPath, "utf8")) as CaptureDraft
-      if (
-        !draft.title?.trim() ||
-        typeof draft.question !== "string" ||
-        typeof draft.research !== "string" ||
-        (draft.duplicate !== null &&
-          (!draft.duplicate?.id || !["task", "project"].includes(draft.duplicate?.kind)))
-      )
-        throw new Error("Invalid capture classification")
-      return draft
-    },
-  })
+    classify: capture => classifyCapture(capture, date),
+  }
 }

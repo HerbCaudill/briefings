@@ -21,6 +21,12 @@ async function main(): Promise<void> {
           state: INBOX_STATE_PATH,
           captures: existsSync(source) ? parseCaptures(readFileSync(source, "utf8")).length : 0,
           destination: "Tasks: Inbox",
+          xBookmarks: {
+            enabled: process.platform === "win32",
+            source: join(VAULT_PATH, "documents/x-bookmarks/bookmarks.json"),
+            archive: join(VAULT_PATH, "documents/X bookmarks.md"),
+            journal: join(INBOX_STATE_PATH, "x-bookmarks.json"),
+          },
         },
         null,
         2,
@@ -30,7 +36,7 @@ async function main(): Promise<void> {
   }
   if (args.includes("--research-worker")) return researchQueue()
   try {
-    console.log(`[inbox-processing] Transferred ${await runInboxIntake()} capture(s)`)
+    console.log(`[inbox-processing] Processed ${await runInboxIntake()} inbox item(s)`)
   } finally {
     await startInboxResearch()
   }
