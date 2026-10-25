@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs"
+import { mkdirSync, readFileSync } from "node:fs"
 import { join } from "node:path"
 import { runInboxIntake } from "../inbox/runInboxIntake.ts"
 import { startInboxResearch } from "../inbox/startInboxResearch.ts"
@@ -127,7 +127,16 @@ export async function runLiveMorningBriefing(
           dailyNotePath = publishDailyBriefingToNote(dailyNotesDirectoryPath, args.date, briefing)
         })
         try {
-          await runStage("obsidian-sync", [], () => syncMorningBriefingToObsidian())
+          await runStage("obsidian-sync", [], async () => {
+            await syncMorningBriefingToObsidian()
+            if (readFileSync(dailyNotePath, "utf8").includes(briefing.trimEnd())) return
+
+            // Sync can replace the fresh note with an older remote copy, so write it over the synced version.
+            dailyNotePath = publishDailyBriefingToNote(dailyNotesDirectoryPath, args.date, briefing)
+            await syncMorningBriefingToObsidian()
+            if (!readFileSync(dailyNotePath, "utf8").includes(briefing.trimEnd()))
+              throw new Error(`Obsidian Sync removed the briefing from ${dailyNotePath}`)
+          })
         } catch (error) {
           console.warn(
             `[morning-briefing] Obsidian Sync failed; continuing with the saved briefing: ${compactError(error)}`,

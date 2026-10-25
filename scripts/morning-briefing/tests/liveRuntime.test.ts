@@ -1,4 +1,4 @@
-import { mkdirSync, mkdtempSync, readFileSync, rmSync } from "node:fs"
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs"
 import { tmpdir } from "node:os"
 import { join } from "node:path"
 import { afterEach, expect, test, vi } from "vitest"
@@ -74,6 +74,23 @@ test.each(["Obsidian Sync did not finish after 30 status checks", "Obsidian CLI 
     })
   },
 )
+
+test("rewrites the briefing when Obsidian Sync replaces the daily note with an older copy", async () => {
+  const args = createRunArgs()
+  const notePath = join(args.dailyNotesDirectoryPath, `${args.date}.md`)
+  vi.mocked(syncMorningBriefingToObsidian).mockImplementationOnce(async () => {
+    writeFileSync(notePath, "")
+  })
+
+  const markdown = await runLiveMorningBriefing(args)
+
+  expect(readFileSync(notePath, "utf8")).toBe(markdown)
+  expect(syncMorningBriefingToObsidian).toHaveBeenCalledTimes(2)
+  const paths = getMorningBriefingRunPaths(args)
+  expect(JSON.parse(readFileSync(paths.manifestPath, "utf8"))).toMatchObject({
+    stages: { "obsidian-sync": { status: "complete" } },
+  })
+})
 
 test("still fails when the daily note cannot be saved", async () => {
   const args = createRunArgs()
