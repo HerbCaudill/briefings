@@ -1,0 +1,228 @@
+{
+  "sections": [
+    {
+      "stories": [
+        {
+          "body": "Brazilian President Luiz Inácio Lula da Silva won a historic fourth term in a runoff, taking 51.79% of the vote to Flávio Bolsonaro's 48.21%, according to final results. Lula, 80, reversed his first-round loss after turnout improved, particularly among voters seen as more likely to support him. Bolsonaro refused to concede and said his legal team would seek to annul the election, citing a Supreme Court decision to extend voting by two hours, though both campaigns had requested an extension because of transport disruptions and heavy rain. Lula called the result a defeat for denialism and promised to change how Brazil is governed.",
+          "headline": "Lula wins a fourth term in Brazil as Bolsonaro challenges the result",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/live/cmgelnrd4r3jt"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20261026-brazil-s-president-lula-da-silva-beats-flavio-bolsonaro-to-win-re-election"
+            }
+          ]
+        },
+        {
+          "body": "Serbian President Aleksandar Vučić conceded that his Serbian Progressive Party had lost snap parliamentary elections to a student-led movement after nearly two years of protests against corruption and authoritarianism. Preliminary results suggested the Student List would win roughly 135 to 140 seats in the 250-member parliament, compared with about 105 for Vučić's party. Turnout approached 70%, the highest since Yugoslavia's breakup, and celebrations broke out in Belgrade and other cities. The protests began after the 2024 collapse of a railway-station canopy in Novi Sad that killed 16 people and became a symbol of official negligence.",
+          "headline": "Serbia's Vučić concedes defeat to student-led movement after record turnout",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cw5yn3xlprpmo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/europe/20261025-serbia-s-vucic-concedes-defeat-in-historic-snap-election-with-record-turnout"
+            }
+          ]
+        },
+        {
+          "body": "Venezuelan opposition leader and Nobel Peace Prize winner María Corina Machado said she had returned to Venezuela after nearly 10 months in exile. Machado was photographed with supporters at a church in Lara state and later travelled toward Caracas, while her ally Edmundo González confirmed that she was back on Venezuelan soil. Her return follows the January removal of Nicolás Maduro by US forces and the installation of his former deputy, Delcy Rodríguez, as interim president with US backing. Machado had reportedly made several unsuccessful attempts to re-enter the country and has said she would seek the presidency if a new election were held.",
+          "headline": "Venezuelan opposition leader María Corina Machado returns from exile",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cq8ez592pp0eo"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
+            },
+            {
+              "name": "France 24",
+              "url": "https://www.france24.com/en/americas/20261025-opposition-leader-machado-returns-to-venezuela-after-10-months-in-exile"
+            }
+          ]
+        },
+        {
+          "body": "Saudi-led coalition forces struck missile launchers and tunnels in Yemen's capital, Sanaa, after Houthi forces targeted King Khalid International Airport in Riyadh. The exchange came amid wider regional tensions and military operations linked to the Iran war.",
+          "headline": "Saudi-led forces strike Sanaa after Houthis target Riyadh airport",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron"
+            }
+          ]
+        },
+        {
+          "body": "China's Communist Party began its fifth plenum with discipline, loyalty and anti-corruption expected to be central themes as Xi Jinping's long-running purge campaign continues. Chinese disciplinary authorities opened investigations into more than 1 million people last year, including more than 100 senior officials. Analysts say the campaign has strengthened Xi's control but also raises questions about whether corruption investigations serve as a means of removing political rivals. The meeting is likely to be the final major party gathering before next year's congress, where Xi is expected to secure a fourth term as party leader.",
+          "headline": "China's party leadership meets amid scrutiny of Xi's anti-corruption campaign",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum"
+            }
+          ]
+        },
+        {
+          "body": "Israel's military said it would close all West Bank land crossings on election day and bar Palestinian workers from settlements, extending restrictions imposed after Palestinian gunmen killed two Israeli soldiers at a checkpoint. The measures come as Israel conducts a major operation in Hebron, where the military has demolished homes and businesses and officials say about 2,000 residents have been displaced. Prime Minister Benjamin Netanyahu announced the operation days before Tuesday's election, while opposition leaders joined a large Tel Aviv protest demanding accountability for the failures surrounding the October 7, 2023 attack.",
+          "headline": "Israel closes West Bank crossings ahead of a pivotal election",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c6y93ylpl5p2o"
+            }
+          ]
+        }
+      ],
+      "title": "World"
+    },
+    {
+      "stories": [
+        {
+          "body": "A US appeals court expressed skepticism about the Justice Department's attempt to force California to discard mail ballots sent to people the administration considers likely non-citizens. At a rare weekend hearing, Judge Mark Bennett questioned whether the requested injunction would conflict with the Constitution's Elections Clause, which gives states primary authority over election administration. The lawsuit, filed less than three weeks before the November 3 midterms, relies on a federal list of 20,000 people the administration believes are ineligible to vote. California says it has strong safeguards against non-citizen voting and argues that the government's underlying data is unreliable.",
+          "headline": "Appeals court questions Trump administration challenge to California voter rolls",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/26/us-appeals-court-sceptical-of-trumps-lawsuit-over-california-voter-rolls"
+            }
+          ]
+        },
+        {
+          "body": "The rapid expansion of data centers, driven in large part by artificial intelligence, is becoming a contentious issue ahead of US midterm elections. Communities and politicians from both parties are raising concerns about the facilities' heavy electricity use, water demands and environmental effects, putting them at odds with President Donald Trump's support for expansion. There are about 12,250 data centers worldwide, including 4,767 in the United States, and increasingly large projects are being built outside major cities. Opposition has grown as residents worry about pressure on local power grids, water supplies and air quality.",
+          "headline": "Data-center backlash becomes a political risk before the midterms",
+          "sources": [
+            {
+              "name": "BBC News",
+              "url": "https://www.bbc.com/news/articles/cq2e9we7w2ejo"
+            }
+          ]
+        },
+        {
+          "body": "The Department of Veterans Affairs is considering a major expansion of psychedelic treatment for veterans with mental-health conditions including PTSD and depression. A senior Veterans Health Administration adviser said as many as 2.1 million of the 6.4 million veterans who use VA care could potentially benefit. No federal regulator has found psychedelic drugs safe and effective for such treatment, and the FDA rejected an MDMA-assisted therapy proposal in 2024. But the administration has made accelerated research, clinical trials and patient access a policy priority, with support from congressional Republicans and veterans' advocates.",
+          "headline": "Trump administration seeks to expand psychedelic treatment for veterans",
+          "sources": [
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/2026/10/25/trump-psychedelics-veterans-ptsd-01134515"
+            }
+          ]
+        }
+      ],
+      "title": "US"
+    },
+    {
+      "stories": [
+        {
+          "body": "At least 83 people were injured, seven seriously, when a crowded bus left a narrow, winding road and fell about 20 metres down an embankment near Fogars de Montclús in the Montseny natural park. Emergency crews deployed ambulances, medical helicopters, firefighters, drones and search dogs, with some passengers escaping on foot and others rescued from the unstable vehicle. Officials said there were no confirmed deaths but could not immediately rule out further victims because of the steep, wooded terrain. The bus was operating the route between Sant Celoni and Santa Fe del Montseny, and authorities are investigating the cause of the crash.",
+          "headline": "At least 83 injured after bus plunges down embankment near Barcelona",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261025/heridos-caer-autobus-terraplen-valles-oriental/17282724.shtml"
+            },
+            {
+              "name": "La Vanguardia",
+              "url": "https://www.lavanguardia.com/local/barcelona/20261025/11667725/20-heridos-graves-caer-autobus-terraplen-veinte-metros-fogars-montclus-barcelona.html"
+            },
+            {
+              "name": "El Periódico",
+              "url": "https://www.elperiodico.com/es/trafico-y-transportes/20261025/accidente-autobus-fogars-montclus-activado-prealerta-procicat-135744149"
+            }
+          ]
+        },
+        {
+          "body": "Francisco Martín Aguirre resigned as the Spanish government's delegate in the Community of Madrid after being left off the PSOE's candidate lists for the November 29 general election. Martín, who had held the post since March 2023, said conditions no longer existed for him to continue carrying out his responsibilities. His departure followed a period of high-profile institutional clashes with Madrid regional president Isabel Díaz Ayuso and mayor José Luis Martínez-Almeida, as well as criticism from police unions. The government is expected to name deputy delegate Pilar Trinidad Núñez as his replacement.",
+          "headline": "Madrid's central-government delegate resigns after being excluded from PSOE lists",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/madrid/2026-10-25/el-delegado-del-gobierno-en-madrid-dimite-tras-quedarse-fuera-de-las-listas-del-psoe-del-29-n.html"
+            },
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261025/dimite-delegado-del-gobierno-madrid-tras-quedarse-fuera-listas-del-psoe-para-elecciones-del-29n/17282720.shtml"
+            }
+          ]
+        },
+        {
+          "body": "Spain's Popular Party and Vox are negotiating until the candidate-registration deadline on a formula to maximize right-wing representation in the Senate at the November 29 general election. A left-wing alliance between PSOE and Frente Amplio has increased the pressure on the two parties to coordinate in a system where unified slates can turn votes into more seats. Options reportedly include one party withdrawing candidates in selected constituencies in exchange for concessions elsewhere, though a formal coalition is no longer possible. A successful arrangement could help the right retain Senate control and potentially reach the three-fifths majority needed for appointments including Constitutional Court judges.",
+          "headline": "PP and Vox race to agree on a Senate strategy before Spain's election",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/elecciones-generales/2026-10-26/pp-y-vox-apuran-sobre-la-bocina-la-negociacion-de-la-formula-para-hacerse-con-el-control-del-senado.html"
+            },
+            {
+              "name": "El Mundo",
+              "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/26/6ade56d7e85ece606f8b456f.html"
+            }
+          ]
+        },
+        {
+          "body": "Moroccan Royal Navy vessels that entered waters off Ceuta during the mass arrival of more than 70,000 migrants in late July reportedly had switched off their Automatic Identification System signals. The system broadcasts a vessel's identity, position, course and speed and is intended to help prevent collisions, particularly in heavily trafficked waterways such as the Strait of Gibraltar. Warships are not required to operate AIS, but the report said disabling it made the vessels harder to locate and bypassed a standard maritime safety practice.",
+          "headline": "Moroccan warships reportedly switched off tracking systems in Ceuta waters",
+          "sources": [
+            {
+              "name": "El País",
+              "url": "https://elpais.com/espana/2026-10-26/los-buques-de-guerra-marroquies-que-irrumpieron-en-aguas-de-ceuta-se-saltaron-las-normas-de-seguridad-maritima.html"
+            }
+          ]
+        }
+      ],
+      "title": "Spain"
+    },
+    {
+      "stories": [
+        {
+          "body": "Former Catalan culture minister Toni Comín returned to Catalunya from France after nine years living in Belgium following the 2017 independence referendum. Crossing on foot at the Coll dels Belitres near Portbou, Comín said that he, former minister Lluís Puig and former president Carles Puigdemont had won an important battle by being able to return freely under Spain's amnesty law. He described the return as a collective victory for the independence movement rather than a final victory, and reaffirmed his support for independence pursued democratically and peacefully. Comín had returned briefly to Madrid days earlier to take up his seat as a Junts member of the European Parliament.",
+          "headline": "Former Catalan minister Toni Comín returns to Catalunya after nine years abroad",
+          "sources": [
+            {
+              "name": "RTVE",
+              "url": "https://www.rtve.es/noticias/20261025/exconseller-toni-comin-cataluna-ganado/17282585.shtml"
+            },
+            {
+              "name": "3Cat",
+              "url": "https://www.3cat.cat/3catinfo/toni-comin-torna-de-lexili-a-peu-pel-coll-dels-belitres-fins-a-portbou/noticia/3435933/"
+            }
+          ]
+        },
+        {
+          "body": "Barcelona added an estimated 22,058 homes to its residential stock between 2019 and 2026, reaching 798,663 homes, according to the Metropolitan Housing Observatory of Barcelona. Since 2021, the stock has grown by about 2,400 homes annually, though the increase does not necessarily represent newly built units: homes can also be created by dividing existing flats, adding floors or converting commercial and office space. The observatory says official estimates vary by more than 100,000 homes because of methodological differences. The findings come as more than 1.3 million Catalans are estimated to be actively seeking housing and supply struggles to keep pace with demand.",
+          "headline": "Barcelona's housing stock is growing by roughly 2,400 homes a year",
+          "sources": [
+            {
+              "name": "El Periódico Barcelona",
+              "url": "https://www.elperiodico.com/es/barcelona/20261025/barcelona-incrementa-parque-residencial-2400-viviendas-ano-135662858"
+            }
+          ]
+        },
+        {
+          "body": "Lottery administrators in Barcelona say a possible move by Spain's state lottery operator, SELAE, to centralize online sales could threaten a substantial share of their income. More than 250 lottery outlets operate in Barcelona, and some say online business accounts for 30% to 40% of their turnover. Administrators fear that limiting internet sales to SELAE's website would leave them dependent on a commission-allocation system rather than sales through their own websites or authorized platforms. SELAE denies that it intends to monopolize online sales and says it is considering how outlets can participate while meeting legal, management and public-interest requirements.",
+          "headline": "Barcelona lottery outlets warn online-sales centralization could cut their income",
+          "sources": [
+            {
+              "name": "betevé",
+              "url": "https://beteve.cat/economia/administracions-loteries-temen-perdre-venda-en-linia/"
+            }
+          ]
+        }
+      ],
+      "title": "Barcelona & Catalunya"
+    }
+  ]
+}
