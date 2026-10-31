@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["outcome", "summary", "blockerKey"],
+  "properties": {
+    "outcome": { "type": "string", "enum": ["healthy", "restarted", "needs_herb"] },
+    "summary": { "type": "string" },
+    "blockerKey": { "type": ["string", "null"] }
+  }
+}

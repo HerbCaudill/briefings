@@ -54,6 +54,8 @@ See [Tasks integration](docs/tasks-integration.md) for the CLI binding, durable 
 
 The always-on mini owns the daily 07:00 morning/news run through the interactive Windows task `Morning briefing` and `scripts/windows/runBriefingJob.ps1`. Its Pi provider is `openai`. Obsidian Sync is the mini's only notes-vault sync method, and browser communications use Agent Chrome on loopback9223. `Inbox intake` runs hourly through S4U; `Inbox research` runs independently without a fixed time limit. The Mac morning LaunchAgent is disabled. Its hourly `process-inbox` retains only deterministic Reminders transfer and Apple Messages export through the stable Full Disk Access launcher. See [Windows setup](docs/windows-briefing.md).
 
+**Leo heartbeat:** the `Leo heartbeat` task runs `scripts/heartbeat/run.ts` every 30 minutes through S4U and logs to `~/.local/state/leo/heartbeat.log`. A deterministic check of e2e threads and commits ends the run when work is active, without calling an agent or touching T3. Otherwise a headless `codex exec` investigates, may restart approved work in its owner thread, and writes to `leo/log/YYYY-MM-DD.md` in the vault. Only a `needs_herb` result posts to today's morning briefing thread, once per blocker. Never use T3 scheduled tasks for this: they activate a session on every run.
+
 ## Boundary with dotfiles
 
 `dotfiles` should only own LaunchAgent wiring and thin shared skill wrappers. The news and morning pipeline code, prompts, schemas, intermediate-file conventions, and scheduler commands live in this repo.
