@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["escalate", "reason"],
+  "properties": {
+    "escalate": { "type": "boolean" },
+    "reason": { "type": "string" }
+  }
+}
