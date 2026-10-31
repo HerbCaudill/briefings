@@ -3,7 +3,7 @@
   "additionalProperties": false,
   "required": ["outcome", "summary", "blockerKey"],
   "properties": {
-    "outcome": { "type": "string", "enum": ["healthy", "restarted", "needs_herb"] },
+    "outcome": { "type": "string", "enum": ["quiet", "acted", "needs_herb"] },
     "summary": { "type": "string" },
     "blockerKey": { "type": ["string", "null"] }
   }

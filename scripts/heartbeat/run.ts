@@ -1,26 +1,19 @@
-import { execFile, spawn } from "node:child_process"
+import { spawn } from "node:child_process"
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { homedir } from "node:os"
-import { dirname, join, resolve } from "node:path"
-import { promisify } from "node:util"
+import { join, resolve } from "node:path"
 
 import { runCodexAgent } from "../morning-briefing/codexAgent.ts"
-import { CODEX_COMMAND_PATH, MORNING_BRIEFING_MODEL } from "../morning-briefing/constants.ts"
+import { CODEX_COMMAND_PATH } from "../morning-briefing/constants.ts"
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
-import {
-  findBriefingThread,
-  getE2eHealth,
-  shouldInvestigate,
-  shouldNotifyHerb,
-} from "./heartbeat.ts"
+import { findBriefingThread, hasWatchedWork, shouldNotifyHerb } from "./heartbeat.ts"
 
-const exec = promisify(execFile)
-
-const E2E_PROJECT_ID = "c09ff75a-2326-4d11-97ad-2603a263828b"
 const LEO_PROJECT_ID = "mcp:4efda691-8e1e-47a1-80e5-dea589320403"
-const E2E_REPOSITORY_PATH = join(homedir(), "Code/DevResults/e2e")
+const HEARTBEAT_MODEL = "gpt-6.1-terra"
 const REPOSITORY_PATH = resolve(import.meta.dirname, "../..")
-const LOG_DIRECTORY_PATH = join(homedir(), "Code/herbcaudill/notes/leo/log")
+const MEMORY_DIRECTORY_PATH = join(homedir(), "Code/herbcaudill/notes/leo")
+const WATCHING_PATH = join(MEMORY_DIRECTORY_PATH, "Watching.md")
+const LOG_DIRECTORY_PATH = join(MEMORY_DIRECTORY_PATH, "log")
 const STATE_DIRECTORY_PATH = join(homedir(), ".local/state/leo")
 const STATE_PATH = join(STATE_DIRECTORY_PATH, "heartbeat.json")
 const T3_COMMAND_PATH = join(homedir(), ".t3/bin/t3.cmd")
@@ -47,25 +40,6 @@ function runT3(
   })
 }
 
-/** List one project's threads. */
-async function listThreads(projectId: string): Promise<T3Thread[]> {
-  return JSON.parse(await runT3(["thread", "list", "--project", projectId, "--json"]))
-}
-
-/** Fetch e2e and count commits on origin/main in the last hour. */
-async function countRecentCommits(): Promise<number> {
-  await exec("git", ["-C", E2E_REPOSITORY_PATH, "fetch", "origin", "--quiet"])
-  const { stdout } = await exec("git", [
-    "-C",
-    E2E_REPOSITORY_PATH,
-    "rev-list",
-    "--count",
-    "--since=60 minutes ago",
-    "origin/main",
-  ])
-  return Number(stdout.trim())
-}
-
 /** Append an entry to Leo's journal for the day. */
 function writeJournal(date: string, text: string): void {
   mkdirSync(LOG_DIRECTORY_PATH, { recursive: true })
@@ -85,17 +59,17 @@ function writeState(state: HeartbeatState): void {
   writeFileSync(STATE_PATH, JSON.stringify(state))
 }
 
-/** Ask Codex why e2e stopped or slowed, restarting clear work where it can. */
-async function investigate(evidence: string): Promise<HeartbeatResult> {
+/** Have Codex work through the checklist. */
+async function runCheck(date: string): Promise<HeartbeatResult> {
   const outputPath = join(STATE_DIRECTORY_PATH, "last-result.json")
   await runCodexAgent({
     codexCommand: CODEX_COMMAND_PATH,
     cwd: REPOSITORY_PATH,
     environment: process.env,
     eventsPath: join(STATE_DIRECTORY_PATH, "last-events.jsonl"),
-    model: MORNING_BRIEFING_MODEL,
+    model: HEARTBEAT_MODEL,
     outputPath,
-    prompt: `${readFileSync(join(import.meta.dirname, "heartbeat.prompt.md"), "utf8")}\n\nEvidence: ${evidence}\n`,
+    prompt: `${readFileSync(join(import.meta.dirname, "heartbeat.prompt.md"), "utf8")}\n\nCurrent time: ${new Date().toISOString()}. Today's journal: ${join(LOG_DIRECTORY_PATH, `${date}.md`)}\n`,
     schemaPath: join(import.meta.dirname, "heartbeat.schema.json"),
     threadSource: "heartbeat",
     timeoutMs: AGENT_TIMEOUT_MS,
@@ -105,7 +79,10 @@ async function investigate(evidence: string): Promise<HeartbeatResult> {
 
 /** Tell Herb in today's briefing thread, returning false when there isn't one yet. */
 async function notifyHerb(date: string, summary: string): Promise<boolean> {
-  const thread = findBriefingThread({ threads: await listThreads(LEO_PROJECT_ID), date })
+  const threads: BriefingThread[] = JSON.parse(
+    await runT3(["thread", "list", "--project", LEO_PROJECT_ID, "--json"]),
+  )
+  const thread = findBriefingThread({ threads, date })
   if (!thread) return false
   await runT3(
     ["thread", "send", thread.threadId, "-", "--json"],
@@ -114,47 +91,37 @@ async function notifyHerb(date: string, summary: string): Promise<boolean> {
   return true
 }
 
-/** Run one heartbeat. Only a blocker that needs Herb touches a T3 session. */
+/** Run one heartbeat. Only a result that needs Herb touches a T3 session. */
 async function main(): Promise<void> {
-  mkdirSync(dirname(STATE_PATH), { recursive: true })
+  mkdirSync(STATE_DIRECTORY_PATH, { recursive: true })
   const release = acquireMorningBriefingRunLock(join(STATE_DIRECTORY_PATH, "heartbeat.lock"))
   try {
-    const date = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" })
-    const threads = await listThreads(E2E_PROJECT_ID)
-    const commitsLastHour = await countRecentCommits()
-    const state = readState()
-    const now = new Date()
-    const health = getE2eHealth({ threads, commitsLastHour })
-    console.log(`${now.toISOString()} e2e ${health}: ${commitsLastHour} commits`)
+    if (!hasWatchedWork(readFileSync(WATCHING_PATH, "utf8"))) return
 
-    if (health === "active") {
+    const date = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" })
+    const state = readState()
+    const result = await runCheck(date)
+    console.log(`${new Date().toISOString()} ${result.outcome}: ${result.summary}`)
+
+    if (result.outcome === "quiet") {
       writeState({ notifiedBlockerKeys: [] })
       return
     }
-    if (!shouldInvestigate({ health, lastPaceCheckAt: state.lastPaceCheckAt, now })) return
 
-    const lastPaceCheckAt = health === "slow" ? now.toISOString() : state.lastPaceCheckAt
-    const running = threads.filter(thread => thread.status === "running").length
-    const result = await investigate(
-      `Health is ${health}: ${running} running threads and ${commitsLastHour} commits on origin/main in the last hour.`,
-    )
-    writeJournal(date, `e2e ${result.outcome}: ${result.summary}`)
-
-    if (result.outcome !== "needs_herb") {
-      writeState({ lastPaceCheckAt, notifiedBlockerKeys: [] })
+    writeJournal(date, `${result.outcome}: ${result.summary}`)
+    if (result.outcome === "acted") {
+      writeState({ notifiedBlockerKeys: [] })
       return
     }
 
     const blockerKey = result.blockerKey ?? result.summary
-    let notifiedBlockerKeys = state.notifiedBlockerKeys
     // Before today's briefing exists the blocker stays unrecorded, so a later run reports it.
     if (
-      shouldNotifyHerb({ blockerKey, notifiedBlockerKeys }) &&
+      shouldNotifyHerb({ blockerKey, notifiedBlockerKeys: state.notifiedBlockerKeys }) &&
       (await notifyHerb(date, result.summary))
     ) {
-      notifiedBlockerKeys = [...notifiedBlockerKeys, blockerKey]
+      writeState({ notifiedBlockerKeys: [...state.notifiedBlockerKeys, blockerKey] })
     }
-    writeState({ lastPaceCheckAt, notifiedBlockerKeys })
   } finally {
     release()
   }
@@ -162,20 +129,18 @@ async function main(): Promise<void> {
 
 await main()
 
-type T3Thread = {
+type BriefingThread = {
   threadId: string
   title: string
-  status: string
   createdAt: string
 }
 
 type HeartbeatState = {
-  lastPaceCheckAt?: string
   notifiedBlockerKeys: string[]
 }
 
 type HeartbeatResult = {
-  outcome: "healthy" | "restarted" | "needs_herb"
+  outcome: "quiet" | "acted" | "needs_herb"
   summary: string
   blockerKey: string | null
 }
