@@ -1,6 +1,6 @@
 # Local development
 
-Run `pnpm dev` from this checkout to start the complete development app at [https://briefings.localhost](https://briefings.localhost). The shared Mac HTTPS proxy must be installed through dotfiles; `localhost-dev doctor` checks it.
+Run `pnpm dev` from this checkout to start the complete development app at [https://leo.localhost](https://leo.localhost). The shared Mac HTTPS proxy must be installed through dotfiles; `localhost-dev doctor` checks it.
 
 `pnpm dev:url` prints the address without starting the app. Git's origin repository name supplies the base hostname. A linked worktree folder named `tofu` adds `tofu.` in front, including detached worktrees. Press Ctrl+C to stop the services started by this command and remove their routes. The shared proxy stays running.
 

@@ -16,7 +16,7 @@ pnpm inbox:process    # Process reminders, Siri captures, and X bookmarks; start
 
 Daily news briefings viewer — a single-page React app that fetches and renders structured JSON briefings by date.
 
-The `briefings` repo now owns the deterministic ingestion pipeline in `scripts/news-briefing/`.
+The `leo` repo now owns the deterministic ingestion pipeline in `scripts/news-briefing/`.
 
 **Fetch stage:** `pnpm briefing:news` clears any generated files for the requested date, crawls the configured source homepages, extracts headline candidates locally, keeps the first 30 per source in page order, deduplicates by article URL, and writes compact metadata to `public/briefings/raw/YYYY-MM-DD.json` without fetching article pages.
 
