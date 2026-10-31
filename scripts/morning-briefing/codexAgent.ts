@@ -3,6 +3,7 @@ import { mkdirSync } from "node:fs"
 import { dirname } from "node:path"
 
 import { writeTextAtomically } from "./atomicWrite.ts"
+import { getAgentChromeMcpArgs } from "./getAgentChromeMcpArgs.ts"
 
 const AGENT_TIMEOUT_MS = 45 * 60 * 1_000
 const FORCE_KILL_DELAY_MS = 5_000
@@ -14,6 +15,7 @@ export function getCodexExecArgs(
 ): string[] {
   return [
     "exec",
+    ...getAgentChromeMcpArgs(process.platform, args.threadSource),
     "--model",
     args.model,
     "--sandbox",

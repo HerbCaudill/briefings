@@ -11,6 +11,10 @@ if (-not (Test-Path -LiteralPath $state -PathType Container)) { throw 'Install p
 $node = (& mise.exe which node).Trim()
 if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $node)) { throw 'No configured mise Node runtime.' }
 Set-Location -LiteralPath $repo
+if ($Job -eq 'morning') {
+  # Diagnose page responsiveness without preventing the other briefing sources from running.
+  & $node --experimental-strip-types 'scripts/morning-briefing/checkAgentChrome.ts' *>> (Join-Path $state "$Job.log")
+}
 $entry = if ($Job -eq 'morning') { 'scripts/morning-briefing/run.ts' } else { 'scripts/inbox/run.ts' }
 $arguments = @('--experimental-strip-types',$entry)
 if ($Job -eq 'research') { $arguments += '--research-worker' }
