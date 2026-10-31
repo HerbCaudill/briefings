@@ -1,10 +1,25 @@
 import { describe, expect, it } from "vitest"
 
-import { findBriefingThread, getE2eHealth, shouldNotifyHerb } from "../heartbeat.ts"
+import {
+  findBriefingThread,
+  getE2eHealth,
+  shouldInvestigate,
+  shouldNotifyHerb,
+} from "../heartbeat.ts"
+
+const running = (count: number) => Array.from({ length: count }, () => ({ status: "running" }))
 
 describe("getE2eHealth", () => {
-  it("is active when an agent is running and commits landed", () => {
-    expect(getE2eHealth({ threads: [{ status: "running" }], commitsLastHour: 3 })).toBe("active")
+  it("is active when enough agents are running and commits are landing quickly", () => {
+    expect(getE2eHealth({ threads: running(3), commitsLastHour: 8 })).toBe("active")
+  })
+
+  it("is slow when too few agents are running", () => {
+    expect(getE2eHealth({ threads: running(1), commitsLastHour: 20 })).toBe("slow")
+  })
+
+  it("is slow when commits are landing below the floor", () => {
+    expect(getE2eHealth({ threads: running(5), commitsLastHour: 3 })).toBe("slow")
   })
 
   it("needs a look when an agent is running without recent commits", () => {
@@ -17,6 +32,36 @@ describe("getE2eHealth", () => {
 
   it("doesn't count a thread that is waiting for an answer as running", () => {
     expect(getE2eHealth({ threads: [{ status: "waiting" }], commitsLastHour: 5 })).toBe("stalled")
+  })
+})
+
+describe("shouldInvestigate", () => {
+  const now = new Date("2026-10-31T12:00:00Z")
+
+  it("always investigates a stall", () => {
+    expect(shouldInvestigate({ health: "stalled", lastPaceCheckAt: now.toISOString(), now })).toBe(
+      true,
+    )
+  })
+
+  it("never investigates active work", () => {
+    expect(shouldInvestigate({ health: "active", now })).toBe(false)
+  })
+
+  it("investigates slow work the first time", () => {
+    expect(shouldInvestigate({ health: "slow", now })).toBe(true)
+  })
+
+  it("leaves slow work alone within two hours of the last check", () => {
+    expect(
+      shouldInvestigate({ health: "slow", lastPaceCheckAt: "2026-10-31T10:30:00Z", now }),
+    ).toBe(false)
+  })
+
+  it("checks slow work again after two hours", () => {
+    expect(
+      shouldInvestigate({ health: "slow", lastPaceCheckAt: "2026-10-31T09:59:00Z", now }),
+    ).toBe(true)
   })
 })
 

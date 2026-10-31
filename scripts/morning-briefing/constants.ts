@@ -78,6 +78,12 @@ export const MORNING_BRIEFING_LANES = [
     promptFileName: "documents.prompt.md",
     sources: ["Scanned documents"],
   },
+  {
+    // Follow-ups, checkups and e2e, from Leo's memory in the vault
+    key: "leo",
+    promptFileName: "leo.prompt.md",
+    sources: ["Leo"],
+  },
 ] as const
 
 /** Required section headings in the final briefing, in display order. */

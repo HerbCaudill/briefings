@@ -7,7 +7,12 @@ import { promisify } from "node:util"
 import { runCodexAgent } from "../morning-briefing/codexAgent.ts"
 import { CODEX_COMMAND_PATH, MORNING_BRIEFING_MODEL } from "../morning-briefing/constants.ts"
 import { acquireMorningBriefingRunLock } from "../morning-briefing/runLock.ts"
-import { findBriefingThread, getE2eHealth, shouldNotifyHerb } from "./heartbeat.ts"
+import {
+  findBriefingThread,
+  getE2eHealth,
+  shouldInvestigate,
+  shouldNotifyHerb,
+} from "./heartbeat.ts"
 
 const exec = promisify(execFile)
 
@@ -75,7 +80,12 @@ function readState(): HeartbeatState {
     : { notifiedBlockerKeys: [] }
 }
 
-/** Ask Codex why e2e stopped, restarting clear work where it can. */
+/** Save the heartbeat's memory between runs. */
+function writeState(state: HeartbeatState): void {
+  writeFileSync(STATE_PATH, JSON.stringify(state))
+}
+
+/** Ask Codex why e2e stopped or slowed, restarting clear work where it can. */
 async function investigate(evidence: string): Promise<HeartbeatResult> {
   const outputPath = join(STATE_DIRECTORY_PATH, "last-result.json")
   await runCodexAgent({
@@ -113,33 +123,38 @@ async function main(): Promise<void> {
     const threads = await listThreads(E2E_PROJECT_ID)
     const commitsLastHour = await countRecentCommits()
     const state = readState()
+    const now = new Date()
+    const health = getE2eHealth({ threads, commitsLastHour })
+    console.log(`${now.toISOString()} e2e ${health}: ${commitsLastHour} commits`)
 
-    if (getE2eHealth({ threads, commitsLastHour }) === "active") {
-      writeFileSync(STATE_PATH, JSON.stringify({ notifiedBlockerKeys: [] }))
-      console.log(`${new Date().toISOString()} e2e active: ${commitsLastHour} commits`)
+    if (health === "active") {
+      writeState({ notifiedBlockerKeys: [] })
       return
     }
+    if (!shouldInvestigate({ health, lastPaceCheckAt: state.lastPaceCheckAt, now })) return
 
+    const lastPaceCheckAt = health === "slow" ? now.toISOString() : state.lastPaceCheckAt
     const running = threads.filter(thread => thread.status === "running").length
     const result = await investigate(
-      `${running} running threads and ${commitsLastHour} commits on origin/main in the last hour.`,
+      `Health is ${health}: ${running} running threads and ${commitsLastHour} commits on origin/main in the last hour.`,
     )
     writeJournal(date, `e2e ${result.outcome}: ${result.summary}`)
 
     if (result.outcome !== "needs_herb") {
-      writeFileSync(STATE_PATH, JSON.stringify({ notifiedBlockerKeys: [] }))
+      writeState({ lastPaceCheckAt, notifiedBlockerKeys: [] })
       return
     }
 
     const blockerKey = result.blockerKey ?? result.summary
-    if (!shouldNotifyHerb({ blockerKey, notifiedBlockerKeys: state.notifiedBlockerKeys })) return
+    let notifiedBlockerKeys = state.notifiedBlockerKeys
     // Before today's briefing exists the blocker stays unrecorded, so a later run reports it.
-    if (await notifyHerb(date, result.summary)) {
-      writeFileSync(
-        STATE_PATH,
-        JSON.stringify({ notifiedBlockerKeys: [...state.notifiedBlockerKeys, blockerKey] }),
-      )
+    if (
+      shouldNotifyHerb({ blockerKey, notifiedBlockerKeys }) &&
+      (await notifyHerb(date, result.summary))
+    ) {
+      notifiedBlockerKeys = [...notifiedBlockerKeys, blockerKey]
     }
+    writeState({ lastPaceCheckAt, notifiedBlockerKeys })
   } finally {
     release()
   }
@@ -155,6 +170,7 @@ type T3Thread = {
 }
 
 type HeartbeatState = {
+  lastPaceCheckAt?: string
   notifiedBlockerKeys: string[]
 }
 

@@ -1,12 +1,31 @@
 const RUNNING_STATUSES = new Set(["preparing", "queued", "starting", "running"])
 
-/** Classify e2e as active only when an agent is running and commits are still landing. */
+// The peak day, October 24, 2026, averaged 24 commits an hour. These floors are a third of that.
+const RUNNING_THREAD_FLOOR = 3
+const COMMITS_PER_HOUR_FLOOR = 8
+const PACE_CHECK_INTERVAL_MS = 2 * 60 * 60 * 1_000
+
+/** Classify e2e as stalled when work has stopped, and slow when it runs below the pace floors. */
 export function getE2eHealth(
   /** Current e2e threads and recent commit count. */
   args: GetE2eHealthArgs,
-): "active" | "stalled" {
-  const isRunning = args.threads.some(thread => RUNNING_STATUSES.has(thread.status))
-  return isRunning && args.commitsLastHour > 0 ? "active" : "stalled"
+): E2eHealth {
+  const runningCount = args.threads.filter(thread => RUNNING_STATUSES.has(thread.status)).length
+  if (runningCount === 0 || args.commitsLastHour === 0) return "stalled"
+  return runningCount >= RUNNING_THREAD_FLOOR && args.commitsLastHour >= COMMITS_PER_HOUR_FLOOR
+    ? "active"
+    : "slow"
+}
+
+/** Call an agent for every stall, but for slow work at most every two hours, since it may have a good reason. */
+export function shouldInvestigate(
+  /** Current health and when slow work was last checked. */
+  args: ShouldInvestigateArgs,
+): boolean {
+  if (args.health === "stalled") return true
+  if (args.health === "active") return false
+  if (!args.lastPaceCheckAt) return true
+  return args.now.getTime() - new Date(args.lastPaceCheckAt).getTime() >= PACE_CHECK_INTERVAL_MS
 }
 
 /** Find the newest morning briefing thread for a date, which is where Herb is told about blockers. */
@@ -25,6 +44,17 @@ export function shouldNotifyHerb(
   args: ShouldNotifyHerbArgs,
 ): boolean {
   return !args.notifiedBlockerKeys.includes(args.blockerKey)
+}
+
+export type E2eHealth = "active" | "slow" | "stalled"
+
+export type ShouldInvestigateArgs = {
+  /** Current e2e health. */
+  health: E2eHealth
+  /** ISO time slow work was last checked. */
+  lastPaceCheckAt?: string
+  /** Current time. */
+  now: Date
 }
 
 export type GetE2eHealthArgs = {
