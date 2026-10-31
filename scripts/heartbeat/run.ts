@@ -103,7 +103,11 @@ async function main(): Promise<void> {
 
     const date = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" })
     const state = readState()
-    const context = `Current time: ${new Date().toISOString()}. Today's journal: ${join(LOG_DIRECTORY_PATH, `${date}.md`)}`
+    const time = new Date().toLocaleTimeString("en-GB", {
+      timeZone: "Europe/Madrid",
+      hour12: false,
+    })
+    const context = `Current local time, the same zone as the journal: ${time.slice(0, 5)}. Today's journal: ${join(LOG_DIRECTORY_PATH, `${date}.md`)}`
     const triage = await runAgent<TriageResult>({
       context,
       model: TRIAGE_MODEL,
