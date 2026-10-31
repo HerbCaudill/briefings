@@ -7,6 +7,7 @@ Before answering, read your memory in `~/Code/herbcaudill/notes/leo/`:
 - `Goals.md`: Herb's priorities and your authority. It is the source of truth for what you may do.
 - `Health.md`: checkups and prescriptions.
 - `Follow-ups.md`: what's waiting on others and on Herb.
+- `Watching.md`: work the heartbeat keeps an eye on.
 - `log/YYYY-MM-DD.md`: what the heartbeat has done.
 - `Chat context.md`: background from his claude.ai chats. Items marked sensitive stay out of anything shared.
 
